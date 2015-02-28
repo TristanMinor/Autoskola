@@ -1,0 +1,52 @@
+{
+  "signs": [{
+    "section": "Výstražné",
+    "questions": [{
+      "id": 1,
+      "name": "Zákruta vpravo",
+      "points": 2,
+      "knowledge": {
+        "know": false,
+        "starred": false
+      },
+      "question": "Táto dopravná značka znamená:",
+      "answers": [{
+        "text": "Zákaz odbočovania vpravo,",
+        "correct": false
+      }, {
+        "text": "Zákruta vpravo,",
+        "correct": true
+      }, {
+        "text": "Nebezpečné stúpanie,",
+        "correct": false
+      }],
+      "image": {
+        "src": "img/signs/001.svg",
+        "imgType": "triangle"
+      }
+    }, {
+      "id": 2,
+      "name": "Zákruta vľavo",
+      "points": 2,
+      "knowledge": {
+        "know": false,
+        "starred": false
+      },
+      "question": "Táto dopravná značka znamená:",
+      "answers": [{
+        "text": "Zákruta vľavo,",
+        "correct": true
+      }, {
+        "text": "Nebezpečné stúpanie,",
+        "correct": false
+      }, {
+        "text": "Zákaz odboćovania vľavo,",
+        "correct": false
+      }],
+      "image": {
+        "src": "img/signs/002.svg",
+        "imgType": "triangle"
+      }
+    }]
+  }]
+}

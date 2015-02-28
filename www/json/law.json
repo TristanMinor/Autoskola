@@ -1,0 +1,29 @@
+{
+  "law": [{
+    "id": 1,
+    "points": 2,
+    "knowledge": {
+      "know": false,
+      "starred": false
+    },
+    "question": "Autobusom sa rozumie",
+    "answers": [{
+      "text": "motorové vozidlo na dopravu osôb, ktoré má okrem vodiča viac ako osem miest na sedenie,",
+      "correct": true
+    }, {
+      "text": "motorové a nemotorové vozidlo, ktoré má okrem miesta vodiča viac ako tri miesta na sedenie",
+      "correct": false
+    }, {
+      "text": "každé vozidlo určené na prepravu viac ako štyroch osôb.",
+      "correct": false
+    }]
+  }, {
+    "id": 2,
+    "points": 2,
+    "knowledge": {
+      "know": false,
+      "starred": false
+    },
+    "question": "Premávkou sa rozumie"
+  }]
+}

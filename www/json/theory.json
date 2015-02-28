@@ -1,0 +1,110 @@
+{
+  "theory": [{
+    "section": "Základné ustanovenia",
+    "chapters": [{
+      "id": 1,
+      "name": "Vymedzenie základných pojmov",
+      "text":"Cestnou premávkou na účely tohto zákona sa rozumie užívanie diaľnic, ciest, miestnych komunikácií a účelových komunikácií (ďalej len cesta) vodičmi vozidiel a chodcami."
+    }]
+  }, {
+    "section": "Základné povinnosti",
+    "chapters": [{
+      "id": 2,
+      "name": "Všeobecné povinnosti účastníka cestnej premávky",
+      "text": "Účastník cestnej premávky je povinný dodržiavať pravidlá cestnej premávky ustanovené v tomto zákone."
+    }, {
+      "id": 3,
+      "name": "Povinnosti vodiča"
+    }, {
+      "id": 4,
+      "name": "Povinnosti niektorých vodičov a spolujazdcov"
+    }, {
+      "id": 5,
+      "name": "Povinnosti prevádzkovateľa vozidla"
+    }, {
+      "id": 6,
+      "name": "Povinnosti držiteľa vozidla"
+    }, {
+      "id": 7,
+      "name": "Povinnosti inštruktora autoškoly"
+    }, {
+      "id": 8,
+      "name": "Používanie bezpečnostných pásov a iných zadržiavacích zariadení"
+    }]
+  }, {
+    "section": "Jazda vozidlami",
+    "chapters": [{
+      "id": 9,
+      "name": "Spôsob jazdy"
+    }, {
+      "id": 10,
+      "name": "Jazda v jazdných pruhoch"
+    }, {
+      "id": 11,
+      "name": "Jazda v mimoriadnych prípadoch"
+    }, {
+      "id": 12,
+      "name": "Obchádzanie"
+    }, {
+      "id": 13,
+      "name": "Predchádzanie"
+    }, {
+      "id": 14,
+      "name": "Rýchlosť jazdy"
+    }, {
+      "id": 15,
+      "name": "Vzdialenosť medzi vozidlami"
+    }, {
+      "id": 16,
+      "name": "Vyhýbanie"
+    }, {
+      "id": 17,
+      "name": "Odbočovanie"
+    }, {
+      "id": 18,
+      "name": "Jazda cez križovatku"
+    }, {
+      "id": 19,
+      "name": "Vchádzanie na cestu"
+    }, {
+      "id": 20,
+      "name": "Otáčanie a cúvanie"
+    }, {
+      "id": 21,
+      "name": "Zastavenie a státie"
+    }, {
+      "id": 22,
+      "name": "Zastavenie vozidla v tuneli"
+    }, {
+      "id": 23,
+      "name": "Železničné priecestie"
+    }, {
+      "id": 24,
+      "name": "Výstražné znamenie"
+    }, {
+      "id": 25,
+      "name": "Osvetlenie vozidla"
+    }, {
+      "id": 26,
+      "name": "Vlečenie motorového vozidla"
+    }, {
+      "id": 27,
+      "name": "Osobitosti premávky na diaľnici a rýchlostnej ceste"
+    }, {
+      "id": 28,
+      "name": "Osobitosti premávky v zimnom období"
+    }, {
+      "id": 29,
+      "name": "Obmedzenie jazdy niektorých druhov vozidiel"
+    }, {
+      "id": 30,
+      "name": "Vozidlá so zvláštnymi výstražnými zvukovými znameniami alebo svetlami"
+    }, {
+      "id": 31,
+      "name": "Prekážka cestnej premávky"
+    }, {
+      "id": 32,
+      "name": "Osobitné označenia vozidla a parkovací preukaz"
+    }]
+  }]
+}

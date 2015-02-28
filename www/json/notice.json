@@ -1,0 +1,22 @@
+{
+  "notice": [{
+    "id": 1,
+    "points": 2,
+    "question": "Najväčšia prípustná celková šírka vozidla vrátane nákladu je",
+    "knowledge": {
+      "know": false,
+      "starred": false
+    },
+    "answers": [{
+      "text": "5,00 m",
+      "correct": true
+    }, {
+      "text": "2,55 m",
+      "correct": false
+    }, {
+      "text": "3,55 m",
+      "correct": false
+
+    }]
+  }]
+}

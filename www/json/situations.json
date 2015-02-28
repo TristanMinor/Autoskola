@@ -1,0 +1,34 @@
+{
+  "situations": [{
+    "points": 2,
+    "knowledge": {
+      "know": false,
+      "starred": false
+    },
+    "questions": [{
+      "question": "Vaše vozidlo prejde cez križovatku ako",
+      "answers": [{
+        "text": "druhé,",
+        "correct": false
+      }, {
+        "text": "posledné,",
+        "correct": true
+      }, {
+        "text": "prvé.",
+        "correct": false
+      }]
+    }, {
+      "question": "Ako posledné prejde cez križovatku",
+      "answers": [{
+        "text": "červené vozidlo prichádzajúce sprava,",
+        "correct": false
+      }, {
+        "text": "vaše vozidlo,",
+        "correct": true
+      }, {
+        "text": "protiidúce modré vozidlo.",
+        "correct": false
+      }]
+    }]
+  }]
+}
