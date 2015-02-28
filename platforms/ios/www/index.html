@@ -1,34 +1,179 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-    <title></title>
 
-    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <title>Autoskola</title>
 
-    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+  <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
     <link href="css/ionic.app.css" rel="stylesheet">
     -->
 
-    <!-- ionic/angularjs js -->
-    <script src="lib/ionic/js/ionic.bundle.js"></script>
+  <!-- ionic/angularjs js -->
+  <script src="lib/ionic/js/ionic.bundle.js"></script>
 
-    <!-- cordova script (this will be a 404 during development) -->
-    <script src="cordova.js"></script>
+  <!-- cordova script (this will be a 404 during development) -->
+  <script src="cordova.js"></script>
 
-    <!-- your app's js -->
-    <script src="js/app.js"></script>
-  </head>
-  <body ng-app="starter" class="platform-ios platform-cordova platform-webview">
+  <!-- your app's js -->
+  <script src="js/app.js"></script>
+  <script src="js/theory-controller.js"></script>
+  <script src="js/theory-chapter-controller.js"></script>
+  <script src="js/law-controller.js"></script>
+  <script src="js/notice-controller.js"></script>
+  <script src="js/signs-controller.js"></script>
+</head>
 
-    <ion-pane>
-      <ion-header-bar class="bar-stable">
-        <h1 class="title">Ionic Blank Starter</h1>
-      </ion-header-bar>
+<body ng-app="autoskola" class="platform-ios platform-cordova platform-webview">
+
+  <ion-nav-view>
+  </ion-nav-view>
+
+  <script id="home.html" type="text/ng-template">
+
+    <ion-view>
+      <ion-nav-bar class="bar-clear">
+      </ion-nav-bar>
       <ion-content>
+        <ion-list>
+          <ion-item href="#/theory">Teória</ion-item>
+          <ion-item href="#/law">Zákon</ion-item>
+          <ion-item href="#/notice">Vyhláška</ion-item>
+          <ion-item href="#/signs">Značky</ion-item>
+          <ion-item href="#/situations">Situácie</ion-item>
+          <ion-item href="#/tests">Záverečné testy</ion-item>
+        </ion-list>
       </ion-content>
-    </ion-pane>
-  </body>
+    </ion-view>
+  </script>
+
+  <script id="theory.html" type="text/ng-template">
+    <ion-view view-title="Teória">
+      <ion-nav-bar class="bar-positive">
+        <ion-nav-buttons side="primary">
+          <a nav-transition="ios" href="#">
+            <button class="button button-icon icon ion-android-arrow-back"></button>
+          </a>
+        </ion-nav-buttons>
+      </ion-nav-bar>
+      <ion-content>
+        <ion-list>
+          <div ng-repeat="item in data">
+            <div class="item item-divider">
+              {{ item.section }}
+            </div>
+            <ion-item href="#/theory/chapter/{{chapter.id}}" ng-repeat="chapter in item.chapters">
+              {{ chapter.name }}
+            </ion-item>
+          </div>
+        </ion-list>
+      </ion-content>
+    </ion-view>
+  </script>
+
+  <script id="chapter.html" type="text/ng-template">
+    <ion-view view-title="{{ chapter.name }}">
+      <ion-nav-bar class="bar-positive">
+        <ion-nav-buttons side="primary">
+          <a nav-transition="ios" href="#/theory">
+            <button class="button button-icon icon ion-android-arrow-back"></button>
+          </a>
+        </ion-nav-buttons>
+      </ion-nav-bar>
+      <ion-content padding="true">
+        <p>{{ chapter.text }}</p>
+      </ion-content>
+    </ion-view>
+  </script>
+
+  <script id="law.html" type="text/ng-template">
+    <ion-view view-title="Zákon">
+      <ion-nav-bar class="bar-positive">
+        <ion-nav-buttons side="primary">
+          <a nav-transition="ios" href="#">
+            <button class="button button-icon icon ion-android-arrow-back"></button>
+          </a>
+        </ion-nav-buttons>
+      </ion-nav-bar>
+      <ion-content>
+        <ion-list>
+          <ion-item ng-repeat="item in data">
+            {{item.id}}. {{ item.question }} {{item.points}}b
+            <ion-option-button class="button-positive">Viem</ion-option-button>
+          </ion-item>
+        </ion-list>
+      </ion-content>
+      <div class="bar bar-footer bar-assertive">
+        <a href="">
+          <span class="title">Otestovať</span>
+        </a>
+      </div>
+    </ion-view>
+  </script>
+
+  <script id="notice.html" type="text/ng-template">
+    <ion-view view-title="Vyhláška">
+      <ion-nav-bar class="bar-positive">
+        <ion-nav-buttons side="primary">
+          <a nav-transition="ios" href="#">
+            <button class="button button-icon icon ion-android-arrow-back"></button>
+          </a>
+        </ion-nav-buttons>
+      </ion-nav-bar>
+      <ion-content>
+        <ion-list>
+          <ion-item ng-repeat="item in data">
+            {{ item.id }}.
+            {{ item.question }}
+            {{ item.points }}b
+            <ion-option-button class="button-positive">Viem</ion-option-button>
+          </ion-item>
+        </ion-list>
+      </ion-content>
+      <div class="bar bar-footer bar-assertive">
+        <a href="">
+          <span class="title">Otestovať</span>
+        </a>
+      </div>
+    </ion-view>
+  </script>
+
+  <script id="signs.html" type="text/ng-template">
+    <ion-view view-title="Značky">
+      <ion-nav-bar class="bar-positive">
+        <ion-nav-buttons side="primary">
+          <a nav-transition="ios" href="#">
+            <button class="button button-icon icon ion-android-arrow-back"></button>
+          </a>
+        </ion-nav-buttons>
+      </ion-nav-bar>
+      <ion-content>
+        <ion-list>
+          <div ng-repeat="item in data">
+            <div class="item item-divider">
+              {{ item.section }}
+            </div>
+            <a class="item item-thumbnail-left" href="" ng-repeat="question in item.questions">
+              <img src="{{ question.image.src }}" alt="">
+              {{ question.id }}.
+              {{ question.name }}
+              {{ question.points }}b
+            </a>
+          </div>
+        </ion-list>
+      </ion-content>
+      <div class="bar bar-footer bar-assertive">
+        <a href="">
+          <span class="title">Otestovať</span>
+        </a>
+      </div>
+    </ion-view>
+  </script>
+
+</body>
+
 </html>

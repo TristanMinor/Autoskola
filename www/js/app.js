@@ -44,7 +44,8 @@ angular.module('autoskola', ['ionic'])
 
   .state('situations', {
     url: '/situations',
-    templateUrl: 'situations.html'
+    templateUrl: 'situations.html',
+    controller: 'SituationsController'
   })
 
   .state('tests', {
