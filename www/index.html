@@ -94,29 +94,31 @@
   </script>
 
   <script id="law.html" type="text/ng-template">
-    <ion-view view-title="Zákon">
-      <ion-nav-bar class="bar-stable">
-        <ion-nav-buttons side="primary">
-          <a nav-transition="ios" href="#">
-            <button class="button button-icon icon ion-ios-search"></button>
-          </a>
-        </ion-nav-buttons>
-        <ion-nav-buttons side="secondary">
-          <a nav-transition="ios" href="#">
-            <button class="button button-icon icon ion-ios-more-outline"></button>
-            <button class="button button-icon icon ion-ios-redo-outline"></button>
-          </a>
-        </ion-nav-buttons>
-      </ion-nav-bar>
-      <ion-content has-bouncing="true">
-        <ion-list>
-          <ion-item ng-repeat="item in data">
-            {{item.id}}. {{ item.question }} {{item.points}}b
-            <ion-option-button class="button button-positive">
-              <button class="button button-positive icon ion-checkmark"></button>
-            </ion-option-button>
-          </ion-item>
-        </ion-list>
+    <ion-view>
+      <div class="bar-stable bar-stable bar bar-header disable-user-behavior">
+        <button class="button button-icon icon ion-ios-search"></button>
+        <div class="title title-nav">
+          <a ng-click="setTab('test-1')" ng-class="{active: tabName == 'test-1'}">Test 1</a>
+          <a ng-click="setTab('test-2')" ng-class="{active: tabName == 'test-2'}">Test 2</a>
+        </div>
+        <button class="button button-positive icon ion-checkmark"></button>
+      </div>
+      <ion-content class="has-header" has-bouncing="true">
+        <div ng-switch="tabName">
+          <div ng-switch-when="test-1">
+            <ion-list>
+              <ion-item ng-repeat="item in data">
+                {{item.id}}. {{ item.question }} {{item.points}}b
+                <ion-option-button class="button button-positive">
+                  <button class="button button-positive icon ion-checkmark"></button>
+                </ion-option-button>
+              </ion-item>
+            </ion-list>
+          </div>
+          <ion-list ng-switch-when="test-2">
+            Kokot
+          </ion-list>
+        </div ng-switch>
       </ion-content>
     </ion-view>
   </script>

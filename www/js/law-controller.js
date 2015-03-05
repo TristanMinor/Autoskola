@@ -6,4 +6,10 @@ angular.module('autoskola')
       $scope.data = response.law;
     });
 
+    $scope.tabName = 'test-1';
+
+    $scope.setTab = function(tab) {
+    	$scope.tabName = tab;
+    }
+
   });

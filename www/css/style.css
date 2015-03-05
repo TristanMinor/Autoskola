@@ -3,3 +3,11 @@
   background-color: #5D7593;
   border-color: #5D7593;
 }
+
+.title-nav > a {
+	padding: 6px 10px;
+}
+
+.title-nav > a.active {
+	border-bottom: 5px solid black;
+}
