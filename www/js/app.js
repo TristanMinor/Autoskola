@@ -8,44 +8,67 @@ angular.module('autoskola', ['ionic'])
 .config(function($stateProvider, $urlRouterProvider) {
 
   $stateProvider
-    .state('home', {
-      url: '',
-      templateUrl: 'home.html'
-    })
 
-  .state('theory', {
-      url: '/theory',
-      templateUrl: 'theory.html',
-      controller: 'TheoryController'
-    })
-    .state('chapter', {
-      url: '/theory/chapter/:id',
-      templateUrl: 'chapter.html',
-      controller: 'TheoryChapterController'
-    })
+  .state('tabs', {
+    url: '/tabs',
+    abstract: true,
+    templateUrl: 'templates/tabs.html'
+  })
 
-  .state('law', {
+  .state('tabs.theory', {
+    url: '/theory',
+    views: {
+      'theory-tab': {
+        templateUrl: 'theory.html',
+        controller: 'TheoryController'
+      }
+    }
+  })
+
+  .state('chapter', {
+    url: '/theory/chapter/:id',
+    templateUrl: 'chapter.html',
+    controller: 'TheoryChapterController'
+  })
+
+  .state('tabs.law', {
     url: '/law',
-    templateUrl: 'law.html',
-    controller: 'LawController'
+    views: {
+      'law-tab': {
+        templateUrl: 'law.html',
+        controller: 'LawController'
+      }
+    }
   })
 
-  .state('notice', {
+  .state('tabs.notice', {
     url: '/notice',
-    templateUrl: 'notice.html',
-    controller: 'NoticeController'
+    views: {
+      'notice-tab': {
+        templateUrl: 'notice.html',
+        controller: 'NoticeController'
+      }
+    }
   })
 
-  .state('signs', {
+  .state('tabs.signs', {
     url: '/signs',
-    templateUrl: 'signs.html',
-    controller: 'SignsController'
+    views:{
+      'signs-tab': {
+        templateUrl: 'signs.html',
+        controller: 'SignsController'
+      }
+    }
   })
 
-  .state('situations', {
+  .state('tabs.situations', {
     url: '/situations',
-    templateUrl: 'situations.html',
-    controller: 'SituationsController'
+    views: {
+      'situations-tab':{
+        templateUrl: 'situations.html',
+        controller: 'SituationsController'
+      }
+    }
   })
 
   .state('tests', {
@@ -53,7 +76,7 @@ angular.module('autoskola', ['ionic'])
     templateUrl: 'tests.html'
   })
 
-  $urlRouterProvider.otherwise("");
+  $urlRouterProvider.otherwise("tabs/theory");
 
 })
 
