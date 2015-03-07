@@ -88,9 +88,11 @@
       </ion-nav-bar>
       <ion-content>
         <div ng-repeat="item in chapter.content">
-          <img src="{{ item.image }}">
-          <h3>{{ item.headline}}</h2>
-          <p>{{ item.paragraph }}</p>
+          <img src="{{ item.image }}" class="chapter-image">
+          <div class="chapter-text">
+            <h3>{{ item.headline}}</h3>
+            <p>{{ item.paragraph }}</p>
+          </div>
         </div>
       </ion-content>
     </ion-view>

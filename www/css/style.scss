@@ -1,0 +1,65 @@
+// out: style.css
+
+/* Typography */
+
+@font-face {
+    font-family: 'preto_serif_ot_std_regular';
+    src: url('fonts/preto_serif_ot_std_regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'preto_serif_ot_std';
+    src: url('fonts/preto_serif_ot_std_bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body, .ionic-body {
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+p {
+  font-family: "Preto Serif";
+}
+
+ion-content {
+  background-color: #EAECF5;
+}
+
+.bar.bar-positive {
+  background-color: #5D7593;
+  border-color: #5D7593;
+}
+
+.bar.bar-stable {
+  background-color: #F2F3F9;
+}
+
+.title-nav > a {
+	padding: 8px 20px;
+  color: #A9AAAE:
+}
+
+.title-nav > a.active {
+	color: #8142EF;
+  border-bottom: 5px solid #8142EF;
+}
+
+/* Lists */
+
+.list-inset {
+  margin: 40px 60px;
+}
+
+.item-divider {
+  background-color: #EAECF5;
+  text-transform: uppercase;
+  padding-left: 0;
+  border-left: none;
+  border-right: none;
+  color: #94959B;
+  font-weight: 0.8em;
+}
