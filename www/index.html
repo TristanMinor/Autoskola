@@ -86,8 +86,12 @@
           </a>
         </ion-nav-buttons>
       </ion-nav-bar>
-      <ion-content padding="true">
-        <p>{{ chapter.text }}</p>
+      <ion-content>
+        <div ng-repeat="item in chapter.content">
+          <img src="{{ item.image }}">
+          <h3>{{ item.headline}}</h2>
+          <p>{{ item.paragraph }}</p>
+        </div>
       </ion-content>
     </ion-view>
   </script>
@@ -169,7 +173,6 @@
                       <button class="button button-positive icon ion-checkmark"></button>
                     </ion-option-button>
                   </ion-item>
-                  <div class="padding-bottom"></div>
                 </div>
               </div>
             </ion-list>

@@ -4,7 +4,17 @@
     "chapters": [{
       "id": 1,
       "name": "Vymedzenie základných pojmov",
-      "text":"Cestnou premávkou na účely tohto zákona sa rozumie užívanie diaľnic, ciest, miestnych komunikácií a účelových komunikácií (ďalej len cesta) vodičmi vozidiel a chodcami."
+      "content": [{
+        "image": "img/situations/situation_lanes_01.png",
+        "headline": "Cestná premávka",
+        "paragraph": "Cestnou premávkou na účely tohto zákona sa rozumie užívanie diaľnic, ciest, miestnych komunikácií a účelových komunikácií (ďalej len cesta) vodičmi vozidiel a chodcami."
+      }, {
+        "headline": "Autobus",
+        "paragraph": "Motorové vozidlo na dopravu osôb, ktoré má okrem miesta pre vodiča viac ako osem miest na sedenie."
+      }, {
+        "headline": "Nemotorové vozidlo",
+        "paragraph": "Prípojné vozidlo, vozidlo pohybujúce sa pomocou ľudskej sily alebo zvieracej sily s výnimkou prípadov podľa písmena f) a bicykel vybavený pomocným motorom so zdvihovým objemom valcov nepresahujúcim 50 cm3 s konštrukčnou rýchlosťou neprevyšujúcou 25 km/h alebo bicykel vybavený pomocným elektrickým motorom s trvalým menovitým výkonom do 0, 25 kW, ktorého výkon sa progresívne znižuje a nakoniec sa preruší, keď vozidlo dosiahne rýchlosť 25 km/h alebo keď vodič prestane šliapať do pedálov."
+      }]
     }]
   }, {
     "section": "Základné povinnosti",

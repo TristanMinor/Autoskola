@@ -1,3 +1,29 @@
+/* Typography */
+
+@font-face {
+    font-family: 'preto_serif_ot_std_regular';
+    src: url('fonts/preto_serif_ot_std_regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'preto_serif_ot_std';
+    src: url('fonts/preto_serif_ot_std_bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body, .ionic-body {
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+p {
+  font-family: "Preto Serif";
+}
+
 ion-content {
   background-color: #EAECF5;
 }
