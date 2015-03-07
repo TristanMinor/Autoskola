@@ -8,11 +8,11 @@
         "starred": false
       },
       "image": {
-        "src": "img/situations/situation_01.png"
+        "src": "img/situations/situation_lanes_01.png"
       },
       "questions": [{
         "id": 1,
-        "question": "Vaše vozidlo prejde cez križovatku ako",
+        "question": "Tam, kde sa dva jazdné pruhy zbiehajú do jedného pruhu tak, že nie je zrejmé, ktorý z nich je priebežný",
         "answers": [{
           "text": "druhé,",
           "correct": false
@@ -23,19 +23,31 @@
           "text": "prvé.",
           "correct": false
         }]
-      }, {
+      }]
+    }, {
+      "image": {
+        "src": "img/situations/situation_lanes_02.png"
+      },
+      "questions": [{
         "id": 2,
-        "question": "Ako posledné prejde cez križovatku",
-        "answers": [{
-          "text": "červené vozidlo prichádzajúce sprava,",
-          "correct": false
-        }, {
-          "text": "vaše vozidlo,",
-          "correct": true
-        }, {
-          "text": "protiidúce modré vozidlo.",
-          "correct": false
-        }]
+        "question": "Vodič modrého vozidla"
+      }]
+    }, {
+      "image": {
+        "src": "img/situations/situation_lanes_03.png"
+      },
+      "questions": [{
+        "id": 3,
+        "question": "Vodič modrého vozidla"
+      }, {
+        "id": 4,
+        "question": "Vozidlá prejdú okolo prekážky v tomto poradí"
+      }, {
+        "id": 5,
+        "question": "V poradí druhé prejde okolo prekážky"
+      }, {
+        "id": 6,
+        "question": "V poradí tretie prejde okolo prekážky"
       }]
     }]
   }]

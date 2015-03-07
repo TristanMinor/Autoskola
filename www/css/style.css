@@ -1,13 +1,38 @@
-/* Empty. Add your own CSS if you like */
+ion-content {
+  background-color: #EAECF5;
+}
+
 .bar.bar-positive {
   background-color: #5D7593;
   border-color: #5D7593;
 }
 
+.bar.bar-stable {
+  background-color: #F2F3F9;
+}
+
 .title-nav > a {
-	padding: 6px 10px;
+	padding: 8px 10px;
+  color: #A9AAAE:
 }
 
 .title-nav > a.active {
-	border-bottom: 5px solid black;
+	color: #8142EF;
+  border-bottom: 5px solid #8142EF;
+}
+
+/* Lists */
+
+.list-inset {
+  margin: 40px 60px;
+}
+
+.item-divider {
+  background-color: #EAECF5;
+  text-transform: uppercase;
+  padding-left: 0;
+  border-left: none;
+  border-right: none;
+  color: #94959B;
+  font-weight: 0.8em;
 }

@@ -9,7 +9,7 @@ angular.module('autoskola', ['ionic'])
 
   $stateProvider
 
-  .state('tabs', {
+    .state('tabs', {
     url: '/tabs',
     abstract: true,
     templateUrl: 'templates/tabs.html'
@@ -31,49 +31,34 @@ angular.module('autoskola', ['ionic'])
     controller: 'TheoryChapterController'
   })
 
-  .state('tabs.law', {
-    url: '/law',
+  .state('tabs.questions', {
+    url: '/questions',
     views: {
-      'law-tab': {
-        templateUrl: 'law.html',
-        controller: 'LawController'
+      'questions-tab': {
+        templateUrl: 'questions.html',
+        controller: 'QuestionsController',
       }
     }
   })
 
-  .state('tabs.notice', {
-    url: '/notice',
-    views: {
-      'notice-tab': {
-        templateUrl: 'notice.html',
-        controller: 'NoticeController'
-      }
-    }
-  })
-
-  .state('tabs.signs', {
-    url: '/signs',
-    views:{
-      'signs-tab': {
-        templateUrl: 'signs.html',
-        controller: 'SignsController'
-      }
-    }
-  })
-
-  .state('tabs.situations', {
-    url: '/situations',
-    views: {
-      'situations-tab':{
-        templateUrl: 'situations.html',
-        controller: 'SituationsController'
-      }
-    }
-  })
-
-  .state('tests', {
+  .state('tabs.tests', {
     url: '/tests',
-    templateUrl: 'tests.html'
+    views: {
+      'tests-tab': {
+        templateUrl: 'tests.html',
+        controller: 'TestsController'
+      }
+    }
+  })
+
+  .state('tabs.info', {
+    url: '/info',
+    views: {
+      'info-tab': {
+        templateUrl: 'info.html',
+        controller: 'InfoController'
+      }
+    }
   })
 
   $urlRouterProvider.otherwise("tabs/theory");

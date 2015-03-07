@@ -24,10 +24,13 @@
   <script src="js/app.js"></script>
   <script src="js/theory-controller.js"></script>
   <script src="js/theory-chapter-controller.js"></script>
-  <script src="js/law-controller.js"></script>
-  <script src="js/notice-controller.js"></script>
-  <script src="js/signs-controller.js"></script>
-  <script src="js/situations-controller.js"></script>
+  <script src="js/questions-controller.js"></script>
+  <script src="js/questions-law-controller.js"></script>
+  <script src="js/questions-notice-controller.js"></script>
+  <script src="js/questions-signs-controller.js"></script>
+  <script src="js/questions-situations-controller.js"></script>
+  <script src="js/tests-controller.js"></script>
+  <script src="js/info-controller.js"></script>
 </head>
 
 <body ng-app="autoskola" animation="slide-left-right-ios7">
@@ -41,20 +44,16 @@
         <ion-nav-view name="theory-tab"></ion-nav-view>
       </ion-tab>
 
-      <ion-tab title="Zákon" icon-on="ion-ios-book" icon-off="ion-ios-book-outline" href="tabs/law">
-        <ion-nav-view name="law-tab"></ion-nav-view>
-      </ion-tab>
-
-      <ion-tab title="Značky" icon-on="ion-ios-football" icon-off="ion-ios-football-outline" href="tabs/signs">
-        <ion-nav-view name="signs-tab"></ion-nav-view>
-      </ion-tab>
-
-      <ion-tab title="Situácie" icon-on="ion-ios-shuffle-strong" icon-off="ion-ios-shuffle" href="tabs/situations">
-        <ion-nav-view name="situations-tab"></ion-nav-view>
+      <ion-tab title="Otázky" icon-on="ion-ios-book" icon-off="ion-ios-book-outline" href="tabs/questions">
+        <ion-nav-view name="questions-tab"></ion-nav-view>
       </ion-tab>
 
       <ion-tab title="Testy" icon-on="ion-ios-list" icon-off="ion-ios-list-outline" href="tabs/tests">
         <ion-nav-view name="tests-tab"></ion-nav-view>
+      </ion-tab>
+
+      <ion-tab title="Info" icon-on="ion-ios-information" icon-off="ion-ios-information-outline" href="tabs/info">
+        <ion-nav-view name="info-tab"></ion-nav-view>
       </ion-tab>
 
     </ion-tabs>
@@ -63,8 +62,8 @@
   <script id="theory.html" type="text/ng-template">
     <ion-view view-title="Teória">
       <ion-nav-bar class="bar-stable"></ion-nav-bar>
-      <ion-content has-bouncing="true">
-        <ion-list>
+      <ion-content>
+        <ion-list type="list-inset">
           <div ng-repeat="item in data">
             <div class="item item-divider">
               {{ item.section }}
@@ -87,138 +86,118 @@
           </a>
         </ion-nav-buttons>
       </ion-nav-bar>
-      <ion-content padding="true" has-bouncing="false">
+      <ion-content padding="true">
         <p>{{ chapter.text }}</p>
       </ion-content>
     </ion-view>
   </script>
 
-  <script id="law.html" type="text/ng-template">
+  <script id="questions.html" type="text/ng-template">
     <ion-view>
+
+      // Questions header
       <div class="bar-stable bar-stable bar bar-header disable-user-behavior">
         <button class="button button-icon icon ion-ios-search"></button>
         <div class="title title-nav">
-          <a ng-click="setTab('test-1')" ng-class="{active: tabName == 'test-1'}">Test 1</a>
-          <a ng-click="setTab('test-2')" ng-class="{active: tabName == 'test-2'}">Test 2</a>
+          <a ng-click="setTab('tab-law')" ng-class="{active: tabName == 'tab-law'}">Zákon</a>
+          <a ng-click="setTab('tab-notice')" ng-class="{active: tabName == 'tab-notice'}">Vyhláška</a>
+          <a ng-click="setTab('tab-signs')" ng-class="{active: tabName == 'tab-signs'}">Značky</a>
+          <a ng-click="setTab('tab-situations')" ng-class="{active: tabName == 'tab-situations'}">Situácie</a>
         </div>
-        <button class="button button-positive icon ion-checkmark"></button>
+        <button class="button button-icon icon ion-ios-paperplane-outline"></button>
       </div>
-      <ion-content class="has-header" has-bouncing="true">
+
+      <!-- Questions content -->
+      <ion-content class="has-header">
         <div ng-switch="tabName">
-          <div ng-switch-when="test-1">
-            <ion-list>
-              <ion-item ng-repeat="item in data">
-                {{item.id}}. {{ item.question }} {{item.points}}b
+
+          <!-- Law tab -->
+          <div ng-switch-when="tab-law" ng-controller="QuestionsLawController">
+            <ion-list type="list-inset">
+              <ion-item ng-repeat="item in data" class="item">
+                {{item.id}}. {{ item.question }}
                 <ion-option-button class="button button-positive">
                   <button class="button button-positive icon ion-checkmark"></button>
                 </ion-option-button>
               </ion-item>
             </ion-list>
           </div>
-          <ion-list ng-switch-when="test-2">
-            Kokot
-          </ion-list>
-        </div ng-switch>
-      </ion-content>
-    </ion-view>
-  </script>
 
-  <script id="notice.html" type="text/ng-template">
-    <ion-view view-title="Vyhláška">
-      <ion-nav-bar class="bar-stable">
-        <ion-nav-buttons side="primary">
-          <a nav-transition="ios" href="#">
-            <button class="button button-icon icon ion-ios-search"></button>
-          </a>
-        </ion-nav-buttons>
-        <ion-nav-buttons side="secondary">
-          <a nav-transition="ios" href="#">
-            <button class="button button-icon icon ion-ios-more-outline"></button>
-            <button class="button button-icon icon ion-ios-redo-outline"></button>
-          </a>
-        </ion-nav-buttons>
-      </ion-nav-bar>
-      <ion-content has-bouncing="false">
-        <ion-list>
-          <ion-item ng-repeat="item in data">
-            {{ item.id }}. {{ item.question }} {{ item.points }}b
-            <ion-option-button class="button button-positive">
-              <button class="button button-positive icon ion-checkmark"></button>
-            </ion-option-button>
-          </ion-item>
-        </ion-list>
-      </ion-content>
-    </ion-view>
-  </script>
-
-  <script id="signs.html" type="text/ng-template">
-    <ion-view view-title="Značky">
-      <ion-nav-bar class="bar-stable">
-        <ion-nav-buttons side="primary">
-          <a nav-transition="ios" href="#">
-            <button class="button button-icon icon ion-ios-search"></button>
-          </a>
-        </ion-nav-buttons>
-        <ion-nav-buttons side="secondary">
-          <a nav-transition="ios" href="#">
-            <button class="button button-icon icon ion-ios-more-outline"></button>
-            <button class="button button-icon icon ion-ios-redo-outline"></button>
-          </a>
-        </ion-nav-buttons>
-      </ion-nav-bar>
-      <ion-content has-bouncing="false">
-        <ion-list>
-          <div ng-repeat="item in data" class="card">
-            <div class="item item-divider">
-              {{ item.section }}
-            </div>
-            <ion-item class="item item-thumbnail-left" href="" ng-repeat="question in item.questions">
-              <img src="{{ question.image.src }}" alt=""> {{ question.id }}. {{ question.name }} {{ question.points }}b
-              <ion-option-button class="button button-positive">
-                <button class="button button-positive icon ion-checkmark"></button>
-              </ion-option-button>
-            </ion-item>
-          </div>
-        </ion-list>
-      </ion-content>
-    </ion-view>
-  </script>
-
-  <script id="situations.html" type="text/ng-template">
-    <ion-view view-title="Situácie">
-      <ion-nav-bar class="bar-stable">
-        <ion-nav-buttons side="primary">
-          <a nav-transition="ios" href="#">
-            <button class="button button-icon icon ion-ios-search"></button>
-          </a>
-        </ion-nav-buttons>
-        <ion-nav-buttons side="secondary">
-          <a nav-transition="ios" href="#">
-            <button class="button button-icon icon ion-ios-more-outline"></button>
-            <button class="button button-icon icon ion-ios-redo-outline"></button>
-          </a>
-        </ion-nav-buttons>
-        </ion-nav-buttons>
-      </ion-nav-bar>
-      <ion-content has-bouncing="false">
-        <ion-list>
-          <div ng-repeat="item in data" class="card">
-            <div class="item item-divider">
-              {{ item.section }}
-            </div>
-            <div ng-repeat="bundle in item.bundles">
-              <div class="item item-image">
-                <img src="{{ bundle.image.src }}" alt="">
-              </div>
-              <ion-item ng-repeat="question in bundle.questions">
-                {{ question.id }}. {{ question.question }} {{ question.points }}b
+          <!-- Notice tab -->
+          <div ng-switch-when="tab-notice" ng-controller="QuestionsNoticeController">
+            <ion-list type="list-inset">
+              <ion-item ng-repeat="item in data">
+                {{ item.id }}. {{ item.question }}
                 <ion-option-button class="button button-positive">
                   <button class="button button-positive icon ion-checkmark"></button>
                 </ion-option-button>
               </ion-item>
-            </div>
+            </ion-list>
           </div>
-        </ion-list>
+
+          <!-- Signs tab -->
+          <div ng-switch-when="tab-signs" ng-controller="QuestionsSignsController">
+            <ion-list type="list-inset">
+              <div ng-repeat="item in data">
+                <div class="item item-divider">
+                  {{ item.section }}
+                </div>
+                <ion-item class="item item-thumbnail-left" href="" ng-repeat="question in item.questions">
+                  <img src="{{ question.image.src }}" alt=""> {{ question.id }}. {{ question.name }}
+                  <ion-option-button class="button button-positive">
+                    <button class="button button-positive icon ion-checkmark"></button>
+                  </ion-option-button>
+                </ion-item>
+              </div>
+            </ion-list>
+          </div>
+
+          <!-- Situations tab -->
+          <div ng-switch-when="tab-situations" ng-controller="QuestionsSituationsController">
+            <ion-list type="list-inset">
+              <div ng-repeat="item in data">
+                <div class="item item-divider">
+                  {{ item.section }}
+                </div>
+                <div ng-repeat="bundle in item.bundles">
+                  <div class="item item-image">
+                    <img src="{{ bundle.image.src }}" alt="">
+                  </div>
+                  <ion-item ng-repeat="question in bundle.questions">
+                    {{ question.id }}. {{ question.question }}
+                    <ion-option-button class="button button-positive">
+                      <button class="button button-positive icon ion-checkmark"></button>
+                    </ion-option-button>
+                  </ion-item>
+                  <div class="padding-bottom"></div>
+                </div>
+              </div>
+            </ion-list>
+          </div>
+
+        </div>
+      </ion-content>
+    </ion-view>
+  </script>
+
+  <script id="tests.html" type="text/ng-template">
+    <ion-view view-title="Tests">
+      <div class="bar bar-header bar-stable">
+        <h1 class="title">Testy</h1>
+      </div>
+      <ion-content class="has-header padding">
+      </ion-content>
+    </ion-view>
+  </script>
+
+  <script id="info.html" type="text/ng-template">
+    <ion-view view-title="Info">
+      <div class="bar bar-header bar-stable">
+        <h1 class="title">Info</h1>
+      </div>
+      <ion-content class="has-header padding">
+        <p>Preto Serif Copyright © Ján Filípek, www.dizajndesign.sk</p>
+        <p>Poradca pri kodení/Spolukóder: Patrik Galik</p>
       </ion-content>
     </ion-view>
   </script>
