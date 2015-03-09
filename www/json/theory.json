@@ -5,15 +5,27 @@
       "id": 1,
       "name": "Vymedzenie základných pojmov",
       "content": [{
-        "image": "img/situations/situation_lanes_01.png",
         "headline": "Cestná premávka",
         "paragraph": "Cestnou premávkou na účely tohto zákona sa rozumie užívanie diaľnic, ciest, miestnych komunikácií a účelových komunikácií (ďalej len cesta) vodičmi vozidiel a chodcami."
       }, {
+        "image": "img/situations/situation_lanes_01.png",
         "headline": "Autobus",
         "paragraph": "Motorové vozidlo na dopravu osôb, ktoré má okrem miesta pre vodiča viac ako osem miest na sedenie."
       }, {
-        "headline": "Nemotorové vozidlo",
-        "paragraph": "Prípojné vozidlo, vozidlo pohybujúce sa pomocou ľudskej sily alebo zvieracej sily s výnimkou prípadov podľa písmena f) a bicykel vybavený pomocným motorom so zdvihovým objemom valcov nepresahujúcim 50 cm3 s konštrukčnou rýchlosťou neprevyšujúcou 25 km/h alebo bicykel vybavený pomocným elektrickým motorom s trvalým menovitým výkonom do 0, 25 kW, ktorého výkon sa progresívne znižuje a nakoniec sa preruší, keď vozidlo dosiahne rýchlosť 25 km/h alebo keď vodič prestane šliapať do pedálov."
+        "headline": "Dať prednosť v jazde",
+        "paragraph": "Povinnosť účastníka cestnej premávky počínať si tak, aby ten, kto má prednosť v jazde, nemusel náhle zmeniť smer alebo rýchlosť jazdy."
+      }, {
+        "headline": "Držiteľ vozidla",
+        "paragraph": "Osoba zapísaná v osvedčení o evidencii časť I a časť II ako držiteľ osvedčenia, alebo takáto osoba zapísaná v osvedčení o evidencii vydanom v cudzine."
+      }, {
+        "headline": "Električkový koľajový pás",
+        "paragraph": "Časť cesty určená predovšetkým na premávku električky."
+      }, {
+        "headline": "Hranica križovatky",
+        "paragraph": "Miesto vyznačené vodorovnou dopravnou značkou 'Priečna súvislá čiara', 'Priečna súvislá čiara so symbolom Daj prednosť v jazde!' alebo 'Priečna súvislá čiara s nápisom STOP'; kde takáto vodorovná dopravná značka nie je, hranicu križovatky tvorí kolmica na os vozovky v mieste, kde sa pre križovatku začína zakrivenie vozovky."
+      }, {
+        "headline": "Chodec",
+        "paragraph": "Účastník cestnej premávky pohybujúci sa pešo; chodcom je aj osoba, ktorá napríklad tlačí alebo ťahá sánky, detský kočík, vozík pre osoby so zdravotným postihnutím alebo ručný vozík s celkovou šírkou nepresahujúcou 600 mm, osoba, ktorá sa pohybuje na lyžiach, korčuliach, skejtborde alebo obdobnom športovom vybavení, pomocou mechanického alebo elektrického vozíka pre osoby so zdravotným postihnutím, a osoba, ktorá tlačí bicykel alebo motocykel, alebo vedie zviera."
       }]
     }]
   }, {
@@ -21,7 +33,17 @@
     "chapters": [{
       "id": 2,
       "name": "Všeobecné povinnosti účastníka cestnej premávky",
-      "text": "Účastník cestnej premávky je povinný dodržiavať pravidlá cestnej premávky ustanovené v tomto zákone."
+      "content": [{
+        "paragraph": "Účastník cestnej premávky je povinný dodržiavať pravidlá cestnej premávky ustanovené v tomto zákone."
+      }, {
+        "paragraph": "Účastník cestnej premávky je ďalej povinný správať sa disciplinovane a ohľaduplne tak, aby neohrozil bezpečnosť alebo plynulosť cestnej premávky, pritom je povinný prispôsobiť svoje správanie najmä stavebnému, dopravno-technickému stavu cesty, situácii v cestnej premávke, poveternostným podmienkam a svojim schopnostiam."
+      }, {
+        "paragraph": "Účastník cestnej premávky je ďalej povinný poslúchnuť pokyn vyplývajúci z dopravnej značky alebo dopravného zariadenia."
+      }, {
+        "paragraph": "Účastník cestnej premávky je ďalej povinný poslúchnuť pokyn, výzvu alebo príkaz policajta súvisiaci s výkonom jeho oprávnení pri dohľade nad bezpečnosťou a plynulosťou cestnej premávky, strpieť výkon jeho oprávnení, ako aj pokyny iných osôb, ktoré na to oprávňuje tento zákon alebo osobitný predpis."
+      }, {
+        "paragraph": "Používanie technických prostriedkov a zariadení, ktorých činnosť umožňuje odhalenie alebo ovplyvňovanie funkcií technických prostriedkov používaných pri plnení úloh na úseku výkonu dohľadu nad bezpečnosťou a plynulosťou cestnej premávky alebo ich umiestnenie vo vozidle spôsobom, ktorý umožňuje ich použitie, je zakázané."
+      }]
     }, {
       "id": 3,
       "name": "Povinnosti vodiča"
