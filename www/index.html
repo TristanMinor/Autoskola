@@ -33,7 +33,7 @@
   <script src="js/info-controller.js"></script>
 </head>
 
-<body ng-app="autoskola" animation="slide-left-right-ios7">
+<body ng-app="autoskola">
 
   <ion-nav-view></ion-nav-view>
 
@@ -86,7 +86,7 @@
           </a>
         </ion-nav-buttons>
       </ion-nav-bar>
-      <ion-content>
+      <ion-content class="item-opened">
         <div ng-repeat="item in chapter.content">
           <img ng-if="item.image" src="{{ item.image }}" class="chapter-image">
           <div class="chapter-text" as-blockquote-collapser>

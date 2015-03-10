@@ -26,20 +26,39 @@
 
 body, .ionic-body {
   font-size: 20px;
-  line-height: 1.4;
+  line-height: 1.5;
+  color: #1F1F1F;
 }
 
-p  {
+p, blockquote  {
   font-family: "preto_serif_ot_std_regular";
+  margin: 0 0 1.5em;
 }
 
 b, strong {
   font-weight: normal;
-  font-family: "preto_serif_ot_std_bold"; 
+  font-family: "preto_serif_ot_std_bold";
 }
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+blockquote {
+  border-left: 2px solid #6842EF;
+}
+
+
+/* Colors, look */
 
 ion-content {
   background-color: #EAECF5;
+}
+
+.item-opened {
+  background-color: #fff;
+  padding-top: 1.5em;
 }
 
 .bar.bar-positive {
@@ -76,18 +95,25 @@ ion-content {
 
 .chapter-text blockquote {
   max-height: 0;
-  padding: 0;
   margin: 0;
+  padding: 0 0 0 1.5em;
+  margin-bottom: 1.5em;
+  opacity: 0;
   overflow: hidden;
   transition: all 200ms;
+  transition-timing-function: ease-in-out;
+  color: #777;
 }
 
 .chapter-text blockquote.active {
-  max-height: 200px;
-  padding: 10px 0;
-  margin: 10px 0;
+  max-height: 768px;
+  opacity: 1;
 }
 
+.chapter-text a {
+  color: #6842EF;
+  text-decoration: none;
+}
 .chapter-image {
   max-width: 100%;
 }

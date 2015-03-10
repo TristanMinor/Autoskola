@@ -6,32 +6,90 @@
       "name": "Vymedzenie základných pojmov",
       "content": [{
         "headline": "Cestná premávka",
-        "paragraph": "Cestnou premávkou na účely tohto zákona sa rozumie užívanie diaľnic, ciest, miestnych komunikácií a účelových komunikácií (ďalej len cesta) vodičmi vozidiel a chodcami."
+        "paragraph": "Cestnou premávkou na účely tohto zákona sa rozumie užívanie diaľnic, ciest, miestnych komunikácií a účelových komunikácií (ďalej len <i>cesta</i>) vodičmi vozidiel a chodcami."
       }, {
-        "has-image": true,
-        "image": "img/situations/situation_lanes_01.png",
         "headline": "Autobus",
-        "paragraph": "<b>Motorové vozidlo</b> \" na dopravu osôb, ktoré má okrem miesta pre vodiča viac ako osem miest na sedenie."
+        "paragraph": "Motorové vozidlo na dopravu osôb, ktoré má okrem miesta pre vodiča viac ako osem miest na sedenie."
       }, {
-        "has-image": false,
         "headline": "Dať prednosť v jazde",
-        "paragraph": "Povinnosť účastníka cestnej premávky počínať si tak, aby ten, kto má prednosť v jazde, nemusel náhle zmeniť smer alebo rýchlosť jazdy."
+        "paragraph": "Povinnosť účastníka cestnej premávky počínať si tak, aby ten, kto má prednosť v jazde, nemusel <b>náhle</b> zmeniť smer alebo rýchlosť jazdy."
       }, {
-        "has-image": false,
         "headline": "Držiteľ vozidla",
         "paragraph": "Osoba zapísaná v osvedčení o evidencii časť I a časť II ako držiteľ osvedčenia, alebo takáto osoba zapísaná v osvedčení o evidencii vydanom v cudzine."
       }, {
-        "has-image": false,
         "headline": "Električkový koľajový pás",
         "paragraph": "Časť cesty určená predovšetkým na premávku električky."
       }, {
-        "has-image": false,
         "headline": "Hranica križovatky",
-        "paragraph": "Miesto vyznačené vodorovnou dopravnou značkou 'Priečna súvislá čiara', 'Priečna súvislá čiara so symbolom Daj prednosť v jazde!' alebo 'Priečna súvislá čiara s nápisom STOP'; kde takáto vodorovná dopravná značka nie je, hranicu križovatky tvorí kolmica na os vozovky v mieste, kde sa pre križovatku začína zakrivenie vozovky."
+        "paragraph": "Miesto vyznačené vodorovnou dopravnou značkou „Priečna súvislá čiara“, „Priečna súvislá čiara so symbolom Daj prednosť v jazde!“ alebo „Priečna súvislá čiara s nápisom STOP“; kde takáto vodorovná dopravná značka nie je, hranicu križovatky tvorí kolmica na os vozovky v mieste, kde sa pre križovatku začína zakrivenie vozovky."
       }, {
-        "has-image": false,
         "headline": "Chodec",
         "paragraph": "Účastník cestnej premávky pohybujúci sa pešo; chodcom je aj osoba, ktorá napríklad tlačí alebo ťahá sánky, detský kočík, vozík pre osoby so zdravotným postihnutím alebo ručný vozík s celkovou šírkou nepresahujúcou 600 mm, osoba, ktorá sa pohybuje na lyžiach, korčuliach, skejtborde alebo obdobnom športovom vybavení, pomocou mechanického alebo elektrického vozíka pre osoby so zdravotným postihnutím, a osoba, ktorá tlačí bicykel alebo motocykel, alebo vedie zviera."
+      }, {
+        "headline": "Chodník",
+        "paragraph": "Komunikácia alebo časť cesty určená pre chodcov, ktorá je spravidla oddelená od vozovky výškovo alebo iným spôsobom."
+      }, {
+        "headline": "Jazdná súprava",
+        "paragraph": "Súprava zložená z jedného alebo z viacerých motorových vozidiel a z jedného alebo viacerých prípojných vozidiel."
+      }, {
+        "headline": "Krajnica",
+        "paragraph": "Časť cesty od kraja vozovky po kraj cesty."
+      }, {
+        "headline": "Križovatka s riadenou premávkou",
+        "paragraph": "Križovatka, na ktorej je premávka riadená dopravnými zariadeniami alebo príslušníkom Policajného zboru (ďalej len „policajt“), prípadne inou oprávnenou osobou."
+      }, {
+        "headline": "Motorové vozidlo",
+        "paragraph": "Nekoľajové vozidlo poháňané vlastným motorom s výnimkou prípadu podľa <a href='#'>písmena f)</a> a trolejbus.",
+        "blockquote": "Účastník cestnej premávky pohybujúci sa pešo; chodcom je aj osoba, ktorá napríklad tlačí alebo ťahá sánky, detský kočík, vozík pre osoby so zdravotným postihnutím alebo ručný vozík s celkovou šírkou nepresahujúcou 600 mm, osoba, ktorá sa pohybuje na lyžiach, korčuliach, skejtborde alebo obdobnom športovom vybavení, pomocou mechanického alebo elektrického vozíka pre osoby so zdravotným postihnutím, a osoba, ktorá tlačí bicykel alebo motocykel, alebo vedie zviera."
+      }, {
+        "headline": "Nemotorové vozidlo",
+        "paragraph": "Prípojné vozidlo, vozidlo pohybujúce sa pomocou ľudskej sily alebo zvieracej sily s výnimkou prípadov podľa <a href='#'>písmena f)</a> a bicykel vybavený pomocným motorom so zdvihovým objemom valcov nepresahujúcim 50 cm<sup>3</sup> s konštrukčnou rýchlosťou neprevyšujúcou 25 km/h alebo bicykel vybavený pomocným elektrickým motorom s trvalým menovitým výkonom do 0,25 kW, ktorého výkon sa progresívne znižuje a nakoniec sa preruší, keď vozidlo dosiahne rýchlosť 25 km/h alebo keď vodič prestane šliapať do pedálov.",
+        "blockquote": "Účastník cestnej premávky pohybujúci sa pešo; chodcom je aj osoba, ktorá napríklad tlačí alebo ťahá sánky, detský kočík, vozík pre osoby so zdravotným postihnutím alebo ručný vozík s celkovou šírkou nepresahujúcou 600 mm, osoba, ktorá sa pohybuje na lyžiach, korčuliach, skejtborde alebo obdobnom športovom vybavení, pomocou mechanického alebo elektrického vozíka pre osoby so zdravotným postihnutím, a osoba, ktorá tlačí bicykel alebo motocykel, alebo vedie zviera."
+      }, {
+        "headline": "Neobmedzenie",
+        "paragraph": "Povinnosť účastníka cestnej premávky počínať si tak, aby inému účastníkovi cestnej premávky neprekážal."
+      }, {
+        "headline": "Neohrozenie",
+        "paragraph": "Povinnosť účastníka cestnej premávky počínať si tak, aby inému účastníkovi cestnej premávky nevzniklo nijaké nebezpečenstvo."
+      }, {
+        "headline": "Orgán Policajného zboru",
+        "paragraph": "Útvar Policajného zboru zriadený podľa osobitného predpisu."
+      }, {
+        "headline": "Pobyt",
+        "paragraph": "Trvalý pobyt občana Slovenskej republiky, prechodný pobyt občana Slovenskej republiky trvalo žijúceho v zahraničí, trvalý pobyt cudzinca alebo prechodný pobyt cudzinca na území Slovenskej republiky."
+      }, {
+        "headline": "Prekážka cestnej premávky",
+        "paragraph": "Všetko, čo môže ohroziť alebo obmedziť jazdu vozidiel a pohyb chodcov."
+      }, {
+        "headline": "Státie",
+        "paragraph": "Uvedenie vozidla do pokoja na dlhšie, ako je čas dovolený na zastavenie."
+      }, {
+        "headline": "Účastník cestnej premávky",
+        "paragraph": "Osoba, ktorá sa priamo zúčastňuje cestnej premávky."
+      }, {
+        "headline": "Prekážka cestnej premávky",
+        "paragraph": "Všetko, čo môže ohroziť alebo obmedziť jazdu vozidiel a pohyb chodcov."
+      }, {
+        "headline": "Vodič",
+        "paragraph": "Osoba, ktorá vedie vozidlo."
+      }, {
+        "headline": "Vozidlo",
+        "paragraph": "Motorové vozidlo, nemotorové vozidlo a električka."
+      }, {
+        "headline": "Vozovka",
+        "paragraph": "Spevnená časť cesty určená predovšetkým na premávku motorových vozidiel."
+      }, {
+        "headline": "Zastavenie",
+        "paragraph": "Uvedenie vozidla do pokoja na čas nevyhnutne potrebný na urýchlené nastúpenie alebo na vystúpenie prepravovaných osôb alebo na urýchlené naloženie alebo na zloženie nákladu."
+      }, {
+        "headline": "Zastavenie vozidla",
+        "paragraph": "Prerušenie jazdy z dôvodu nezávislého od vôle vodiča."
+      }, {
+        "headline": "Znížená viditeľnosť",
+        "paragraph": "Viditeľnosť, pri ktorej sa účastníci cestnej premávky dostatočne zreteľne navzájom nevidia, ani keď nevidia predmety na ceste, najmä od súmraku do svitania, za hmly, sneženia, dažďa a v tuneli."
+      }, {
+        "headline": "Zvláštne motorové vozidlo",
+        "paragraph": "Motorové vozidlo vyrobené na iné účely než na prevádzku na cestách, ktoré po splnení ustanovených podmienok možno prevádzkovať v cestnej premávke; ide najmä o poľnohospodárske traktory a lesné traktory, samohybné pracovné, poľnohospodárske, lesné alebo stavebné stroje."
       }]
     }]
   }, {
@@ -40,20 +98,15 @@
       "id": 2,
       "name": "Všeobecné povinnosti účastníka cestnej premávky",
       "content": [{
-        "paragraph": "Účastník cestnej premávky je povinný dodržiavať pravidlá cestnej premávky ustanovené v tomto <a href='#'>zákone</a>.",
-        "blockquote": "Účastník cestnej premávky je povinný dodržiavať pravidlá cestnej premávky ustanovené v tomto zákone."
+        "paragraph": "Účastník cestnej premávky je povinný dodržiavať pravidlá cestnej premávky ustanovené v tomto zákone."
       }, {
-        "has-image": false,
-        "paragraph": "Účastník cestnej premávky je ďalej povinný správať sa disciplinovane a ohľaduplne tak, aby neohrozil bezpečnosť alebo plynulosť cestnej premávky, pritom je povinný prispôsobiť svoje správanie najmä stavebnému, dopravno-technickému stavu cesty, situácii v cestnej premávke, poveternostným podmienkam a svojim schopnostiam."
+        "paragraph": "Účastník cestnej premávky je ďalej povinný správať sa <b>disciplinovane a ohľaduplne</b> tak, aby neohrozil bezpečnosť alebo plynulosť cestnej premávky, pritom je povinný prispôsobiť svoje správanie najmä stavebnému, dopravno-technickému stavu cesty, situácii v cestnej premávke, poveternostným podmienkam a svojim schopnostiam."
       }, {
-        "has-image": false,
-        "paragraph": "Účastník cestnej premávky je ďalej povinný poslúchnuť pokyn vyplývajúci z dopravnej značky alebo dopravného zariadenia."
+        "paragraph": "Účastník cestnej premávky je ďalej povinný poslúchnuť <b>pokyn vyplývajúci z dopravnej značky alebo dopravného zariadenia</b>."
       }, {
-        "has-image": false,
-        "paragraph": "Účastník cestnej premávky je ďalej povinný poslúchnuť pokyn, výzvu alebo príkaz policajta súvisiaci s výkonom jeho oprávnení pri dohľade nad bezpečnosťou a plynulosťou cestnej premávky, strpieť výkon jeho oprávnení, ako aj pokyny iných osôb, ktoré na to oprávňuje tento zákon alebo osobitný predpis."
+        "paragraph": "Účastník cestnej premávky je ďalej povinný poslúchnuť <b>pokyn, výzvu alebo príkaz policajta</b> súvisiaci s výkonom jeho oprávnení pri dohľade nad bezpečnosťou a plynulosťou cestnej premávky, strpieť výkon jeho oprávnení, ako aj pokyny iných osôb, ktoré na to oprávňuje tento zákon alebo osobitný predpis."
       }, {
-        "has-image": false,
-        "paragraph": "Používanie technických prostriedkov a zariadení, ktorých činnosť umožňuje odhalenie alebo ovplyvňovanie funkcií technických prostriedkov používaných pri plnení úloh na úseku výkonu dohľadu nad bezpečnosťou a plynulosťou cestnej premávky alebo ich umiestnenie vo vozidle spôsobom, ktorý umožňuje ich použitie, je zakázané."
+        "paragraph": "Používanie <b>technických prostriedkov a zariadení</b>, ktorých činnosť umožňuje odhalenie alebo ovplyvňovanie funkcií technických prostriedkov používaných pri plnení úloh na úseku výkonu dohľadu nad bezpečnosťou a plynulosťou cestnej premávky alebo ich umiestnenie vo vozidle spôsobom, ktorý umožňuje ich použitie, je zakázané."
       }]
     }, {
       "id": 3,
