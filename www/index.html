@@ -68,8 +68,8 @@
             <div class="item item-divider">
               {{ item.section }}
             </div>
-            <ion-item href="#/theory/chapter/{{chapter.id}}" ng-repeat="chapter in item.chapters">
-              {{ chapter.name }}
+            <ion-item nav-direction="forward" href="#/theory/chapter/{{chapter.id}}" ng-repeat="chapter in item.chapters">
+              {{ chapter.name }} <span class="item-note">{{ chapter.minutes }} min</span>
             </ion-item>
           </div>
         </ion-list>
@@ -81,19 +81,21 @@
     <ion-view view-title="{{ chapter.name }}">
       <ion-nav-bar class="bar-stable">
         <ion-nav-buttons side="primary">
-          <a nav-transition="ios" href="#/theory">
+          <a nav-direction="back" href="#/theory">
             <button class="button button-icon icon ion-android-arrow-back"></button>
           </a>
         </ion-nav-buttons>
       </ion-nav-bar>
       <ion-content class="item-opened">
         <div ng-repeat="item in chapter.content">
-          <img ng-if="item.image" src="{{ item.image }}" class="chapter-image">
+
           <div class="chapter-text" as-blockquote-collapser>
             <h3 ng-if="item.headline">{{ item.headline}}</h3>
+            <img ng-if="item.image" src="{{ item.image }}" class="chapter-image">
             <p ng-if="item.paragraph" ng-bind-html="item.paragraph"></p>
             <blockquote ng-show="item.blockquote" ng-bind-html="item.blockquote"></blockquote>
           </div>
+
         </div>
       </ion-content>
     </ion-view>
@@ -121,8 +123,9 @@
           <!-- Law tab -->
           <div ng-switch-when="tab-law" ng-controller="QuestionsLawController">
             <ion-list type="list-inset">
-              <ion-item ng-repeat="item in data" class="item">
+              <ion-item nav-direction="forward" ng-repeat="item in data" class="item item-icon-right">
                 {{item.id}}. {{ item.question }}
+                <i class="icon ion-ios-star-outline"></i>
                 <ion-option-button class="button button-positive">
                   <button class="button button-positive icon ion-checkmark"></button>
                 </ion-option-button>
@@ -133,8 +136,9 @@
           <!-- Notice tab -->
           <div ng-switch-when="tab-notice" ng-controller="QuestionsNoticeController">
             <ion-list type="list-inset">
-              <ion-item ng-repeat="item in data">
+              <ion-item ng-repeat="item in data" class="item item-icon-right">
                 {{ item.id }}. {{ item.question }}
+                <i class="icon ion-ios-star-outline"></i>
                 <ion-option-button class="button button-positive">
                   <button class="button button-positive icon ion-checkmark"></button>
                 </ion-option-button>
@@ -149,8 +153,10 @@
                 <div class="item item-divider">
                   {{ item.section }}
                 </div>
-                <ion-item class="item item-thumbnail-left" href="" ng-repeat="question in item.questions">
-                  <img src="{{ question.image.src }}" alt=""> {{ question.id }}. {{ question.name }}
+                <ion-item class="item item-thumbnail-left item-icon-right" href="" ng-repeat="question in item.questions">
+                  <img src="{{ question.image.src }}" alt="">
+                  {{ question.id }}. {{ question.name }}
+                  <i class="icon ion-ios-star-outline"></i>
                   <ion-option-button class="button button-positive">
                     <button class="button button-positive icon ion-checkmark"></button>
                   </ion-option-button>
@@ -170,8 +176,9 @@
                   <div class="item item-image">
                     <img src="{{ bundle.image.src }}" alt="">
                   </div>
-                  <ion-item ng-repeat="question in bundle.questions">
+                  <ion-item ng-repeat="question in bundle.questions" class="item item-icon-right">
                     {{ question.id }}. {{ question.question }}
+                    <i class="icon ion-ios-star-outline"></i>
                     <ion-option-button class="button button-positive">
                       <button class="button button-positive icon ion-checkmark"></button>
                     </ion-option-button>

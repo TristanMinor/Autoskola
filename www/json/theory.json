@@ -3,6 +3,7 @@
     "section": "Základné ustanovenia",
     "chapters": [{
       "id": 1,
+      "minutes": 8,
       "name": "Vymedzenie základných pojmov",
       "content": [{
         "headline": "Cestná premávka",
@@ -11,7 +12,6 @@
         "headline": "Autobus",
         "paragraph": "Motorové vozidlo na dopravu osôb, ktoré má okrem miesta pre vodiča viac ako osem miest na sedenie."
       }, {
-        "image": "img/situations/situation_lanes_01.png",
         "headline": "Dať prednosť v jazde",
         "paragraph": "Povinnosť účastníka cestnej premávky počínať si tak, aby ten, kto má prednosť v jazde, nemusel <b>náhle</b> zmeniť smer alebo rýchlosť jazdy."
       }, {
@@ -21,7 +21,7 @@
         "headline": "Električkový koľajový pás",
         "paragraph": "Časť cesty určená predovšetkým na premávku električky."
       }, {
-        "image": "img/situations/situation_lanes_02.png",
+        "image": "img/theory/001_crossingsBorder.png",
         "headline": "Hranica križovatky",
         "paragraph": "Miesto vyznačené vodorovnou dopravnou značkou „Priečna súvislá čiara“, „Priečna súvislá čiara so symbolom Daj prednosť v jazde!“ alebo „Priečna súvislá čiara s nápisom STOP“; kde takáto vodorovná dopravná značka nie je, hranicu križovatky tvorí kolmica na os vozovky v mieste, kde sa pre križovatku začína zakrivenie vozovky."
       }, {
@@ -98,21 +98,23 @@
     "section": "Základné povinnosti",
     "chapters": [{
       "id": 2,
+      "minutes": 12,
       "name": "Všeobecné povinnosti účastníka cestnej premávky",
       "content": [{
         "paragraph": "Účastník cestnej premávky je povinný dodržiavať pravidlá cestnej premávky ustanovené v tomto zákone."
       }, {
         "paragraph": "Účastník cestnej premávky je ďalej povinný správať sa <b>disciplinovane a ohľaduplne</b> tak, aby neohrozil bezpečnosť alebo plynulosť cestnej premávky, pritom je povinný prispôsobiť svoje správanie najmä stavebnému, dopravno-technickému stavu cesty, situácii v cestnej premávke, poveternostným podmienkam a svojim schopnostiam."
       }, {
+        "image": "img/situations/situation_lanes_04.png",
         "paragraph": "Účastník cestnej premávky je ďalej povinný poslúchnuť <b>pokyn vyplývajúci z dopravnej značky alebo dopravného zariadenia</b>."
       }, {
         "paragraph": "Účastník cestnej premávky je ďalej povinný poslúchnuť <b>pokyn, výzvu alebo príkaz policajta</b> súvisiaci s výkonom jeho oprávnení pri dohľade nad bezpečnosťou a plynulosťou cestnej premávky, strpieť výkon jeho oprávnení, ako aj pokyny iných osôb, ktoré na to oprávňuje tento zákon alebo osobitný predpis."
       }, {
-        "image": "img/situations/situation_lanes_04.png",
         "paragraph": "Používanie <b>technických prostriedkov a zariadení</b>, ktorých činnosť umožňuje odhalenie alebo ovplyvňovanie funkcií technických prostriedkov používaných pri plnení úloh na úseku výkonu dohľadu nad bezpečnosťou a plynulosťou cestnej premávky alebo ich umiestnenie vo vozidle spôsobom, ktorý umožňuje ich použitie, je zakázané."
       }]
     }, {
       "id": 3,
+      "minutes": 34,
       "name": "Povinnosti vodiča",
       "content": [{
         "paragraph": "Vodič je povinný použiť na jazdu len vozidlo, ktoré možno prevádzkovať v cestnej premávke."
@@ -140,93 +142,122 @@
       }]
     }, {
       "id": 4,
+      "minutes": 8,
       "name": "Povinnosti niektorých vodičov a spolujazdcov"
     }, {
       "id": 5,
+      "minutes": 8,
       "name": "Povinnosti prevádzkovateľa vozidla"
     }, {
       "id": 6,
+      "minutes": 8,
       "name": "Povinnosti držiteľa vozidla"
     }, {
       "id": 7,
+      "minutes": 8,
       "name": "Povinnosti inštruktora autoškoly"
     }, {
       "id": 8,
+      "minutes": 8,
       "name": "Používanie bezpečnostných pásov a iných zadržiavacích zariadení"
     }]
   }, {
     "section": "Jazda vozidlami",
     "chapters": [{
       "id": 9,
+      "minutes": 8,
       "name": "Spôsob jazdy"
     }, {
       "id": 10,
+      "minutes": 8,
       "name": "Jazda v jazdných pruhoch"
     }, {
       "id": 11,
+      "minutes": 8,
       "name": "Jazda v mimoriadnych prípadoch"
     }, {
       "id": 12,
+      "minutes": 8,
       "name": "Obchádzanie"
     }, {
       "id": 13,
+      "minutes": 8,
       "name": "Predchádzanie"
     }, {
       "id": 14,
+      "minutes": 8,
       "name": "Rýchlosť jazdy"
     }, {
       "id": 15,
+      "minutes": 8,
       "name": "Vzdialenosť medzi vozidlami"
     }, {
       "id": 16,
+      "minutes": 8,
       "name": "Vyhýbanie"
     }, {
       "id": 17,
+      "minutes": 8,
       "name": "Odbočovanie"
     }, {
       "id": 18,
+      "minutes": 8,
       "name": "Jazda cez križovatku"
     }, {
       "id": 19,
+      "minutes": 8,
       "name": "Vchádzanie na cestu"
     }, {
       "id": 20,
+      "minutes": 8,
       "name": "Otáčanie a cúvanie"
     }, {
       "id": 21,
+      "minutes": 8,
       "name": "Zastavenie a státie"
     }, {
       "id": 22,
+      "minutes": 8,
       "name": "Zastavenie vozidla v tuneli"
     }, {
       "id": 23,
+      "minutes": 8,
       "name": "Železničné priecestie"
     }, {
       "id": 24,
+      "minutes": 8,
       "name": "Výstražné znamenie"
     }, {
       "id": 25,
+      "minutes": 8,
       "name": "Osvetlenie vozidla"
     }, {
       "id": 26,
+      "minutes": 8,
       "name": "Vlečenie motorového vozidla"
     }, {
       "id": 27,
+      "minutes": 8,
       "name": "Osobitosti premávky na diaľnici a rýchlostnej ceste"
     }, {
       "id": 28,
+      "minutes": 8,
       "name": "Osobitosti premávky v zimnom období"
     }, {
       "id": 29,
+      "minutes": 8,
       "name": "Obmedzenie jazdy niektorých druhov vozidiel"
     }, {
       "id": 30,
+      "minutes": 8,
       "name": "Vozidlá so zvláštnymi výstražnými zvukovými znameniami alebo svetlami"
     }, {
       "id": 31,
+      "minutes": 8,
       "name": "Prekážka cestnej premávky"
     }, {
       "id": 32,
+      "minutes": 8,
       "name": "Osobitné označenia vozidla a parkovací preukaz"
     }]
   }]

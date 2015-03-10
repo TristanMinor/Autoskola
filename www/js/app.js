@@ -9,7 +9,7 @@ angular.module('autoskola', ['ionic'])
 
   $stateProvider
 
-    .state('tabs', {
+  .state('tabs', {
     url: '/tabs',
     abstract: true,
     templateUrl: 'templates/tabs.html'
@@ -82,7 +82,7 @@ angular.module('autoskola', ['ionic'])
   return {
     link: function(scope, element, attrs) {
       var button, blockquote;
-      
+
       setTimeout(function() {
         // find button in paragraph
         button = element.find('a');
