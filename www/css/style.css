@@ -58,7 +58,7 @@ ion-content {
 
 .item-opened {
   background-color: #fff;
-  padding-top: 1.5em;
+  padding-top: 2em;
 }
 
 .bar.bar-positive {
@@ -68,6 +68,7 @@ ion-content {
 
 .bar.bar-stable {
   background-color: #F2F3F9;
+  border-color: #D2D2D2;
 }
 
 .title-nav > a {
@@ -88,7 +89,7 @@ ion-content {
   border-color: #D2D2D2;
 }
 
-.chapter-text {
+.chapter-text, .chapter-image {
   padding-left: 70px;
   padding-right: 70px;
 }
@@ -97,16 +98,16 @@ ion-content {
   max-height: 0;
   margin: 0;
   padding: 0 0 0 1.5em;
-  margin-bottom: 1.5em;
   opacity: 0;
   overflow: hidden;
-  transition: all 200ms;
+  transition: all 250ms;
   transition-timing-function: ease-in-out;
   color: #777;
 }
 
 .chapter-text blockquote.active {
   max-height: 768px;
+  margin-bottom: 1.5em;
   opacity: 1;
 }
 
@@ -116,6 +117,7 @@ ion-content {
 }
 .chapter-image {
   max-width: 100%;
+  margin-bottom: 1.5em;
 }
 
 /* Lists */
