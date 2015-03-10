@@ -29,7 +29,7 @@ body, .ionic-body {
   line-height: 1.4;
 }
 
-p {
+p  {
   font-family: "preto_serif_ot_std_regular";
 }
 
@@ -89,7 +89,7 @@ ion-content {
 }
 
 .chapter-image {
-  width: 100%;
+  max-width: 100%;
 }
 
 /* Lists */
@@ -105,7 +105,7 @@ ion-content {
   border-left: none;
   border-right: none;
   color: #94959B;
-  font-size: 16px;
-
-  height: 56px;
+  font-size: 14px;
+  height: 54px;
+  line-height: 34px;
 }
