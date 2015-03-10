@@ -77,3 +77,31 @@ angular.module('autoskola', ['ionic'])
     }
   });
 })
+
+.directive('asBlockquoteCollapser', function() {
+  return {
+    link: function(scope, element, attrs) {
+      var button, blockquote;
+      
+      setTimeout(function() {
+        // find button in paragraph
+        button = element.find('a');
+        // find blockquote in paragraph
+        blockquote = element.find('blockquote');
+        // on button click
+        button.on('click', function(e) {
+          e.preventDefault();
+          e.stopPropagation();
+          blockquote.toggleClass('active');
+        })
+      });
+
+      // prevent memory leak
+      scope.$on('$destroy', function() {
+        button.off('click');
+        button = null;
+        blockquote = null;
+      });
+    }
+  }
+})

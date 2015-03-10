@@ -10,7 +10,7 @@
       }, {
         "image": "img/situations/situation_lanes_01.png",
         "headline": "Autobus",
-        "paragraph": "Motorové vozidlo na dopravu osôb, ktoré má okrem miesta pre vodiča viac ako osem miest na sedenie."
+        "paragraph": "<b>Motorové vozidlo</b> \" na dopravu osôb, ktoré má okrem miesta pre vodiča viac ako osem miest na sedenie."
       }, {
         "headline": "Dať prednosť v jazde",
         "paragraph": "Povinnosť účastníka cestnej premávky počínať si tak, aby ten, kto má prednosť v jazde, nemusel náhle zmeniť smer alebo rýchlosť jazdy."
@@ -18,7 +18,7 @@
         "headline": "Držiteľ vozidla",
         "paragraph": "Osoba zapísaná v osvedčení o evidencii časť I a časť II ako držiteľ osvedčenia, alebo takáto osoba zapísaná v osvedčení o evidencii vydanom v cudzine."
       }, {
-        "headline": "Električkový koľajový pás",
+        "headline": "Električkový koľajový pás",        
         "paragraph": "Časť cesty určená predovšetkým na premávku električky."
       }, {
         "headline": "Hranica križovatky",
@@ -34,7 +34,8 @@
       "id": 2,
       "name": "Všeobecné povinnosti účastníka cestnej premávky",
       "content": [{
-        "paragraph": "Účastník cestnej premávky je povinný dodržiavať pravidlá cestnej premávky ustanovené v tomto zákone."
+        "paragraph": "Účastník cestnej premávky je povinný dodržiavať pravidlá cestnej premávky ustanovené v tomto <a href='#'>zákone</a>.",
+        "blockquote": "Účastník cestnej premávky je povinný dodržiavať pravidlá cestnej premávky ustanovené v tomto zákone."
       }, {
         "paragraph": "Účastník cestnej premávky je ďalej povinný správať sa disciplinovane a ohľaduplne tak, aby neohrozil bezpečnosť alebo plynulosť cestnej premávky, pritom je povinný prispôsobiť svoje správanie najmä stavebnému, dopravno-technickému stavu cesty, situácii v cestnej premávke, poveternostným podmienkam a svojim schopnostiam."
       }, {

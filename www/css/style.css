@@ -33,6 +33,11 @@ p {
   font-family: "preto_serif_ot_std_regular";
 }
 
+b, strong {
+  font-weight: normal;
+  font-family: "preto_serif_ot_std_bold"; 
+}
+
 ion-content {
   background-color: #EAECF5;
 }
@@ -67,6 +72,20 @@ ion-content {
 .chapter-text {
   padding-left: 70px;
   padding-right: 70px;
+}
+
+.chapter-text blockquote {
+  max-height: 0;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  transition: all 200ms;
+}
+
+.chapter-text blockquote.active {
+  max-height: 200px;
+  padding: 10px 0;
+  margin: 10px 0;
 }
 
 .chapter-image {
