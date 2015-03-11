@@ -49,6 +49,20 @@
         "id": 6,
         "question": "V poradí tretie prejde okolo prekážky"
       }]
+    }, {
+      "image": {
+        "src": "img/situations/situation_lanes_04.png"
+      },
+      "questions": [{
+        "id": 7,
+        "question": "Vodič červeného vozidla"
+      }, {
+        "id": 8,
+        "question": "V poradí druhé prejde okolo prekážky"
+      }, {
+        "id": 9,
+        "question": "V poradí tretie prejde okolo prekážky"
+      }]
     }]
   }]
 }

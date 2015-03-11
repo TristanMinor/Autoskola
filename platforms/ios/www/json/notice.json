@@ -25,5 +25,25 @@
     "id": 3,
     "points": 2,
     "question": "Najväčšia prípustná celková dĺžka jednotlivého vozíka okrem návesu je"
+  }, {
+    "id": 4,
+    "points": 2,
+    "question": "Najväčšia prípustná celková dĺžka súpravy motorového vozidla s dvoma prívesmi alebo s návesom a jedným prívesom je"
+  }, {
+    "id": 5,
+    "points": 2,
+    "question": "Najväčšia prípustná celková dĺžka súpravy motorového vozidla s jedným prívesom je"
+  }, {
+    "id": 6,
+    "points": 2,
+    "question": "Najväčšia prípustná celková dĺžka súpravy ťahača s návesom je"
+  }, {
+    "id": 7,
+    "points": 2,
+    "question": "Najväčšia prípustná dĺžka prípojného vozidla za osobný automobil je"
+  }, {
+    "id": 8,
+    "points": 2,
+    "question": "Najväčšia prípustná dĺžka prípojného vozidla za dvojkolesové motorové vozidlo"
   }]
 }
