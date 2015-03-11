@@ -1,5 +1,157 @@
-/* Empty. Add your own CSS if you like */
+/* Typography */
+
+@font-face {
+    font-family: 'preto_serif_ot_std_regular';
+    src: url('../fonts/preto_serif_ot_std_regular.eot');
+    src: url('../fonts/preto_serif_ot_std_regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/preto_serif_ot_std_regular.woff2') format('woff2'),
+         url('../fonts/preto_serif_ot_std_regular.woff') format('woff'),
+         url('../fonts/preto_serif_ot_std_regular.ttf') format('truetype'),
+         url('../fonts/preto_serif_ot_std_regular.svg#preto_serif_ot_std_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'preto_serif_ot_std_bold';
+    src: url('../fonts/preto_serif_ot_std_bold.eot');
+    src: url('../fonts/preto_serif_ot_std_bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/preto_serif_ot_std_bold.woff2') format('woff2'),
+         url('../fonts/preto_serif_ot_std_bold.woff') format('woff'),
+         url('../fonts/preto_serif_ot_std_bold.ttf') format('truetype'),
+         url('../fonts/preto_serif_ot_std_bold.svg#preto_serif_ot_stdbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, .ionic-body {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #1F1F1F;
+}
+
+p, blockquote  {
+  font-family: "preto_serif_ot_std_regular";
+  margin: 0 0 1.5em;
+}
+
+b, strong {
+  font-weight: normal;
+  font-family: "preto_serif_ot_std_bold";
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+blockquote {
+  border-left: 2px solid #6842EF;
+}
+
+
+/* Colors, look */
+
+ion-content {
+  background-color: #EAECF5;
+}
+
+.item-opened {
+  background-color: #fff;
+  padding-top: 2em;
+}
+
 .bar.bar-positive {
   background-color: #5D7593;
   border-color: #5D7593;
+}
+
+.bar.bar-stable {
+  background-color: #F2F3F9;
+  border-color: #D2D2D2;
+}
+
+.title-nav > a {
+	padding: 8px 10px;
+}
+
+.bar .title a {
+  color: #A9AAAE;
+}
+
+.title-nav > a.active {
+	color: #6842EF;
+  border-bottom: 5px solid #6842EF;
+}
+
+.tabs-stable > .tabs {
+  background-color: #F2F3F9;
+  border-color: #D2D2D2;
+}
+
+.chapter-text {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.chapter-text blockquote {
+  max-height: 0;
+  margin: 0;
+  padding: 0 0 0 1.5em;
+  opacity: 0;
+  overflow: hidden;
+  transition: all 250ms;
+  transition-timing-function: ease-in-out;
+  color: #777;
+}
+
+.chapter-text blockquote.active {
+  max-height: 768px;
+  margin-bottom: 1.5em;
+  opacity: 1;
+}
+
+.chapter-text a {
+  color: #6842EF;
+  text-decoration: none;
+}
+.chapter-image {
+  max-width: 100%;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+
+/* Lists */
+
+.list-inset {
+  margin: 40px 70px;
+}
+
+.list-inset .item:last-child {
+}
+
+.item-divider {
+  background-color: #EAECF5;
+  text-transform: uppercase;
+  padding-left: 0;
+  border-left: none;
+  border-right: none;
+  color: #94959B;
+  font-size: 14px;
+  height: 54px;
+  line-height: 34px;
+}
+
+.item-content {
+  font-family: "preto_serif_ot_std_regular";
+  font-size: 20px;
+  white-space: normal;
+}
+.item-note {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+}
+
+.item-complex .item-content, .item-radio .item-content {
+  padding: 24px 30px 24px 30px;
 }

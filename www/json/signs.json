@@ -1,6 +1,6 @@
 {
   "signs": [{
-    "section": "Výstražné",
+    "section": "Výstražné značky",
     "questions": [{
       "id": 1,
       "name": "Zákruta vpravo",
@@ -58,6 +58,41 @@
       "image": {
         "src": "img/signs/A2a.svg",
         "imgType": "triangle"
+      }
+    }, {
+      "id": 4,
+      "name": "Dvojitá zákruta, prvá vľavo",
+      "points": 2,
+      "knowledge": {
+        "know": false,
+        "starred": false
+      },
+      "image": {
+        "src": "img/signs/A2b.svg",
+        "imgType": "triangle"
+      }
+    }, {
+      "id": 5,
+      "name": "Zákruty v úseku 2 km, prvá vpravo",
+      "points": 2,
+      "knowledge": {
+        "know": false,
+        "starred": false
+      },
+      "image": {
+        "src": "img/signs/A3a.svg",
+        "imgType": "triangle"
+      }
+    }]
+  }, {
+    "section": "Zákazové značky",
+    "questions": [{
+      "id": 46,
+      "name": "Zákaz vjazdu všetkých vozidiel (v oboch smeroch)",
+      "points": 2,
+      "image": {
+        "src": "img/signs/B1.svg",
+        "imgType": "circle"
       }
     }]
   }]

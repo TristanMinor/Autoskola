@@ -1,36 +1,53 @@
 {
   "situations": [{
-    "points": 2,
-    "knowledge": {
-      "know": false,
-      "starred": false
-    },
-    "image": {
-      "src": ""
-    },
-    "questions": [{
-      "question": "Vaše vozidlo prejde cez križovatku ako",
-      "answers": [{
-        "text": "druhé,",
-        "correct": false
-      }, {
-        "text": "posledné,",
-        "correct": true
-      }, {
-        "text": "prvé.",
-        "correct": false
+    "section": "Jazda v jazdných pruhoch",
+    "bundles": [{
+      "points": 2,
+      "knowledge": {
+        "know": false,
+        "starred": false
+      },
+      "image": {
+        "src": "img/situations/situation_lanes_01.png"
+      },
+      "questions": [{
+        "id": 1,
+        "question": "Tam, kde sa dva jazdné pruhy zbiehajú do jedného pruhu tak, že nie je zrejmé, ktorý z nich je priebežný",
+        "answers": [{
+          "text": "druhé,",
+          "correct": false
+        }, {
+          "text": "posledné,",
+          "correct": true
+        }, {
+          "text": "prvé.",
+          "correct": false
+        }]
       }]
     }, {
-      "question": "Ako posledné prejde cez križovatku",
-      "answers": [{
-        "text": "červené vozidlo prichádzajúce sprava,",
-        "correct": false
+      "image": {
+        "src": "img/situations/situation_lanes_02.png"
+      },
+      "questions": [{
+        "id": 2,
+        "question": "Vodič modrého vozidla"
+      }]
+    }, {
+      "image": {
+        "src": "img/situations/situation_lanes_03.png"
+      },
+      "questions": [{
+        "id": 3,
+        "question": "Vodič modrého vozidla"
       }, {
-        "text": "vaše vozidlo,",
-        "correct": true
+        "id": 4,
+        "question": "Vozidlá prejdú okolo prekážky v tomto poradí"
       }, {
-        "text": "protiidúce modré vozidlo.",
-        "correct": false
+        "id": 5,
+        "question": "V poradí druhé prejde okolo prekážky"
+      }, {
+        "id": 6,
+        "question": "V poradí tretie prejde okolo prekážky"
       }]
     }]
   }]

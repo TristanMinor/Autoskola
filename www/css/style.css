@@ -61,6 +61,9 @@ ion-content {
   padding-top: 2em;
 }
 
+
+/* Bar */
+
 .bar.bar-positive {
   background-color: #5D7593;
   border-color: #5D7593;
@@ -84,10 +87,29 @@ ion-content {
   border-bottom: 5px solid #6842EF;
 }
 
+
+/* Tabs */
+
+.tabs {
+  height: 60px;
+}
+
+.tabs-icon-top > .tabs .tab-item {
+  padding-top: 4px;
+  font-size: 12px;
+}
+
 .tabs-stable > .tabs {
   background-color: #F2F3F9;
   border-color: #D2D2D2;
 }
+
+.tabs a.tab-item-active {
+  color: #6842EF;
+}
+
+
+/* Chapter */
 
 .chapter-text {
   padding-left: 70px;
@@ -125,18 +147,18 @@ ion-content {
 
 .list-inset {
   margin: 40px 70px;
+  background-color: #EAECF5;
 }
 
 .list-inset .item:last-child {
-
 }
 
 .item-divider {
   background-color: #EAECF5;
   text-transform: uppercase;
   padding-left: 0;
-  border-left: none;
-  border-right: none;
+  margin-top: 1px;
+  border: none;
   color: #94959B;
   font-size: 14px;
   height: 54px;

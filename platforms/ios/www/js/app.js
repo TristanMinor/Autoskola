@@ -8,51 +8,60 @@ angular.module('autoskola', ['ionic'])
 .config(function($stateProvider, $urlRouterProvider) {
 
   $stateProvider
-    .state('home', {
-      url: '',
-      templateUrl: 'home.html'
-    })
 
-  .state('theory', {
-      url: '/theory',
-      templateUrl: 'theory.html',
-      controller: 'TheoryController'
-    })
-    .state('chapter', {
-      url: '/theory/chapter/:id',
-      templateUrl: 'chapter.html',
-      controller: 'TheoryChapterController'
-    })
-
-  .state('law', {
-    url: '/law',
-    templateUrl: 'law.html',
-    controller: 'LawController'
+  .state('tabs', {
+    url: '/tabs',
+    abstract: true,
+    templateUrl: 'templates/tabs.html'
   })
 
-  .state('notice', {
-    url: '/notice',
-    templateUrl: 'notice.html',
-    controller: 'NoticeController'
+  .state('tabs.theory', {
+    url: '/theory',
+    views: {
+      'theory-tab': {
+        templateUrl: 'theory.html',
+        controller: 'TheoryController'
+      }
+    }
   })
 
-  .state('signs', {
-    url: '/signs',
-    templateUrl: 'signs.html',
-    controller: 'SignsController'
+  .state('chapter', {
+    url: '/theory/chapter/:id',
+    templateUrl: 'chapter.html',
+    controller: 'TheoryChapterController'
   })
 
-  .state('situations', {
-    url: '/situations',
-    templateUrl: 'situations.html'
+  .state('tabs.questions', {
+    url: '/questions',
+    views: {
+      'questions-tab': {
+        templateUrl: 'questions.html',
+        controller: 'QuestionsController',
+      }
+    }
   })
 
-  .state('tests', {
+  .state('tabs.tests', {
     url: '/tests',
-    templateUrl: 'tests.html'
+    views: {
+      'tests-tab': {
+        templateUrl: 'tests.html',
+        controller: 'TestsController'
+      }
+    }
   })
 
-  $urlRouterProvider.otherwise("");
+  .state('tabs.info', {
+    url: '/info',
+    views: {
+      'info-tab': {
+        templateUrl: 'info.html',
+        controller: 'InfoController'
+      }
+    }
+  })
+
+  $urlRouterProvider.otherwise("tabs/theory");
 
 })
 
@@ -67,4 +76,32 @@ angular.module('autoskola', ['ionic'])
       StatusBar.styleDefault();
     }
   });
+})
+
+.directive('asBlockquoteCollapser', function() {
+  return {
+    link: function(scope, element, attrs) {
+      var button, blockquote;
+
+      setTimeout(function() {
+        // find button in paragraph
+        button = element.find('a');
+        // find blockquote in paragraph
+        blockquote = element.find('blockquote');
+        // on button click
+        button.on('click', function(e) {
+          e.preventDefault();
+          e.stopPropagation();
+          blockquote.toggleClass('active');
+        })
+      });
+
+      // prevent memory leak
+      scope.$on('$destroy', function() {
+        button.off('click');
+        button = null;
+        blockquote = null;
+      });
+    }
+  }
 })

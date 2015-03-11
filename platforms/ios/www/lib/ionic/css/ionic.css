@@ -1013,6 +1013,12 @@
 .ion-ios7-lightbulb-outline:before {
   content: "\f286"; }
 
+.ios-ios7-list:before {
+  content: "\f454";}
+
+.ios-ios7-list-outline:before {
+  content: "\f453";}
+
 .ion-ios7-location:before {
   content: "\f1a6"; }
 
@@ -2488,7 +2494,7 @@ ion-infinite-scroll {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #EAECF5;
+  background-color: #eee;
   overflow: hidden; }
 
 .view-container {
