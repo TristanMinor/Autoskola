@@ -115,16 +115,27 @@
             <button class="button button-icon icon ion-android-arrow-back"></button>
           </a>
         </ion-nav-buttons>
+        <ion-nav-buttons side="secondary">
+          <a href="#">
+            <button class="button button-icon icon ion-ios-star-outline"></button>
+          </a>
+        </ion-nav-buttons>
       </ion-nav-bar>
       <ion-content class="item-opened">
         <div class="question-image">
           <img src="{{ question.image.src}}" alt="">
         </div>
-        <p>{{ question.question }}</p>
-        <div ng-repeat="item in question.answers">
-        <p>{{ item.text }}</p>
+        <div class="question-text">
+          <div class="question-question">
+            <p>{{ question.question }}</p>
+          </div>
+          <a ng-repeat="item in question.answers" href="#" class="question-answer">
+              <span class="question-answer-option">{{ item.option }})</span>
+              {{ item.text }}
+          </a>
         </div>
       </ion-content>
+      <button class="button button-footer button-stable icon ion-ios-more"></button>
     </ion-view>
   </script>
 
