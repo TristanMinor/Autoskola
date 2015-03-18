@@ -220,6 +220,10 @@ ion-content {
   margin-bottom: 2em;
 }
 
+.answer-correct {
+    background-color: green !important;
+}
+
 .question-text p {
   margin: 0;
 }

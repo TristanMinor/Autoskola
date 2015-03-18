@@ -1,0 +1,15 @@
+<ion-view view-title="Teória">
+  <ion-nav-bar class="bar-stable"></ion-nav-bar>
+  <ion-content>
+    <ion-list type="list-inset">
+      <div ng-repeat="item in data">
+        <div class="item item-divider">
+          {{ item.section }}
+        </div>
+        <ion-item nav-direction="forward" href="#/theory/chapter/{{chapter.id}}" ng-repeat="chapter in item.chapters">
+          {{ chapter.name }} <span class="item-note">{{ chapter.minutes }} min</span>
+        </ion-item>
+      </div>
+    </ion-list>
+  </ion-content>
+</ion-view>

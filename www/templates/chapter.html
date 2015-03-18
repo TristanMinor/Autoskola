@@ -1,0 +1,21 @@
+<ion-view view-title="{{ chapter.name }}">
+  <ion-nav-bar class="bar-stable">
+    <ion-nav-buttons side="primary">
+      <a nav-direction="back" href="#/theory">
+        <button class="button button-icon icon ion-android-arrow-back"></button>
+      </a>
+    </ion-nav-buttons>
+  </ion-nav-bar>
+  <ion-content class="item-opened">
+    <div ng-repeat="item in chapter.content">
+
+      <div class="chapter-text" as-blockquote-collapser>
+        <h3 ng-if="item.headline">{{ item.headline}}</h3>
+        <img ng-if="item.image" src="{{ item.image }}" class="chapter-image">
+        <p ng-if="item.paragraph" ng-bind-html="item.paragraph"></p>
+        <blockquote ng-show="item.blockquote" ng-bind-html="item.blockquote"></blockquote>
+      </div>
+
+    </div>
+  </ion-content>
+</ion-view>

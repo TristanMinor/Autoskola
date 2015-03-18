@@ -19,7 +19,7 @@ angular.module('autoskola', ['ionic'])
     url: '/theory',
     views: {
       'theory-tab': {
-        templateUrl: 'theory.html',
+        templateUrl: 'templates/theory.html',
         controller: 'TheoryController'
       }
     }
@@ -27,7 +27,7 @@ angular.module('autoskola', ['ionic'])
 
   .state('chapter', {
     url: '/theory/chapter/:id',
-    templateUrl: 'chapter.html',
+    templateUrl: 'templates/chapter.html',
     controller: 'TheoryChapterController'
   })
 
@@ -35,7 +35,7 @@ angular.module('autoskola', ['ionic'])
     url: '/questions',
     views: {
       'questions-tab': {
-        templateUrl: 'questions.html',
+        templateUrl: 'templates/questions.html',
         controller: 'QuestionsController'
       }
     }
@@ -43,7 +43,7 @@ angular.module('autoskola', ['ionic'])
 
   .state('question-sign', {
     url: '/questions/sign/:id',
-    templateUrl: 'question-sign.html',
+    templateUrl: 'templates/question-sign.html',
     controller: 'QuestionsSignsQuestionController'
   })
 
@@ -51,7 +51,7 @@ angular.module('autoskola', ['ionic'])
     url: '/tests',
     views: {
       'tests-tab': {
-        templateUrl: 'tests.html',
+        templateUrl: 'templates/tests.html',
         controller: 'TestsController'
       }
     }
@@ -61,7 +61,7 @@ angular.module('autoskola', ['ionic'])
     url: '/info',
     views: {
       'info-tab': {
-        templateUrl: 'info.html',
+        templateUrl: 'templates/info.html',
         controller: 'InfoController'
       }
     }
