@@ -71,6 +71,9 @@ ion-content {
   border: none;
   box-shadow: none;
 }
+.item .item-content.activated {
+  background-color: #DBE0F2;
+}
 
 /* Bar */
 
@@ -220,8 +223,13 @@ ion-content {
   margin-bottom: 2em;
 }
 
-.answer-correct {
-    background-color: green !important;
+.answers .item {
+  border-width: 0;
+}
+
+.question-answer.answer-correct {
+    background-color: #D6F8D6;
+    color: #4FBC53;
 }
 
 .question-text p {
@@ -236,10 +244,10 @@ ion-content {
   padding: 24px 70px;
 }
 
-.question-answer-option {
+.answer-option {
   width: 2em;
   float: left;
-  color: #888;
+  color: #aaa;
 }
 
 .button-footer {

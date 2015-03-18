@@ -1,5 +1,5 @@
 angular.module('autoskola')
-  .controller('SignsController', function($scope, $http) {
+  .controller('QuestionsSignsController', function($scope, $http) {
     $scope.data = [];
 
     $http.get('json/signs.json').success(function(response) {
