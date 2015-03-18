@@ -11,13 +11,16 @@
       },
       "question": "Táto dopravná značka znamená:",
       "answers": [{
+        "option": "a",
         "text": "Zákaz odbočovania vpravo,",
         "correct": false
       }, {
+        "option": "b",
         "text": "Zákruta vpravo,",
         "correct": true
       }, {
-        "text": "Nebezpečné stúpanie,",
+        "option": "c",
+        "text": "Nebezpečné stúpanie.",
         "correct": false
       }],
       "image": {
@@ -34,12 +37,15 @@
       },
       "question": "Táto dopravná značka znamená:",
       "answers": [{
+        "option": "a",
         "text": "Zákruta vľavo,",
         "correct": true
       }, {
+        "option": "b",
         "text": "Nebezpečné stúpanie,",
         "correct": false
       }, {
+        "option": "c",
         "text": "Zákaz odboćovania vľavo,",
         "correct": false
       }],
@@ -90,6 +96,20 @@
       "id": 46,
       "name": "Zákaz vjazdu všetkých vozidiel (v oboch smeroch)",
       "points": 2,
+      "question": "Táto dopravná značka platí:",
+      "answers": [{
+        "option": "a",
+        "text": "len pre traktory s prívesom,",
+        "correct": true
+      }, {
+        "option": "b",
+        "text": "aj pre jednonápravové kultivačné traktory, motorové dopravné vozíky, motorové ručné vozíky, samohybné poľnohospodárske a lesné stroje a pojazdné pracovné stroje,",
+        "correct": false
+      }, {
+        "option": "c",
+        "text": "len pre traktory; neplatí však pre samohybné poľnohospodárske a lesné stroje.",
+        "correct": false
+      }],
       "image": {
         "src": "img/signs/B1.svg",
         "imgType": "circle"

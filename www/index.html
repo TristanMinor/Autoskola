@@ -129,10 +129,17 @@
           <div class="question-question">
             <p>{{ question.question }}</p>
           </div>
-          <a ng-repeat="item in question.answers" href="#" class="question-answer">
-              <span class="question-answer-option">{{ item.option }})</span>
-              {{ item.text }}
-          </a>
+
+          <div class="list">
+            <label ng-repeat="item in question.answers" class="item item-radio">
+                <input type="radio" name="group">
+                <div class="item-content question-answer">
+                  <span class="question-answer-option">{{ item.option }})</span>
+                  {{ item.text }}
+                </div>
+            </label>
+          </div>
+
         </div>
       </ion-content>
       <button class="button button-footer button-stable icon ion-ios-more"></button>

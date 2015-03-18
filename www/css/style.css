@@ -224,17 +224,11 @@ ion-content {
   margin: 0;
 }
 
-.question-text a {
-  text-decoration: none;
-  color: inherit;
-  display: block;
+.item-radio input:checked ~ .item-content {
+  background-color: #DBE0F2;
 }
 
-.question-text a.activated {
-  background-color: #EAECF5;
-}
-
-.question-question, .question-answer {
+.question-question, .item .question-answer {
   padding: 24px 70px;
 }
 
@@ -242,8 +236,6 @@ ion-content {
   width: 2em;
   float: left;
   color: #888;
-  display: block;
-  height: 100%;
 }
 
 .button-footer {

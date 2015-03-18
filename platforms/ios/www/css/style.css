@@ -30,7 +30,7 @@ body, .ionic-body {
   color: #1F1F1F;
 }
 
-p, blockquote  {
+p, blockquote, .question-text  {
   font-family: "preto_serif_ot_std_regular";
   margin: 0 0 1.5em;
 }
@@ -61,6 +61,16 @@ ion-content {
   padding-top: 2em;
 }
 
+.button.button-stable {
+  background-color: #EAECF5;
+  border: none;
+}
+
+.button.button-stable.activated {
+  background-color: #D1D5E9;
+  border: none;
+  box-shadow: none;
+}
 
 /* Bar */
 
@@ -109,6 +119,64 @@ ion-content {
 }
 
 
+/* Lists */
+
+.list-inset {
+  margin: 40px 70px;
+  background-color: #EAECF5;
+}
+
+.list-inset .item:last-child {
+}
+
+.item-divider {
+  background-color: #EAECF5;
+  text-transform: uppercase;
+  padding-left: 0;
+  margin-top: 1px;
+  border: none;
+  color: #94959B;
+  font-size: 14px;
+  height: 54px;
+  line-height: 34px;
+}
+
+.item-id {
+  width: 38px;
+  float: left;
+  height: 100%;
+  text-align: right;
+  margin-right: 0.2em;
+}
+
+.item-content {
+  font-family: "preto_serif_ot_std_regular";
+  font-size: 20px;
+  white-space: normal;
+}
+
+.item-note {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+}
+
+.item .item-content{
+  padding: 24px 30px 24px 30px;
+}
+
+.item-thumbnail-left, .item-thumbnail-left .item-content {
+  padding-left: 106px;
+}
+
+.bundle-situations {
+  margin-bottom: 1.5em;
+}
+
+.bundle-situations:last-child {
+  margin-bottom: 0;
+}
+
+
 /* Chapter */
 
 .chapter-text {
@@ -143,46 +211,38 @@ ion-content {
   margin-bottom: 1em;
 }
 
-/* Lists */
 
-.list-inset {
-  margin: 40px 70px;
-  background-color: #EAECF5;
+/* Question */
+
+.question-image {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2em;
 }
 
-.list-inset .item:last-child {
+.question-text p {
+  margin: 0;
 }
 
-.item-divider {
-  background-color: #EAECF5;
-  text-transform: uppercase;
-  padding-left: 0;
-  margin-top: 1px;
-  border: none;
-  color: #94959B;
-  font-size: 14px;
-  height: 54px;
-  line-height: 34px;
+.item-radio input:checked ~ .item-content {
+  background-color: #DBE0F2;
 }
 
-.item-content {
-  font-family: "preto_serif_ot_std_regular";
-  font-size: 20px;
-  white-space: normal;
-}
-.item-note {
-  font-family: 'Helvetica Neue', sans-serif;
-  font-size: 18px;
+.question-question, .item .question-answer {
+  padding: 24px 70px;
 }
 
-.item-complex .item-content, .item-radio .item-content {
-  padding: 24px 30px 24px 30px;
+.question-answer-option {
+  width: 2em;
+  float: left;
+  color: #888;
 }
 
-.bundle-situations {
-  margin-bottom: 1.5em;
-}
-
-.bundle-situations:last-child {
-  margin-bottom: 0;
+.button-footer {
+  position: fixed;
+  bottom: 0;
+  margin: 0;
+  width: 100%;
+  border-right-width: 0;
+  border-left-width: 0;
 }

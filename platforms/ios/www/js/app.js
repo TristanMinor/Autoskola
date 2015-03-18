@@ -36,9 +36,15 @@ angular.module('autoskola', ['ionic'])
     views: {
       'questions-tab': {
         templateUrl: 'questions.html',
-        controller: 'QuestionsController',
+        controller: 'QuestionsController'
       }
     }
+  })
+
+  .state('question-sign', {
+    url: '/questions/sign/:id',
+    templateUrl: 'question-sign.html',
+    controller: 'QuestionsSignsQuestionController'
   })
 
   .state('tabs.tests', {

@@ -22,15 +22,21 @@
 
   <!-- your app's js -->
   <script src="js/app.js"></script>
+
   <script src="js/theory-controller.js"></script>
   <script src="js/theory-chapter-controller.js"></script>
+
   <script src="js/questions-controller.js"></script>
   <script src="js/questions-law-controller.js"></script>
   <script src="js/questions-notice-controller.js"></script>
   <script src="js/questions-signs-controller.js"></script>
+  <script src="js/questions-signs-question-controller.js"></script>
   <script src="js/questions-situations-controller.js"></script>
+
   <script src="js/tests-controller.js"></script>
+
   <script src="js/info-controller.js"></script>
+
 </head>
 
 <body ng-app="autoskola" class="platform-ios platform-cordova platform-webview">
@@ -101,6 +107,45 @@
     </ion-view>
   </script>
 
+  <script id="question-sign.html" type="text/ng-template">
+    <ion-view view-title="{{ question.name }}">
+      <ion-nav-bar class="bar-stable">
+        <ion-nav-buttons side="primary">
+          <a href="#/tabs/questions" nav-direction="back">
+            <button class="button button-icon icon ion-android-arrow-back"></button>
+          </a>
+        </ion-nav-buttons>
+        <ion-nav-buttons side="secondary">
+          <a href="#">
+            <button class="button button-icon icon ion-ios-star-outline"></button>
+          </a>
+        </ion-nav-buttons>
+      </ion-nav-bar>
+      <ion-content class="item-opened">
+        <div class="question-image">
+          <img src="{{ question.image.src}}" alt="">
+        </div>
+        <div class="question-text">
+          <div class="question-question">
+            <p>{{ question.question }}</p>
+          </div>
+
+          <div class="list">
+            <label ng-repeat="item in question.answers" class="item item-radio">
+                <input type="radio" name="group">
+                <div class="item-content question-answer">
+                  <span class="question-answer-option">{{ item.option }})</span>
+                  {{ item.text }}
+                </div>
+            </label>
+          </div>
+
+        </div>
+      </ion-content>
+      <button class="button button-footer button-stable icon ion-ios-more"></button>
+    </ion-view>
+  </script>
+
   <script id="questions.html" type="text/ng-template">
     <ion-view>
 
@@ -123,8 +168,8 @@
           <!-- Law tab -->
           <div ng-switch-when="tab-law" ng-controller="QuestionsLawController">
             <ion-list type="list-inset">
-              <ion-item nav-direction="forward" ng-repeat="item in data" class="item item-icon-right">
-                {{item.id}}. {{ item.question }}
+              <ion-item nav-direction="forward" href="#" ng-repeat="item in data" class="item item-icon-right">
+                {{ item.question }}
                 <i class="icon ion-ios-star-outline"></i>
                 <ion-option-button class="button button-positive">
                   <button class="button button-positive icon ion-checkmark"></button>
@@ -136,8 +181,8 @@
           <!-- Notice tab -->
           <div ng-switch-when="tab-notice" ng-controller="QuestionsNoticeController">
             <ion-list type="list-inset">
-              <ion-item ng-repeat="item in data" class="item item-icon-right">
-                {{ item.id }}. {{ item.question }}
+              <ion-item ng-repeat="item in data" href="#" class="item item-icon-right">
+                {{ item.question }}
                 <i class="icon ion-ios-star-outline"></i>
                 <ion-option-button class="button button-positive">
                   <button class="button button-positive icon ion-checkmark"></button>
@@ -153,9 +198,9 @@
                 <div class="item item-divider">
                   {{ item.section }}
                 </div>
-                <ion-item class="item item-thumbnail-left item-icon-right" href="" ng-repeat="question in item.questions">
+                <ion-item ng-repeat="question in item.questions" href="#/questions/sign/{{question.id}}" class="item item-thumbnail-left item-icon-right">
                   <img src="{{ question.image.src }}" alt="">
-                  {{ question.id }}. {{ question.name }}
+                  {{ question.name }}
                   <i class="icon ion-ios-star-outline"></i>
                   <ion-option-button class="button button-positive">
                     <button class="button button-positive icon ion-checkmark"></button>
@@ -174,10 +219,10 @@
                 </div>
                 <div ng-repeat="bundle in item.bundles" class="bundle-situations">
                   <div class="item item-image">
-                    <img src="{{ bundle.image.src }}" alt="">
+                  <img src="{{ bundle.image.src }}" alt="">
                   </div>
-                  <ion-item ng-repeat="question in bundle.questions" class="item item-icon-right">
-                    {{ question.id }}. {{ question.question }}
+                  <ion-item ng-repeat="question in bundle.questions" href="#" class="item item-icon-right">
+                    {{ question.question }}
                     <i class="icon ion-ios-star-outline"></i>
                     <ion-option-button class="button button-positive">
                       <button class="button button-positive icon ion-checkmark"></button>
