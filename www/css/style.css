@@ -258,3 +258,11 @@ ion-content {
   border-right-width: 0;
   border-left-width: 0;
 }
+
+.modal-fullscreen {
+  top: 0 ;
+  bottom: 0 ;
+  left: 0 ;
+  right: 0 ;
+  width: 100% ;
+}
