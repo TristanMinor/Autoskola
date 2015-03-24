@@ -84,7 +84,7 @@ ion-content {
 }
 
 .bar.bar-stable {
-  background-color: #F2F3F9;
+  background-color: #EAECF5;
   border-color: #D2D2D2;
 }
 
@@ -108,18 +108,18 @@ ion-content {
   height: 60px;
 }
 
+.tabs-positive > .tabs, .tabs.tabs-positive {
+  background-color: #6842EC;
+  border: none;
+}
+
 .tabs-icon-top > .tabs .tab-item {
   padding-top: 4px;
   font-size: 12px;
 }
 
-.tabs-stable > .tabs {
-  background-color: #F2F3F9;
-  border-color: #D2D2D2;
-}
-
 .tabs a.tab-item-active {
-  color: #6842EF;
+  color: #fff;
 }
 
 
