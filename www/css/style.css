@@ -153,19 +153,16 @@ ion-content {
   margin-right: 0.2em;
 }
 
-.item-content {
-  font-family: "preto_serif_ot_std_regular";
-  font-size: 20px;
-  /* white-space: normal; */
-}
-
 .item-note {
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 18px;
 }
 
-.item .item-content{
+.item .item-content {
+  font-family: 'preto_serif_ot_std_regular';
+  font-size: 20px;
   padding: 24px 30px 24px 30px;
+  white-space: nowrap;
 }
 
 .item-thumbnail-left, .item-thumbnail-left .item-content {
@@ -173,13 +170,16 @@ ion-content {
 }
 
 .bundle-situations {
-  margin-bottom: 1.5em;
+  margin-bottom: 0;
 }
 
 .bundle-situations:last-child {
   margin-bottom: 0;
 }
 
+.item-options .button {
+  padding: 0px 24px;
+}
 
 /* Chapter */
 
