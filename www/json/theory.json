@@ -42,11 +42,11 @@
       }, {
         "headline": "Motorové vozidlo",
         "paragraph": "Nekoľajové vozidlo poháňané vlastným motorom s výnimkou prípadu podľa <a href='#'>písmena f)</a> a trolejbus.",
-        "blockquote": "<b>písmeno f)</b><br>Účastník cestnej premávky pohybujúci sa pešo; chodcom je aj osoba, ktorá napríklad tlačí alebo ťahá sánky, detský kočík, vozík pre osoby so zdravotným postihnutím alebo ručný vozík s celkovou šírkou nepresahujúcou 600 mm, osoba, ktorá sa pohybuje na lyžiach, korčuliach, skejtborde alebo obdobnom športovom vybavení, pomocou mechanického alebo elektrického vozíka pre osoby so zdravotným postihnutím, a osoba, ktorá tlačí bicykel alebo motocykel, alebo vedie zviera."
+        "blockquote": "<b>§ 2 ods. 2 f)</b><br>Účastník cestnej premávky pohybujúci sa pešo; chodcom je aj osoba, ktorá napríklad tlačí alebo ťahá sánky, detský kočík, vozík pre osoby so zdravotným postihnutím alebo ručný vozík s celkovou šírkou nepresahujúcou 600 mm, osoba, ktorá sa pohybuje na lyžiach, korčuliach, skejtborde alebo obdobnom športovom vybavení, pomocou mechanického alebo elektrického vozíka pre osoby so zdravotným postihnutím, a osoba, ktorá tlačí bicykel alebo motocykel, alebo vedie zviera."
       }, {
         "headline": "Nemotorové vozidlo",
         "paragraph": "Prípojné vozidlo, vozidlo pohybujúce sa pomocou ľudskej sily alebo zvieracej sily s výnimkou prípadov podľa <a href='#'>písmena f)</a> a bicykel vybavený pomocným motorom so zdvihovým objemom valcov nepresahujúcim 50 cm<sup>3</sup> s konštrukčnou rýchlosťou neprevyšujúcou 25 km/h alebo bicykel vybavený pomocným elektrickým motorom s trvalým menovitým výkonom do 0,25 kW, ktorého výkon sa progresívne znižuje a nakoniec sa preruší, keď vozidlo dosiahne rýchlosť 25 km/h alebo keď vodič prestane šliapať do pedálov.",
-        "blockquote": "<b>písmeno f)</b><br>Účastník cestnej premávky pohybujúci sa pešo; chodcom je aj osoba, ktorá napríklad tlačí alebo ťahá sánky, detský kočík, vozík pre osoby so zdravotným postihnutím alebo ručný vozík s celkovou šírkou nepresahujúcou 600 mm, osoba, ktorá sa pohybuje na lyžiach, korčuliach, skejtborde alebo obdobnom športovom vybavení, pomocou mechanického alebo elektrického vozíka pre osoby so zdravotným postihnutím, a osoba, ktorá tlačí bicykel alebo motocykel, alebo vedie zviera."
+        "blockquote": "<b>§ 2 ods. 2 f)</b><br>Účastník cestnej premávky pohybujúci sa pešo; chodcom je aj osoba, ktorá napríklad tlačí alebo ťahá sánky, detský kočík, vozík pre osoby so zdravotným postihnutím alebo ručný vozík s celkovou šírkou nepresahujúcou 600 mm, osoba, ktorá sa pohybuje na lyžiach, korčuliach, skejtborde alebo obdobnom športovom vybavení, pomocou mechanického alebo elektrického vozíka pre osoby so zdravotným postihnutím, a osoba, ktorá tlačí bicykel alebo motocykel, alebo vedie zviera."
       }, {
         "headline": "Neobmedzenie",
         "paragraph": "Povinnosť účastníka cestnej premávky počínať si tak, aby inému účastníkovi cestnej premávky neprekážal."
@@ -101,29 +101,36 @@
       "minutes": 12,
       "name": "Všeobecné povinnosti účastníka cestnej premávky",
       "content": [{
+        "headline": "Dodržiavanie pravidiel cestnej premávky",
         "paragraph": "Účastník cestnej premávky je povinný dodržiavať pravidlá cestnej premávky ustanovené v tomto zákone."
       }, {
-        "paragraph": "Účastník cestnej premávky je ďalej povinný správať sa <b>disciplinovane a ohľaduplne</b> tak, aby neohrozil bezpečnosť alebo plynulosť cestnej premávky, pritom je povinný prispôsobiť svoje správanie najmä stavebnému, dopravno-technickému stavu cesty, situácii v cestnej premávke, poveternostným podmienkam a svojim schopnostiam."
+        "headline": "Disciplína a ohľaduplnosť",
+        "paragraph": "Účastník cestnej premávky je ďalej povinný správať sa disciplinovane a ohľaduplne tak, aby neohrozil bezpečnosť alebo plynulosť cestnej premávky, pritom je povinný prispôsobiť svoje správanie najmä stavebnému, dopravno-technickému stavu cesty, situácii v cestnej premávke, poveternostným podmienkam a svojim schopnostiam."
       }, {
-        "image": "img/situations/situation_lanes_04.png",
-        "paragraph": "Účastník cestnej premávky je ďalej povinný poslúchnuť <b>pokyn vyplývajúci z dopravnej značky alebo dopravného zariadenia</b>."
+        "headline": "Pokyn vyplývajúci z dopravnej značky alebo dopravného zariadenia",
+        "paragraph": "Účastník cestnej premávky je ďalej povinný poslúchnuť pokyn vyplývajúci z dopravnej značky alebo dopravného zariadenia."
       }, {
-        "paragraph": "Účastník cestnej premávky je ďalej povinný poslúchnuť <b>pokyn, výzvu alebo príkaz policajta</b> súvisiaci s výkonom jeho oprávnení pri dohľade nad bezpečnosťou a plynulosťou cestnej premávky, strpieť výkon jeho oprávnení, ako aj pokyny iných osôb, ktoré na to oprávňuje tento zákon alebo osobitný predpis."
+        "headline": "Pokyn, výzva alebo príkaz policajta",
+        "paragraph": "Účastník cestnej premávky je ďalej povinný poslúchnuť pokyn, výzvu alebo príkaz policajta súvisiaci s výkonom jeho oprávnení pri dohľade nad bezpečnosťou a plynulosťou cestnej premávky, strpieť výkon jeho oprávnení, ako aj pokyny iných osôb, ktoré na to oprávňuje tento zákon alebo osobitný predpis."
       }, {
-        "paragraph": "Používanie <b>technických prostriedkov a zariadení</b>, ktorých činnosť umožňuje odhalenie alebo ovplyvňovanie funkcií technických prostriedkov používaných pri plnení úloh na úseku výkonu dohľadu nad bezpečnosťou a plynulosťou cestnej premávky alebo ich umiestnenie vo vozidle spôsobom, ktorý umožňuje ich použitie, je zakázané."
+        "headline": "Technické prostriedky a zariadenia",
+        "paragraph": "Používanie technických prostriedkov a zariadení, ktorých činnosť umožňuje odhalenie alebo ovplyvňovanie funkcií technických prostriedkov používaných pri plnení úloh na úseku výkonu dohľadu nad bezpečnosťou a plynulosťou cestnej premávky alebo ich umiestnenie vo vozidle spôsobom, ktorý umožňuje ich použitie, je zakázané."
       }]
     }, {
       "id": 3,
       "minutes": 34,
       "name": "Povinnosti vodiča",
       "content": [{
+        "headline": "Vozidlo vhodné do prevádzky",
         "paragraph": "Vodič je povinný použiť na jazdu len vozidlo, ktoré možno prevádzkovať v cestnej premávke."
       }, {
-        "paragraph": "Vodič je povinný mať pri sebe <b>platné doklady</b> predpísané týmto zákonom alebo osobitným predpisom."
+        "headline": "Platné doklady",
+        "paragraph": "Vodič je povinný mať pri sebe platné doklady predpísané týmto zákonom alebo osobitným predpisom."
       }, {
+        "headline": "Sústredenie",
         "paragraph": "Vodič je povinný venovať sa plne vedeniu vozidla a sledovať situáciu v cestnej premávke."
       }, {
-        "paragraph": "Vodič je povinný brať ohľad na <b>vozidlo označené osobitným označením</b> a na označené výcvikové vozidlo autoškoly."
+        "paragraph": "Vodič je povinný brať ohľad na vozidlo označené osobitným označením a na označené výcvikové vozidlo autoškoly."
       }, {
         "paragraph": "Vodič je povinný dbať na zvýšenú opatrnosť voči cyklistom a chodcom, najmä deťom, osobám so zdravotným postihnutím, osobitne voči osobám, ktoré používajú bielu palicu, a starým osobám."
       }, {
@@ -138,7 +145,32 @@
         "paragraph": "Vodič nesmie viesť motorové vozidlo <b>bez príslušného vodičského oprávnenia</b>, v čase jeho odobratia alebo počas zadržania vodičského preukazu; to neplatí, ak sa učí viesť motorové vozidlo v autoškole, podrobuje sa skúške z vedenia motorového vozidla alebo má povolenú jazdu podľa <a href='#'>§ 70 ods. 4 a § 71 ods. 2</a>.",
         "blockquote": "<b>§ 70 ods. 4</b><br>Policajt bezodkladne vydá o zadržaní vodičského preukazu potvrdenie a najneskôr v nasledujúci pracovný deň po zadržaní vodičského preukazu zašle vodičský preukaz orgánu Policajného zboru príslušnému podľa miesta, kde bol vodičský preukaz zadržaný. V potvrdení môže policajt povoliť ďalšiu jazdu s vozidlom najviac na 15 dní, ak takou jazdou nebude ohrozená bezpečnosť alebo plynulosť cestnej premávky; povolenie platí len na území Slovenskej republiky. <br><br><b>§ 71 ods. 2</b><br>Policajt na mieste vydá o zadržaní vodičského preukazu podľa odseku 1 potvrdenie, v ktorom povolí ďalšiu jazdu na 15 dní; povolenie platí len na území Slovenskej republiky. V potvrdení musí byť uvedený rozsah udeleného vodičského oprávnenia a spôsob vrátenia vodičského preukazu. Páchateľ priestupku môže požiadať policajta, ktorý vodičský preukaz zadržal, aby zadržaný vodičský preukaz postúpil orgánu Policajného zboru v mieste jeho pobytu alebo v mieste, kde sa zdržiava, na účely jeho vrátenia; policajt je povinný tejto žiadosti vyhovieť."
       }, {
-        "paragraph": "Vodič nesmie počas vedenia vozidla používať <b>telefónny prístroj</b> okrem telefonovania s použitím systému „voľné ruky“ alebo vykonávať inú obdobnú činnosť, ktorá nesúvisí s vedením vozidla; to neplatí pre vodiča vozidla ozbrojených síl Slovenskej republiky (ďalej len „ozbrojené sily“), ozbrojených bezpečnostných zborov, ozbrojených zborov, Vojenskej polície, obecnej polície, Hasičského a záchranného zboru, ostatných hasičských jednotiek, Horskej záchrannej služby, záchrannej zdravotnej služby, banskej záchrannej služby, Vojenského spravodajstva a Slovenskej informačnej služby pri plnení svojich úloh."
+        "paragraph": "Vodič nesmie požiť počas vedenia vozidla <b>alkohol alebo inú návykovú látku</b>, ani viesť vozidlo v takom čase po požití alkoholu alebo inej návykovej látky, keď sa alkohol alebo iná návyková látka ešte môžu nachádzať v jeho organizme."
+      }, {
+        "paragraph": "Vodič nesmie viesť vozidlo po požití lieku v čase, keď liek môže znížiť jeho schopnosť viesť vozidlo, ani viesť vozidlo, ak jeho schopnosť viesť vozidlo je znížená najmä úrazom, chorobou, nevoľnosťou alebo únavou."
+      }, {
+        "paragraph": "Vodič nesmie odovzdať vedenie vozidla osobe, ktorá nespĺňa podmienky na vedenie vozidla ustanovené týmto zákonom, osobe, ktorá je pod vplyvom alkoholu alebo inej návykovej látky, alebo osobe, ktorej schopnosť viesť vozidlo je inak znížená."
+      }, {
+        "paragraph": "Vodič nesmie ohroziť chodcov prechádzajúcich cez cestu, na ktorú vodič odbočuje, pri odbočovaní na miesto mimo cesty, pri vchádzaní na cestu a pri otáčaní alebo pri cúvaní."
+      }, {
+        "paragraph": "Vodič nesmie ohroziť cyklistov prechádzajúcich cez priechod pre cyklistov."
+      }, {
+        "paragraph": "Vodič nesmie poškodzovať životné prostredie, najmä verejnú a cestnú zeleň."
+      }, {
+        "image": "img/theory/003_slowRiding.png",
+        "paragraph": "Vodič nesmie prekážať v jazde rýchlejšie idúcim vozidlám a obmedzovať plynulosť cestnej premávky."
+      }, {
+        "image": "img/theory/003_stoppingSuddenly.png",
+        "paragraph": "Vodič nesmie znížiť náhle rýchlosť jazdy alebo náhle zastaviť, ak to nevyžaduje bezpečnosť cestnej premávky."
+      }, {
+       "paragraph": "Vodič nesmie počas vedenia vozidla používať telefónny prístroj okrem telefonovania s použitím systému „voľné ruky“ alebo vykonávať inú obdobnú činnosť, ktorá nesúvisí s vedením vozidla; to neplatí pre vodiča vozidla ozbrojených síl Slovenskej republiky (ďalej len „ozbrojené sily“), ozbrojených bezpečnostných zborov, ozbrojených zborov, Vojenskej polície, obecnej polície, Hasičského a záchranného zboru, ostatných hasičských jednotiek, Horskej záchrannej služby, záchrannej zdravotnej služby, banskej záchrannej služby, Vojenského spravodajstva a Slovenskej informačnej služby pri plnení svojich úloh."
+      }, {
+        "paragraph": "Vodič nesmie používať hanlivé gestá voči ostatným účastníkom cestnej premávky, vyhadzovať z vozidla predmety a obťažovať ostatných účastníkov cestnej premávky ani iné osoby najmä nadmerným hlukom, prachom, znečisťovaním ovzdušia, rozstrekovaním kaluží, blata alebo zbytočným ponechaním motora stojaceho vozidla v chode."
+      }, {
+        "paragraph": "Vodič nesmie použiť na jazdu vozidlo, ktoré svojím farebným vyhotovením a označením sa dá zameniť s vozidlom Policajného zboru, Vojenskej polície, Zboru väzenskej a justičnej stráže, obecnej polície, Hasičského a záchranného zboru alebo ostatných hasičských jednotiek. "
+      }, {
+        "headline": "Zastavenie vozidla na priechode pre chodcov",
+        "paragraph": "Vodič nesmie zastaviť vozidlo na priechode pre chodcov alebo na priechode pre cyklistov, ak to nevyžaduje bezpečnosť cestnej premávky. "
       }]
     }, {
       "id": 4,

@@ -20,7 +20,7 @@
       <div ng-switch-when="tab-law" ng-controller="QuestionsLawController">
         <ion-list type="list-inset">
           <ion-item nav-direction="forward" href="#" ng-repeat="item in data" class="item item-icon-right">
-            {{ item.question }}
+            {{ item.id }}. {{ item.question }}
             <i class="icon ion-ios-star-outline"></i>
             <ion-option-button class="button button-positive">
               <button class="button button-positive icon ion-checkmark"></button>
@@ -33,7 +33,7 @@
       <div ng-switch-when="tab-notice" ng-controller="QuestionsNoticeController">
         <ion-list type="list-inset">
           <ion-item ng-repeat="item in data" href="#" class="item item-icon-right">
-            {{ item.question }}
+            {{ item.id }}. {{ item.question }}
             <i class="icon ion-ios-star-outline"></i>
             <ion-option-button class="button button-positive">
               <button class="button button-positive icon ion-checkmark"></button>
@@ -51,7 +51,7 @@
             </div>
             <ion-item ng-repeat="question in item.questions" href="#/questions/sign/{{question.id}}" class="item item-thumbnail-left item-icon-right">
               <img src="{{ question.image.src }}" alt="">
-              {{ question.name }}
+              {{ question.id }}. {{ question.name }}
               <i class="icon ion-ios-star-outline"></i>
               <ion-option-button class="button button-positive">
                 <button class="button button-positive icon ion-checkmark"></button>
@@ -73,7 +73,7 @@
                 <img src="{{ bundle.image.src }}" alt="">
               </div>
               <ion-item ng-repeat="question in bundle.questions" href="#" class="item item-icon-right">
-                {{ question.question }}
+                {{ question.id}}. {{ question.question }}
                 <i class="icon ion-ios-star-outline"></i>
                 <ion-option-button class="button button-positive">
                   <button class="button button-positive icon ion-checkmark"></button>

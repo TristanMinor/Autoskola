@@ -71,6 +71,7 @@ ion-content {
   border: none;
   box-shadow: none;
 }
+
 .item .item-content.activated {
   background-color: #DBE0F2;
 }
@@ -155,7 +156,7 @@ ion-content {
 .item-content {
   font-family: "preto_serif_ot_std_regular";
   font-size: 20px;
-  white-space: normal;
+  /* white-space: normal; */
 }
 
 .item-note {
