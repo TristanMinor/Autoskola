@@ -20,7 +20,7 @@ angular.module('autoskola')
       //   }
       // }
 
-      // for reach item in theory data
+      // for each item in theory data
       data.forEach(function(item) {
         // for each chapter in section
         item.chapters.forEach(function(chpt) {

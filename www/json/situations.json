@@ -14,15 +14,21 @@
         "id": 1,
         "question": "Tam, kde sa dva jazdné pruhy zbiehajú do jedného pruhu tak, že nie je zrejmé, ktorý z nich je priebežný,",
         "answers": [{
+          "option": "a",
           "text": "druhé,",
           "correct": false
         }, {
+          "option": "b",
           "text": "posledné,",
           "correct": true
         }, {
+          "option": "c",
           "text": "prvé.",
           "correct": false
-        }]
+        }],
+        "image": {
+          "src": "img/situations/situation_lanes_01.png"
+        }
       }]
     }, {
       "image": {
@@ -30,7 +36,10 @@
       },
       "questions": [{
         "id": 2,
-        "question": "Vodič modrého vozidla"
+        "question": "Vodič modrého vozidla",
+        "image": {
+          "src": "img/situations/situation_lanes_02.png"
+        }
       }]
     }, {
       "image": {
