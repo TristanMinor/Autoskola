@@ -19,7 +19,7 @@
       <!-- Law tab -->
       <div ng-switch-when="tab-law" ng-controller="QuestionsLawController">
         <ion-list type="list-inset">
-          <ion-item ng-if="! localData[item.id].hidden" nav-direction="forward" href="#" ng-repeat="item in data" class="item item-icon-right">
+          <ion-item ng-if="! localData[item.id].hidden"  href="#" ng-repeat="item in data" class="item item-icon-right item-hideable">
             <div class="item-inner">
               <b>{{ item.id }}.</b>
               {{ item.question }}
