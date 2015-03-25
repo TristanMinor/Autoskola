@@ -141,8 +141,8 @@ ion-content {
   border: none;
   color: #94959B;
   font-size: 14px;
-  height: 54px;
-  line-height: 34px;
+  height: 70px;
+  line-height: 54px;
 }
 
 .item-id {
@@ -161,8 +161,14 @@ ion-content {
 .item .item-content {
   font-family: 'preto_serif_ot_std_regular';
   font-size: 20px;
-  padding: 24px 30px 24px 30px;
+  padding: 20px 30px 20px 30px;
   white-space: nowrap;
+}
+
+.item-inner {
+  height: 56px;
+  white-space: normal;
+  overflow: hidden;
 }
 
 .item-thumbnail-left, .item-thumbnail-left .item-content {
@@ -218,10 +224,18 @@ ion-content {
 
 /* Question */
 
+.item-opened.situation {
+  padding-top: 0;
+}
+
 .question-image {
   width: 100%;
   text-align: center;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
+}
+
+.question-image img {
+  max-width: 100%;
 }
 
 .answers .item {
@@ -261,7 +275,7 @@ ion-content {
 }
 
 .modal-fullscreen {
-  top: 0 ;
+  top: 20px ;
   bottom: 0 ;
   left: 0 ;
   right: 0 ;
