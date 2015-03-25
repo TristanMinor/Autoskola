@@ -74,7 +74,7 @@
               {{ item.section }}
             </div>
             <div ng-repeat="bundle in item.bundles" class="bundle-situations">
-              <ion-item ng-repeat="question in bundle.questions" href="#/questions/situation/{{question.id}}" class="item item-thumbnail-left item-icon-right">
+              <ion-item ng-repeat="question in bundle.questions" href="#/questions/situation/{{question.id}}" class="item item-thumbnail-left item-thumbnail-horizontal item-icon-right">
                 <img src="{{ bundle.image.src }}" alt="">
                 <div class="item-inner">
                   <b>{{ question.id}}.</b> {{ question.question }}

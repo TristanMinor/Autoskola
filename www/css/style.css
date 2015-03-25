@@ -161,12 +161,12 @@ ion-content {
 .item .item-content {
   font-family: 'preto_serif_ot_std_regular';
   font-size: 20px;
-  padding: 20px 30px 20px 30px;
+  padding: 18px 30px 20px 30px;
   white-space: nowrap;
 }
 
 .item-inner {
-  height: 56px;
+  height: 60px;
   white-space: normal;
   overflow: hidden;
 }
@@ -188,8 +188,17 @@ ion-content {
   height: 102px;
 }
 
-.item-thumbnail-left, .item-thumbnail-left .item-content {
+.item-thumbnail-left .item-content {
   padding-left: 106px;
+}
+
+.item-thumbnail-horizontal .item-content {
+  padding-left: 150px;
+}
+
+.item-thumbnail-left .item-content > img:first-child {
+  width: auto;
+  max-width: none;
 }
 
 .bundle-situations {
