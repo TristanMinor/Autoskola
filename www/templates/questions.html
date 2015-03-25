@@ -19,11 +19,17 @@
       <!-- Law tab -->
       <div ng-switch-when="tab-law" ng-controller="QuestionsLawController">
         <ion-list type="list-inset">
-          <ion-item nav-direction="forward" href="#" ng-repeat="item in data" class="item item-icon-right">
-            <b>{{ item.id }}.</b>
-            {{ item.question }}
-            <!-- <i class="icon ion-ios-star-outline"></i> -->
-            <ion-option-button class="button button-stable">Skryť</ion-option-button>
+          <ion-item ng-if="! localData[item.id].hidden" nav-direction="forward" href="#" ng-repeat="item in data" class="item item-icon-right">
+            <div class="item-inner">
+              <b>{{ item.id }}.</b>
+              {{ item.question }}
+              <i
+                class="icon"
+                ng-click="pinQuestion(item)"
+                ng-class="{'ion-ios-star': localData[item.id].starred, 'ion-ios-star-outline': !localData[item.id].starred}"
+                ></i>
+              <ion-option-button ng-click="hideQuestion(item)" class="button button-stable">Skryť</ion-option-button>
+            </div>
           </ion-item>
         </ion-list>
       </div>
@@ -32,9 +38,11 @@
       <div ng-switch-when="tab-notice" ng-controller="QuestionsNoticeController">
         <ion-list type="list-inset">
           <ion-item ng-repeat="item in data" href="#" class="item item-icon-right">
-            <b>{{ item.id }}.</b> {{ item.question }}
-            <!-- <i class="icon ion-ios-star-outline"></i> -->
-            <ion-option-button class="button button-stable">Skryť</ion-option-button>
+            <div class="item-inner">
+              <b>{{ item.id }}.</b> {{ item.question }}
+              <!-- <i class="icon ion-ios-star-outline"></i> -->
+              <ion-option-button class="button button-stable">Skryť</ion-option-button>
+            </div>
           </ion-item>
         </ion-list>
       </div>
@@ -48,9 +56,11 @@
             </div>
             <ion-item ng-repeat="question in item.questions" href="#/questions/sign/{{question.id}}" class="item item-thumbnail-left item-icon-right">
               <img src="{{ question.image.src }}" alt="">
-              <b>{{ question.id }}.</b> {{ question.name }}
-              <!-- <i class="icon ion-ios-star-outline"></i> -->
-              <ion-option-button class="button button-stable">Skryť</ion-option-button>
+              <div class="item-inner">
+                <b>{{ question.id }}.</b> {{ question.name }}
+                <!-- <i class="icon ion-ios-star-outline"></i> -->
+                <ion-option-button class="button button-stable">Skryť</ion-option-button>
+              </div>
             </ion-item>
           </div>
         </ion-list>
@@ -64,11 +74,13 @@
               {{ item.section }}
             </div>
             <div ng-repeat="bundle in item.bundles" class="bundle-situations">
-              <ion-item ng-repeat="question in bundle.questions" href="#" class="item item-thumbnail-left item-icon-right">
+              <ion-item ng-repeat="question in bundle.questions" href="#/questions/situation/{{question.id}}" class="item item-thumbnail-left item-icon-right">
                 <img src="{{ bundle.image.src }}" alt="">
-                <b>{{ question.id}}.</b> {{ question.question }}
-                <!-- <i class="icon ion-ios-star-outline"></i> -->
-                <ion-option-button class="button button-stable">Skryť</ion-option-button>
+                <div class="item-inner">
+                  <b>{{ question.id}}.</b> {{ question.question }}
+                  <!-- <i class="icon ion-ios-star-outline"></i> -->
+                  <ion-option-button class="button button-stable">Skryť</ion-option-button>
+                </div>
               </ion-item>
             </div>
           </div>
