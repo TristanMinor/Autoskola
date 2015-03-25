@@ -1,3 +1,5 @@
+'use strict';
+
 angular.module('autoskola')
   .service('LawService', function($http, $q) {
 
@@ -6,7 +8,7 @@ angular.module('autoskola')
     var loaded = false;
 
     function loadLocalStorage() {
-      storage = localStorage.getItem('law');
+      var storage = localStorage.getItem('law');
       if (! storage) {
         localData = {};
       } else {
@@ -43,7 +45,7 @@ angular.module('autoskola')
         } else {
           localData[item.id] = {
             starred: true
-          }
+          };
         }
         saveLocalStorage();
       },
@@ -54,10 +56,10 @@ angular.module('autoskola')
         } else {
           localData[item.id] = {
             hidden: true
-          }
+          };
         }
         saveLocalStorage();
       }
-    }
+    };
 
   });
