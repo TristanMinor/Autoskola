@@ -1,0 +1,39 @@
+<ion-view view-title="{{ question.id }}.">
+
+  <ion-nav-bar class="bar-light">
+    <ion-nav-buttons side="primary">
+      <a href="#/tabs/questions" nav-direction="back">
+        <button class="button button-icon icon ion-ios-arrow-back"></button>
+      </a>
+    </ion-nav-buttons>
+    <ion-nav-buttons side="secondary">
+      <a href="#">
+        <button class="button button-icon icon ion-ios-star-outline"></button>
+      </a>
+    </ion-nav-buttons>
+  </ion-nav-bar>
+
+  <ion-content class="item-opened situation">
+    <div class="question-image">
+      <img src="{{ question.image.src}}" alt="">
+    </div>
+    <div class="question-text">
+      <div class="question-question">
+        <p>{{ question.question }}</p>
+      </div>
+
+      <div class="list answers">
+        <label ng-repeat="item in question.answers" class="item item-radio">
+          <input disabled="disabled" type="radio" name="group">
+          <div class="item-content question-answer" ng-class="{'answer-correct': item.correct}">
+            <span class="answer-option">{{ item.option }})</span>
+            {{ item.text }}
+          </div>
+        </label>
+      </div>
+    </div>
+  </ion-content>
+
+  <button ng-click="openModal()" class="button button-footer button-stable icon ion-ios-more"></button>
+
+</ion-view>

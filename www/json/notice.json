@@ -8,12 +8,15 @@
       "starred": false
     },
     "answers": [{
+      "option": "a",
       "text": "5,00 m",
       "correct": true
     }, {
+      "option": "b",
       "text": "2,55 m",
       "correct": false
     }, {
+      "option": "c",
       "text": "3,55 m",
       "correct": false
     }]

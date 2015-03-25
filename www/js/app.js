@@ -26,7 +26,7 @@ angular.module('autoskola', ['ionic'])
   })
 
   .state('chapter', {
-    url: '/theory/chapter/:id',
+    url: '/tabs/theory/chapter/:id',
     templateUrl: 'templates/chapter.html',
     controller: 'TheoryChapterController'
   })
@@ -39,6 +39,18 @@ angular.module('autoskola', ['ionic'])
         controller: 'QuestionsController'
       }
     }
+  })
+
+  .state('question-law', {
+    url: '/questions/law/:id',
+    templateUrl: 'templates/question.html',
+    controller: 'QuestionsLawQuestionController'
+  })
+
+  .state('question-notice', {
+    url: '/questions/notice/:id',
+    templateUrl: 'templates/question.html',
+    controller: 'QuestionsNoticeQuestionController'
   })
 
   .state('question-sign', {

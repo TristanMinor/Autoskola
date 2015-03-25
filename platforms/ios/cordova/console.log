@@ -14,3 +14,12 @@
 2015-03-10 21:03:51.105 Autoskola[9417:1155252] [CDVTimer][TotalPluginStartup] 0.304997ms
 2015-03-10 21:03:51.444 Autoskola[9417:1155252] Resetting plugins due to page load.
 2015-03-10 21:03:51.947 Autoskola[9417:1155252] Finished load of: file:///Users/tristan/Library/Developer/CoreSimulator/Devices/C47A71FA-E29A-4AC0-B1BF-5AA4C7B7A72E/data/Containers/Bundle/Application/5C3DF18A-932F-4B3F-A1E0-B41C5F8C8471/Autoskola.app/www/index.html#/tabs/theory
+2015-03-25 21:49:06.766 Autoskola[8639:923761] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/tristan/Library/Developer/CoreSimulator/Devices/ED31A8E0-7ABB-4428-A6B4-AB9B995BFEB0/data/Containers/Data/Application/3B6A4030-B3D7-4FF6-9B28-277764F36FE1/Library/Cookies/Cookies.binarycookies
+2015-03-25 21:49:07.062 Autoskola[8639:923761] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-25 21:49:07.063 Autoskola[8639:923761] Multi-tasking -> Device: YES, App: YES
+2015-03-25 21:49:07.078 Autoskola[8639:923761] Unlimited access to network resources
+2015-03-25 21:49:07.465 Autoskola[8639:923761] [CDVTimer][keyboard] 0.078022ms
+2015-03-25 21:49:07.465 Autoskola[8639:923761] [CDVTimer][TotalPluginStartup] 0.286996ms
+2015-03-25 21:49:07.975 Autoskola[8639:923761] Resetting plugins due to page load.
+2015-03-25 21:49:08.598 Autoskola[8639:923761] Finished load of: file:///Users/tristan/Library/Developer/CoreSimulator/Devices/ED31A8E0-7ABB-4428-A6B4-AB9B995BFEB0/data/Containers/Bundle/Application/F6ADD107-7108-4070-9291-2BB89BA99036/Autoskola.app/www/index.html#/tabs/theory
+2015-03-25 21:50:46.090 Autoskola[8639:924734] Terminating since there is no system app.

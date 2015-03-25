@@ -19,15 +19,15 @@ angular.module('autoskola', ['ionic'])
     url: '/theory',
     views: {
       'theory-tab': {
-        templateUrl: 'theory.html',
+        templateUrl: 'templates/theory.html',
         controller: 'TheoryController'
       }
     }
   })
 
   .state('chapter', {
-    url: '/theory/chapter/:id',
-    templateUrl: 'chapter.html',
+    url: '/tabs/theory/chapter/:id',
+    templateUrl: 'templates/chapter.html',
     controller: 'TheoryChapterController'
   })
 
@@ -35,23 +35,41 @@ angular.module('autoskola', ['ionic'])
     url: '/questions',
     views: {
       'questions-tab': {
-        templateUrl: 'questions.html',
+        templateUrl: 'templates/questions.html',
         controller: 'QuestionsController'
       }
     }
   })
 
+  .state('question-law', {
+    url: '/questions/law/:id',
+    templateUrl: 'templates/question.html',
+    controller: 'QuestionsLawQuestionController'
+  })
+
+  .state('question-notice', {
+    url: '/questions/notice/:id',
+    templateUrl: 'templates/question.html',
+    controller: 'QuestionsNoticeQuestionController'
+  })
+
   .state('question-sign', {
     url: '/questions/sign/:id',
-    templateUrl: 'question-sign.html',
+    templateUrl: 'templates/question-sign.html',
     controller: 'QuestionsSignsQuestionController'
+  })
+
+  .state('question-situation', {
+    url: '/questions/situation/:id',
+    templateUrl: 'templates/question-situation.html',
+    controller: 'QuestionsSituationsQuestionController'
   })
 
   .state('tabs.tests', {
     url: '/tests',
     views: {
       'tests-tab': {
-        templateUrl: 'tests.html',
+        templateUrl: 'templates/tests.html',
         controller: 'TestsController'
       }
     }
@@ -61,7 +79,7 @@ angular.module('autoskola', ['ionic'])
     url: '/info',
     views: {
       'info-tab': {
-        templateUrl: 'info.html',
+        templateUrl: 'templates/info.html',
         controller: 'InfoController'
       }
     }
