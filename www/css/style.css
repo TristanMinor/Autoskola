@@ -76,6 +76,10 @@ ion-content {
   background-color: #DBE0F2;
 }
 
+i.positive {
+  color: #6842EC;
+}
+
 /* Bar */
 
 .bar.bar-positive {
