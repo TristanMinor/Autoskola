@@ -1,11 +1,13 @@
 {
   "theory": [{
+    "id": 1,
     "section": "Základné ustanovenia",
     "chapters": [{
       "id": 1,
       "minutes": 8,
       "name": "Vymedzenie základných pojmov",
       "content": [{
+        "id": 1,
         "headline": "Cestná premávka",
         "paragraph": "Cestnou premávkou na účely tohto zákona sa rozumie užívanie diaľnic, ciest, miestnych komunikácií a účelových komunikácií (ďalej len <i>cesta</i>) vodičmi vozidiel a chodcami."
       }, {

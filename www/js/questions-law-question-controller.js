@@ -1,6 +1,7 @@
 angular.module('autoskola')
   .controller('QuestionsLawQuestionController', function($scope, $http, $state, $ionicModal) {
     $scope.data = [];
+    $scope.theory = [];
 
     // load json from file
     $http.get('json/law.json').success(function(response) {
@@ -18,6 +19,10 @@ angular.module('autoskola')
 
       $scope.question = question;
 
+    });
+
+    $http.get('json/theory.json').success(function(response) {
+      $scope.theory = response.theory;
     });
 
     // Load the modal from the given template URL

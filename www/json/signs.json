@@ -5,10 +5,6 @@
       "id": 1,
       "name": "Zákruta vpravo",
       "points": 2,
-      "knowledge": {
-        "know": false,
-        "starred": false
-      },
       "question": "Táto dopravná značka znamená:",
       "answers": [{
         "option": "a",
@@ -31,10 +27,6 @@
       "id": 2,
       "name": "Zákruta vľavo",
       "points": 2,
-      "knowledge": {
-        "know": false,
-        "starred": false
-      },
       "question": "Táto dopravná značka znamená:",
       "answers": [{
         "option": "a",
@@ -57,10 +49,6 @@
       "id": 3,
       "name": "Dvojitá zákruta, prvá vpravo",
       "points": 2,
-      "knowledge": {
-        "know": false,
-        "starred": false
-      },
       "image": {
         "src": "img/signs/A2a.svg",
         "imgType": "triangle"
@@ -69,10 +57,6 @@
       "id": 4,
       "name": "Dvojitá zákruta, prvá vľavo",
       "points": 2,
-      "knowledge": {
-        "know": false,
-        "starred": false
-      },
       "image": {
         "src": "img/signs/A2b.svg",
         "imgType": "triangle"
@@ -81,12 +65,40 @@
       "id": 5,
       "name": "Zákruty v úseku 2 km, prvá vpravo",
       "points": 2,
-      "knowledge": {
-        "know": false,
-        "starred": false
-      },
+      "image": {
+        "src": "img/signs/A2c.svg",
+        "imgType": "triangle"
+      }
+    }, {
+      "id": 6,
+      "name": "Štyri zákruty, prvá vpravo",
+      "points": 2,
+      "image": {
+        "src": "img/signs/A2d.svg",
+        "imgType": "triangle"
+      }
+    }, {
+      "id": 7,
+      "name": "Nebezpečné klesanie",
+      "points": 2,
       "image": {
         "src": "img/signs/A3a.svg",
+        "imgType": "triangle"
+      }
+    }, {
+      "id": 8,
+      "name": "Nebezpečné stúpanie",
+      "points": 2,
+      "image": {
+        "src": "img/signs/A3b.svg",
+        "imgType": "triangle"
+      }
+    }, {
+      "id": 9,
+      "name": "zúžená vozovka z oboch strán",
+      "points": 2,
+      "image": {
+        "src": "img/signs/A4a.svg",
         "imgType": "triangle"
       }
     }]

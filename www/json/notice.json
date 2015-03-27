@@ -3,10 +3,6 @@
     "id": 1,
     "points": 2,
     "question": "Najväčšia prípustná celková šírka vozidla vrátane nákladu je",
-    "knowledge": {
-      "know": false,
-      "starred": false
-    },
     "answers": [{
       "option": "a",
       "text": "5,00 m",
@@ -48,5 +44,13 @@
     "id": 8,
     "points": 2,
     "question": "Najväčšia prípustná dĺžka prípojného vozidla za dvojkolesové motorové vozidlo"
+  }, {
+    "id": 9,
+    "points": 2,
+    "question": "Reklamné fólie a fólie proti slnečnému žiareniu a tónovanie skiel na vozidlách kategórie M1 a N1 možno použiť"
+  }, {
+    "id": 10,
+    "points": 2,
+    "question": "Na vozidle možno používať iba pneumatiky"
   }]
 }
