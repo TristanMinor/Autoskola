@@ -18,25 +18,33 @@ angular.module('autoskola')
       $scope.question = question;
     });
 
+    // filtering theory content by ids from question
 
-    // load json from file
+    // load theory file
     $http.get('json/theory.json').success(function(response) {
-      // put content of json file to data variable
-      var theory = response.theory;
-      var chapter = null;
-      // for each item in theory data
-      theory.forEach(function(item) {
-        // for each chapter in section
-        item.chapters.forEach(function(chpt) {
-          if (chpt.id == $state.params.id) {
-            chapter = chpt;
+      $scope.theory = response.theory;
+      // for each section
+      $scope.theory.forEach(function(sctn) {
+        // for each selected chapter
+        sctn.chapters.forEach(function(chptr) {
+          if ($scope.question.explaining.chapter == chptr.id) {
+            console.log('chptr.id', chptr.id);
+            chapter = chptr;
+            // for each selected content
+            chptr.content.forEach(function(cntnt) {
+              if ($scope.question.explaining.content == cntnt.id) {
+                console.log('cntnt.id', cntnt.id);
+                content = cntnt;
+              }
+            });
           }
         });
       });
       $scope.chapter = chapter;
+      console.log($scope.chapter);
+      $scope.content = content;
+      console.log($scope.content);
     });
-
-
 
     // Load the modal from the given template URL
     $ionicModal.fromTemplateUrl('templates/explaining.html', function($ionicModal) {
@@ -58,6 +66,8 @@ angular.module('autoskola')
     //Cleanup the modal when we're done with it!
     $scope.$on('$destroy', function() {
       $scope.modal.remove();
+      $scope.chapter.remove();
+      $scope.content.remove();
     });
 
   });

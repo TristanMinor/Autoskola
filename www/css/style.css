@@ -320,7 +320,11 @@ i.positive {
   width: 100%;
 }
 
-.modal-fullscreen header{
+.modal-fullscreen header {
   height: 64px;
   padding-top: 20px;
+}
+
+.modal-fullscreen ion-content {
+  padding-top: 40px;
 }

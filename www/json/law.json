@@ -3,11 +3,10 @@
     "id": 1,
     "points": 2,
     "question": "Autobusom sa rozumie",
-    "explaining": [{
-      "section-id":1,
-      "chapter-id":1,
-      "paragraph-id":1 
-    }],
+    "explaining": {
+      "chapter":1,
+      "content":2
+    },
     "answers": [{
       "option": "a",
       "text": "motorové vozidlo na dopravu osôb, ktoré má okrem vodiča viac ako osem miest na sedenie,",
@@ -24,7 +23,11 @@
   }, {
     "id": 2,
     "points": 2,
-    "question": "Dať prednosť v jazde sa rozumie povinnosť"
+    "question": "Dať prednosť v jazde sa rozumie povinnosť",
+    "explaining": {
+      "chapter":1,
+      "content":3
+    }
   }, {
     "id": 3,
     "points": 2,
