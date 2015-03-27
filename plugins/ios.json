@@ -19,6 +19,20 @@
                         {
                             "xml": "<feature name=\"Device\"><param name=\"ios-package\" value=\"CDVDevice\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Accelerometer\"><param name=\"ios-package\" value=\"CDVAccelerometer\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "framework": {
+                "parents": {
+                    "CoreMotion.framework": [
+                        {
+                            "xml": "false",
+                            "count": 1
                         }
                     ]
                 }
@@ -34,7 +48,14 @@
         },
         "org.apache.cordova.device": {
             "PACKAGE_NAME": "com.ionicframework.github/autoskola364104"
+        },
+        "uk.co.ilee.shake": {
+            "PACKAGE_NAME": "com.ionicframework.github/autoskola364104"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "org.apache.cordova.device-motion": {
+            "PACKAGE_NAME": "com.ionicframework.github/autoskola364104"
+        }
+    }
 }
