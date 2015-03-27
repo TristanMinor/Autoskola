@@ -3,27 +3,40 @@ angular.module('autoskola')
     $scope.data = [];
     $scope.theory = [];
 
+
     // load json from file
     $http.get('json/law.json').success(function(response) {
-
       // put content of json file to data variable
       var data = response.law;
       var question = null;
-
       // for each qstn in law data
       data.forEach(function(qstn) {
         if (qstn.id == $state.params.id) {
           question = qstn;
         }
       });
-
       $scope.question = question;
-
     });
 
+
+    // load json from file
     $http.get('json/theory.json').success(function(response) {
-      $scope.theory = response.theory;
+      // put content of json file to data variable
+      var theory = response.theory;
+      var chapter = null;
+      // for each item in theory data
+      theory.forEach(function(item) {
+        // for each chapter in section
+        item.chapters.forEach(function(chpt) {
+          if (chpt.id == $state.params.id) {
+            chapter = chpt;
+          }
+        });
+      });
+      $scope.chapter = chapter;
     });
+
+
 
     // Load the modal from the given template URL
     $ionicModal.fromTemplateUrl('templates/explaining.html', function($ionicModal) {
@@ -33,6 +46,7 @@ angular.module('autoskola')
       scope: $scope,
       // The animation
       animation: 'slide-in-up'
+
     });
 
     $scope.openModal = function() {

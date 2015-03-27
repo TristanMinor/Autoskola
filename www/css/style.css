@@ -140,13 +140,17 @@ i.positive {
 .item-divider {
   background-color: #EAECF5;
   text-transform: uppercase;
-  padding-left: 0;
+  padding-left: 30px;
   margin-top: 1px;
   border: none;
   color: #94959B;
   font-size: 14px;
   height: 70px;
   line-height: 54px;
+}
+
+.list-inset .item-divider {
+  padding-left: 0;
 }
 
 .item-id {
