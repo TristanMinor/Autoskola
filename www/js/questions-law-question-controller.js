@@ -25,13 +25,15 @@ angular.module('autoskola')
       $scope.explainings = [];
       // for each explaining
       $scope.question.explaining.forEach(function(xpln) {
+        var content;
+
         // for each section in theory
         $scope.theory.forEach(function(sctn) {
           // for each selected chapter
           sctn.chapters.forEach(function(chptr) {
             if (xpln.chapter == chptr.id) {
               // console.log('chptr.id', chptr.id);
-              chapter = chptr;
+              //chapter = chptr;
               // for each selected content
               chptr.content.forEach(function(cntnt) {
                 if (xpln.content == cntnt.id) {
