@@ -19,31 +19,33 @@ angular.module('autoskola')
     });
 
     // filtering theory content by ids from question
-
     // load theory file
     $http.get('json/theory.json').success(function(response) {
       $scope.theory = response.theory;
-      // for each section
-      $scope.theory.forEach(function(sctn) {
-        // for each selected chapter
-        sctn.chapters.forEach(function(chptr) {
-          if ($scope.question.explaining.chapter == chptr.id) {
-            console.log('chptr.id', chptr.id);
-            chapter = chptr;
-            // for each selected content
-            chptr.content.forEach(function(cntnt) {
-              if ($scope.question.explaining.content == cntnt.id) {
-                console.log('cntnt.id', cntnt.id);
-                content = cntnt;
-              }
-            });
-          }
+      $scope.explainings = [];
+      // for each explaining
+      $scope.question.explaining.forEach(function(xpln) {
+        // for each section in theory
+        $scope.theory.forEach(function(sctn) {
+          // for each selected chapter
+          sctn.chapters.forEach(function(chptr) {
+            if (xpln.chapter == chptr.id) {
+              // console.log('chptr.id', chptr.id);
+              chapter = chptr;
+              // for each selected content
+              chptr.content.forEach(function(cntnt) {
+                if (xpln.content == cntnt.id) {
+                  // console.log('cntnt.id', cntnt.id);
+                  content = cntnt;
+                }
+              });
+            }
+          });
         });
+        // Add the right content to explainings
+        $scope.explainings.push(content);
+        console.log($scope.explainings);
       });
-      $scope.chapter = chapter;
-      console.log($scope.chapter);
-      $scope.content = content;
-      console.log($scope.content);
     });
 
     // Load the modal from the given template URL

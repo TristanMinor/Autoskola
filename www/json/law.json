@@ -3,10 +3,13 @@
     "id": 1,
     "points": 2,
     "question": "Autobusom sa rozumie",
-    "explaining": {
+    "explaining": [{
       "chapter":1,
       "content":2
-    },
+    }, {
+      "chapter":1,
+      "content":6
+    }],
     "answers": [{
       "option": "a",
       "text": "motorové vozidlo na dopravu osôb, ktoré má okrem vodiča viac ako osem miest na sedenie,",

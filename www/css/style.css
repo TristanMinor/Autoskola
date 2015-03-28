@@ -134,9 +134,6 @@ i.positive {
   background-color: #EAECF5;
 }
 
-.list-inset .item:last-child {
-}
-
 .item-divider {
   background-color: #EAECF5;
   text-transform: uppercase;
@@ -152,6 +149,13 @@ i.positive {
 .list-inset .item-divider {
   padding-left: 0;
 }
+
+/* .list div:first-child .item-divider {
+  height: 35px;
+  line-height: 14px;
+  padding-top: 0;
+}
+*/
 
 .item-id {
   width: 38px;

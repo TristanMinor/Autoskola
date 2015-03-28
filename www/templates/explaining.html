@@ -1,13 +1,13 @@
 <ion-modal-view class="modal modal-fullscreen">
   <ion-content>
-
+    <div ng-repeat="item in explainings">
       <div class="chapter-text" as-blockquote-collapser>
-        <h3 ng-if="content.headline">{{ content.headline}}</h3>
-        <img ng-if="content.image" src="{{ content.image }}" class="chapter-image">
-        <p ng-if="content.paragraph" ng-bind-html="content.paragraph"></p>
-        <blockquote ng-show="content.blockquote" ng-bind-html="content.blockquote"></blockquote>
+        <h3 ng-if="item.headline">{{ item.headline}}</h3>
+        <img ng-if="item.image" src="{{ item.image }}" class="chapter-image">
+        <p ng-if="item.paragraph" ng-bind-html="item.paragraph"></p>
+        <blockquote ng-show="item.blockquote" ng-bind-html="item.blockquote"></blockquote>
       </div>
-
+    </div>
   </ion-content>
   <button ng-click="closeModal()" class="button button-footer button-stable icon ion-ios-close-outline"></button>
 </ion-modal-view>
