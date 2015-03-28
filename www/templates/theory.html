@@ -8,7 +8,8 @@
           {{ item.section }}
         </div>
         <ion-item nav-direction="forward" href="#/tabs/theory/chapter/{{chapter.id}}" ng-repeat="chapter in item.chapters">
-          {{ chapter.name }} <!-- <div class="item-note">{{ chapter.minutes }} min</div>-->
+          <h2>{{ chapter.name }} <!-- <div class="item-note">{{ chapter.minutes }} min</div>--></h2>
+          <p>{{ chapter.description }}</p>
         </ion-item>
       </div>
     </ion-list>

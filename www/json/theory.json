@@ -6,6 +6,7 @@
       "id": 1,
       "minutes": 8,
       "name": "Vymedzenie základných pojmov",
+      "description": "Definuje základné pojmy",
       "content": [{
         "id": 1,
         "headline": "Cestná premávka",

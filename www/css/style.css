@@ -158,13 +158,6 @@ i.positive {
   padding-left: 0;
 }
 
-/* .list div:first-child .item-divider {
-  height: 35px;
-  line-height: 14px;
-  padding-top: 0;
-}
-*/
-
 .item-id {
   width: 38px;
   float: left;
@@ -183,6 +176,11 @@ i.positive {
   font-size: 20px;
   padding: 18px 30px 20px 30px;
   white-space: nowrap;
+}
+
+.item-content h2 {
+  font-family: 'preto_serif_ot_std_regular';
+  font-size: 20px;
 }
 
 .item-inner {

@@ -30,3 +30,11 @@
 .icon-theory:before {
 	content: "\e601";
 }
+
+.icon-questions-outline:before {
+	content: "\e602";
+}
+
+.icon-questions:before {
+	content: "\e603";
+}
