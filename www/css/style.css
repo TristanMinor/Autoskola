@@ -109,7 +109,11 @@ i.positive {
 /* Tabs */
 
 .tabs {
-  height: 60px;
+  height: 70px;
+}
+
+.has-tabs, .bar-footer.has-tabs {
+  bottom: 70px;
 }
 
 .tabs-positive > .tabs, .tabs.tabs-positive {
@@ -118,7 +122,7 @@ i.positive {
 }
 
 .tabs-icon-top > .tabs .tab-item {
-  padding-top: 4px;
+  padding-top: 10px;
   font-size: 12px;
 }
 
@@ -126,6 +130,10 @@ i.positive {
   color: #fff;
 }
 
+.tab-item .icon {
+  font-size: 34px;
+  height: 34px;
+}
 
 /* Lists */
 
