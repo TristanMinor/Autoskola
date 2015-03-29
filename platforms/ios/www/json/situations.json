@@ -3,10 +3,6 @@
     "section": "Jazda v jazdných pruhoch",
     "bundles": [{
       "points": 2,
-      "knowledge": {
-        "know": false,
-        "starred": false
-      },
       "image": {
         "src": "img/situations/situation_lanes_01.png"
       },
@@ -47,16 +43,28 @@
       },
       "questions": [{
         "id": 3,
-        "question": "Vodič modrého vozidla"
+        "question": "Vodič modrého vozidla",
+        "image": {
+          "src": "img/situations/situation_lanes_03.png"
+        }
       }, {
         "id": 4,
-        "question": "Vozidlá prejdú okolo prekážky v tomto poradí"
+        "question": "Vozidlá prejdú okolo prekážky v tomto poradí",
+        "image": {
+          "src": "img/situations/situation_lanes_03.png"
+        }
       }, {
         "id": 5,
-        "question": "V poradí druhé prejde okolo prekážky"
+        "question": "V poradí druhé prejde okolo prekážky",
+        "image": {
+          "src": "img/situations/situation_lanes_03.png"
+        }
       }, {
         "id": 6,
-        "question": "V poradí tretie prejde okolo prekážky"
+        "question": "V poradí tretie prejde okolo prekážky",
+        "image": {
+          "src": "img/situations/situation_lanes_03.png"
+        }
       }]
     }, {
       "image": {
@@ -64,13 +72,22 @@
       },
       "questions": [{
         "id": 7,
-        "question": "Vodič červeného vozidla"
+        "question": "Vodič červeného vozidla",
+        "image": {
+          "src": "img/situations/situation_lanes_04.png"
+        }
       }, {
         "id": 8,
-        "question": "V poradí druhé prejde okolo prekážky"
+        "question": "V poradí druhé prejde okolo prekážky",
+        "image": {
+          "src": "img/situations/situation_lanes_04.png"
+        }
       }, {
         "id": 9,
-        "question": "V poradí tretie prejde okolo prekážky"
+        "question": "V poradí tretie prejde okolo prekážky",
+        "image": {
+          "src": "img/situations/situation_lanes_04.png"
+        }
       }]
     }]
   }, {
@@ -81,7 +98,10 @@
       },
       "questions": [{
         "id": 10,
-        "question": "Vaše vozidlo prejde cez križovatku ako"
+        "question": "Vaše vozidlo prejde cez križovatku ako",
+        "image": {
+          "src": "img/situations/situation_nosigns_01.png"
+        }
       }]
     }]
   }]

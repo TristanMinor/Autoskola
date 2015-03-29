@@ -7,3 +7,11 @@ angular.module('autoskola')
     });
 
   });
+
+shake.startWatch(onShake);
+
+function onShake() {
+  var element = document.getElementById('shakeData');
+  element.innerHTML = 'Its happening!';
+  console.log('Hej');
+}

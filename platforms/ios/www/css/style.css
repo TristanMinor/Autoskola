@@ -76,6 +76,10 @@ ion-content {
   background-color: #DBE0F2;
 }
 
+i.positive {
+  color: #6842EC;
+}
+
 /* Bar */
 
 .bar.bar-positive {
@@ -105,7 +109,11 @@ ion-content {
 /* Tabs */
 
 .tabs {
-  height: 60px;
+  height: 70px;
+}
+
+.has-tabs, .bar-footer.has-tabs {
+  bottom: 70px;
 }
 
 .tabs-positive > .tabs, .tabs.tabs-positive {
@@ -114,7 +122,7 @@ ion-content {
 }
 
 .tabs-icon-top > .tabs .tab-item {
-  padding-top: 4px;
+  padding-top: 10px;
   font-size: 12px;
 }
 
@@ -122,6 +130,10 @@ ion-content {
   color: #fff;
 }
 
+.tab-item .icon {
+  font-size: 34px;
+  height: 34px;
+}
 
 /* Lists */
 
@@ -130,19 +142,20 @@ ion-content {
   background-color: #EAECF5;
 }
 
-.list-inset .item:last-child {
-}
-
 .item-divider {
   background-color: #EAECF5;
   text-transform: uppercase;
-  padding-left: 0;
+  padding-left: 30px;
   margin-top: 1px;
   border: none;
   color: #94959B;
   font-size: 14px;
   height: 70px;
   line-height: 54px;
+}
+
+.list-inset .item-divider {
+  padding-left: 0;
 }
 
 .item-id {
@@ -163,6 +176,11 @@ ion-content {
   font-size: 20px;
   padding: 18px 30px 20px 30px;
   white-space: nowrap;
+}
+
+.item-content h2 {
+  font-family: 'preto_serif_ot_std_regular';
+  font-size: 20px;
 }
 
 .item-inner {
@@ -305,9 +323,18 @@ ion-content {
 }
 
 .modal-fullscreen {
-  top: 20px ;
-  bottom: 0 ;
-  left: 0 ;
-  right: 0 ;
-  width: 100% ;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.modal-fullscreen header {
+  height: 64px;
+  padding-top: 20px;
+}
+
+.modal-fullscreen ion-content {
+  padding-top: 40px;
 }

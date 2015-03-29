@@ -38,19 +38,3 @@
 .icon-questions:before {
 	content: "\e603";
 }
-
-.icon-back:before {
-	content: "\e604";
-}
-
-.icon-search:before {
-	content: "\e605";
-}
-
-.icon-close:before {
-    content: "\e606";
-}
-
-.icon-explain:before {
-    content: "\e607";
-}

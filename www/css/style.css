@@ -82,6 +82,17 @@ i.positive {
 
 /* Bar */
 
+.bar-header {
+  height: 56px;
+}
+
+.bar .button.button-icon .icon:before,
+.bar .button.button-icon:before,
+.bar .button.button-icon.icon-left:before,
+.bar .button.button-icon.icon-right:before {
+  font-size: 24px;
+}
+
 .bar.bar-positive {
   background-color: #5D7593;
   border-color: #5D7593;
@@ -92,8 +103,17 @@ i.positive {
   border-color: #D2D2D2;
 }
 
+.bar .title {
+  line-height: 3em;
+  height: 56px;
+}
+
+.bar .button {
+  min-height: 45px;
+}
+
 .title-nav > a {
-	padding: 8px 10px;
+	padding: 18px 10px;
 }
 
 .bar .title a {
@@ -102,9 +122,12 @@ i.positive {
 
 .title-nav > a.active {
 	color: #6842EF;
-  border-bottom: 5px solid #6842EF;
+  border-bottom: 2px solid #6842EF;
 }
 
+.has-header {
+  top: 55px;
+}
 
 /* Tabs */
 

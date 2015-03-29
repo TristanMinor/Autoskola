@@ -23,12 +23,13 @@
             <div class="item-inner">
               <b>{{ item.id }}.</b>
               {{ item.question }}
-              <i
-                class="icon"
-                ng-click="pinQuestion(item)"
-                ng-class="{'ion-ios-star': localData[item.id].starred, 'ion-ios-star-outline': !localData[item.id].starred}"
-                ></i>
-              <ion-option-button ng-click="hideQuestion(item)" class="button button-stable">Skryť</ion-option-button>
+              <i ng-if="localData[item.id].starred" class="icon ion-ios-star positive"></i>
+              <ion-option-button ng-click="pinQuestion(item)" class="button button-stable">
+                <i class="icon" ng-class="{'ion-ios-star': localData[item.id].starred, 'ion-ios-star-outline': !localData[item.id].starred}"></i>
+              </ion-option-button>
+              <ion-option-button ng-click="hideQuestion(item)" class="button button-stable">
+                <i class="icon ion-ios-box-outline"></i>
+              </ion-option-button>
             </div>
           </ion-item>
         </ion-list>

@@ -1,5 +1,7 @@
 <ion-view view-title="Teória">
-  <ion-nav-bar class="bar-stable"></ion-nav-bar>
+  <ion-nav-bar class="bar-stable">
+    <button class="button button-icon icon icon-search"></button>
+  </ion-nav-bar>
   <ion-content>
     <ion-list type="list">
       <p id="shakeData"></p>
@@ -8,8 +10,8 @@
           {{ item.section }}
         </div>
         <ion-item nav-direction="forward" href="#/tabs/theory/chapter/{{chapter.id}}" ng-repeat="chapter in item.chapters">
-          <h2>{{ chapter.name }} <!-- <div class="item-note">{{ chapter.minutes }} min</div>--></h2>
-          <p>{{ chapter.description }}</p>
+          {{ chapter.name }} <!-- <div class="item-note">{{ chapter.minutes }} min</div>-->
+
         </ion-item>
       </div>
     </ion-list>
