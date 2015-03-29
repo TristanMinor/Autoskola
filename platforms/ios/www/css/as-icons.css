@@ -23,12 +23,52 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.icon-theory-outline:before {
-	content: "\e600";
+.icon-star-outline:before {
+	content: "\e608";
 }
 
-.icon-theory:before {
-	content: "\e601";
+.icon-star:before {
+	content: "\e609";
+}
+
+.icon-pin-outline:before {
+	content: "\e60a";
+}
+
+.icon-pin:before {
+	content: "\e60b";
+}
+
+.icon-check:before {
+	content: "\e60c";
+}
+
+.icon-archive-outline:before {
+	content: "\e60d";
+}
+
+.icon-close:before {
+	content: "\e606";
+}
+
+.icon-explain:before {
+	content: "\e607";
+}
+
+.icon-back:before {
+	content: "\e604";
+}
+
+.icon-search:before {
+	content: "\e605";
+}
+
+.icon-info:before {
+	content: "\e60e";
+}
+
+.icon-info-outline:before {
+	content: "\e60f";
 }
 
 .icon-questions-outline:before {
@@ -37,4 +77,20 @@
 
 .icon-questions:before {
 	content: "\e603";
+}
+
+.icon-theory:before {
+	content: "\e601";
+}
+
+.icon-theory-outline:before {
+	content: "\e600";
+}
+
+.icon-tests-outline:before {
+    content: "\e610";
+}
+
+.icon-tests:before {
+    content: "\e611";
 }

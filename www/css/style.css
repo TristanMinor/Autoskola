@@ -86,7 +86,7 @@ i.positive {
 
 /* Bar */
 
-.bar.bar-header, .button-footer {
+.button-footer {
   height: 56px;
 }
 
@@ -113,7 +113,7 @@ i.positive {
 }
 
 .bar .button {
-  min-height: 45px;
+  min-height: 44px;
 }
 
 .title-nav > a {
@@ -131,6 +131,10 @@ i.positive {
 
 .has-header {
   top: 55px;
+}
+
+.bar.bar-header {
+  height: 56px;
 }
 
 /* Tabs */
@@ -221,8 +225,8 @@ i.positive {
 }
 
 /* .item-hideable.ng-enter,*/ .item-hideable.ng-leave {
-  -webkit-transition: all ease-in-out 250ms;
-  transition: all ease-in-out 250ms;
+  -webkit-transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 250ms;
+  transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 250ms;
 }
 
 .item-hideable.ng-enter,
@@ -273,7 +277,7 @@ i.positive {
   max-height: 0;
   margin: 0;
   padding: 0 0 0 1.5em;
-  opacity: ;ity: 0;
+  opacity: 0;
   overflow: hidden;
   transition: all 250ms;
   transition-timing-function: ease-in-out;

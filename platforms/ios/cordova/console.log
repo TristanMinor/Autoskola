@@ -33,3 +33,74 @@
 2015-03-28 14:11:19.330 Autoskola[14229:1779228] Finished load of: file:///Users/tristan/Library/Developer/CoreSimulator/Devices/ED31A8E0-7ABB-4428-A6B4-AB9B995BFEB0/data/Containers/Bundle/Application/1307EFB7-48A3-41CD-8971-6B17CD076BEA/Autoskola.app/www/index.html#/tabs/theory
 2015-03-28 14:11:33.575 Autoskola[14229:1779228] [{"id":3,"headline":"Dať prednosť v jazde","paragraph":"Povinnosť účastníka cestnej premávky počínať si tak, aby ten, kto má prednosť v jazde, nemusel <b>náhle</b> zmeniť smer alebo rýchlosť jazdy."}]
 2015-03-28 14:12:22.255 Autoskola[14229:1779758] Terminating since there is no system app.
+2015-03-29 16:21:08.114 Autoskola[1438:103339] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/tristan/Library/Developer/CoreSimulator/Devices/ED31A8E0-7ABB-4428-A6B4-AB9B995BFEB0/data/Containers/Data/Application/BEEA785C-860C-43B8-A3EF-AA9FE26B2F68/Library/Cookies/Cookies.binarycookies
+2015-03-29 16:21:08.392 Autoskola[1438:103339] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-29 16:21:08.393 Autoskola[1438:103339] Multi-tasking -> Device: YES, App: YES
+2015-03-29 16:21:08.412 Autoskola[1438:103339] Unlimited access to network resources
+2015-03-29 16:21:08.775 Autoskola[1438:103339] [CDVTimer][keyboard] 0.077009ms
+2015-03-29 16:21:08.775 Autoskola[1438:103339] [CDVTimer][TotalPluginStartup] 0.270009ms
+2015-03-29 16:21:09.060 Autoskola[1438:103339] Resetting plugins due to page load.
+2015-03-29 16:21:09.358 Autoskola[1438:103339] Finished load of: file:///Users/tristan/Library/Developer/CoreSimulator/Devices/ED31A8E0-7ABB-4428-A6B4-AB9B995BFEB0/data/Containers/Bundle/Application/8EEE2988-5BE0-47DD-9FC6-9B4BA5C0FAEB/Autoskola.app/www/index.html#/tabs/theory
+2015-03-29 16:21:33.362 Autoskola[1438:103618] Terminating since there is no system app.
+2015-03-29 16:28:30.629 Autoskola[1761:108114] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/tristan/Library/Developer/CoreSimulator/Devices/ED31A8E0-7ABB-4428-A6B4-AB9B995BFEB0/data/Containers/Data/Application/6B1CA893-6EFA-44C6-9ABC-6BE0ECD8CE6C/Library/Cookies/Cookies.binarycookies
+2015-03-29 16:28:30.711 Autoskola[1761:108114] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-29 16:28:30.711 Autoskola[1761:108114] Multi-tasking -> Device: YES, App: YES
+2015-03-29 16:28:30.714 Autoskola[1761:108114] Unlimited access to network resources
+2015-03-29 16:28:30.811 Autoskola[1761:108114] [CDVTimer][keyboard] 0.065982ms
+2015-03-29 16:28:30.811 Autoskola[1761:108114] [CDVTimer][TotalPluginStartup] 0.256002ms
+2015-03-29 16:28:30.896 Autoskola[1761:108114] Resetting plugins due to page load.
+2015-03-29 16:28:31.130 Autoskola[1761:108114] Finished load of: file:///Users/tristan/Library/Developer/CoreSimulator/Devices/ED31A8E0-7ABB-4428-A6B4-AB9B995BFEB0/data/Containers/Bundle/Application/CABDF5AA-D1A7-40F6-A34E-B48CF08C475D/Autoskola.app/www/index.html#/tabs/theory
+2015-03-29 16:28:58.391 Autoskola[1761:108261] Terminating since there is no system app.
+2015-03-29 21:28:02.767 Autoskola[2385:157057] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/tristan/Library/Developer/CoreSimulator/Devices/ED31A8E0-7ABB-4428-A6B4-AB9B995BFEB0/data/Containers/Data/Application/C8B183CD-1038-497D-B274-7507080B3C00/Library/Cookies/Cookies.binarycookies
+2015-03-29 21:28:02.990 Autoskola[2385:157057] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-29 21:28:02.990 Autoskola[2385:157057] Multi-tasking -> Device: YES, App: YES
+2015-03-29 21:28:03.005 Autoskola[2385:157057] Unlimited access to network resources
+2015-03-29 21:28:03.309 Autoskola[2385:157057] [CDVTimer][keyboard] 0.079989ms
+2015-03-29 21:28:03.309 Autoskola[2385:157057] [CDVTimer][TotalPluginStartup] 0.286996ms
+2015-03-29 21:28:03.514 Autoskola[2385:157057] Resetting plugins due to page load.
+2015-03-29 21:28:03.831 Autoskola[2385:157057] Finished load of: file:///Users/tristan/Library/Developer/CoreSimulator/Devices/ED31A8E0-7ABB-4428-A6B4-AB9B995BFEB0/data/Containers/Bundle/Application/57BD7BE5-2D40-488E-94CF-9514DA219419/Autoskola.app/www/index.html#/tabs/theory
+2015-03-29 21:29:12.198 Autoskola[2710:158774] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/tristan/Library/Developer/CoreSimulator/Devices/ED31A8E0-7ABB-4428-A6B4-AB9B995BFEB0/data/Containers/Data/Application/B191D842-9B22-4C7D-9CB6-5263634B76D3/Library/Cookies/Cookies.binarycookies
+2015-03-29 21:29:12.278 Autoskola[2710:158774] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-29 21:29:12.279 Autoskola[2710:158774] Multi-tasking -> Device: YES, App: YES
+2015-03-29 21:29:12.281 Autoskola[2710:158774] Unlimited access to network resources
+2015-03-29 21:29:12.373 Autoskola[2710:158774] [CDVTimer][keyboard] 0.062048ms
+2015-03-29 21:29:12.373 Autoskola[2710:158774] [CDVTimer][TotalPluginStartup] 0.230968ms
+2015-03-29 21:29:12.442 Autoskola[2710:158774] Resetting plugins due to page load.
+2015-03-29 21:29:12.700 Autoskola[2710:158774] Finished load of: file:///Users/tristan/Library/Developer/CoreSimulator/Devices/ED31A8E0-7ABB-4428-A6B4-AB9B995BFEB0/data/Containers/Bundle/Application/68F81BF8-287C-4EBC-ABDE-5E3FB6E24D72/Autoskola.app/www/index.html#/tabs/theory
+2015-03-29 21:31:41.499 Autoskola[3022:161270] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/tristan/Library/Developer/CoreSimulator/Devices/ED31A8E0-7ABB-4428-A6B4-AB9B995BFEB0/data/Containers/Data/Application/7578F995-FE7F-4672-83C3-3E0EEB270CE9/Library/Cookies/Cookies.binarycookies
+2015-03-29 21:31:41.618 Autoskola[3022:161270] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-29 21:31:41.618 Autoskola[3022:161270] Multi-tasking -> Device: YES, App: YES
+2015-03-29 21:31:41.621 Autoskola[3022:161270] Unlimited access to network resources
+2015-03-29 21:31:41.748 Autoskola[3022:161270] [CDVTimer][keyboard] 0.102997ms
+2015-03-29 21:31:41.748 Autoskola[3022:161270] [CDVTimer][TotalPluginStartup] 0.458956ms
+2015-03-29 21:31:41.842 Autoskola[3022:161270] Resetting plugins due to page load.
+2015-03-29 21:31:42.033 Autoskola[3022:161270] Finished load of: file:///Users/tristan/Library/Developer/CoreSimulator/Devices/ED31A8E0-7ABB-4428-A6B4-AB9B995BFEB0/data/Containers/Bundle/Application/26EB6DFF-DE65-4563-9B9F-741110A27AB3/Autoskola.app/www/index.html#/tabs/theory
+2015-03-29 21:38:08.297 Autoskola[3352:167278] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/tristan/Library/Developer/CoreSimulator/Devices/ED31A8E0-7ABB-4428-A6B4-AB9B995BFEB0/data/Containers/Data/Application/6263BBF4-11FF-464F-AC57-554FECDF1DDB/Library/Cookies/Cookies.binarycookies
+2015-03-29 21:38:08.375 Autoskola[3352:167278] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-29 21:38:08.376 Autoskola[3352:167278] Multi-tasking -> Device: YES, App: YES
+2015-03-29 21:38:08.378 Autoskola[3352:167278] Unlimited access to network resources
+2015-03-29 21:38:08.470 Autoskola[3352:167278] [CDVTimer][keyboard] 0.065982ms
+2015-03-29 21:38:08.471 Autoskola[3352:167278] [CDVTimer][TotalPluginStartup] 0.259995ms
+2015-03-29 21:38:08.599 Autoskola[3352:167278] Resetting plugins due to page load.
+2015-03-29 21:38:09.095 Autoskola[3352:167278] Finished load of: file:///Users/tristan/Library/Developer/CoreSimulator/Devices/ED31A8E0-7ABB-4428-A6B4-AB9B995BFEB0/data/Containers/Bundle/Application/AD70A4B0-8133-4C69-8900-DC238CC26039/Autoskola.app/www/index.html#/tabs/theory
+2015-03-29 22:02:45.932 Autoskola[3717:185036] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/tristan/Library/Developer/CoreSimulator/Devices/ED31A8E0-7ABB-4428-A6B4-AB9B995BFEB0/data/Containers/Data/Application/BC7B5CCA-08E2-4205-B67F-AB0659A2886A/Library/Cookies/Cookies.binarycookies
+2015-03-29 22:02:46.208 Autoskola[3717:185036] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-29 22:02:46.208 Autoskola[3717:185036] Multi-tasking -> Device: YES, App: YES
+2015-03-29 22:02:46.227 Autoskola[3717:185036] Unlimited access to network resources
+2015-03-29 22:02:46.605 Autoskola[3717:185036] [CDVTimer][keyboard] 0.083983ms
+2015-03-29 22:02:46.605 Autoskola[3717:185036] [CDVTimer][TotalPluginStartup] 0.299037ms
+2015-03-29 22:02:46.890 Autoskola[3717:185036] Resetting plugins due to page load.
+2015-03-29 22:02:47.203 Autoskola[3717:185036] Finished load of: file:///Users/tristan/Library/Developer/CoreSimulator/Devices/ED31A8E0-7ABB-4428-A6B4-AB9B995BFEB0/data/Containers/Bundle/Application/97440747-66D0-4C2E-8744-80693C772ED6/Autoskola.app/www/index.html#/tabs/theory
+2015-03-29 22:03:18.411 Autoskola[3717:185036] [{"id":2,"headline":"Autobus","paragraph":"Motorové vozidlo na dopravu osôb, ktoré má okrem miesta pre vodiča viac ako osem miest na sedenie."}]
+2015-03-29 22:03:18.413 Autoskola[3717:185036] [{"id":2,"headline":"Autobus","paragraph":"Motorové vozidlo na dopravu osôb, ktoré má okrem miesta pre vodiča viac ako osem miest na sedenie."},{"id":6,"image":"img/theory/001_crossingsBorder.png","headline":"Hranica križovatky","paragraph":"Miesto vyznačené vodorovnou dopravnou značkou „Priečna súvislá čiara“, „Priečna súvislá čiara so symbolom Daj prednosť v jazde!“ alebo „Priečna súvislá čiara s nápisom STOP“; kde takáto vodorovná dopravná značka nie je, hranicu križovatky tvorí kolmica na os vozovky v mieste, kde sa pre križovatku začína zakrivenie vozovky."}]
+2015-03-29 22:03:48.985 Autoskola[3717:185986] Terminating since there is no system app.
+2015-03-29 22:09:17.654 Autoskola[4107:192301] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/tristan/Library/Developer/CoreSimulator/Devices/ED31A8E0-7ABB-4428-A6B4-AB9B995BFEB0/data/Containers/Data/Application/12CBE179-22AC-469B-BBE9-79B58757AA88/Library/Cookies/Cookies.binarycookies
+2015-03-29 22:09:17.918 Autoskola[4107:192301] Apache Cordova native platform version 3.7.0 is starting.
+2015-03-29 22:09:17.918 Autoskola[4107:192301] Multi-tasking -> Device: YES, App: YES
+2015-03-29 22:09:17.933 Autoskola[4107:192301] Unlimited access to network resources
+2015-03-29 22:09:18.305 Autoskola[4107:192301] [CDVTimer][keyboard] 0.072956ms
+2015-03-29 22:09:18.442 Autoskola[4107:192301] [CDVTimer][statusbar] 137.569964ms
+2015-03-29 22:09:18.443 Autoskola[4107:192301] [CDVTimer][TotalPluginStartup] 137.998998ms
+2015-03-29 22:09:18.606 Autoskola[4107:192301] Resetting plugins due to page load.
+2015-03-29 22:09:18.932 Autoskola[4107:192301] Finished load of: file:///Users/tristan/Library/Developer/CoreSimulator/Devices/ED31A8E0-7ABB-4428-A6B4-AB9B995BFEB0/data/Containers/Bundle/Application/C0AC4AC9-C113-4BDF-9493-849B534C4481/Autoskola.app/www/index.html#/tabs/theory
+2015-03-29 22:11:20.129 Autoskola[4107:192301] [{"id":3,"headline":"Dať prednosť v jazde","paragraph":"Povinnosť účastníka cestnej premávky počínať si tak, aby ten, kto má prednosť v jazde, nemusel <b>náhle</b> zmeniť smer alebo rýchlosť jazdy."}]

@@ -1,8 +1,8 @@
 <ion-view>
 
   // Questions header
-  <div class="bar-stable bar bar-header disable-user-behavior">
-    <button class="button button-icon icon ion-ios-search"></button>
+  <div class="bar bar-stable bar-header disable-user-behavior bar-large">
+    <button class="button button-icon icon icon-search"></button>
     <div class="title title-nav">
       <a ng-click="setTab('tab-law')" ng-class="{active: tabName == 'tab-law'}">Zákon</a>
       <a ng-click="setTab('tab-notice')" ng-class="{active: tabName == 'tab-notice'}">Vyhláška</a>
@@ -23,12 +23,12 @@
             <div class="item-inner">
               <b>{{ item.id }}.</b>
               {{ item.question }}
-              <i ng-if="localData[item.id].starred" class="icon ion-ios-star positive"></i>
+              <i ng-if="localData[item.id].starred" class="icon icon-pin positive"></i>
               <ion-option-button ng-click="pinQuestion(item)" class="button button-stable">
-                <i class="icon" ng-class="{'ion-ios-star': localData[item.id].starred, 'ion-ios-star-outline': !localData[item.id].starred}"></i>
+                <i class="icon" ng-class="{'icon-pin': localData[item.id].starred, 'icon-pin-outline': !localData[item.id].starred}"></i>
               </ion-option-button>
-              <ion-option-button ng-click="hideQuestion(item)" class="button button-stable">
-                <i class="icon ion-ios-box-outline"></i>
+              <ion-option-button ng-click="hideQuestion(item)" class="button-stable">
+                <i class="icon icon-check"></i>
               </ion-option-button>
             </div>
           </ion-item>

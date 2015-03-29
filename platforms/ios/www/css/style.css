@@ -80,7 +80,22 @@ i.positive {
   color: #6842EC;
 }
 
+.bar-stable .button, .bar-light .button, ion-option-button .icon {
+  color: #888;
+}
+
 /* Bar */
+
+.button-footer {
+  height: 56px;
+}
+
+.bar .button.button-icon .icon:before,
+.bar .button.button-icon:before,
+.bar .button.button-icon.icon-left:before,
+.bar .button.button-icon.icon-right:before {
+  font-size: 24px;
+}
 
 .bar.bar-positive {
   background-color: #5D7593;
@@ -92,8 +107,17 @@ i.positive {
   border-color: #D2D2D2;
 }
 
+.bar .title {
+  line-height: 3em;
+  height: 56px;
+}
+
+.bar .button {
+  min-height: 44px;
+}
+
 .title-nav > a {
-	padding: 8px 10px;
+	padding: 18px 10px;
 }
 
 .bar .title a {
@@ -102,9 +126,16 @@ i.positive {
 
 .title-nav > a.active {
 	color: #6842EF;
-  border-bottom: 5px solid #6842EF;
+  border-bottom: 2px solid #6842EF;
 }
 
+.has-header {
+  top: 55px;
+}
+
+.bar.bar-header {
+  height: 56px;
+}
 
 /* Tabs */
 
@@ -189,9 +220,13 @@ i.positive {
   overflow: hidden;
 }
 
+.item-icon-right .icon {
+  font-size: 24px;
+}
+
 /* .item-hideable.ng-enter,*/ .item-hideable.ng-leave {
-  -webkit-transition: all ease-in-out 250ms;
-  transition: all ease-in-out 250ms;
+  -webkit-transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 250ms;
+  transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 250ms;
 }
 
 .item-hideable.ng-enter,
@@ -227,8 +262,8 @@ i.positive {
   margin-bottom: 0;
 }
 
-.item-options .button {
-  padding: 0px 24px;
+.item-options .button .icon {
+  font-size: 32px;
 }
 
 /* Chapter */
@@ -242,7 +277,7 @@ i.positive {
   max-height: 0;
   margin: 0;
   padding: 0 0 0 1.5em;
-  opacity: ;ity: 0;
+  opacity: 0;
   overflow: hidden;
   transition: all 250ms;
   transition-timing-function: ease-in-out;

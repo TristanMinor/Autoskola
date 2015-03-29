@@ -45,6 +45,7 @@
 		210F5B58B8B8415AA6B63FDE /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A246D1E00549C3AB4248B5 /* CDVDevice.m */; };
 		B2A4183060A548D1A3DA7618 /* CDVAccelerometer.m in Sources */ = {isa = PBXBuildFile; fileRef = A30A59571FF342B795839747 /* CDVAccelerometer.m */; };
 		AA8822C5547945A29D74D279 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 455856419A884BA4B86C07AE /* CoreMotion.framework */; };
+		A586F4D69812421390D1C407 /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1A1CB43AD74222B78927B3 /* CDVStatusBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +122,8 @@
 		A30A59571FF342B795839747 /* CDVAccelerometer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVAccelerometer.m"; path = "org.apache.cordova.device-motion/CDVAccelerometer.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		60397CEC7A9C4E76BC20E3EB /* CDVAccelerometer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVAccelerometer.h"; path = "org.apache.cordova.device-motion/CDVAccelerometer.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		455856419A884BA4B86C07AE /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreMotion.framework"; path = "System/Library/Frameworks/CoreMotion.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		0C1A1CB43AD74222B78927B3 /* CDVStatusBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVStatusBar.m"; path = "org.apache.cordova.statusbar/CDVStatusBar.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		6E5BC963A4A047B7B4BBECC3 /* CDVStatusBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVStatusBar.h"; path = "org.apache.cordova.statusbar/CDVStatusBar.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,6 +234,8 @@
 				B80C7D95381F4B1D9CA2B722 /* CDVDevice.h */,
 				A30A59571FF342B795839747 /* CDVAccelerometer.m */,
 				60397CEC7A9C4E76BC20E3EB /* CDVAccelerometer.h */,
+				0C1A1CB43AD74222B78927B3 /* CDVStatusBar.m */,
+				6E5BC963A4A047B7B4BBECC3 /* CDVStatusBar.h */,
 			);
 			name = Plugins;
 			path = "Autoskola/Plugins";
@@ -420,6 +425,7 @@
 				0CC44EAA602A46B1B29E58CE /* CDVLogger.m in Sources */,
 				210F5B58B8B8415AA6B63FDE /* CDVDevice.m in Sources */,
 				B2A4183060A548D1A3DA7618 /* CDVAccelerometer.m in Sources */,
+				A586F4D69812421390D1C407 /* CDVStatusBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

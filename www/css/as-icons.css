@@ -86,3 +86,11 @@
 .icon-theory-outline:before {
 	content: "\e600";
 }
+
+.icon-tests-outline:before {
+    content: "\e610";
+}
+
+.icon-tests:before {
+    content: "\e611";
+}

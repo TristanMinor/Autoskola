@@ -369,5 +369,99 @@
       "minutes": 8,
       "name": "Osobitné označenia vozidla a parkovací preukaz"
     }]
+  }, {
+    "id": 4,
+    "section": "Podmienky prepravy osôb a materiálu",
+    "chapters": [{
+      "id": 33,
+      "name": "Preprava osôb"
+    }, {
+      "id": 36,
+      "name": "Preprava osôb vozidlom pravidelnej verejnej dopravy osôb"
+    }, {
+      "id": 37,
+      "name": "Preprava osôb v ložnom priestore nákladného automobilu a traktora"
+    }]
+  }, {
+    "id": 5,
+    "section": "Osobitné ustanovenia o niektorých účastníkoch cestnej premávky",
+    "chapters": [{
+      "id": 38,
+      "name": "Osobitné ustanovenia o chodcoch"
+    }, {
+      "id": 39,
+      "name": "Osobitné ustanovenia o cyklistoch"
+    }, {
+      "id": 40,
+      "name": "Jazda so záprahovým vozidlom a ručným vozíkom"
+    }, {
+      "id": 41,
+      "name": "Jazda na zvieratách, vedenie a hnanie zvierat"
+    }, {
+      "id": 42,
+      "name": "Osoba vykonávajúca prácu na ceste"
+    }, {
+      "id": 43,
+      "name": "Osobitné ustanovenia o cestnej premávke v obytnej zóne, pešej zóne a školskej zóne"
+    }]
+  }, {
+    "id": 6,
+    "section": "Úprava a riadenie cestnej premávky",
+    "chapters": [{
+      "id": 44,
+      "name": "Dopravné značky a dopravné zariadenia"
+    }, {
+      "id": 45,
+      "name": "Zvislé dopravné značky"
+    }, {
+      "id": 46,
+      "name": "Vodorovné dopravné značky"
+    }, {
+      "id": 47,
+      "name": "Dopravné zariadenia"
+    }, {
+      "id": 48,
+      "name": "Riadenie cestnej premávky"
+    }, {
+      "id": 49,
+      "name": "Riadenie cestnej premávky svetelnými signálmi a pokynmi"
+    }, {
+      "id": 50,
+      "name": "Oprávenie na zastavovanie vozidiel"
+    }]
+  }, {
+    "id": 7,
+    "section": "Dopravné nehody",
+    "chapters": [{
+      "id": 51,
+      "name": "Dopravná nehoda"
+    }, {
+      "id": 52,
+      "name": "Povinnosti vodiča pri dopravnej nehode"
+    }, {
+      "id": 53,
+      "name": "Povinnosti účastníka dopravnej nehody a škodovej udalosti"
+    }]
+  }, {
+    "id": 8,
+    "section": "Oprávnenia policajta",
+    "chapters": [{
+      "id": 54,
+      "name": "Všeobecné oprávnenia"
+    }, {
+      "id": 55,
+      "name": "Zadržanie vodičského preukazu"
+    }, {
+      "id": 56,
+      "name": "Zadržanie osvedčenia o evidencii časť I alebo časť II, evidenčného dokladu vydaného v cudzine, technického osvedčenia vozidla a tabuľky s evidenčným číslom"
+    }]
+
+  }, {
+    "id": 9,
+    "section": "Zodpovednosť za porušenie povinností",
+    "chapters": [{
+      "id": 57,
+      "name": "Zodpovednosť za porušenie povinností"
+    }]
   }]
 }
