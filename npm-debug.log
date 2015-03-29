@@ -21,25 +21,25 @@
 15 verbose addNameRange registry:https://registry.npmjs.org/ionic not in flight; fetching
 16 verbose request uri https://registry.npmjs.org/ionic
 17 verbose request no auth needed
-18 info attempt registry request try #1 at 6:04:32 PM
-19 verbose request id ed030e6dc7cd5937
-20 verbose etag "6DBRTHDHZ3X4S1ZO6WZGLVU9Y"
+18 info attempt registry request try #1 at 12:35:54 PM
+19 verbose request id bb58652808c8e077
+20 verbose etag "APSHT56X1INC025TKF4FLQD56"
 21 http request GET https://registry.npmjs.org/ionic
 22 http 200 https://registry.npmjs.org/ionic
 23 silly get cb [ 200,
-23 silly get   { date: 'Tue, 17 Mar 2015 17:04:32 GMT',
+23 silly get   { date: 'Sun, 29 Mar 2015 10:35:55 GMT',
 23 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-23 silly get     etag: '"APSHT56X1INC025TKF4FLQD56"',
+23 silly get     etag: '"6WDLSJTRRZY4BYLH09OHL38LT"',
 23 silly get     'content-type': 'application/json',
 23 silly get     'cache-control': 'max-age=60',
-23 silly get     'content-length': '254026',
+23 silly get     'content-length': '285422',
 23 silly get     'accept-ranges': 'bytes',
 23 silly get     via: '1.1 varnish',
-23 silly get     age: '4',
-23 silly get     'x-served-by': 'cache-fra1234-FRA',
-23 silly get     'x-cache': 'HIT',
-23 silly get     'x-cache-hits': '1',
-23 silly get     'x-timer': 'S1426611872.339981,VS0,VE1',
+23 silly get     age: '0',
+23 silly get     'x-served-by': 'cache-jfk1020-JFK',
+23 silly get     'x-cache': 'MISS',
+23 silly get     'x-cache-hits': '0',
+23 silly get     'x-timer': 'S1427625355.401399,VS0,VE77',
 23 silly get     vary: 'Accept',
 23 silly get     'keep-alive': 'timeout=10, max=50',
 23 silly get     connection: 'Keep-Alive' } ]
@@ -192,39 +192,52 @@
 26 silly addNameRange     '1.3.15-beta.3',
 26 silly addNameRange     '1.3.15-beta.4',
 26 silly addNameRange     '1.3.15',
-26 silly addNameRange     '1.3.16' ] ]
-27 verbose addNamed ionic@1.3.16
-28 silly addNamed semver.valid 1.3.16
-29 silly addNamed semver.validRange 1.3.16
+26 silly addNameRange     '1.3.16',
+26 silly addNameRange     '1.4.0-alpha.6',
+26 silly addNameRange     '1.3.17-beta.0',
+26 silly addNameRange     '1.3.17-beta.1',
+26 silly addNameRange     '1.3.17-beta.2',
+26 silly addNameRange     '1.3.17-beta.3',
+26 silly addNameRange     '1.3.1-7.beta.4',
+26 silly addNameRange     '1.3.17',
+26 silly addNameRange     '1.3.18-beta.0',
+26 silly addNameRange     '1.3.18-beta.1',
+26 silly addNameRange     '1.3.18-beta.2',
+26 silly addNameRange     '1.3.18-beta.3',
+26 silly addNameRange     '1.3.18',
+26 silly addNameRange     '1.3.19-beta.0' ] ]
+27 verbose addNamed ionic@1.3.18
+28 silly addNamed semver.valid 1.3.18
+29 silly addNamed semver.validRange 1.3.18
 30 silly mapToRegistry name ionic
 31 silly mapToRegistry using default registry
 32 silly mapToRegistry registry https://registry.npmjs.org/
 33 silly mapToRegistry uri https://registry.npmjs.org/ionic
-34 verbose addRemoteTarball https://registry.npmjs.org/ionic/-/ionic-1.3.16.tgz not in flight; adding
-35 verbose addRemoteTarball [ 'https://registry.npmjs.org/ionic/-/ionic-1.3.16.tgz',
-35 verbose addRemoteTarball   '205ee120355ed4c25c40afe2e60338ee110f9a0d' ]
-36 info retry fetch attempt 1 at 6:04:32 PM
-37 info attempt registry request try #1 at 6:04:32 PM
-38 http fetch GET https://registry.npmjs.org/ionic/-/ionic-1.3.16.tgz
-39 http fetch 200 https://registry.npmjs.org/ionic/-/ionic-1.3.16.tgz
-40 silly fetchAndShaCheck shasum 205ee120355ed4c25c40afe2e60338ee110f9a0d
-41 verbose addTmpTarball /var/folders/jb/g3h52sns4dz2hyhps_qdf8hc0000gn/T/npm-1770-19f23006/registry.npmjs.org/ionic/-/ionic-1.3.16.tgz not in flight; adding
-42 verbose addTmpTarball already have metadata; skipping unpack for ionic@1.3.16
-43 verbose stack Error: EACCES, mkdir '/Users/tristan/.npm/ionic/1.3.16'
+34 verbose addRemoteTarball https://registry.npmjs.org/ionic/-/ionic-1.3.18.tgz not in flight; adding
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/ionic/-/ionic-1.3.18.tgz',
+35 verbose addRemoteTarball   'd7775e2020bcf42153ee4ba6e201cba3f7f7df29' ]
+36 info retry fetch attempt 1 at 12:35:56 PM
+37 info attempt registry request try #1 at 12:35:56 PM
+38 http fetch GET https://registry.npmjs.org/ionic/-/ionic-1.3.18.tgz
+39 http fetch 200 https://registry.npmjs.org/ionic/-/ionic-1.3.18.tgz
+40 silly fetchAndShaCheck shasum d7775e2020bcf42153ee4ba6e201cba3f7f7df29
+41 verbose addTmpTarball /var/folders/jb/g3h52sns4dz2hyhps_qdf8hc0000gn/T/npm-543-f3d77faf/registry.npmjs.org/ionic/-/ionic-1.3.18.tgz not in flight; adding
+42 verbose addTmpTarball already have metadata; skipping unpack for ionic@1.3.18
+43 verbose stack Error: EACCES, mkdir '/Users/tristan/.npm/ionic/1.3.18'
 43 verbose stack     at Error (native)
 44 verbose cwd /Users/tristan/GitHub/Autoskola
 45 error Darwin 14.1.0
 46 error argv "node" "/usr/local/bin/npm" "install" "-g" "ionic"
 47 error node v0.12.0
 48 error npm  v2.5.1
-49 error path /Users/tristan/.npm/ionic/1.3.16
+49 error path /Users/tristan/.npm/ionic/1.3.18
 50 error code EACCES
 51 error errno -13
-52 error Error: EACCES, mkdir '/Users/tristan/.npm/ionic/1.3.16'
+52 error Error: EACCES, mkdir '/Users/tristan/.npm/ionic/1.3.18'
 52 error     at Error (native)
-52 error  { [Error: EACCES, mkdir '/Users/tristan/.npm/ionic/1.3.16']
+52 error  { [Error: EACCES, mkdir '/Users/tristan/.npm/ionic/1.3.18']
 52 error   errno: -13,
 52 error   code: 'EACCES',
-52 error   path: '/Users/tristan/.npm/ionic/1.3.16' }
+52 error   path: '/Users/tristan/.npm/ionic/1.3.18' }
 53 error Please try running this command again as root/Administrator.
 54 verbose exit [ -13, true ]

@@ -23,20 +23,36 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.icon-theory-outline:before {
-	content: "\e600";
+.icon-star-outline:before {
+	content: "\e608";
 }
 
-.icon-theory:before {
-	content: "\e601";
+.icon-star:before {
+	content: "\e609";
 }
 
-.icon-questions-outline:before {
-	content: "\e602";
+.icon-pin-outline:before {
+	content: "\e60a";
 }
 
-.icon-questions:before {
-	content: "\e603";
+.icon-pin:before {
+	content: "\e60b";
+}
+
+.icon-check:before {
+	content: "\e60c";
+}
+
+.icon-archive-outline:before {
+	content: "\e60d";
+}
+
+.icon-close:before {
+	content: "\e606";
+}
+
+.icon-explain:before {
+	content: "\e607";
 }
 
 .icon-back:before {
@@ -47,10 +63,26 @@
 	content: "\e605";
 }
 
-.icon-close:before {
-    content: "\e606";
+.icon-info:before {
+	content: "\e60e";
 }
 
-.icon-explain:before {
-    content: "\e607";
+.icon-info-outline:before {
+	content: "\e60f";
+}
+
+.icon-questions-outline:before {
+	content: "\e602";
+}
+
+.icon-questions:before {
+	content: "\e603";
+}
+
+.icon-theory:before {
+	content: "\e601";
+}
+
+.icon-theory-outline:before {
+	content: "\e600";
 }

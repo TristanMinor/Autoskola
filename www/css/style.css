@@ -80,9 +80,13 @@ i.positive {
   color: #6842EC;
 }
 
+.bar-stable .button, .bar-light .button, ion-option-button .icon {
+  color: #888;
+}
+
 /* Bar */
 
-.bar-header {
+.bar.bar-header, .button-footer {
   height: 56px;
 }
 
@@ -212,6 +216,10 @@ i.positive {
   overflow: hidden;
 }
 
+.item-icon-right .icon {
+  font-size: 24px;
+}
+
 /* .item-hideable.ng-enter,*/ .item-hideable.ng-leave {
   -webkit-transition: all ease-in-out 250ms;
   transition: all ease-in-out 250ms;
@@ -250,8 +258,8 @@ i.positive {
   margin-bottom: 0;
 }
 
-.item-options .button {
-  padding: 0px 24px;
+.item-options .button .icon {
+  font-size: 32px;
 }
 
 /* Chapter */
