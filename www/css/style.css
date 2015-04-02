@@ -24,7 +24,7 @@
     font-style: normal;
 }
 
-body, .ionic-body {
+body, .ionic-body, li {
   font-size: 20px;
   line-height: 1.5;
   color: #1F1F1F;
@@ -33,6 +33,10 @@ body, .ionic-body {
 p, blockquote, .question-text  {
   font-family: "preto_serif_ot_std_regular";
   margin: 0 0 1.5em;
+}
+
+li {
+  font-family: "preto_serif_ot_std_regular";
 }
 
 b, strong {
@@ -49,6 +53,19 @@ blockquote {
   border-left: 2px solid #6842EF;
 }
 
+ul li:before{
+	content:"–";
+	position: relative;
+  margin-left: -0.5em;
+	left: -0.5em;
+}
+
+li {
+  padding-bottom: 0.4em;
+  padding-left: 1em;
+  list-style-position: outside;
+
+}
 
 /* Colors, look */
 
@@ -86,8 +103,9 @@ i.positive {
 
 /* Bar */
 
-.button-footer {
+.bar, .button-footer {
   height: 56px;
+  color: black;
 }
 
 .bar .button.button-icon .icon:before,
@@ -130,11 +148,7 @@ i.positive {
 }
 
 .has-header {
-  top: 55px;
-}
-
-.bar.bar-header {
-  height: 56px;
+  top: 56px;
 }
 
 /* Tabs */
@@ -152,13 +166,18 @@ i.positive {
   border: none;
 }
 
+.tabs-stable > .tabs, .tabs.tabs-stable {
+  background-color: #F2F3F9;
+  border-color: #D2D2D2;
+}
+
 .tabs-icon-top > .tabs .tab-item {
   padding-top: 10px;
   font-size: 12px;
 }
 
 .tabs a.tab-item-active {
-  color: #fff;
+  color: #6842EC;
 }
 
 .tab-item .icon {
@@ -216,6 +235,7 @@ i.positive {
 
 .item-inner {
   height: 60px;
+  color: #1f1f1f;
   white-space: normal;
   overflow: hidden;
 }

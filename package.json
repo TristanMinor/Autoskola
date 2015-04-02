@@ -16,7 +16,9 @@
   },
   "cordovaPlugins": [
     "https://github.com/leecrossley/cordova-plugin-shake-detection.git",
+    "org.apache.cordova.statusbar",
     "org.apache.cordova.device",
-    "org.apache.cordova.statusbar"
+    "org.apache.cordova.console",
+    "com.ionic.keyboard"
   ]
 }

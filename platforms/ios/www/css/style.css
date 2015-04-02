@@ -86,8 +86,9 @@ i.positive {
 
 /* Bar */
 
-.button-footer {
-  height: 56px;
+.bar, .button-footer {
+  height: 100px;
+  color: black;
 }
 
 .bar .button.button-icon .icon:before,
@@ -130,11 +131,7 @@ i.positive {
 }
 
 .has-header {
-  top: 55px;
-}
-
-.bar.bar-header {
-  height: 56px;
+  top: 100px;
 }
 
 /* Tabs */
@@ -152,13 +149,18 @@ i.positive {
   border: none;
 }
 
+.tabs-stable > .tabs, .tabs.tabs-stable {
+  background-color: #F2F3F9;
+  border-color: #D2D2D2;
+}
+
 .tabs-icon-top > .tabs .tab-item {
   padding-top: 10px;
   font-size: 12px;
 }
 
 .tabs a.tab-item-active {
-  color: #fff;
+  color: #6842EC;
 }
 
 .tab-item .icon {
@@ -216,6 +218,7 @@ i.positive {
 
 .item-inner {
   height: 60px;
+  color: #1f1f1f;
   white-space: normal;
   overflow: hidden;
 }

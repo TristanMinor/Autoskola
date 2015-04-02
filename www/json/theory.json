@@ -161,97 +161,153 @@
         "headline": "Vozidlo vhodné do prevádzky",
         "paragraph": "Vodič je povinný použiť na jazdu len vozidlo, ktoré možno prevádzkovať v cestnej premávke."
       }, {
-        "id": 1,
+        "id": 2,
         "headline": "Platné doklady",
         "paragraph": "Vodič je povinný mať pri sebe platné doklady predpísané týmto zákonom alebo osobitným predpisom."
       }, {
-        "id": 1,
+        "id": 3,
         "headline": "Sústredenie",
         "paragraph": "Vodič je povinný venovať sa plne vedeniu vozidla a sledovať situáciu v cestnej premávke."
       }, {
-        "id": 1,
+        "id": 4,
         "headline": "Vozidlo označené osobitným označením",
         "paragraph": "Vodič je povinný brať ohľad na vozidlo označené osobitným označením a na označené výcvikové vozidlo autoškoly."
       }, {
-        "id": 1,
+        "id": 5,
         "headline": "Zvýšená opatrnosť",
         "paragraph": "Vodič je povinný dbať na zvýšenú opatrnosť voči cyklistom a chodcom, najmä deťom, osobám so zdravotným postihnutím, osobitne voči osobám, ktoré používajú bielu palicu, a starým osobám."
       }, {
-        "id": 1,
+        "id": 6,
         "headline": "Chodec na priechode pre chodcov",
         "paragraph": "Vodič je povinný dať prednosť chodcovi, ktorý vstúpil na vozovku a prechádza cez priechod pre chodcov, pritom ho nesmie ohroziť; to neplatí pre vodiča električky."
       }, {
-        "id": 1,
+        "id": 7,
         "headline": "Spôsobilé osoby",
         "paragraph": "Vodič je povinný pribrať potrebný počet spôsobilých osôb, ak to vyžaduje bezpečnosť cestnej premávky, a na ten účel ich náležite poučiť."
       }, {
-        "id": 1,
+        "id": 8,
         "headline": "Zabezpečenie vozidla",
         "paragraph": "Vodič je povinný zabezpečiť vozidlo a prepravované veci proti odcudzeniu prostriedkami montovanými do vozidla jeho výrobcom, ak sa vzdiali od vozidla mimo jeho dohľadu."
       }, {
-        "id": 1,
+        "id": 9,
         "headline": "Predmety odvádzajúce pozornosť",
         "paragraph": "Vodič je povinný zabezpečiť pred jazdou a počas jazdy, aby sa vo výhľadovom poli vodiča nenachádzali predmety, ktoré môžu odvádzať pozornosť od bezpečného vedenia vozidla."
       }, {
-        "id": 1,
+        "id": 10,
         "headline": "Vedenie motorového vozidla bez oprávnenia",
         "paragraph": "Vodič nesmie viesť motorové vozidlo bez príslušného vodičského oprávnenia, v čase jeho odobratia alebo počas zadržania vodičského preukazu; to neplatí, ak sa učí viesť motorové vozidlo v autoškole, podrobuje sa skúške z vedenia motorového vozidla alebo má povolenú jazdu podľa <a href='#'>§ 70 ods. 4 a § 71 ods. 2</a>.",
         "blockquote": "<b>§ 70 ods. 4</b><br>Policajt bezodkladne vydá o zadržaní vodičského preukazu potvrdenie a najneskôr v nasledujúci pracovný deň po zadržaní vodičského preukazu zašle vodičský preukaz orgánu Policajného zboru príslušnému podľa miesta, kde bol vodičský preukaz zadržaný. V potvrdení môže policajt povoliť ďalšiu jazdu s vozidlom najviac na 15 dní, ak takou jazdou nebude ohrozená bezpečnosť alebo plynulosť cestnej premávky; povolenie platí len na území Slovenskej republiky. <br><br><b>§ 71 ods. 2</b><br>Policajt na mieste vydá o zadržaní vodičského preukazu podľa odseku 1 potvrdenie, v ktorom povolí ďalšiu jazdu na 15 dní; povolenie platí len na území Slovenskej republiky. V potvrdení musí byť uvedený rozsah udeleného vodičského oprávnenia a spôsob vrátenia vodičského preukazu. Páchateľ priestupku môže požiadať policajta, ktorý vodičský preukaz zadržal, aby zadržaný vodičský preukaz postúpil orgánu Policajného zboru v mieste jeho pobytu alebo v mieste, kde sa zdržiava, na účely jeho vrátenia; policajt je povinný tejto žiadosti vyhovieť."
       }, {
-        "id": 1,
+        "id": 11,
         "headline": "Alkohol a návykové látky",
         "paragraph": "Vodič nesmie požiť počas vedenia vozidla alkohol alebo inú návykovú látku, ani viesť vozidlo v takom čase po požití alkoholu alebo inej návykovej látky, keď sa alkohol alebo iná návyková látka ešte môžu nachádzať v jeho organizme."
       }, {
-        "id": 1,
+        "id": 12,
         "headline": "Lieky, úraz, choroba, nevoľnosť, alebo únava",
         "paragraph": "Vodič nesmie viesť vozidlo po požití lieku v čase, keď liek môže znížiť jeho schopnosť viesť vozidlo, ani viesť vozidlo, ak jeho schopnosť viesť vozidlo je znížená najmä úrazom, chorobou, nevoľnosťou alebo únavou."
       }, {
-        "id": 1,
+        "id": 13,
         "headline": "Odovzdanie vedenie vozidla",
         "paragraph": "Vodič nesmie odovzdať vedenie vozidla osobe, ktorá nespĺňa podmienky na vedenie vozidla ustanovené týmto zákonom, osobe, ktorá je pod vplyvom alkoholu alebo inej návykovej látky, alebo osobe, ktorej schopnosť viesť vozidlo je inak znížená."
       }, {
-        "id": 1,
+        "id": 14,
         "headline": "Chodci prechádzajúci cez cestu",
         "paragraph": "Vodič nesmie ohroziť chodcov prechádzajúcich cez cestu, na ktorú vodič odbočuje, pri odbočovaní na miesto mimo cesty, pri vchádzaní na cestu a pri otáčaní alebo pri cúvaní."
       }, {
-        "id": 1,
+        "id": 15,
         "headline": "Cyklisti prechádzajúci cez cestu",
         "paragraph": "Vodič nesmie ohroziť cyklistov prechádzajúcich cez priechod pre cyklistov."
       }, {
-        "id": 1,
+        "id": 16,
         "headline": "Životné prostredie",
         "paragraph": "Vodič nesmie poškodzovať životné prostredie, najmä verejnú a cestnú zeleň."
       }, {
-        "id": 1,
+        "id": 17,
         "headline": "Pomalá jazda",
         "image": "img/theory/003_slowRiding.png",
         "paragraph": "Vodič nesmie prekážať v jazde rýchlejšie idúcim vozidlám a obmedzovať plynulosť cestnej premávky."
       }, {
-        "id": 1,
+        "id": 18,
         "headline": "Náhle zníženie rýchlosti jazdy, alebo náhle zastavenie",
         "image": "img/theory/003_stoppingSuddenly.png",
         "paragraph": "Vodič nesmie znížiť náhle rýchlosť jazdy alebo náhle zastaviť, ak to nevyžaduje bezpečnosť cestnej premávky."
       }, {
-        "id": 1,
+        "id": 19,
         "headline": "Telefón",
         "paragraph": "Vodič nesmie počas vedenia vozidla používať telefónny prístroj okrem telefonovania s použitím systému „voľné ruky“ alebo vykonávať inú obdobnú činnosť, ktorá nesúvisí s vedením vozidla; to neplatí pre vodiča vozidla ozbrojených síl Slovenskej republiky (ďalej len „ozbrojené sily“), ozbrojených bezpečnostných zborov, ozbrojených zborov, Vojenskej polície, obecnej polície, Hasičského a záchranného zboru, ostatných hasičských jednotiek, Horskej záchrannej služby, záchrannej zdravotnej služby, banskej záchrannej služby, Vojenského spravodajstva a Slovenskej informačnej služby pri plnení svojich úloh."
       }, {
-        "id": 1,
+        "id": 20,
         "headline": "Neslušné správanie",
         "paragraph": "Vodič nesmie používať hanlivé gestá voči ostatným účastníkom cestnej premávky, vyhadzovať z vozidla predmety a obťažovať ostatných účastníkov cestnej premávky ani iné osoby najmä nadmerným hlukom, prachom, znečisťovaním ovzdušia, rozstrekovaním kaluží, blata alebo zbytočným ponechaním motora stojaceho vozidla v chode."
       }, {
-        "id": 1,
+        "id": 21,
         "headline": "Podobné vozidlo",
         "paragraph": "Vodič nesmie použiť na jazdu vozidlo, ktoré svojím farebným vyhotovením a označením sa dá zameniť s vozidlom Policajného zboru, Vojenskej polície, Zboru väzenskej a justičnej stráže, obecnej polície, Hasičského a záchranného zboru alebo ostatných hasičských jednotiek. "
       }, {
-        "id": 1,
+        "id": 22,
         "headline": "Zastavenie vozidla na priechode pre chodcov",
-        "paragraph": "Vodič nesmie zastaviť vozidlo na priechode pre chodcov alebo na priechode pre cyklistov, ak to nevyžaduje bezpečnosť cestnej premávky. "
+        "paragraph": "Vodič nesmie zastaviť vozidlo na priechode pre chodcov alebo na priechode pre cyklistov, ak to nevyžaduje bezpečnosť cestnej premávky."
+      }, {
+        "id": 23,
+        "headline": "Používanie na cestách",
+        "paragraph": "Vodič smie motorové vozidlo použiť len na cestách; to neplatí, ak sa motorové vozidlo v súlade s osobitnými predpismi použije",
+        "list" : [{
+          "listitem": "v súvislosti s organizovaným športovým, spoločenským alebo iným verejným podujatím,"
+        }, {
+          "listitem": "na pôdohospodárske, lesné, údržbárske, stavebné alebo priemyselné práce,"
+        }, {
+          "listitem": "v súvislosti s výkonom poľovníckeho práva a rybárskeho práva alebo ich kontrolou,"
+        }, {
+          "listitem": "na záchranné práce,"
+        }, {
+          "listitem": "na práce vo verejnom záujme,"
+        }, {
+          "listitem": "na plnenie úloh spojených s ochranou životného prostredia, železničnej dopravy, verejného poriadku, bezpečnosťou štátu a obranou štátu,"
+        }, {
+          "listitem": "na prepravu do obytného alebo rekreačného zariadenia,"
+        }, {
+          "listitem": "v súvislosti s kontrolnou, inšpekčnou alebo prieskumnou činnosťou alebo"
+        }, {
+          "listitem": "v priestore, ktorý nie je verejne prístupný, so súhlasom jeho vlastníka alebo inej oprávnenej osoby."
+        }]
+      }, {
+        "id": 24,
+        "headline": "Pred priechodom pre chodcov",
+        "paragraph": "Ak vodič zníži rýchlosť jazdy alebo ak zastaví vozidlo pred priechodom pre chodcov alebo pred priechodom pre cyklistov, aby umožnil prejsť cez cestu chodcom alebo cyklistom, vodiči ostatných vozidiel idúcich rovnakým smerom sú takisto povinní znížiť rýchlosť jazdy alebo zastaviť vozidlo; to neplatí pre vodiča električky."
+      }, {
+        "id": 25,
+        "headline": "Odstránenie chyby",
+        "paragraph": "Ak vodič počas jazdy zistí, že vozidlo, náklad alebo upevnenie nákladu nespĺňajú ustanovené podmienky, je povinný chybu odstrániť na mieste. Ak to nemôže urobiť, smie v jazde pokračovať primeranou rýchlosťou len do najbližšieho miesta, kde možno chybu odstrániť; pritom musí urobiť také opatrenia, aby sa počas jazdy na takéto miesto neohrozila bezpečnosť a plynulosť cestnej premávky a aby sa nepoškodila cesta."
       }]
     }, {
       "id": 4,
       "minutes": 8,
-      "name": "Povinnosti niektorých vodičov a spolujazdcov"
+      "name": "Povinnosti niektorých vodičov a spolujazdcov",
+      "content": [{
+        "id": 1,
+        "headline": "Ochrana zraku a držanie riadidiel",
+        "paragraph": "Vodič motorového vozidla kategórie Ps s najväčšou konštrukčnou rýchlosťou prevyšujúcou 45 km/h a vodič motorového vozidla kategórie L je počas jazdy povinný vhodným spôsobom chrániť si zrak najmä okuliarmi alebo ochranným štítom, ak sa tým nezníži bezpečnosť jazdy, najmä v hmle, pri snežení alebo v daždi; je tiež povinný počas jazdy oboma rukami držať riadidlá s výnimkou prípadu, keď dáva znamenie podľa tohto zákona. "
+      }, {
+        "id": 2,
+        "headline": "Ochranná prilba určená pre motocyklistov",
+        "paragraph": "Vodič motorového vozidla kategórie Ps s najväčšou konštrukčnou rýchlosťou prevyšujúcou 45 km/h a vodič motorového vozidla kategórie L a jeho spolujazdec sú tiež povinní počas jazdy používať na hlave riadne upevnenú ochrannú prilbu určenú pre motocyklistov; to neplatí pre vodiča vozidla vybaveného bezpečnostnou kabínou alebo ochranným bezpečnostným rámom, ktoré je vybavené bezpečnostnými pásmi, a jeho spolujazdca."
+      }, {
+        "id": 3,
+        "headline": "Zákaz jedenia, pitia a fajčenia",
+        "paragraph": "Vodič motorového vozidla kategórie Ps s najväčšou konštrukčnou rýchlosťou prevyšujúcou 45 km/h a vodič motorového vozidla kategórie L nesmú počas jazdy jesť, piť ani fajčiť; táto povinnosť sa vzťahuje aj na ich spolujazdca."
+      }, {
+        "id": 4,
+        "headline": "Bezpečnostný odev",
+        "paragraph": "Vodič motorového vozidla, ktoré je povinne vybavené bezpečnostným odevom, je povinný mať bezpečnostný odev oblečený, ak sa zdržiava na vozovke mimo vozidla počas núdzového státia, najmä pri prerušení jazdy pre chybu na vozidle alebo v dôsledku dopravnej nehody; pritom nemožno použiť taký bezpečnostný odev, ktorý je zameniteľný s bezpečnostnými odevmi používanými ozbrojenými silami alebo ozbrojenými bezpečnostnými zbormi."
+      }, {
+        "id": 5,
+        "headline": "Jazda zo svahu",
+        "paragraph": "Vodič motorového vozidla s najväčšou prípustnou celkovou hmotnosťou prevyšujúcou 3500 kg a vodič jazdnej súpravy alebo zvláštneho motorového vozidla sú povinní jazdiť zo svahu vždy so zaradeným rýchlostným stupňom; vodič iného motorového vozidla je povinný jazdiť zo svahu so zaradeným rýchlostným stupňom, ak to vyžaduje bezpečnosť jazdy."
+      }, {
+        "id": 6,
+        "headline": "Jazda do svahu",
+        "paragraph": "Vodič motorového vozidla s najväčšou prípustnou celkovou hmotnosťou prevyšujúcou 3500 kg je pri jazde do svahu povinný umožniť prejazd rýchlejších vozidiel idúcich za ním; ak si to situácia vyžaduje, je povinný aj odstaviť vozidlo na najbližšom parkovisku, a to až do prejazdu týchto vozidiel."
+      }]
     }, {
       "id": 5,
       "minutes": 8,
