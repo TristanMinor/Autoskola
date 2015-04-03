@@ -24,6 +24,18 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'preto_serif_ot_std_italic';
+    src: url('../fonts/preto_serif_ot_std_italic.eot');
+    src: url('../fonts/preto_serif_ot_std_italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/preto_serif_ot_std_italic.woff2') format('woff2'),
+         url('../fonts/preto_serif_ot_std_italic.woff') format('woff'),
+         url('../fonts/preto_serif_ot_std_italic.ttf') format('truetype'),
+         url('../fonts/preto_serif_ot_std_italic.svg#preto_serif_ot_stditalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body, .ionic-body, li {
   font-size: 20px;
   line-height: 1.5;
@@ -32,7 +44,7 @@ body, .ionic-body, li {
 
 p, blockquote, .question-text  {
   font-family: "preto_serif_ot_std_regular";
-  margin: 0 0 1.5em;
+  margin: 0 0 2em;
 }
 
 li {
@@ -44,13 +56,28 @@ b, strong {
   font-family: "preto_serif_ot_std_bold";
 }
 
+i {
+  font-weight: normal;
+  font-family: "preto_serif_ot_std_italic";
+}
+
 h3 {
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 500;
 }
 
 blockquote {
   border-left: 2px solid #6842EF;
+}
+
+blockquote, blockquote p, blockquote ul li {
+  font-size: 18px;
+  color: #777;
+  font-family: "preto_serif_ot_std_italic";
+}
+
+ul {
+  margin: -1.5em 0 2em 0;
 }
 
 ul li:before{
@@ -149,6 +176,10 @@ i.positive {
 
 .has-header {
   top: 56px;
+}
+
+.has-footer {
+  bottom: 56px;
 }
 
 /* Tabs */
@@ -301,7 +332,6 @@ i.positive {
   overflow: hidden;
   transition: all 250ms;
   transition-timing-function: ease-in-out;
-  color: #777;
 }
 
 .chapter-text blockquote.active {
