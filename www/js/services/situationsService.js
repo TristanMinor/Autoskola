@@ -1,14 +1,14 @@
 'use strict';
 
 angular.module('autoskola')
-  .service('LawService', function($http, $q) {
+  .service('SituationsService', function($http, $q) {
 
     var data = [];
     var localData = {};
     var loaded = false;
 
     function loadLocalStorage() {
-      var storage = localStorage.getItem('law');
+      var storage = localStorage.getItem('situations');
       if (! storage) {
         localData = {};
       } else {
@@ -17,7 +17,7 @@ angular.module('autoskola')
     }
 
     function saveLocalStorage() {
-      localStorage.setItem('law', JSON.stringify(localData));
+      localStorage.setItem('situations', JSON.stringify(localData));
     }
 
     loadLocalStorage();
@@ -27,8 +27,8 @@ angular.module('autoskola')
         var deferred = $q.defer();
 
         if (!loaded) {
-          $http.get('json/law.json').success(function(response) {
-            data = response.law;
+          $http.get('json/situations.json').success(function(response) {
+            data = response.situations;
             loaded = true;
             deferred.resolve({data:data, localData: localData});
           });
@@ -39,22 +39,22 @@ angular.module('autoskola')
         return deferred.promise;
       },
 
-      pinQuestion: function(item) {
-        if (localData[item.id]) {
-          localData[item.id].pinned = !localData[item.id].pinned;
+      pinQuestion: function(question) {
+        if (localData[question.id]) {
+          localData[question.id].pinned = !localData[question.id].pinned;
         } else {
-          localData[item.id] = {
+          localData[question.id] = {
             pinned: true
           };
         }
         saveLocalStorage();
       },
 
-      hideQuestion: function(item) {
-        if (localData[item.id]) {
-          localData[item.id].hidden = true;
+      hideQuestion: function(question) {
+        if (localData[question.id]) {
+          localData[question.id].hidden = true;
         } else {
-          localData[item.id] = {
+          localData[question.id] = {
             hidden: true
           };
         }

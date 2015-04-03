@@ -67,13 +67,12 @@ h3 {
 }
 
 blockquote {
-  border-left: 2px solid #6842EF;
+  border-left: 2px solid #49A1DC;
 }
 
 blockquote, blockquote p, blockquote ul li {
   font-size: 18px;
   color: #777;
-  font-family: "preto_serif_ot_std_italic";
 }
 
 ul {
@@ -96,6 +95,10 @@ li {
 
 /* Colors, look */
 
+.tabs-dark > .tabs, .tabs.tabs-dark{
+  background-color: #394B56;
+}
+
 ion-content {
   background-color: #EAECF5;
 }
@@ -110,6 +113,14 @@ ion-content {
   border: none;
 }
 
+.button.button-positive {
+  background-color: #49A1DC;
+}
+
+.button.button-balanced {
+  background-color: #48C998;
+}
+
 .button.button-stable.activated {
   background-color: #D1D5E9;
   border: none;
@@ -121,7 +132,7 @@ ion-content {
 }
 
 i.positive {
-  color: #6842EC;
+  color: #49A1DC;
 }
 
 .bar-stable .button, .bar-light .button, ion-option-button .icon {
@@ -170,8 +181,8 @@ i.positive {
 }
 
 .title-nav > a.active {
-	color: #6842EF;
-  border-bottom: 2px solid #6842EF;
+	color: #49A1DC;
+  border-bottom: 2px solid #49A1DC;
 }
 
 .has-header {
@@ -193,7 +204,7 @@ i.positive {
 }
 
 .tabs-positive > .tabs, .tabs.tabs-positive {
-  background-color: #6842EC;
+  background-color: #49A1DC;
   border: none;
 }
 
@@ -208,7 +219,8 @@ i.positive {
 }
 
 .tabs a.tab-item-active {
-  color: #6842EC;
+  /* color: #6842EC; */
+  color: #fff;
 }
 
 .tab-item .icon {
@@ -313,8 +325,14 @@ i.positive {
   margin-bottom: 0;
 }
 
+.item-options .button {
+  width: 102px;
+  padding: 0;
+}
+
 .item-options .button .icon {
   font-size: 32px;
+  margin-right: 26px;
 }
 
 /* Chapter */
@@ -341,7 +359,7 @@ i.positive {
 }
 
 .chapter-text a {
-  color: #6842EF;
+  color: #49A1DC;
   text-decoration: none;
 }
 .chapter-image {
