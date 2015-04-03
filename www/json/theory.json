@@ -47,6 +47,7 @@
       }, {
         "id": 10,
         "headline": "Krajnica",
+        "image": "img/theory/img.png",
         "paragraph": "Časť cesty od kraja vozovky po kraj cesty."
       }, {
         "id": 11,
@@ -105,6 +106,7 @@
       }, {
         "id": 24,
         "headline": "Vozovka",
+        "image": "img/theory/img.png",
         "paragraph": "Spevnená časť cesty určená predovšetkým na premávku motorových vozidiel."
       }, {
         "id": 25,
@@ -113,7 +115,8 @@
       }, {
         "id": 26,
         "headline": "Zastavenie vozidla",
-        "paragraph": "Prerušenie jazdy z dôvodu nezávislého od vôle vodiča."
+        "image": "img/theory/img.png",
+        "paragraph": "Prerušenie jazdy z dôvodu nezávislého od vôle vodiča (napríklad pred červeným svetlom na križovatke)."
       }, {
         "id": 27,
         "headline": "Znížená viditeľnosť",
@@ -163,7 +166,21 @@
       }, {
         "id": 2,
         "headline": "Platné doklady",
-        "paragraph": "Vodič je povinný mať pri sebe platné doklady predpísané týmto zákonom alebo osobitným predpisom."
+        "image": "img/theory/img.png",
+        "paragraph": "Vodič je povinný mať pri sebe platné doklady predpísané týmto zákonom alebo osobitným predpisom:",
+        "list": [{
+          "listitem": "OP – Občianský preukaz"
+        }, {
+          "listitem": "VP – Vodičský preukaz"
+        }, {
+          "listitem": "TK – Doklad o vykonaní technickej kontroly"
+        }, {
+          "listitem": "EK – Doklad o vykonaní emisnej kontroly (ak takejto kontrole vozidlo podlieha)"
+        }, {
+          "listitem": "OEV – Osvedčenie o evidencii vozidla"
+        }, {
+          "listitem": "ZP – Doklad o povinnom zmluvnom poistení zodpovednosti za škodu spôsobenú prevádzkou motorového vozidla"
+        }]
       }, {
         "id": 3,
         "headline": "Sústredenie",
@@ -179,10 +196,12 @@
       }, {
         "id": 6,
         "headline": "Chodec na priechode pre chodcov",
+        "image": "img/theory/img.png",
         "paragraph": "Vodič je povinný dať prednosť chodcovi, ktorý vstúpil na vozovku a prechádza cez priechod pre chodcov, pritom ho nesmie ohroziť; to neplatí pre vodiča električky."
       }, {
         "id": 7,
         "headline": "Spôsobilé osoby",
+        "image": "img/theory/img.png",
         "paragraph": "Vodič je povinný pribrať potrebný počet spôsobilých osôb, ak to vyžaduje bezpečnosť cestnej premávky, a na ten účel ich náležite poučiť."
       }, {
         "id": 8,
@@ -212,10 +231,12 @@
       }, {
         "id": 14,
         "headline": "Chodci prechádzajúci cez cestu",
+        "image": "img/theory/img.png",
         "paragraph": "Vodič nesmie ohroziť chodcov prechádzajúcich cez cestu, na ktorú vodič odbočuje, pri odbočovaní na miesto mimo cesty, pri vchádzaní na cestu a pri otáčaní alebo pri cúvaní."
       }, {
         "id": 15,
         "headline": "Cyklisti prechádzajúci cez cestu",
+        "image": "img/theory/img.png",
         "paragraph": "Vodič nesmie ohroziť cyklistov prechádzajúcich cez priechod pre cyklistov."
       }, {
         "id": 16,
@@ -246,6 +267,7 @@
       }, {
         "id": 22,
         "headline": "Zastavenie vozidla na priechode pre chodcov",
+        "image": "img/theory/img.png",
         "paragraph": "Vodič nesmie zastaviť vozidlo na priechode pre chodcov alebo na priechode pre cyklistov, ak to nevyžaduje bezpečnosť cestnej premávky."
       }, {
         "id": 23,
@@ -273,6 +295,7 @@
       }, {
         "id": 24,
         "headline": "Pred priechodom pre chodcov",
+        "image": "img/theory/img.png",
         "paragraph": "Ak vodič zníži rýchlosť jazdy alebo ak zastaví vozidlo pred priechodom pre chodcov alebo pred priechodom pre cyklistov, aby umožnil prejsť cez cestu chodcom alebo cyklistom, vodiči ostatných vozidiel idúcich rovnakým smerom sú takisto povinní znížiť rýchlosť jazdy alebo zastaviť vozidlo; to neplatí pre vodiča električky."
       }, {
         "id": 25,
@@ -311,19 +334,111 @@
     }, {
       "id": 5,
       "minutes": 8,
-      "name": "Povinnosti prevádzkovateľa vozidla"
+      "name": "Povinnosti prevádzkovateľa vozidla",
+      "content": [{
+        "id": 1,
+        "headline": "Zverenie vedenia vozidla inej osobe",
+        "paragraph": "Prevádzkovateľ vozidla nesmie zveriť vedenie vozidla osobe, ktorá nespĺňa podmienky na jeho vedenie ustanovené týmto zákonom alebo osobitným predpisom, nemá pri sebe platné doklady ustanovené na vedenie vozidla, je pod vplyvom alkoholu alebo inej návykovej látky, osobe, ktorej schopnosť na vedenie je inak znížená, alebo osobe, ktorej totožnosť nepozná."
+      }, {
+        "id": 2,
+        "headline": "Vozidlo, ktoré nespĺňa podmienky",
+        "paragraph": "Prevádzkovateľ vozidla nesmie prikázať ani dovoliť, aby sa na jazdu použilo vozidlo, ktoré vrátane nákladu alebo jeho upevnenia nespĺňa ustanovené podmienky."
+      }, {
+        "id": 3,
+        "headline": "Obmedzená alebo zakázaná jazda",
+        "paragraph": "Prevádzkovateľ vozidla nesmie prikázať ani dovoliť, aby sa na jazdu použilo vozidlo na takej ceste, na ktorej má takéto vozidlo obmedzenú alebo zakázanú jazdu. "
+      }, {
+        "id": 4,
+        "headline": "Technické prostriedky a zariadenia",
+        "paragraph": "Prevádzkovateľ vozidla nesmie prikázať ani dovoliť, aby sa na jazdu použilo vozidlo vybavené technickými prostriedkami a zariadeniami, ktorých činnosť umožňuje odhalenie alebo ovplyvňovanie funkcií technických prostriedkov používaných pri plnení úloh na úseku výkonu dohľadu nad bezpečnosťou a plynulosťou cestnej premávky."
+      }, {
+        "id": 5,
+        "headline": "Pribranie spôsobilých osôb",
+        "image": "img/theory/img.png",
+        "paragraph": "Prevádzkovateľ vozidla je povinný zabezpečiť, aby sa na jazdu pribral potrebný počet spôsobilých a náležite poučených osôb, ak je mu vopred známe, že to bude vyžadovať bezpečnosť cestnej premávky."
+      }, {
+        "id": 6,
+        "headline": "Farebné vyhotovenie a označenie vozidla",
+        "paragraph": "Prevádzkovateľ vozidla je povinný zabezpečiť, aby sa farebné vyhotovenie a označenie vozidla nedalo zameniť s farebným vyhotovením a označením vozidiel Policajného zboru, Vojenskej polície, Zboru väzenskej a justičnej stráže, obecnej polície, Hasičského a záchranného zboru alebo ostatných hasičských jednotiek."
+      }, {
+        "id": 7,
+        "headline": "Osobné údaje zverenej osoby",
+        "paragraph": "Prevádzkovateľ vozidla je povinný v súvislosti s konaním o priestupku proti bezpečnosti a plynulosti cestnej premávky orgánu oprávnenému objasňovať alebo prejednať priestupok oznámiť osobné údaje osoby, ktorej zveril vedenie vozidla, v rozsahu meno, priezvisko a adresa pobytu."
+      }, {
+        "id": 8,
+        "headline": "Evidencia o prevádzke vozidla",
+        "paragraph": "Ak je prevádzkovateľom vozidla právnická osoba, ktorá v rámci svojej činnosti zveruje motorové vozidlo inej osobe, je povinná viesť o prevádzke motorového vozidla a jeho vodičovi evidenciu s údajmi o mene a priezvisku vodiča, dátume a čase vedenia motorového vozidla, evidenčnom čísle motorového vozidla a adrese pobytu vodiča. Evidenciu podľa prvej vety je prevádzkovateľ vozidla povinný na výzvu policajta predložiť na účely spojené s výkonom jeho oprávnení na úseku bezpečnosti a plynulosti cestnej premávky; to sa nevzťahuje na prevádzkovateľa vozidla, ktorým je štátny orgán plniaci úlohy na úseku ochrany verejného poriadku, bezpečnosti štátu a obrany štátu."
+      }]
     }, {
       "id": 6,
       "minutes": 8,
-      "name": "Povinnosti držiteľa vozidla"
+      "name": "Povinnosti držiteľa vozidla",
+      "content": [{
+        "id": 1,
+        "headline": "Nadpis",
+        "paragraph": "Držiteľ vozidla je povinný zabezpečiť, aby pri prevádzkovaní motorového vozidla boli dodržiavané pravidlá cestnej premávky podľa tohto zákona, ktoré ustanovujú zákaz predchádzania podľa § 15 ods. 5 alebo zákaz predchádzania vyplývajúci z dopravnej značky alebo dopravného zariadenia."
+      }, {
+        "id": 2,
+        "headline": "Nadpis",
+        "paragraph": "Držiteľ vozidla je povinný zabezpečiť, aby pri prevádzkovaní motorového vozidla boli dodržiavané pravidlá cestnej premávky podľa tohto zákona, ktoré ustanovujú rýchlosť jazdy podľa § 16."
+      }, {
+        "id": 3,
+        "headline": "Nadpis",
+        "paragraph": "Držiteľ vozidla je povinný zabezpečiť, aby pri prevádzkovaní motorového vozidla boli dodržiavané pravidlá cestnej premávky podľa tohto zákona, ktoré ustanovujú povinnosť zastaviť vozidlo na príkaz dopravnej značky „Stoj, daj prednosť v jazde!“ alebo na signál so znamením „Stoj!“."
+      }, {
+        "id": 4,
+        "headline": "Nadpis",
+        "paragraph": "Držiteľ vozidla je povinný zabezpečiť, aby pri prevádzkovaní motorového vozidla boli dodržiavané pravidlá cestnej premávky podľa tohto zákona, ktoré ustanovujú zákaz otáčania a cúvania podľa § 22 ods. 4 alebo zákaz otáčania vyplývajúci z dopravnej značky alebo dopravného zariadenia."
+      }, {
+        "id": 5,
+        "headline": "Nadpis",
+        "paragraph": "Držiteľ vozidla je povinný zabezpečiť, aby pri prevádzkovaní motorového vozidla boli dodržiavané pravidlá cestnej premávky podľa tohto zákona, ktoré ustanovujú zákaz zastavenia a státia podľa § 25 alebo zákaz zastavenia a státia vyplývajúci z dopravnej značky alebo dopravného zariadenia. "
+      }, {
+        "id": 6,
+        "headline": "Nadpis",
+        "paragraph": "Držiteľ vozidla je povinný zabezpečiť, aby pri prevádzkovaní motorového vozidla boli dodržiavané pravidlá cestnej premávky podľa tohto zákona, ktoré ustanovujú prejazd cez železničné priecestie v čase, keď je to zakázané podľa § 27 až 29."
+      }, {
+        "id": 7,
+        "headline": "Nadpis",
+        "paragraph": "Držiteľ vozidla je povinný zabezpečiť, aby pri prevádzkovaní motorového vozidla boli dodržiavané pravidlá cestnej premávky podľa tohto zákona, ktoré ustanovujú najväčšiu prípustnú celkovú hmotnosť vozidla, najväčšiu prípustnú hmotnosť jazdnej súpravy, najväčšiu prípustnú celkovú hmotnosť prípojného vozidla alebo najväčšiu prípustnú hmotnosť pripadajúcu na nápravu vozidla podľa § 51."
+      }, {
+        "id": 8,
+        "headline": "Nadpis",
+        "paragraph": "Držiteľ vozidla je povinný zabezpečiť, aby pri prevádzkovaní motorového vozidla boli dodržiavané pravidlá cestnej premávky podľa tohto zákona, ktoré ustanovujú zákaz vjazdu, zákaz odbočovania alebo prikázaný smer jazdy vyplývajúci z dopravnej značky alebo dopravného zariadenia."
+      }, {
+        "id": 9,
+        "headline": "Nadpis",
+        "paragraph": "Držiteľ vozidla je povinný zabezpečiť, aby pri prevádzkovaní motorového vozidla boli dodržiavané pravidlá cestnej premávky podľa tohto zákona, ktoré ustanovujú zákaz vjazdu vozidla alebo zákaz jazdy vozidla s najväčšou prípustnou celkovou hmotnosťou vozidla prevyšujúcou 12 000 kg alebo jazdnej súpravy s najväčšou prípustnou celkovou hmotnosťou prevyšujúcou 12 000 kg."
+      }]
     }, {
       "id": 7,
       "minutes": 8,
-      "name": "Povinnosti inštruktora autoškoly"
+      "name": "Povinnosti inštruktora autoškoly",
+      "content": [{
+        "id": 1,
+        "headline": "Povinnosti inštruktora autoškoly",
+        "paragraph": "Inštruktor autoškoly pri vykonávaní výcviku na vedenie motorového vozidla a pri vykonávaní skúšky z odbornej spôsobilosti na vedenie motorového vozidla (ďalej len „odborná spôsobilosť“) má povinnosti vodiča motorového vozidla."
+      }]
     }, {
       "id": 8,
       "minutes": 8,
-      "name": "Používanie bezpečnostných pásov a iných zadržiavacích zariadení"
+      "name": "Používanie bezpečnostných pásov a iných zadržiavacích zariadení",
+      "content": [{
+        "id": 1,
+        "headline": "Nadpis",
+        "paragraph": "Osoba sediaca na sedadle povinne vybavenom bezpečnostným pásom alebo iným zadržiavacím zariadením je povinná toto zariadenie použiť. To neplatí pre:",
+        "list" : [{
+          "listitem": "vodiča vozidla ozbrojených síl, ozbrojených bezpečnostných zborov, ozbrojených zborov, Vojenskej polície, obecnej polície, Hasičského a záchranného zboru, ostatných hasičských jednotiek, Horskej záchrannej služby, záchrannej zdravotnej služby, banskej záchrannej služby, Vojenského spravodajstva, Slovenskej informačnej služby a prepravované osoby, ak si to vyžaduje plnenie ich úloh,"
+        }, {
+          "listitem": "inštruktora autoškoly, ktorý vykonáva výcvik na vedenie motorového vozidla alebo skúšku z odbornej spôsobilosti,"
+        }, {
+          "listitem": "osobu s telesnou výškou menšou ako 150 cm s výnimkou osoby, ktorá sa prepravuje na mieste, ktoré je chránené pred účinkami nárazu vozidla airbagom,"
+        }, {
+          "listitem": "vodiča vozidla taxislužby pri zmluvnej preprave osôb v obci, s výnimkou osoby, ktorá sa prepravuje na mieste, ktoré je chránené pred účinkami nárazu vozidla airbagom,"
+        }, {
+          "listitem": "osobu, ktorá nemôže byť pripútaná zo zdravotných dôvodov; takáto osoba sa musí preukázať osvedčením o oslobodení od použitia bezpečnostných systémov vozidla."
+        }]
+      }]
     }]
   }, {
     "id": 3,

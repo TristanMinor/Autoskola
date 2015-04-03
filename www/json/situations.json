@@ -10,16 +10,13 @@
         "id": 1,
         "question": "Tam, kde sa dva jazdné pruhy zbiehajú do jedného pruhu tak, že nie je zrejmé, ktorý z nich je priebežný,",
         "answers": [{
-          "option": "a",
-          "text": "druhé,",
+          "text": "vodič zeleného vozidla má prednosť v jazde pred vodičom červeného vozidla,",
           "correct": false
         }, {
-          "option": "b",
-          "text": "posledné,",
+          "text": "vodič zeleného vozidla jazdiaci v ľavom jazdnom pruhu nesmie ohroziť vodiča červeného vozidla v pravom jazdnom pruhu,",
           "correct": true
         }, {
-          "option": "c",
-          "text": "prvé.",
+          "text": "vodič zeleného vozidla musí dať prednosť v jazde vodičovi červeného vozidla, pretože dáva znamenie o zmene smeru jazdy vľavo.",
           "correct": false
         }],
         "image": {
@@ -33,6 +30,16 @@
       "questions": [{
         "id": 2,
         "question": "Vodič modrého vozidla",
+        "answers": [{
+          "text": "nesmie ohroziť vodiča červeného vozidla jazdiaceho v priebežnom jazdnom pruhu, do ktorého prechádza,",
+          "correct": true
+        }, {
+          "text": "má pred vodičom červeného vozidla prednosť, pretože ide v jazdnom pruhu určenom na predchádzanie,",
+          "correct": false
+        }, {
+          "text": "má pred vodičom červeného vozidla prednosť, pretože ide v jazdnom pruhu pre pomalé vozidlá.",
+          "correct": false
+        }],
         "image": {
           "src": "img/situations/situation_lanes_02.png"
         }
@@ -44,24 +51,64 @@
       "questions": [{
         "id": 3,
         "question": "Vodič modrého vozidla",
+        "answers": [{
+          "text": "má pred vodičom červeného a vodičom žltého vozidla prednosť, pretože v ich jazdnom pruhu sa nachádza prekážka,",
+          "correct": false
+        }, {
+          "text": "je povinný umožniť vodičovi červeného vozidla obídenie prekážky",
+          "correct": true
+        }, {
+          "text": "je povinný umožniť vodičovi červeného a vodičovi žltého vozidla obídenie prekážky.",
+          "correct": false
+        }],
         "image": {
           "src": "img/situations/situation_lanes_03.png"
         }
       }, {
         "id": 4,
         "question": "Vozidlá prejdú okolo prekážky v tomto poradí",
+        "answers": [{
+          "text": "1. červené, 2. modré, 3. žlté, 4. zelené,",
+          "correct": true
+        }, {
+          "text": "1. modré, 2. zelené, 3. červené, 4. žlté,",
+          "correct": false
+        }, {
+          "text": "1. modré, 2. červené, 3. žlté, 4. zelené.",
+          "correct": false
+        }],
         "image": {
           "src": "img/situations/situation_lanes_03.png"
         }
       }, {
         "id": 5,
         "question": "V poradí druhé prejde okolo prekážky",
+        "answers": [{
+          "text": "červené vozidlo,",
+          "correct": false
+        }, {
+          "text": "zelené vozidlo,",
+          "correct": false
+        }, {
+          "text": "modré vozidlo.",
+          "correct": true
+        }],
         "image": {
           "src": "img/situations/situation_lanes_03.png"
         }
       }, {
         "id": 6,
         "question": "V poradí tretie prejde okolo prekážky",
+        "answers": [{
+          "text": "zelené vozidlo",
+          "correct": false
+        }, {
+          "text": "červené vozidlo",
+          "correct": false
+        }, {
+          "text": "žlté vozidlo",
+          "correct": true
+        }],
         "image": {
           "src": "img/situations/situation_lanes_03.png"
         }
@@ -73,18 +120,48 @@
       "questions": [{
         "id": 7,
         "question": "Vodič červeného vozidla",
+        "answers": [{
+          "text": "je povinný umožniť vodičovi modrého vozidla obídenie prekážky,",
+          "correct": true
+        }, {
+          "text": "je povinný umožniť vodičovi modrého vozidla aj vodičovi zeleného vozidla obídenie prekážky,",
+          "correct": false
+        }, {
+          "text": "má pred vodičom modrého vozidla prednosť, pretože v jeho jazdnom pruhu sa nachádza prekážka.",
+          "correct": false
+        }],
         "image": {
           "src": "img/situations/situation_lanes_04.png"
         }
       }, {
         "id": 8,
         "question": "V poradí druhé prejde okolo prekážky",
+        "answers": [{
+          "text": "žlté vozidlo",
+          "correct": false
+        }, {
+          "text": "červené vozidlo",
+          "correct": true
+        }, {
+          "text": "modré vozidlo",
+          "correct": false
+        }],
         "image": {
           "src": "img/situations/situation_lanes_04.png"
         }
       }, {
         "id": 9,
         "question": "V poradí tretie prejde okolo prekážky",
+        "answers": [{
+          "text": "zelené vozidlo",
+          "correct": true
+        }, {
+          "text": "modré vozidlo",
+          "correct": false
+        }, {
+          "text": "žlté vozidlo",
+          "correct": false
+        }],
         "image": {
           "src": "img/situations/situation_lanes_04.png"
         }
@@ -101,6 +178,35 @@
         "question": "Vaše vozidlo prejde cez križovatku ako",
         "image": {
           "src": "img/situations/situation_nosigns_01.png"
+        }
+      }, {
+        "id": 11,
+        "question": "Ako posledné prejde cez križovatku",
+        "image": {
+          "src": "img/situations/situation_nosigns_01.png"
+        }
+      }, {
+        "id": 12,
+        "question": "Vozidlá prejdú cez križovatku v tomto poradí:",
+        "image": {
+          "src": "img/situations/situation_nosigns_01.png"
+        }
+      }, {
+        "id": 13,
+        "question": "V poradí druhé prejde cez križovatku",
+        "image": {
+          "src": "img/situations/situation_nosigns_01.png"
+        }
+      }]
+    }, {
+      "image": {
+        "src": "img/situations/situation_nosigns_02.png"
+      },
+      "questions": [{
+        "id": 14,
+        "question": "Vaše vozidlo, odbočujúce vľavo, prejde cez križovatku ako",
+        "image": {
+          "src": "img/situations/situation_nosigns_02.png"
         }
       }]
     }]
