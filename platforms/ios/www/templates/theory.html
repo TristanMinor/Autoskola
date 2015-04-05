@@ -4,14 +4,19 @@
     <h1 class="title title-nav">Teoria</h1>
   </div>
   <ion-content class="has-header">
-    <ion-list type="list">
+    <ion-list type="list list-uneditable">
       <p id="shakeData"></p>
       <div ng-repeat="item in data">
         <div class="item item-divider">
           {{ item.section }}
         </div>
-        <ion-item nav-direction="forward" href="#/tabs/theory/chapter/{{chapter.id}}" ng-repeat="chapter in item.chapters">
-          {{ chapter.name }} <!-- <div class="item-note">{{ chapter.minutes }} min</div>-->
+        <ion-item nav-direction="forward" href="#/tabs/theory/chapter/{{chapter.id}}" ng-repeat="chapter in item.chapters" class="item item-uneditable">
+          <div class="item-inner">
+
+            <h2>{{ chapter.name }}</h2>
+            <!-- <p>{{chapter.description}}</p> -->
+            <!-- <div class="item-note">{{ chapter.minutes }} min</div> -->
+          </div>
         </ion-item>
       </div>
     </ion-list>

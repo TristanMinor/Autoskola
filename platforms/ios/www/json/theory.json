@@ -6,7 +6,7 @@
       "id": 1,
       "minutes": 8,
       "name": "Základné pojmy",
-      "description": "Definuje základné pojmy",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
       "content": [{
         "id": 1,
         "headline": "Cestná premávka",
@@ -134,6 +134,7 @@
       "id": 2,
       "minutes": 12,
       "name": "Všeobecné povinnosti účastníka cestnej premávky",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
       "content": [{
         "id": 1,
         "headline": "Dodržiavanie pravidiel cestnej premávky",
@@ -159,6 +160,7 @@
       "id": 3,
       "minutes": 34,
       "name": "Povinnosti vodiča",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
       "content": [{
         "id": 1,
         "headline": "Vozidlo vhodné do prevádzky",
@@ -306,6 +308,7 @@
       "id": 4,
       "minutes": 8,
       "name": "Povinnosti niektorých vodičov a spolujazdcov",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
       "content": [{
         "id": 1,
         "headline": "Ochrana zraku a držanie riadidiel",
@@ -335,6 +338,7 @@
       "id": 5,
       "minutes": 8,
       "name": "Povinnosti prevádzkovateľa vozidla",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
       "content": [{
         "id": 1,
         "headline": "Zverenie vedenia vozidla inej osobe",
@@ -373,6 +377,7 @@
       "id": 6,
       "minutes": 8,
       "name": "Povinnosti držiteľa vozidla",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
       "content": [{
         "id": 1,
         "headline": "Zákaz predchádzania",
@@ -415,6 +420,7 @@
       "id": 7,
       "minutes": 8,
       "name": "Povinnosti inštruktora autoškoly",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
       "content": [{
         "id": 1,
         "headline": "Povinnosti inštruktora autoškoly",
@@ -424,6 +430,7 @@
       "id": 8,
       "minutes": 8,
       "name": "Bezpečnostné pásy",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
       "content": [{
         "id": 1,
         "headline": "Bezpečnostný pás",
@@ -448,6 +455,7 @@
       "id": 9,
       "minutes": 8,
       "name": "Spôsob jazdy",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
       "content": [{
         "id": 1,
         "headline": "Jazda vpravo pri pravom okraji",
@@ -468,6 +476,7 @@
       "id": 10,
       "minutes": 8,
       "name": "Jazda v jazdných pruhoch",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
       "content": [{
         "id": 1,
         "headline": "Mimo obce s dvoma a viacerými pruhmi",
@@ -538,6 +547,7 @@
       "id": 11,
       "minutes": 8,
       "name": "Jazda v mimoriadnych prípadoch",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
       "content": [{
         "id": 1,
         "headline": "Ostrovčeky",
@@ -609,6 +619,7 @@
       "id": 12,
       "minutes": 8,
       "name": "Obchádzanie",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
       "content": [{
         "id": 1,
         "headline": "Zvýšená pozornosť pri obchádzaní",
@@ -629,6 +640,7 @@
       "id": 13,
       "minutes": 8,
       "name": "Predchádzanie",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
       "content": [{
         "id": 1,
         "headline": "Predchádzanie vľavo",
@@ -726,6 +738,7 @@
       "id": 14,
       "minutes": 8,
       "name": "Rýchlosť jazdy",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
       "content": [{
         "id": 1,
         "headline": "Základy dodržiavania primeranej rýchlosti jazdy",
@@ -762,6 +775,7 @@
       "id": 15,
       "minutes": 8,
       "name": "Vzdialenosť medzi vozidlami",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
       "content": [{
         "id": 1,
         "headline": "Bezpečná vzdialenosť",
@@ -782,6 +796,7 @@
       "id": 16,
       "minutes": 8,
       "name": "Vyhýbanie",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
       "content": [{
         "id": 1,
         "headline": "Nadpis",
@@ -807,6 +822,7 @@
       "id": 17,
       "minutes": 8,
       "name": "Odbočovanie",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
       "content": [{
         "id": 1,
         "headline": "Nadpis",
@@ -877,6 +893,7 @@
       "id": 18,
       "minutes": 8,
       "name": "Jazda cez križovatku",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
       "content": [{
         "id": 1,
         "headline": "Nadpis",
@@ -919,6 +936,7 @@
       "id": 19,
       "minutes": 8,
       "name": "Vchádzanie na cestu",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
       "content": [{
         "id": 1,
         "headline": "Nadpis",
@@ -939,6 +957,7 @@
       "id": 20,
       "minutes": 8,
       "name": "Otáčanie a cúvanie",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
       "content": [{
         "id": 1,
         "headline": "Nadpis",
@@ -998,6 +1017,7 @@
       "id": 21,
       "minutes": 8,
       "name": "Zastavenie a státie",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
       "content": [{
         "id": 1,
         "headline": "Nadpis",
@@ -1188,6 +1208,7 @@
       "id": 22,
       "minutes": 8,
       "name": "Zastavenie vozidla v tuneli",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
       "content": [{
         "id": 1,
         "headline": "Nadpis",
@@ -1220,6 +1241,7 @@
       "id": 23,
       "minutes": 8,
       "name": "Železničné priecestie",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
       "content": [{
         "id": 1,
         "headline": "Nadpis",
@@ -1290,128 +1312,160 @@
     }, {
       "id": 24,
       "minutes": 8,
-      "name": "Výstražné znamenie"
+      "name": "Výstražné znamenie",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
     }, {
       "id": 25,
       "minutes": 8,
-      "name": "Osvetlenie vozidla"
+      "name": "Osvetlenie vozidla",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
     }, {
       "id": 26,
       "minutes": 8,
-      "name": "Vlečenie motorového vozidla"
+      "name": "Vlečenie motorového vozidla",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
     }, {
       "id": 27,
       "minutes": 8,
-      "name": "Osobitosti premávky na diaľnici a rýchlostnej ceste"
+      "name": "Osobitosti premávky na diaľnici a rýchlostnej ceste",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
     }, {
       "id": 28,
       "minutes": 8,
-      "name": "Osobitosti premávky v zimnom období"
+      "name": "Osobitosti premávky v zimnom období",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
     }, {
       "id": 29,
       "minutes": 8,
-      "name": "Obmedzenie jazdy niektorých druhov vozidiel"
+      "name": "Obmedzenie jazdy niektorých druhov vozidiel",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
     }, {
       "id": 30,
       "minutes": 8,
-      "name": "Vozidlá so zvláštnymi výstražnými zvukovými znameniami alebo svetlami"
+      "name": "Vozidlá so zvláštnymi výstražnými zvukovými znameniami alebo svetlami",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
     }, {
       "id": 31,
       "minutes": 8,
-      "name": "Prekážka cestnej premávky"
+      "name": "Prekážka cestnej premávky",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
     }, {
       "id": 32,
       "minutes": 8,
-      "name": "Osobitné označenia vozidla a parkovací preukaz"
+      "name": "Osobitné označenia vozidla a parkovací preukaz",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
     }]
   }, {
     "id": 4,
     "section": "Preprava osôb a materiálu",
     "chapters": [{
       "id": 33,
-      "name": "Preprava osôb"
+      "name": "Preprava osôb",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
     }, {
       "id": 36,
-      "name": "Preprava osôb vozidlom pravidelnej verejnej dopravy"
+      "name": "Preprava osôb vozidlom pravidelnej verejnej dopravy",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
     }, {
       "id": 37,
-      "name": "Preprava osôb v ložnom priestore nákladného automobilu a traktora"
+      "name": "Preprava osôb v ložnom priestore nákladného automobilu a traktora",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
     }, {
       "id": 38,
-      "name": "Prepava nákladu"
+      "name": "Prepava nákladu",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
     }]
   }, {
     "id": 5,
     "section": "Osobitné ustanovenia o niektorých účastníkoch cestnej premávky",
     "chapters": [{
       "id": 39,
-      "name": "Chodci"
+      "name": "Chodci",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
     }, {
       "id": 40,
-      "name": "Cyklisti"
+      "name": "Cyklisti",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
     }, {
       "id": 41,
-      "name": "Jazda so záprahovým vozidlom a ručným vozíkom"
+      "name": "Jazda so záprahovým vozidlom a ručným vozíkom",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
     }, {
       "id": 42,
-      "name": "Jazda na zvieratách, vedenie a hnanie zvierat"
+      "name": "Jazda na zvieratách, vedenie a hnanie zvierat",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
     }, {
       "id": 43,
-      "name": "Osoba vykonávajúca prácu na ceste"
+      "name": "Osoba vykonávajúca prácu na ceste",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
     }, {
       "id": 44,
-      "name": "Cestna premávka v obytnej, pešej a školskej zóne"
+      "name": "Cestna premávka v obytnej, pešej a školskej zóne",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
     }]
   }, {
     "id": 6,
     "section": "Úprava a riadenie cestnej premávky",
     "chapters": [{
       "id": 45,
-      "name": "Dopravné značky a dopravné zariadenia"
+      "name": "Dopravné značky a dopravné zariadenia",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
     }, {
       "id": 46,
-      "name": "Zvislé dopravné značky"
+      "name": "Zvislé dopravné značky",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
     }, {
       "id": 47,
-      "name": "Vodorovné dopravné značky"
+      "name": "Vodorovné dopravné značky",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
     }, {
       "id": 48,
-      "name": "Dopravné zariadenia"
+      "name": "Dopravné zariadenia",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
     }, {
       "id": 49,
-      "name": "Riadenie cestnej premávky"
+      "name": "Riadenie cestnej premávky",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
     }, {
       "id": 50,
-      "name": "Riadenie cestnej premávky svetelnými signálmi a pokynmi"
+      "name": "Riadenie cestnej premávky svetelnými signálmi a pokynmi",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
     }, {
       "id": 51,
-      "name": "Oprávenie na zastavovanie vozidiel"
+      "name": "Oprávenie na zastavovanie vozidiel",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
     }]
   }, {
     "id": 7,
     "section": "Dopravné nehody",
     "chapters": [{
       "id": 52,
-      "name": "Dopravná nehoda"
+      "name": "Dopravná nehoda",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
     }, {
       "id": 53,
-      "name": "Povinnosti vodiča pri dopravnej nehode"
+      "name": "Povinnosti vodiča pri dopravnej nehode",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
     }, {
       "id": 54,
-      "name": "Povinnosti účastníka dopravnej nehody a škodovej udalosti"
+      "name": "Povinnosti účastníka dopravnej nehody a škodovej udalosti",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
     }]
   }, {
     "id": 8,
     "section": "Oprávnenia policajta",
     "chapters": [{
       "id": 55,
-      "name": "Všeobecné oprávnenia"
+      "name": "Všeobecné oprávnenia",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
     }, {
       "id": 56,
-      "name": "Zadržanie vodičského preukazu"
+      "name": "Zadržanie vodičského preukazu",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
     }, {
       "id": 57,
-      "name": "Zadržanie osvedčenia o evidencii časť I alebo časť II, evidenčného dokladu vydaného v cudzine, technického osvedčenia vozidla a tabuľky s evidenčným číslom"
+      "name": "Zadržanie osvedčenia o evidencii časť I alebo časť II, evidenčného dokladu vydaného v cudzine, technického osvedčenia vozidla a tabuľky s evidenčným číslom",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
     }]
 
   }, {
@@ -1419,7 +1473,8 @@
     "section": "Zodpovednosť za porušenie povinností",
     "chapters": [{
       "id": 58,
-      "name": "Zodpovednosť za porušenie povinností"
+      "name": "Zodpovednosť za porušenie povinností",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
     }]
   }]
 }

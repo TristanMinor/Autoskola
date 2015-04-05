@@ -72,7 +72,7 @@ blockquote {
 
 blockquote, blockquote p, blockquote ul li {
   font-size: 18px;
-  color: #777;
+
 }
 
 ul {
@@ -135,7 +135,7 @@ i.positive {
   color: #49A1DC;
 }
 
-.bar-stable .button, .bar-light .button, ion-option-button .icon {
+.bar-stable .button, .bar-light .button,  {
   color: #888;
 }
 
@@ -143,7 +143,10 @@ i.positive {
 
 .bar, .button-footer {
   height: 56px;
-  color: black;
+}
+
+.platform-ios.platform-cordova:not(.fullscreen) .bar-header:not(.bar-subheader) {
+  height: 76px;
 }
 
 .bar .button.button-icon .icon:before,
@@ -247,8 +250,22 @@ i.positive {
   line-height: 54px;
 }
 
+.list-uneditable .item-divider {
+  padding-left: 70px;
+}
+
 .list-inset .item-divider {
   padding-left: 0;
+}
+
+.list-inset .item:first-child {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.list-inset .item:last-child {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
 }
 
 .item-id {
@@ -264,6 +281,20 @@ i.positive {
   font-size: 18px;
 }
 
+.item-complex  {
+  border: none;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 1px;
+}
+
+.item-uneditable.item-complex {
+  border: none;
+}
+
+.list .item-complex:last-child {
+  border: none;
+}
+
 .item .item-content {
   font-family: 'preto_serif_ot_std_regular';
   font-size: 20px;
@@ -271,8 +302,15 @@ i.positive {
   white-space: nowrap;
 }
 
+.list-uneditable .item-content {
+  background-color: #EAECF5;
+  padding-bottom: 0px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
 .item-content h2 {
-  font-family: 'preto_serif_ot_std_regular';
+  font-family: 'preto_serif_ot_std_bold';
   font-size: 20px;
 }
 
@@ -281,6 +319,16 @@ i.positive {
   color: #1f1f1f;
   white-space: normal;
   overflow: hidden;
+}
+
+.item-uneditable .item-inner {
+  border-bottom: 1px solid #ccc;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.item-uneditable:last-child .item-inner {
+  border: none;
 }
 
 .item-icon-right .icon {
@@ -318,7 +366,7 @@ i.positive {
 }
 
 .bundle-situations {
-  margin-bottom: 0;
+  margin-bottom: 30px;
 }
 
 .bundle-situations:last-child {

@@ -143,7 +143,10 @@ i.positive {
 
 .bar, .button-footer {
   height: 56px;
-  color: black;
+}
+
+.platform-ios.platform-cordova:not(.fullscreen) .bar-header:not(.bar-subheader) {
+  height: 76px;
 }
 
 .bar .button.button-icon .icon:before,

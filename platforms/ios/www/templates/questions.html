@@ -42,10 +42,10 @@
             <div class="item-inner">
               <b>{{ item.id }}.</b> {{ item.question }}
               <i ng-if="localData[item.id].pinned" class="icon icon-pin positive"></i>
-              <ion-option-button ng-click="pinQuestion(item)" class="button button-stable">
+              <ion-option-button ng-click="pinQuestion(item)" class="button button-positive">
                 <i class="icon" ng-class="{'icon-pin': localData[item.id].pinned, 'icon-pin-outline': !localData[item.id].pinned}"></i>
               </ion-option-button>
-              <ion-option-button ng-click="hideQuestion(item)" class="button-stable">
+              <ion-option-button ng-click="hideQuestion(item)" class="button-balanced">
                 <i class="icon icon-check"></i>
               </ion-option-button>
             </div>
@@ -67,10 +67,10 @@
               <div class="item-inner">
                 <b>{{ question.id }}.</b> {{ question.name }}
                 <i ng-if="localData[question.id].pinned" class="icon icon-pin positive"></i>
-                <ion-option-button ng-click="pinQuestion(question)" class="button button-stable">
+                <ion-option-button ng-click="pinQuestion(question)" class="button button-positive">
                   <i class="icon" ng-class="{'icon-pin': localData[question.id].pinned, 'icon-pin-outline': !localData[question.id].pinned}"></i>
                 </ion-option-button>
-                <ion-option-button ng-click="hideQuestion(question)" class="button-stable">
+                <ion-option-button ng-click="hideQuestion(question)" class="button-balanced">
                   <i class="icon icon-check"></i>
                 </ion-option-button>
               </div>
@@ -96,10 +96,10 @@
                 <div class="item-inner">
                   <b>{{ question.id}}.</b> {{ question.question }}
                   <i ng-if="localData[question.id].pinned" class="icon icon-pin positive"></i>
-                  <ion-option-button ng-click="pinQuestion(question)" class="button button-stable">
+                  <ion-option-button ng-click="pinQuestion(question)" class="button button-positive">
                     <i class="icon" ng-class="{'icon-pin': localData[question.id].pinned, 'icon-pin-outline': !localData[question.id].pinned}"></i>
                   </ion-option-button>
-                  <ion-option-button ng-click="hideQuestion(question)" class="button-stable">
+                  <ion-option-button ng-click="hideQuestion(question)" class="button-balanced">
                     <i class="icon icon-check"></i>
                   </ion-option-button>
                 </div>
