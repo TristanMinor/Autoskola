@@ -24,7 +24,19 @@
     font-style: normal;
 }
 
-body, .ionic-body {
+@font-face {
+    font-family: 'preto_serif_ot_std_italic';
+    src: url('../fonts/preto_serif_ot_std_italic.eot');
+    src: url('../fonts/preto_serif_ot_std_italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/preto_serif_ot_std_italic.woff2') format('woff2'),
+         url('../fonts/preto_serif_ot_std_italic.woff') format('woff'),
+         url('../fonts/preto_serif_ot_std_italic.ttf') format('truetype'),
+         url('../fonts/preto_serif_ot_std_italic.svg#preto_serif_ot_stditalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, .ionic-body, li {
   font-size: 20px;
   line-height: 1.5;
   color: #1F1F1F;
@@ -32,7 +44,11 @@ body, .ionic-body {
 
 p, blockquote, .question-text  {
   font-family: "preto_serif_ot_std_regular";
-  margin: 0 0 1.5em;
+  margin: 0 0 2em;
+}
+
+li {
+  font-family: "preto_serif_ot_std_regular";
 }
 
 b, strong {
@@ -40,17 +56,48 @@ b, strong {
   font-family: "preto_serif_ot_std_bold";
 }
 
+i {
+  font-weight: normal;
+  font-family: "preto_serif_ot_std_italic";
+}
+
 h3 {
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 500;
 }
 
 blockquote {
-  border-left: 2px solid #6842EF;
+  border-left: 2px solid #49A1DC;
 }
 
+blockquote, blockquote p, blockquote ul li {
+  font-size: 18px;
+  color: #777;
+}
+
+ul {
+  margin: -1.5em 0 2em 0;
+}
+
+ul li:before{
+	content:"–";
+	position: relative;
+  margin-left: -0.5em;
+	left: -0.5em;
+}
+
+li {
+  padding-bottom: 0.4em;
+  padding-left: 1em;
+  list-style-position: outside;
+
+}
 
 /* Colors, look */
+
+.tabs-dark > .tabs, .tabs.tabs-dark{
+  background-color: #394B56;
+}
 
 ion-content {
   background-color: #EAECF5;
@@ -66,6 +113,14 @@ ion-content {
   border: none;
 }
 
+.button.button-positive {
+  background-color: #49A1DC;
+}
+
+.button.button-balanced {
+  background-color: #48C998;
+}
+
 .button.button-stable.activated {
   background-color: #D1D5E9;
   border: none;
@@ -77,7 +132,7 @@ ion-content {
 }
 
 i.positive {
-  color: #6842EC;
+  color: #49A1DC;
 }
 
 .bar-stable .button, .bar-light .button, ion-option-button .icon {
@@ -87,7 +142,7 @@ i.positive {
 /* Bar */
 
 .bar, .button-footer {
-  height: 100px;
+  height: 56px;
   color: black;
 }
 
@@ -126,12 +181,16 @@ i.positive {
 }
 
 .title-nav > a.active {
-	color: #6842EF;
-  border-bottom: 2px solid #6842EF;
+	color: #49A1DC;
+  border-bottom: 2px solid #49A1DC;
 }
 
 .has-header {
-  top: 100px;
+  top: 56px;
+}
+
+.has-footer {
+  bottom: 56px;
 }
 
 /* Tabs */
@@ -145,7 +204,7 @@ i.positive {
 }
 
 .tabs-positive > .tabs, .tabs.tabs-positive {
-  background-color: #6842EC;
+  background-color: #49A1DC;
   border: none;
 }
 
@@ -160,7 +219,8 @@ i.positive {
 }
 
 .tabs a.tab-item-active {
-  color: #6842EC;
+  /* color: #6842EC; */
+  color: #fff;
 }
 
 .tab-item .icon {
@@ -265,8 +325,14 @@ i.positive {
   margin-bottom: 0;
 }
 
+.item-options .button {
+  width: 102px;
+  padding: 0;
+}
+
 .item-options .button .icon {
   font-size: 32px;
+  margin-right: 26px;
 }
 
 /* Chapter */
@@ -284,7 +350,6 @@ i.positive {
   overflow: hidden;
   transition: all 250ms;
   transition-timing-function: ease-in-out;
-  color: #777;
 }
 
 .chapter-text blockquote.active {
@@ -294,7 +359,7 @@ i.positive {
 }
 
 .chapter-text a {
-  color: #6842EF;
+  color: #49A1DC;
   text-decoration: none;
 }
 .chapter-image {

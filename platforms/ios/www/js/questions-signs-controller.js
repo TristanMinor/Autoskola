@@ -1,9 +1,20 @@
 angular.module('autoskola')
-  .controller('QuestionsSignsController', function($scope, $http) {
-    $scope.data = [];
+  .controller('QuestionsSignsController', function($scope, $http, SignsService) {
 
-    $http.get('json/signs.json').success(function(response) {
-      $scope.data = response.signs;
+    $scope.data = [];
+    $scope.localData = {};
+
+    SignsService.get().then(function(response) {
+      $scope.data = response.data;
+      $scope.localData = response.localData;
     });
+
+    $scope.pinQuestion = function(question) {
+      SignsService.pinQuestion(question);
+    }
+
+    $scope.hideQuestion = function(question) {
+      SignsService.hideQuestion(question);
+    }
 
   });

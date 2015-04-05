@@ -1,10 +1,12 @@
 <ion-view view-title="Testy">
   <ion-nav-bar class="bar-stable"></ion-nav-bar>
   <ion-content>
-    <ion-list type="list">
+    <ion-list type="list list-uneditable">
       <div ng-repeat="item in tests">
-        <ion-item nav-direction="forward" href="#" ng-repeat="test in item">
-          Test {{ item.id }}
+        <ion-item nav-direction="forward" href="#" ng-repeat="test in item" class="item item-uneditable">
+          <div class="item-inner">
+            <h2>Test {{ item.id }}</h2>
+          </div>
         </ion-item>
       </div>
     </ion-list>

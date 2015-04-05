@@ -1,14 +1,14 @@
 'use strict';
 
 angular.module('autoskola')
-  .service('LawService', function($http, $q) {
+  .service('NoticeService', function($http, $q) {
 
     var data = [];
     var localData = {};
     var loaded = false;
 
     function loadLocalStorage() {
-      var storage = localStorage.getItem('law');
+      var storage = localStorage.getItem('notice');
       if (! storage) {
         localData = {};
       } else {
@@ -17,7 +17,7 @@ angular.module('autoskola')
     }
 
     function saveLocalStorage() {
-      localStorage.setItem('law', JSON.stringify(localData));
+      localStorage.setItem('notice', JSON.stringify(localData));
     }
 
     loadLocalStorage();
@@ -27,8 +27,8 @@ angular.module('autoskola')
         var deferred = $q.defer();
 
         if (!loaded) {
-          $http.get('json/law.json').success(function(response) {
-            data = response.law;
+          $http.get('json/notice.json').success(function(response) {
+            data = response.notice;
             loaded = true;
             deferred.resolve({data:data, localData: localData});
           });

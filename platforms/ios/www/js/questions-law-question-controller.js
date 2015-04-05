@@ -46,7 +46,7 @@ angular.module('autoskola')
         });
         // Add the right content to explainings
         $scope.explainings.push(content);
-        console.log($scope.explainings);
+        // console.log($scope.explainings);
       });
     });
 
