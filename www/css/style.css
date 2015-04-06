@@ -36,6 +36,18 @@
     font-style: normal;
 }
 
+.center {
+  text-align: center;
+}
+
+.positive {
+  color: #49A1DC;
+}
+
+.assertive {
+  color: #DC5349;
+}
+
 body, .ionic-body, li {
   font-size: 20px;
   line-height: 1.5;
@@ -121,14 +133,34 @@ ion-content {
   background-color: #48C998;
 }
 
+.button.button-assertive {
+  background-color: #DC5349;
+}
+
 .button.button-stable.activated {
   background-color: #D1D5E9;
   border: none;
   box-shadow: none;
 }
 
+.button.button-positive.activated {
+  background-color: #3D8ABD;
+}
+
+.button.button-balanced.activated {
+  background-color: #36AD7F;
+}
+
+.button.button-assertive.activated {
+  background-color: #C7453B;
+}
+
 .item .item-content.activated {
   background-color: #DBE0F2;
+}
+
+.item-uneditable .item-content.activated {
+  background-color: #fff;
 }
 
 i.positive {
@@ -144,9 +176,15 @@ i.positive {
 .bar, .button-footer {
   height: 56px;
 }
+.has-header {
+  top: 56px;
+}
 
 .platform-ios.platform-cordova:not(.fullscreen) .bar-header:not(.bar-subheader) {
   height: 76px;
+}
+.platform-ios.platform-cordova:not(.fullscreen) .has-header {
+  top: 76px;
 }
 
 .bar .button.button-icon .icon:before,
@@ -186,10 +224,6 @@ i.positive {
 .title-nav > a.active {
 	color: #49A1DC;
   border-bottom: 2px solid #49A1DC;
-}
-
-.has-header {
-  top: 56px;
 }
 
 .has-footer {
@@ -252,6 +286,7 @@ i.positive {
 
 .list-uneditable .item-divider {
   padding-left: 70px;
+  padding-right: 70px;
 }
 
 .list-inset .item-divider {
@@ -285,6 +320,7 @@ i.positive {
   border: none;
   border-bottom: 1px solid #ddd;
   margin-bottom: 1px;
+/*  box-shadow: 0px 1px 1.5px #aaa; */
 }
 
 .item-uneditable.item-complex {
@@ -304,14 +340,23 @@ i.positive {
 
 .list-uneditable .item-content {
   background-color: #EAECF5;
-  padding-bottom: 0px;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding: 36px 70px 36px 70px;
+}
+
+.item p {
+  font-size: 16px
+}
+
+.item-content h1 {
+  font-family: 'preto_serif_ot_std_bold';
+  margin-bottom: 0;
 }
 
 .item-content h2 {
   font-family: 'preto_serif_ot_std_bold';
-  font-size: 20px;
+  font-size: 24px;
+  line-height: 1.4;
+  white-space: normal;
 }
 
 .item-inner {
@@ -322,9 +367,8 @@ i.positive {
 }
 
 .item-uneditable .item-inner {
-  border-bottom: 1px solid #ccc;
+  /*  border-bottom: 1px solid #ccc; */
   height: auto;
-  padding-bottom: 20px;
 }
 
 .item-uneditable:last-child .item-inner {

@@ -144,9 +144,15 @@ i.positive {
 .bar, .button-footer {
   height: 56px;
 }
+.has-header {
+  top: 56px;
+}
 
 .platform-ios.platform-cordova:not(.fullscreen) .bar-header:not(.bar-subheader) {
   height: 76px;
+}
+.platform-ios.platform-cordova:not(.fullscreen) .has-header {
+  top: 76px;
 }
 
 .bar .button.button-icon .icon:before,
@@ -186,10 +192,6 @@ i.positive {
 .title-nav > a.active {
 	color: #49A1DC;
   border-bottom: 2px solid #49A1DC;
-}
-
-.has-header {
-  top: 56px;
 }
 
 .has-footer {

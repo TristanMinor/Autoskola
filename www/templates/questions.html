@@ -23,8 +23,8 @@
             <div class="item-inner">
               <b>{{ item.id }}.</b>
               {{ item.question }}
-              <i ng-if="localData[item.id].pinned" class="icon icon-pin positive"></i>
-              <ion-option-button ng-click="pinQuestion(item)" class="button button-positive">
+              <i ng-if="localData[item.id].pinned" class="icon icon-pin assertive"></i>
+              <ion-option-button ng-click="pinQuestion(item)" class="button button-assertive">
                 <i class="icon" ng-class="{'icon-pin': localData[item.id].pinned, 'icon-pin-outline': !localData[item.id].pinned}"></i>
               </ion-option-button>
               <ion-option-button ng-click="hideQuestion(item)" class="button-balanced">
