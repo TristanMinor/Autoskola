@@ -85,6 +85,12 @@ angular.module('autoskola', ['ionic'])
     }
   })
 
+  .state('search', {
+    url: '/search',
+    templateUrl: 'templates/search.html',
+    controller: 'SearchController'
+  })
+
   $urlRouterProvider.otherwise("tabs/theory");
 
 })

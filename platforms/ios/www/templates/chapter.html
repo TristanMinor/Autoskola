@@ -9,7 +9,7 @@
   <ion-content class="item-opened">
     <div ng-repeat="item in chapter.content">
 
-      <div class="chapter-text" as-blockquote-collapser>
+      <div class="chapter-text ce" as-blockquote-collapser>
         <h3 ng-if="item.headline">{{ item.headline}}</h3>
         <img ng-if="item.image" src="{{ item.image }}" class="chapter-image">
         <p ng-if="item.paragraph" ng-bind-html="item.paragraph"></p>

@@ -182,9 +182,6 @@ i.positive {
   top: 55px;
   border-top: 0;
 }
-.has-subheader {
-  border: none;
-}
 .bar-subheader.has-scope-bar {
   height: 76px;
 }

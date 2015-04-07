@@ -1,12 +1,18 @@
 angular.module('autoskola')
-  .controller('TheoryController', function($scope, $http) {
+  .controller('TheoryController', function($scope, $http, $state) {
     $scope.data = [];
 
     $http.get('json/theory.json').success(function(response) {
       $scope.data = response.theory;
     });
 
+    $scope.goToSearch = function() {
+      $state.go('search');
+    };
+
   });
+
+
 
 shake.startWatch(onShake);
 

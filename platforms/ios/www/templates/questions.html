@@ -2,14 +2,14 @@
 
   // Questions header
   <div class="bar bar-stable bar-header disable-user-behavior bar-large">
-    <button class="button button-icon icon icon-search"></button>
+    <button class="button button-icon icon icon-search" ng-click="goToSearch()"></button>
     <div class="title title-nav">
       <a ng-click="setTab('tab-law')" ng-class="{active: tabName == 'tab-law'}">Zákon</a>
       <a ng-click="setTab('tab-notice')" ng-class="{active: tabName == 'tab-notice'}">Vyhláška</a>
       <a ng-click="setTab('tab-signs')" ng-class="{active: tabName == 'tab-signs'}">Značky</a>
       <a ng-click="setTab('tab-situations')" ng-class="{active: tabName == 'tab-situations'}">Križovatky</a>
     </div>
-    <button class="button button-icon icon ion-ios-paperplane-outline"></button>
+    <button class="button button-icon icon ion-ios-paperplane-outline" ng-click="openTestModal()"></button>
   </div>
 
   <!-- Questions content -->
@@ -62,6 +62,7 @@
               {{ item.section }}
             </div>
 
+            <div>
             <ion-item ng-if="!localData[question.id].hidden" ng-repeat="question in item.questions" href="#/questions/sign/{{question.id}}" class="item item-thumbnail-left item-icon-right item-hideable">
               <img src="{{ question.image.src }}" alt="">
               <div class="item-inner">
@@ -75,6 +76,7 @@
                 </ion-option-button>
               </div>
             </ion-item>
+          </div>
 
           </div>
         </ion-list>
