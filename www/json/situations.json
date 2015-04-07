@@ -10,12 +10,15 @@
         "id": 1,
         "question": "Tam, kde sa dva jazdné pruhy zbiehajú do jedného pruhu tak, že nie je zrejmé, ktorý z nich je priebežný,",
         "answers": [{
+          "option": "a",
           "text": "vodič zeleného vozidla má prednosť v jazde pred vodičom červeného vozidla,",
           "correct": false
         }, {
+          "option": "b",
           "text": "vodič zeleného vozidla jazdiaci v ľavom jazdnom pruhu nesmie ohroziť vodiča červeného vozidla v pravom jazdnom pruhu,",
           "correct": true
         }, {
+          "option": "c",
           "text": "vodič zeleného vozidla musí dať prednosť v jazde vodičovi červeného vozidla, pretože dáva znamenie o zmene smeru jazdy vľavo.",
           "correct": false
         }],

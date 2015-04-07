@@ -2,7 +2,7 @@
 
   // Questions header
   <div class="bar bar-stable bar-header disable-user-behavior bar-large">
-    <button class="button button-icon icon icon-search"></button>
+    <button class="button button-icon icon icon-search" ng-click="goToSearch()"></button>
     <div class="title title-nav">
       <a ng-click="setTab('tab-law')" ng-class="{active: tabName == 'tab-law'}">Zákon</a>
       <a ng-click="setTab('tab-notice')" ng-class="{active: tabName == 'tab-notice'}">Vyhláška</a>
@@ -23,8 +23,8 @@
             <div class="item-inner">
               <b>{{ item.id }}.</b>
               {{ item.question }}
-              <i ng-if="localData[item.id].pinned" class="icon icon-pin assertive"></i>
-              <ion-option-button ng-click="pinQuestion(item)" class="button button-assertive">
+              <i ng-if="localData[item.id].pinned" class="icon icon-pin positive"></i>
+              <ion-option-button ng-click="pinQuestion(item)" class="button button-positive">
                 <i class="icon" ng-class="{'icon-pin': localData[item.id].pinned, 'icon-pin-outline': !localData[item.id].pinned}"></i>
               </ion-option-button>
               <ion-option-button ng-click="hideQuestion(item)" class="button-balanced">
@@ -62,6 +62,7 @@
               {{ item.section }}
             </div>
 
+            <div>
             <ion-item ng-if="!localData[question.id].hidden" ng-repeat="question in item.questions" href="#/questions/sign/{{question.id}}" class="item item-thumbnail-left item-icon-right item-hideable">
               <img src="{{ question.image.src }}" alt="">
               <div class="item-inner">
@@ -75,6 +76,7 @@
                 </ion-option-button>
               </div>
             </ion-item>
+          </div>
 
           </div>
         </ion-list>
