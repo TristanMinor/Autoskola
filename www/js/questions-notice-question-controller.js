@@ -21,7 +21,7 @@ angular.module('autoskola')
     });
 
     // Load the modal from the given template URL
-    $ionicModal.fromTemplateUrl('templates/explaining.html', function($ionicModal) {
+    $ionicModal.fromTemplateUrl('templates/modals/modal-explaining.html', function($ionicModal) {
       $scope.modal = $ionicModal;
     }, {
       // Use the scope for the scope of the modal to keep it simple

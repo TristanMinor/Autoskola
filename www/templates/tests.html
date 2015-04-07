@@ -3,8 +3,9 @@
   <ion-content>
     <ion-list type="list list-uneditable center">
       <div ng-repeat="item in tests">
-        <ion-item nav-direction="forward" href="#" ng-repeat="test in item" class="item item-uneditable">
+        <ion-item nav-direction="forward" href="#" ng-click="openTestModal()" ng-repeat="test in item" class="item item-uneditable item-thumbnail-center">
           <div class="item-inner">
+            <img src="img/tests/test_nothing.png" alt="">
             <h2>Test {{ item.id }}</h2>
           </div>
         </ion-item>
