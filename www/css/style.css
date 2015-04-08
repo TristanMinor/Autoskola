@@ -59,6 +59,15 @@ p, blockquote, .question-text  {
   margin: 0 0 2em;
 }
 
+p a {
+  border-bottom: .08em solid rgba(0,0,0,.15);
+  padding-bottom: .08em;
+}
+
+p a.activated, p a.active {
+  border-bottom: .08em solid #4CA0DA;
+}
+
 li {
   font-family: "preto_serif_ot_std_regular";
 }
@@ -73,8 +82,14 @@ i {
   font-family: "preto_serif_ot_std_italic";
 }
 
+h1 {
+  font-family: 'preto_serif_ot_std_bold';
+  font-size: 36px;
+}
+
 h3 {
   font-size: 19px;
+  line-height: 1.4;
   font-weight: 500;
 }
 
@@ -412,6 +427,10 @@ i.positive {
   padding: 36px 70px 0px 70px;
 }
 
+.pinned .item-content {
+  /* background-color: #ECF7FF; */
+}
+
 .item p {
   font-size: 16px
 }
@@ -501,6 +520,30 @@ i.positive {
   font-size: 32px;
   margin-right: 26px;
 }
+
+.item-uneditable.item-thumbnail-left .item-content {
+  padding: 22px 70px 0px 170px;
+}
+
+.item-uneditable.item-thumbnail-left .item-content img {
+  max-width: 80px;
+  width: auto;
+  position: absolute;
+  left: 70px;
+}
+
+.item-uneditable.item-thumbnail-left h2 {
+  font-size: 20px;
+}
+
+.item-uneditable.item-thumbnail-left .item-inner {
+  padding-bottom: 23px;
+}
+
+.locked h2, .locked p {
+  color: #BEC2D1;
+}
+
 
 /* Chapter */
 
@@ -598,7 +641,7 @@ i.positive {
 /* Modal */
 
 .modal-backdrop-bg {
-  background-color: #65707D;
+  background-color: #506684;
 }
 
 .modal {
@@ -635,4 +678,10 @@ i.positive {
 
 .modal-fullscreen ion-content {
   padding-top: 40px;
+}
+
+@media (min-width: 680px) {
+  .active .modal-backdrop-bg {
+    opacity: 0.8;
+  }
 }

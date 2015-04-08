@@ -1,0 +1,18 @@
+{
+  "rewards": [{
+    "id":1,
+    "name": "Na prvý pokus",
+    "description": "Prvý bezchybný test",
+    "image": "img/rewards/naPrvyPokus.png"
+  }, {
+    "id":2,
+    "name": "Orientačný zmysel",
+    "description": "Zvládnuté všetky informatívne smerové značky",
+    "image": "img/rewards/orientacnyZmysel.png"
+  }, {
+    "id":3,
+    "name": "Zelená vlna",
+    "description": "Tri bezchybné testy za sebou",
+    "image": "img/rewards/unlocked.png"
+  }]
+}

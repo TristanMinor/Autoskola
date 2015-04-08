@@ -15,6 +15,16 @@ angular.module('autoskola', ['ionic'])
     templateUrl: 'templates/tabs.html'
   })
 
+  .state('tabs.overview', {
+    url: '/overview',
+    views: {
+      'overview-tab': {
+        templateUrl: 'templates/overview.html',
+        controller: 'OverviewController'
+      }
+    }
+  })
+
   .state('tabs.theory', {
     url: '/theory',
     views: {
@@ -91,7 +101,7 @@ angular.module('autoskola', ['ionic'])
     controller: 'SearchController'
   })
 
-  $urlRouterProvider.otherwise("tabs/theory");
+  $urlRouterProvider.otherwise("tabs/overview");
 
 })
 
@@ -123,6 +133,7 @@ angular.module('autoskola', ['ionic'])
           e.preventDefault();
           e.stopPropagation();
           blockquote.toggleClass('active');
+          // a.toggleClass('active');
         })
       });
 
