@@ -82,10 +82,7 @@ i {
   font-family: "preto_serif_ot_std_italic";
 }
 
-h1 {
-  font-family: 'preto_serif_ot_std_bold';
-  font-size: 36px;
-}
+
 
 h3 {
   font-size: 19px;
@@ -330,18 +327,24 @@ i.positive {
 }
 
 .tabs-stable > .tabs, .tabs.tabs-stable {
-  background-color: #F2F3F9;
-  border-color: #D2D2D2;
+  background-color: #FBFCFF;
+  border-color: #DDD;
+}
+
+.tab-item {
+  color: #A9AAAE;
 }
 
 .tabs-icon-top > .tabs .tab-item {
   padding-top: 10px;
   font-size: 12px;
+  max-width: 140px;
+  opacity: 1;
 }
 
-.tabs a.tab-item-active {
+.tabs a.tab-item-active, .tabs a.activated {
   /* color: #6842EC; */
-  color: #fff;
+  color: #4CA0DA;
 }
 
 .tab-item .icon {
