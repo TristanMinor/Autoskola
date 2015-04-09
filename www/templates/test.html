@@ -1,0 +1,52 @@
+<ion-view view-title="Test {{ test.id }}">
+
+  <ion-nav-bar class="bar-light">
+    <ion-nav-buttons side="primary">
+
+    </ion-nav-buttons>
+    <ion-nav-buttons side="secondary">
+
+    </ion-nav-buttons>
+  </ion-nav-bar>
+
+  <ion-content class="item-opened">
+
+    Testik {{ params.id }}
+
+    {{ params }}
+
+    <div>
+      Aktualny krok: {{ view.question + 1}}<br>
+      Pocet otazok: {{ test.questions.length }}
+    </div>
+
+
+    <div class="question-text">
+      <div class="question-question">
+        <p>{{ question.question }}</p>
+      </div>
+
+      <div class="list answers">
+        <label ng-repeat="item in question.answers" class="item item-radio">
+          <input type="radio" name="group" ng-click="answerSelected(item)">
+          <div class="item-content question-answer" ng-class="{'answer-selected': selectedAnswer.option == item.option, 'answer-correct': selectedAnswer.option && item.isCorrect}">
+            <span class="answer-option">{{ item.option }}</span>
+            {{ item.text }}
+          </div>
+        </label>
+      </div>
+    </div>
+
+    <div ng-if="params.immediately == 'true'">
+      <button class="button button-stable" ng-click="immediatelyResolve()">Vyhodnotit</button>
+    </div>
+    <div ng-if="params.immediately == 'false'">
+      <button class="button button-stable " ng-click="explain()">...</button>
+      <button class="button button-stable " ng-click="nextQuestion()" ng-disabled="!selectedAnswer.option">Next</button>
+    </div>
+  </ion-content>
+
+
+
+</ion-view>
+

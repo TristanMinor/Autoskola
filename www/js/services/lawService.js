@@ -20,6 +20,17 @@ angular.module('autoskola')
       localStorage.setItem('law', JSON.stringify(localData));
     }
 
+    function searchForQuestion(id) {
+      var q;
+      console.log('searchibng', id);
+      data.forEach(function(question) {
+        if (question.id == id) {
+          q = question;
+        }
+      });
+      return q;
+    }
+
     loadLocalStorage();
 
     return {
@@ -34,6 +45,25 @@ angular.module('autoskola')
           });
         } else {
           deferred.resolve({data:data, localData: localData});
+        }
+
+        return deferred.promise;
+      },
+
+      getQuestion: function(id) {
+        var deferred = $q.defer();
+        var q;
+
+        if (!loaded) {
+          $http.get('json/law.json').success(function(response) {
+            data = response.law;
+            loaded = true;
+            q = searchForQuestion(id);
+            deferred.resolve(q);
+          });
+        } else {
+          q = searchForQuestion(id);
+          deferred.resolve(q);
         }
 
         return deferred.promise;
