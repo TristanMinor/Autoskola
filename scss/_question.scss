@@ -1,0 +1,56 @@
+.item-opened.situation {
+  padding-top: 0;
+}
+
+.question-question {
+  padding: $padding-small $padding-large;
+}
+
+.question-text p {
+  margin: 0;
+}
+
+.question-image {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1em;
+  // padding-left: $padding-large;
+  // padding-right: $padding-large;
+  img {
+    max-width: 100%;
+  }
+}
+
+
+.answers {
+  .item {
+    color: #222;
+    border-width: 0;
+    .question-answer {
+      white-space: normal;
+      padding: $padding-small $padding-large $padding-small 110px;
+    }
+    .answer-correct {
+      background-color: lighten($balanced, 30);
+      color: darken($balanced, 30);
+    }
+    .answer-incorrect {
+      background-color: lighten($assertive, 30);
+      color: darken($assertive, 30);
+    }
+    .answer-selected {
+      background-color: darken($stable,4);
+    }
+  }
+}
+
+.answer-option {
+  color: $link-secondary;
+  position: relative;
+  left: -1em;
+  margin-left: -1.1em;
+}
+
+.item-radio input:checked ~ .item-content {
+  background-color: darken($stable,4);
+}

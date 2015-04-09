@@ -1,4 +1,12 @@
 {
   "name": "Autoskola",
-  "app_id": "b4ba1584"
+  "app_id": "b4ba1584",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
 }

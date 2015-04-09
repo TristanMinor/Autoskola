@@ -1,0 +1,36 @@
+.modal-backdrop-bg {
+  background-color: $backdrop-bg;
+}
+
+.modal-fullscreen {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  .scroll-content {
+    padding-top: $padding-large;
+    background-color: $stable;
+  }
+}
+
+@media (min-width: 680px) {
+  .active {
+    .modal-backdrop-bg {
+      opacity: 0.8;
+    }
+    .modal-wrapper {
+      .modal {
+        @include border-radius($radius-item);
+        .bar-header {
+          @include border-top-radius($radius-item);
+          border: none;
+        }
+        .scroll-content {
+          @include border-bottom-radius($radius-item);
+          // background-color: $light;
+        }
+      }
+    }
+  }
+}

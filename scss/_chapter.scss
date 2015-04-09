@@ -1,0 +1,23 @@
+.chapter-text {
+  padding-left: $padding-large;
+  padding-right: $padding-large;
+  blockquote {
+    max-height: 0;
+    margin: 0;
+    padding: 0 0 0 1.5em;
+    opacity: 0;
+    overflow: hidden;
+    @include transition(all ease-in-out 250ms);
+  }
+  blockquote.active {
+    max-height: 768px;
+    margin-bottom: 1.5em;
+    opacity: 1;
+  }
+}
+
+.chapter-image {
+  max-width: 100%;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}

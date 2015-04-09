@@ -1,0 +1,71 @@
+.platform-ios.platform-cordova:not(.fullscreen) .bar-header:not(.bar-subheader) {
+  height: $bar-height + 20px;
+}
+
+.platform-ios.platform-cordova:not(.fullscreen) .has-header {
+  top: $bar-height + 20px;
+}
+
+.platform-ios.platform-cordova:not(.fullscreen) .bar-subheader {
+  top: $bar-height + 20px - 1px;
+  border-top: 0;
+}
+
+.bar {
+  height: $bar-height;
+  .title {
+    line-height: 3em;
+    height: $bar-height;
+  }
+  .title-nav {
+    a {
+      color: $link-secondary;
+      padding: 16px 10px;
+    }
+    a.active {
+      color: $positive;
+      border-bottom: 4px solid $positive;
+    }
+  }
+  .button {
+    min-height: 44px;
+  }
+  .button.button-icon {
+    .icon:before {
+      font-size: $icon-small;
+    }
+  }
+  .button.button-icon:before,
+  .button.button-icon.icon-left:before,
+  .button.button-icon.icon-right:before {
+    font-size: $icon-small;
+  }
+}
+
+.button-footer {
+  height: $bar-height;
+}
+
+.bar.bar-stable {
+  border-color: darken($line,4);
+  .button {
+    color: $link-secondary;
+  }
+}
+
+.bar-subheader {
+  top: $bar-height - 1px;
+  border-top: 0;
+}
+
+.bar-subheader.has-scope-bar {
+  height: $scope-bar-height + 20px;
+}
+
+.has-header {
+  top: $bar-height;
+}
+
+.has-footer {
+  bottom: $bar-height;
+}

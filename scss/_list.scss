@@ -1,0 +1,150 @@
+.list-inset {
+  margin: $padding-large;
+  background-color: $stable;
+  .item:first-child {
+    @include border-top-radius($radius-item);
+  }
+  .item:last-child {
+    @include border-bottom-radius($radius-item);
+  }
+}
+
+.item-divider {
+  background-color: $stable;
+  text-transform: uppercase;
+  margin-top: 1px;
+  padding: 0;
+  border: none;
+  color: $link-secondary;
+  font-size: 14px;
+  height: $padding-large;
+  line-height: $padding-large;
+}
+
+.item-complex  {
+  border: none;
+  border-bottom: 1px solid $line;
+  margin-bottom: 1px;
+  /*  box-shadow: 0px 1px 1.5px #aaa; */
+  .item-content {
+    white-space: nowrap;
+    padding: 18px 30px 20px 30px;
+    p {
+      font-size: $font-small;
+    }
+  }
+}
+
+.item-inner {
+  height: 60px;
+  color: $dark;
+  white-space: normal;
+  overflow: hidden;
+}
+
+.list-uneditable {
+  .item-divider {
+    padding-left: $padding-large;
+    padding-right: $padding-large;
+  }
+  .item-content {
+    background-color: $stable;
+    padding: 20px $padding-large 0px $padding-large;
+  }
+}
+
+.item-uneditable.item-complex {
+  border: none;
+  .item-inner {
+    height: auto;
+    padding-bottom: 24px;
+    border-bottom: 1px solid $line;
+  }
+  h2 {
+    font-size: $font;
+  }
+}
+
+.item-uneditable:last-child {
+  .item-inner {
+    border: none;
+  }
+}
+
+.item-uneditable.item-thumbnail-left {
+  .item-content {
+    padding: 22px $padding-large 0px 170px;
+    img {
+      max-width: $thumbnail-medium;
+      width: auto;
+      position: absolute;
+      left: $padding-large;
+    }
+  }
+}
+
+/* .item-hideable.ng-enter,*/ .item-hideable.ng-leave {
+  @include transition(all cubic-bezier(0.075, 0.82, 0.165, 1) 250ms);
+}
+
+.item-hideable.ng-enter,
+.item-hideable.ng-leave.ng-leave-active {
+  opacity: 0;
+  height: 0;
+}
+
+.item-hideable.ng-leave,
+.item-hideable.ng-enter.ng-enter-active {
+  opacity: 1;
+  height: 102px;
+}
+
+.item-thumbnail-left {
+  .item-content {
+    padding-left: 106px;
+  }
+}
+
+.item-thumbnail-center img {
+  max-width: $thumbnail-large;
+}
+
+.item-complex.item-thumbnail-horizontal {
+  .item-content {
+    padding-left: 150px;
+    .item-image {
+      width: auto;
+      max-width: none;
+    }
+  }
+}
+
+.item-icon-right {
+  .icon {
+    font-size: $icon-small;
+  }
+}
+
+.item-options {
+  .button {
+    width: 102px;
+    padding: 0;
+    .icon {
+      margin-right: 26px;
+    }
+  }
+}
+
+.bundle-situations {
+  margin-bottom: $padding-medium;
+}
+
+.bundle-situations:last-child {
+  margin-bottom: 0;
+}
+
+.locked {
+  h2, p {
+    color: $link-secondary;
+  }
+}

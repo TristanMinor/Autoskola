@@ -1,51 +1,7 @@
 /* Typography */
 
-@font-face {
-    font-family: 'preto_serif_ot_std_regular';
-    src: url('../fonts/preto_serif_ot_std_regular.eot');
-    src: url('../fonts/preto_serif_ot_std_regular.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/preto_serif_ot_std_regular.woff2') format('woff2'),
-         url('../fonts/preto_serif_ot_std_regular.woff') format('woff'),
-         url('../fonts/preto_serif_ot_std_regular.ttf') format('truetype'),
-         url('../fonts/preto_serif_ot_std_regular.svg#preto_serif_ot_std_regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'preto_serif_ot_std_bold';
-    src: url('../fonts/preto_serif_ot_std_bold.eot');
-    src: url('../fonts/preto_serif_ot_std_bold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/preto_serif_ot_std_bold.woff2') format('woff2'),
-         url('../fonts/preto_serif_ot_std_bold.woff') format('woff'),
-         url('../fonts/preto_serif_ot_std_bold.ttf') format('truetype'),
-         url('../fonts/preto_serif_ot_std_bold.svg#preto_serif_ot_stdbold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'preto_serif_ot_std_italic';
-    src: url('../fonts/preto_serif_ot_std_italic.eot');
-    src: url('../fonts/preto_serif_ot_std_italic.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/preto_serif_ot_std_italic.woff2') format('woff2'),
-         url('../fonts/preto_serif_ot_std_italic.woff') format('woff'),
-         url('../fonts/preto_serif_ot_std_italic.ttf') format('truetype'),
-         url('../fonts/preto_serif_ot_std_italic.svg#preto_serif_ot_stditalic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
 .center {
   text-align: center;
-}
-
-.positive {
-  color: #49A1DC;
-}
-
-.assertive {
-  color: #DC5349;
 }
 
 body, .ionic-body, li {
@@ -57,11 +13,6 @@ body, .ionic-body, li {
 p, blockquote, .question-text  {
   font-family: "preto_serif_ot_std_regular";
   margin: 0 0 2em;
-}
-
-p a {
-  border-bottom: .08em solid rgba(0,0,0,.15);
-  padding-bottom: .08em;
 }
 
 p a.activated, p a.active {

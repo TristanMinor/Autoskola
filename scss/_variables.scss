@@ -1,0 +1,54 @@
+/* Colors */
+
+$light:                           #fff !default;
+$stable:                          #EAECF5 !default;
+$light-grey:                      #DDD !default;
+// $positive:                        #5EABDF !default;
+$positive:                        #4BA7E5 !default;
+$calm:                            #11c1f3 !default;
+$balanced:                        #48C998 !default;
+$energized:                       #DCB162 !default;
+$assertive:                       #DC5349 !default;
+$royal:                           #886aea !default;
+$dark:                            #222 !default;
+
+/* Used colors */
+
+$main-color: $positive;
+
+$link: $positive;
+$link-secondary: #979BAA;
+
+$line: $light-grey;
+
+$backdrop-bg: #506684;
+
+/* Sizes */
+
+$font: 20px;
+$font-small: 16px;
+
+$bar-height: 56px;
+$tabs-height: 70px;
+$scope-bar-height: $bar-height;
+
+$icon-small: 24px;
+$icon-large: 34px;
+
+$thumbnail-medium: 80px;
+$thumbnail-large: 160px;
+
+$padding-small: 24px;
+$padding-medium: 36px;
+$padding-large: 72px;
+
+/* Radiuses */
+
+$radius-item: 6px;
+
+/* Fonts */
+
+$serif-regular: "preto_serif_ot_std_regular", serif;
+$serif-italic: "preto_serif_ot_std_italic", serif;
+$serif-bold: "preto_serif_ot_std_bold", serif;
+$sans-serif: "HelveticaNeue", sans-serif;

@@ -1,0 +1,38 @@
+.tabs {
+  height: $tabs-height;
+  .tab-item-active,
+  .activated {
+    color: $positive;
+  }
+}
+
+.tabs-stable {
+  .tabs {
+    background-color: lighten($stable,4);
+    border-color: darken($line,4);
+  }
+}
+
+.tab-item {
+  color: $link-secondary;
+  .icon {
+    font-size: $icon-large;
+    height: $icon-large;
+  }
+}
+
+.has-tabs,
+.bar-footer.has-tabs {
+  bottom: $tabs-height;
+}
+
+.tabs-icon-top {
+  .tabs {
+    .tab-item {
+      padding-top: 10px;
+      font-size: 12px;
+      max-width: 140px;
+      opacity: 1;
+    }
+  }
+}

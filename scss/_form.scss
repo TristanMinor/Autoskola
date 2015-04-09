@@ -1,0 +1,16 @@
+.bar.item-input-inset {
+  padding: 5px;
+  .item-input-wrapper {
+    background: none;
+    input {
+      font-style: 17px;
+      padding-left: 0;
+    }
+  }
+}
+
+.bar.item-input-inset .item-input-wrapper input {
+  font-size: 17px;
+  padding-left: 0;
+  color: #111;
+}

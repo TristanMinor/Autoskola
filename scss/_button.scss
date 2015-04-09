@@ -1,0 +1,17 @@
+.button {
+  border: none;
+}
+
+.button.button-stable.activated {
+  background-color: darken($stable,4);
+  border: none;
+  box-shadow: none;
+}
+
+.button-footer {
+  position: fixed;
+  bottom: 0;
+  margin: 0;
+  width: 100%;
+  border: none;
+}
