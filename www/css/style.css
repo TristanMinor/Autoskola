@@ -427,7 +427,7 @@ i.positive {
 
 .list-uneditable .item-content {
   background-color: #EAECF5;
-  padding: 36px 70px 0px 70px;
+  padding: 20px 70px 0px 70px;
 }
 
 .pinned .item-content {
@@ -460,7 +460,7 @@ i.positive {
 .item-uneditable .item-inner {
   /*  border-bottom: 1px solid #ccc; */
   height: auto;
-  padding-bottom: 36px;
+  padding-bottom: 24px;
   border-bottom: 1px solid #D2D2D2;
 }
 
