@@ -4,10 +4,8 @@ angular.module('autoskola')
     $scope.data = [];
     $scope.localData = {};
 
-    LawService.get().then(function(response) {
-      $scope.data = response.data;
-      $scope.localData = response.localData;
-    });
+    $scope.data = LawService.get().data;
+    $scope.localData = LawService.get().localData;
 
     $scope.pinQuestion = function(item) {
       LawService.pinQuestion(item);

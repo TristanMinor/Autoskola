@@ -1,14 +1,14 @@
-{
+var LawList = {
   "law": [{
     "id": 1,
     "points": 2,
     "question": "Autobusom sa rozumie",
     "explaining": [{
-      "chapter":1,
-      "content":2
+      "chapter": 1,
+      "content": 2
     }, {
-      "chapter":1,
-      "content":6
+      "chapter": 1,
+      "content": 6
     }],
     "answers": [{
       "option": "a",
@@ -41,8 +41,8 @@
       "correct": false
     }],
     "explaining": [{
-      "chapter":1,
-      "content":3
+      "chapter": 1,
+      "content": 3
     }]
   }, {
     "id": 3,
@@ -62,8 +62,8 @@
       "correct": false
     }],
     "explaining": [{
-      "chapter":1,
-      "content":3
+      "chapter": 1,
+      "content": 3
     }]
   }, {
     "id": 4,
@@ -102,4 +102,4 @@
     "points": 2,
     "question": "Nemotorovým vozidlom sa rozumie"
   }]
-}
+};

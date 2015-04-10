@@ -1,9 +1,9 @@
 'use strict';
 
 angular.module('autoskola')
-  .service('LawService', function($http, $q) {
+  .service('LawService', function($q) {
 
-    var data = [];
+    var data = LawList.law;
     var localData = {};
     var loaded = false;
 
@@ -22,7 +22,6 @@ angular.module('autoskola')
 
     function searchForQuestion(id) {
       var q;
-      console.log('searchibng', id);
       data.forEach(function(question) {
         if (question.id == id) {
           q = question;
@@ -35,38 +34,14 @@ angular.module('autoskola')
 
     return {
       get: function() {
-        var deferred = $q.defer();
-
-        if (!loaded) {
-          $http.get('json/law.json').success(function(response) {
-            data = response.law;
-            loaded = true;
-            deferred.resolve({data:data, localData: localData});
-          });
-        } else {
-          deferred.resolve({data:data, localData: localData});
-        }
-
-        return deferred.promise;
+        return {
+          data: data,
+          localData: localData
+        };
       },
 
       getQuestion: function(id) {
-        var deferred = $q.defer();
-        var q;
-
-        if (!loaded) {
-          $http.get('json/law.json').success(function(response) {
-            data = response.law;
-            loaded = true;
-            q = searchForQuestion(id);
-            deferred.resolve(q);
-          });
-        } else {
-          q = searchForQuestion(id);
-          deferred.resolve(q);
-        }
-
-        return deferred.promise;
+        return searchForQuestion(id);
       },
 
       pinQuestion: function(item) {

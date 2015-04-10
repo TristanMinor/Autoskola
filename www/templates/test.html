@@ -11,42 +11,49 @@
 
   <ion-content class="item-opened">
 
-    Testik {{ params.id }}
-
-    {{ params }}
-
-    <div>
-      Aktualny krok: {{ view.question + 1}}<br>
-      Pocet otazok: {{ test.questions.length }}
+    <div class="test-progress">
+      <div class="test-progress-bar" ng-style="{'width': (view.question / questions.length * 100) + '%'}"></div>
     </div>
 
+    Odpvoede:
+    {{ answers }}
 
-    <div class="question-text">
-      <div class="question-question">
-        <p>{{ question.question }}</p>
-      </div>
+    <button ng-click="kokotko()">Chod na druhy</button>
 
-      <div class="list answers">
-        <label ng-repeat="item in question.answers" class="item item-radio">
-          <input type="radio" name="group" ng-click="answerSelected(item)">
-          <div class="item-content question-answer" ng-class="{'answer-selected': selectedAnswer.option == item.option, 'answer-correct': selectedAnswer.option && item.isCorrect}">
-            <span class="answer-option">{{ item.option }}</span>
-            {{ item.text }}
+    <ion-slide-box active-slide="view.question" on-slide-changed="slideHasChanged($index)">
+      <ion-slide ng-repeat="question in questions">
+        <div class="question-text" style="width:100%">
+          <div class="question-question">
+            <p>{{ question.question }}</p>
           </div>
-        </label>
-      </div>
-    </div>
 
-    <div ng-if="params.immediately == 'true'">
-      <button class="button button-stable" ng-click="immediatelyResolve()">Vyhodnotit</button>
-    </div>
-    <div ng-if="params.immediately == 'false'">
-      <button class="button button-stable " ng-click="explain()">...</button>
-      <button class="button button-stable " ng-click="nextQuestion()" ng-disabled="!selectedAnswer.option">Next</button>
-    </div>
+          <div class="list answers">
+            <label ng-repeat="item in question.answers" class="item item-radio">
+              <input type="radio" name="group" ng-click="answerSelected(item)">
+              <div class="item-content question-answer" ng-class="{'answer-selected': selectedAnswer.option == item.option, 'answer-correct': selectedAnswer.option && item.isCorrect}">
+                <span class="answer-option">{{ item.option }}</span>
+                {{ item.text }}
+              </div>
+            </label>
+          </div>
+        </div>
+      </ion-slide>
+    </ion-slide-box>
+
   </ion-content>
 
+  <div class="button-footer">
+    <button class="button button-stable " ng-click="openHelp()">...</button>
+    <button class="button button-stable " ng-click="nextQuestion()" ng-disabled="!selectedAnswer.option">Next</button>
+  </div>
+  <!--<button class="button button-footer button-stable icon icon-explain" ng-click="immediatelyResolve()">Vyhodnotit</button>-->
+  <!--<div ng-if="params.immediately == 'true'">-->
+    <!-- -->
+  <!--</div>-->
+  <!--<div ng-if="params.immediately == 'false'">-->
 
+  <!--</div>-->
+  <!--<button ng-click="openModal()" class=""></button>-->
 
 </ion-view>
 

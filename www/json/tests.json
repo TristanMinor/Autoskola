@@ -9,6 +9,10 @@
       "id": 2,
       "type": "law",
       "questionId": 2
+    }, {
+      "id": 3,
+      "type": "law",
+      "questionId": 3
     }]
   }, {
     "id": 2
