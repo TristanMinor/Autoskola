@@ -7633,9 +7633,10 @@ p {
     border-bottom: 0.08em solid #4BA7E5; }
 
 h3 {
-  font-size: 19px;
+  font-family: "preto_serif_ot_std_bold", serif;
+  font-size: 20px;
   line-height: 1.4;
-  font-weight: 500; }
+  font-style: normal; }
 
 i {
   font-weight: normal;

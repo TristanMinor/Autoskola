@@ -6,13 +6,28 @@
     "image": "img/rewards/naPrvyPokus.png"
   }, {
     "id":2,
+    "name": "Zelená vlna",
+    "description": "Tri bezchybné testy za sebou",
+    "image": "img/rewards/zelenaVlna.png"
+  }, {
+    "id":3,
     "name": "Orientačný zmysel",
     "description": "Zvládnuté všetky informatívne smerové značky",
     "image": "img/rewards/orientacnyZmysel.png"
   }, {
-    "id":3,
-    "name": "Zelená vlna",
-    "description": "Tri bezchybné testy za sebou",
+    "id":4,
+    "name": "Dopravné prikázania",
+    "description": "Nauč sa všetky príkazové značky",
+    "image": "img/rewards/dopravnePrikazania.png"
+  }, {
+    "id":5,
+    "name": "Rozšírený obzor",
+    "description": "Nauč sa všetky vodorovné značky",
+    "image": "img/rewards/rozsirenyObzor.png"
+  }, {
+    "id":6,
+    "name": "Turbo",
+    "description": "10 testov za jeden deň",
     "image": "img/rewards/unlocked.png"
   }]
 }

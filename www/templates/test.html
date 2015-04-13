@@ -27,6 +27,7 @@
             <p>{{ question.question }}</p>
           </div>
 
+<<<<<<< Updated upstream
           <div class="list answers">
             <label ng-repeat="item in question.answers" class="item item-radio">
               <input type="radio" name="group" ng-click="answerSelected(item)">
@@ -39,6 +40,16 @@
         </div>
       </ion-slide>
     </ion-slide-box>
+=======
+    <div ng-if="params.immediately == 'true'">
+      <button class="button button-footer button-stable " ng-click="immediatelyResolve()">Vyhodnotit</button>
+    </div>
+    <div ng-if="params.immediately == 'false'">
+      <button class="button button-stable " ng-click="explain()">...</button>
+      <button class="button button-stable " ng-click="nextQuestion()" ng-disabled="!selectedAnswer.option">Next</button>
+    </div>
+  </ion-content>
+>>>>>>> Stashed changes
 
   </ion-content>
 
@@ -56,4 +67,3 @@
   <!--<button ng-click="openModal()" class=""></button>-->
 
 </ion-view>
-
