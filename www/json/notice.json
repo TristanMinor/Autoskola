@@ -1,56 +1,54 @@
 {
   "notice": [{
     "id": 1,
-    "points": 2,
-    "question": "Najväčšia prípustná celková šírka vozidla vrátane nákladu je",
+    "points": 1,
+    "question": "Na bicykli sa jazdí predovšetkým",
     "answers": [{
       "option": "a",
-      "text": "5,00 m",
-      "correct": true
-    }, {
-      "option": "b",
-      "text": "2,55 m",
+      "text": "po chodníku,",
       "correct": false
     }, {
+      "option": "b",
+      "text": "po cestičke pre cyklistov,",
+      "correct": true
+    }, {
       "option": "c",
-      "text": "3,55 m",
+      "text": "po ľavej krajnici.",
       "correct": false
     }]
   }, {
     "id": 2,
-    "points": 2,
-    "question": "Najväčšia prípustná celková prívesného vozíka za dvojkolesové vozidlo je"
+    "points": 1,
+    "question": "Vozidlo sa považuje za technicky nespôsobilé na premávku na pozemných komunikáciách, ak",
+    "answers": [{
+      "option": "a",
+      "text": "sú na tej istej náprave použite rôzne pneumatiky,",
+      "correct": true
+    }, {
+      "option": "b",
+      "text": "najnižší bod činnej svietiacej plochy obrysových svetiel je vyššie ako 350mm nad rovinou vozovky,",
+      "correct": false
+    }, {
+      "option": "c",
+      "text": "diaľkové svetlomety nie je možné prepnúť na obrysové svietidlá.",
+      "correct": false
+    }]
   }, {
     "id": 3,
-    "points": 2,
-    "question": "Najväčšia prípustná celková dĺžka jednotlivého vozíka okrem návesu je"
-  }, {
-    "id": 4,
-    "points": 2,
-    "question": "Najväčšia prípustná celková dĺžka súpravy motorového vozidla s dvoma prívesmi alebo s návesom a jedným prívesom je"
-  }, {
-    "id": 5,
-    "points": 2,
-    "question": "Najväčšia prípustná celková dĺžka súpravy motorového vozidla s jedným prívesom je"
-  }, {
-    "id": 6,
-    "points": 2,
-    "question": "Najväčšia prípustná celková dĺžka súpravy ťahača s návesom je"
-  }, {
-    "id": 7,
-    "points": 2,
-    "question": "Najväčšia prípustná dĺžka prípojného vozidla za osobný automobil je"
-  }, {
-    "id": 8,
-    "points": 2,
-    "question": "Najväčšia prípustná dĺžka prípojného vozidla za dvojkolesové motorové vozidlo"
-  }, {
-    "id": 9,
-    "points": 2,
-    "question": "Reklamné fólie a fólie proti slnečnému žiareniu a tónovanie skiel na vozidlách kategórie M1 a N1 možno použiť"
-  }, {
-    "id": 10,
-    "points": 2,
-    "question": "Na vozidle možno používať iba pneumatiky"
+    "points": 1,
+    "question": "Hĺbka hlavných drážok v stredovej časti povrchu dezénu pneumatiky, ktorý pokrýva približne tri štvrtiny šírky povrchu dezénu jazdnej plochy pneumatiky, nesmie byť menej ako",
+    "answers": [{
+      "option": "a",
+      "text": "u vozidla kategórie L1e 1,5 mm,",
+      "correct": false
+    }, {
+      "option": "b",
+      "text": "u všetkých kategórií vozidiel 1,6 mm,",
+      "correct": false
+    }, {
+      "option": "c",
+      "text": "u vozidla kategórie L1e 1,0 mm.",
+      "correct": true
+    }]
   }]
 }

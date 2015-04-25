@@ -21,7 +21,7 @@ angular.module('autoskola')
       });
 
       // fill questions from test with real data
-      // from the qustions
+      // from the questions
       $scope.test.questions.forEach(function(question) {
         if (question.type == 'law') {
           var q = LawService.getQuestion(question.questionId);

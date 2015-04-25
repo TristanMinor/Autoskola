@@ -324,6 +324,19 @@
       }, {
         "id": 30,
         "question": "Vaše vozidlo prejde cez križovatku ako",
+        "answers": [{
+          "option": "a",
+          "text": "prvé,",
+          "correct": false
+        }, {
+          "option": "b",
+          "text": "posledné,",
+          "correct": true
+        }, {
+          "option": "c",
+          "text": "druhé.",
+          "correct": false
+        }],
         "image": {
           "src": "img/situations/situation_nosigns_06.png"
         }
@@ -347,6 +360,19 @@
       }, {
         "id": 33,
         "question": "Ako prvé vojde do križovatky",
+        "answers": [{
+          "option": "a",
+          "text": "zelené vozidlo",
+          "correct": false
+        }, {
+          "option": "b",
+          "text": "modré vozidlo",
+          "correct": false
+        }, {
+          "option": "c",
+          "text": "červené vozidlo",
+          "correct": true
+        }],
         "image": {
           "src": "img/situations/situation_nosigns_07.png"
         }
@@ -407,6 +433,19 @@
       "questions": [{
         "id": 120,
         "question": "Ak má policajt pravú ruku predpaženú a ľavú upaženú, znamená to „Stoj!“ pre",
+        "answers": [{
+          "option": "a",
+          "text": "vodiča zeleného vozidla,",
+          "correct": false
+        }, {
+          "option": "b",
+          "text": "vodiča červeného a vodiča žltého vozidla,",
+          "correct": true
+        }, {
+          "option": "c",
+          "text": "chodcov prechádzajúcich za chrbtom policajta.",
+          "correct": false
+        }],
         "image": {
           "src": "img/situations/situation_controlled_01.png"
         }

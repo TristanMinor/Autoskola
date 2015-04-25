@@ -1,22 +1,21 @@
 angular.module('autoskola')
-  .controller('QuestionsLawQuestionController', function($scope, $http, $state, $ionicModal) {
+  .controller('QuestionsLawQuestionController', function($scope, $http, $state, $ionicModal, LawService) {
     $scope.data = [];
     $scope.theory = [];
 
 
-    // load json from file
-    $http.get('json/law.json').success(function(response) {
-      // put content of json file to data variable
-      var data = response.law;
-      var question = null;
-      // for each qstn in law data
-      data.forEach(function(qstn) {
-        if (qstn.id == $state.params.id) {
-          question = qstn;
-        }
-      });
-      $scope.question = question;
+    // put content of js file to data variable
+    var data = LawList.law;
+    var question = null;
+    // for each qstn in law data
+    data.forEach(function(qstn) {
+      if (qstn.id == $state.params.id) {
+        question = qstn;
+      }
     });
+
+    $scope.question = question;
+
 
     // filtering theory content by ids from question
     // load theory file

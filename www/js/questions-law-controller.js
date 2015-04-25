@@ -1,5 +1,5 @@
 angular.module('autoskola')
-  .controller('QuestionsLawController', function($scope, $http, LawService) {
+  .controller('QuestionsLawController', function($scope, LawService) {
 
     $scope.data = [];
     $scope.localData = {};

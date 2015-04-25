@@ -33,6 +33,7 @@ angular.module('autoskola')
     loadLocalStorage();
 
     return {
+
       get: function() {
         return {
           data: data,

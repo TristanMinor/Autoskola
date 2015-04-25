@@ -95,7 +95,7 @@
       }
     }, {
       "id": 9,
-      "name": "zúžená vozovka z oboch strán",
+      "name": "Zúžená vozovka z oboch strán",
       "points": 2,
       "image": {
         "src": "img/signs/A4a.svg",
@@ -103,28 +103,194 @@
       }
     }]
   }, {
-    "section": "Zákazové značky",
+    "section": "Značky upravujúce prednosť v jazde",
     "questions": [{
-      "id": 46,
-      "name": "Zákaz vjazdu všetkých vozidiel (v oboch smeroch)",
+      "id": 49,
+      "name": "Križovatka, kde nie je prednosť v jazde upravená značkami",
       "points": 2,
-      "question": "Táto dopravná značka platí:",
+      "question": "Táto dopravná značka upozorňuje na",
       "answers": [{
         "option": "a",
-        "text": "len pre traktory s prívesom,",
-        "correct": true
+        "text": "železničné priecestie bez závor,",
+        "correct": false
       }, {
         "option": "b",
-        "text": "aj pre jednonápravové kultivačné traktory, motorové dopravné vozíky, motorové ručné vozíky, samohybné poľnohospodárske a lesné stroje a pojazdné pracovné stroje,",
+        "text": "kríženie cesty s električkovou koľajou,",
         "correct": false
       }, {
         "option": "c",
-        "text": "len pre traktory; neplatí však pre samohybné poľnohospodárske a lesné stroje.",
+        "text": "križovatku, kde nie je prednosť v jazde upravená značkami.",
+        "correct": true
+      }],
+      "image": {
+        "src": "img/signs/P4.svg",
+        "imgType": "triangle"
+      }
+    }]
+  }, {
+    "section": "Zákazové značky",
+    "questions": [{
+      "id": 76,
+      "name": "Zákaz vjazdu vyznačených vozidiel",
+      "points": 2,
+      "question": "Táto dopravná značka zakazuje",
+      "answers": [{
+        "option": "a",
+        "text": "vjazd motorovým aj nemotorovým vozidlám,",
+        "correct": false
+      }, {
+        "option": "b",
+        "text": "vjazd vozidlám vyznačených druhov,",
+        "correct": false
+      }, {
+        "option": "c",
+        "text": "predchádzanie voziel vyznačených druhov.",
+        "correct": true
+      }],
+      "image": {
+        "src": "img/signs/B18.svg",
+        "imgType": "circle"
+      }
+    }]
+  }, {
+    "section": "Informatívne smerové značky",
+    "questions": [{
+      "id": 198,
+      "name": "Smerová tabuľa (s jedným cieľom)",
+      "points": 2,
+      "question": " Táto dopravná značka",
+      "answers": [{
+        "option": "a",
+        "text": "informuje o smere a vzdialenosi v kilometroch k vyznačenému cieľu (obci),",
+        "correct": true
+      }, {
+        "option": "b",
+        "text": "prikazuje odbočiť vľavo,",
+        "correct": false
+      }, {
+        "option": "c",
+        "text": "vyznačuje cestu s jednosmernou premávkou.",
         "correct": false
       }],
       "image": {
-        "src": "img/signs/B1.svg",
-        "imgType": "circle"
+        "src": "img/signs/IS-17b.jpg",
+        "imgType": "rectangle"
+      }
+    }, {
+      "id": 206,
+      "name": "Smerová tabuľa ku komunálnemu cieľu",
+      "points": 2,
+      "question": "Táto dopravná značka znamená",
+      "answers": [{
+        "option": "a",
+        "text": "Smerová tabuľa pre cyklistov (s jedným cieľom),",
+        "correct": false
+      }, {
+        "option": "b",
+        "text": "Smerová tabuľa ku kutúrnemu alebo turistickému cieľu,",
+        "correct": true
+      }, {
+        "option": "c",
+        "text": "Smerová tabuľa k miestnemu cieľu.",
+        "correct": false
+      }],
+      "image": {
+        "src": "img/signs/IS-23b.jpg",
+        "imgType": "rectangle"
+      }
+    }, {
+      "id": 209,
+      "name": "Iný názov",
+      "points": 2,
+      "question": "Táto dopravná značka",
+      "answers": [{
+        "option": "a",
+        "text": "informuje o názve rieky, pohoria, prírodnej rezervácie, kultúrnej a historickej pamiatky, časti obce, územia a podobne,",
+        "correct": true
+      }, {
+        "option": "b",
+        "text": "je návesťou pred križovatkou,",
+        "correct": false
+      }, {
+        "option": "c",
+        "text": "je smerovou tabuľou s diaľkovým cielom.",
+        "correct": false
+      }],
+      "image": {
+        "src": "img/signs/IS-35.jpg",
+        "imgType": "rectangle"
+      }
+    }, {
+      "id": 211,
+      "name": "Koniec obce",
+      "points": 2,
+      "question": "Táto dopravná značka znamená",
+      "answers": [{
+        "option": "a",
+        "text": "Koniec viacerých zákazov,",
+        "correct": false
+      }, {
+        "option": "b",
+        "text": "Koniec obce,",
+        "correct": true
+      }, {
+        "option": "c",
+        "text": "Koniec obytnej zóny.",
+        "correct": false
+      }],
+      "image": {
+        "src": "img/signs/IS-35.jpg",
+        "imgType": "rectangle"
+      }
+    }]
+  }, {
+    "section": "Dodatkové tabuľky",
+    "questions": [{
+      "id": 238,
+      "name": "Úsek platnosti",
+      "points": 2,
+      "question": "Táto dopravná značka znamená",
+      "answers": [{
+        "option": "a",
+        "text": "vzdialenosť k miestu, od ktorého začína platiť značka, pod ktorou je tabuľka umiestnená,",
+        "correct": false
+      }, {
+        "option": "b",
+        "text": "smer obchádzky,",
+        "correct": false
+      }, {
+        "option": "c",
+        "text": "úsek, pre ktorý platí značka, pod ktorou je tabuľka umiestnená.",
+        "correct": true
+      }],
+      "image": {
+        "src": "img/signs/E5.svg",
+        "imgType": "rectangle"
+      }
+    }]
+  }, {
+    "section": "Dopravné zariadenia",
+    "questions": [{
+      "id": 296,
+      "name": "Úsek platnosti",
+      "points": 2,
+      "question": "Takéto označenie sa musí použiť na",
+      "answers": [{
+        "option": "a",
+        "text": "autobuse prepravujúcom deti,",
+        "correct": true
+      }, {
+        "option": "b",
+        "text": "vyznačenie úseku cesty so zýšeným pohybom detí (v blízkosti školských a predškolských zariadení, detských ihrísk a podobne),",
+        "correct": false
+      }, {
+        "option": "c",
+        "text": "osobnom automobile prepravujúcom deti.",
+        "correct": false
+      }],
+      "image": {
+        "src": "img/signs/o3.png",
+        "imgType": "rectangle"
       }
     }]
   }]

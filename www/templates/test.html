@@ -15,7 +15,7 @@
       <div class="test-progress-bar" ng-style="{'width': (view.question / questions.length * 100) + '%'}"></div>
     </div>
 
-    Odpvoede:
+    Odpovede:
     {{ answers }}
 
     <button ng-click="kokotko()">Chod na druhy</button>
@@ -32,7 +32,7 @@
             <label ng-repeat="item in question.answers" class="item item-radio">
               <input type="radio" name="group" ng-click="answerSelected(item)">
               <div class="item-content question-answer" ng-class="{'answer-selected': selectedAnswer.option == item.option, 'answer-correct': selectedAnswer.option && item.isCorrect}">
-                <span class="answer-option">{{ item.option }}</span>
+                <span class="answer-option">{{ item.option }})</span>
                 {{ item.text }}
               </div>
             </label>
@@ -41,21 +41,20 @@
       </ion-slide>
     </ion-slide-box>
 =======
-    <div ng-if="params.immediately == 'true'">
-      <button class="button button-footer button-stable " ng-click="immediatelyResolve()">Vyhodnotit</button>
-    </div>
-    <div ng-if="params.immediately == 'false'">
-      <button class="button button-stable " ng-click="explain()">...</button>
-      <button class="button button-stable " ng-click="nextQuestion()" ng-disabled="!selectedAnswer.option">Next</button>
-    </div>
+
   </ion-content>
 >>>>>>> Stashed changes
 
   </ion-content>
 
   <div class="button-footer">
-    <button class="button button-stable " ng-click="openHelp()">...</button>
-    <button class="button button-stable " ng-click="nextQuestion()" ng-disabled="!selectedAnswer.option">Next</button>
+    <div ng-if="params.immediately == 'true'">
+      <button class="button button-footer button-stable " ng-click="immediatelyResolve()">Vyhodnotiť test</button>
+    </div>
+    <div ng-if="params.immediately == 'false'">
+      <button class="button button-stable " ng-click="explain()">...</button>
+      <button class="button button-stable " ng-click="nextQuestion()" ng-disabled="!selectedAnswer.option">Next</button>
+    </div>
   </div>
   <!--<button class="button button-footer button-stable icon icon-explain" ng-click="immediatelyResolve()">Vyhodnotit</button>-->
   <!--<div ng-if="params.immediately == 'true'">-->

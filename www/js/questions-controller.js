@@ -1,6 +1,5 @@
 angular.module('autoskola')
   .controller('QuestionsController', function($scope, $state, $ionicModal) {
-
     $scope.tabName = 'tab-law';
 
     $scope.setTab = function(tab) {
@@ -18,9 +17,12 @@ angular.module('autoskola')
       // Use the scope for the scope of the modal to keep it simple
       scope: $scope,
       // The animation
-      animation: 'slide-in-up'
-
+      animation: 'slide-in-up',
     });
+
+    $scope.runTest = function() {
+      $scope.closeTestModal();
+    }
 
     $scope.openTestModal = function() {
       $scope.modal.show();

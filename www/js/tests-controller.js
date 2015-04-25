@@ -14,7 +14,8 @@ angular.module('autoskola')
       $scope.modal = $ionicModal;
     }, {
       scope: $scope,
-      animation: 'slide-in-up'
+      animation: 'slide-in-up',
+      basicTest: false
     });
 
     $scope.runTest = function() {
@@ -27,7 +28,6 @@ angular.module('autoskola')
 
     $scope.openTestModal = function(test) {
       $scope.selectedTest = test;
-
       $scope.modal.show();
     };
 
