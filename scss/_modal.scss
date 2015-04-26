@@ -28,9 +28,14 @@
         }
         .scroll-content {
           @include border-bottom-radius($radius-item);
-          // background-color: $light;
+          background-color: $light;
         }
       }
     }
   }
+}
+
+.modal-image {
+  padding-top: $padding-medium;
+  padding-bottom: $padding-medium;
 }

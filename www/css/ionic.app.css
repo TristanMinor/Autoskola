@@ -8046,7 +8046,12 @@ ul li {
       -webkit-border-bottom-right-radius: 6px;
       border-bottom-right-radius: 6px;
       -webkit-border-bottom-left-radius: 6px;
-      border-bottom-left-radius: 6px; } }
+      border-bottom-left-radius: 6px;
+      background-color: #fff; } }
+
+.modal-image {
+  padding-top: 36px;
+  padding-bottom: 36px; }
 
 .test-progress {
   width: 100%;

@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Chodiaca encyklopédia",
     "description": "Nauč sa celý zákon",
-    "image": "img/rewards/unlocked.png"
+    "image": "img/rewards/chodiacaEncyklopedia.png"
   }, {
     "id": 2,
     "name": "Technik",
@@ -63,12 +63,12 @@
     "id": 13,
     "name": "Značné vedomosti",
     "description": "Nauč sa všetky dopravné značky",
-    "image": "img/rewards/unlocked.png"
+    "image": "img/rewards/znacneVedomosti.png"
   }, {
     "id": 14,
     "name": "Šiesty zmysel",
     "description": "Nauč sa všetky dopravné situácie",
-    "image": "img/rewards/unlocked.png"
+    "image": "img/rewards/siestyZmysel.png"
   }, {
     "id": 15,
     "name": "Na prvý pokus",

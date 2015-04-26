@@ -106,3 +106,7 @@
 .icon-overview:before {
     content: "\e614";
 }
+
+.icon-overview-outline2:before {
+    content: "\e615";
+}

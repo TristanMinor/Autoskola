@@ -1,0 +1,10 @@
+<ion-modal-view>
+  <ion-header-bar class="bar bar-light">
+    <button class="button button-icon icon icon-close" ng-click="closeRewardModal()"></button>
+  </ion-header-bar>
+  <ion-content class="center">
+    <img src="{{ selectedReward.image }}" alt="" class="modal-image">
+    <h2>{{ selectedReward.name }}</h2>
+    <p>{{ selectedReward.description }}</p>
+  </ion-content>
+</ion-modal-view>
