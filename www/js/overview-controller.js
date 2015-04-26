@@ -3,6 +3,11 @@ angular.module('autoskola')
 
     $scope.rewards = [];
     $scope.localData = {};
+    $scope.tabName = 'tab-progres';
+
+    $scope.setTab = function(tab) {
+    	$scope.tabName = tab;
+    };
 
     OverviewService.get().then(function(response) {
       $scope.rewards = response.rewards;
@@ -12,5 +17,5 @@ angular.module('autoskola')
     $scope.unlockReward = function(reward) {
       OverviewService.unlockReward(reward);
     }
-    
+
   });

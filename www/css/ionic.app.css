@@ -7632,6 +7632,18 @@ p {
   p a.activated, p a.active {
     border-bottom: 0.08em solid #4BA7E5; }
 
+p.small {
+  font-size: 16px; }
+
+p.subtle {
+  color: #979BAA; }
+
+h1 {
+  font-family: "preto_serif_ot_std_regular", serif; }
+
+h2 {
+  font-family: "preto_serif_ot_std_regular", serif; }
+
 h3 {
   font-family: "preto_serif_ot_std_bold", serif;
   font-size: 20px;
@@ -7679,10 +7691,13 @@ ul li {
   font-family: "preto_serif_ot_std_bold", serif;
   margin-bottom: 0; }
 .item-content h2 {
-  font-family: "preto_serif_ot_std_bold", serif;
+  font-family: "HelveticaNeue", "Helvetica", sans-serif;
+  font-weight: 500;
   white-space: normal;
   font-size: 24px;
   line-height: 1.4; }
+.item-content p {
+  font-family: "HelveticaNeue", "Helvetica", sans-serif; }
 
 .button {
   border: none; }
@@ -7713,7 +7728,8 @@ ul li {
   height: 56px; }
   .bar .title {
     line-height: 3em;
-    height: 56px; }
+    height: 56px;
+    font-family: "HelveticaNeue", "Helvetica", sans-serif; }
   .bar .title-nav a {
     color: #979BAA;
     padding: 16px 10px; }
@@ -7769,7 +7785,7 @@ ul li {
   margin: 0 auto;
   padding: 18px 0; }
   .scope-bar li {
-    font-family: "HelveticaNeue", sans-serif, sans-serif;
+    font-family: "HelveticaNeue", "Helvetica", sans-serif, sans-serif;
     display: table-cell;
     width: 110px;
     overflow: hidden; }
@@ -7865,12 +7881,14 @@ ul li {
   white-space: normal;
   overflow: hidden; }
 
-.list-uneditable .item-divider {
-  padding-left: 72px;
-  padding-right: 72px; }
-.list-uneditable .item-content {
-  background-color: #EAECF5;
-  padding: 20px 72px 0px 72px; }
+.list-uneditable {
+  margin-bottom: 72px; }
+  .list-uneditable .item-divider {
+    padding-left: 72px;
+    padding-right: 72px; }
+  .list-uneditable .item-content {
+    background-color: #EAECF5;
+    padding: 20px 72px 0px 72px; }
 
 .item-uneditable.item-complex {
   border: none; }
@@ -7934,6 +7952,9 @@ ul li {
 
 .locked h2, .locked p {
   color: #979BAA; }
+
+.rewards {
+  margin-top: 36px; }
 
 .chapter-text {
   padding-left: 72px;
@@ -8029,11 +8050,13 @@ ul li {
 
 .test-progress {
   width: 100%;
-  height: 20px;
-  background-color: grey; }
+  height: 12px;
+  background-color: #EAECF5; }
   .test-progress .test-progress-bar {
-    height: 20px;
-    background-color: red; }
+    height: 12px;
+    background-color: #4BA7E5;
+    -webkit-transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 250ms;
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 250ms; }
 
 ion-content {
   background-color: #EAECF5; }
@@ -8044,3 +8067,6 @@ ion-content {
 
 .item .item-content.activated {
   background-color: #dce0ee; }
+
+.appicon {
+  width: 90px; }

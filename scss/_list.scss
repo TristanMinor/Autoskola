@@ -43,6 +43,7 @@
 }
 
 .list-uneditable {
+  margin-bottom: $padding-large;
   .item-divider {
     padding-left: $padding-large;
     padding-right: $padding-large;
@@ -147,4 +148,9 @@
   h2, p {
     color: $link-secondary;
   }
+}
+
+.rewards {
+  margin-top: $padding-medium;
+
 }

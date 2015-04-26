@@ -57,6 +57,22 @@ p {
   }
 }
 
+p.small {
+  font-size: 16px;
+}
+
+p.subtle {
+  color: $link-secondary;
+}
+
+h1 {
+  font-family: $serif-regular;
+}
+
+h2 {
+  font-family: $serif-regular;
+}
+
 h3 {
   font-family: $serif-bold;
   font-size: 20px;
@@ -124,9 +140,13 @@ ul {
       margin-bottom: 0;
     }
     h2 {
-      font-family: $serif-bold;
+      font-family: $sans-serif;
+      font-weight: 500;
       white-space: normal;
       font-size: 24px;
       line-height: 1.4;
+    }
+    p {
+      font-family: $sans-serif;
     }
 }

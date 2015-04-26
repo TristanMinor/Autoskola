@@ -1,13 +1,32 @@
 <ion-view view-title="Prehľad" hide-nav-bar="true">
-  <ion-content>
-    <ion-list type="list list-uneditable">
-      <ion-item ng-repeat="reward in rewards" href="" class="item item-thumbnail-left item-uneditable" ng-click="unlockReward(reward)" ng-class="{'unlocked': localData[reward.id].unlocked, 'locked': !localData[reward.id].unlocked}">
-        <img src="{{ reward.image }}" alt="">
-        <div class="item-inner">
-          <h2>{{ reward.name }}</h2>
-          <p>{{ reward.description }}</p>
-        </div>
-      </ion-item>
-    </ion-list>
+
+  <div class="bar bar-stable bar-header disable-user-behavior bar-large">
+    <div class="title title-nav">
+      <a ng-click="setTab('tab-progres')" ng-class="{active: tabName == 'tab-progres'}">Progres</a>
+      <a ng-click="setTab('tab-rewards')" ng-class="{active: tabName == 'tab-rewards'}">Trofeje</a>
+    </div>
+  </div>
+
+  <ion-content class="has-header">
+
+    <div ng-switch="tabName">
+
+      <div ng-switch-when="tab-progres">
+      </div>
+
+      <div ng-switch-when="tab-rewards">
+        <ion-list type="list list-uneditable rewards">
+          <ion-item ng-repeat="reward in rewards" href="" class="item item-thumbnail-left item-uneditable" ng-click="unlockReward(reward)" ng-class="{'unlocked': localData[reward.id].unlocked, 'locked': !localData[reward.id].unlocked}">
+            <img src="{{ reward.image }}" alt="">
+            <div class="item-inner">
+              <h2>{{ reward.name }}</h2>
+              <p>{{ reward.description }}</p>
+            </div>
+          </ion-item>
+        </ion-list>
+      </div>
+
+    </div>
+
   </ion-content>
 </ion-view>

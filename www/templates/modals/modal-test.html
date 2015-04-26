@@ -5,7 +5,7 @@
   </ion-header-bar>
   <ion-content class="center">
 
-    <div ng-if="params.testType == 'basic'">
+    <!-- <div ng-if="params.testType == 'basic'"> -->
       <div class="list">
         <label class="item item-input item-select">
           <div class="input-label">
@@ -19,11 +19,11 @@
           </select>
         </label>
       </div>
-    </div>
+    <!-- </div> -->
 
-    <div ng-if="params.basicTest == 'false'">
+    <!-- <div ng-if="params.basicTest == 'false'"> -->
       <ion-toggle ng-model="testModal.resolveImmediately" toggle-class="toggle-calm">Vyhodnotiť odpovede na konci</ion-toggle>
-    </div>
+    <!-- </div> -->
 
     <button class="button button-positive" ng-click="runTest()">Spustiť test</button>
 
