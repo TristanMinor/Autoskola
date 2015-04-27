@@ -51,6 +51,13 @@ angular.module('autoskola', ['ionic'])
         }
       })
 
+      .state('questions-hidden', {
+        url: '/questions/hidden',
+        templateUrl: 'templates/questions-hidden.html',
+        controller: 'QuestionsHiddenController',
+        
+      })
+
       .state('question-law', {
         url: '/questions/law/:id',
         templateUrl: 'templates/question.html',
@@ -152,3 +159,5 @@ angular.module('autoskola', ['ionic'])
       }
     }
   })
+
+  var basicTest = true;

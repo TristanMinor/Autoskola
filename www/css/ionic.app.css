@@ -7691,19 +7691,27 @@ ul li {
   font-family: "preto_serif_ot_std_bold", serif;
   margin-bottom: 0; }
 .item-content h2 {
-  font-family: "HelveticaNeue", "Helvetica", sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
   font-weight: 500;
   white-space: normal;
   font-size: 24px;
   line-height: 1.4; }
 .item-content p {
-  font-family: "HelveticaNeue", "Helvetica", sans-serif; }
+  font-family: "Helvetica Neue", "Helvetica", sans-serif; }
 
 .button {
-  border: none; }
+  border: none;
+  min-height: 60px;
+  font-size: 17px;
+  padding: 0 24px;
+  border-radius: 6px;
+  font-weight: 500; }
+
+.button.button-stable {
+  background-color: #dce0ee; }
 
 .button.button-stable.activated {
-  background-color: #dce0ee;
+  background-color: #d5d9eb;
   border: none;
   box-shadow: none; }
 
@@ -7729,7 +7737,7 @@ ul li {
   .bar .title {
     line-height: 3em;
     height: 56px;
-    font-family: "HelveticaNeue", "Helvetica", sans-serif; }
+    font-family: "Helvetica Neue", "Helvetica", sans-serif; }
   .bar .title-nav a {
     color: #979BAA;
     padding: 16px 10px; }
@@ -7785,7 +7793,7 @@ ul li {
   margin: 0 auto;
   padding: 18px 0; }
   .scope-bar li {
-    font-family: "HelveticaNeue", "Helvetica", sans-serif, sans-serif;
+    font-family: "Helvetica Neue", "Helvetica", sans-serif, sans-serif;
     display: table-cell;
     width: 110px;
     overflow: hidden; }
@@ -7955,6 +7963,10 @@ ul li {
 
 .rewards {
   margin-top: 36px; }
+
+.item-inset {
+  margin-left: 72px;
+  margin-right: 72px; }
 
 .chapter-text {
   padding-left: 72px;

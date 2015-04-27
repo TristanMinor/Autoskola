@@ -1,9 +1,18 @@
 .button {
   border: none;
+  min-height: 60px;
+  font-size: 17px;
+  padding: 0 24px;
+  border-radius: $radius-item;
+  font-weight: 500;
+}
+
+.button.button-stable {
+  background-color: darken($stable,4);
 }
 
 .button.button-stable.activated {
-  background-color: darken($stable,4);
+  background-color: darken($stable,6);
   border: none;
   box-shadow: none;
 }

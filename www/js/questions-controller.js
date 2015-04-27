@@ -1,6 +1,8 @@
 angular.module('autoskola')
   .controller('QuestionsController', function($scope, $state, $ionicModal) {
+
     $scope.tabName = 'tab-law';
+    $scope.selectedHiddenQuestionsType = {};
 
     $scope.setTab = function(tab) {
     	$scope.tabName = tab;
@@ -9,6 +11,14 @@ angular.module('autoskola')
     $scope.goToSearch = function() {
       $state.go('search');
     };
+
+    $scope.goToHiddenQuestions = function(type) {
+      $scope.selectedHiddenQuestionsType = type;
+      console.log($scope.selectedHiddenQuestionsType);
+      $state.go('questions-hidden', {
+        hiddenQuestionsType: $scope.selectedHiddenQuestionsType
+      });
+    }
 
     // Load the modal from the given template URL
     $ionicModal.fromTemplateUrl('templates/modals/modal-test.html', function($ionicModal) {
@@ -26,7 +36,10 @@ angular.module('autoskola')
 
     $scope.openTestModal = function() {
       $scope.modal.show();
+      basicTest = true;
+      console.log(basicTest);
     };
+
     $scope.closeTestModal = function() {
       $scope.modal.hide();
     };

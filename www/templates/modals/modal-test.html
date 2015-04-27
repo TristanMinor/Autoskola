@@ -5,25 +5,21 @@
   </ion-header-bar>
   <ion-content class="center">
 
-    <!-- <div ng-if="params.testType == 'basic'"> -->
-      <div class="list">
-        <label class="item item-input item-select">
-          <div class="input-label">
-            Typ testu
-          </div>
-          <select>
-            <option selected>Zákon</option>
-            <option>Vyhláška</option>
-            <option>Zákazové značky</option>
-            <option>Značky upravujúce prednosť</option>
-          </select>
-        </label>
-      </div>
-    <!-- </div> -->
+    <div class="list" ng-if="basicTest">
+      <label class="item item-input item-select">
+        <div class="input-label">
+          Typ testu
+        </div>
+        <select>
+          <option selected>Zákon</option>
+          <option>Vyhláška</option>
+          <option>Zákazové značky</option>
+          <option>Značky upravujúce prednosť</option>
+        </select>
+      </label>
+    </div>
 
-    <!-- <div ng-if="params.basicTest == 'false'"> -->
-      <ion-toggle ng-model="testModal.resolveImmediately" toggle-class="toggle-calm">Vyhodnotiť odpovede na konci</ion-toggle>
-    <!-- </div> -->
+    <ion-toggle ng-if="!basicTest" ng-model="testModal.resolveImmediately" toggle-class="toggle-calm">Vyhodnotiť odpovede na konci</ion-toggle>
 
     <button class="button button-positive" ng-click="runTest()">Spustiť test</button>
 

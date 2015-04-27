@@ -33,12 +33,15 @@
             </div>
           </ion-item>
         </ion-list>
+        <div class="item-inset">
+          <button class="button button-block button-stable" ng-click="goToHiddenQuestions('law')">Ukáž naučené otázky</button>
+        </div>
       </div>
 
       <!-- Notice tab -->
       <div ng-switch-when="tab-notice" ng-controller="QuestionsNoticeController">
         <ion-list type="list-inset">
-          <ion-item ng-if="! localData[item.id].hidden" ng-repeat="item in data" href="#/questions/notice/{{item.id}}" class="item item-icon-right item-hideable">
+          <ion-item ng-if="!localData[item.id].hidden" ng-repeat="item in data" href="#/questions/notice/{{item.id}}" class="item item-icon-right item-hideable">
             <div class="item-inner">
               <b>{{ item.id }}.</b> {{ item.question }}
               <i ng-if="localData[item.id].pinned" class="icon icon-pin positive"></i>
@@ -51,6 +54,9 @@
             </div>
           </ion-item>
         </ion-list>
+        <div class="item-inset">
+          <button class="button button-block button-stable" ng-click="goToHiddenQuestions('notice')">Ukáž naučené otázky</button>
+        </div>
       </div>
 
       <!-- Signs tab -->
@@ -80,6 +86,9 @@
 
           </div>
         </ion-list>
+        <div class="item-inset">
+          <button class="button button-block button-stable" ng-click="goToHiddenQuestions('signs')">Ukáž naučené otázky</button>
+        </div>
       </div>
 
       <!-- Situations tab -->
@@ -111,6 +120,9 @@
 
           </div>
         </ion-list>
+        <div class="item-inset">
+          <button class="button button-block button-stable" ng-click="goToHiddenQuestions('situations')">Ukáž naučené otázky</button>
+        </div>
       </div>
 
     </div>

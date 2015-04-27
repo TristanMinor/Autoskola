@@ -1,13 +1,13 @@
 angular.module('autoskola')
   .controller('TestsController', function($scope, $state, $http, $ionicModal) {
+
     $scope.tests = [];
+    $scope.selectedTest = {};
+    $scope.testModal = {};
 
     $http.get('json/tests.json').success(function(response) {
       $scope.tests = response.tests;
     });
-
-    $scope.selectedTest = {};
-    $scope.testModal = {};
 
     // Load the modal from the given template URL
     $ionicModal.fromTemplateUrl('templates/modals/modal-test.html', function($ionicModal) {
@@ -15,7 +15,6 @@ angular.module('autoskola')
     }, {
       scope: $scope,
       animation: 'slide-in-up',
-      basicTest: false
     });
 
     $scope.runTest = function() {
@@ -29,6 +28,8 @@ angular.module('autoskola')
     $scope.openTestModal = function(test) {
       $scope.selectedTest = test;
       $scope.modal.show();
+      basicTest = false;
+      console.log(basicTest);
     };
 
     $scope.closeTestModal = function() {
