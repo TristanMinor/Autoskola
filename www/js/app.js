@@ -159,5 +159,3 @@ angular.module('autoskola', ['ionic'])
     }
   }
 })
-
-var basicTest = true;

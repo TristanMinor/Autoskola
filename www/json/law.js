@@ -48,6 +48,8 @@ var LawList = {
       "correct": false
     }],
     "explaining": [{
+      "chapter": 3,
+      "content": 19
     }]
   }, {
     "id": 4,
@@ -64,6 +66,8 @@ var LawList = {
       "correct": false
     }],
     "explaining": [{
+      "chapter": 10,
+      "content": 13
     }]
   }, {
     "id": 5,
@@ -80,6 +84,8 @@ var LawList = {
       "correct": false
     }],
     "explaining": [{
+      "chapter": 13,
+      "content": 6
     }]
   }, {
     "id": 6,
@@ -96,6 +102,8 @@ var LawList = {
       "correct": true
     }],
     "explaining": [{
+      "chapter": 14,
+      "content": 1
     }]
   }, {
     "id": 7,

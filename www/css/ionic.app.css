@@ -7715,6 +7715,11 @@ ul li {
   border: none;
   box-shadow: none; }
 
+.button.button-light.activated {
+  background-color: #fff;
+  border: none;
+  box-shadow: none; }
+
 .button-footer {
   position: fixed;
   bottom: 0;
@@ -8033,14 +8038,18 @@ ul li {
   background-color: #506684; }
 
 .modal-fullscreen {
-  top: 0;
+  top: inherit;
   bottom: 0;
   left: 0;
   right: 0;
   width: 100%; }
   .modal-fullscreen .scroll-content {
+    background-color: #EAECF5;
+    height: auto;
+    position: relative;
+    display: block;
     padding-top: 72px;
-    background-color: #EAECF5; }
+    padding-bottom: 72px; }
 
 @media (min-width: 680px) {
   .active .modal-backdrop-bg {

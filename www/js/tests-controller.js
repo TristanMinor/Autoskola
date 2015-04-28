@@ -12,6 +12,8 @@ angular.module('autoskola')
     // Load the modal from the given template URL
     $ionicModal.fromTemplateUrl('templates/modals/modal-test.html', function($ionicModal) {
       $scope.modal = $ionicModal;
+      $scope.basicTest = false;
+      console.log($scope.basicTest);
     }, {
       scope: $scope,
       animation: 'slide-in-up',
@@ -28,8 +30,6 @@ angular.module('autoskola')
     $scope.openTestModal = function(test) {
       $scope.selectedTest = test;
       $scope.modal.show();
-      basicTest = false;
-      console.log(basicTest);
     };
 
     $scope.closeTestModal = function() {
