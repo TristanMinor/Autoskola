@@ -13,7 +13,7 @@
     </ion-nav-buttons>
   </ion-nav-bar>
 
-  <ion-content class="item-opened situation has-footer">
+  <ion-content class="item-opened situation has-footer" on-swipe-left="goToNextQuestion()" on-swipe-right="goToPreviousQuestion()">
     <div class="question-image">
       <img src="{{ question.image.src}}" alt="">
     </div>

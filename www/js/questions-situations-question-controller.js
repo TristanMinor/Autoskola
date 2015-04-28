@@ -57,4 +57,18 @@ angular.module('autoskola')
       $scope.modal.remove();
     });
 
+    $scope.goToNextQuestion = function() {
+      $state.go('search', {
+        animation: 'slide-in-left'
+      });
+      console.log("swiped left");
+    };
+
+    $scope.goToPreviousQuestion = function() {
+      $state.go('tabs.questions', {
+        animation: 'slide-in-right'
+      });
+      console.log("swiped right");
+    };
+
   });
