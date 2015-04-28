@@ -10,15 +10,12 @@
         "id": 1,
         "question": "Tam, kde sa dva jazdné pruhy zbiehajú do jedného pruhu tak, že nie je zrejmé, ktorý z nich je priebežný,",
         "answers": [{
-          "option": "a",
           "text": "vodič zeleného vozidla má prednosť v jazde pred vodičom červeného vozidla,",
           "correct": false
         }, {
-          "option": "b",
           "text": "vodič zeleného vozidla jazdiaci v ľavom jazdnom pruhu nesmie ohroziť vodiča červeného vozidla v pravom jazdnom pruhu,",
           "correct": true
         }, {
-          "option": "c",
           "text": "vodič zeleného vozidla musí dať prednosť v jazde vodičovi červeného vozidla, pretože dáva znamenie o zmene smeru jazdy vľavo.",
           "correct": false
         }],
@@ -325,15 +322,12 @@
         "id": 30,
         "question": "Vaše vozidlo prejde cez križovatku ako",
         "answers": [{
-          "option": "a",
           "text": "prvé,",
           "correct": false
         }, {
-          "option": "b",
           "text": "posledné,",
           "correct": true
         }, {
-          "option": "c",
           "text": "druhé.",
           "correct": false
         }],
@@ -361,15 +355,12 @@
         "id": 33,
         "question": "Ako prvé vojde do križovatky",
         "answers": [{
-          "option": "a",
           "text": "zelené vozidlo",
           "correct": false
         }, {
-          "option": "b",
           "text": "modré vozidlo",
           "correct": false
         }, {
-          "option": "c",
           "text": "červené vozidlo",
           "correct": true
         }],
@@ -434,15 +425,12 @@
         "id": 120,
         "question": "Ak má policajt pravú ruku predpaženú a ľavú upaženú, znamená to „Stoj!“ pre",
         "answers": [{
-          "option": "a",
           "text": "vodiča zeleného vozidla,",
           "correct": false
         }, {
-          "option": "b",
           "text": "vodiča červeného a vodiča žltého vozidla,",
           "correct": true
         }, {
-          "option": "c",
           "text": "chodcov prechádzajúcich za chrbtom policajta.",
           "correct": false
         }],

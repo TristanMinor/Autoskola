@@ -11,15 +11,12 @@
       "content":6
     }],
     "answers": [{
-      "option": "a",
       "text": "motorové vozidlo na dopravu osôb, ktoré má okrem vodiča viac ako osem miest na sedenie,",
       "correct": true
     }, {
-      "option": "b",
       "text": "motorové a nemotorové vozidlo, ktoré má okrem miesta vodiča viac ako tri miesta na sedenie",
       "correct": false
     }, {
-      "option": "c",
       "text": "každé vozidlo určené na prepravu viac ako štyroch osôb.",
       "correct": false
     }]
@@ -28,15 +25,12 @@
     "points": 2,
     "question": "Dať prednosť v jazde sa rozumie povinnosť",
     "answers": [{
-      "option": "a",
       "text": "motorové vozidlo na dopravu osôb, ktoré má okrem vodiča viac ako osem miest na sedenie,",
       "correct": true
     }, {
-      "option": "b",
       "text": "motorové a nemotorové vozidlo, ktoré má okrem miesta vodiča viac ako tri miesta na sedenie",
       "correct": false
     }, {
-      "option": "c",
       "text": "každé vozidlo určené na prepravu viac ako štyroch osôb.",
       "correct": false
     }],
@@ -49,15 +43,12 @@
     "points": 2,
     "question": "Diaľnicou sa nerozumie",
     "answers": [{
-      "option": "a",
       "text": "motorové vozidlo na dopravu osôb, ktoré má okrem vodiča viac ako osem miest na sedenie,",
       "correct": true
     }, {
-      "option": "b",
       "text": "motorové a nemotorové vozidlo, ktoré má okrem miesta vodiča viac ako tri miesta na sedenie",
       "correct": false
     }, {
-      "option": "c",
       "text": "každé vozidlo určené na prepravu viac ako štyroch osôb.",
       "correct": false
     }],

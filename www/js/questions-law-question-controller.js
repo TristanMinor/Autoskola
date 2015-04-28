@@ -1,8 +1,12 @@
 angular.module('autoskola')
   .controller('QuestionsLawQuestionController', function($scope, $http, $state, $ionicModal, LawService) {
+
     $scope.data = [];
     $scope.theory = [];
+    $scope.localData = {};
+    $scope.optionsModel = ["a","b","c"];
 
+    $scope.localData = LawService.get().localData;
 
     // put content of js file to data variable
     var data = LawList.law;
@@ -48,6 +52,10 @@ angular.module('autoskola')
         // console.log($scope.explainings);
       });
     });
+
+    $scope.pinQuestion = function(item) {
+      LawService.pinQuestion(item);
+    }
 
     // Load the modal from the given template URL
     $ionicModal.fromTemplateUrl('templates/modals/modal-explaining.html', function($ionicModal) {

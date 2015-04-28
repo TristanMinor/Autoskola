@@ -1,6 +1,14 @@
 angular.module('autoskola')
-  .controller('QuestionsNoticeQuestionController', function($scope, $http, $state, $ionicModal) {
+  .controller('QuestionsNoticeQuestionController', function($scope, $http, $state, $ionicModal, NoticeService) {
+
     $scope.data = [];
+    $scope.localData = {};
+    $scope.optionsModel = ["a","b","c"];
+
+    NoticeService.get().then(function(response) {
+      $scope.data = response.data;
+      $scope.localData = response.localData;
+    });
 
     // load json from file
     $http.get('json/notice.json').success(function(response) {
@@ -19,6 +27,10 @@ angular.module('autoskola')
       $scope.question = question;
 
     });
+
+    $scope.pinQuestion = function(item) {
+      NoticeService.pinQuestion(item);
+    }
 
     // Load the modal from the given template URL
     $ionicModal.fromTemplateUrl('templates/modals/modal-explaining.html', function($ionicModal) {

@@ -1,6 +1,14 @@
 angular.module('autoskola')
-  .controller('QuestionsSituationsQuestionController', function($scope, $http, $state, $ionicModal) {
+  .controller('QuestionsSituationsQuestionController', function($scope, $http, $state, $ionicModal, SituationsService) {
+
     $scope.data = [];
+    $scope.localData = {};
+    $scope.optionsModel = ["a","b","c"];
+
+    SituationsService.get().then(function(response) {
+      $scope.data = response.data;
+      $scope.localData = response.localData;
+    });
 
     // load json from file
     $http.get('json/situations.json').success(function(response) {
@@ -25,6 +33,10 @@ angular.module('autoskola')
       $scope.question = question;
 
     });
+
+    $scope.pinQuestion = function(item) {
+      SituationsService.pinQuestion(item);
+    }
 
     $scope.optionsModel = ["a","b","c"];
 

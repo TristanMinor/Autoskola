@@ -7,15 +7,12 @@
       "points": 2,
       "question": "Táto dopravná značka znamená:",
       "answers": [{
-        "option": "a",
         "text": "Zákaz odbočovania vpravo,",
         "correct": false
       }, {
-        "option": "b",
         "text": "Zákruta vpravo,",
         "correct": true
       }, {
-        "option": "c",
         "text": "Nebezpečné stúpanie.",
         "correct": false
       }],
@@ -29,15 +26,12 @@
       "points": 2,
       "question": "Táto dopravná značka znamená:",
       "answers": [{
-        "option": "a",
         "text": "Zákruta vľavo,",
         "correct": true
       }, {
-        "option": "b",
         "text": "Nebezpečné stúpanie,",
         "correct": false
       }, {
-        "option": "c",
         "text": "Zákaz odboćovania vľavo,",
         "correct": false
       }],
@@ -110,15 +104,12 @@
       "points": 2,
       "question": "Táto dopravná značka upozorňuje na",
       "answers": [{
-        "option": "a",
         "text": "železničné priecestie bez závor,",
         "correct": false
       }, {
-        "option": "b",
         "text": "kríženie cesty s električkovou koľajou,",
         "correct": false
       }, {
-        "option": "c",
         "text": "križovatku, kde nie je prednosť v jazde upravená značkami.",
         "correct": true
       }],
@@ -135,15 +126,12 @@
       "points": 2,
       "question": "Táto dopravná značka zakazuje",
       "answers": [{
-        "option": "a",
         "text": "vjazd motorovým aj nemotorovým vozidlám,",
         "correct": false
       }, {
-        "option": "b",
         "text": "vjazd vozidlám vyznačených druhov,",
         "correct": false
       }, {
-        "option": "c",
         "text": "predchádzanie voziel vyznačených druhov.",
         "correct": true
       }],
@@ -160,15 +148,12 @@
       "points": 2,
       "question": " Táto dopravná značka",
       "answers": [{
-        "option": "a",
         "text": "informuje o smere a vzdialenosi v kilometroch k vyznačenému cieľu (obci),",
         "correct": true
       }, {
-        "option": "b",
         "text": "prikazuje odbočiť vľavo,",
         "correct": false
       }, {
-        "option": "c",
         "text": "vyznačuje cestu s jednosmernou premávkou.",
         "correct": false
       }],
@@ -182,15 +167,12 @@
       "points": 2,
       "question": "Táto dopravná značka znamená",
       "answers": [{
-        "option": "a",
         "text": "Smerová tabuľa pre cyklistov (s jedným cieľom),",
         "correct": false
       }, {
-        "option": "b",
         "text": "Smerová tabuľa ku kutúrnemu alebo turistickému cieľu,",
         "correct": true
       }, {
-        "option": "c",
         "text": "Smerová tabuľa k miestnemu cieľu.",
         "correct": false
       }],
@@ -204,15 +186,12 @@
       "points": 2,
       "question": "Táto dopravná značka",
       "answers": [{
-        "option": "a",
         "text": "informuje o názve rieky, pohoria, prírodnej rezervácie, kultúrnej a historickej pamiatky, časti obce, územia a podobne,",
         "correct": true
       }, {
-        "option": "b",
         "text": "je návesťou pred križovatkou,",
         "correct": false
       }, {
-        "option": "c",
         "text": "je smerovou tabuľou s diaľkovým cielom.",
         "correct": false
       }],
@@ -226,15 +205,12 @@
       "points": 2,
       "question": "Táto dopravná značka znamená",
       "answers": [{
-        "option": "a",
         "text": "Koniec viacerých zákazov,",
         "correct": false
       }, {
-        "option": "b",
         "text": "Koniec obce,",
         "correct": true
       }, {
-        "option": "c",
         "text": "Koniec obytnej zóny.",
         "correct": false
       }],
@@ -251,15 +227,12 @@
       "points": 2,
       "question": "Táto dopravná značka znamená",
       "answers": [{
-        "option": "a",
         "text": "vzdialenosť k miestu, od ktorého začína platiť značka, pod ktorou je tabuľka umiestnená,",
         "correct": false
       }, {
-        "option": "b",
         "text": "smer obchádzky,",
         "correct": false
       }, {
-        "option": "c",
         "text": "úsek, pre ktorý platí značka, pod ktorou je tabuľka umiestnená.",
         "correct": true
       }],
@@ -276,15 +249,12 @@
       "points": 2,
       "question": "Takéto označenie sa musí použiť na",
       "answers": [{
-        "option": "a",
         "text": "autobuse prepravujúcom deti,",
         "correct": true
       }, {
-        "option": "b",
         "text": "vyznačenie úseku cesty so zýšeným pohybom detí (v blízkosti školských a predškolských zariadení, detských ihrísk a podobne),",
         "correct": false
       }, {
-        "option": "c",
         "text": "osobnom automobile prepravujúcom deti.",
         "correct": false
       }],

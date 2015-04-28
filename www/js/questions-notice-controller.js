@@ -1,8 +1,7 @@
 angular.module('autoskola')
   .controller('QuestionsNoticeController', function($scope, $http, NoticeService) {
 
-    $scope.data = [];
-    $scope.localData = {};
+    $scope.data = [];    
 
     NoticeService.get().then(function(response) {
       $scope.data = response.data;

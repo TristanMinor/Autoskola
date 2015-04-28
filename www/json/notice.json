@@ -4,15 +4,12 @@
     "points": 1,
     "question": "Na bicykli sa jazdí predovšetkým",
     "answers": [{
-      "option": "a",
       "text": "po chodníku,",
       "correct": false
     }, {
-      "option": "b",
       "text": "po cestičke pre cyklistov,",
       "correct": true
     }, {
-      "option": "c",
       "text": "po ľavej krajnici.",
       "correct": false
     }]
@@ -21,15 +18,12 @@
     "points": 1,
     "question": "Vozidlo sa považuje za technicky nespôsobilé na premávku na pozemných komunikáciách, ak",
     "answers": [{
-      "option": "a",
       "text": "sú na tej istej náprave použite rôzne pneumatiky,",
       "correct": true
     }, {
-      "option": "b",
       "text": "najnižší bod činnej svietiacej plochy obrysových svetiel je vyššie ako 350mm nad rovinou vozovky,",
       "correct": false
     }, {
-      "option": "c",
       "text": "diaľkové svetlomety nie je možné prepnúť na obrysové svietidlá.",
       "correct": false
     }]
@@ -38,15 +32,12 @@
     "points": 1,
     "question": "Hĺbka hlavných drážok v stredovej časti povrchu dezénu pneumatiky, ktorý pokrýva približne tri štvrtiny šírky povrchu dezénu jazdnej plochy pneumatiky, nesmie byť menej ako",
     "answers": [{
-      "option": "a",
       "text": "u vozidla kategórie L1e 1,5 mm,",
       "correct": false
     }, {
-      "option": "b",
       "text": "u všetkých kategórií vozidiel 1,6 mm,",
       "correct": false
     }, {
-      "option": "c",
       "text": "u vozidla kategórie L1e 1,0 mm.",
       "correct": true
     }]
