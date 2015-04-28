@@ -2,8 +2,8 @@ angular.module('autoskola')
   .controller('QuestionsLawQuestionController', function($scope, $http, $state, $ionicModal, LawService) {
 
     $scope.data = [];
-    $scope.theory = [];
     $scope.localData = {};
+    $scope.theory = [];
     $scope.optionsModel = ["a","b","c"];
 
     $scope.localData = LawService.get().localData;
@@ -17,7 +17,6 @@ angular.module('autoskola')
         question = qstn;
       }
     });
-
     $scope.question = question;
 
 

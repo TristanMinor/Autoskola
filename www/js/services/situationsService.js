@@ -1,9 +1,9 @@
 'use strict';
 
 angular.module('autoskola')
-  .service('SituationsService', function($http, $q) {
+  .service('SituationsService', function($q) {
 
-    var data = [];
+    var data = SituationsList.situations;
     var localData = {};
     var loaded = false;
 
@@ -20,23 +20,28 @@ angular.module('autoskola')
       localStorage.setItem('situations', JSON.stringify(localData));
     }
 
+    function searchForQuestion(id) {
+      var q;
+      data.forEach(function(question) {
+        if (question.id == id) {
+          q = question;
+        }
+      });
+      return q;
+    }
+
     loadLocalStorage();
 
     return {
       get: function() {
-        var deferred = $q.defer();
+        return {
+          data: data,
+          localData: localData
+        };
+      },
 
-        if (!loaded) {
-          $http.get('json/situations.json').success(function(response) {
-            data = response.situations;
-            loaded = true;
-            deferred.resolve({data:data, localData: localData});
-          });
-        } else {
-          deferred.resolve({data:data, localData: localData});
-        }
-
-        return deferred.promise;
+      getQuestion: function(id) {
+        return searchForQuestion(id);
       },
 
       pinQuestion: function(question) {
