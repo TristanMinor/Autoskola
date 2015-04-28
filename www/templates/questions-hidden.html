@@ -8,23 +8,25 @@
       </a>
     </ion-nav-buttons>
     <div class="title title-nav">Hej</div>
+    <ion-nav-buttons side="secondary">
+      <a href="#" nav-direction="back">
+        <button class="button">Vrátiť všetky</button>
+      </a>
+    </ion-nav-buttons>
   </ion-nav-bar>
 
   <!-- Questions content -->
   <ion-content class="has-header">
 
     <!-- Law tab -->
-    <div ng-if="params.hiddenQuestionsType == 'law'" ng-controller="QuestionsLawController">
+    <div ng-if="params.hiddenquestionstype == 'law'" ng-controller="QuestionsLawController">
       <ion-list type="list-inset">
         <ion-item ng-if="localData[item.id].hidden" href="#/questions/law/{{item.id}}" ng-repeat="item in data" collection-item-height="99" class="item item-icon-right item-hideable" ng-class="{'pinned': localData[item.id].pinned}">
           <div class="item-inner">
             <b>{{ item.id }}.</b> {{ item.question }}
             <i ng-if="localData[item.id].pinned" class="icon icon-pin positive"></i>
-            <ion-option-button ng-click="pinQuestion(item)" class="button button-positive">
-              <i class="icon" ng-class="{'icon-pin': localData[item.id].pinned, 'icon-pin-outline': !localData[item.id].pinned}"></i>
-            </ion-option-button>
-            <ion-option-button ng-click="hideQuestion(item)" class="button-balanced">
-              <i class="icon icon-check"></i>
+            <ion-option-button ng-click="hideQuestion(item)" class="button-stable">
+              Vrátiť späť
             </ion-option-button>
           </div>
         </ion-item>
@@ -32,7 +34,7 @@
     </div>
 
     <!-- Notice tab -->
-    <div ng-if="params.hiddenQuestionsType == 'notice'" ng-controller="QuestionsNoticeController">
+    <div ng-if="params.hiddenquestionstype == 'notice'" ng-controller="QuestionsNoticeController">
       <ion-list type="list-inset">
         <ion-item ng-if="localData[item.id].hidden" ng-repeat="item in data" href="#/questions/notice/{{item.id}}" class="item item-icon-right item-hideable">
           <div class="item-inner">
@@ -50,7 +52,7 @@
     </div>
 
     <!-- Signs tab -->
-    <div ng-if="params.hiddenQuestionsType == 'signs'" ng-controller="QuestionsSignsController">
+    <div ng-if="params.hiddenquestionstype == 'signs'" ng-controller="QuestionsSignsController">
       <ion-list type="list-inset">
         <div ng-repeat="item in data">
 
@@ -79,7 +81,7 @@
     </div>
 
     <!-- Situations tab -->
-    <div ng-if="params.hiddenQuestionsType == 'situations'" ng-controller="QuestionsSituationsController">
+    <div ng-if="params.hiddenquestionstype == 'situations'" ng-controller="QuestionsSituationsController">
       <ion-list type="list-inset">
         <div ng-repeat="item in data">
 

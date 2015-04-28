@@ -52,7 +52,7 @@ angular.module('autoskola', ['ionic'])
   })
 
   .state('questions-hidden', {
-    url: '/questions/hidden',
+    url: '/questions/hidden/:hiddenquestionstype',
     templateUrl: 'templates/questions-hidden.html',
     controller: 'QuestionsHiddenController',
 

@@ -16,7 +16,7 @@ angular.module('autoskola')
       $scope.selectedHiddenQuestionsType = type;
       console.log($scope.selectedHiddenQuestionsType);
       $state.go('questions-hidden', {
-        hiddenQuestionsType: $scope.selectedHiddenQuestionsType
+        hiddenquestionstype: $scope.selectedHiddenQuestionsType
       });
     }
 
