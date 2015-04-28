@@ -15,4 +15,8 @@ angular.module('autoskola')
       LawService.hideQuestion(item);
     }
 
+    $scope.unhideQuestion = function(item) {
+      LawService.unhideQuestion(item);
+    }
+
   });

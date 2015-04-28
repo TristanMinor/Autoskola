@@ -17,4 +17,8 @@ angular.module('autoskola')
       SignsService.hideQuestion(question);
     }
 
+    $scope.unhideQuestion = function(question) {
+      SignsService.unhideQuestion(question);
+    }
+
   });

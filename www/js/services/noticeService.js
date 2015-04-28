@@ -59,7 +59,19 @@ angular.module('autoskola')
           };
         }
         saveLocalStorage();
+      },
+
+      unhideQuestion: function(item) {
+        if (localData[item.id]) {
+          localData[item.id].hidden = false;
+        } else {
+          localData[item.id] = {
+            hidden: false
+          };
+        }
+        saveLocalStorage();
       }
+
     };
 
   });

@@ -17,4 +17,8 @@ angular.module('autoskola')
       NoticeService.hideQuestion(item);
     }
 
+    $scope.unhideQuestion = function(item) {
+      NoticeService.unhideQuestion(item);
+    }
+
   });
