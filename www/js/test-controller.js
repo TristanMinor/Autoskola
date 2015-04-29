@@ -6,9 +6,12 @@ angular.module('autoskola')
 
     $scope.questions = [];
     $scope.answers = [];
+    $scope.optionsModel = ["a","b","c"];
 
     $scope.view = {
-      question: 0
+      question: 0,
+      checked: false,
+      selectedAnswer: null
     };
 
     $http.get('json/tests.json').success(function (response) {
@@ -30,28 +33,55 @@ angular.module('autoskola')
         }
         // todo: make other questions types as signs, etc
       });
+
       $ionicSlideBoxDelegate.update();
+      $ionicSlideBoxDelegate.enableSlide(false);
     });
 
-    $scope.nextQuestion = function () {
-      $scope.selectedAnswer = null;
-      $scope.goToQuestion($scope.view.question + 1);
+    $scope.answerSelected = function (answer, answers) {
+      if ($scope.view.checked) {
+        return false;
+      }
+      var answerIndex = answers.indexOf(answer) || 0;
+      $scope.answers[$scope.view.question] = answerIndex;
+      $scope.view.selectedAnswer = answerIndex;
     }
 
-    $scope.answerSelected = function (answer) {
-      $scope.answers[$scope.view.question] = answer.option;
-      //
-    }
-
-    $scope.kokotko = function() {
-      $ionicSlideBoxDelegate.next();
-      $ionicSlideBoxDelegate.enableSlide(false);
-    }
-
+    // show modal window with explaining
     $scope.openHelp = function() {
       console.log('help');
       console.log($scope.view.question);
       console.log($scope.questions[$scope.view.question]);
+    }
+
+    $scope.check = function() {
+      $scope.view.checked = true;
+    }
+
+    $scope.next = function() {
+      $scope.view.checked = false;
+      $scope.view.selectedAnswer = null;
+      $ionicSlideBoxDelegate.next();
+      $ionicSlideBoxDelegate.enableSlide(false);
+    }
+
+    // show modal window with result
+    $scope.result = function() {
+
+      var good = 0;
+
+      // for each question
+      $scope.questions.forEach(function(question, questionIndex) {
+
+        question.answers.forEach(function(answer, answerIndex) {
+          if (answer.correct && $scope.answers[questionIndex] == answerIndex) {
+            good++;
+          }
+        });
+      });
+
+      console.log('Good ansers:', good);
+      console.log('Bad answers:', $scope.questions.length - good);
     }
 
   });

@@ -8016,10 +8016,10 @@ ul li {
   .answers .item .question-answer {
     white-space: normal;
     padding: 24px 72px 24px 110px; }
-  .answers .item .answer-correct {
+  .answers .item .answer-checked.answer-correct {
     background-color: #beecda;
     color: #1b5d44; }
-  .answers .item .answer-incorrect {
+  .answers .item .answer-checked.answer-selected.answer-incorrect {
     background-color: #f5ccc9;
     color: #751d17; }
   .answers .item .answer-selected {

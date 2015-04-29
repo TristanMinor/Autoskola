@@ -30,13 +30,15 @@
       white-space: normal;
       padding: $padding-small $padding-large $padding-small 110px;
     }
-    .answer-correct {
-      background-color: lighten($balanced, 30);
-      color: darken($balanced, 30);
-    }
-    .answer-incorrect {
-      background-color: lighten($assertive, 30);
-      color: darken($assertive, 30);
+    .answer-checked {
+      &.answer-correct {
+        background-color: lighten($balanced, 30);
+        color: darken($balanced, 30);
+      }
+      &.answer-selected.answer-incorrect {
+        background-color: lighten($assertive, 30);
+        color: darken($assertive, 30);
+      }
     }
     .answer-selected {
       background-color: darken($stable,4);
