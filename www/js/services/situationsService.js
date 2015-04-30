@@ -22,10 +22,14 @@ angular.module('autoskola')
 
     function searchForQuestion(id) {
       var q;
-      data.forEach(function(question) {
-        if (question.id == id) {
-          q = question;
-        }
+      data.forEach(function(item) {
+        item.bundles.forEach(function(bndl) {
+          bndl.questions.forEach(function(qstn) {
+            if (qstn.id == id) {
+              q = qstn;
+            }
+          });
+        });
       });
       return q;
     }

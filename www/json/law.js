@@ -13,7 +13,7 @@ var LawList = {
       "text": "povinnosť účastníka cestnej premávky počínať si tak, aby ten, kto má prednosť v jazde, nemusel zmeniť rýchlosť jazdy, môže však zmeniť smer jazdy.",
       "correct": false
     }],
-    "explaining": [{
+    "explanation": [{
       "chapter": 1,
       "content": 3
     }]
@@ -31,7 +31,7 @@ var LawList = {
       "text": "stretávacie svetlomety alebo im na roveň postavené osvetlenie.",
       "correct": true
     }],
-    "explaining": [{
+    "explanation": [{
     }]
   }, {
     "id": 3,
@@ -47,7 +47,7 @@ var LawList = {
       "text": "stretávacie svetlomety alebo im na roveň postavené osvetlenie.",
       "correct": false
     }],
-    "explaining": [{
+    "explanation": [{
       "chapter": 3,
       "content": 19
     }]
@@ -65,7 +65,7 @@ var LawList = {
       "text": "len s dvoma kolesami v jazdnom prúde za sebou.",
       "correct": false
     }],
-    "explaining": [{
+    "explanation": [{
       "chapter": 10,
       "content": 13
     }]
@@ -83,7 +83,7 @@ var LawList = {
       "text": "znižovať rýchlosť jazdy.",
       "correct": false
     }],
-    "explaining": [{
+    "explanation": [{
       "chapter": 13,
       "content": 6
     }]
@@ -101,7 +101,7 @@ var LawList = {
       "text": "na ktorú ma rozhľad.",
       "correct": true
     }],
-    "explaining": [{
+    "explanation": [{
       "chapter": 14,
       "content": 1
     }]
@@ -119,7 +119,7 @@ var LawList = {
       "text": "len protiidúcim motorovým vozidlám.",
       "correct": false
     }],
-    "explaining": [{
+    "explanation": [{
     }]
   }, {
     "id": 8,
@@ -135,7 +135,7 @@ var LawList = {
       "text": "je povinný dávať znamenie o zmene smeru jazdy len v obci.",
       "correct": false
     }],
-    "explaining": [{
+    "explanation": [{
     }]
   }, {
     "id": 9,
@@ -151,7 +151,7 @@ var LawList = {
       "text": "je povinný urobiť potrebné opatrenia na záchranu osoby alebo majetku ohrozeného dopravnou nehodou.",
       "correct": true
     }],
-    "explaining": [{
+    "explanation": [{
     }]
   }, {
     "id": 10,
@@ -167,7 +167,7 @@ var LawList = {
       "text": "upozorňuje na nevyhnutnosť dbať na zvýšenú opatrnosť.",
       "correct": true
     }],
-    "explaining": [{
+    "explanation": [{
     }]
   }, {
     "id": 11,
@@ -183,7 +183,7 @@ var LawList = {
       "text": "nie je nadradená všeobecnej úprave cestnej premávky.",
       "correct": false
     }],
-    "explaining": [{
+    "explanation": [{
     }]
   }, {
     "id": 12,
@@ -199,7 +199,7 @@ var LawList = {
       "text": "mať bezpečnostný odev oblečený.",
       "correct": true
     }],
-    "explaining": [{
+    "explanation": [{
     }]
   }]
 };
