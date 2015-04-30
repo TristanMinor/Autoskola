@@ -1,19 +1,13 @@
 angular.module('autoskola')
-  .controller('QuestionsSituationsQuestionController', function($scope, $state, $ionicModal, SituationsService) {
+  .controller('QuestionsSituationsQuestionController', function($scope, $state, $ionicModal, SituationsService, TheoryService) {
 
     $scope.localData = {};
     $scope.explainings = [];
-    $scope.optionsModel = ["a", "b", "c"];
 
+    $scope.optionsModel = ["a", "b", "c"];
     $scope.localData = SituationsService.get().localData;
     $scope.question = SituationsService.getQuestion($state.params.id);
-    // $scope.explainings = SituationsTheoryService
-    // for each explaining
-    $scope.question.explaining.forEach(function(xpln) {
-        // Add the content to explainings
-        $scope.explainings.push(xpln);
-        console.log($scope.explainings);
-    });
+    $scope.explainings = TheoryService.getSituationsExplanation($state.params.id);
 
     $scope.pinQuestion = function(item) {
       SituationsService.pinQuestion(item);

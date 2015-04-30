@@ -16,6 +16,10 @@ var SignsList = {
         "text": "Nebezpečné stúpanie.",
         "correct": false
       }],
+      "explanation": [{
+        "headline": "Zákruta vpravo",
+        "paragraph": "Značka <i>Zákruta vpravo</i> upozorňuje na smerový oblúk vpravo, kde si bezpečný prejazd vyžaduje výrazné zníženie rýchlosti jazdy s ohľadom na parametre cesty, po ktorom nasleduje priamy úsek cesty."
+      }],
       "image": {
         "src": "img/signs/A1a.svg",
         "imgType": "triangle"
@@ -35,6 +39,8 @@ var SignsList = {
         "text": "Zákaz odboćovania vľavo,",
         "correct": false
       }],
+      "explanation": [{
+      }],
       "image": {
         "src": "img/signs/A1b.svg",
         "imgType": "triangle"
@@ -43,6 +49,8 @@ var SignsList = {
       "id": 3,
       "name": "Dvojitá zákruta, prvá vpravo",
       "points": 2,
+      "explanation": [{
+      }],
       "image": {
         "src": "img/signs/A2a.svg",
         "imgType": "triangle"
@@ -51,6 +59,8 @@ var SignsList = {
       "id": 4,
       "name": "Dvojitá zákruta, prvá vľavo",
       "points": 2,
+      "explanation": [{
+      }],
       "image": {
         "src": "img/signs/A2b.svg",
         "imgType": "triangle"
@@ -59,6 +69,8 @@ var SignsList = {
       "id": 5,
       "name": "Zákruty v úseku 2 km, prvá vpravo",
       "points": 2,
+      "explanation": [{
+      }],
       "image": {
         "src": "img/signs/A2c.svg",
         "imgType": "triangle"
@@ -67,6 +79,8 @@ var SignsList = {
       "id": 6,
       "name": "Štyri zákruty, prvá vpravo",
       "points": 2,
+      "explanation": [{
+      }],
       "image": {
         "src": "img/signs/A2d.svg",
         "imgType": "triangle"
@@ -75,6 +89,8 @@ var SignsList = {
       "id": 7,
       "name": "Nebezpečné klesanie",
       "points": 2,
+      "explanation": [{
+      }],
       "image": {
         "src": "img/signs/A3a.svg",
         "imgType": "triangle"
@@ -83,6 +99,8 @@ var SignsList = {
       "id": 8,
       "name": "Nebezpečné stúpanie",
       "points": 2,
+      "explanation": [{
+      }],
       "image": {
         "src": "img/signs/A3b.svg",
         "imgType": "triangle"
@@ -91,6 +109,8 @@ var SignsList = {
       "id": 9,
       "name": "Zúžená vozovka z oboch strán",
       "points": 2,
+      "explanation": [{
+      }],
       "image": {
         "src": "img/signs/A4a.svg",
         "imgType": "triangle"
@@ -112,6 +132,8 @@ var SignsList = {
       }, {
         "text": "križovatku, kde nie je prednosť v jazde upravená značkami.",
         "correct": true
+      }],
+      "explanation": [{
       }],
       "image": {
         "src": "img/signs/P4.svg",
@@ -135,6 +157,8 @@ var SignsList = {
         "text": "predchádzanie voziel vyznačených druhov.",
         "correct": true
       }],
+      "explanation": [{
+      }],
       "image": {
         "src": "img/signs/B18.svg",
         "imgType": "circle"
@@ -157,6 +181,8 @@ var SignsList = {
         "text": "vyznačuje cestu s jednosmernou premávkou.",
         "correct": false
       }],
+      "explanation": [{
+      }],
       "image": {
         "src": "img/signs/IS-17b.jpg",
         "imgType": "rectangle"
@@ -175,6 +201,8 @@ var SignsList = {
       }, {
         "text": "Smerová tabuľa k miestnemu cieľu.",
         "correct": false
+      }],
+      "explanation": [{
       }],
       "image": {
         "src": "img/signs/IS-23b.jpg",
@@ -195,6 +223,8 @@ var SignsList = {
         "text": "je smerovou tabuľou s diaľkovým cielom.",
         "correct": false
       }],
+      "explanation": [{
+      }],
       "image": {
         "src": "img/signs/IS-35.jpg",
         "imgType": "rectangle"
@@ -213,6 +243,8 @@ var SignsList = {
       }, {
         "text": "Koniec obytnej zóny.",
         "correct": false
+      }],
+      "explanation": [{
       }],
       "image": {
         "src": "img/signs/IS-35.jpg",
@@ -236,6 +268,8 @@ var SignsList = {
         "text": "úsek, pre ktorý platí značka, pod ktorou je tabuľka umiestnená.",
         "correct": true
       }],
+      "explanation": [{
+      }],
       "image": {
         "src": "img/signs/E5.svg",
         "imgType": "rectangle"
@@ -257,6 +291,8 @@ var SignsList = {
       }, {
         "text": "osobnom automobile prepravujúcom deti.",
         "correct": false
+      }],
+      "explanation": [{
       }],
       "image": {
         "src": "img/signs/o3.png",

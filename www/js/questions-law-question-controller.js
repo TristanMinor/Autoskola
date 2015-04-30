@@ -2,8 +2,8 @@ angular.module('autoskola')
   .controller('QuestionsLawQuestionController', function($scope, $http, $state, $ionicModal, LawService, TheoryService) {
 
     $scope.localData = {};
-    $scope.theory = [];
-
+    $scope.explainings = [];
+    
     $scope.optionsModel = ["a","b","c"];
     $scope.localData = LawService.get().localData;
     $scope.question = LawService.getQuestion($state.params.id);

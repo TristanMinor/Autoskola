@@ -12,6 +12,10 @@ var NoticeList = {
     }, {
       "text": "po ľavej krajnici.",
       "correct": false
+    }],
+    "explanation": [{
+      "chapter": 2,
+      "content": 3
     }]
   }, {
     "id": 2,
@@ -26,6 +30,8 @@ var NoticeList = {
     }, {
       "text": "diaľkové svetlomety nie je možné prepnúť na obrysové svietidlá.",
       "correct": false
+    }],
+    "explanation": [{
     }]
   }, {
     "id": 3,
@@ -40,6 +46,8 @@ var NoticeList = {
     }, {
       "text": "u vozidla kategórie L1e 1,0 mm.",
       "correct": true
+    }],
+    "explanation": [{
     }]
   }]
 };

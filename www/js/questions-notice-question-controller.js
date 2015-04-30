@@ -1,11 +1,12 @@
 angular.module('autoskola')
-  .controller('QuestionsNoticeQuestionController', function($scope, $state, $ionicModal, NoticeService) {
+  .controller('QuestionsNoticeQuestionController', function($scope, $state, $ionicModal, NoticeService, TheoryService) {
 
     $scope.localData = {};
 
     $scope.optionsModel = ["a","b","c"];
     $scope.localData = NoticeService.get().localData;
     $scope.question = NoticeService.getQuestion($state.params.id);
+    $scope.explainings = TheoryService.getNoticeExplanation($state.params.id);
 
     $scope.pinQuestion = function(item) {
       NoticeService.pinQuestion(item);

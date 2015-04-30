@@ -19,7 +19,7 @@ var SituationsList = {
           "text": "vodič zeleného vozidla musí dať prednosť v jazde vodičovi červeného vozidla, pretože dáva znamenie o zmene smeru jazdy vľavo.",
           "correct": false
         }],
-        "explaining": [{
+        "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_lanes_01_xpl.png",
           "paragraph": "Ak sa dva jazdné pruhy zbiehajú a nie je jasné, ktorý z nich je priebežný, platí pravidlo o prednosti vozidiel prichádzajúcich sprava. Vodič zeleného vozidla má po pravej strane červené vozidlo, ktorému dáva prednosť."
@@ -45,7 +45,7 @@ var SituationsList = {
           "text": "má pred vodičom červeného vozidla prednosť, pretože ide v jazdnom pruhu pre pomalé vozidlá.",
           "correct": false
         }],
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_lanes_02.png"
@@ -68,7 +68,7 @@ var SituationsList = {
           "text": "je povinný umožniť vodičovi červeného a vodičovi žltého vozidla obídenie prekážky.",
           "correct": false
         }],
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_lanes_03.png"
@@ -86,7 +86,7 @@ var SituationsList = {
           "text": "1. modré, 2. červené, 3. žlté, 4. zelené.",
           "correct": false
         }],
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_lanes_03.png"
@@ -104,7 +104,7 @@ var SituationsList = {
           "text": "modré vozidlo.",
           "correct": true
         }],
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_lanes_03.png"
@@ -122,7 +122,7 @@ var SituationsList = {
           "text": "žlté vozidlo",
           "correct": true
         }],
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_lanes_03.png"
@@ -145,7 +145,7 @@ var SituationsList = {
           "text": "má pred vodičom modrého vozidla prednosť, pretože v jeho jazdnom pruhu sa nachádza prekážka.",
           "correct": false
         }],
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_lanes_04.png"
@@ -163,7 +163,7 @@ var SituationsList = {
           "text": "modré vozidlo",
           "correct": false
         }],
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_lanes_04.png"
@@ -181,7 +181,7 @@ var SituationsList = {
           "text": "žlté vozidlo",
           "correct": false
         }],
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_lanes_04.png"
@@ -197,7 +197,7 @@ var SituationsList = {
       "questions": [{
         "id": 10,
         "question": "Vaše vozidlo prejde cez križovatku ako",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_nosigns_01.png"
@@ -205,7 +205,7 @@ var SituationsList = {
       }, {
         "id": 11,
         "question": "Ako posledné prejde cez križovatku",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_nosigns_01.png"
@@ -213,7 +213,7 @@ var SituationsList = {
       }, {
         "id": 12,
         "question": "Vozidlá prejdú cez križovatku v tomto poradí:",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_nosigns_01.png"
@@ -221,7 +221,7 @@ var SituationsList = {
       }, {
         "id": 13,
         "question": "V poradí druhé prejde cez križovatku",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_nosigns_01.png"
@@ -234,7 +234,7 @@ var SituationsList = {
       "questions": [{
         "id": 14,
         "question": "Vaše vozidlo, odbočujúce vľavo, prejde cez križovatku ako",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_nosigns_02.png"
@@ -242,7 +242,7 @@ var SituationsList = {
       }, {
         "id": 15,
         "question": "Vozidlá prejdú cez križovatku v tomto poradí:",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_nosigns_02.png"
@@ -250,7 +250,7 @@ var SituationsList = {
       }, {
         "id": 16,
         "question": "V poradí druhé prejde cez križovatku",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_nosigns_02.png"
@@ -258,7 +258,7 @@ var SituationsList = {
       }, {
         "id": 17,
         "question": "Ako posledné prejde cez križovatku",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_nosigns_02.png"
@@ -271,7 +271,7 @@ var SituationsList = {
       "questions": [{
         "id": 18,
         "question": "Vaše vozidlo prejde cez križovatku ako",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_nosigns_03.png"
@@ -279,7 +279,7 @@ var SituationsList = {
       }, {
         "id": 19,
         "question": "Vozidlá prejdú cez križovatku v tomto poradí:",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_nosigns_03.png"
@@ -287,7 +287,7 @@ var SituationsList = {
       }, {
         "id": 20,
         "question": "Ako prvé prejde cez križovatku",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_nosigns_03.png"
@@ -295,7 +295,7 @@ var SituationsList = {
       }, {
         "id": 21,
         "question": "V poradí posledné prejde cez križovatku",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_nosigns_03.png"
@@ -308,7 +308,7 @@ var SituationsList = {
       "questions": [{
         "id": 22,
         "question": "Vozidlá prejdú cez križovatku v tomto poradí:",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_nosigns_04.png"
@@ -316,7 +316,7 @@ var SituationsList = {
       }, {
         "id": 23,
         "question": "Ako prvé prejde cez križovatku",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_nosigns_04.png"
@@ -324,7 +324,7 @@ var SituationsList = {
       }, {
         "id": 24,
         "question": "Ako posledné prejde cez križovatku",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_nosigns_04.png"
@@ -332,7 +332,7 @@ var SituationsList = {
       }, {
         "id": 25,
         "question": "V poradí druhé prejde cez križovatku",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_nosigns_04.png"
@@ -345,7 +345,7 @@ var SituationsList = {
       "questions": [{
         "id": 26,
         "question": "Vozidlá prejdú cez križovatku v tomto poradí:",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_nosigns_05.png"
@@ -358,7 +358,7 @@ var SituationsList = {
       "questions": [{
         "id": 27,
         "question": "Vozidlá prejdú cez križovatku v tomto poradí:",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_nosigns_06.png"
@@ -366,7 +366,7 @@ var SituationsList = {
       }, {
         "id": 28,
         "question": "Ako prvé prejde cez križovatku",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_nosigns_06.png"
@@ -374,7 +374,7 @@ var SituationsList = {
       }, {
         "id": 29,
         "question": "Ako posledné prejde cez križovatku",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_nosigns_06.png"
@@ -392,7 +392,7 @@ var SituationsList = {
           "text": "druhé.",
           "correct": false
         }],
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_nosigns_06.png"
@@ -405,7 +405,7 @@ var SituationsList = {
       "questions": [{
         "id": 31,
         "question": "Zelené vozidlo vojde do križovatky ako",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_nosigns_07.png"
@@ -413,7 +413,7 @@ var SituationsList = {
       }, {
         "id": 32,
         "question": "Vozidlá prejdú cez križovatku v tomto poradí:",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_nosigns_07.png"
@@ -431,7 +431,7 @@ var SituationsList = {
           "text": "červené vozidlo",
           "correct": true
         }],
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_nosigns_07.png"
@@ -439,7 +439,7 @@ var SituationsList = {
       }, {
         "id": 34,
         "question": "Ako druhé vojde do križovatky",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_nosigns_07.png"
@@ -452,7 +452,7 @@ var SituationsList = {
       "questions": [{
         "id": 35,
         "question": "Prednosť v jazde má vodič",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_nosigns_08.png"
@@ -465,7 +465,7 @@ var SituationsList = {
       "questions": [{
         "id": 36,
         "question": "Modré vozidlo vojde do križovatky ako",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_nosigns_08.png"
@@ -473,7 +473,7 @@ var SituationsList = {
       }, {
         "id": 37,
         "question": "Ako posledné prejde cez križovatku",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_nosigns_08.png"
@@ -481,7 +481,7 @@ var SituationsList = {
       }, {
         "id": 38,
         "question": "Vozidlá prejdú cez križovatku v tomto poradí:",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_nosigns_08.png"
@@ -489,7 +489,7 @@ var SituationsList = {
       }, {
         "id": 39,
         "question": "Ako prvé prejde cez križovatku",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_nosigns_08.png"
@@ -515,7 +515,7 @@ var SituationsList = {
           "text": "chodcov prechádzajúcich za chrbtom policajta.",
           "correct": false
         }],
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_controlled_01.png"
@@ -523,7 +523,7 @@ var SituationsList = {
       }, {
         "id": 121,
         "question": "Ak má policajt pravú ruku predpaženú a ľavú upaženú, znamená to „Voľno“ pre vodiča",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_controlled_01.png"
@@ -531,7 +531,7 @@ var SituationsList = {
       }, {
         "id": 122,
         "question": "Ak má policajt pravú ruku predpaženú a ľavú upaženú, znamená to",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_controlled_01.png"
@@ -544,7 +544,7 @@ var SituationsList = {
       "questions": [{
         "id": 123,
         "question": "Ak svieti signál na opustenie križovatky umiestnený v protiľahlom rohu križovatky",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_controlled_02.png"
@@ -552,7 +552,7 @@ var SituationsList = {
       }, {
         "id": 124,
         "question": "Ak svieti signál na opustenie križovatky umiestnený v protiľahlom rohu križovatky, prejdú cez križovatku ako prvé",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_controlled_02.png"
@@ -560,7 +560,7 @@ var SituationsList = {
       }, {
         "id": 125,
         "question": "Ak svieti signál na opustenie križovatky umiestnený v protiľahlom rohu križovatky",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_controlled_02.png"
@@ -568,7 +568,7 @@ var SituationsList = {
       }, {
         "id": 126,
         "question": "Ako prvé prejde cez križovatku",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_controlled_02.png"
@@ -581,7 +581,7 @@ var SituationsList = {
       "questions": [{
         "id": 127,
         "question": "Ako prvé prejde cez križovatku",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_controlled_03.png"
@@ -589,7 +589,7 @@ var SituationsList = {
       }, {
         "id": 128,
         "question": "V poradí druhé prejde cez križovatku",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_controlled_03.png"
@@ -597,7 +597,7 @@ var SituationsList = {
       }, {
         "id": 129,
         "question": "Vodič červeného vozidla smie",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_controlled_03.png"
@@ -610,7 +610,7 @@ var SituationsList = {
       "questions": [{
         "id": 130,
         "question": "Na tento pokyn policajta",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_controlled_04.png"
@@ -618,7 +618,7 @@ var SituationsList = {
       }, {
         "id": 131,
         "question": "Tento pokyn policajta znamená „Stoj“ pre vodiča",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_controlled_04.png"
@@ -626,7 +626,7 @@ var SituationsList = {
       }, {
         "id": 132,
         "question": "Na tento pokyn policajta môže vodič",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_controlled_04.png"
@@ -639,7 +639,7 @@ var SituationsList = {
       "questions": [{
         "id": 133,
         "question": "Ak má policajt pravú ruku predpaženú a ľavú upaženú, znamená to „Stoj!“ pre",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_controlled_05.png"
@@ -647,7 +647,7 @@ var SituationsList = {
       }, {
         "id": 134,
         "question": "Ak má policajt pravú ruku predpaženú a ľavú upaženú, znamená to „Voľno“ pre vodiča",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_controlled_05.png"
@@ -655,7 +655,7 @@ var SituationsList = {
       }, {
         "id": 135,
         "question": "Ak má policajt pravú ruku predpaženú a ľavú upaženú, znamená to",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_controlled_05.png"
@@ -668,7 +668,7 @@ var SituationsList = {
       "questions": [{
         "id": 136,
         "question": "Modré vozidlo prejde cez križovatku ako",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_controlled_06.png"
@@ -676,7 +676,7 @@ var SituationsList = {
       }, {
         "id": 137,
         "question": "Ako prvé vozidlo prejde cez križovatku",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_controlled_06.png"
@@ -684,7 +684,7 @@ var SituationsList = {
       }, {
         "id": 138,
         "question": "V poradí druhé prejde cez križovatku",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_controlled_06.png"
@@ -692,7 +692,7 @@ var SituationsList = {
       }, {
         "id": 139,
         "question": "V poradí tretie prejde cez križovatku",
-        "explaining": [{
+        "explanation": [{
         }],
         "image": {
           "src": "img/situations/situation_controlled_06.png"

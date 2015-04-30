@@ -8007,6 +8007,7 @@ ul li {
     opacity: 1; }
 
 .chapter-image {
+  text-align: center;
   max-width: 100%;
   margin-top: 0.5em;
   margin-bottom: 1em; }

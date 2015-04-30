@@ -1,12 +1,14 @@
 angular.module('autoskola')
-  .controller('QuestionsSignsQuestionController', function($scope, $state, $ionicModal, SignsService) {
+  .controller('QuestionsSignsQuestionController', function($scope, $state, $ionicModal, SignsService, TheoryService) {
 
     $scope.localData = {};
-    $scope.optionsModel = ["a","b","c"];
+    $scope.explainings = [];
 
+    $scope.optionsModel = ["a","b","c"];
     $scope.localData = SignsService.get().localData;
     $scope.question = SignsService.getQuestion($state.params.id);
-    
+    $scope.explainings = TheoryService.getSignsExplanation($state.params.id);
+
     $scope.pinQuestion = function(item) {
       SignsService.pinQuestion(item);
     }
