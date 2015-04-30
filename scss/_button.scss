@@ -1,6 +1,6 @@
 .button {
   border: none;
-  min-height: 60px;
+  min-height: $button-medium;
   font-size: 17px;
   padding: 0 24px;
   border-radius: $radius-item;
@@ -29,4 +29,21 @@
   margin: 0;
   width: 100%;
   border: none;
+  border-radius: 0;
+}
+
+.bar {
+  .button {
+    min-height: 44px;
+    font-size: 17px;
+    font-weight: 500;
+  }
+}
+
+.bar.bar-buttons {
+  height: $button-medium + 20px;
+  .button.button-block {
+    height: $button-medium;
+    margin: 0;
+  }
 }

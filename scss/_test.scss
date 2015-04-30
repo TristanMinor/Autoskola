@@ -1,5 +1,7 @@
-.test-progress {
+.bar.test-progress {
   width: 100%;
+  padding: 0;
+  border: none;
   height: $progresbar-height;
   background-color: $stable;
   .test-progress-bar {

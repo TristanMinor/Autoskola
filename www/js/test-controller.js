@@ -1,5 +1,5 @@
 angular.module('autoskola')
-  .controller('TestController', function ($http, $scope, $state, LawService, $ionicSlideBoxDelegate) {
+  .controller('TestController', function ($http, $scope, $state, LawService, $ionicSlideBoxDelegate, $ionicModal) {
 
     $scope.params = $state.params;
     $scope.test = {};
@@ -47,13 +47,6 @@ angular.module('autoskola')
       $scope.view.selectedAnswer = answerIndex;
     }
 
-    // show modal window with explaining
-    $scope.openHelp = function() {
-      console.log('help');
-      console.log($scope.view.question);
-      console.log($scope.questions[$scope.view.question]);
-    }
-
     $scope.check = function() {
       $scope.view.checked = true;
     }
@@ -64,6 +57,8 @@ angular.module('autoskola')
       $ionicSlideBoxDelegate.next();
       $ionicSlideBoxDelegate.enableSlide(false);
     }
+
+
 
     // show modal window with result
     $scope.result = function() {
@@ -79,9 +74,64 @@ angular.module('autoskola')
           }
         });
       });
-
       console.log('Good ansers:', good);
       console.log('Bad answers:', $scope.questions.length - good);
     }
+
+
+
+    // Load the modal from the given template URL
+    $ionicModal.fromTemplateUrl('templates/modals/modal-explaining.html', function($ionicModal) {
+      $scope.modal = $ionicModal;
+    }, {
+      scope: $scope,
+      animation: 'slide-in-up'
+    });
+
+    $scope.openModalExplaining = function() {
+      // filtering theory content by ids from question
+      // load theory file
+      $http.get('json/theory.json').success(function(response) {
+        $scope.theory = response.theory;
+        $scope.explainings = [];
+        // for each explaining
+        $scope.questions[$scope.view.question].explaining.forEach(function(xpln) {
+          var content;
+
+          // for each section in theory
+          $scope.theory.forEach(function(sctn) {
+            // for each selected chapter
+            sctn.chapters.forEach(function(chptr) {
+              if (xpln.chapter == chptr.id) {
+                // console.log('chptr.id', chptr.id);
+                // for each selected content
+                chptr.content.forEach(function(cntnt) {
+                  if (xpln.content == cntnt.id) {
+                    // console.log('cntnt.id', cntnt.id);
+                    content = cntnt;
+                  }
+                });
+              }
+            });
+          });
+          // Add the right content to explainings
+          $scope.explainings.push(content);
+          // console.log($scope.explainings);
+        });
+      });
+      $scope.modal.show();
+      console.log($scope.view.question);
+      console.log($scope.questions[$scope.view.question]);
+    };
+
+    $scope.closeModal = function() {
+      $scope.modal.hide();
+    };
+
+    $scope.$on('$destroy', function() {
+      $scope.modal.remove();
+      $scope.chapter.remove();
+      $scope.content.remove();
+    });
 
   });

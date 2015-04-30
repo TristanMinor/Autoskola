@@ -7701,7 +7701,7 @@ ul li {
 
 .button {
   border: none;
-  min-height: 60px;
+  min-height: 56px;
   font-size: 17px;
   padding: 0 24px;
   border-radius: 6px;
@@ -7725,7 +7725,19 @@ ul li {
   bottom: 0;
   margin: 0;
   width: 100%;
-  border: none; }
+  border: none;
+  border-radius: 0; }
+
+.bar .button {
+  min-height: 44px;
+  font-size: 17px;
+  font-weight: 500; }
+
+.bar.bar-buttons {
+  height: 76px; }
+  .bar.bar-buttons .button.button-block {
+    height: 56px;
+    margin: 0; }
 
 .platform-ios.platform-cordova:not(.fullscreen) .bar-header:not(.bar-subheader) {
   height: 76px; }
@@ -7749,8 +7761,13 @@ ul li {
   .bar .title-nav a.active {
     color: #4BA7E5;
     border-bottom: 4px solid #4BA7E5; }
-  .bar .button {
-    min-height: 44px; }
+  .bar .has-subtitle-nav {
+    line-height: 2.1em; }
+  .bar .subtitle-nav {
+    font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    top: 0.9em; }
   .bar .button.button-icon .icon:before {
     font-size: 24px; }
   .bar .button.button-icon:before, .bar .button.button-icon.icon-left:before, .bar .button.button-icon.icon-right:before {
@@ -8074,11 +8091,13 @@ ul li {
   padding-top: 36px;
   padding-bottom: 36px; }
 
-.test-progress {
+.bar.test-progress {
   width: 100%;
+  padding: 0;
+  border: none;
   height: 12px;
   background-color: #EAECF5; }
-  .test-progress .test-progress-bar {
+  .bar.test-progress .test-progress-bar {
     height: 12px;
     background-color: #4BA7E5;
     -webkit-transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 250ms;

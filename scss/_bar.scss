@@ -28,8 +28,14 @@
       border-bottom: 4px solid $positive;
     }
   }
-  .button {
-    min-height: 44px;
+  .has-subtitle-nav {
+    line-height: 2.1em;
+  }
+  .subtitle-nav {
+    font-family: $sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    top: 0.9em;
   }
   .button.button-icon {
     .icon:before {
