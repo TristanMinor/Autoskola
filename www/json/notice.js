@@ -1,6 +1,7 @@
 var NoticeList = {
   "notice": [{
     "id": 1,
+    "type": "notice",
     "points": 1,
     "question": "Na bicykli sa jazdí predovšetkým",
     "answers": [{
@@ -19,6 +20,7 @@ var NoticeList = {
     }]
   }, {
     "id": 2,
+    "type": "notice",
     "points": 1,
     "question": "Vozidlo sa považuje za technicky nespôsobilé na premávku na pozemných komunikáciách, ak",
     "answers": [{
@@ -35,6 +37,7 @@ var NoticeList = {
     }]
   }, {
     "id": 3,
+    "type": "notice",
     "points": 1,
     "question": "Hĺbka hlavných drážok v stredovej časti povrchu dezénu pneumatiky, ktorý pokrýva približne tri štvrtiny šírky povrchu dezénu jazdnej plochy pneumatiky, nesmie byť menej ako",
     "answers": [{

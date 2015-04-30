@@ -1,4 +1,4 @@
-{
+var TestsList = {
   "tests": [{
     "id": 1,
     "questions": [{

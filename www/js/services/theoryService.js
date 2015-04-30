@@ -23,7 +23,7 @@ angular.module('autoskola')
 
     function searchForLawExplanation(id) {
         var e;
-        var question = LawService.getQuestion($state.params.id);
+        var question = LawService.getQuestion(id);
         var explanations = [];
         // for each explanation
         question.explanation.forEach(function(xpln) {
@@ -49,7 +49,7 @@ angular.module('autoskola')
 
     function searchForNoticeExplanation(id) {
         var e;
-        var question = NoticeService.getQuestion($state.params.id);
+        var question = NoticeService.getQuestion(id);
         var explanations = [];
         // for each explanation
         question.explanation.forEach(function(xpln) {
@@ -74,7 +74,7 @@ angular.module('autoskola')
     }
 
     function searchForSignsExplanation(id) {
-        var question = SignsService.getQuestion($state.params.id);
+        var question = SignsService.getQuestion(id);
         var explanations = [];
         // for each explanation
         question.explanation.forEach(function(xpln) {
@@ -84,7 +84,7 @@ angular.module('autoskola')
     }
 
     function searchForSituationsExplanation(id) {
-        var question = SituationsService.getQuestion($state.params.id);
+        var question = SituationsService.getQuestion(id);
         var explanations = [];
         // for each explanation
         question.explanation.forEach(function(xpln) {

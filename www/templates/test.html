@@ -18,7 +18,10 @@
     <!--{{ answers }}-->
 
     <ion-slide-box active-slide="view.question" on-slide-changed="slideHasChanged($index)">
-      <ion-slide ng-repeat="question in questions">
+      <ion-slide ng-repeat="question in questions" class="test-slide">
+        <div ng-if="question.image.src" class="question-image">
+          <img src="{{ question.image.src}}" alt="">
+        </div>
         <div class="question-text" style="width:100%">
           <div class="question-question">
             <p>{{ question.question }}</p>
@@ -46,20 +49,41 @@
 
   <!-- Check questions in the end  -->
   <div ng-if="params.immediately == 'false'">
-    <button ng-disabled="!view.selectedAnswer && view.selectedAnswer != 0" ng-if="view.question < (questions.length - 1)" class="button button-footer button-positive " ng-click="next()">Ďalšia otázka</button>
-    <button ng-disabled="!view.selectedAnswer && view.selectedAnswer != 0" ng-if="view.question === (questions.length - 1)" class="button button-footer button-positive " ng-click="result()">Vyhodnotiť test</button>
+    <button
+      ng-disabled="!view.selectedAnswer && view.selectedAnswer != 0"
+      ng-if="view.question < (questions.length - 1)"
+      class="button button-footer button-positive "
+      ng-click="next()">Ďalšia otázka</button>
+    <button
+      ng-disabled="!view.selectedAnswer && view.selectedAnswer != 0" n
+      g-if="view.question === (questions.length - 1)"
+      class="button button-footer button-positive"
+      ng-click="result()">Vyhodnotiť test</button>
   </div>
 
   <!-- Check questions immediately  -->
   <div ng-if="params.immediately == 'true'">
     <ion-footer-bar class="bar-buttons row">
-      <div class="col">
-        <button class="button button-block button-stable icon icon-explain" ng-click="openModalExplaining()" ng-disabled="!view.checked"></button>
+      <div class="col col-10">
+        <button
+          class="button button-block button-stable icon icon-explain"
+          ng-click="openModalExplaining()"
+          ng-disabled="!view.checked"></button>
       </div>
-      <div class="col">
-        <button ng-if="!view.checked" class="button button-block button-positive" ng-click="check()" ng-disabled="!view.selectedAnswer && view.selectedAnswer != 0">Skontroluj odpoveď</button>
-        <button ng-if="view.checked && view.question < (questions.length - 1)" class="button button-block button-positive" ng-click="next()">Ďalšia otázka</button>
-        <button ng-if="view.checked && view.question === (questions.length - 1)" class="button button-block button-positive" ng-click="result()">Vyhodnotiť test</button>
+      <div class="col col-90">
+        <button
+          ng-if="!view.checked"
+          class="button button-block button-positive"
+          ng-click="check()"
+          ng-disabled="!view.selectedAnswer && view.selectedAnswer != 0">Skontroluj odpoveď</button>
+        <button
+          ng-if="view.checked && view.question < (questions.length - 1)"
+          class="button button-block button-positive"
+          ng-click="next()">Ďalšia otázka</button>
+        <button
+          ng-if="view.checked && view.question === (questions.length - 1)"
+          class="button button-block button-positive"
+          ng-click="result()">Vyhodnotiť test</button>
       </div>
     </ion-footer-bar>
   </div>

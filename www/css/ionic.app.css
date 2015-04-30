@@ -7733,12 +7733,6 @@ ul li {
   font-size: 17px;
   font-weight: 500; }
 
-.bar.bar-buttons {
-  height: 76px; }
-  .bar.bar-buttons .button.button-block {
-    height: 56px;
-    margin: 0; }
-
 .platform-ios.platform-cordova:not(.fullscreen) .bar-header:not(.bar-subheader) {
   height: 76px; }
 
@@ -7772,6 +7766,13 @@ ul li {
     font-size: 24px; }
   .bar .button.button-icon:before, .bar .button.button-icon.icon-left:before, .bar .button.button-icon.icon-right:before {
     font-size: 24px; }
+
+.bar.bar-buttons {
+  height: 76px;
+  background-color: rgba(255, 255, 255, 0.9); }
+  .bar.bar-buttons .button.button-block {
+    height: 56px;
+    margin: 0; }
 
 .button-footer {
   height: 56px; }

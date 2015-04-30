@@ -1,6 +1,7 @@
 var LawList = {
   "law": [{
     "id": 1,
+    "type": "law",
     "points": 2,
     "question": "Dať prednosť v jazde sa rozumie",
     "answers": [{
@@ -19,6 +20,7 @@ var LawList = {
     }]
   }, {
     "id": 2,
+    "type": "law",
     "points": 2,
     "question": "Motorové vozidlo musí mať počas jazdy rozsvietené",
     "answers": [{
@@ -35,6 +37,7 @@ var LawList = {
     }]
   }, {
     "id": 3,
+    "type": "law",
     "points": 2,
     "question": "Vodič",
     "answers": [{
@@ -44,7 +47,7 @@ var LawList = {
       "text": "nesmie počas vedenie vozidla telefonovať alebo inak používať telefónny prístroj okrem telefonovania s použitím systému <i>voľné ruky</i>,",
       "correct": true
     }, {
-      "text": "stretávacie svetlomety alebo im na roveň postavené osvetlenie.",
+      "text": "nesmie počas vedenia vozidla počúvať rádio.",
       "correct": false
     }],
     "explanation": [{
@@ -53,6 +56,7 @@ var LawList = {
     }]
   }, {
     "id": 4,
+    "type": "law",
     "points": 2,
     "question": "Ak jazdné pruhy nie sú na vozovke vyznačené, jazdným pruhom sa rozumie časť vozovky dovoľujúca jazdu vozidiel",
     "answers": [{
@@ -71,6 +75,7 @@ var LawList = {
     }]
   }, {
     "id": 5,
+    "type": "law",
     "points": 2,
     "question": "Vodič predchádzaného vozidla nesmie",
     "answers": [{
@@ -89,6 +94,7 @@ var LawList = {
     }]
   }, {
     "id": 6,
+    "type": "law",
     "points": 2,
     "question": "Vodič smie jazdiť len primeranou rýchlosťou, aby bol schopný zastaviť vozidlo na vzdialenosť",
     "answers": [{
@@ -107,6 +113,7 @@ var LawList = {
     }]
   }, {
     "id": 7,
+    "type": "law",
     "points": 2,
     "question": "Vodič odbočujúci vľavo je povinný dať prednosť v jazde",
     "answers": [{
@@ -123,6 +130,7 @@ var LawList = {
     }]
   }, {
     "id": 8,
+    "type": "law",
     "points": 2,
     "question": "Ak vodič, ktorý chce zastaviť alebo stáť, zachádza na okraj cesty alebo chodníka",
     "answers": [{
@@ -139,6 +147,7 @@ var LawList = {
     }]
   }, {
     "id": 9,
+    "type": "law",
     "points": 2,
     "question": "Účastník dopravnej nehody",
     "answers": [{
@@ -155,6 +164,7 @@ var LawList = {
     }]
   }, {
     "id": 10,
+    "type": "law",
     "points": 2,
     "question": "Prerušované žlté svetlo použité samostatne alebo v spojení s dopravnou značkou",
     "answers": [{
@@ -171,6 +181,7 @@ var LawList = {
     }]
   }, {
     "id": 11,
+    "type": "law",
     "points": 2,
     "question": "Úprava cestnej premávky vykonaná dopravnými značkami a dopravnými zariadeniami",
     "answers": [{
@@ -187,6 +198,7 @@ var LawList = {
     }]
   }, {
     "id": 12,
+    "type": "law",
     "points": 2,
     "question": "Ak sa vodič motorového vozidla, ktoré je povinne vybavené bezpečnostným odevom, zdržiava na vozovke mimo vozidla počas núdzového státia, najmä pri prerušení jazdy pre chybu na vozidle alebo v dôsledku dopravnej nehody, je povinný",
     "answers": [{

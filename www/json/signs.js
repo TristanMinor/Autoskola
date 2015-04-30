@@ -3,6 +3,7 @@ var SignsList = {
     "section": "Výstražné značky",
     "questions": [{
       "id": 1,
+      "type": "sign",
       "name": "Zákruta vpravo",
       "points": 2,
       "question": "Táto dopravná značka znamená:",
@@ -26,6 +27,7 @@ var SignsList = {
       }
     }, {
       "id": 2,
+      "type": "sign",
       "name": "Zákruta vľavo",
       "points": 2,
       "question": "Táto dopravná značka znamená:",
@@ -47,6 +49,7 @@ var SignsList = {
       }
     }, {
       "id": 3,
+      "type": "sign",
       "name": "Dvojitá zákruta, prvá vpravo",
       "points": 2,
       "explanation": [{
@@ -57,6 +60,7 @@ var SignsList = {
       }
     }, {
       "id": 4,
+      "type": "sign",
       "name": "Dvojitá zákruta, prvá vľavo",
       "points": 2,
       "explanation": [{
@@ -67,6 +71,7 @@ var SignsList = {
       }
     }, {
       "id": 5,
+      "type": "sign",
       "name": "Zákruty v úseku 2 km, prvá vpravo",
       "points": 2,
       "explanation": [{
@@ -77,6 +82,7 @@ var SignsList = {
       }
     }, {
       "id": 6,
+      "type": "sign",
       "name": "Štyri zákruty, prvá vpravo",
       "points": 2,
       "explanation": [{
@@ -87,6 +93,7 @@ var SignsList = {
       }
     }, {
       "id": 7,
+      "type": "sign",
       "name": "Nebezpečné klesanie",
       "points": 2,
       "explanation": [{
@@ -97,6 +104,7 @@ var SignsList = {
       }
     }, {
       "id": 8,
+      "type": "sign",
       "name": "Nebezpečné stúpanie",
       "points": 2,
       "explanation": [{
@@ -107,6 +115,7 @@ var SignsList = {
       }
     }, {
       "id": 9,
+      "type": "sign",
       "name": "Zúžená vozovka z oboch strán",
       "points": 2,
       "explanation": [{
@@ -120,6 +129,7 @@ var SignsList = {
     "section": "Značky upravujúce prednosť v jazde",
     "questions": [{
       "id": 49,
+      "type": "sign",
       "name": "Križovatka, kde nie je prednosť v jazde upravená značkami",
       "points": 2,
       "question": "Táto dopravná značka upozorňuje na",
@@ -144,6 +154,7 @@ var SignsList = {
     "section": "Zákazové značky",
     "questions": [{
       "id": 76,
+      "type": "sign",
       "name": "Zákaz vjazdu vyznačených vozidiel",
       "points": 2,
       "question": "Táto dopravná značka zakazuje",
@@ -168,6 +179,7 @@ var SignsList = {
     "section": "Informatívne smerové značky",
     "questions": [{
       "id": 198,
+      "type": "sign",
       "name": "Smerová tabuľa (s jedným cieľom)",
       "points": 2,
       "question": " Táto dopravná značka",
@@ -189,6 +201,7 @@ var SignsList = {
       }
     }, {
       "id": 206,
+      "type": "sign",
       "name": "Smerová tabuľa ku komunálnemu cieľu",
       "points": 2,
       "question": "Táto dopravná značka znamená",
@@ -210,6 +223,7 @@ var SignsList = {
       }
     }, {
       "id": 209,
+      "type": "sign",
       "name": "Iný názov",
       "points": 2,
       "question": "Táto dopravná značka",
@@ -231,6 +245,7 @@ var SignsList = {
       }
     }, {
       "id": 211,
+      "type": "sign",
       "name": "Koniec obce",
       "points": 2,
       "question": "Táto dopravná značka znamená",
@@ -255,6 +270,7 @@ var SignsList = {
     "section": "Dodatkové tabuľky",
     "questions": [{
       "id": 238,
+      "type": "sign",
       "name": "Úsek platnosti",
       "points": 2,
       "question": "Táto dopravná značka znamená",
@@ -279,6 +295,7 @@ var SignsList = {
     "section": "Dopravné zariadenia",
     "questions": [{
       "id": 296,
+      "type": "sign",
       "name": "Úsek platnosti",
       "points": 2,
       "question": "Takéto označenie sa musí použiť na",
