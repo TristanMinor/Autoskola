@@ -18,8 +18,12 @@
         <ion-list type="list list-uneditable rewards">
           <ion-item ng-repeat="reward in rewards" href="" class="item item-thumbnail-left item-uneditable" ng-click="unlockReward(reward)" ng-class="{'unlocked': localData[reward.id].unlocked, 'locked': !localData[reward.id].unlocked}">
             <img src="{{ reward.image }}" alt="">
-            <div class="item-inner">
+            <div class="item-inner" ng-if="localData[reward.id].unlocked">
               <h2>{{ reward.name }}</h2>
+              <p>{{ reward.description }}</p>
+            </div>
+            <div class="item-inner" ng-if="!localData[reward.id].unlocked">
+              <h2>Neznáma odmena</h2>
               <p>{{ reward.description }}</p>
             </div>
           </ion-item>
