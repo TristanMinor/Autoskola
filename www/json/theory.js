@@ -168,7 +168,7 @@ var TheoryList = {
       }, {
         "id": 2,
         "headline": "Platné doklady",
-        "image": "img/theory/img.png",
+        "image": "img/theory/003_papers.png",
         "paragraph": "Vodič je povinný mať pri sebe platné doklady predpísané týmto zákonom alebo osobitným predpisom:",
         "list": [{
           "listitem": "OP – Občianský preukaz"
@@ -649,7 +649,7 @@ var TheoryList = {
       }, {
         "id": 2,
         "headline": "Predchádzanie vpravo",
-        "image": "img/theory/img.png",
+        "image": "img/theory/013_bypassingOnRight.png",
         "paragraph": "Vpravo sa predchádza vozidlo, ktoré mení smer jazdy vľavo a ak už nie je pochybnosť o ďalšom smere jeho jazdy."
       }, {
         "id": 3,
@@ -747,7 +747,7 @@ var TheoryList = {
       }, {
         "id": 2,
         "headline": "Najvyššie dovolené rýchlosti",
-        "image": "img/theory/img.png",
+        "image": "img/theory/014_speeds.png",
         "paragraph": "Vodič autobusu a vodič motorového vozidla s najväčšou prípustnou celkovou hmotnosťou neprevyšujúcou 3 500 kg smie jazdiť rýchlosťou <b>najviac 90 km/h</b>. Na diaľnici a na rýchlostnej ceste vodič autobusu smie jazdiť rýchlosťou <b>najviac 100 km/h</b> a vodič motorového vozidla s najväčšou prípustnou celkovou hmotnosťou neprevyšujúcou 3 500 kg rýchlosťou <b>najviac 130 km/h</b>.<br>— <br>Vodič iného motorového vozidla, ako sa uvádza v odseku 2, ako aj vodič autobusu s prípojným vozidlom, ktorého najväčšia prípustná celková hmotnosť prevyšuje 750 kg, a vodič motorového vozidla s najväčšou prípustnou celkovou hmotnosťou neprevyšujúcou 3 500 kg s prípojným vozidlom, ktorého najväčšia prípustná celková hmotnosť prevyšuje 750 kg, smú jazdiť rýchlosťou <b>najviac 90 km/h</b>. Vodič smie v obci jazdiť rýchlosťou <b>najviac 50 km/h</b>, a ak ide po diaľnici v obci alebo po rýchlostnej ceste v obci, <b>najviac 90 km/h</b>."
       }, {
         "id": 3,
@@ -1036,7 +1036,7 @@ var TheoryList = {
       }, {
         "id": 4,
         "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "image": "img/theory/021_standAndStop.png",
         "paragraph": "Pri státí musí zostať voľný aspoň jeden jazdný pruh široký najmenej <b>3 m pre každý smer jazdy (spolu 6 m)</b>. Pri zastavení musí zostať voľný aspoň jeden jazdný pruh široký najmenej <b>3 m pre oba smery jazdy (spolu 3 m)</b>."
       }, {
         "id": 5,
