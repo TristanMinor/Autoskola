@@ -23,7 +23,11 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 @import '_progres.scss';
 @import '_popup.scss';
 
-ion-content {
+ion-content.bg-light {
+  background-color: $light;
+}
+
+ion-content.bg-stable {
   background-color: $stable;
 }
 

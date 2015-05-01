@@ -45,11 +45,12 @@
 .list-uneditable {
   margin-bottom: $padding-large;
   .item-divider {
+    background-color: $light;
     padding-left: $padding-large;
     padding-right: $padding-large;
   }
   .item-content {
-    background-color: $stable;
+    background-color: $light;
     padding: 20px $padding-large 0px $padding-large;
   }
 }
@@ -162,9 +163,17 @@
   }
 }
 
-.rewards {
+.list-rewards {
   margin-top: $padding-medium;
 }
+
+.list.list-progres,
+.list.list-tests {
+  .item-uneditable.item-complex {
+    margin-bottom: 0;
+  }
+}
+
 
 .item-inset {
   margin-left: $padding-large;

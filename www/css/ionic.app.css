@@ -7920,10 +7920,11 @@ ul li {
 .list-uneditable {
   margin-bottom: 72px; }
   .list-uneditable .item-divider {
+    background-color: #fff;
     padding-left: 72px;
     padding-right: 72px; }
   .list-uneditable .item-content {
-    background-color: #EAECF5;
+    background-color: #fff;
     padding: 20px 72px 0px 72px; }
 
 .item-uneditable.item-complex {
@@ -7998,8 +7999,11 @@ ul li {
 .locked h2, .locked p {
   color: #979BAA; }
 
-.rewards {
+.list-rewards {
   margin-top: 36px; }
+
+.list.list-progres .item-uneditable.item-complex, .list.list-tests .item-uneditable.item-complex {
+  margin-bottom: 0; }
 
 .item-inset {
   margin-left: 72px;
@@ -8153,7 +8157,10 @@ ul li {
     text-align: center;
     padding: 0px 10px 10px 10px; }
 
-ion-content {
+ion-content.bg-light {
+  background-color: #fff; }
+
+ion-content.bg-stable {
   background-color: #EAECF5; }
 
 .item-opened {

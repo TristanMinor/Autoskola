@@ -1,6 +1,6 @@
 <ion-view view-title="Prehľad" hide-nav-bar="true">
 
-  <div class="bar bar-stable bar-header disable-user-behavior bar-large">
+  <div class="bar bar-light bar-header disable-user-behavior bar-large">
     <div class="title title-nav">
       <a ng-click="setTab('tab-progres')" ng-class="{active: tabName == 'tab-progres'}">Progres</a>
       <a ng-click="setTab('tab-rewards')" ng-class="{active: tabName == 'tab-rewards'}">Trofeje</a>
@@ -12,7 +12,7 @@
     <div ng-switch="tabName">
 
       <div ng-switch-when="tab-progres">
-        <ion-list type="list list-uneditable progres">
+        <ion-list type="list list-uneditable list-progres">
           <ion-item href="#" class="item item-uneditable">
             <div class="item-inner">
               <h2>Zákon</h2>
@@ -61,7 +61,7 @@
       </div>
 
       <div ng-switch-when="tab-rewards">
-        <ion-list type="list list-uneditable rewards">
+        <ion-list type="list list-uneditable list-rewards">
           <ion-item ng-repeat="reward in rewards" href="" class="item item-thumbnail-left item-uneditable" ng-click="unlockReward(reward)" ng-class="{'unlocked': localDataRewards[reward.id].unlocked, 'locked': !localDataRewards[reward.id].unlocked}">
             <img ng-if="localDataRewards[reward.id].unlocked" src="{{ reward.image }}" alt="">
             <img ng-if="!localDataRewards[reward.id].unlocked" src="img/rewards/unlocked.png" alt="">
