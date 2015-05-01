@@ -5,6 +5,9 @@
   padding: 0 24px;
   border-radius: $radius-item;
   font-weight: 500;
+  &.activated {
+    box-shadow: none;
+  }
 }
 
 .button.button-stable {
@@ -15,6 +18,10 @@
   background-color: darken($stable,6);
   border: none;
   box-shadow: none;
+}
+
+.button-clear.button-stable.activated {
+  background-color: $light;
 }
 
 .button.button-light.activated {

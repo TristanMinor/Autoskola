@@ -12,18 +12,64 @@
     <div ng-switch="tabName">
 
       <div ng-switch-when="tab-progres">
+        <ion-list type="list list-uneditable progres">
+          <ion-item href="#" class="item item-uneditable">
+            <div class="item-inner">
+              <h2>Zákon</h2>
+              <div class="circles">
+                <div class="circle" ng-repeat="question in law" ng-class="{'circle-done': localDataLaw[question.id].hidden}"></div>
+              </div>
+            </div>
+            <!--<span class="item-note">{{ lawPercentage }} hej</span>-->
+          </ion-item>
+          <ion-item href="#" class="item item-uneditable">
+            <div class="item-inner">
+              <h2>Vyhláška</h2>
+              <div class="circles">
+                <div class="circle" ng-repeat="question in notice" ng-class="{'circle-done': localDataNotice[question.id].hidden}"></div>
+              </div>
+            </div>
+          </ion-item>
+          <ion-item href="#" class="item item-uneditable">
+            <div class="item-inner">
+              <h2>Značky</h2>
+              <div class="circles">
+                <div ng-repeat="section in signs">
+                  <div class="circle" ng-repeat="question in section.questions" ng-class="{'circle-done': localDataSigns[question.id].hidden}"></div>
+                </div>
+              </div>
+            </div>
+          </ion-item>
+          <ion-item href="#" class="item item-uneditable">
+            <div class="item-inner">
+              <h2>Križovatky</h2>
+              <div class="circles">
+                <div ng-repeat="section in situations">
+                  <div ng-repeat="bundle in section.bundles">
+                    <div class="circle" ng-repeat="question in bundle.questions" ng-class="{'circle-done': localDataSituations[question.id].hidden}"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ion-item>
+          <ion-item href="#" class="item item-uneditable">
+            <div class="item-inner">
+              <h2>Testy</h2>
+            </div>
+          </ion-item>
+        </ion-list>
       </div>
 
       <div ng-switch-when="tab-rewards">
         <ion-list type="list list-uneditable rewards">
-          <ion-item ng-repeat="reward in rewards" href="" class="item item-thumbnail-left item-uneditable" ng-click="unlockReward(reward)" ng-class="{'unlocked': localData[reward.id].unlocked, 'locked': !localData[reward.id].unlocked}">
-            <img ng-if="localData[reward.id].unlocked" src="{{ reward.image }}" alt="">
-            <img ng-if="!localData[reward.id].unlocked" src="img/rewards/unlocked.png" alt="">
-            <div class="item-inner" ng-if="localData[reward.id].unlocked">
+          <ion-item ng-repeat="reward in rewards" href="" class="item item-thumbnail-left item-uneditable" ng-click="unlockReward(reward)" ng-class="{'unlocked': localDataRewards[reward.id].unlocked, 'locked': !localDataRewards[reward.id].unlocked}">
+            <img ng-if="localDataRewards[reward.id].unlocked" src="{{ reward.image }}" alt="">
+            <img ng-if="!localDataRewards[reward.id].unlocked" src="img/rewards/unlocked.png" alt="">
+            <div class="item-inner" ng-if="localDataRewards[reward.id].unlocked">
               <h2>{{ reward.name }}</h2>
               <p>{{ reward.description }}</p>
             </div>
-            <div class="item-inner" ng-if="!localData[reward.id].unlocked">
+            <div class="item-inner" ng-if="!localDataRewards[reward.id].unlocked">
               <h2>Neznáma trofej</h2>
               <p>{{ reward.description }}</p>
             </div>

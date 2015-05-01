@@ -5,7 +5,6 @@ angular.module('autoskola')
 
     var data = LawList.law;
     var localData = {};
-    var loaded = false;
 
     function loadLocalStorage() {
       var storage = localStorage.getItem('law');

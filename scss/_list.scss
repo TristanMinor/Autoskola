@@ -120,6 +120,18 @@
   }
 }
 
+.item-complex.item-grid-3 {
+  float: left;
+  width: 33.33%;
+  .item-content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .item-content.activated {
+    background-color: $stable;
+  }
+}
+
 .item-icon-right {
   .icon {
     font-size: $icon-small;

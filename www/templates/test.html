@@ -1,10 +1,7 @@
 <ion-view>
 
   <div class="bar bar-light bar-header">
-    <a href="#/tabs/tests">
-      <button class="button button-icon icon icon-close"></button>
-    </a>
-    </ion-nav-buttons>
+    <button class="button button-icon icon icon-close" ng-click="showConfirmExitTest()"></button>
     <h1 class="title title-nav has-subtitle-nav">Test {{ test.id }}</h1>
     <p class="title subtitle-nav">Otázka {{view.question+1}} z {{questions.length}}</p>
   </div>

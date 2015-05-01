@@ -20,6 +20,8 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 @import "_question.scss";
 @import "_modal.scss";
 @import '_test.scss';
+@import '_progres.scss';
+@import '_popup.scss';
 
 ion-content {
   background-color: $stable;
@@ -36,4 +38,9 @@ ion-content {
 
 .appicon {
   width: 90px;
+}
+
+.backdrop.active {
+  background-color: $backdrop-bg;
+  opacity:0.8;
 }

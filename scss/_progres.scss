@@ -1,0 +1,19 @@
+.circles {
+  margin-top: 1em;
+}
+
+.circle {
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  position: relative;
+  float: left;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  background-color: darken($stable,8);
+}
+
+.circle.circle-done {
+  background-color: $positive;
+}

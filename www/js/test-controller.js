@@ -1,5 +1,5 @@
 angular.module('autoskola')
-  .controller('TestController', function ($scope, $state, $ionicSlideBoxDelegate, $ionicModal, LawService, NoticeService, SignsService, SituationsService, TheoryService, TestsService) {
+  .controller('TestController', function($scope, $state, $ionicSlideBoxDelegate, $ionicModal, $ionicPopup, LawService, NoticeService, SignsService, SituationsService, TheoryService, TestsService) {
 
     $scope.params = $state.params;
     $scope.test = {};
@@ -8,7 +8,7 @@ angular.module('autoskola')
     $scope.testExplainings = [];
     $scope.explainings = [];
 
-    $scope.optionsModel = ["a","b","c"];
+    $scope.optionsModel = ["a", "b", "c"];
     $scope.test = TestsService.getTest($scope.params.id)
 
     $scope.view = {
@@ -56,7 +56,7 @@ angular.module('autoskola')
     $ionicSlideBoxDelegate.update();
     $ionicSlideBoxDelegate.enableSlide(false);
 
-    $scope.answerSelected = function (answer, answers) {
+    $scope.answerSelected = function(answer, answers) {
       if ($scope.view.checked) {
         return false;
       }
@@ -116,5 +116,30 @@ angular.module('autoskola')
       $scope.chapter.remove();
       $scope.content.remove();
     });
+
+    $scope.showConfirmExitTest = function() {
+      var confirmPopup = $ionicPopup.confirm({
+        title: 'Ukončiť test',
+        template: 'Naozaj chceš ukončiť test?',
+        buttons: [{
+          text: 'Nie',
+          type: 'button-clear button-stable'
+        }, {
+          text: 'Áno',
+          type: 'button-clear button-positive',
+          onTap: function(e) {
+            $state.go('tabs.tests', {});
+          }
+        }]
+      });
+      confirmPopup.then(function(res) {
+        if (res) {
+          console.log('You are sure');
+          $state.go('tabs.tests', {});
+        } else {
+          console.log('You are not sure');
+        }
+      });
+    };
 
   });
