@@ -8020,6 +8020,17 @@ ul li {
       font-family: "Helvetica Neue", "Helvetica", sans-serif;
       font-weight: 500; }
 
+.list.list-chapters .item-content {
+  padding-left: 170px; }
+  .list.list-chapters .item-content .chapter-id {
+    width: 80px;
+    position: absolute;
+    top: 1.5em;
+    left: 72px;
+    padding-right: 0.8em; }
+    .list.list-chapters .item-content .chapter-id h1 {
+      text-align: center; }
+
 .item-inset {
   margin-left: 72px;
   margin-right: 72px; }

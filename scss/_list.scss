@@ -188,6 +188,26 @@
   }
 }
 
+.list.list-chapters {
+  .item-content {
+    padding-left: 170px;
+    .chapter-id {
+      width: 80px;
+      position: absolute;
+      top: 1.5em;
+      left: $padding-large;
+      padding-right: 0.8em;
+      h1 {
+        text-align: center;
+      }
+    }
+    h2 {
+    }
+    p {
+    }
+  }
+}
+
 .item-inset {
   margin-left: $padding-large;
   margin-right: $padding-large;
