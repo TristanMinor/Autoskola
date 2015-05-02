@@ -7699,6 +7699,10 @@ ul li {
 .item-content p {
   font-family: "Helvetica Neue", "Helvetica", sans-serif; }
 
+.item-note {
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  font-size: 20px; }
+
 .button {
   border: none;
   min-height: 56px;
@@ -8011,6 +8015,10 @@ ul li {
     margin-bottom: 0; }
     .list.list-progres .item-uneditable.item-complex .item-content.activated {
       background-color: #fff; }
+    .list.list-progres .item-uneditable.item-complex .item-inner {
+      font-size: 20px;
+      font-family: "Helvetica Neue", "Helvetica", sans-serif;
+      font-weight: 500; }
 
 .item-inset {
   margin-left: 72px;
@@ -8138,12 +8146,12 @@ ul li {
     transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 250ms; }
 
 .circles {
-  margin-top: 1em; }
+  margin: 1em auto; }
 
 .circle {
   display: block;
-  width: 10px;
-  height: 10px;
+  width: 16px;
+  height: 16px;
   border-radius: 50%;
   position: relative;
   float: left;
@@ -8152,7 +8160,7 @@ ul li {
   background-color: #e3e6f2; }
 
 .circle.circle-done {
-  background-color: #4BA7E5; }
+  background-color: #48C998; }
 
 .popup-container .popup {
   width: 300px;

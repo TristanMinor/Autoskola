@@ -127,7 +127,7 @@ var SignsList = {
     }, {
       "id": 23,
       "type": "sign",
-      "name": "...",
+      "name": "Pozor, zvieratá",
       "points": 2,
       "question": "Táto dopravná značka upozorňuje na",
       "answers": [{
@@ -149,7 +149,7 @@ var SignsList = {
     }, {
       "id": 30,
       "type": "sign",
-      "name": "...",
+      "name": "Tunel",
       "points": 2,
       "question": "Táto dopravná značka znamená",
       "answers": [{
@@ -174,7 +174,7 @@ var SignsList = {
     "questions": [{
       "id": 47,
       "type": "sign",
-      "name": "...",
+      "name": "Stoj, daj prednosť v jazde",
       "points": 2,
       "question": "Táto dopravná značka umiestnená pred železničným priecestím",
       "answers": [{
@@ -221,7 +221,7 @@ var SignsList = {
     "questions": [{
       "id": 69,
       "type": "sign",
-      "name": "...",
+      "name": "Zákaz vjazdu motocyklov",
       "points": 2,
       "question": " Táto dopravná značka znamená",
       "answers": [{
@@ -475,7 +475,7 @@ var SignsList = {
     "questions": [{
       "id": 296,
       "type": "sign",
-      "name": "Úsek platnosti",
+      "name": "Autobus prepravujúci deti",
       "points": 2,
       "question": "Takéto označenie sa musí použiť na",
       "answers": [{

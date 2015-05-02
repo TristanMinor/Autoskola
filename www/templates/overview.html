@@ -15,16 +15,15 @@
         <ion-list type="list list-uneditable list-progres">
           <ion-item href="#" class="item item-uneditable">
             <div class="item-inner">
-              <h2>Zákon</h2>
+              Zákon<span class="item-note">{{ lawPercentage }} 24%</span>
               <div class="circles">
                 <div class="circle" ng-repeat="question in law" ng-class="{'circle-done': localDataLaw[question.id].hidden}"></div>
               </div>
             </div>
-            <!--<span class="item-note">{{ lawPercentage }} hej</span>-->
           </ion-item>
           <ion-item href="#" class="item item-uneditable">
             <div class="item-inner">
-              <h2>Vyhláška</h2>
+              Vyhláška<span class="item-note">{{ noticePercentage }} 24%</span>
               <div class="circles">
                 <div class="circle" ng-repeat="question in notice" ng-class="{'circle-done': localDataNotice[question.id].hidden}"></div>
               </div>
@@ -32,7 +31,7 @@
           </ion-item>
           <ion-item href="#" class="item item-uneditable">
             <div class="item-inner">
-              <h2>Značky</h2>
+              Značky<span class="item-note">{{ signsPercentage }} 24%</span>
               <div class="circles">
                 <div ng-repeat="section in signs">
                   <div class="circle" ng-repeat="question in section.questions" ng-class="{'circle-done': localDataSigns[question.id].hidden}"></div>
@@ -42,7 +41,7 @@
           </ion-item>
           <ion-item href="#" class="item item-uneditable">
             <div class="item-inner">
-              <h2>Križovatky</h2>
+              Križovatky<span class="item-note">{{ situationsPercentage }} 24%</span>
               <div class="circles">
                 <div ng-repeat="section in situations">
                   <div ng-repeat="bundle in section.bundles">
@@ -54,7 +53,7 @@
           </ion-item>
           <ion-item href="#" class="item item-uneditable">
             <div class="item-inner">
-              <h2>Testy</h2>
+              Testy<span class="item-note">{{ testsPercentage }} 24%</span>
             </div>
           </ion-item>
         </ion-list>

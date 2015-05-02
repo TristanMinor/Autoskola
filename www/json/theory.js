@@ -742,7 +742,6 @@ var TheoryList = {
       "content": [{
         "id": 1,
         "headline": "Základy dodržiavania primeranej rýchlosti jazdy",
-        "image": "img/theory/img.png",
         "paragraph": "Vodič je povinný rýchlosť jazdy prispôsobiť najmä svojim schopnostiam, vlastnostiam vozidla a nákladu, poveternostným podmienkam, stavu a povahe vozovky a iným okolnostiam, ktoré možno predvídať. Vodič smie jazdiť len primeranou rýchlosťou, aby bol schopný zastaviť vozidlo na vzdialenosť, na ktorú má rozhľad."
       }, {
         "id": 2,

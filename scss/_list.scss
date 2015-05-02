@@ -178,9 +178,15 @@
     .item-content.activated {
       background-color: $light;
     }
+    .item-inner {
+      font-size: 20px;
+      font-family: $sans-serif;
+      font-weight: 500;
+      .item-note  {
+      }
+    }
   }
 }
-
 
 .item-inset {
   margin-left: $padding-large;

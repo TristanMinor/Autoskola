@@ -1,11 +1,11 @@
 .circles {
-  margin-top: 1em;
+  margin: 1em auto;
 }
 
 .circle {
   display: block;
-  width: 10px;
-  height: 10px;
+  width: 16px;
+  height: 16px;
   border-radius: 50%;
   position: relative;
   float: left;
@@ -15,5 +15,5 @@
 }
 
 .circle.circle-done {
-  background-color: $positive;
+  background-color: $balanced;
 }
