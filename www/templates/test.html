@@ -16,7 +16,7 @@
 
     <ion-slide-box active-slide="view.question" on-slide-changed="slideHasChanged($index)">
       <ion-slide ng-repeat="question in questions" class="test-slide">
-        <div ng-if="question.image.src" class="question-image">
+        <div ng-if="question.image.src" class="question-image" ng-class="{'image-sign': questions.type = 'sign', 'image-situation': questions.type = 'situation'}">
           <img src="{{ question.image.src}}" alt="">
         </div>
         <div class="question-text" style="width:100%">
@@ -52,8 +52,8 @@
       class="button button-footer button-positive "
       ng-click="next()">Ďalšia otázka</button>
     <button
-      ng-disabled="!view.selectedAnswer && view.selectedAnswer != 0" n
-      g-if="view.question === (questions.length - 1)"
+      ng-disabled="!view.selectedAnswer && view.selectedAnswer != 0"
+      ng-if="view.question === (questions.length - 1)"
       class="button button-footer button-positive"
       ng-click="result()">Vyhodnotiť test</button>
   </div>

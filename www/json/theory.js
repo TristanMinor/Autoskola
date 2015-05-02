@@ -1056,7 +1056,7 @@ var TheoryList = {
       }, {
         "id": 8,
         "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "image": "img/theory/021_standAndStopBySpecialLicense.png",
         "paragraph": "Pri zastavení a státí vedľa vozidla s parkovacím preukazom podľa <a href='#'>§ 44 ods. 4</a> vodič je povinný ponechať bočný odstup najmenej 1,2 m.",
         "blockquote": "<b>§ 44 ods. 2</b><br> Parkovací preukaz sa môže používať na vozidle prepravujúcom fyzickú osobu s ťažkým zdravotným postihnutím, ktorá je odkázaná na individuálnu prepravu alebo má praktickú alebo úplnú slepotu oboch očí."
       }, {
@@ -1085,7 +1085,7 @@ var TheoryList = {
       }, {
         "id": 14,
         "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "image": "img/theory/021_triangleDistance.png",
         "paragraph": "Vodič vozidla, ktoré je povinne vybavené prenosným výstražným trojuholníkom, je povinný tento trojuholník použiť počas núdzového státia, najmä pri prerušení jazdy pre chybu na vozidle alebo na náklade alebo v dôsledku dopravnej nehody, ak také vozidlo tvorí prekážku cestnej premávky. Vodič je povinný trojuholník umiestniť na okraji vozovky tak, aby ho prichádzajúci vodiči včas a zreteľne videli, a to vo vzdialenosti <b>najmenej 50 m</b> za vozidlom a na diaľnici a rýchlostnej ceste <b>najmenej 100 m</b> za vozidlom. V obci môže byť počas núdzového státia vzdialenosť od trojuholníka na okraji vozovky k vozidlu, ak to vyžadujú okolnosti, kratšia. Ak je vozidlo vybavené osobitným zariadením, ktoré umožňuje výstražnú funkciu smerových svietidiel, vodič je povinný ho použiť aspoň v čase, kým umiestni trojuholník na vozovke."
       }, {
         "id": 15,
@@ -1110,7 +1110,7 @@ var TheoryList = {
       }, {
         "id": 19,
         "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "image": "img/theory/021_crossroadT.png",
         "paragraph": "Zákaz zastavenia a státia na križovatke a vo vzdialenosti kratšej ako 5 m pred hranicou križovatky a 5 m za ňou neplatí v obci na križovatke tvaru <i>T</i> na náprotivnej strane vyúsťujúcej cesty"
       }, {
         "id": 20,
@@ -1255,8 +1255,8 @@ var TheoryList = {
       }, {
         "id": 3,
         "headline": "Nadpis",
-        "image": "img/theory/img.png",
-        "paragraph": " Vo vzdialenosti 50 m pred železničným priecestím a pri jeho prechádzaní vodič je povinný jazdiť rýchlosťou najviac 30 km/h; ak na priecestnom zabezpečovacom zariadení svieti prerušované biele svetlo, vodič je povinný 50 m pred železničným priecestím a pri jeho prechádzaní jazdiť rýchlosťou najviac 50 km/h. Vodič pritom nesmie zbytočne predlžovať čas prechádzania železničného priecestia."
+        "image": "img/theory/023_railroadCrossingSpeed.png",
+        "paragraph": " Vo vzdialenosti 50 m pred železničným priecestím a pri jeho prechádzaní vodič je povinný jazdiť rýchlosťou <b>najviac 30 km/h</b>; ak na priecestnom zabezpečovacom zariadení svieti prerušované biele svetlo, vodič je povinný 50 m pred železničným priecestím a pri jeho prechádzaní jazdiť rýchlosťou <b>najviac 50 km/h</b>. Vodič pritom nesmie zbytočne predlžovať čas prechádzania železničného priecestia."
       }, {
         "id": 4,
         "headline": "Nadpis",

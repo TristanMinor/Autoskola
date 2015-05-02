@@ -14,8 +14,19 @@
   width: 100%;
   text-align: center;
   margin-bottom: 1em;
-  // padding-left: $padding-large;
-  // padding-right: $padding-large;
+  &.image-sign {
+    img {
+      max-width: 40%;
+      vertical-align: center;
+      min-height: 300px;
+    }
+  }
+  &.image-situation {
+    img {
+      max-width: 100%;
+      vertical-align: center;
+    }
+  }
   img {
     max-width: 100%;
   }

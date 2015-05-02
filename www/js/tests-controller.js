@@ -5,9 +5,8 @@ angular.module('autoskola')
     $scope.selectedTest = {};
     $scope.testModal = {};
 
-    $http.get('json/tests.json').success(function(response) {
-      $scope.tests = response.tests;
-    });
+    $scope.tests = TestsList.tests;
+
 
     // Load the modal from the given template URL
     $ionicModal.fromTemplateUrl('templates/modals/modal-test.html', function($ionicModal) {

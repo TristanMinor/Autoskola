@@ -79,6 +79,7 @@
     img {
       max-width: $thumbnail-medium;
       width: auto;
+      height: auto;
       position: absolute;
       left: $padding-large;
     }
@@ -123,13 +124,13 @@
 
 .item-complex.item-grid-3 {
   float: left;
-  width: 33.33%;
+  width: 33.333%;
   .item-content {
     padding-left: 0;
     padding-right: 0;
-  }
-  .item-content.activated {
-    background-color: $stable;
+    .item-inner {
+      border: none;
+    }
   }
 }
 
@@ -163,14 +164,20 @@
   }
 }
 
-.list-rewards {
+.list.list-rewards {
   margin-top: $padding-medium;
+  .item-content.activated {
+    background-color: $light;
+  }
 }
 
-.list.list-progres,
-.list.list-tests {
+.list.list-progres {
+  margin-top: $padding-medium;
   .item-uneditable.item-complex {
     margin-bottom: 0;
+    .item-content.activated {
+      background-color: $light;
+    }
   }
 }
 

@@ -213,5 +213,39 @@ var LawList = {
     }],
     "explanation": [{
     }]
+  }, {
+    "id": 13,
+    "type": "law",
+    "points": 2,
+    "question": "Chodníkom sa rozumie",
+    "answers": [{
+      "text": "len komunikácia alebo časť cesty označená príslušnou dopravnou značkou (č. C 8),",
+      "correct": false
+    }, {
+      "text": "pravá krajnica, kde krajnica nie je, rozumie sa chodníkom pravý okraj vozovky široký jeden meter,",
+      "correct": false
+    }, {
+      "text": "komunikácia alebo časť cesty určená pre chodcov, ktorá je spravidla oddelená od vozovky výškovo alebo iným spôsobom.",
+      "correct": true
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 14,
+    "type": "law",
+    "points": 2,
+    "question": "Ak sa na vozovke nachádza súvislá snehová vrstva, ľad alebo námraza, vodič motorového vozidla kategórie M1 a N1 môže takéto vozidlo použiť v cestnej premávke, len ak",
+    "answers": [{
+      "text": "je toto vybavené na všetkých nápravách zimnými pneumatikami,",
+      "correct": true
+    }, {
+      "text": "je toto vybavené na hnacej náprave zimnými pneumatikami,",
+      "correct": false
+    }, {
+      "text": "má uzatvorené havarijné poistenie.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
   }]
 };

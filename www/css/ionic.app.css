@@ -7944,6 +7944,7 @@ ul li {
   .item-uneditable.item-thumbnail-left .item-content img {
     max-width: 80px;
     width: auto;
+    height: auto;
     position: absolute;
     left: 72px; }
 
@@ -7974,12 +7975,12 @@ ul li {
 
 .item-complex.item-grid-3 {
   float: left;
-  width: 33.33%; }
+  width: 33.333%; }
   .item-complex.item-grid-3 .item-content {
     padding-left: 0;
     padding-right: 0; }
-  .item-complex.item-grid-3 .item-content.activated {
-    background-color: #EAECF5; }
+    .item-complex.item-grid-3 .item-content .item-inner {
+      border: none; }
 
 .item-icon-right .icon {
   font-size: 24px; }
@@ -7999,11 +8000,17 @@ ul li {
 .locked h2, .locked p {
   color: #979BAA; }
 
-.list-rewards {
+.list.list-rewards {
   margin-top: 36px; }
+  .list.list-rewards .item-content.activated {
+    background-color: #fff; }
 
-.list.list-progres .item-uneditable.item-complex, .list.list-tests .item-uneditable.item-complex {
-  margin-bottom: 0; }
+.list.list-progres {
+  margin-top: 36px; }
+  .list.list-progres .item-uneditable.item-complex {
+    margin-bottom: 0; }
+    .list.list-progres .item-uneditable.item-complex .item-content.activated {
+      background-color: #fff; }
 
 .item-inset {
   margin-left: 72px;
@@ -8044,6 +8051,13 @@ ul li {
   width: 100%;
   text-align: center;
   margin-bottom: 1em; }
+  .question-image.image-sign img {
+    max-width: 40%;
+    vertical-align: center;
+    min-height: 300px; }
+  .question-image.image-situation img {
+    max-width: 100%;
+    vertical-align: center; }
   .question-image img {
     max-width: 100%; }
 
@@ -8128,14 +8142,14 @@ ul li {
 
 .circle {
   display: block;
-  width: 8px;
-  height: 8px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   position: relative;
   float: left;
   margin-right: 6px;
   margin-bottom: 6px;
-  background-color: #ced3e8; }
+  background-color: #e3e6f2; }
 
 .circle.circle-done {
   background-color: #4BA7E5; }

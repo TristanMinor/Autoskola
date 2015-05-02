@@ -31,7 +31,7 @@ var RewardsList = {
     "image": "img/rewards/dopravnePrikazania.png"
   }, {
     "id": 7,
-    "name": "…",
+    "name": "?",
     "description": "Nauč sa vsetky informatívne, prevádzkové, smerové a iné značky",
     "image": "img/rewards/unlocked.png"
   }, {
@@ -46,7 +46,7 @@ var RewardsList = {
     "image": "img/rewards/unlocked.png"
   }, {
     "id": 10,
-    "name": "…",
+    "name": "?",
     "description": "Nauč sa všetky dodatkové tabuľky",
     "image": "img/rewards/unlocked.png"
   }, {
@@ -56,7 +56,7 @@ var RewardsList = {
     "image": "img/rewards/rozsirenyObzor.png"
   }, {
     "id": 12,
-    "name": "…",
+    "name": "?",
     "description": "Nauč sa všetky dopravné zariadenia",
     "image": "img/rewards/unlocked.png"
   }, {

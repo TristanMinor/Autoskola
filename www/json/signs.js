@@ -124,10 +124,76 @@ var SignsList = {
         "src": "img/signs/A4a.svg",
         "imgType": "triangle"
       }
+    }, {
+      "id": 23,
+      "type": "sign",
+      "name": "...",
+      "points": 2,
+      "question": "Táto dopravná značka upozorňuje na",
+      "answers": [{
+        "text": "zakazuje hnať zvieratá v označenom úseku cesty,",
+        "correct": false
+      }, {
+        "text": "upozorňuje na miesto, kde sa často dobytok preháňa cez cestu, alebo na úsek. kde sa ženie dobytok po ceste,",
+        "correct": true
+      }, {
+        "text": "upozorňuje na miesto, kde často prebieha cez cestu zver",
+        "correct": false
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/A17.svg",
+        "imgType": "triangle"
+      }
+    }, {
+      "id": 30,
+      "type": "sign",
+      "name": "...",
+      "points": 2,
+      "question": "Táto dopravná značka znamená",
+      "answers": [{
+        "text": "<i>Zákaz vjazdu</i>,",
+        "correct": false
+      }, {
+        "text": "<i>Tunel</i>,",
+        "correct": true
+      }, {
+        "text": "<i>Nadchod.</i>",
+        "correct": false
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/A24.svg",
+        "imgType": "triangle"
+      }
     }]
   }, {
     "section": "Značky upravujúce prednosť v jazde",
     "questions": [{
+      "id": 47,
+      "type": "sign",
+      "name": "...",
+      "points": 2,
+      "question": "Táto dopravná značka umiestnená pred železničným priecestím",
+      "answers": [{
+        "text": "označuje zastávku železničného vozidla,",
+        "correct": false
+      }, {
+        "text": "prikazuje vodičovi zastaviť vozidlo na takom mieste, z ktorého má náležitý rozhľad na trať,",
+        "correct": true
+      }, {
+        "text": "označuje železničné priecestie strážené osobou pribratou na zaistenie bezpečnej prevádzky železničného priecestia.",
+        "correct": false
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/P2.svg",
+        "imgType": "triangle"
+      }
+    }, {
       "id": 49,
       "type": "sign",
       "name": "Križovatka, kde nie je prednosť v jazde upravená značkami",
@@ -153,6 +219,28 @@ var SignsList = {
   }, {
     "section": "Zákazové značky",
     "questions": [{
+      "id": 69,
+      "type": "sign",
+      "name": "...",
+      "points": 2,
+      "question": " Táto dopravná značka znamená",
+      "answers": [{
+        "text": "zákaz vjazdu všetkých dvojkolesových vozidiel,",
+        "correct": false
+      }, {
+        "text": "vjazd motocyklom povolený,",
+        "correct": false
+      }, {
+        "text": "zákaz vjazdu motocyklov.",
+        "correct": true
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/B8.svg",
+        "imgType": "circle"
+      }
+    }, {
       "id": 76,
       "type": "sign",
       "name": "Zákaz vjazdu vyznačených vozidiel",
@@ -176,8 +264,77 @@ var SignsList = {
       }
     }]
   }, {
+    "section": "Informatívne, prevádzkové, smerové a iné značky",
+    "questions": [{
+      "id": 144,
+      "type": "sign",
+      "name": "Jednosmerná premávka",
+      "points": 2,
+      "question": "Táto dopravná značka znamená",
+      "answers": [{
+        "text": "<i>Jednosmerná premávka</i>,",
+        "correct": true
+      }, {
+        "text": "<i>Navestná smerová tabuľa</i>,",
+        "correct": false
+      }, {
+        "text": "<i>Prikázaný smer jazdy</i>.",
+        "correct": false
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/IP3b.svg",
+        "imgType": "rectangle"
+      }
+    }, {
+      "id": 177,
+      "type": "sign",
+      "name": "Obytná zóna",
+      "points": 2,
+      "question": "Táto dopravná značka znamená",
+      "answers": [{
+        "text": "<i>Pozor deti</i>,",
+        "correct": false
+      }, {
+        "text": "<i>Obytná zóna</i>,",
+        "correct": true
+      }, {
+        "text": "<i>Označenie začiatku obce</i>.",
+        "correct": false
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/IP28a.svg",
+        "imgType": "rectangle"
+      }
+    }]
+  }, {
     "section": "Informatívne smerové značky",
     "questions": [{
+      "id": 190,
+      "type": "sign",
+      "name": "Návesť pred križovatkou",
+      "points": 2,
+      "question": "Táto dopravná značka znamená",
+      "answers": [{
+        "text": "vyznačuje križovatku s vedľajšou cestou,",
+        "correct": false
+      }, {
+        "text": "informuje o zvýšení počtu jazdných pruhov,",
+        "correct": false
+      }, {
+        "text": "informuje o smere k vyznačeným cieľom z najbližšej križovatky.",
+        "correct": true
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/IS-9.svg",
+        "imgType": "rectangle"
+      }
+    }, {
       "id": 198,
       "type": "sign",
       "name": "Smerová tabuľa (s jedným cieľom)",
@@ -196,7 +353,7 @@ var SignsList = {
       "explanation": [{
       }],
       "image": {
-        "src": "img/signs/IS-17b.jpg",
+        "src": "img/signs/IS-17b.svg",
         "imgType": "rectangle"
       }
     }, {
@@ -218,7 +375,7 @@ var SignsList = {
       "explanation": [{
       }],
       "image": {
-        "src": "img/signs/IS-23b.jpg",
+        "src": "img/signs/IS-23b.svg",
         "imgType": "rectangle"
       }
     }, {
@@ -240,7 +397,7 @@ var SignsList = {
       "explanation": [{
       }],
       "image": {
-        "src": "img/signs/IS-35.jpg",
+        "src": "img/signs/IS-35.svg",
         "imgType": "rectangle"
       }
     }, {
@@ -262,7 +419,7 @@ var SignsList = {
       "explanation": [{
       }],
       "image": {
-        "src": "img/signs/IS-35.jpg",
+        "src": "img/signs/IS-36b.svg",
         "imgType": "rectangle"
       }
     }]
@@ -290,6 +447,28 @@ var SignsList = {
         "src": "img/signs/E5.svg",
         "imgType": "rectangle"
       }
+    }, {
+      "id": 239,
+      "type": "sign",
+      "name": "Úsek platnosti",
+      "points": 2,
+      "question": "Táto dopravná značka znamená",
+      "answers": [{
+        "text": "Smer a vzdialenosť k miestam, od ktorých platí značka, pod ktorou je tabuľka umiestnená,",
+        "correct": false
+      }, {
+        "text": "Úsek platnosti,",
+        "correct": true
+      }, {
+        "text": "Smerové šípky.",
+        "correct": false
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/E5b.svg",
+        "imgType": "rectangle"
+      }
     }]
   }, {
     "section": "Dopravné zariadenia",
@@ -312,7 +491,7 @@ var SignsList = {
       "explanation": [{
       }],
       "image": {
-        "src": "img/signs/o3.png",
+        "src": "img/signs/o3.svg",
         "imgType": "rectangle"
       }
     }]
