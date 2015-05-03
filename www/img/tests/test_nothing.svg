@@ -11,7 +11,7 @@
             <mask id="mask-2" sketch:name="Rectangle 1400" fill="white">
                 <use xlink:href="#path-1"></use>
             </mask>
-            <use id="Rectangle-1400" stroke="#CFD2DA" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7,10" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+            <use id="Rectangle-1400" stroke="#CFD2DA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8,6" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
         </g>
     </g>
 </svg>
