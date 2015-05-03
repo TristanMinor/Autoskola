@@ -1,12 +1,13 @@
 angular.module('autoskola')
-  .controller('TestsController', function($scope, $state, $http, $ionicModal) {
+  .controller('TestsController', function($scope, $state, $http, $ionicModal, TestsService) {
 
     $scope.tests = [];
     $scope.selectedTest = {};
     $scope.testModal = {};
+    $scope.localDataTests = {};
 
     $scope.tests = TestsList.tests;
-
+    $scope.localDataTests = TestsService.get().localDataTests;
 
     // Load the modal from the given template URL
     $ionicModal.fromTemplateUrl('templates/modals/modal-test.html', function($ionicModal) {

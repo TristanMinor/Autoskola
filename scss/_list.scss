@@ -212,3 +212,20 @@
   margin-left: $padding-large;
   margin-right: $padding-large;
 }
+
+.test-score {
+  position: absolute;
+  top: 3.8em;
+  text-align: center;
+  display: block;
+  width: 100%;
+  h1 {
+    text-align: center;
+    font-size: 48px;
+    font-family: $serif-regular;
+    color:lighten( $link-secondary, 15);
+    &.negative {
+      color: $light;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+<ion-modal-view>
+  <ion-header-bar class="bar bar-light">
+    <button class="button button-icon icon icon-close" ng-click="closeModalResults()"></button>
+    <h1 class="title">Vyhodnotenie testu</h1>
+  </ion-header-bar>
+  <ion-content class="center">
+
+    <img ng-if="!localDataTests[test.id].score" src="img/tests/test_nothing.svg" alt="">
+    <img ng-if="localDataTests[test.id].score<50" src="img/tests/test_didntPass.svg" alt="">
+    <img ng-if="localDataTests[test.id].score>50 && localDataTests[test.id].score!=55" src="img/tests/test_passed.svg" alt="">
+    <img ng-if="localDataTests[test.id].score==55" src="img/tests/test_passed_fullPoints.svg" alt="">
+    <div class="test-score">
+      <h1 ng-if="localDataTests[test.id].score" class="negative">{{localDataTests[test.id].score}}b</h1>
+      <h1 ng-if="!localDataTests[test.id].score">0b</h1>
+    </div>
+
+    <div class="center">
+      <button class="button button-positive" ng-click="closeModalResults()">Koniec testu</button>
+    </div>
+
+  </ion-content>
+</ion-modal-view>

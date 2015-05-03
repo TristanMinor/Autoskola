@@ -3,13 +3,15 @@ angular.module('autoskola')
 
     $scope.params = $state.params;
     $scope.test = {};
+    $scope.localDataTests = {};
     $scope.questions = [];
     $scope.answers = [];
     $scope.testExplainings = [];
     $scope.explainings = [];
 
     $scope.optionsModel = ["a", "b", "c"];
-    $scope.test = TestsService.getTest($scope.params.id)
+    $scope.test = TestsService.getTest($scope.params.id);
+    $scope.localDataTests = TestsService.get().localDataTests;
 
     $scope.view = {
       question: 0,
@@ -74,20 +76,24 @@ angular.module('autoskola')
       $ionicSlideBoxDelegate.next();
       $ionicSlideBoxDelegate.enableSlide(false);
     }
-
     // show modal window with result
     $scope.result = function() {
       var good = 0;
       // for each question
       $scope.questions.forEach(function(question, questionIndex) {
+        // for each answer
         question.answers.forEach(function(answer, answerIndex) {
           if (answer.correct && $scope.answers[questionIndex] == answerIndex) {
-            good++;
+            good = good + (1*question.points);
+            // good++;
+            console.log(question.points);
           }
         });
       });
-      console.log('Good answers:', good);
-      console.log('Bad answers:', $scope.questions.length - good);
+      console.log('Good points:', good);
+      testId = $scope.test.id;
+      TestsService.updateTestScore(testId, good);
+      $scope.openModalResults();
     }
 
     // Load the modal from the given template URL
@@ -110,9 +116,25 @@ angular.module('autoskola')
       $scope.modal.hide();
     };
 
+    // Load the modal from the given template URL
+    $ionicModal.fromTemplateUrl('templates/modals/modal-results.html', function($ionicModal) {
+      $scope.modal.results = $ionicModal;
+    }, {
+      scope: $scope,
+      animation: 'slide-in-up',
+    });
+
+    $scope.openModalResults = function() {
+      $scope.modal.results.show();
+    };
+
+    $scope.closeModalResults = function() {
+      $scope.modal.results.hide();
+    };
+
     $scope.$on('$destroy', function() {
       $scope.modal.remove();
-      $scope.chapter.remove();
+      $scope.modal.results.remove();
       $scope.content.remove();
     });
 

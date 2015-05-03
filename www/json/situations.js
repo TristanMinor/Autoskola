@@ -9,6 +9,7 @@ var SituationsList = {
       "questions": [{
         "id": 1,
         "type": "situation",
+        "points": 3,
         "question": "Tam, kde sa dva jazdné pruhy zbiehajú do jedného pruhu tak, že nie je zrejmé, ktorý z nich je priebežný,",
         "answers": [{
           "text": "vodič zeleného vozidla má prednosť v jazde pred vodičom červeného vozidla,",
@@ -36,6 +37,7 @@ var SituationsList = {
       "questions": [{
         "id": 2,
         "type": "situation",
+        "points": 3,
         "question": "Vodič modrého vozidla",
         "answers": [{
           "text": "nesmie ohroziť vodiča červeného vozidla jazdiaceho v priebežnom jazdnom pruhu, do ktorého prechádza,",
@@ -60,6 +62,7 @@ var SituationsList = {
       "questions": [{
         "id": 3,
         "type": "situation",
+        "points": 3,
         "question": "Vodič modrého vozidla",
         "answers": [{
           "text": "má pred vodičom červeného a vodičom žltého vozidla prednosť, pretože v ich jazdnom pruhu sa nachádza prekážka,",
@@ -79,6 +82,7 @@ var SituationsList = {
       }, {
         "id": 4,
         "type": "situation",
+        "points": 3,
         "question": "Vozidlá prejdú okolo prekážky v tomto poradí",
         "answers": [{
           "text": "1. červené, 2. modré, 3. žlté, 4. zelené,",
@@ -98,6 +102,7 @@ var SituationsList = {
       }, {
         "id": 5,
         "type": "situation",
+        "points": 3,
         "question": "V poradí druhé prejde okolo prekážky",
         "answers": [{
           "text": "červené vozidlo,",
@@ -117,6 +122,7 @@ var SituationsList = {
       }, {
         "id": 6,
         "type": "situation",
+        "points": 3,
         "question": "V poradí tretie prejde okolo prekážky",
         "answers": [{
           "text": "zelené vozidlo",
@@ -141,6 +147,7 @@ var SituationsList = {
       "questions": [{
         "id": 7,
         "type": "situation",
+        "points": 3,
         "question": "Vodič červeného vozidla",
         "answers": [{
           "text": "je povinný umožniť vodičovi modrého vozidla obídenie prekážky,",
@@ -160,6 +167,7 @@ var SituationsList = {
       }, {
         "id": 8,
         "type": "situation",
+        "points": 3,
         "question": "V poradí druhé prejde okolo prekážky",
         "answers": [{
           "text": "žlté vozidlo",
@@ -179,6 +187,7 @@ var SituationsList = {
       }, {
         "id": 9,
         "type": "situation",
+        "points": 3,
         "question": "V poradí tretie prejde okolo prekážky",
         "answers": [{
           "text": "zelené vozidlo",
@@ -206,6 +215,7 @@ var SituationsList = {
       "questions": [{
         "id": 10,
         "type": "situation",
+        "points": 3,
         "question": "Vaše vozidlo prejde cez križovatku ako",
         "explanation": [{
         }],
@@ -215,6 +225,7 @@ var SituationsList = {
       }, {
         "id": 11,
         "type": "situation",
+        "points": 3,
         "question": "Ako posledné prejde cez križovatku",
         "explanation": [{
         }],
@@ -224,6 +235,7 @@ var SituationsList = {
       }, {
         "id": 12,
         "type": "situation",
+        "points": 3,
         "question": "Vozidlá prejdú cez križovatku v tomto poradí:",
         "explanation": [{
         }],
@@ -233,6 +245,7 @@ var SituationsList = {
       }, {
         "id": 13,
         "type": "situation",
+        "points": 3,
         "question": "V poradí druhé prejde cez križovatku",
         "explanation": [{
         }],
@@ -247,6 +260,7 @@ var SituationsList = {
       "questions": [{
         "id": 14,
         "type": "situation",
+        "points": 3,
         "question": "Vaše vozidlo, odbočujúce vľavo, prejde cez križovatku ako",
         "explanation": [{
         }],
@@ -256,6 +270,7 @@ var SituationsList = {
       }, {
         "id": 15,
         "type": "situation",
+        "points": 3,
         "question": "Vozidlá prejdú cez križovatku v tomto poradí:",
         "explanation": [{
         }],
@@ -265,6 +280,7 @@ var SituationsList = {
       }, {
         "id": 16,
         "type": "situation",
+        "points": 3,
         "question": "V poradí druhé prejde cez križovatku",
         "explanation": [{
         }],
@@ -274,6 +290,7 @@ var SituationsList = {
       }, {
         "id": 17,
         "type": "situation",
+        "points": 3,
         "question": "Ako posledné prejde cez križovatku",
         "explanation": [{
         }],
@@ -288,6 +305,7 @@ var SituationsList = {
       "questions": [{
         "id": 18,
         "type": "situation",
+        "points": 3,
         "question": "Vaše vozidlo prejde cez križovatku ako",
         "explanation": [{
         }],
@@ -297,6 +315,7 @@ var SituationsList = {
       }, {
         "id": 19,
         "type": "situation",
+        "points": 3,
         "question": "Vozidlá prejdú cez križovatku v tomto poradí:",
         "explanation": [{
         }],
@@ -306,6 +325,7 @@ var SituationsList = {
       }, {
         "id": 20,
         "type": "situation",
+        "points": 3,
         "question": "Ako prvé prejde cez križovatku",
         "explanation": [{
         }],
@@ -315,6 +335,7 @@ var SituationsList = {
       }, {
         "id": 21,
         "type": "situation",
+        "points": 3,
         "question": "V poradí posledné prejde cez križovatku",
         "explanation": [{
         }],
@@ -329,6 +350,7 @@ var SituationsList = {
       "questions": [{
         "id": 22,
         "type": "situation",
+        "points": 3,
         "question": "Vozidlá prejdú cez križovatku v tomto poradí:",
         "explanation": [{
         }],
@@ -338,6 +360,7 @@ var SituationsList = {
       }, {
         "id": 23,
         "type": "situation",
+        "points": 3,
         "question": "Ako prvé prejde cez križovatku",
         "explanation": [{
         }],
@@ -347,6 +370,7 @@ var SituationsList = {
       }, {
         "id": 24,
         "type": "situation",
+        "points": 3,
         "question": "Ako posledné prejde cez križovatku",
         "explanation": [{
         }],
@@ -356,6 +380,7 @@ var SituationsList = {
       }, {
         "id": 25,
         "type": "situation",
+        "points": 3,
         "question": "V poradí druhé prejde cez križovatku",
         "explanation": [{
         }],
@@ -370,6 +395,7 @@ var SituationsList = {
       "questions": [{
         "id": 26,
         "type": "situation",
+        "points": 3,
         "question": "Vozidlá prejdú cez križovatku v tomto poradí:",
         "explanation": [{
         }],
@@ -384,6 +410,7 @@ var SituationsList = {
       "questions": [{
         "id": 27,
         "type": "situation",
+        "points": 3,
         "question": "Vozidlá prejdú cez križovatku v tomto poradí:",
         "explanation": [{
         }],
@@ -393,6 +420,7 @@ var SituationsList = {
       }, {
         "id": 28,
         "type": "situation",
+        "points": 3,
         "question": "Ako prvé prejde cez križovatku",
         "explanation": [{
         }],
@@ -402,6 +430,7 @@ var SituationsList = {
       }, {
         "id": 29,
         "type": "situation",
+        "points": 3,
         "question": "Ako posledné prejde cez križovatku",
         "explanation": [{
         }],
@@ -411,6 +440,7 @@ var SituationsList = {
       }, {
         "id": 30,
         "type": "situation",
+        "points": 3,
         "question": "Vaše vozidlo prejde cez križovatku ako",
         "answers": [{
           "text": "prvé,",
@@ -435,6 +465,7 @@ var SituationsList = {
       "questions": [{
         "id": 31,
         "type": "situation",
+        "points": 3,
         "question": "Zelené vozidlo vojde do križovatky ako",
         "explanation": [{
         }],
@@ -444,6 +475,7 @@ var SituationsList = {
       }, {
         "id": 32,
         "type": "situation",
+        "points": 3,
         "question": "Vozidlá prejdú cez križovatku v tomto poradí:",
         "explanation": [{
         }],
@@ -453,6 +485,7 @@ var SituationsList = {
       }, {
         "id": 33,
         "type": "situation",
+        "points": 3,
         "question": "Ako prvé vojde do križovatky",
         "answers": [{
           "text": "zelené vozidlo",
@@ -472,6 +505,7 @@ var SituationsList = {
       }, {
         "id": 34,
         "type": "situation",
+        "points": 3,
         "question": "Ako druhé vojde do križovatky",
         "explanation": [{
         }],
@@ -486,6 +520,7 @@ var SituationsList = {
       "questions": [{
         "id": 35,
         "type": "situation",
+        "points": 3,
         "question": "Prednosť v jazde má vodič",
         "explanation": [{
         }],
@@ -500,6 +535,7 @@ var SituationsList = {
       "questions": [{
         "id": 36,
         "type": "situation",
+        "points": 3,
         "question": "Modré vozidlo vojde do križovatky ako",
         "explanation": [{
         }],
@@ -509,6 +545,7 @@ var SituationsList = {
       }, {
         "id": 37,
         "type": "situation",
+        "points": 3,
         "question": "Ako posledné prejde cez križovatku",
         "explanation": [{
         }],
@@ -518,6 +555,7 @@ var SituationsList = {
       }, {
         "id": 38,
         "type": "situation",
+        "points": 3,
         "question": "Vozidlá prejdú cez križovatku v tomto poradí:",
         "explanation": [{
         }],
@@ -527,6 +565,7 @@ var SituationsList = {
       }, {
         "id": 39,
         "type": "situation",
+        "points": 3,
         "question": "Ako prvé prejde cez križovatku",
         "explanation": [{
         }],
@@ -544,6 +583,7 @@ var SituationsList = {
       "questions": [{
         "id": 120,
         "type": "situation",
+        "points": 3,
         "question": "Ak má policajt pravú ruku predpaženú a ľavú upaženú, znamená to „Stoj!“ pre",
         "answers": [{
           "text": "vodiča zeleného vozidla,",
@@ -563,6 +603,7 @@ var SituationsList = {
       }, {
         "id": 121,
         "type": "situation",
+        "points": 3,
         "question": "Ak má policajt pravú ruku predpaženú a ľavú upaženú, znamená to „Voľno“ pre vodiča",
         "explanation": [{
         }],
@@ -572,6 +613,7 @@ var SituationsList = {
       }, {
         "id": 122,
         "type": "situation",
+        "points": 3,
         "question": "Ak má policajt pravú ruku predpaženú a ľavú upaženú, znamená to",
         "explanation": [{
         }],
@@ -586,6 +628,7 @@ var SituationsList = {
       "questions": [{
         "id": 123,
         "type": "situation",
+        "points": 3,
         "question": "Ak svieti signál na opustenie križovatky umiestnený v protiľahlom rohu križovatky",
         "explanation": [{
         }],
@@ -595,6 +638,7 @@ var SituationsList = {
       }, {
         "id": 124,
         "type": "situation",
+        "points": 3,
         "question": "Ak svieti signál na opustenie križovatky umiestnený v protiľahlom rohu križovatky, prejdú cez križovatku ako prvé",
         "explanation": [{
         }],
@@ -604,6 +648,7 @@ var SituationsList = {
       }, {
         "id": 125,
         "type": "situation",
+        "points": 3,
         "question": "Ak svieti signál na opustenie križovatky umiestnený v protiľahlom rohu križovatky",
         "explanation": [{
         }],
@@ -613,6 +658,7 @@ var SituationsList = {
       }, {
         "id": 126,
         "type": "situation",
+        "points": 3,
         "question": "Ako prvé prejde cez križovatku",
         "explanation": [{
         }],
@@ -627,6 +673,7 @@ var SituationsList = {
       "questions": [{
         "id": 127,
         "type": "situation",
+        "points": 3,
         "question": "Ako prvé prejde cez križovatku",
         "explanation": [{
         }],
@@ -636,6 +683,7 @@ var SituationsList = {
       }, {
         "id": 128,
         "type": "situation",
+        "points": 3,
         "question": "V poradí druhé prejde cez križovatku",
         "explanation": [{
         }],
@@ -645,6 +693,7 @@ var SituationsList = {
       }, {
         "id": 129,
         "type": "situation",
+        "points": 3,
         "question": "Vodič červeného vozidla smie",
         "explanation": [{
         }],
@@ -659,6 +708,7 @@ var SituationsList = {
       "questions": [{
         "id": 130,
         "type": "situation",
+        "points": 3,
         "question": "Na tento pokyn policajta",
         "explanation": [{
         }],
@@ -668,6 +718,7 @@ var SituationsList = {
       }, {
         "id": 131,
         "type": "situation",
+        "points": 3,
         "question": "Tento pokyn policajta znamená „Stoj“ pre vodiča",
         "explanation": [{
         }],
@@ -677,6 +728,7 @@ var SituationsList = {
       }, {
         "id": 132,
         "type": "situation",
+        "points": 3,
         "question": "Na tento pokyn policajta môže vodič",
         "explanation": [{
         }],
@@ -691,6 +743,7 @@ var SituationsList = {
       "questions": [{
         "id": 133,
         "type": "situation",
+        "points": 3,
         "question": "Ak má policajt pravú ruku predpaženú a ľavú upaženú, znamená to „Stoj!“ pre",
         "explanation": [{
         }],
@@ -700,6 +753,7 @@ var SituationsList = {
       }, {
         "id": 134,
         "type": "situation",
+        "points": 3,
         "question": "Ak má policajt pravú ruku predpaženú a ľavú upaženú, znamená to „Voľno“ pre vodiča",
         "explanation": [{
         }],
@@ -709,6 +763,7 @@ var SituationsList = {
       }, {
         "id": 135,
         "type": "situation",
+        "points": 3,
         "question": "Ak má policajt pravú ruku predpaženú a ľavú upaženú, znamená to",
         "explanation": [{
         }],
@@ -723,6 +778,7 @@ var SituationsList = {
       "questions": [{
         "id": 136,
         "type": "situation",
+        "points": 3,
         "question": "Modré vozidlo prejde cez križovatku ako",
         "explanation": [{
         }],
@@ -732,6 +788,7 @@ var SituationsList = {
       }, {
         "id": 137,
         "type": "situation",
+        "points": 3,
         "question": "Ako prvé vozidlo prejde cez križovatku",
         "explanation": [{
         }],
@@ -741,6 +798,7 @@ var SituationsList = {
       }, {
         "id": 138,
         "type": "situation",
+        "points": 3,
         "question": "V poradí druhé prejde cez križovatku",
         "explanation": [{
         }],
@@ -750,6 +808,7 @@ var SituationsList = {
       }, {
         "id": 139,
         "type": "situation",
+        "points": 3,
         "question": "V poradí tretie prejde cez križovatku",
         "explanation": [{
         }],

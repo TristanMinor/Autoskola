@@ -8039,6 +8039,20 @@ ul li {
   margin-left: 72px;
   margin-right: 72px; }
 
+.test-score {
+  position: absolute;
+  top: 3.8em;
+  text-align: center;
+  display: block;
+  width: 100%; }
+  .test-score h1 {
+    text-align: center;
+    font-size: 48px;
+    font-family: "preto_serif_ot_std_regular", serif;
+    color: #c1c4cc; }
+    .test-score h1.negative {
+      color: #fff; }
+
 .chapter-text {
   padding-left: 72px;
   padding-right: 72px; }
