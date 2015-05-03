@@ -108,5 +108,16 @@
     "id": 5
   }, {
     "id": 6
+  }, {
+    "id":36,
+    "questions": [{
+      "id": 1,
+      "type": "law",
+      "questionId": 1
+    }, {
+      "id": 2,
+      "type": "law",
+      "questionId": 2  
+    }]
   }]
 }

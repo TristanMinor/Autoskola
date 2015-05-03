@@ -114,5 +114,101 @@ var TestsList = {
     "id": 8
   }, {
     "id": 9
+  }, {
+    "id":36,
+    "questions": [{
+      "id": 1,
+      "type": "law",
+      "questionId": 1
+    }, {
+      "id": 2,
+      "type": "law",
+      "questionId": 2
+    }, {
+      "id": 3,
+      "type": "law",
+      "questionId": 3
+    }, {
+      "id": 4,
+      "type": "law",
+      "questionId": 4
+    }, {
+      "id": 5,
+      "type": "law",
+      "questionId": 5
+    }, {
+      "id": 6,
+      "type": "law",
+      "questionId": 6
+    }, {
+      "id": 7,
+      "type": "law",
+      "questionId": 7
+    }, {
+      "id": 8,
+      "type": "law",
+      "questionId": 8
+    }, {
+      "id": 9,
+      "type": "law",
+      "questionId": 9
+    }, {
+      "id": 10,
+      "type": "law",
+      "questionId": 10
+    }, {
+      "id": 11,
+      "type": "law",
+      "questionId": 11
+    }, {
+      "id": 12,
+      "type": "law",
+      "questionId": 12
+    }, {
+      "id": 13,
+      "type": "law",
+      "questionId": 13
+    }, {
+      "id": 14,
+      "type": "law",
+      "questionId": 14
+    }]
+  }, {
+    "id":37,
+    "questions": [{
+      "id": 1,
+      "type": "notice",
+      "questionId": 1
+    }, {
+      "id": 2,
+      "type": "notice",
+      "questionId": 2
+    }, {
+      "id": 3,
+      "type": "notice",
+      "questionId": 3
+    }]
+  }, {
+    "id":38,
+    "questions": [{
+      "id": 1,
+      "type": "sign",
+      "questionId": 1
+    }, {
+      "id": 2,
+      "type": "sign",
+      "questionId": 2
+    }]
+  }, {
+    "id":39,
+    "questions": [{
+      "id": 1,
+      "type": "situation",
+      "questionId": 1
+    }, {
+      "id": 2,
+      "type": "situation",
+      "questionId": 2
+    }]
   }]
 }

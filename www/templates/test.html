@@ -2,7 +2,8 @@
 
   <div class="bar bar-light bar-header">
     <button class="button button-icon icon icon-close" ng-click="showConfirmExitTest()"></button>
-    <h1 class="title title-nav has-subtitle-nav">Test {{ test.id }}</h1>
+    <h1 ng-if="test.id<36" class="title title-nav has-subtitle-nav">Test {{ test.id }}</h1>
+    <h1 ng-if="test.id>35" class="title title-nav has-subtitle-nav">{{ params.testname }}</h1>
     <p class="title subtitle-nav">Otázka {{view.question+1}} z {{questions.length}}</p>
   </div>
 
@@ -49,7 +50,7 @@
     <button
       ng-disabled="!view.selectedAnswer && view.selectedAnswer != 0"
       ng-if="view.question < (questions.length - 1)"
-      class="button button-footer button-positive "
+      class="button button-footer button-balanced "
       ng-click="next()">Ďalšia otázka</button>
     <button
       ng-disabled="!view.selectedAnswer && view.selectedAnswer != 0"
@@ -75,7 +76,7 @@
           ng-disabled="!view.selectedAnswer && view.selectedAnswer != 0">Skontroluj odpoveď</button>
         <button
           ng-if="view.checked && view.question < (questions.length - 1)"
-          class="button button-block button-positive"
+          class="button button-block button-balanced"
           ng-click="next()">Ďalšia otázka</button>
         <button
           ng-if="view.checked && view.question === (questions.length - 1)"

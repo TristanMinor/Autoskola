@@ -20,7 +20,6 @@ angular.module('autoskola')
     // fill questions from test with real data
     // from the questions
     $scope.test.questions.forEach(function(question) {
-      console.log($state.params.id);
       switch (question.type) {
         case 'law':
           var q = LawService.getQuestion(question.questionId);
@@ -128,7 +127,11 @@ angular.module('autoskola')
           text: 'Áno',
           type: 'button-clear button-positive',
           onTap: function(e) {
-            $state.go('tabs.tests', {});
+            if ($state.params.id<36) {
+              $state.go('tabs.tests', {});
+            } else {
+              $state.go('tabs.questions', {});
+            }
           }
         }]
       });

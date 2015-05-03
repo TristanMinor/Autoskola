@@ -93,7 +93,7 @@ angular.module('autoskola', ['ionic'])
   })
 
   .state('test', {
-    url: '/test/:id/:immediately',
+    url: '/test/:id/:immediately/:testname',
     templateUrl: 'templates/test.html',
     controller: 'TestController'
   })

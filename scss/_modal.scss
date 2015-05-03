@@ -1,7 +1,6 @@
 .modal-backdrop-bg {
   background-color: $backdrop-bg;
 }
-
 .modal-fullscreen {
   top: inherit;
   bottom: 0;
@@ -17,7 +16,6 @@
     padding-bottom: $padding-large;
   }
 }
-
 @media (min-width: 680px) {
   .active {
     .modal-backdrop-bg {
@@ -28,17 +26,19 @@
         @include border-radius($radius-item);
         .bar-header {
           @include border-top-radius($radius-item);
-          border: none;
+          border-bottom: 1px solid $line;
         }
         .scroll-content {
           @include border-bottom-radius($radius-item);
           background-color: $light;
         }
+        .item {
+          text-align: left;
+        }
       }
     }
   }
 }
-
 .modal-image {
   padding-top: $padding-medium;
   padding-bottom: $padding-medium;

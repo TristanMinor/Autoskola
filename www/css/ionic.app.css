@@ -7701,7 +7701,11 @@ ul li {
 
 .item-note {
   font-family: "Helvetica Neue", "Helvetica", sans-serif;
-  font-size: 20px; }
+  font-size: 17px; }
+
+.item-radio.radio-basic .item-content {
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  font-size: 17px; }
 
 .button {
   border: none;
@@ -8132,13 +8136,15 @@ ul li {
       border-top-right-radius: 6px;
       -webkit-border-top-left-radius: 6px;
       border-top-left-radius: 6px;
-      border: none; }
+      border-bottom: 1px solid #DDD; }
     .active .modal-wrapper .modal .scroll-content {
       -webkit-border-bottom-right-radius: 6px;
       border-bottom-right-radius: 6px;
       -webkit-border-bottom-left-radius: 6px;
       border-bottom-left-radius: 6px;
-      background-color: #fff; } }
+      background-color: #fff; }
+    .active .modal-wrapper .modal .item {
+      text-align: left; } }
 
 .modal-image {
   padding-top: 36px;
