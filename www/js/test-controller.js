@@ -130,6 +130,11 @@ angular.module('autoskola')
 
     $scope.closeModalResults = function() {
       $scope.modal.results.hide();
+      if ($state.params.id<36) {
+        $state.go('tabs.tests', {});
+      } else {
+        $state.go('tabs.questions', {});
+      }
     };
 
     $scope.$on('$destroy', function() {
