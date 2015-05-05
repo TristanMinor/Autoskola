@@ -1,52 +1,47 @@
 angular.module('autoskola')
-  .controller('QuestionsSituationsQuestionController', function($scope, $http, $state, $ionicModal) {
-    $scope.data = [];
+  .controller('QuestionsSituationsQuestionController', function($scope, $state, $ionicModal, SituationsService, TheoryService) {
 
-    // load json from file
-    $http.get('json/situations.json').success(function(response) {
+    $scope.localData = {};
+    $scope.explainings = [];
 
-      // put content of json file to data variable
-      var data = response.situations;
-      var question = null;
+    $scope.optionsModel = ["a", "b", "c"];
+    $scope.localData = SituationsService.get().localData;
+    $scope.question = SituationsService.getQuestion($state.params.id);
+    $scope.explainings = TheoryService.getSituationsExplanation($state.params.id);
 
-      // for each item in situations data
-      data.forEach(function(item) {
-        // for each bundle in section
-        item.bundles.forEach(function(bndl) {
-          //for each question in bundle
-          bndl.questions.forEach(function(qstn) {
-            if (qstn.id == $state.params.id) {
-              question = qstn;
-            }
-          });
-        });
-      });
-
-      $scope.question = question;
-
-    });
-
-    $scope.optionsModel = ["a","b","c"];
+    $scope.pinQuestion = function(item) {
+      SituationsService.pinQuestion(item);
+    }
 
     // Load the modal from the given template URL
     $ionicModal.fromTemplateUrl('templates/modals/modal-explaining.html', function($ionicModal) {
       $scope.modal = $ionicModal;
     }, {
-      // Use the scope for the scope of the modal to keep it simple
       scope: $scope,
-      // The animation
       animation: 'slide-in-up'
     });
-
     $scope.openModal = function() {
       $scope.modal.show();
     };
     $scope.closeModal = function() {
       $scope.modal.hide();
     };
-    //Cleanup the modal when we're done with it!
     $scope.$on('$destroy', function() {
       $scope.modal.remove();
     });
+
+    $scope.goToNextQuestion = function() {
+      $state.go('search', {
+        animation: 'slide-in-left'
+      });
+      console.log("swiped left");
+    };
+
+    $scope.goToPreviousQuestion = function() {
+      $state.go('tabs.questions', {
+        animation: 'slide-in-right'
+      });
+      console.log("swiped right");
+    };
 
   });

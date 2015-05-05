@@ -1,7 +1,7 @@
 <ion-view view-title="{{ chapter.name }}">
   <ion-nav-bar class="bar-light">
     <ion-nav-buttons side="primary">
-      <a nav-direction="back" href="#/theory">
+      <a nav-direction="back" href="#/tabs/theory">
         <button class="button button-icon icon icon-back"></button>
       </a>
     </ion-nav-buttons>
@@ -9,7 +9,7 @@
   <ion-content class="item-opened">
     <div ng-repeat="item in chapter.content">
 
-      <div class="chapter-text ce" as-blockquote-collapser>
+      <div class="chapter-text" as-blockquote-collapser>
         <h3 ng-if="item.headline">{{ item.headline}}</h3>
         <img ng-if="item.image" src="{{ item.image }}" class="chapter-image">
         <p ng-if="item.paragraph" ng-bind-html="item.paragraph"></p>

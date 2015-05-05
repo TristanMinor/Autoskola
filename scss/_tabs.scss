@@ -1,25 +1,26 @@
 .tabs {
   height: $tabs-height;
-  .tab-item-active,
-  .activated {
-    color: $positive;
-  }
-}
-
-.tabs-stable {
-  .tabs {
-    background-color: lighten($stable,4);
-    border-color: darken($line,4);
-  }
-}
-
-.tab-item {
-  color: $link-secondary;
   .icon {
     font-size: $icon-large;
     height: $icon-large;
   }
 }
+
+.tabs-stable {
+  .tabs {
+    background-color: lighten($stable,2);
+    border-color: darken($line,4);
+    .tab-item {
+      color: $link-secondary;
+    }
+    .tab-item-active,
+    .activated {
+      color: $positive;
+    }
+  }
+}
+
+
 
 .has-tabs,
 .bar-footer.has-tabs {

@@ -1,0 +1,82 @@
+<ion-view view-title="Prehľad" hide-nav-bar="true">
+
+  <div class="bar bar-light bar-header disable-user-behavior bar-large">
+    <div class="title title-nav">
+      <a ng-click="setTab('tab-progres')" ng-class="{active: tabName == 'tab-progres'}">Progres</a>
+      <a ng-click="setTab('tab-rewards')" ng-class="{active: tabName == 'tab-rewards'}">Trofeje</a>
+    </div>
+  </div>
+
+  <ion-content class="has-header">
+
+    <div ng-switch="tabName">
+
+      <div ng-switch-when="tab-progres">
+        <ion-list type="list list-uneditable list-progres">
+          <ion-item href="#" class="item item-uneditable">
+            <div class="item-inner">
+              Zákon<span class="item-note">{{ lawPercentage }} 24%</span>
+              <div class="circles">
+                <div class="circle" ng-repeat="question in law" ng-class="{'circle-done': localDataLaw[question.id].hidden}"></div>
+              </div>
+            </div>
+          </ion-item>
+          <ion-item href="#" class="item item-uneditable">
+            <div class="item-inner">
+              Vyhláška<span class="item-note">{{ noticePercentage }} 24%</span>
+              <div class="circles">
+                <div class="circle" ng-repeat="question in notice" ng-class="{'circle-done': localDataNotice[question.id].hidden}"></div>
+              </div>
+            </div>
+          </ion-item>
+          <ion-item href="#" class="item item-uneditable">
+            <div class="item-inner">
+              Značky<span class="item-note">{{ signsPercentage }} 24%</span>
+              <div class="circles">
+                <div ng-repeat="section in signs">
+                  <div class="circle" ng-repeat="question in section.questions" ng-class="{'circle-done': localDataSigns[question.id].hidden}"></div>
+                </div>
+              </div>
+            </div>
+          </ion-item>
+          <ion-item href="#" class="item item-uneditable">
+            <div class="item-inner">
+              Križovatky<span class="item-note">{{ situationsPercentage }} 24%</span>
+              <div class="circles">
+                <div ng-repeat="section in situations">
+                  <div ng-repeat="bundle in section.bundles">
+                    <div class="circle" ng-repeat="question in bundle.questions" ng-class="{'circle-done': localDataSituations[question.id].hidden}"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ion-item>
+          <ion-item href="#" class="item item-uneditable">
+            <div class="item-inner">
+              Testy<span class="item-note">{{ testsPercentage }} 24%</span>
+            </div>
+          </ion-item>
+        </ion-list>
+      </div>
+
+      <div ng-switch-when="tab-rewards">
+        <ion-list type="list list-uneditable list-rewards">
+          <ion-item ng-repeat="reward in rewards" href="" class="item item-thumbnail-left item-uneditable" ng-click="unlockReward(reward)" ng-class="{'unlocked': localDataRewards[reward.id].unlocked, 'locked': !localDataRewards[reward.id].unlocked}">
+            <img ng-if="localDataRewards[reward.id].unlocked" src="{{ reward.image }}" alt="">
+            <img ng-if="!localDataRewards[reward.id].unlocked" src="img/rewards/unlocked.png" alt="">
+            <div class="item-inner" ng-if="localDataRewards[reward.id].unlocked">
+              <h2>{{ reward.name }}</h2>
+              <p>{{ reward.description }}</p>
+            </div>
+            <div class="item-inner" ng-if="!localDataRewards[reward.id].unlocked">
+              <h2>Neznáma trofej</h2>
+              <p>{{ reward.description }}</p>
+            </div>
+          </ion-item>
+        </ion-list>
+      </div>
+
+    </div>
+
+  </ion-content>
+</ion-view>

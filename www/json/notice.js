@@ -52,5 +52,56 @@ var NoticeList = {
     }],
     "explanation": [{
     }]
+  }, {
+    "id": 4,
+    "type": "notice",
+    "points": 1,
+    "question": "Ak sa pri vlečení motorového vozidla použije lano",
+    "answers": [{
+      "text": "jeho dĺžka nesmie byť menšia ako 1,5 m,",
+      "correct": false
+    }, {
+      "text": "nesmie byť vzdialenosť medzi vozidlami menšia ako 2,5 m,",
+      "correct": true
+    }, {
+      "text": "nesmie byť vzdialenosť medzi vozidlami menšia ako 2 m.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 5,
+    "type": "notice",
+    "points": 1,
+    "question": "Vozidlo sa považuje za technicky nespôsobilé na premávku na pozemných komunikáciách, ak",
+    "answers": [{
+      "text": "má pneumatika na svojom vonkajšom obvode trhliny alebo poškodenia, ktoré obnažujú kordovú kostru alebo ju narúšajú,",
+      "correct": true
+    }, {
+      "text": "vozidlo nie je vybavené aspoň jedným hľadacím svetlometom so svetlom bielej farby,",
+      "correct": false
+    }, {
+      "text": "diaľkové svetlomety nie je možné prepnúť na obrysové svietidlá.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 6,
+    "type": "notice",
+    "points": 1,
+    "question": "Vozidlo sa považuje za technicky nespôsobilé na premávku na pozemných komunikáciách, ak",
+    "answers": [{
+      "text": "niektorá časť výfukového systému je netesná, takže výfukové plyny vnikajú do priestoru pre cestujúcich, vodiča alebo nákladu alebo sú zdrojom nadmerného zvuku,",
+      "correct": true
+    }, {
+      "text": "sa z miesta vodiča nedá nastaviť pravé predné zrkadlo,",
+      "correct": false
+    }, {
+      "text": "nedosahuje rýchlosť najmenej 80 km/h.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
   }]
 };

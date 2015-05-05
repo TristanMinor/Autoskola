@@ -1,13 +1,11 @@
 angular.module('autoskola')
-  .controller('QuestionsNoticeController', function($scope, $http, NoticeService) {
+  .controller('QuestionsNoticeController', function($scope, NoticeService) {
 
     $scope.data = [];
     $scope.localData = {};
 
-    NoticeService.get().then(function(response) {
-      $scope.data = response.data;
-      $scope.localData = response.localData;
-    });
+    $scope.data = NoticeService.get().data;
+    $scope.localData = NoticeService.get().localData;
 
     $scope.pinQuestion = function(item) {
       NoticeService.pinQuestion(item);
@@ -15,6 +13,10 @@ angular.module('autoskola')
 
     $scope.hideQuestion = function(item) {
       NoticeService.hideQuestion(item);
+    }
+
+    $scope.unhideQuestion = function(item) {
+      NoticeService.unhideQuestion(item);
     }
 
   });

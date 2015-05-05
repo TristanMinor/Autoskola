@@ -1,9 +1,9 @@
 'use strict';
 
 angular.module('autoskola')
-  .service('SituationsService', function($http, $q) {
+  .service('SituationsService', function($q) {
 
-    var data = [];
+    var data = SituationsList.situations;
     var localData = {};
     var loaded = false;
 
@@ -20,23 +20,32 @@ angular.module('autoskola')
       localStorage.setItem('situations', JSON.stringify(localData));
     }
 
+    function searchForQuestion(id) {
+      var q;
+      data.forEach(function(item) {
+        item.bundles.forEach(function(bndl) {
+          bndl.questions.forEach(function(qstn) {
+            if (qstn.id == id) {
+              q = qstn;
+            }
+          });
+        });
+      });
+      return q;
+    }
+
     loadLocalStorage();
 
     return {
       get: function() {
-        var deferred = $q.defer();
+        return {
+          data: data,
+          localData: localData
+        };
+      },
 
-        if (!loaded) {
-          $http.get('json/situations.json').success(function(response) {
-            data = response.situations;
-            loaded = true;
-            deferred.resolve({data:data, localData: localData});
-          });
-        } else {
-          deferred.resolve({data:data, localData: localData});
-        }
-
-        return deferred.promise;
+      getQuestion: function(id) {
+        return searchForQuestion(id);
       },
 
       pinQuestion: function(question) {
@@ -59,7 +68,19 @@ angular.module('autoskola')
           };
         }
         saveLocalStorage();
+      },
+
+      unhideQuestion: function(question) {
+        if (localData[question.id]) {
+          localData[question.id].hidden = false;
+        } else {
+          localData[question.id] = {
+            hidden: false
+          };
+        }
+        saveLocalStorage();
       }
+
     };
 
   });

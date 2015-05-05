@@ -9,20 +9,19 @@
       <a ng-click="setTab('tab-signs')" ng-class="{active: tabName == 'tab-signs'}">Značky</a>
       <a ng-click="setTab('tab-situations')" ng-class="{active: tabName == 'tab-situations'}">Križovatky</a>
     </div>
-    <button class="button button-icon icon ion-ios-paperplane-outline" ng-click="openTestModal()"></button>
+    <button class="button button-icon icon icon-test" ng-click="openTestModal()"></button>
   </div>
 
   <!-- Questions content -->
-  <ion-content class="has-header">
+  <ion-content class="has-header bg-stable">
     <div ng-switch="tabName">
 
       <!-- Law tab -->
       <div ng-switch-when="tab-law" ng-controller="QuestionsLawController">
         <ion-list type="list-inset">
-          <ion-item ng-if="! localData[item.id].hidden"  href="#/questions/law/{{item.id}}" ng-repeat="item in data" class="item item-icon-right item-hideable">
+          <ion-item ng-if="! localData[item.id].hidden"  href="#/questions/law/{{item.id}}" ng-repeat="item in data" collection-item-height="99" class="item item-icon-right item-hideable" ng-class="{'pinned': localData[item.id].pinned}">
             <div class="item-inner">
-              <b>{{ item.id }}.</b>
-              {{ item.question }}
+              {{ item.id }}. {{ item.question }}
               <i ng-if="localData[item.id].pinned" class="icon icon-pin positive"></i>
               <ion-option-button ng-click="pinQuestion(item)" class="button button-positive">
                 <i class="icon" ng-class="{'icon-pin': localData[item.id].pinned, 'icon-pin-outline': !localData[item.id].pinned}"></i>
@@ -33,14 +32,17 @@
             </div>
           </ion-item>
         </ion-list>
+        <ion-list type="list-inset">
+          <button class="button button-block button-stable" ng-click="goToHiddenQuestions('law')">Ukáž naučené otázky</button>
+        </ion-list>
       </div>
 
       <!-- Notice tab -->
       <div ng-switch-when="tab-notice" ng-controller="QuestionsNoticeController">
         <ion-list type="list-inset">
-          <ion-item ng-if="! localData[item.id].hidden" ng-repeat="item in data" href="#/questions/notice/{{item.id}}" class="item item-icon-right item-hideable">
+          <ion-item ng-if="!localData[item.id].hidden" ng-repeat="item in data" href="#/questions/notice/{{item.id}}" class="item item-icon-right item-hideable">
             <div class="item-inner">
-              <b>{{ item.id }}.</b> {{ item.question }}
+              {{ item.id }}. {{ item.question }}
               <i ng-if="localData[item.id].pinned" class="icon icon-pin positive"></i>
               <ion-option-button ng-click="pinQuestion(item)" class="button button-positive">
                 <i class="icon" ng-class="{'icon-pin': localData[item.id].pinned, 'icon-pin-outline': !localData[item.id].pinned}"></i>
@@ -50,6 +52,9 @@
               </ion-option-button>
             </div>
           </ion-item>
+        </ion-list>
+        <ion-list type="list-inset">
+          <button class="button button-block button-stable" ng-click="goToHiddenQuestions('notice')">Ukáž naučené otázky</button>
         </ion-list>
       </div>
 
@@ -66,7 +71,7 @@
             <ion-item ng-if="!localData[question.id].hidden" ng-repeat="question in item.questions" href="#/questions/sign/{{question.id}}" class="item item-thumbnail-left item-icon-right item-hideable">
               <img src="{{ question.image.src }}" alt="">
               <div class="item-inner">
-                <b>{{ question.id }}.</b> {{ question.name }}
+                {{ question.id }}. {{ question.name }}
                 <i ng-if="localData[question.id].pinned" class="icon icon-pin positive"></i>
                 <ion-option-button ng-click="pinQuestion(question)" class="button button-positive">
                   <i class="icon" ng-class="{'icon-pin': localData[question.id].pinned, 'icon-pin-outline': !localData[question.id].pinned}"></i>
@@ -79,6 +84,9 @@
           </div>
 
           </div>
+        </ion-list>
+        <ion-list type="list-inset">
+          <button class="button button-block button-stable" ng-click="goToHiddenQuestions('signs')">Ukáž naučené otázky</button>
         </ion-list>
       </div>
 
@@ -94,9 +102,9 @@
             <div ng-repeat="bundle in item.bundles" class="bundle-situations">
 
               <ion-item ng-if="!localData[question.id].hidden" ng-repeat="question in bundle.questions" href="#/questions/situation/{{question.id}}" class="item item-thumbnail-left item-thumbnail-horizontal item-icon-right item-hideable">
-                <img src="{{ bundle.image.src }}" alt="">
+                <img src="{{ bundle.image.src }}" alt="" class="item-image">
                 <div class="item-inner">
-                  <b>{{ question.id}}.</b> {{ question.question }}
+                  {{ question.id}}. {{ question.question }}
                   <i ng-if="localData[question.id].pinned" class="icon icon-pin positive"></i>
                   <ion-option-button ng-click="pinQuestion(question)" class="button button-positive">
                     <i class="icon" ng-class="{'icon-pin': localData[question.id].pinned, 'icon-pin-outline': !localData[question.id].pinned}"></i>
@@ -110,6 +118,9 @@
             </div>
 
           </div>
+        </ion-list>
+        <ion-list type="list-inset">
+          <button class="button button-block button-stable" ng-click="goToHiddenQuestions('situations')">Ukáž naučené otázky</button>
         </ion-list>
       </div>
 

@@ -1,11 +1,9 @@
 .platform-ios.platform-cordova:not(.fullscreen) .bar-header:not(.bar-subheader) {
   height: $bar-height + 20px;
 }
-
 .platform-ios.platform-cordova:not(.fullscreen) .has-header {
   top: $bar-height + 20px;
 }
-
 .platform-ios.platform-cordova:not(.fullscreen) .bar-subheader {
   top: $bar-height + 20px - 1px;
   border-top: 0;
@@ -20,12 +18,7 @@
   }
   .title-nav {
     a {
-      color: $link-secondary;
       padding: 16px 10px;
-    }
-    a.active {
-      color: $positive;
-      border-bottom: 4px solid $positive;
     }
   }
   .has-subtitle-nav {
@@ -62,10 +55,35 @@
   height: $bar-height;
 }
 
-.bar.bar-stable {
+.bar.bar-stable, .bar.bar-light {
   border-color: darken($line,4);
+  .title-nav {
+    a {
+      color: $link-secondary;
+    }
+    a.active {
+      color: $positive;
+      border-bottom: 4px solid $positive;
+    }
+  }
   .button {
     color: $link-secondary;
+  }
+}
+
+.bar.bar-positive {
+  border-color: none;
+  .title-nav {
+    a {
+      color: lighten($positive, 20);
+    }
+    a.active {
+      color: $light;
+      border-bottom: 4px solid $light;
+    }
+    .button {
+      color: $link-secondary;
+    }
   }
 }
 
@@ -73,15 +91,12 @@
   top: $bar-height - 1px;
   border-top: 0;
 }
-
 .bar-subheader.has-scope-bar {
   height: $scope-bar-height + 20px;
 }
-
 .has-header {
   top: $bar-height;
 }
-
 .has-footer {
   bottom: $bar-height;
 }

@@ -1,13 +1,11 @@
 angular.module('autoskola')
-  .controller('QuestionsSituationsController', function($scope, $http, SituationsService) {
+  .controller('QuestionsSituationsController', function($scope, SituationsService) {
 
     $scope.data = [];
     $scope.localData = {};
 
-    SituationsService.get().then(function(response) {
-      $scope.data = response.data;
-      $scope.localData = response.localData;
-    });
+    $scope.data = SituationsService.get().data;
+    $scope.localData = SituationsService.get().localData;
 
     $scope.pinQuestion = function(question) {
       SituationsService.pinQuestion(question);
@@ -15,6 +13,10 @@ angular.module('autoskola')
 
     $scope.hideQuestion = function(question) {
       SituationsService.hideQuestion(question);
+    }
+
+    $scope.unhideQuestion = function(question) {
+      SituationsService.unhideQuestion(question);
     }
 
   });

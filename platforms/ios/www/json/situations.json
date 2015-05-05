@@ -8,19 +8,22 @@
       },
       "questions": [{
         "id": 1,
+        "type": "situation",
         "question": "Tam, kde sa dva jazdné pruhy zbiehajú do jedného pruhu tak, že nie je zrejmé, ktorý z nich je priebežný,",
         "answers": [{
-          "option": "a",
           "text": "vodič zeleného vozidla má prednosť v jazde pred vodičom červeného vozidla,",
           "correct": false
         }, {
-          "option": "b",
           "text": "vodič zeleného vozidla jazdiaci v ľavom jazdnom pruhu nesmie ohroziť vodiča červeného vozidla v pravom jazdnom pruhu,",
           "correct": true
         }, {
-          "option": "c",
           "text": "vodič zeleného vozidla musí dať prednosť v jazde vodičovi červeného vozidla, pretože dáva znamenie o zmene smeru jazdy vľavo.",
           "correct": false
+        }],
+        "explaining": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_lanes_01.png",
+          "paragraph": "Ak sa dva jazdné pruhy zbiehajú a nie je jasné, ktorý z nich je priebežný, platí pravidlo o prednosti vozidiel prichádzajúcich sprava. Vodič zeleného vozidla má po pravej strane červené vozidlo, ktorému dáva prednosť."
         }],
         "image": {
           "src": "img/situations/situation_lanes_01.png"
@@ -32,6 +35,7 @@
       },
       "questions": [{
         "id": 2,
+        "type": "situation",
         "question": "Vodič modrého vozidla",
         "answers": [{
           "text": "nesmie ohroziť vodiča červeného vozidla jazdiaceho v priebežnom jazdnom pruhu, do ktorého prechádza,",
@@ -53,6 +57,7 @@
       },
       "questions": [{
         "id": 3,
+        "type": "situation",
         "question": "Vodič modrého vozidla",
         "answers": [{
           "text": "má pred vodičom červeného a vodičom žltého vozidla prednosť, pretože v ich jazdnom pruhu sa nachádza prekážka,",
@@ -69,6 +74,7 @@
         }
       }, {
         "id": 4,
+        "type": "situation",
         "question": "Vozidlá prejdú okolo prekážky v tomto poradí",
         "answers": [{
           "text": "1. červené, 2. modré, 3. žlté, 4. zelené,",
@@ -85,6 +91,7 @@
         }
       }, {
         "id": 5,
+        "type": "situation",
         "question": "V poradí druhé prejde okolo prekážky",
         "answers": [{
           "text": "červené vozidlo,",
@@ -101,6 +108,7 @@
         }
       }, {
         "id": 6,
+        "type": "situation",
         "question": "V poradí tretie prejde okolo prekážky",
         "answers": [{
           "text": "zelené vozidlo",
@@ -122,6 +130,7 @@
       },
       "questions": [{
         "id": 7,
+        "type": "situation",
         "question": "Vodič červeného vozidla",
         "answers": [{
           "text": "je povinný umožniť vodičovi modrého vozidla obídenie prekážky,",
@@ -138,6 +147,7 @@
         }
       }, {
         "id": 8,
+        "type": "situation",
         "question": "V poradí druhé prejde okolo prekážky",
         "answers": [{
           "text": "žlté vozidlo",
@@ -154,6 +164,7 @@
         }
       }, {
         "id": 9,
+        "type": "situation",
         "question": "V poradí tretie prejde okolo prekážky",
         "answers": [{
           "text": "zelené vozidlo",
@@ -178,24 +189,28 @@
       },
       "questions": [{
         "id": 10,
+        "type": "situation",
         "question": "Vaše vozidlo prejde cez križovatku ako",
         "image": {
           "src": "img/situations/situation_nosigns_01.png"
         }
       }, {
         "id": 11,
+        "type": "situation",
         "question": "Ako posledné prejde cez križovatku",
         "image": {
           "src": "img/situations/situation_nosigns_01.png"
         }
       }, {
         "id": 12,
+        "type": "situation",
         "question": "Vozidlá prejdú cez križovatku v tomto poradí:",
         "image": {
           "src": "img/situations/situation_nosigns_01.png"
         }
       }, {
         "id": 13,
+        "type": "situation",
         "question": "V poradí druhé prejde cez križovatku",
         "image": {
           "src": "img/situations/situation_nosigns_01.png"
@@ -207,24 +222,28 @@
       },
       "questions": [{
         "id": 14,
+        "type": "situation",
         "question": "Vaše vozidlo, odbočujúce vľavo, prejde cez križovatku ako",
         "image": {
           "src": "img/situations/situation_nosigns_02.png"
         }
       }, {
         "id": 15,
+        "type": "situation",
         "question": "Vozidlá prejdú cez križovatku v tomto poradí:",
         "image": {
           "src": "img/situations/situation_nosigns_02.png"
         }
       }, {
         "id": 16,
+        "type": "situation",
         "question": "V poradí druhé prejde cez križovatku",
         "image": {
           "src": "img/situations/situation_nosigns_02.png"
         }
       }, {
         "id": 17,
+        "type": "situation",
         "question": "Ako posledné prejde cez križovatku",
         "image": {
           "src": "img/situations/situation_nosigns_02.png"
@@ -236,24 +255,28 @@
       },
       "questions": [{
         "id": 18,
+        "type": "situation",
         "question": "Vaše vozidlo prejde cez križovatku ako",
         "image": {
           "src": "img/situations/situation_nosigns_03.png"
         }
       }, {
         "id": 19,
+        "type": "situation",
         "question": "Vozidlá prejdú cez križovatku v tomto poradí:",
         "image": {
           "src": "img/situations/situation_nosigns_03.png"
         }
       }, {
         "id": 20,
+        "type": "situation",
         "question": "Ako prvé prejde cez križovatku",
         "image": {
           "src": "img/situations/situation_nosigns_03.png"
         }
       }, {
         "id": 21,
+        "type": "situation",
         "question": "V poradí posledné prejde cez križovatku",
         "image": {
           "src": "img/situations/situation_nosigns_03.png"
@@ -265,24 +288,28 @@
       },
       "questions": [{
         "id": 22,
+        "type": "situation",
         "question": "Vozidlá prejdú cez križovatku v tomto poradí:",
         "image": {
           "src": "img/situations/situation_nosigns_04.png"
         }
       }, {
         "id": 23,
+        "type": "situation",
         "question": "Ako prvé prejde cez križovatku",
         "image": {
           "src": "img/situations/situation_nosigns_04.png"
         }
       }, {
         "id": 24,
+        "type": "situation",
         "question": "Ako posledné prejde cez križovatku",
         "image": {
           "src": "img/situations/situation_nosigns_04.png"
         }
       }, {
         "id": 25,
+        "type": "situation",
         "question": "V poradí druhé prejde cez križovatku",
         "image": {
           "src": "img/situations/situation_nosigns_04.png"
@@ -294,6 +321,7 @@
       },
       "questions": [{
         "id": 26,
+        "type": "situation",
         "question": "Vozidlá prejdú cez križovatku v tomto poradí:",
         "image": {
           "src": "img/situations/situation_nosigns_05.png"
@@ -305,25 +333,39 @@
       },
       "questions": [{
         "id": 27,
+        "type": "situation",
         "question": "Vozidlá prejdú cez križovatku v tomto poradí:",
         "image": {
           "src": "img/situations/situation_nosigns_06.png"
         }
       }, {
         "id": 28,
+        "type": "situation",
         "question": "Ako prvé prejde cez križovatku",
         "image": {
           "src": "img/situations/situation_nosigns_06.png"
         }
       }, {
         "id": 29,
+        "type": "situation",
         "question": "Ako posledné prejde cez križovatku",
         "image": {
           "src": "img/situations/situation_nosigns_06.png"
         }
       }, {
         "id": 30,
+        "type": "situation",
         "question": "Vaše vozidlo prejde cez križovatku ako",
+        "answers": [{
+          "text": "prvé,",
+          "correct": false
+        }, {
+          "text": "posledné,",
+          "correct": true
+        }, {
+          "text": "druhé.",
+          "correct": false
+        }],
         "image": {
           "src": "img/situations/situation_nosigns_06.png"
         }
@@ -334,24 +376,38 @@
       },
       "questions": [{
         "id": 31,
+        "type": "situation",
         "question": "Zelené vozidlo vojde do križovatky ako",
         "image": {
           "src": "img/situations/situation_nosigns_07.png"
         }
       }, {
         "id": 32,
+        "type": "situation",
         "question": "Vozidlá prejdú cez križovatku v tomto poradí:",
         "image": {
           "src": "img/situations/situation_nosigns_07.png"
         }
       }, {
         "id": 33,
+        "type": "situation",
         "question": "Ako prvé vojde do križovatky",
+        "answers": [{
+          "text": "zelené vozidlo",
+          "correct": false
+        }, {
+          "text": "modré vozidlo",
+          "correct": false
+        }, {
+          "text": "červené vozidlo",
+          "correct": true
+        }],
         "image": {
           "src": "img/situations/situation_nosigns_07.png"
         }
       }, {
         "id": 34,
+        "type": "situation",
         "question": "Ako druhé vojde do križovatky",
         "image": {
           "src": "img/situations/situation_nosigns_07.png"
@@ -363,6 +419,7 @@
       },
       "questions": [{
         "id": 35,
+        "type": "situation",
         "question": "Prednosť v jazde má vodič",
         "image": {
           "src": "img/situations/situation_nosigns_08.png"
@@ -374,24 +431,28 @@
       },
       "questions": [{
         "id": 36,
+        "type": "situation",
         "question": "Modré vozidlo vojde do križovatky ako",
         "image": {
           "src": "img/situations/situation_nosigns_08.png"
         }
       }, {
         "id": 37,
+        "type": "situation",
         "question": "Ako posledné prejde cez križovatku",
         "image": {
           "src": "img/situations/situation_nosigns_08.png"
         }
       }, {
         "id": 38,
+        "type": "situation",
         "question": "Vozidlá prejdú cez križovatku v tomto poradí:",
         "image": {
           "src": "img/situations/situation_nosigns_08.png"
         }
       }, {
         "id": 39,
+        "type": "situation",
         "question": "Ako prvé prejde cez križovatku",
         "image": {
           "src": "img/situations/situation_nosigns_08.png"
@@ -406,18 +467,31 @@
       },
       "questions": [{
         "id": 120,
+        "type": "situation",
         "question": "Ak má policajt pravú ruku predpaženú a ľavú upaženú, znamená to „Stoj!“ pre",
+        "answers": [{
+          "text": "vodiča zeleného vozidla,",
+          "correct": false
+        }, {
+          "text": "vodiča červeného a vodiča žltého vozidla,",
+          "correct": true
+        }, {
+          "text": "chodcov prechádzajúcich za chrbtom policajta.",
+          "correct": false
+        }],
         "image": {
           "src": "img/situations/situation_controlled_01.png"
         }
       }, {
         "id": 121,
+        "type": "situation",
         "question": "Ak má policajt pravú ruku predpaženú a ľavú upaženú, znamená to „Voľno“ pre vodiča",
         "image": {
           "src": "img/situations/situation_controlled_01.png"
         }
       }, {
         "id": 122,
+        "type": "situation",
         "question": "Ak má policajt pravú ruku predpaženú a ľavú upaženú, znamená to",
         "image": {
           "src": "img/situations/situation_controlled_01.png"
@@ -429,24 +503,28 @@
       },
       "questions": [{
         "id": 123,
+        "type": "situation",
         "question": "Ak svieti signál na opustenie križovatky umiestnený v protiľahlom rohu križovatky",
         "image": {
           "src": "img/situations/situation_controlled_02.png"
         }
       }, {
         "id": 124,
+        "type": "situation",
         "question": "Ak svieti signál na opustenie križovatky umiestnený v protiľahlom rohu križovatky, prejdú cez križovatku ako prvé",
         "image": {
           "src": "img/situations/situation_controlled_02.png"
         }
       }, {
         "id": 125,
+        "type": "situation",
         "question": "Ak svieti signál na opustenie križovatky umiestnený v protiľahlom rohu križovatky",
         "image": {
           "src": "img/situations/situation_controlled_02.png"
         }
       }, {
         "id": 126,
+        "type": "situation",
         "question": "Ako prvé prejde cez križovatku",
         "image": {
           "src": "img/situations/situation_controlled_02.png"
@@ -458,18 +536,21 @@
       },
       "questions": [{
         "id": 127,
+        "type": "situation",
         "question": "Ako prvé prejde cez križovatku",
         "image": {
           "src": "img/situations/situation_controlled_03.png"
         }
       }, {
         "id": 128,
+        "type": "situation",
         "question": "V poradí druhé prejde cez križovatku",
         "image": {
           "src": "img/situations/situation_controlled_03.png"
         }
       }, {
         "id": 129,
+        "type": "situation",
         "question": "Vodič červeného vozidla smie",
         "image": {
           "src": "img/situations/situation_controlled_03.png"
@@ -481,18 +562,21 @@
       },
       "questions": [{
         "id": 130,
+        "type": "situation",
         "question": "Na tento pokyn policajta",
         "image": {
           "src": "img/situations/situation_controlled_04.png"
         }
       }, {
         "id": 131,
+        "type": "situation",
         "question": "Tento pokyn policajta znamená „Stoj“ pre vodiča",
         "image": {
           "src": "img/situations/situation_controlled_04.png"
         }
       }, {
         "id": 132,
+        "type": "situation",
         "question": "Na tento pokyn policajta môže vodič",
         "image": {
           "src": "img/situations/situation_controlled_04.png"
@@ -504,18 +588,21 @@
       },
       "questions": [{
         "id": 133,
+        "type": "situation",
         "question": "Ak má policajt pravú ruku predpaženú a ľavú upaženú, znamená to „Stoj!“ pre",
         "image": {
           "src": "img/situations/situation_controlled_05.png"
         }
       }, {
         "id": 134,
+        "type": "situation",
         "question": "Ak má policajt pravú ruku predpaženú a ľavú upaženú, znamená to „Voľno“ pre vodiča",
         "image": {
           "src": "img/situations/situation_controlled_05.png"
         }
       }, {
         "id": 135,
+        "type": "situation",
         "question": "Ak má policajt pravú ruku predpaženú a ľavú upaženú, znamená to",
         "image": {
           "src": "img/situations/situation_controlled_05.png"
@@ -527,24 +614,28 @@
       },
       "questions": [{
         "id": 136,
+        "type": "situation",
         "question": "Modré vozidlo prejde cez križovatku ako",
         "image": {
           "src": "img/situations/situation_controlled_06.png"
         }
       }, {
         "id": 137,
+        "type": "situation",
         "question": "Ako prvé vozidlo prejde cez križovatku",
         "image": {
           "src": "img/situations/situation_controlled_06.png"
         }
       }, {
         "id": 138,
+        "type": "situation",
         "question": "V poradí druhé prejde cez križovatku",
         "image": {
           "src": "img/situations/situation_controlled_06.png"
         }
       }, {
         "id": 139,
+        "type": "situation",
         "question": "V poradí tretie prejde cez križovatku",
         "image": {
           "src": "img/situations/situation_controlled_06.png"

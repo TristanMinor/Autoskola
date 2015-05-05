@@ -1,4 +1,4 @@
-<ion-view view-title="{{ question.question }}">
+<ion-view view-title="Otázka č. {{ question.id }}">
 
   <ion-nav-bar class="bar-light">
     <ion-nav-buttons side="primary">
@@ -7,15 +7,15 @@
       </a>
     </ion-nav-buttons>
     <ion-nav-buttons side="secondary">
-      <a href="#">
-        <button class="button button-icon icon icon-pin-outline"></button>
+      <a ng-click="pinQuestion(question)">
+        <button class="button button-icon icon" ng-class="{'icon-pin': localData[question.id].pinned, 'icon-pin-outline': !localData[question.id].pinned}"></button>
       </a>
     </ion-nav-buttons>
   </ion-nav-bar>
 
   <ion-content class="item-opened">
     <div ng-if="question-image">
-      <img src="{{ question.image.src}}" alt="">
+      <img src="{{ question.image.src }}" alt="">
     </div>
     <div class="question-text">
       <div class="question-question">
@@ -25,8 +25,8 @@
       <div class="list answers">
         <label ng-repeat="item in question.answers" class="item item-radio">
           <input disabled="disabled" type="radio" name="group">
-          <div class="item-content question-answer" ng-class="{'answer-correct': item.correct}">
-            <span class="answer-option">{{ item.option }})</span>
+          <div class="item-content question-answer answer-checked" ng-class="{'answer-correct': item.correct}">
+            <span class="answer-option">{{ optionsModel[$index] }})</span>
             {{ item.text }}
           </div>
         </label>

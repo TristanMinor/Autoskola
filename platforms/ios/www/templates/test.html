@@ -1,0 +1,89 @@
+<ion-view>
+
+  <div class="bar bar-light bar-header">
+    <button class="button button-icon icon icon-close" ng-click="showConfirmExitTest()"></button>
+    <h1 ng-if="test.id<36" class="title title-nav has-subtitle-nav">Test {{ test.id }}</h1>
+    <h1 ng-if="test.id>35" class="title title-nav has-subtitle-nav">{{ params.testname }}</h1>
+    <p class="title subtitle-nav">Otázka {{view.question+1}} z {{questions.length}}</p>
+  </div>
+
+  <div class="bar bar-subheader test-progress">
+    <div class="test-progress-bar" ng-style="{'width': ((view.question+1) / questions.length * 100) + '%'}"></div>
+  </div>
+
+  <ion-content class="item-opened has-header">
+
+    <!--{{ answers }}-->
+
+    <ion-slide-box active-slide="view.question" on-slide-changed="slideHasChanged($index)">
+      <ion-slide ng-repeat="question in questions" class="test-slide">
+        <div ng-if="question.image.src" class="question-image" ng-class="{'image-sign': questions.type = 'sign', 'image-situation': questions.type = 'situation'}">
+          <img src="{{ question.image.src}}" alt="">
+        </div>
+        <div class="question-text" style="width:100%">
+          <div class="question-question">
+            <p>{{ question.question }}</p>
+          </div>
+
+          <div class="list answers">
+            <label ng-repeat="item in question.answers" class="item item-radio">
+              <input type="radio" name="group" ng-click="answerSelected(item, question.answers)">
+              <div class="item-content question-answer" ng-class="{
+                     'answer-selected': view.selectedAnswer == $index,
+                     'answer-checked': view.checked,
+                     'answer-correct': item.correct,
+                     'answer-incorrect': !item.correct
+                   }">
+                <span class="answer-option">{{ optionsModel[$index] }})</span>
+                {{ item.text }}
+              </div>
+            </label>
+          </div>
+        </div>
+      </ion-slide>
+    </ion-slide-box>
+
+  </ion-content>
+
+  <!-- Check questions in the end  -->
+  <div ng-if="params.immediately == 'false'">
+    <button
+      ng-disabled="!view.selectedAnswer && view.selectedAnswer != 0"
+      ng-if="view.question < (questions.length - 1)"
+      class="button button-footer button-balanced "
+      ng-click="next()">Ďalšia otázka</button>
+    <button
+      ng-disabled="!view.selectedAnswer && view.selectedAnswer != 0"
+      ng-if="view.question === (questions.length - 1)"
+      class="button button-footer button-positive"
+      ng-click="result()">Vyhodnotiť test</button>
+  </div>
+
+  <!-- Check questions immediately  -->
+  <div ng-if="params.immediately == 'true'">
+    <ion-footer-bar class="bar-buttons row">
+      <div class="col col-10">
+        <button
+          class="button button-block button-stable icon icon-explain"
+          ng-click="openModalExplaining()"
+          ng-disabled="!view.checked"></button>
+      </div>
+      <div class="col col-90">
+        <button
+          ng-if="!view.checked"
+          class="button button-block button-positive"
+          ng-click="check()"
+          ng-disabled="!view.selectedAnswer && view.selectedAnswer != 0">Skontroluj odpoveď</button>
+        <button
+          ng-if="view.checked && view.question < (questions.length - 1)"
+          class="button button-block button-balanced"
+          ng-click="next()">Ďalšia otázka</button>
+        <button
+          ng-if="view.checked && view.question === (questions.length - 1)"
+          class="button button-block button-positive"
+          ng-click="result()">Vyhodnotiť test</button>
+      </div>
+    </ion-footer-bar>
+  </div>
+
+</ion-view>

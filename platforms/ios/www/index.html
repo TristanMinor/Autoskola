@@ -6,15 +6,14 @@
   <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
   <title>Autoskola</title>
 
-  <link href="lib/ionic/css/ionic.css" rel="stylesheet">
   <link href="lib/ionic/css/ionicons.min.css" rel="stylesheet">
 
-  <link href="css/style.css" rel="stylesheet">
+  <!-- Autoskola icons -->
   <link href="css/as-icons.css" rel="stylesheet">
 
-  <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
-    <link href="css/ionic.app.css" rel="stylesheet">
-    -->
+  <!-- compiled css output -->
+  <link href="css/ionic.app.css" rel="stylesheet">
+
   <script src="js/shake.js"></script>
   <!-- ionic/angularjs js -->
   <script src="lib/ionic/js/ionic.bundle.js"></script>
@@ -27,31 +26,48 @@
 
   <script src="js/search-controller.js"></script>
 
+  <!-- Overview -->
+  <script src="json/rewards.js"></script>
+  <script src="js/services/overviewService.js"></script>
+  <script src="js/overview-controller.js"></script>
+
   <!-- Theory -->
+  <script src="json/theory.js"></script>
+  <script src="js/services/theoryService.js"></script>
   <script src="js/theory-controller.js"></script>
   <script src="js/theory-chapter-controller.js"></script>
 
   <!-- Questions -->
   <script src="js/questions-controller.js"></script>
 
+  <script src="js/questions-hidden-controller.js"></script>
+
+  <script src="json/law.js"></script>
   <script src="js/services/lawService.js"></script>
   <script src="js/questions-law-controller.js"></script>
   <script src="js/questions-law-question-controller.js"></script>
 
+  <script src="json/notice.js"></script>
   <script src="js/services/noticeService.js"></script>
   <script src="js/questions-notice-controller.js"></script>
   <script src="js/questions-notice-question-controller.js"></script>
 
+  <script src="json/signs.js"></script>
   <script src="js/services/signsService.js"></script>
   <script src="js/questions-signs-controller.js"></script>
   <script src="js/questions-signs-question-controller.js"></script>
 
+  <script src="json/situations.js"></script>
   <script src="js/services/situationsService.js"></script>
   <script src="js/questions-situations-controller.js"></script>
   <script src="js/questions-situations-question-controller.js"></script>
 
   <!-- Tests -->
+  <script src="json/tests.js"></script>
+  <script src="js/services/testsService.js"></script>
+  <script src="js/services/testService.js"></script>
   <script src="js/tests-controller.js"></script>
+  <script src="js/test-controller.js"></script>
 
   <!-- Info -->
   <script src="js/info-controller.js"></script>
@@ -59,10 +75,8 @@
 </head>
 
 <body ng-app="autoskola" class="platform-ios platform-cordova platform-webview">
-  
   <ion-nav-view>
   </ion-nav-view>
-
 </body>
 
 </html>

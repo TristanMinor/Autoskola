@@ -1,11 +1,10 @@
 'use strict';
 
 angular.module('autoskola')
-  .service('LawService', function($http, $q) {
+  .service('LawService', function($q) {
 
-    var data = [];
+    var data = LawList.law;
     var localData = {};
-    var loaded = false;
 
     function loadLocalStorage() {
       var storage = localStorage.getItem('law');
@@ -20,23 +19,28 @@ angular.module('autoskola')
       localStorage.setItem('law', JSON.stringify(localData));
     }
 
+    function searchForQuestion(id) {
+      var q;
+      data.forEach(function(question) {
+        if (question.id == id) {
+          q = question;
+        }
+      });
+      return q;
+    }
+
     loadLocalStorage();
 
     return {
       get: function() {
-        var deferred = $q.defer();
+        return {
+          data: data,
+          localData: localData
+        };
+      },
 
-        if (!loaded) {
-          $http.get('json/law.json').success(function(response) {
-            data = response.law;
-            loaded = true;
-            deferred.resolve({data:data, localData: localData});
-          });
-        } else {
-          deferred.resolve({data:data, localData: localData});
-        }
-
-        return deferred.promise;
+      getQuestion: function(id) {
+        return searchForQuestion(id);
       },
 
       pinQuestion: function(item) {
@@ -59,7 +63,19 @@ angular.module('autoskola')
           };
         }
         saveLocalStorage();
+      },
+
+      unhideQuestion: function(item) {
+        if (localData[item.id]) {
+          localData[item.id].hidden = false;
+        } else {
+          localData[item.id] = {
+            hidden: false
+          };
+        }
+        saveLocalStorage();
       }
+
     };
 
   });

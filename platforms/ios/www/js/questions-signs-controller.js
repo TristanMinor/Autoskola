@@ -1,13 +1,11 @@
 angular.module('autoskola')
-  .controller('QuestionsSignsController', function($scope, $http, SignsService) {
+  .controller('QuestionsSignsController', function($scope, SignsService) {
 
     $scope.data = [];
     $scope.localData = {};
 
-    SignsService.get().then(function(response) {
-      $scope.data = response.data;
-      $scope.localData = response.localData;
-    });
+    $scope.data = SignsService.get().data;
+    $scope.localData = SignsService.get().localData;
 
     $scope.pinQuestion = function(question) {
       SignsService.pinQuestion(question);
@@ -15,6 +13,10 @@ angular.module('autoskola')
 
     $scope.hideQuestion = function(question) {
       SignsService.hideQuestion(question);
+    }
+
+    $scope.unhideQuestion = function(question) {
+      SignsService.unhideQuestion(question);
     }
 
   });

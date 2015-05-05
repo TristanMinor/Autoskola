@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>802A0703-C24C-461A-B3B4-9149F4E7B76E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Autoskola</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1561C3D71B02641F7A4B020206D70D2CAB0F6684</key>
+		<string>https://github.com/TristanMinor/Autoskola.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>platforms/ios/Autoskola.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1561C3D71B02641F7A4B020206D70D2CAB0F6684</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/TristanMinor/Autoskola.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1561C3D71B02641F7A4B020206D70D2CAB0F6684</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1561C3D71B02641F7A4B020206D70D2CAB0F6684</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Autoskola</string>
+		</dict>
+	</array>
+</dict>
+</plist>

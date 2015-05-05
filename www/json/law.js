@@ -247,5 +247,175 @@ var LawList = {
     }],
     "explanation": [{
     }]
+  }, {
+    "id": 15,
+    "type": "law",
+    "points": 2,
+    "question": "Vodič je povinný pri obchádzaní stojaceho vozidla pravidelnej verejnej dopravy osôb prihliadnuť na možnosť vbehnutia osôb na vozovku a",
+    "answers": [{
+      "text": "za týmto účelom jazdiť vždy rýchlosťou najviac 15 km/h,",
+      "correct": false
+    }, {
+      "text": "za týmto účelom vždy zastaviť vozidlo,",
+      "correct": false
+    }, {
+      "text": "jazdu prispôsobiť tak, aby neboli ohrozené.",
+      "correct": true
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 16,
+    "type": "law",
+    "points": 2,
+    "question": "Vodič nesmie predchádzať, ak vodič pred ním idúceho vozidla dáva znamenie o zmene smeru jazdy",
+    "answers": [{
+      "text": "vpravo,",
+      "correct": false
+    }, {
+      "text": "vľavo a to za žiadnych okolností,",
+      "correct": false
+    }, {
+      "text": "vľavo a ak ho nemožno predísť vpravo, prípadne ak ho nemožno predísť v ďalšom voľnom jazdnom pruhu v tom istom smere jazdy vyznačenom na vozovke.",
+      "correct": true
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 17,
+    "type": "law",
+    "points": 2,
+    "question": "Vodič je povinný za vozidlom idúcim pred nim dodržiavať",
+    "answers": [{
+      "text": "vzdialenosť minimálne 10 m,",
+      "correct": false
+    }, {
+      "text": "takú vzdialenosť, aká je potrebná na zastavenie vozidla z rýchlosti 60km/h,",
+      "correct": false
+    }, {
+      "text": "takú vzdialenosť, aby mohol včas znížiť rýchlosť jazdy, prípadne zastaviť vozidlo, ak vodič vozidla jazdiaceho pred ním zníži rýchlosť jazdy alebo zastaví.",
+      "correct": true
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 18,
+    "type": "law",
+    "points": 2,
+    "question": "Vodič motorového vozidla i nemotorového vozidla odbočujúci vpravo je povinný dať prednosť v jazde",
+    "answers": [{
+      "text": "protiidúcim vozidlám pravidelnej verejnej dopravy osôb, ak tieto odbočujú vľavo,",
+      "correct": false
+    }, {
+      "text": "električke, ak je povolená jazda pozdĺž električky vľavo,",
+      "correct": true
+    }, {
+      "text": "prvému vozidlu idúcemu za ním.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 19,
+    "type": "law",
+    "points": 2,
+    "question": "Vodič sa nesmie otáčať",
+    "answers": [{
+      "text": "na jednosmernej ceste,",
+      "correct": true
+    }, {
+      "text": "v obytnej zóne,",
+      "correct": false
+    }, {
+      "text": "na žiadnej križovatke.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 20,
+    "type": "law",
+    "points": 2,
+    "question": "Vodič, ktorý sa chce vzdialiť od vozidla tak, že nebude môcť okamžite zasiahnuť, je povinný",
+    "answers": [{
+      "text": "odstaviť ho vždy len na určenom parkovisku,",
+      "correct": false
+    }, {
+      "text": "urobiť také opatrenia, aby vozidlo nemohlo ohroziť bezpečnosť a plynulosť cestnej premávky a aby ho nemohla neoprávnene použiť iná osoba,",
+      "correct": true
+    }, {
+      "text": "vyložiť z vozidla v ňom prepravované veci.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 21,
+    "type": "law",
+    "points": 2,
+    "question": "Vodič nesmie zastaviť a stáť",
+    "answers": [{
+      "text": "na križovatke a vo vzdialenosti kratšej ako 15 m pred hranicou križovatky a 10 m za ňou,",
+      "correct": false
+    }, {
+      "text": "na žiadnej križovatke,",
+      "correct": false
+    }, {
+      "text": "na križovatke a vo vzdialenosti kratšej ako 5 m pred hranicou križovatky a 5 m za ňou; tento zákaz neplatí v obci na križovatke tvaru <i>T</i> na náprotivnej strane vyúsťujúcej cesty.",
+      "correct": true
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 22,
+    "type": "law",
+    "points": 2,
+    "question": "Vodič nesmie predchádzať, ak",
+    "answers": [{
+      "text": "by pri predchádzaní svojou výrazne nižšou rýchlosťou obmedzil za ním idúce vozidlo, ktoré začalo úkon predchádzania skôr,",
+      "correct": true
+    }, {
+      "text": "pred ním jazdí zvláštne motorové vozidlo,",
+      "correct": false
+    }, {
+      "text": "na to v obci neupozornil vodiča predchádzaného vozidla zvukovým výstražným znamením.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 23,
+    "type": "law",
+    "points": 2,
+    "question": "V motorovom vozidle, ktoré je určené na dopravu osôb, sa smú na miestach na to vyhradených prepravovať osoby",
+    "answers": [{
+      "text": "staršie ako 15 rokov s telesnou výškou väčšou ako 160 cm,",
+      "correct": false
+    }, {
+      "text": "len do prípustnej užitočnej hmotnosti vozidla, pritom počet prepravovaných osôb môže byť vyšší, ako je počet miest uvedených v osvedčení o evidencii,",
+      "correct": false
+    }, {
+      "text": "len do prípustnej užitočnej hmotnosti vozidla, pritom počet prepravovaných osôb nesmie byť vyšší, ako je počet miest uvedených v osvedčení o evidencii.",
+      "correct": true
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 24,
+    "type": "law",
+    "points": 2,
+    "question": "Signál dvoch vedľa seba umiestnených, striedavo prerušovaných červených svetiel",
+    "answers": [{
+      "text": "ukladá povinnosť chodcom nevstupovať na vozovku,",
+      "correct": false
+    }, {
+      "text": "znamená pre vodiča povinnosť zastaviť vozidlo pred svetelným signalizačným zariadením,",
+      "correct": true
+    }, {
+      "text": "znamená pre vodiča povinnosť znížiť rýchlosť jazdy.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
   }]
 };

@@ -1,10 +1,9 @@
 angular.module('autoskola')
-  .controller('TheoryController', function($scope, $http, $state) {
+  .controller('TheoryController', function($scope, $state, TheoryService) {
+
     $scope.data = [];
 
-    $http.get('json/theory.json').success(function(response) {
-      $scope.data = response.theory;
-    });
+    $scope.data = TheoryService.get().theoryData;
 
     $scope.goToSearch = function() {
       $state.go('search');

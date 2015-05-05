@@ -236,7 +236,17 @@ var SituationsList = {
         "id": 12,
         "type": "situation",
         "points": 3,
-        "question": "Vozidlá prejdú cez križovatku v tomto poradí:",
+        "question": "Vozidlá prejdú cez križovatku v tomto poradí",
+        "answers": [{
+          "text": "1. vaše vozidlo, 2. modré vozidlo, 3. červené,",
+          "correct": false
+        }, {
+          "text": "1. modré, 2. červené, 3. vaše vozidlo,",
+          "correct": true
+        }, {
+          "text": "1. modré, 2. vaše vozidlo, 3. červené.",
+          "correct": false
+        }],
         "explanation": [{
         }],
         "image": {
@@ -571,6 +581,109 @@ var SituationsList = {
         }],
         "image": {
           "src": "img/situations/situation_nosigns_08.png"
+        }
+      }]
+    }]
+  }, {
+    "section": "Križovatky hlavnej cesty s vedľajšou",
+    "bundles": [{
+      "image": {
+        "src": "img/situations/situation_mainroad_01.png"
+      },
+      "questions": [{
+        "id": 40,
+        "type": "situation",
+        "points": 3,
+        "question": "Vaše vozidlo prejde cez križovatku ako",
+        "answers": [{
+          "text": "druhé,",
+          "correct": false
+        }, {
+          "text": "posledné,",
+          "correct": true
+        }, {
+          "text": "prvé.",
+          "correct": false
+        }],
+        "explanation": [{
+        }],
+        "image": {
+          "src": "img/situations/situation_mainroad_01.png"
+        }
+      }]
+    }, {
+      "image": {
+        "src": "img/situations/situation_mainroad_06.png"
+      },
+      "questions": [{
+        "id": 59,
+        "type": "situation",
+        "points": 3,
+        "question": "Vozidlá prejdú cez križovatku v tomto poradí",
+        "answers": [{
+          "text": "1. električka, 2. zelené, 3. modré, 4. žlté, 5. vaše vozidlo",
+          "correct": true
+        }, {
+          "text": "1. zelené, 2. električka, 3. modré, 4. žlté, 5. vaše vozidlo",
+          "correct": false
+        }, {
+          "text": "1. modré, 2. zelené, 3. žlté, 4. vaśe vozidlo, 5. električka",
+          "correct": false
+        }],
+        "explanation": [{
+        }],
+        "image": {
+          "src": "img/situations/situation_mainroad_06.png"
+        }
+      }]
+    }, {
+      "image": {
+        "src": "img/situations/situation_mainroad_07.png"
+      },
+      "questions": [{
+        "id": 64,
+        "type": "situation",
+        "points": 3,
+        "question": "Vaše vozidlo prejde cez križovatku ako",
+        "answers": [{
+          "text": "tretie,",
+          "correct": false
+        }, {
+          "text": "druhé,",
+          "correct": false
+        }, {
+          "text": "prvé.",
+          "correct": true
+        }],
+        "explanation": [{
+        }],
+        "image": {
+          "src": "img/situations/situation_mainroad_07.png"
+        }
+      }]
+    }, {
+      "image": {
+        "src": "img/situations/situation_mainroad_17.png"
+      },
+      "questions": [{
+        "id": 102,
+        "type": "situation",
+        "points": 3,
+        "question": "Červené vozidlo prejde cez križovatku ako",
+        "answers": [{
+          "text": "prvé súčasne so zeleným vozidlom,",
+          "correct": false
+        }, {
+          "text": "posledné,",
+          "correct": true
+        }, {
+          "text": "prvé súčasne s modrým vozidlom.",
+          "correct": false
+        }],
+        "explanation": [{
+        }],
+        "image": {
+          "src": "img/situations/situation_mainroad_17.png"
         }
       }]
     }]

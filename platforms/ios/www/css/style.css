@@ -1,51 +1,7 @@
 /* Typography */
 
-@font-face {
-    font-family: 'preto_serif_ot_std_regular';
-    src: url('../fonts/preto_serif_ot_std_regular.eot');
-    src: url('../fonts/preto_serif_ot_std_regular.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/preto_serif_ot_std_regular.woff2') format('woff2'),
-         url('../fonts/preto_serif_ot_std_regular.woff') format('woff'),
-         url('../fonts/preto_serif_ot_std_regular.ttf') format('truetype'),
-         url('../fonts/preto_serif_ot_std_regular.svg#preto_serif_ot_std_regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'preto_serif_ot_std_bold';
-    src: url('../fonts/preto_serif_ot_std_bold.eot');
-    src: url('../fonts/preto_serif_ot_std_bold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/preto_serif_ot_std_bold.woff2') format('woff2'),
-         url('../fonts/preto_serif_ot_std_bold.woff') format('woff'),
-         url('../fonts/preto_serif_ot_std_bold.ttf') format('truetype'),
-         url('../fonts/preto_serif_ot_std_bold.svg#preto_serif_ot_stdbold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'preto_serif_ot_std_italic';
-    src: url('../fonts/preto_serif_ot_std_italic.eot');
-    src: url('../fonts/preto_serif_ot_std_italic.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/preto_serif_ot_std_italic.woff2') format('woff2'),
-         url('../fonts/preto_serif_ot_std_italic.woff') format('woff'),
-         url('../fonts/preto_serif_ot_std_italic.ttf') format('truetype'),
-         url('../fonts/preto_serif_ot_std_italic.svg#preto_serif_ot_stditalic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
 .center {
   text-align: center;
-}
-
-.positive {
-  color: #49A1DC;
-}
-
-.assertive {
-  color: #DC5349;
 }
 
 body, .ionic-body, li {
@@ -57,6 +13,10 @@ body, .ionic-body, li {
 p, blockquote, .question-text  {
   font-family: "preto_serif_ot_std_regular";
   margin: 0 0 2em;
+}
+
+p a.activated, p a.active {
+  border-bottom: .08em solid #4CA0DA;
 }
 
 li {
@@ -73,8 +33,11 @@ i {
   font-family: "preto_serif_ot_std_italic";
 }
 
+
+
 h3 {
   font-size: 19px;
+  line-height: 1.4;
   font-weight: 500;
 }
 
@@ -315,18 +278,24 @@ i.positive {
 }
 
 .tabs-stable > .tabs, .tabs.tabs-stable {
-  background-color: #F2F3F9;
-  border-color: #D2D2D2;
+  background-color: #FBFCFF;
+  border-color: #DDD;
+}
+
+.tab-item {
+  color: #A9AAAE;
 }
 
 .tabs-icon-top > .tabs .tab-item {
   padding-top: 10px;
   font-size: 12px;
+  max-width: 140px;
+  opacity: 1;
 }
 
-.tabs a.tab-item-active {
+.tabs a.tab-item-active, .tabs a.activated {
   /* color: #6842EC; */
-  color: #fff;
+  color: #4CA0DA;
 }
 
 .tab-item .icon {
@@ -409,7 +378,11 @@ i.positive {
 
 .list-uneditable .item-content {
   background-color: #EAECF5;
-  padding: 36px 70px 0px 70px;
+  padding: 20px 70px 0px 70px;
+}
+
+.pinned .item-content {
+  /* background-color: #ECF7FF; */
 }
 
 .item p {
@@ -438,7 +411,7 @@ i.positive {
 .item-uneditable .item-inner {
   /*  border-bottom: 1px solid #ccc; */
   height: auto;
-  padding-bottom: 36px;
+  padding-bottom: 24px;
   border-bottom: 1px solid #D2D2D2;
 }
 
@@ -501,6 +474,30 @@ i.positive {
   font-size: 32px;
   margin-right: 26px;
 }
+
+.item-uneditable.item-thumbnail-left .item-content {
+  padding: 22px 70px 0px 170px;
+}
+
+.item-uneditable.item-thumbnail-left .item-content img {
+  max-width: 80px;
+  width: auto;
+  position: absolute;
+  left: 70px;
+}
+
+.item-uneditable.item-thumbnail-left h2 {
+  font-size: 20px;
+}
+
+.item-uneditable.item-thumbnail-left .item-inner {
+  padding-bottom: 23px;
+}
+
+.locked h2, .locked p {
+  color: #BEC2D1;
+}
+
 
 /* Chapter */
 
@@ -598,7 +595,7 @@ i.positive {
 /* Modal */
 
 .modal-backdrop-bg {
-  background-color: #65707D;
+  background-color: #506684;
 }
 
 .modal {
@@ -635,4 +632,10 @@ i.positive {
 
 .modal-fullscreen ion-content {
   padding-top: 40px;
+}
+
+@media (min-width: 680px) {
+  .active .modal-backdrop-bg {
+    opacity: 0.8;
+  }
 }
