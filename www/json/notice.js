@@ -103,5 +103,56 @@ var NoticeList = {
     }],
     "explanation": [{
     }]
+  }, {
+    "id": 7,
+    "type": "notice",
+    "points": 1,
+    "question": "Ak sa pri vlečení motorového vozidla použije lano, musí byť zreteľne označené",
+    "answers": [{
+      "text": "červenou zástavkou alebo štítkom s rozmermi najmenej 20 × 20 cm,",
+      "correct": true
+    }, {
+      "text": "žltou zástavkou a štítkom s rozmermi najmenej 25 × 25 cm,",
+      "correct": false
+    }, {
+      "text": "za zníženej viditeľnosti červeným neoslňujúcim svetlom.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 8,
+    "type": "notice",
+    "points": 1,
+    "question": "Hĺbka hlavných drážok v stredovej časti povrchu dezénu pneumatiky, ktorý pokrýva približne tri štvrtiny šírky povrchu dezénu jazdnej plochy pneumatiky, nesmie byť menej ako",
+    "answers": [{
+      "text": "u vozidla kategórie L1e 1,5 mm,",
+      "correct": false
+    }, {
+      "text": "u vozidla kategórie L1e 1,0 mm,",
+      "correct": true
+    }, {
+      "text": "u všetkých kategórií vozidiel 1,6 mm",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 9,
+    "type": "notice",
+    "points": 1,
+    "question": "Povinnou výbavou motorového vozidla kategórie M, N, T, C a PS sú",
+    "answers": [{
+      "text": "protisklzové reťaze,",
+      "correct": false
+    }, {
+      "text": "krieda a meracie pásmo na vyznačenie stôp a postavenia vozidla v prípade dopravnej nehody,",
+      "correct": false
+    }, {
+      "text": "homologizovaný prenosný výstražný trojuholník.",
+      "correct": true
+    }],
+    "explanation": [{
+    }]
   }]
 };

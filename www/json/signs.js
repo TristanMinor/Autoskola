@@ -134,7 +134,7 @@ var SignsList = {
         "text": "zakazuje hnať zvieratá v označenom úseku cesty,",
         "correct": false
       }, {
-        "text": "upozorňuje na miesto, kde sa často dobytok preháňa cez cestu, alebo na úsek. kde sa ženie dobytok po ceste,",
+        "text": "upozorňuje na miesto, kde sa často dobytok preháňa cez cestu, alebo na úsek, kde sa ženie dobytok po ceste,",
         "correct": true
       }, {
         "text": "upozorňuje na miesto, kde často prebieha cez cestu zver",

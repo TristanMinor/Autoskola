@@ -162,15 +162,15 @@ var TestsList = {
       "questionId": 24
     }, {
       "id": 13,
-      "type": "law",
+      "type": "notice",
       "questionId": 4
     }, {
       "id": 14,
-      "type": "law",
+      "type": "notice",
       "questionId": 5
     }, {
       "id": 15,
-      "type": "law",
+      "type": "notice",
       "questionId": 6
     }, {
       "id": 16,
@@ -222,7 +222,68 @@ var TestsList = {
       "questionId": 64
     }]
   }, {
-    "id": 3
+    "id": 3,
+    "questions": [{
+      "id": 1,
+      "type": "law",
+      "questionId": 25
+    }, {
+      "id": 2,
+      "type": "law",
+      "questionId": 26
+    }, {
+      "id": 3,
+      "type": "law",
+      "questionId": 27
+    }, {
+      "id": 4,
+      "type": "law",
+      "questionId": 28
+    }, {
+      "id": 5,
+      "type": "law",
+      "questionId": 29
+    }, {
+      "id": 6,
+      "type": "law",
+      "questionId": 30
+    }, {
+      "id": 7,
+      "type": "law",
+      "questionId": 31
+    }, {
+      "id": 8,
+      "type": "law",
+      "questionId": 32
+    }, {
+      "id": 9,
+      "type": "law",
+      "questionId": 33
+    }, {
+      "id": 10,
+      "type": "law",
+      "questionId": 34
+    }, {
+      "id": 11,
+      "type": "law",
+      "questionId": 35
+    }, {
+      "id": 12,
+      "type": "law",
+      "questionId": 36
+    }, {
+      "id": 13,
+      "type": "law",
+      "questionId": 7
+    }, {
+      "id": 14,
+      "type": "law",
+      "questionId": 8
+    }, {
+      "id": 15,
+      "type": "law",
+      "questionId": 9
+    }]
   }, {
     "id": 4
   }, {

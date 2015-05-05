@@ -417,5 +417,209 @@ var LawList = {
     }],
     "explanation": [{
     }]
+  }, {
+    "id": 25,
+    "type": "law",
+    "points": 2,
+    "question": "Chodcom sa rozumie účastník cestnej premávky pohybujúci sa pešo; chodcom je aj osoba, ktorá",
+    "answers": [{
+      "text": "jazdí na bicykli alebo tlačí bicykel alebo motocykel,",
+      "correct": false
+    }, {
+      "text": "tlači bicykel alebo motocykel,",
+      "correct": true
+    }, {
+      "text": "jazdí na bicykli alebo na motocykli.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 26,
+    "type": "law",
+    "points": 2,
+    "question": "Vozidlom sa rozumie",
+    "answers": [{
+      "text": "len motorové vozidlo,",
+      "correct": false
+    }, {
+      "text": "motorové a nemotorové vozidlo okrem zvláštneho motorového vozidla a bicykla,",
+      "correct": false
+    }, {
+      "text": "motorové vozidlo, nemotorové vozidlo a električka.",
+      "correct": true
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 27,
+    "type": "law",
+    "points": 2,
+    "question": "Osoba sediaca na sedadle vozidla povinne vybavenom bezpečnostným pásom alebo iným zadržiavacím zariadením je povinná toto zariadenie použiť; to neplatí pre",
+    "answers": [{
+      "text": "osobu staršiu ako 65 rokov,",
+      "correct": false
+    }, {
+      "text": "osobu, ktorá to nemôže urobiť zo zdravotných dôvodov; takáto osoba sa musí preukázať osvedčením o oslobodení od použitia bezpečnostných systémov vozidla,",
+      "correct": true
+    }, {
+      "text": "vodiča počas jazdy na účelovej komunikácii.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 28,
+    "type": "law",
+    "points": 2,
+    "question": "V obci na ceste s dvoma alebo s viacerými jazdnými pruhmi vyznačenými na vozovke v jednom smere jazdy smie vodič motorového vozidla použiť na jazdu",
+    "answers": [{
+      "text": "len pravý jazdný pruh; ostatné jazdné pruhy sa môžu používať len na predchádzanie alebo na odbočovanie,",
+      "correct": false
+    }, {
+      "text": "len ľavý jazdný pruh; ostatné jazdné pruhy smie používať len vodič nemotorového vozidla,",
+      "correct": false
+    }, {
+      "text": "ktorýkoľvek jazdný pruh.",
+      "correct": true
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 29,
+    "type": "law",
+    "points": 2,
+    "question": "Ak vodič autobusu alebo trolejbusu vychádza z vyhradeného jazdného pruhu do priľahlého jazdného pruhu",
+    "answers": [{
+      "text": "nesmie ohroziť vodičov ostatných vozidiel,",
+      "correct": true
+    }, {
+      "text": "nie je povinný dávať znamenie o zmene smeru jazdy,",
+      "correct": false
+    }, {
+      "text": "vodič jazdiaci v tomto pruhu nie je povinný mu dať prednosť v jazde.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 30,
+    "type": "law",
+    "points": 2,
+    "question": "Vodičovi vozidla pravidelnej verejnej dopravy osôb v obci vodiči ostatných vozidiel",
+    "answers": [{
+      "text": "nie sú povinní umožniť vyjdenie zo zástavky,",
+      "correct": false
+    }, {
+      "text": "sú povinní umožniť vyjdenie zo zastávky, len ak sú v tomto vozidle prepravované deti,",
+      "correct": false
+    }, {
+      "text": "sú povinní umožniť vyjdenie zo zastávky alebo zo zastávkového pruhu, a to znížením rýchlosti jazdy, prípadne i zastavením vozidla.",
+      "correct": true
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 31,
+    "type": "law",
+    "points": 2,
+    "question": "Ak sa spúšťajú, ak sú spustené alebo ak sa zdvíhajú závory, vodič",
+    "answers": [{
+      "text": "smie vchádzať na železničné priecestie, ak to rozmery jeho vozidla dovolujú,",
+      "correct": false
+    }, {
+      "text": "smie vchádzať na železničné priecestie, ak nie je vidieť vlak,",
+      "correct": false
+    }, {
+      "text": "nesmie vchádzať na železničné priecestie.",
+      "correct": true
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 32,
+    "type": "law",
+    "points": 2,
+    "question": "Vodič nesmie použiť diaľkové svetlomety, ak",
+    "answers": [{
+      "text": "by mohol byť oslnený vodič protiidúceho vozidla; na prípadné oslnenie vodiča idúceho pred ním nemusí brať odľad,",
+      "correct": false
+    }, {
+      "text": "by mohol byť oslnený vodič protiidúceho vozidla alebo vodič vozidla idúceho pred ním,",
+      "correct": true
+    }, {
+      "text": "s tým nevyslovili súhlas všetci jeho spolucestujúci.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 33,
+    "type": "law",
+    "points": 2,
+    "question": "Na diaľnici a na rýchlostnej ceste je vodičovi zastavenie a státie",
+    "answers": [{
+      "text": "dovolené všade tam, kde neohrozí vodičov nemotorových vozidiel,",
+      "correct": false
+    }, {
+      "text": "zakázané na inom mieste, než na mieste označenom ako parkovisko s výnimkou núdzového státia,",
+      "correct": true
+    }, {
+      "text": "dovolené na parkovisku a na pripájacom a na odbočovacom pruhu.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 34,
+    "type": "law",
+    "points": 2,
+    "question": "Náklad musí byť na vozidle riadne umiestnený, rozložený a upevnený, aby",
+    "answers": [{
+      "text": "neohrozoval bezpečnosť a plynulosť cestnej premávky, neznečisťoval ani nepoškodzoval cestu ani jej okolie, nespôsoboval nadmerný hluk a neznečisťoval ovzdušie,",
+      "correct": false
+    }, {
+      "text": "neohrozoval bezpečnosť cestnej premávky a nepoškodzoval cestu; spôsobovať nadmerný hluk nesmie len v nočnej dobe,",
+      "correct": true
+    }, {
+      "text": "neobmedzoval plynulosť cestnej premávky; ak by pritom poškodzoval cestu alebo spôsoboval nadmerný hluk, môže vozidlo ísť rýchlosťou najviac 40 km/h.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 35,
+    "type": "law",
+    "points": 2,
+    "question": "Ak pri jazde vozidla v tuneli vznikne porucha vozidla, pre ktorú sa toto vozidlo stane nepojazdným, alebo ak vznikne dopravná nehoda vrátane požiaru, je vodič po zastavení vozidla povinný bezodkladne",
+    "answers": [{
+      "text": "vypnúť stretávacie svetlomety,",
+      "correct": false
+    }, {
+      "text": "oznámiť zastavenie vozidla príslušnému obvodnému úradu,",
+      "correct": false
+    }, {
+      "text": "vypnúť motor.",
+      "correct": true
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 36,
+    "type": "law",
+    "points": 2,
+    "question": "Policajt v rovnošate dáva z idúceho vozidla znamenie na zastavenie vozidla",
+    "answers": [{
+      "text": "kývaním ruky hore a dolu alebo vysunutým zastavovacím terčom, prípadne rozsvietením nápisu <i>STOP</i> umiestneného na vozidle,",
+      "correct": true
+    }, {
+      "text": "striedavým zapínaním diaľkových a stretávacích svetlometov,",
+      "correct": false
+    }, {
+      "text": "zvukovým výstražným zariadením alebo zvláštnymi výstražnými svetlami.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
   }]
 };

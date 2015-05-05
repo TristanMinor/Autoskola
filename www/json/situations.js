@@ -2,7 +2,6 @@ var SituationsList = {
   "situations": [{
     "section": "Jazda v jazdných pruhoch",
     "bundles": [{
-      "points": 2,
       "image": {
         "src": "img/situations/situation_lanes_01.png"
       },
