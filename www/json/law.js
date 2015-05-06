@@ -251,15 +251,15 @@ var LawList = {
     "id": 15,
     "type": "law",
     "points": 2,
-    "question": "Vodič je povinný pri obchádzaní stojaceho vozidla pravidelnej verejnej dopravy osôb prihliadnuť na možnosť vbehnutia osôb na vozovku a",
+    "question": "Vodič je povinný pri obchádzaní stojaceho vozidla pravidelnej verejnej dopravy osôb prihliadnuť na možnosť vbehnutia osôb na vozovku",
     "answers": [{
-      "text": "za týmto účelom jazdiť vždy rýchlosťou najviac 15 km/h,",
+      "text": "a za týmto účelom jazdiť vždy rýchlosťou najviac 15 km/h,",
       "correct": false
     }, {
-      "text": "za týmto účelom vždy zastaviť vozidlo,",
+      "text": "a za týmto účelom vždy zastaviť vozidlo,",
       "correct": false
     }, {
-      "text": "jazdu prispôsobiť tak, aby neboli ohrozené.",
+      "text": "a jazdu prispôsobiť tak, aby neboli ohrozené.",
       "correct": true
     }],
     "explanation": [{

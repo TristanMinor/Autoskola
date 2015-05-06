@@ -7929,8 +7929,11 @@ ul li {
     .item-complex .item-content p {
       font-size: 16px; }
 
+.item p {
+  color: #6e7387; }
+
 .item-inner {
-  height: 60px;
+  height: auto;
   color: #222;
   white-space: normal;
   overflow: hidden; }
@@ -8051,7 +8054,7 @@ ul li {
 
 .test-score {
   position: absolute;
-  top: 3.8em;
+  top: 3.7em;
   text-align: center;
   display: block;
   width: 100%; }

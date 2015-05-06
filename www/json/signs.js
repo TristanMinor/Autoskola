@@ -125,6 +125,50 @@ var SignsList = {
         "imgType": "triangle"
       }
     }, {
+      "id": 10,
+      "type": "sign",
+      "name": "Zúžená vozovka sprava",
+      "points": 2,
+      "question": "Táto dopravná značka upozorňuje na",
+      "answers": [{
+        "text": "pripájací jazdný pruh,",
+        "correct": false
+      }, {
+        "text": "miesto kde je zúžená vozovka (z jednej strany), kde sa približuje koľaj električky k chodníku a podobne,",
+        "correct": true
+      }, {
+        "text": "miesto, kde sa znižuje počet jazdných pruhov z jednej strany.",
+        "correct": false
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/A4b.svg",
+        "imgType": "triangle"
+      }
+    }, {
+      "id": 11,
+      "type": "sign",
+      "name": "Nerovnosť vozovky",
+      "points": 2,
+      "question": "Táto dopravná značka znamená",
+      "answers": [{
+        "text": "<i>Nerovnosť vozovky,</i>",
+        "correct": true
+      }, {
+        "text": "<i>Tunel,</i>",
+        "correct": false
+      }, {
+        "text": "<i>Zdvíhací most</i>.",
+        "correct": false
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/A5.svg",
+        "imgType": "triangle"
+      }
+    }, {
       "id": 23,
       "type": "sign",
       "name": "Pozor, zvieratá",
@@ -172,6 +216,28 @@ var SignsList = {
   }, {
     "section": "Značky upravujúce prednosť v jazde",
     "questions": [{
+      "id": 43,
+      "type": "sign",
+      "name": "Stoj a daj prednosť v jazde o 150 m",
+      "points": 2,
+      "question": "Táto dopravná značka s dodatkovou tabuľkou",
+      "answers": [{
+        "text": "vyznačuje vzdialenosť k značke <i>Stoj, daj prednosť v jazde!</i>, pre ktorú je zároveň predbežnou značkou,",
+        "correct": true
+      }, {
+        "text": "prikazuje vodičovi zastaviť vozidlo do vzdialenosti 150 m,",
+        "correct": false
+      }, {
+        "text": "upozorňuje vodiča, že vo vzdialenosti 150 m bude mať prednosť v jazde.",
+        "correct": false
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/P1b.svg",
+        "imgType": "triangle"
+      }
+    }, {
       "id": 47,
       "type": "sign",
       "name": "Stoj, daj prednosť v jazde",
@@ -215,10 +281,54 @@ var SignsList = {
         "src": "img/signs/P4.svg",
         "imgType": "triangle"
       }
+    }, {
+      "id": 57,
+      "type": "sign",
+      "name": "Koniec hlavnej cesty",
+      "points": 2,
+      "question": "Táto dopravná značka znamená",
+      "answers": [{
+        "text": "<i>Koniec hlavnej cesty</i>; značka informuje o tom, že na najbližšej križovatke táto cesta už nie je hlavná,",
+        "correct": true
+      }, {
+        "text": "Koniec rýchlostnej cesty,",
+        "correct": false
+      }, {
+        "text": "<i>Koniec vedľajšej cesty</i>; značka upozorňuje na to, že na najbližšej križovatke má vodič prednosť v jazde.",
+        "correct": false
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/P9.svg",
+        "imgType": "triangle"
+      }
     }]
   }, {
     "section": "Zákazové značky",
     "questions": [{
+      "id": 66,
+      "type": "sign",
+      "name": "Zákaz vjazdu všetkých motorových vozidiel s výnimkou motocyklov bez postranného vozíka",
+      "points": 2,
+      "question": " Táto dopravná značka znamená",
+      "answers": [{
+        "text": "<i>Zákaz vjazdu všetkých nemotorových vozidiel a električiek</i>,",
+        "correct": false
+      }, {
+        "text": "<i>Zákaz vjazdu osobných automobilov</i>,",
+        "correct": false
+      }, {
+        "text": "<i>Zákaz vjazdu všetkých motorových vozidiel s výnimkou motocyklov bez postranného vozíka</i>.",
+        "correct": true
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/B4.svg",
+        "imgType": "circle"
+      }
+    }, {
       "id": 69,
       "type": "sign",
       "name": "Zákaz vjazdu motocyklov",

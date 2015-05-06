@@ -35,8 +35,14 @@
   }
 }
 
+.item {
+  p {
+    color: darken($link-secondary, 15);
+  }
+}
 .item-inner {
-  height: 60px;
+  height: auto;
+  // height: 60px;
   color: $dark;
   white-space: normal;
   overflow: hidden;
@@ -215,7 +221,7 @@
 
 .test-score {
   position: absolute;
-  top: 3.8em;
+  top: 3.7em;
   text-align: center;
   display: block;
   width: 100%;

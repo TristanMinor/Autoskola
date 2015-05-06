@@ -273,16 +273,48 @@ var TestsList = {
       "questionId": 36
     }, {
       "id": 13,
-      "type": "law",
+      "type": "notice",
       "questionId": 7
     }, {
       "id": 14,
-      "type": "law",
+      "type": "notice",
       "questionId": 8
     }, {
       "id": 15,
-      "type": "law",
+      "type": "notice",
       "questionId": 9
+    }, {
+      "id": 16,
+      "type": "sign",
+      "questionId": 10
+    }, {
+      "id": 17,
+      "type": "sign",
+      "questionId": 11
+    }, {
+      "id": 18,
+      "type": "sign",
+      "questionId": 66
+    }, {
+      "id": 19,
+      "type": "sign",
+      "questionId": 43
+    }, {
+      "id": 20,
+      "type": "sign",
+      "questionId": 57
+    }, {
+      "id": 21,
+      "type": "sign",
+      "questionId": 0
+    }, {
+      "id": 22,
+      "type": "sign",
+      "questionId": 0
+    }, {
+      "id": 23,
+      "type": "sign",
+      "questionId": 0
     }]
   }, {
     "id": 4
