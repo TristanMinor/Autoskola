@@ -219,7 +219,7 @@ var LawList = {
     "points": 2,
     "question": "Chodníkom sa rozumie",
     "answers": [{
-      "text": "len komunikácia alebo časť cesty označená príslušnou dopravnou značkou (č. C 8),",
+      "text": "len komunikácia alebo časť cesty označená príslušnou dopravnou značkou,",
       "correct": false
     }, {
       "text": "pravá krajnica, kde krajnica nie je, rozumie sa chodníkom pravý okraj vozovky široký jeden meter,",
@@ -787,6 +787,210 @@ var LawList = {
       "correct": false
     }, {
       "text": "rýchlosť v km/h, pri ktorej dodržaní dôjde vozidlo na križovatku v čase, keď na nej svieti signál s červeným svetlom <i>STOJ</i>.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 47,
+    "type": "law",
+    "points": 2,
+    "question": "Krajnicou sa rozumie",
+    "answers": [{
+      "text": "časť cesty od kraja vozovky po kraj cesty,",
+      "correct": true
+    }, {
+      "text": "trávnatý pás medzi smerovo rozdelenými cestami,",
+      "correct": false
+    }, {
+      "text": "časť cesty určená na premávku motorových vozidiel.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 48,
+    "type": "law",
+    "points": 2,
+    "question": "Chodníkom sa rozumie",
+    "answers": [{
+      "text": "len komunikácia alebo časť cesty označená príslušnou dopravnou značkou,",
+      "correct": false
+    }, {
+      "text": "komunikácia alebo časť cesty určená predovšetkým pre chodcov, ktorá je spravidla oddelená od vozovky výškovo alebo iným spôsobom,",
+      "correct": true
+    }, {
+      "text": "pravá krajnica, kde krajnica nie je, rozumie sa chodníkom pravý okraj vozovky široký jeden meter.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 49,
+    "type": "law",
+    "points": 2,
+    "question": "Vodič je povinný",
+    "answers": [{
+      "text": "sledovať situáciu v cestnej premávke len počas jazdy na diaľnici, na rýchlostnej ceste, na ceste I. triedy a obci,",
+      "correct": false
+    }, {
+      "text": "venovať sa plne vedeniu vozidla a sledovať situáciu v cestnej premávke,",
+      "correct": true
+    }, {
+      "text": "venovať sa plne vedeniu vozidla, sledovať situáciu v cestnej premávke je povinný len v niektorých osobitných prípadoch, najmä počas jazdy vyššou rýchlosťou a prepravy nebezpečných vecí.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 50,
+    "type": "law",
+    "points": 2,
+    "question": "Vodič pri prechádzaní z jedného jazdného pruhu do druhého jazdného pruhu",
+    "answers": [{
+      "text": "nie je povinný dávať znamenie o zmene smeru jazdy,",
+      "correct": false
+    }, {
+      "text": "je povinný dávať znamenie o zmene smeru jazdy,",
+      "correct": true
+    }, {
+      "text": "môže ohroziť vodiča jazdiaceho v jazdnom pruhu, do ktorého prechádza.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 51,
+    "type": "law",
+    "points": 2,
+    "question": "Vodič smie cúvať",
+    "answers": [{
+      "text": "na jednosmernej ceste, ak je to nevyhnutne potrebné najmä na zaradenie do radu stojacich vozidiel alebo na vyjdenie z neho,",
+      "correct": true
+    }, {
+      "text": "na železničnom priecestí, ak nie je v blízkosti vlak,",
+      "correct": false
+    }, {
+      "text": "v tuneli.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 52,
+    "type": "law",
+    "points": 2,
+    "question": "Vodič nesmie zastaviť a stáť na zastávke vozidla pravidelnej verejnej dopravy osôb v úseku, ktorý sa začína dopravnou značkou pre zastávku a končí sa",
+    "answers": [{
+      "text": "20 m za označníkom zastávky,",
+      "correct": false
+    }, {
+      "text": "10 m za označníkom zastávky,",
+      "correct": false
+    }, {
+      "text": "5 m za označníkom zastávky, a tam, kde taká dopravná značka nie je, vo vzdialenosti kratšej ako 30 m pred označníkom zastávky a 5 m za ním.",
+      "correct": true
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 53,
+    "type": "law",
+    "points": 2,
+    "question": "Ak situácia na železničnom priecestí alebo za ním nedovoľuje, aby ho bezpečne prešiel a pokračoval v jazde, vodič",
+    "answers": [{
+      "text": "smie zastaviť na železničnom priecestí na čas, ktorý nepresiahne 3 minúty,",
+      "correct": false
+    }, {
+      "text": "nesmie vchádzať na železničné priecestie,",
+      "correct": true
+    }, {
+      "text": "smie vojsť na železničné priecestie len, ak nie je vidieť prichádzať dráhové vozidlo.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 54,
+    "type": "law",
+    "points": 2,
+    "question": "Vodičovi motorového vozidla je na diaľnici a na rýchlostnej ceste otáčanie a cúvanie",
+    "answers": [{
+      "text": "zakázané,",
+      "correct": true
+    }, {
+      "text": "dovolené,",
+      "correct": false
+    }, {
+      "text": "dovolené, tam, kde je stredný deliaci pás prerušený.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 55,
+    "type": "law",
+    "points": 2,
+    "question": "Vodič vozidla, ktorý pri obchádzaní vozidla, ktoré zastavilo alebo stojí, vybočuje zo smeru svojej jazdy",
+    "answers": [{
+      "text": "môže obmedziť protiidúcich vodičov,",
+      "correct": false
+    }, {
+      "text": "nie je povinný dávať znamenie o zmene smeru jazdy,",
+      "correct": false
+    }, {
+      "text": "je povinný dávať znamenie o zmene smeru jazdy.",
+      "correct": true
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 56,
+    "type": "law",
+    "points": 2,
+    "question": "Vodič, ktorý sa zúčastnil na dopravnej nehode, je povinný",
+    "answers": [{
+      "text": "zastaviť vozidlo len vtedy, ak pri dopravnej nehode boli zranené osoby,",
+      "correct": false
+    }, {
+      "text": "bezodkladne zastaviť vozidlo,",
+      "correct": true
+    }, {
+      "text": "bezodkladne zastaviť vozidlo len vtedy, ak ho o to požiadal iný účastník dopravnej nehody.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 57,
+    "type": "law",
+    "points": 2,
+    "question": "Vodič po zastavení vozidla je povinný bezodkladne vypnúť motor, a ak je na vykurovanie vozidla použité nezávislé kúrenie, vypnúť aj toto kúrenie, ak",
+    "answers": [{
+      "text": "zastavil vozidlo pred železničným priecestím, kde sa dáva výstraha dvoma červenými striedavo prerušovanými svetlami priecestného zabezpečovacieho zariadenia,",
+      "correct": false
+    }, {
+      "text": "pri jazde vozidla v tuneli vznikne porucha vozidla, pre ktorú sa toto vozidlo stane nepojazdným,",
+      "correct": true
+    }, {
+      "text": "vodič zastavil na parkovisku.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 58,
+    "type": "law",
+    "points": 2,
+    "question": "V školskej zóne",
+    "answers": [{
+      "text": "nemožno stáť,",
+      "correct": false
+    }, {
+      "text": "možno stáť, ak tým nie je obmedzený pohyb chodcov,",
+      "correct": true
+    }, {
+      "text": "možno stáť bez obmedzenia.",
       "correct": false
     }],
     "explanation": [{
