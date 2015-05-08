@@ -154,5 +154,56 @@ var NoticeList = {
     }],
     "explanation": [{
     }]
+  }, {
+    "id": 10,
+    "type": "notice",
+    "points": 1,
+    "question": "Ak pohonič ide vedľa záprahového vozidla, je povinný ísť po",
+    "answers": [{
+      "text": "pravej strane,",
+      "correct": true
+    }, {
+      "text": "ľavej strane,",
+      "correct": false
+    }, {
+      "text": "ľavej strene a najviac jeden meter od vozidla.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 11,
+    "type": "notice",
+    "points": 1,
+    "question": " Vozidlo sa považuje za technicky nespôsobilé na premávku na pozemných komunikáciách, ak",
+    "answers": [{
+      "text": "je poškodený lak na zadnom nárazníku,",
+      "correct": false
+    }, {
+      "text": "z miesta vodiča nie je možné nastaviť pravé predné zrkadlo,",
+      "correct": false
+    }, {
+      "text": "náprava alebo nápravy alebo ťažné oje prívesu sú defermované alebo vážne poškodené.",
+      "correct": true
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 12,
+    "type": "notice",
+    "points": 1,
+    "question": "Prívesy za osobné automobily",
+    "answers": [{
+      "text": "smú sa používať na prepravu osôb, rýchlosť jazdy však nesmie prekročiť 60 km/h,",
+      "correct": false
+    }, {
+      "text": "sa nesmú používať na prepravu osôb,",
+      "correct": true
+    }, {
+      "text": "sa nesmú používať na prepravu osôb, to neplatí pre obytné prívesy za osobné automobily, ktoré sa môžu používať na prepravu osôb.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
   }]
 };

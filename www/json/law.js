@@ -621,5 +621,175 @@ var LawList = {
     }],
     "explanation": [{
     }]
+  }, {
+    "id": 37,
+    "type": "law",
+    "points": 2,
+    "question": "Hranicou križovatky sa rozumie",
+    "answers": [{
+      "text": "miesto vyznačené príslušnou vodorovnou dopravnou značkou; kde takáto vodorovná dopravná značka nie je, hranicu križovatky tvorí kolmica na os vozovky v mieste, kde sa pre križovatku začína zakrivenie vozovky,",
+      "correct": true
+    }, {
+      "text": "kolmica na os vozovky vo vzdialenosti desať metrov od miesta, kde sa pre križovatku začína zakrivenie vozovky,",
+      "correct": false
+    }, {
+      "text": "kolmica na os vozovky vedená stredom priechodu pre chodcov.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 38,
+    "type": "law",
+    "points": 2,
+    "question": "Státím sa rozumie",
+    "answers": [{
+      "text": "uvedenie vozidla do pokoja na dlhšie, ako je čas dovolený na zastavenie,",
+      "correct": true
+    }, {
+      "text": "prerušenie jazdy na čas nevyhnutne potrebný na urýchlené nastúpenie alebo vystúpenie prepravovaných osôb alebo na urýchlené naloženie alebo zloženie nákladu,",
+      "correct": false
+    }, {
+      "text": "len také uvedenie vozidla do pokoja, ktoré nepresiahna čas 15 minút.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 39,
+    "type": "law",
+    "points": 2,
+    "question": "Vodič nesmie použiť",
+    "answers": [{
+      "text": "zvukové výstražné znamenie na odvrátenie hroziaceho nebezpečenstva v obci,",
+      "correct": false
+    }, {
+      "text": "na jazdu vozidlo, ktoré svojím farebným vyhotovením a označením sa dá zameniť s vozidlom Policajného zboru, Vojenskej polície, Železničnej polície, obecnej polície, Hasičského a záchranného zboru alebo ostatných hasičských jednotiek,",
+      "correct": true
+    }, {
+      "text": "zimné pneumatiky v období od 15. marca do 15. októbra.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 40,
+    "type": "law",
+    "points": 2,
+    "question": "Vodič motocykla je počas jazdy povinný vhodným spôsobom chrániť si zrak",
+    "answers": [{
+      "text": "okuliarmi a ochranným štítom za každých okolností,",
+      "correct": false
+    }, {
+      "text": "okuliarmi len pri snežení alebo v daždi,",
+      "correct": false
+    }, {
+      "text": "najmä okuliarmi alebo ochranným štítom, ak sa tým nezníži bezpečnosť jazdy, najmä v hmle, pri snežení alebo v daždi.",
+      "correct": true
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 41,
+    "type": "law",
+    "points": 2,
+    "question": "Ak pri súbežnej jazde vodič vozidla idúceho vo voľnom jazdnom pruhu umožňuje vodičovi prvého vozidla nachádzajúceho sa v jazdnom pruhu, v ktorom je prekážka, jej obídenie, vodič obchádzajúci prekážku nesmie",
+    "answers": [{
+      "text": "dávať znamenie o zmene smeru jazdy,",
+      "correct": false
+    }, {
+      "text": "jazdiť za žiadnych okolností rýchlosťou vyššou ako 15 km/h,",
+      "correct": false
+    }, {
+      "text": "ohroziť vodiča jazdiaceho vo voľnom jazdnom pruhu.",
+      "correct": true
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 42,
+    "type": "law",
+    "points": 2,
+    "question": "Vodič je povinný pri obchádzaní stojaceho vozidla pravidelnej verejnej dopravy osôb prihliadnuť na možnosť vbehnutia osôb na vozovku a jazdu prispôsobiť tak, aby neboli ohrozené;",
+    "answers": [{
+      "text": "to platí aj pre vodiča vozidla jazdiaceho v protismere,",
+      "correct": true
+    }, {
+      "text": "to neplatí pre vodiča vozidla jazdiaceho v protismere,",
+      "correct": false
+    }, {
+      "text": "to neplatí pre vodiča motocykla a vodiča nemotorového vozidla.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 43,
+    "type": "law",
+    "points": 2,
+    "question": "Ak je nevyhnutné upozorniť ostatných účastníkov cestnej premávky na hroziace nebezpečenstvo, najmä v prípadoch, keď je potrebné náhle znížiť rýchlosť jazdy alebo zastaviť vozidlo,",
+    "answers": [{
+      "text": "použije vodič zvukové výstražné znamenie,",
+      "correct": false
+    }, {
+      "text": "dáva vodič svetelné výstražné znamenie zapnutím výstražnej funkcie smerových svietidiel,",
+      "correct": true
+    }, {
+      "text": "dáva vodič svetelné výstražné znamenie prerušovaným zapínaním predných hmlových svetlometov.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 44,
+    "type": "law",
+    "points": 2,
+    "question": "Na vyhradenom parkovisku, ak nejde o vozidlo, pre ktoré je parkovisko vyhradené, vodič",
+    "answers": [{
+      "text": "môže zastaviť a stáť vždy v čase od 22,00 do 5,00 hodiny,",
+      "correct": false
+    }, {
+      "text": "môže stáť, ak ide o státie, ktoré nepresiahne pätnásť minút,",
+      "correct": true
+    }, {
+      "text": "nesmie zastaviť a stáť.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 45,
+    "type": "law",
+    "points": 2,
+    "question": "Na priechode pre chodcov sa chodí",
+    "answers": [{
+      "text": "vpravo,",
+      "correct": true
+    }, {
+      "text": "vľavo,",
+      "correct": false
+    }, {
+      "text": "v strede.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 46,
+    "type": "law",
+    "points": 2,
+    "question": "Rozsvietené číslo na rýchlostnom signáli s viacerými signálnymi znakmi označuje",
+    "answers": [{
+      "text": "rýchlosť v km/h, pri ktorej dodržaní dôjde vozidlo k nasledujúcemu svetelnému signalizačnému zariadeniu v čase, keď na ňom svieti signál so zeleným svetlom <i>Voľno</i>,",
+      "correct": true
+    }, {
+      "text": "najnižšiu dovolenú rýchlosť v km/h,",
+      "correct": false
+    }, {
+      "text": "rýchlosť v km/h, pri ktorej dodržaní dôjde vozidlo na križovatku v čase, keď na nej svieti signál s červeným svetlom <i>STOJ</i>.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
   }]
 };

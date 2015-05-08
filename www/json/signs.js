@@ -291,7 +291,7 @@ var SignsList = {
         "text": "<i>Koniec hlavnej cesty</i>; značka informuje o tom, že na najbližšej križovatke táto cesta už nie je hlavná,",
         "correct": true
       }, {
-        "text": "Koniec rýchlostnej cesty,",
+        "text": "<i>Koniec rýchlostnej cesty</i>,",
         "correct": false
       }, {
         "text": "<i>Koniec vedľajšej cesty</i>; značka upozorňuje na to, že na najbližšej križovatke má vodič prednosť v jazde.",
@@ -301,6 +301,28 @@ var SignsList = {
       }],
       "image": {
         "src": "img/signs/P9.svg",
+        "imgType": "triangle"
+      }
+    }, {
+      "id": 62,
+      "type": "sign",
+      "name": "Tvar križovatky (vzor)",
+      "points": 2,
+      "question": "Táto dodatková tabuľka vyznačuje",
+      "answers": [{
+        "text": "vyústenie dvoch po sebe nasledujúcich lesných alebo poľných ciest na cestu,",
+        "correct": false
+      }, {
+        "text": "úsek platnosti značky, pod ktorou je tabuľka umiestnená,",
+        "correct": false
+      }, {
+        "text": "skutočný tvar dvoch po sebe nasledujúcich križovatiek a aj hlavnú a vedľajšiu cestu.",
+        "correct": true
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/P15.svg",
         "imgType": "triangle"
       }
     }]
@@ -371,6 +393,97 @@ var SignsList = {
       "image": {
         "src": "img/signs/B18.svg",
         "imgType": "circle"
+      }
+    }, {
+      "id": 98,
+      "type": "sign",
+      "name": "Zákaz státia v nepárnych dňoch",
+      "points": 2,
+      "question": "Táto dopravná značka",
+      "answers": [{
+        "text": "zakazuje zastavenie za značkou v párnych dňoch v mesiaci,",
+        "correct": false
+      }, {
+        "text": "umožňuje státie v nepárnych dňoch v mesiaci,",
+        "correct": false
+      }, {
+        "text": "zakazuje státie v nepárnych kalendárnych dňoch v mesiaci.",
+        "correct": true
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/B35.svg",
+        "imgType": "circle"
+      }
+    }]
+  }, {
+    "section": "Prikazové značky",
+    "questions": [{
+      "id": 115,
+      "type": "sign",
+      "name": "Prikázaný smer obchádzania vpravo a vľavo",
+      "points": 2,
+      "question": "Táto dopravná značka znamená:",
+      "answers": [{
+        "text": "<i>Prikázaný smer obchádzania vpravo a vľavo</i>,",
+        "correct": true
+      }, {
+        "text": "<i>Jazdné pruhy pred križovatkou</i>,",
+        "correct": false
+      }, {
+        "text": "<i>Nerovnosť vozovky</i>.",
+        "correct": false
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/C6c.svg",
+        "imgType": "rectangle"
+      }
+    }, {
+      "id": 120,
+      "type": "sign",
+      "name": "Cestička pre jazdcov na koňoch",
+      "points": 2,
+      "question": "Táto dopravná značka znamená:",
+      "answers": [{
+        "text": "<i>Cestička pre jazdcov na koňoch</i>; značka prikazuje jazdcom na koňoch použiť takto označený pruh alebo cestičku,",
+        "correct": true
+      }, {
+        "text": "<i>Zákaz vjazdu záprahových vozidiel</i>; značka zakazuje vjazd záprahovým vozidlám vrátane jazdcov na koňoch,,",
+        "correct": false
+      }, {
+        "text": "<i>Priechod pre jazdcov na koňoch</i>; značka označuje priechod pre jazdcov na koňoch.",
+        "correct": false
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/C11.svg",
+        "imgType": "circle"
+      }
+    }, {
+      "id": 137,
+      "type": "sign",
+      "name": "Zmena smeru jazdy",
+      "points": 2,
+      "question": "Táto dopravná značka informuje",
+      "answers": [{
+        "text": "o mieste, kde možno obchádzať vľavo električku, ktorá stojí na zastávke,",
+        "correct": false
+      }, {
+        "text": "o možnosti jazdy pozdĺž električky vľavo,",
+        "correct": false
+      }, {
+        "text": "najmä o zmene smeru jazdy do protismeru na smerovo rozdelenej ceste.",
+        "correct": true
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/C26.svg",
+        "imgType": "rectangle"
       }
     }]
   }, {
@@ -445,6 +558,28 @@ var SignsList = {
         "imgType": "rectangle"
       }
     }, {
+      "id": 197,
+      "type": "sign",
+      "name": "Smerová tabuľa (s jedným cieľom)",
+      "points": 2,
+      "question": "Táto dopravná značka znamená:",
+      "answers": [{
+        "text": "<i>Jednosmerná premávka</i>,",
+        "correct": false
+      }, {
+        "text": "<i>Smerová tabuľa (s jedným cieľom)</i>,",
+        "correct": true
+      }, {
+        "text": "<i>Prikázaný smer jazdy</i>.",
+        "correct": false
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/IS-17a.svg",
+        "imgType": "rectangle"
+      }
+    }, {
       "id": 198,
       "type": "sign",
       "name": "Smerová tabuľa (s jedným cieľom)",
@@ -489,7 +624,29 @@ var SignsList = {
         "imgType": "rectangle"
       }
     }, {
-      "id": 209,
+      "id": 211,
+      "type": "sign",
+      "name": "Iný názov",
+      "points": 2,
+      "question": "Táto dopravná značka znamená",
+      "answers": [{
+        "text": "<i>Cesta II. triedy</i>,",
+        "correct": false
+      }, {
+        "text": "<i>Rýchlostná cesta</i>,",
+        "correct": true
+      }, {
+        "text": "<i>Medzinárodná trasa</i>.",
+        "correct": false
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/IS-35.svg",
+        "imgType": "rectangle"
+      }
+    }, {
+      "id": 219,
       "type": "sign",
       "name": "Iný názov",
       "points": 2,
@@ -511,7 +668,7 @@ var SignsList = {
         "imgType": "rectangle"
       }
     }, {
-      "id": 211,
+      "id": 221,
       "type": "sign",
       "name": "Koniec obce",
       "points": 2,
@@ -534,9 +691,34 @@ var SignsList = {
       }
     }]
   }, {
+    "section": "Informatívne iné značky",
+    "questions": [{
+      "id": 304,
+      "type": "sign",
+      "name": "Odpočívadlo s objektmi služieb (vzor)",
+      "points": 2,
+      "question": " Táto dopravná značka znamená",
+      "answers": [{
+        "text": "<i>Odpočívadlo s objektami služieb</i>,",
+        "correct": true
+      }, {
+        "text": "<i>Platené parkovisko</i>,",
+        "correct": false
+      }, {
+        "text": "<i>Obchodné centrum</i>.",
+        "correct": false
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/II18b.svg",
+        "imgType": "rectangle"
+      }
+    }]
+  }, {
     "section": "Dodatkové tabuľky",
     "questions": [{
-      "id": 238,
+      "id": 248,
       "type": "sign",
       "name": "Úsek platnosti",
       "points": 2,
@@ -558,7 +740,7 @@ var SignsList = {
         "imgType": "rectangle"
       }
     }, {
-      "id": 239,
+      "id": 249,
       "type": "sign",
       "name": "Úsek platnosti",
       "points": 2,
@@ -579,11 +761,80 @@ var SignsList = {
         "src": "img/signs/E5b.svg",
         "imgType": "rectangle"
       }
+    }, {
+      "id": 257,
+      "type": "sign",
+      "name": "Dodatková tabuľka na označenie vyhradeného parkovacieho miesta pre osobu so zdravotným postihnutím",
+      "points": 2,
+      "question": "Táto dodatková tabuľka označuje",
+      "answers": [{
+        "text": "vyhradené parkovacie miesto pre vozidlá vedené osobou sluchovo postihnutú,",
+        "correct": false
+      }, {
+        "text": "obytnú zónu,",
+        "correct": false
+      }, {
+        "text": "vyhradené parkovacie miesto pre osobu so zdravotným postihnutím.",
+        "correct": true
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/E15.svg",
+        "imgType": "rectangle"
+      }
+    }]
+  }, {
+    "section": "Vodorovné dopravné značky",
+    "questions": [{
+      "id": 279,
+      "type": "sign",
+      "name": "Stanovište TAXI",
+      "points": 2,
+      "question": "Táto dopravná značka znamená",
+      "answers": [{
+        "text": "<i>Zákaz zastavenia a státia pre vozidlá taxislužby</i>,",
+        "correct": false
+      }, {
+        "text": "<i>Zastavka vozidiel pravidelnej verejnej dopravy osôb</i>,",
+        "correct": false
+      }, {
+        "text": "<i>Stanovište TAXI</i>.",
+        "correct": true
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/V10e.svg",
+        "imgType": "rectangle"
+      }
     }]
   }, {
     "section": "Dopravné zariadenia",
     "questions": [{
-      "id": 296,
+      "id": 291,
+      "type": "sign",
+      "name": "Dopravný kužeľ",
+      "points": 2,
+      "question": " Tieto dopravné kužele umiestnené v rade za sebou",
+      "answers": [{
+        "text": "majú zhodný význam ako značka <i>Pozdĺžna súvisla čiara</i>; môžu vymedzovať aj priestor, do ktorého je zakázané vchádzať,",
+        "correct": true
+      }, {
+        "text": "vyznačujú blížiaci sa prechod pozdĺžnej prerušovanej čiary v súvislú čiaru,",
+        "correct": false
+      }, {
+        "text": "majú zhodný význam ako značka <i>Dvojitá pozdĺžna prerušovaná čiara</i>.",
+        "correct": false
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/dk.jpg",
+        "imgType": "rectangle"
+      }
+    }, {
+      "id": 301,
       "type": "sign",
       "name": "Autobus prepravujúci deti",
       "points": 2,
