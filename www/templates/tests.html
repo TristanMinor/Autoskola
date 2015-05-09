@@ -2,7 +2,7 @@
   <ion-nav-bar class="bar bar-light"></ion-nav-bar>
   <ion-content>
     <ion-list type="list list-uneditable center list-tests">
-        <ion-item href="#" ng-repeat="item in tests | limitTo:4" ng-click="openTestModal(item)" class="item item-uneditable item-thumbnail-center item-grid-3">
+        <ion-item href="#" ng-repeat="item in tests | limitTo:6" ng-click="openTestModal(item)" class="item item-uneditable item-thumbnail-center item-grid-3">
           <div class="item-inner">
             <img ng-if="!localDataTests[item.id].score" src="img/tests/test_nothing.png" alt="">
             <img ng-if="localDataTests[item.id].score<50" src="img/tests/test_didntPass.png" alt="">

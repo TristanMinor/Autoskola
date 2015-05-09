@@ -205,5 +205,107 @@ var NoticeList = {
     }],
     "explanation": [{
     }]
+  }, {
+    "id": 13,
+    "type": "notice",
+    "points": 1,
+    "question": "Pokyny policajta",
+    "answers": [{
+      "text": "nie sú nadradené svetelným signálom,",
+      "correct": false
+    }, {
+      "text": "sú nadradené všeobecnej úprave cestnej premávky, dopravným značkám a svetelným signálom,",
+      "correct": true
+    }, {
+      "text": "nie sú nadradené všeobecnej úprave cestnej premávky, avšak sú nadradené dopravným značkám a svetelným signálom.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 14,
+    "type": "notice",
+    "points": 1,
+    "question": "Vozidlo sa považuje za technicky nespôsobilé na premávku na pozemných komunikáciách ak",
+    "answers": [{
+      "text": "dodatočne namontované svetelné zariadenia narúšajú výhľad z miesta spolujazdca,",
+      "correct": false
+    }, {
+      "text": "je poškodený alebo deformovaný podvozok, rám alebo karoséria,",
+      "correct": true
+    }, {
+      "text": "vozidlo nie je vybavené zariadením na spájanie vozidiel.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 15,
+    "type": "notice",
+    "points": 1,
+    "question": "Ak zjavne uniká palivo, olej, mazivo alebo iné prevádzkové náplne z vozidla",
+    "answers": [{
+      "text": "vodič je povinný po ukončení jazdy oznámiť to držiteľovi vozidla,",
+      "correct": false
+    }, {
+      "text": "považuje sa vozidlo za technicky nespôsobilé na premávku na pozemných komunikáciách,",
+      "correct": true
+    }, {
+      "text": "smie sa takéto vozidlo, okrem diaľnice a rýchlostnej cesty, používať v cestnej premávke.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 16,
+    "type": "notice",
+    "points": 1,
+    "question": "Výstražné značky",
+    "answers": [{
+      "text": "upozorňujú na miesto, kde vodič motorového vozidla musí spomaliť a prípadne aj zastaviť vozidlo,",
+      "correct": false
+    }, {
+      "text": "informujú účastníkov cestnej premávky o zmene organizácie dopravy,",
+      "correct": false
+    }, {
+      "text": "upozorňujú na miesta, kde účastníkovi cestnej premávky hrozí nebezpečenstvo a kde musí dbať na zvýšenú opatrnosť.",
+      "correct": true
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 17,
+    "type": "notice",
+    "points": 1,
+    "question": "Povinnou výbavou motorového vozidla kategórie M, N, T, C a PS sú",
+    "answers": [{
+      "text": "najmenej dva zakladacie kliny pre každú nápravu motorového vozidla,",
+      "correct": false
+    }, {
+      "text": "homologizovaný prenosný výstražný trojuholník,",
+      "correct": true
+    }, {
+      "text": "dve náhradné uzavreté matice nábojov kolies.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 18,
+    "type": "notice",
+    "points": 1,
+    "question": "Vozidlo sa považuje za technicky nespôsobilé na premávku na pozemných komunikáciách, ak",
+    "answers": [{
+      "text": "na zvukovom výstražnom zariadení došlo k zmene tónu,",
+      "correct": false
+    }, {
+      "text": "výhľad z miesta vodiča je obmedzený alebo znemožnený,",
+      "correct": true
+    }, {
+      "text": "nie je na čelnom skle zatemňovací pás, ktorý umožňuje najmenej 50% priepustnosti svetla.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
   }]
 };

@@ -995,5 +995,209 @@ var LawList = {
     }],
     "explanation": [{
     }]
+  }, {
+    "id": 59,
+    "type": "law",
+    "points": 2,
+    "question": "Motorovým vozidlom sa rozumie",
+    "answers": [{
+      "text": "koľajové a nekoľajové vozidlo poháňané vlastným motorom,",
+      "correct": false
+    }, {
+      "text": "nekoľajové vozidlo poháňané vlastným motorom s výnimkou mechanického alebo elektrického motorového vozíka pre zdravotne postihnuté osoby a trolejbus,",
+      "correct": true
+    }, {
+      "text": "vozidlo poháňané vlastným motorom s výnimkou motocykla, traktora a motorového ručného vozíka.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 60,
+    "type": "law",
+    "points": 2,
+    "question": "Neohrozením sa rozumie povinnosť účastníka cestnej premávky",
+    "answers": [{
+      "text": "počínať si tak, aby inému účastníkovi cestnej premávky nijako neprekážal,",
+      "correct": false
+    }, {
+      "text": "počínať si tak, aby inému účastníkovi cestnej premávky nevzniklo nijaké nebezpečenstvo,",
+      "correct": true
+    }, {
+      "text": "neobchádzať ani nepredchádzať vozidlo prepravujúce nebezpečné veci a jazdiť za takýmto vozidlom vo vzdialenosti najmenej 50 m.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 61,
+    "type": "law",
+    "points": 2,
+    "question": "Vodič vozidla, ktoré je povinne vybavené prenosným výstražným trojuholníkom, je povinný tento trojuholník použiť počas",
+    "answers": [{
+      "text": "prepravy nebezpečného nákladu,",
+      "correct": false
+    }, {
+      "text": "núdzového státia, ak také vozidlo tvorí prekážku cestnej premávky,",
+      "correct": true
+    }, {
+      "text": "jazdy na diaľnici rýchlosťou nižšou ako 80 km/h.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 62,
+    "type": "law",
+    "points": 2,
+    "question": "Vodič nesmie zastaviť a stáť vo vzdialenosti kratšej ako",
+    "answers": [{
+      "text": "10 m od začiatku a 5 m od konca nástupného ostrovčeka,",
+      "correct": false
+    }, {
+      "text": "10 m od začiatku a 10 m od konca pozdĺžnej súvislej čiary alebo nástupného ostrovčeka,",
+      "correct": false
+    }, {
+      "text": "5 m od začiatku a 5 m od konca pozdĺžnej súvislej čiary alebo nástupného ostrovčeka tam, kde by medzi touto čiarou alebo nástupným ostrovčekom a vozidlom nezostal voľný aspoň jeden jazdný pruh široký najmenej 3 m.",
+      "correct": true
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 63,
+    "type": "law",
+    "points": 2,
+    "question": "Predné svetlomety do hmly a zadné svietidlá do hmly vodič smie použiť",
+    "answers": [{
+      "text": "len za hmly; za sneženia a dažďa je povinný použiť diaľkové svetlomety,",
+      "correct": false
+    }, {
+      "text": "vždy za zníženej viditeľnosti,",
+      "correct": false
+    }, {
+      "text": "len za hmly, sneženia alebo za dažďa.",
+      "correct": true
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 64,
+    "type": "law",
+    "points": 2,
+    "question": "Vlečenie motorového vozidla s prívesom je",
+    "answers": [{
+      "text": "zakázané; vliecť sa nesmie ani motorové vozidlo s návesom,",
+      "correct": false
+    }, {
+      "text": "dovolené, ak najväčšia prípustná celková hmotnosť vlečeného vozidla a prívesu nepresahuje 3500 kg,",
+      "correct": false
+    }, {
+      "text": "zakázané; smie sa však vliecť motorové vozidlo s návesom.",
+      "correct": true
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 65,
+    "type": "law",
+    "points": 2,
+    "question": "Vodič motorového vozidla smie na diaľnicu vchádzať a z diaľnice vychádzať",
+    "answers": [{
+      "text": "všade tam, kde neohrozí vodičov iných vozidiel,",
+      "correct": false
+    }, {
+      "text": "tam, kde je to preňho najvýhodnejšie,",
+      "correct": false
+    }, {
+      "text": "len na miestach na to určených.",
+      "correct": true
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 66,
+    "type": "law",
+    "points": 2,
+    "question": "V motorovom vozidle sa smú na miestach na to vyhradených prepravovať osoby len do",
+    "answers": [{
+      "text": "80 % prípustnej užitočnej hmotnosti vozidla,",
+      "correct": false
+    }, {
+      "text": "prípustnej užitočnej hmotnosti vozidla, pritom počet prepravovaných osôb nesmie byť vyšší, ako je počet povolených miest uvedených v osvedčení o evidencii,",
+      "correct": true
+    }, {
+      "text": "pohotovostnej hmotnosti vozidla.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 67,
+    "type": "law",
+    "points": 2,
+    "question": "Osoby sa môžu pohybovať po vozovke v tuneli len",
+    "answers": [{
+      "text": "v súvislosti so zaisťovaním bezpečnosti cestnej premávky, ak majú na sebe reflexný bezpečnostný odev,",
+      "correct": true
+    }, {
+      "text": "po pravej krajnici,",
+      "correct": false
+    }, {
+      "text": "v čase od 00:00 hod. do 04:00 hod.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 68,
+    "type": "law",
+    "points": 2,
+    "question": "Do pešej zóny je povolený vjazd",
+    "answers": [{
+      "text": "len bicyklom a motocyklom,",
+      "correct": false
+    }, {
+      "text": "len vozidlám, ktorým to umožňuje dopravná značka,",
+      "correct": true
+    }, {
+      "text": "všetkým vozidlám, ak nejazdia rýchlosťou vyššou ako 20 km/h.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 69,
+    "type": "law",
+    "points": 2,
+    "question": "Pokyny policajta",
+    "answers": [{
+      "text": "nie sú nadradené pokynom vyplývajúcim z dopravných značiek a dopravných zariadení,",
+      "correct": false
+    }, {
+      "text": "sú nadradené pokynom vyplývajúcim z dopravných značiek a dopravných zariadení,",
+      "correct": true
+    }, {
+      "text": "sú nadradené pokynom vyplývajúcim z dopravných značiek, ale nie sú nadradené pokynom vyplývajúcim z dopravných zariadení.",
+      "correct": false
+    }],
+    "explanation": [{
+    }]
+  }, {
+    "id": 70,
+    "type": "law",
+    "points": 2,
+    "question": "Pri jazde po kruhovom objazde vodič dáva znamenie o zmene smeru jazdy, ak",
+    "answers": [{
+      "text": "do takejto križovatky vchádza,",
+      "correct": false
+    }, {
+      "text": "dôjde k núdzovému zastaveniu vozidla alebo k dopravnej nehode,",
+      "correct": false
+    }, {
+      "text": "z takej križovatky vychádza.",
+      "correct": true
+    }],
+    "explanation": [{
+    }]
   }]
 };

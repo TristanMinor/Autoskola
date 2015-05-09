@@ -8103,8 +8103,8 @@ ul li {
   margin-bottom: 1em; }
   .question-image.image-sign img {
     max-width: 40%;
-    vertical-align: center;
-    min-height: 300px; }
+    height: 300px;
+    vertical-align: center; }
   .question-image.image-situation img {
     max-width: 100%;
     vertical-align: center; }

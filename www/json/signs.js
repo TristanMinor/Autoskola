@@ -169,6 +169,28 @@ var SignsList = {
         "imgType": "triangle"
       }
     }, {
+      "id": 17,
+      "type": "sign",
+      "name": "Odletujúci štrk",
+      "points": 2,
+      "question": "Táto dopravná značka znamená",
+      "answers": [{
+        "text": "<i>Zákaz státia na krajnici</i>,",
+        "correct": false
+      }, {
+        "text": "<i>Odletujúci štrk</i>,",
+        "correct": true
+      }, {
+        "text": "<i>Nebezpečenstvo poškodenia pneumatík</i>.",
+        "correct": false
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/A11.svg",
+        "imgType": "triangle"
+      }
+    }, {
       "id": 23,
       "type": "sign",
       "name": "Pozor, zvieratá",
@@ -191,6 +213,28 @@ var SignsList = {
         "imgType": "triangle"
       }
     }, {
+      "id": 29,
+      "type": "sign",
+      "name": "Kolóny",
+      "points": 2,
+      "question": "Táto dopravná značka",
+      "answers": [{
+        "text": "zakazuje predchádzanie vozidiel idúcich v kolóne,",
+        "correct": false
+      }, {
+        "text": "upozorňuje na úsek cesty, kde sa vytvárajú kolóny vozidiel, najmä pri veľkej intenzite premávky v dlhých stúpaniach, na horských priechodoch a podobne,",
+        "correct": true
+      }, {
+        "text": "zakazuje súbežnú jazdu osobným motorovým vozidlám",
+        "correct": false
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/A23.svg",
+        "imgType": "triangle"
+      }
+    }, {
       "id": 30,
       "type": "sign",
       "name": "Tunel",
@@ -210,6 +254,50 @@ var SignsList = {
       }],
       "image": {
         "src": "img/signs/A24.svg",
+        "imgType": "triangle"
+      }
+    }, {
+      "id": 34,
+      "type": "sign",
+      "name": "Železničné priecestie vo vzdialenosti 80 m a tvar kríženia cesty so železničnou dráhou",
+      "points": 2,
+      "question": "Táto dopravná značka s dodatkovou tabuľkou upozorňuje na",
+      "answers": [{
+        "text": "železničné priecestie vo vzdialenosti 80 m a na tvar kríženia cesty so železničnou dráhou,",
+        "correct": true
+      }, {
+        "text": "prekážku cestnej premávky,",
+        "correct": false
+      }, {
+        "text": "mimoúrovňové kríženie cesty so železnicou",
+        "correct": false
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/E11b.svg",
+        "imgType": "triangle"
+      }
+    }, {
+      "id": 40,
+      "type": "sign",
+      "name": "Bočný vietor",
+      "points": 2,
+      "question": "Táto dopravná značka upozorňuje na",
+      "answers": [{
+        "text": "úsek cesty, na ktorom sa vykonávajú meteorologické merania,",
+        "correct": false
+      }, {
+        "text": "blízkosť letiska,",
+        "correct": false
+      }, {
+        "text": "úsek cesty, kde prudký bočný alebo nárazový vietor môže ohroziť bezpečnosť cestnej premávky.",
+        "correct": true
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/A32.svg",
         "imgType": "triangle"
       }
     }]
@@ -351,6 +439,28 @@ var SignsList = {
         "imgType": "circle"
       }
     }, {
+      "id": 68,
+      "type": "sign",
+      "name": "Zákaz vjazdu autobusov",
+      "points": 2,
+      "question": " Táto dopravná značka znamená",
+      "answers": [{
+        "text": "<i>Zákaz vjazdu autobusov</i>,",
+        "correct": true
+      }, {
+        "text": "<i>Vjazd autobusom povolený</i>,",
+        "correct": false
+      }, {
+        "text": "<i>Jazdný pruh vyhradený pre autobusy</i>.",
+        "correct": false
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/B7.svg",
+        "imgType": "circle"
+      }
+    }, {
       "id": 69,
       "type": "sign",
       "name": "Zákaz vjazdu motocyklov",
@@ -392,6 +502,28 @@ var SignsList = {
       }],
       "image": {
         "src": "img/signs/B18.svg",
+        "imgType": "circle"
+      }
+    }, {
+      "id": 92,
+      "type": "sign",
+      "name": "Najvyššia dovolená rýchlosť",
+      "points": 2,
+      "question": "Táto dopravná značka znamená",
+      "answers": [{
+        "text": "<i>Najnižšia dovolená rýchlosť</i>,",
+        "correct": false
+      }, {
+        "text": "<i>Najvyššia dovolená rýchlosť</i>,",
+        "correct": true
+      }, {
+        "text": "<i>Odporúčaná rýchlosť.</i>",
+        "correct": false
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/B31a.svg",
         "imgType": "circle"
       }
     }, {
@@ -451,7 +583,7 @@ var SignsList = {
         "text": "<i>Cestička pre jazdcov na koňoch</i>; značka prikazuje jazdcom na koňoch použiť takto označený pruh alebo cestičku,",
         "correct": true
       }, {
-        "text": "<i>Zákaz vjazdu záprahových vozidiel</i>; značka zakazuje vjazd záprahovým vozidlám vrátane jazdcov na koňoch,,",
+        "text": "<i>Zákaz vjazdu záprahových vozidiel</i>; značka zakazuje vjazd záprahovým vozidlám vrátane jazdcov na koňoch,",
         "correct": false
       }, {
         "text": "<i>Priechod pre jazdcov na koňoch</i>; značka označuje priechod pre jazdcov na koňoch.",
@@ -462,6 +594,50 @@ var SignsList = {
       "image": {
         "src": "img/signs/C11.svg",
         "imgType": "circle"
+      }
+    }, {
+      "id": 124,
+      "type": "sign",
+      "name": "Najnižšia dovolená rýchlosť",
+      "points": 2,
+      "question": "Táto dopravná značka znamená:",
+      "answers": [{
+        "text": "<i>Najnižšia dovolená rýchlosť</i>,",
+        "correct": true
+      }, {
+        "text": "<i>Najvyššia dovolená rýchlosť</i>,",
+        "correct": false
+      }, {
+        "text": "<i>Odporúčaná rýchlosť.",
+        "correct": false
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/C15.svg",
+        "imgType": "circle"
+      }
+    }, {
+      "id": 133,
+      "type": "sign",
+      "name": "Obmedzenie v jazdných pruhoch",
+      "points": 2,
+      "question": "Táto dopravná značka znamená",
+      "answers": [{
+        "text": "<i>Obmedzenie v jazdných pruhoch</i>,",
+        "correct": true
+      }, {
+        "text": "<i>Jazdný pruh vyhradený pre nákladné automobily</i>,",
+        "correct": false
+      }, {
+        "text": "<i>Prikázaný smer jazdy pre pomalé vozidlá</i>.",
+        "correct": false
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/C23a.svg",
+        "imgType": "rectangle"
       }
     }, {
       "id": 137,
@@ -485,10 +661,54 @@ var SignsList = {
         "src": "img/signs/C26.svg",
         "imgType": "rectangle"
       }
+    }, {
+      "id": 139,
+      "type": "sign",
+      "name": "Zmena smeru jazdy",
+      "points": 2,
+      "question": "Táto dopravná značka znamená",
+      "answers": [{
+        "text": "<i>Zmena smeru jazdy</i>,",
+        "correct": true
+      }, {
+        "text": "<i>Prikázaný smer jazdy</i>,",
+        "correct": false
+      }, {
+        "text": "<i>Vyhradené jazdné pruhy</i>.",
+        "correct": false
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/C28.svg",
+        "imgType": "rectangle"
+      }
     }]
   }, {
     "section": "Informatívne, prevádzkové, smerové a iné značky",
     "questions": [{
+      "id": 142,
+      "type": "sign",
+      "name": "Okruh",
+      "points": 2,
+      "question": "Táto dopravná značka znamená",
+      "answers": [{
+        "text": "<i>Prikázaný smer obchádzania</i>,",
+        "correct": false
+      }, {
+        "text": "<i>Zmena smeru okruhu</i>,",
+        "correct": true
+      }, {
+        "text": "<i>Jednosmerná premávka</i>.",
+        "correct": false
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/IP2.svg",
+        "imgType": "rectangle"
+      }
+    }, {
       "id": 144,
       "type": "sign",
       "name": "Jednosmerná premávka",
@@ -511,6 +731,50 @@ var SignsList = {
         "imgType": "rectangle"
       }
     }, {
+      "id": 146,
+      "type": "sign",
+      "name": "Návesť pred slepou pozemnou komunikáciou",
+      "points": 2,
+      "question": "Táto dopravná značka znamená",
+      "answers": [{
+        "text": "<i>Návesť pred križovatkou</i>,",
+        "correct": false
+      }, {
+        "text": "<i>Návesť pred slepou cestou</i>,",
+        "correct": true
+      }, {
+        "text": "<i>Zákaz odbočovania vpravo</i>.",
+        "correct": false
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/IP5.svg",
+        "imgType": "rectangle"
+      }
+    }, {
+      "id": 158,
+      "type": "sign",
+      "name": "Parkovisko (čiastočné státie na chodníku kolmé alebo šikmé)",
+      "points": 2,
+      "question": "Táto dopravná značka vyznačuje",
+      "answers": [{
+        "text": "miesto, kde je na vozovke vybudovaný spomaľovací prah,",
+        "correct": false
+      }, {
+        "text": "miesto, na ktorom možno priečne prechádzať cez zvýšený električkový koľajový pás,",
+        "correct": false
+      }, {
+        "text": "parkovacie miesta s kolmým alebo šikmým čiastočným státim na chodníku a určuje dovolený spôsob státia vozidiel na chodníku.",
+        "correct": true
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/IP15a.svg",
+        "imgType": "rectangle"
+      }
+    }, {
       "id": 177,
       "type": "sign",
       "name": "Obytná zóna",
@@ -530,6 +794,28 @@ var SignsList = {
       }],
       "image": {
         "src": "img/signs/IP28a.svg",
+        "imgType": "rectangle"
+      }
+    }, {
+      "id": 181,
+      "type": "sign",
+      "name": "Všeobecne najvyššie dovolené rýchlosti",
+      "points": 2,
+      "question": "Táto dopravná značka znamená",
+      "answers": [{
+        "text": "<i>Odporúčané rýchlosti</i>,",
+        "correct": false
+      }, {
+        "text": "<i>Všeobecné najvyššie dovolené rýchlosti</i>,",
+        "correct": true
+      }, {
+        "text": "<i>Obmedzenie v jazdných pruhoch</i>.",
+        "correct": false
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/IP33a.svg",
         "imgType": "rectangle"
       }
     }]
@@ -599,6 +885,28 @@ var SignsList = {
       }],
       "image": {
         "src": "img/signs/IS-17b.svg",
+        "imgType": "rectangle"
+      }
+    }, {
+      "id": 204,
+      "type": "sign",
+      "name": "Smerová tabuľa k inému cieľu",
+      "points": 2,
+      "question": "Táto dopravná značka znamená",
+      "answers": [{
+        "text": "<i>Lietadlá</i>,",
+        "correct": false
+      }, {
+        "text": "<i>Smerová tabuľa na vyznačenie obchádzky</i>,",
+        "correct": false
+      }, {
+        "text": "<i>Smerová tabuľa k inému cieľu</i>.",
+        "correct": true
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/IS-22a.svg",
         "imgType": "rectangle"
       }
     }, {
@@ -762,6 +1070,28 @@ var SignsList = {
         "imgType": "rectangle"
       }
     }, {
+      "id": 250,
+      "type": "sign",
+      "name": "Úsek platnosti",
+      "points": 2,
+      "question": "Táto dodatková tabuľka umiestnená pod zákazovou značkou",
+      "answers": [{
+        "text": "obmedzuje platnosť značky na vozidlo, ktorého najväčšia prípustná celková hmotnosť je menšia ako údaj uvedený na tabuľke,",
+        "correct": false
+      }, {
+        "text": "obmedzuje platnosť zákazu na vozidlo, ktorého najväčšia prípustná celková hmotnosť presahuje údaj uvedený na tabuľke; pri jazdnej súprave rozhoduje súčet najväčších pripustných celkových hmotností vozidiel,",
+        "correct": true
+      }, {
+        "text": "vyznačuje najvyššie dovolené zaťaženie vozidla pripadajúce na dvojnápravu.",
+        "correct": false
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/E6.svg",
+        "imgType": "rectangle"
+      }
+    }, {
       "id": 257,
       "type": "sign",
       "name": "Dodatková tabuľka na označenie vyhradeného parkovacieho miesta pre osobu so zdravotným postihnutím",
@@ -806,6 +1136,28 @@ var SignsList = {
       }],
       "image": {
         "src": "img/signs/V10e.svg",
+        "imgType": "rectangle"
+      }
+    }, {
+      "id": 284,
+      "type": "sign",
+      "name": "Žltá prerušovaná čiara",
+      "points": 2,
+      "question": "Táto dopravná značka",
+      "answers": [{
+        "text": "vyznačuje úsek, kde je zakázané zastavenie,",
+        "correct": false
+      }, {
+        "text": "oddeľuje okraj vozovky od cestičky pre cyklistov,",
+        "correct": false
+      }, {
+        "text": "vyznačuje úsek, kde je zakázané státie.",
+        "correct": true
+      }],
+      "explanation": [{
+      }],
+      "image": {
+        "src": "img/signs/V12c.svg",
         "imgType": "rectangle"
       }
     }]
