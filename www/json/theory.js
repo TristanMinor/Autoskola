@@ -1326,7 +1326,47 @@ var TheoryList = {
       "id": 27,
       "minutes": 8,
       "name": "Vlečenie motorového vozidla",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
+      "content": [{
+        "id": 1,
+        "headline": "Nadpis",
+        "image": "img/theory/027_towingSpeed.png",
+        "paragraph": "Pri vlečení motorového vozidla sa smie jazdiť rýchlosťou najviac 60 km/h."
+      }, {
+        "id": 2,
+        "headline": "Nadpis",
+        "paragraph": "Motorové vozidlo sa smie vliecť len vtedy, ak má účinné riadenie a brzdy; povinnosti podľa § 4 ods. 1 a 2 sa vzťahujú aj na vodiča vlečeného motorového vozidla. Vodiči vlečeného a vlečného motorového vozidla sú povinní vopred sa dohodnúť na spôsobe dorozumievania počas jazdy. Ustanovenie odseku 2 neplatí, ak je motorové vozidlo vlečené pomocou osobitného zariadenia, najmä pomocou vyslobodzovacieho podvozka alebo žeriava; v takom prípade musí byť vlečené motorové vozidlo vybavené vzadu prenosným osvetlením vozidla s napojením na vlečné vozidlo."
+      }, {
+        "id": 3,
+        "headline": "Nadpis",
+        "paragraph": "Pri poruche osvetlenia alebo inej poruche nedovoľujúcej použitie osvetlenia musia byť na vlečenom motorovom vozidle za zníženej viditeľnosti rozsvietené svietidlá na strane k stredu vozovky vpredu bielym neoslňujúcim svetlom a vzadu aspoň jedným červeným svetlom. Tieto svietidlá musia byť dobre viditeľné a nesmú byť umiestnené ďalej ako 400 mm od bočného obrysu motorového vozidla."
+      }, {
+        "id": 4,
+        "headline": "Nadpis",
+        "paragraph": "Vlečenie viacerých motorových vozidiel alebo vlečenie motorového vozidla s prívesom je zakázané; smie sa však vliecť motorové vozidlo s návesom."
+      }, {
+        "id": 5,
+        "headline": "Nadpis",
+        "paragraph": "Za motorovým vozidlom s prívesom sa nesmie vliecť iné motorové vozidlo."
+      }, {
+        "id": 6,
+        "headline": "Nadpis",
+        "paragraph": "Motorové vozidlo vlečené pomocou osobitného zariadenia a autobus sa smú vliecť len bez prepravovaných osôb; nákladný automobil sa smie vliecť len bez osôb prepravovaných v jeho ložnom priestore."
+      }, {
+        "id": 7,
+        "headline": "Nadpis",
+        "paragraph": "Motocykel bez postranného vozíka sa nesmie vliecť ani použiť ako vlečné vozidlo."
+      }, {
+        "id": 8,
+        "headline": "Nadpis",
+        "image": "img/theory/027_towingLengths.png",
+        "paragraph": "Pri vlečení motorového vozidla musí byť dĺžka spojnice motorového vozidla taká, aby vzdialenosť medzi vozidlami nebola väčšia ako 6 m. Ak sa použije lano, nesmie byť vzdialenosť medzi vozidlami menšia ako 2,5 m; ak sa použije tyč, nesmie byť menšia ako 1 m."
+      }, {
+        "id": 9,
+        "headline": "Nadpis",
+        "image": "img/theory/027_towingRopeAndPole.png",
+        "paragraph": "Spojnica musí byť zreteľne označená, a to tyč striedavo priečnymi červenými a bielymi pruhmi so šírkou 7,5 cm a lano červenou zástavkou alebo štítkom s rozmermi najmenej 20 cm x 20 cm."
+      }]
     }, {
       "id": 28,
       "minutes": 8,
@@ -1432,11 +1472,75 @@ var TheoryList = {
     }, {
       "id": 49,
       "name": "Riadenie cestnej premávky svetelnými signálmi a pokynmi",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
+      "content": [{
+        "id": 1,
+        "headline": "Typy svetelených signálov",
+        "paragraph": "Pri riadení cestnej premávky na križovatke sa používajú najmä svetelné signály trojfarebnej sústavy s plnými svetlami alebo so smerovými signálmi."
+      }, {
+        "id": 2,
+        "headline": "Stoj!",
+        "image": "img/theory/049_stop.png",
+        "paragraph": "Pri riadení cestnej premávky na križovatke signál s červeným svetlom <i>Stoj!</i> znamená pre vodiča povinnosť zastaviť vozidlo pred priečnou súvislou čiarou (č. V 5a až V 5c), a kde taká čiara nie je, pred svetelným signalizačným zariadením."
+      }, {
+        "id": 3,
+        "headline": "Stoj a priprav sa na jazdu!",
+        "image": "img/theory/049_stopAndGetReady.png",
+        "paragraph": "Pri riadení cestnej premávky na križovatke signál so súčasne svietiacim červeným svetlom <i>Stoj!</i> a žltým svetlom <i>Pozor!</i> znamená pre vodiča povinnosť pripraviť sa na jazdu."
+      }, {
+        "id": 4,
+        "headline": "Voľno!",
+        "image": "img/theory/049_go.png",
+        "paragraph": "Pri riadení cestnej premávky na križovatke signál s plným zeleným svetlom <i>Voľno</i> znamená pre vodiča možnosť pokračovať v jazde, a ak dodrží ustanovenia o odbočovaní a také odbočovanie nie je zakázané dopravnou značkou, možnosť odbočiť vpravo alebo vľavo, vodič je pritom povinný dať prednosť chodcom prechádzajúcim vo voľnom smere po priechode pre chodcov a cyklistom prechádzajúcim vo voľnom smere po priechode pre cyklistov, pritom ich nesmie ohroziť ani obmedziť."
+      }, {
+        "id": 5,
+        "headline": "Signál pre opustenie križovatky",
+        "image": "img/theory/049_leaveCrossroad.png",
+        "paragraph": "Ak svieti signál pre opustenie križovatky (č. S 4) umiestnený v protiľahlom rohu križovatky, neplatí pre odbočovanie vľavo alebo vpravo <a href='#'>§ 19 ods. 4 zákona</a>."
+      }, {
+        "id": 6,
+        "headline": "Pozor!",
+        "image": "img/theory/021_beAware.png",
+        "paragraph": "Pri riadení cestnej premávky na križovatke signál s plným žltým svetlom <i>Pozor!</i> znamená pre vodiča povinnosť zastaviť vozidlo pred priečnou súvislou čiarou (č. V 5a až V 5c), a kde taká čiara nie je, pred svetelným signalizačným zariadením; ak je však vozidlo pri rozsvietení tohto signálu už tak blízko, že by vodič nemohol vozidlo bezpečne zastaviť pred priečnou súvislou čiarou (č. V 5a až V 5c), a kde taká čiara nie je, pred svetelným signalizačným zariadením, smie pokračovať v jazde; ak svetlo tohto signálu svieti prerušovane, nejde o križovatku s premávkou riadenou svetelnými signálmi."
+      }, {
+        "id": 7,
+        "headline": "Smerový signál so zeleným svetlom",
+        "image": "img/theory/049_directionSignal.png",
+        "paragraph": "Pri riadení cestnej premávky na križovatke smerový signál so zeleným svetlom (zelená šípka alebo zelené šípky rôznych smerov) znamená pre vodiča možnosť pokračovať v jazde len v smere, ktorým uvedená šípka alebo šípky ukazujú; ak zelená šípka smeruje vľavo alebo vpravo, neplatí pre odbočovanie <a href='#'>§ 19 ods. 4 zákona</a>."
+      }, {
+        "id": 8,
+        "headline": "Signál so žltým svetlom v tvare chodca",
+        "image": "img/theory/049_signalYellowPedestrian.png",
+        "paragraph": "Pri riadení cestnej premávky na križovatke signál so žltým svetlom v tvare chodca (č. S 6a) alebo signál so žltým svetlom v tvare chodca a cyklistu (č. S 6b), ktorým je doplnený smerový signál so zeleným svetlom (zelená šípka smerujúca vpravo alebo vľavo), upozorňuje vodiča, že pri jazde smerom, ktorým táto šípka ukazuje, križuje smer chôdze chodcov prechádzajúcich vo voľnom smere po priechode pre chodcov, prípadne aj smer jazdy cyklistov prechádzajúcich vo voľnom smere po priechode pre cyklistov, ktorým je povinný dať prednosť, pritom ich nesmie ohroziť ani obmedziť; na tento účel je povinný zastaviť vozidlo."
+      }, {
+        "id": 9,
+        "headline": "Doplnkový signál (rôznych smerov) so zeleným svetlom v tvare zelenej šípky",
+        "image": "img/theory/049_addedSignal.png",
+        "paragraph": "Pri riadení cestnej premávky na križovatke doplnkový signál (rôznych smerov) so zeleným svetlom v tvare zelenej šípky (č. S 10), ktorým je doplnený signál s plným červeným svetlom <i>Stoj!</i>, svietiaci súčasne s týmto signálom alebo súčasne so signálom s plným žltým svetlom <i>Pozor!</i>, alebo súčasne so svietiacim signálom s plným červeným svetlom <i>Stoj!</i> a signálom s plným žltým svetlom <i>Pozor!</i>, znamená pre vodiča možnosť pokračovať v jazde len v smere, ktorým uvedená šípka alebo šípky ukazujú; pritom vodič je povinný dať prednosť v jazde vozidlám idúcim vo voľnom smere, ako aj prednosť chodcom prechádzajúcim vo voľnom smere po priechode pre chodcov a cyklistom prechádzajúcim vo voľnom smere po priechode pre cyklistov, pritom ich nesmie ohroziť ani obmedziť; na tento účel je povinný zastaviť vozidlo."
+      }, {
+        "id": 10,
+        "headline": "Nadpis",
+        "paragraph": "Na skončenie platnosti signálu so zeleným svetlom <i>Voľno</i> podľa písmen c), e) a g) možno vodiča vozidla upozorniť pravidelným striedavým zhasínaním a rozsvecovaním tohto signálu."
+      }, {
+        "id": 11,
+        "headline": "Nadpis",
+        "paragraph": "Pri riadení cestnej premávky mimo križovatky, napríklad pred priechodom pre chodcov, pred priechodom pre cyklistov alebo pred neprehľadným miestom, platia pre vodičov svetelné signalizačné znamenia ustanovené v odseku 2 rovnako."
+      }]
     }, {
       "id": 50,
       "name": "Svetelné signály pre chodcov a cyklistov",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
+      "content": [{
+        "id": 1,
+        "headline": "Voľno!",
+        "image": "img/theory/050_go.png",
+        "paragraph": "Pre chodcov sa používajú svetelné signály dvojfarebnej sústavy, pričom signál pre chodcov so zeleným svetlom <i>Voľno</i> (č. S 5b) znamená, že chodec môže prechádzať cestu vo voľnom smere po priechode pre chodcov; ak počas prechádzania zhasne signál <i>Voľno</i> (č. S 5b) a následne sa rozsvieti signál <i>Stoj!</i> (č. S 5a), smie chodec dokončiť prechádzanie k svetelnému signalizačnému zariadeniu aj na tento svetelný signál."
+      }, {
+        "id": 2,
+        "headline": "Stoj!",
+        "image": "img/theory/050_stop.png",
+        "paragraph": "Pre chodcov sa používajú svetelné signály dvojfarebnej sústavy, pričom signál pre chodcov s červeným svetlom <i>Stoj!</i> (č. S 5a) znamená, že chodec nesmie vstupovať na cestu."
+      }]
     }, {
       "id": 51,
       "name": "Riadenie cestnej premávky pokynmi",

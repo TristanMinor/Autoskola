@@ -8231,7 +8231,7 @@ ion-content.bg-stable {
 
 .item-opened {
   background-color: #fff;
-  padding-top: 2em; }
+  padding-top: 72px; }
 
 .item .item-content.activated {
   background-color: #dce0ee; }

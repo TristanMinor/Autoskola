@@ -33,7 +33,7 @@ ion-content.bg-stable {
 
 .item-opened {
   background-color: $light;
-  padding-top: 2em;
+  padding-top: $padding-large;
 }
 
 .item .item-content.activated {
