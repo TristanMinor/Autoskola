@@ -1017,17 +1017,14 @@ var TheoryList = {
       "content": [{
         "id": 1,
         "headline": "Nadpis",
-
         "paragraph": "Vodič smie zastaviť a stáť len vpravo v smere jazdy v jednom rade a rovnobežne s okrajom cesty, čo najbližšie k okraju cesty."
       }, {
         "id": 2,
         "headline": "Nadpis",
-
         "paragraph": "Vodič smie zastaviť a stáť na jednosmernej ceste vpravo i vľavo."
       }, {
         "id": 3,
         "headline": "Nadpis",
-
         "paragraph": "Ak nie je ohrozená bezpečnosť a plynulosť cestnej premávky, vodič smie v obci zastaviť a stáť kolmo, prípadne šikmo na okraj cesty alebo zastaviť v druhom rade."
       }, {
         "id": 4,
@@ -1037,17 +1034,14 @@ var TheoryList = {
       }, {
         "id": 5,
         "headline": "Nadpis",
-
         "paragraph": "Pri zastavení a státí je vodič povinný prednostne použiť parkovisko tak, aby neobmedzoval ostatných účastníkov cestnej premávky."
       }, {
         "id": 6,
         "headline": "Nadpis",
-
         "paragraph": "Pri zastavení a státí vodič je povinný čo najlepšie využiť parkovacie miesto a nesmie znemožniť ostatným vodičom vyjdenie z parkovacieho miesta. Rovnako nesmie zastaviť a stáť na mieste, kde by znemožnil vjazd a výjazd vozidiel. "
       }, {
         "id": 7,
         "headline": "Nadpis",
-
         "paragraph": "Ak sú na parkovisku vyznačené parkovacie miesta, vodič smie stáť len na nich."
       }, {
         "id": 8,
@@ -1058,17 +1052,14 @@ var TheoryList = {
       }, {
         "id": 9,
         "headline": "Nadpis",
-
         "paragraph": "Ak vodič, ktorý chce zastaviť alebo stáť, zachádza na okraj cesty alebo chodníka, je povinný dávať znamenie o zmene smeru jazdy."
       }, {
         "id": 10,
         "headline": "Nadpis",
-
         "paragraph": "Vodič vozidla, ktoré zastavilo alebo stálo a opäť vychádza od okraja cesty alebo od chodníka, nesmie ohroziť ostatných účastníkov cestnej premávky; pritom je povinný dávať znamenie o zmene smeru jazdy."
       }, {
         "id": 11,
         "headline": "Nadpis",
-
         "paragraph": "Vodičovi vozidla pravidelnej verejnej dopravy osôb sú v obci vodiči ostatných vozidiel povinní umožniť vyjdenie zo zastávky alebo zo zastávkového pruhu, a to znížením rýchlosti jazdy, prípadne i zastavením vozidla; vodič takéhoto vozidla pritom nesmie ohroziť najmä vodičov vozidiel idúcich rovnakým smerom."
       }, {
         "id": 12,
@@ -1096,22 +1087,19 @@ var TheoryList = {
       }, {
         "id": 17,
         "headline": "Nadpis",
-
         "paragraph": "Vodič nesmie zastaviť a stáť na priechode pre chodcov alebo na priechode pre cyklistov a vo vzdialenosti kratšej ako 5 m pred nim."
       }, {
         "id": 18,
         "headline": "Nadpis",
-
         "paragraph": "Vodič nesmie zastaviť a stáť na križovatke a vo vzdialenosti kratšej ako 5 m pred hranicou križovatky a 5 m za ňou."
       }, {
         "id": 19,
         "headline": "Nadpis",
         "image": "img/theory/021_crossroadT.png",
-        "paragraph": "Zákaz zastavenia a státia na križovatke a vo vzdialenosti kratšej ako 5 m pred hranicou križovatky a 5 m za ňou neplatí v obci na križovatke tvaru <i>T</i> na náprotivnej strane vyúsťujúcej cesty"
+        "paragraph": "Zákaz zastavenia a státia na križovatke a vo vzdialenosti kratšej ako 5 m pred hranicou križovatky a 5 m za ňou neplatí v obci na križovatke tvaru <i>T</i> na náprotivnej strane vyúsťujúcej cesty."
       }, {
         "id": 20,
         "headline": "Nadpis",
-
         "paragraph": "Vodič nesmie zastaviť a stáť na pripájacom alebo na odbočovacom pruhu."
       }, {
         "id": 21,
@@ -1250,7 +1238,7 @@ var TheoryList = {
         "id": 3,
         "headline": "Nadpis",
         "image": "img/theory/023_railroadCrossingSpeed.png",
-        "paragraph": " Vo vzdialenosti 50 m pred železničným priecestím a pri jeho prechádzaní vodič je povinný jazdiť rýchlosťou <b>najviac 30 km/h</b>; ak na priecestnom zabezpečovacom zariadení svieti prerušované biele svetlo, vodič je povinný 50 m pred železničným priecestím a pri jeho prechádzaní jazdiť rýchlosťou <b>najviac 50 km/h</b>. Vodič pritom nesmie zbytočne predlžovať čas prechádzania železničného priecestia."
+        "paragraph": "Vo vzdialenosti 50 m pred železničným priecestím a pri jeho prechádzaní vodič je povinný jazdiť rýchlosťou <b>najviac 30 km/h</b>; ak na priecestnom zabezpečovacom zariadení svieti prerušované biele svetlo, vodič je povinný 50 m pred železničným priecestím a pri jeho prechádzaní jazdiť rýchlosťou <b>najviac 50 km/h</b>. Vodič pritom nesmie zbytočne predlžovať čas prechádzania železničného priecestia."
       }, {
         "id": 4,
         "headline": "Nadpis",
@@ -1365,7 +1353,7 @@ var TheoryList = {
         "id": 9,
         "headline": "Nadpis",
         "image": "img/theory/027_towingRopeAndPole.png",
-        "paragraph": "Spojnica musí byť zreteľne označená, a to tyč striedavo priečnymi červenými a bielymi pruhmi so šírkou 7,5 cm a lano červenou zástavkou alebo štítkom s rozmermi najmenej 20 cm x 20 cm."
+        "paragraph": "Spojnica musí byť zreteľne označená, a to tyč striedavo priečnymi červenými a bielymi pruhmi so šírkou 7,5 cm a lano červenou zástavkou alebo štítkom s rozmermi najmenej 20 cm × 20 cm."
       }]
     }, {
       "id": 28,

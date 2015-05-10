@@ -49,6 +49,9 @@ var SituationsList = {
           "correct": false
         }],
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_lanes_02_xpl.png",
+          "paragraph": "Vodič smie prechádzať z jedného jazdného pruhu do druhého jazdného pruhu len vtedy, ak dá prednosť v jazde vodičovi jazdiacemu v jazdnom pruhu, do ktorého prechádza. Pritom je povinný dávať znamenie o zmene smeru jazdy. Vodič modrého vozidla je povinný dať prednosť v jazde vodičovi červeného vozidla jazdiaceho v priebežnom jazdnom pruhu, do ktorého prechádza."
         }],
         "image": {
           "src": "img/situations/situation_lanes_02.png"
@@ -74,6 +77,9 @@ var SituationsList = {
           "correct": false
         }],
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_lanes_03_xpl.png",
+          "paragraph": "Ak je pri súbežnej jazde v niektorom jazdnom pruhu prekážka cestnej premávky, vodič vozidla idúceho vo voľnom jazdnom pruhu je povinný umožniť vodičovi prvého vozidla nachádzajúceho sa v jazdnom pruhu, v ktorom je prekážka, jej obídenie, ak ten dáva znamenie o zmene smeru jazdy. Vodič obchádzajúci prekážku pritom nesmie ohroziť vodiča jazdiaceho vo voľnom jazdnom pruhu. Vodič modrého vozidla idúci vo voľnom jazdnom pruhu je povinný umožniť obídenie prekážky červenému vozidlu, ak tento dáva znamenie o zmene smeru jazdy. Ako prvé obchádza prekážku červené vozidlo, ako druhé modré, tretie žlté a ako posledné zelené vozidlo. Vodič červeného vozidla nesmie ohroziť vodiča modrého vozidla"
         }],
         "image": {
           "src": "img/situations/situation_lanes_03.png"
@@ -94,6 +100,9 @@ var SituationsList = {
           "correct": false
         }],
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_lanes_03_xpl.png",
+          "paragraph": "Ak je pri súbežnej jazde v niektorom jazdnom pruhu prekážka cestnej premávky, vodič vozidla idúceho vo voľnom jazdnom pruhu je povinný umožniť vodičovi prvého vozidla nachádzajúceho sa v jazdnom pruhu, v ktorom je prekážka, jej obídenie, ak ten dáva znamenie o zmene smeru jazdy. Vodič obchádzajúci prekážku pritom nesmie ohroziť vodiča jazdiaceho vo voľnom jazdnom pruhu. Vodič modrého vozidla idúci vo voľnom jazdnom pruhu je povinný umožniť obídenie prekážky červenému vozidlu, ak tento dáva znamenie o zmene smeru jazdy. Ako prvé obchádza prekážku červené vozidlo, ako druhé modré, tretie žlté a ako posledné zelené vozidlo. Vodič červeného vozidla nesmie ohroziť vodiča modrého vozidla"
         }],
         "image": {
           "src": "img/situations/situation_lanes_03.png"
@@ -114,6 +123,9 @@ var SituationsList = {
           "correct": true
         }],
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_lanes_03_xpl.png",
+          "paragraph": "Ak je pri súbežnej jazde v niektorom jazdnom pruhu prekážka cestnej premávky, vodič vozidla idúceho vo voľnom jazdnom pruhu je povinný umožniť vodičovi prvého vozidla nachádzajúceho sa v jazdnom pruhu, v ktorom je prekážka, jej obídenie, ak ten dáva znamenie o zmene smeru jazdy. Vodič obchádzajúci prekážku pritom nesmie ohroziť vodiča jazdiaceho vo voľnom jazdnom pruhu. Vodič modrého vozidla idúci vo voľnom jazdnom pruhu je povinný umožniť obídenie prekážky červenému vozidlu, ak tento dáva znamenie o zmene smeru jazdy. Ako prvé obchádza prekážku červené vozidlo, ako druhé modré, tretie žlté a ako posledné zelené vozidlo. Vodič červeného vozidla nesmie ohroziť vodiča modrého vozidla"
         }],
         "image": {
           "src": "img/situations/situation_lanes_03.png"
@@ -134,6 +146,9 @@ var SituationsList = {
           "correct": true
         }],
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_lanes_03_xpl.png",
+          "paragraph": "Ak je pri súbežnej jazde v niektorom jazdnom pruhu prekážka cestnej premávky, vodič vozidla idúceho vo voľnom jazdnom pruhu je povinný umožniť vodičovi prvého vozidla nachádzajúceho sa v jazdnom pruhu, v ktorom je prekážka, jej obídenie, ak ten dáva znamenie o zmene smeru jazdy. Vodič obchádzajúci prekážku pritom nesmie ohroziť vodiča jazdiaceho vo voľnom jazdnom pruhu. Vodič modrého vozidla idúci vo voľnom jazdnom pruhu je povinný umožniť obídenie prekážky červenému vozidlu, ak tento dáva znamenie o zmene smeru jazdy. Ako prvé obchádza prekážku červené vozidlo, ako druhé modré, tretie žlté a ako posledné zelené vozidlo. Vodič červeného vozidla nesmie ohroziť vodiča modrého vozidla"
         }],
         "image": {
           "src": "img/situations/situation_lanes_03.png"
@@ -159,6 +174,9 @@ var SituationsList = {
           "correct": false
         }],
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_lanes_04_xpl.png",
+          "paragraph": "Ak je pri súbežnej jazde v niektorom jazdnom pruhu prekážka cestnej premávky, vodič vozidla idúceho vo voľnom jazdnom pruhu je povinný umožniť vodičovi prvého vozidla nachádzajúceho sa v jazdnom pruhu, v ktorom je prekážka, jej obídenie, ak ten dáva znamenie o zmene smeru jazdy. Vodič obchádzajúci prekážku pritom nesmie ohroziť vodiča jazdiaceho vo voľnom jazdnom pruhu. Vodič červeného vozidla idúci vo voľnom jazdnom pruhu je povinný umožniť obídenie prekážky modrému vozidlu, ak tento dáva znamenie o zmene smeru jazdy. Ako prvé obchádza prekážku modré vozidlo, ako druhé červené, tretie zelené a ako posledné žlté vozidlo. Vodič červeného vozidla nesmie ohroziť vodiča modrého vozidla"
         }],
         "image": {
           "src": "img/situations/situation_lanes_04.png"
@@ -179,6 +197,9 @@ var SituationsList = {
           "correct": false
         }],
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_lanes_04_xpl.png",
+          "paragraph": "Ak je pri súbežnej jazde v niektorom jazdnom pruhu prekážka cestnej premávky, vodič vozidla idúceho vo voľnom jazdnom pruhu je povinný umožniť vodičovi prvého vozidla nachádzajúceho sa v jazdnom pruhu, v ktorom je prekážka, jej obídenie, ak ten dáva znamenie o zmene smeru jazdy. Vodič obchádzajúci prekážku pritom nesmie ohroziť vodiča jazdiaceho vo voľnom jazdnom pruhu. Vodič červeného vozidla idúci vo voľnom jazdnom pruhu je povinný umožniť obídenie prekážky modrému vozidlu, ak tento dáva znamenie o zmene smeru jazdy. Ako prvé obchádza prekážku modré vozidlo, ako druhé červené, tretie zelené a ako posledné žlté vozidlo. Vodič červeného vozidla nesmie ohroziť vodiča modrého vozidla"
         }],
         "image": {
           "src": "img/situations/situation_lanes_04.png"
@@ -199,6 +220,9 @@ var SituationsList = {
           "correct": false
         }],
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_lanes_04_xpl.png",
+          "paragraph": "Ak je pri súbežnej jazde v niektorom jazdnom pruhu prekážka cestnej premávky, vodič vozidla idúceho vo voľnom jazdnom pruhu je povinný umožniť vodičovi prvého vozidla nachádzajúceho sa v jazdnom pruhu, v ktorom je prekážka, jej obídenie, ak ten dáva znamenie o zmene smeru jazdy. Vodič obchádzajúci prekážku pritom nesmie ohroziť vodiča jazdiaceho vo voľnom jazdnom pruhu. Vodič červeného vozidla idúci vo voľnom jazdnom pruhu je povinný umožniť obídenie prekážky modrému vozidlu, ak tento dáva znamenie o zmene smeru jazdy. Ako prvé obchádza prekážku modré vozidlo, ako druhé červené, tretie zelené a ako posledné žlté vozidlo. Vodič červeného vozidla nesmie ohroziť vodiča modrého vozidla"
         }],
         "image": {
           "src": "img/situations/situation_lanes_04.png"
@@ -217,6 +241,9 @@ var SituationsList = {
         "points": 3,
         "question": "Vaše vozidlo prejde cez križovatku ako",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_nosigns_01_xpl.png",
+          "paragraph": "Križovatka nie je rozlíšená dopravnými značkami a preto na nej platí pravidlo prednosti vozidiel prichádzajúcich sprava. Vodič modrého vozidla nemá sprava nikoho a preto prejde cez križovatku ako prvý, pokračuje vodič červeného vozidla a ako posledné prejde cez križovatku vaše vozidlo."
         }],
         "image": {
           "src": "img/situations/situation_nosigns_01.png"
@@ -227,6 +254,9 @@ var SituationsList = {
         "points": 3,
         "question": "Ako posledné prejde cez križovatku",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_nosigns_01_xpl.png",
+          "paragraph": "Križovatka nie je rozlíšená dopravnými značkami a preto na nej platí pravidlo prednosti vozidiel prichádzajúcich sprava. Vodič modrého vozidla nemá sprava nikoho a preto prejde cez križovatku ako prvý, pokračuje vodič červeného vozidla a ako posledné prejde cez križovatku vaše vozidlo."
         }],
         "image": {
           "src": "img/situations/situation_nosigns_01.png"
@@ -247,6 +277,9 @@ var SituationsList = {
           "correct": false
         }],
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_nosigns_01_xpl.png",
+          "paragraph": "Križovatka nie je rozlíšená dopravnými značkami a preto na nej platí pravidlo prednosti vozidiel prichádzajúcich sprava. Vodič modrého vozidla nemá sprava nikoho a preto prejde cez križovatku ako prvý, pokračuje vodič červeného vozidla a ako posledné prejde cez križovatku vaše vozidlo."
         }],
         "image": {
           "src": "img/situations/situation_nosigns_01.png"
@@ -267,6 +300,9 @@ var SituationsList = {
           "correct": false
         }],
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_nosigns_01_xpl.png",
+          "paragraph": "Križovatka nie je rozlíšená dopravnými značkami a preto na nej platí pravidlo prednosti vozidiel prichádzajúcich sprava. Vodič modrého vozidla nemá sprava nikoho a preto prejde cez križovatku ako prvý, pokračuje vodič červeného vozidla a ako posledné prejde cez križovatku vaše vozidlo."
         }],
         "image": {
           "src": "img/situations/situation_nosigns_01.png"
@@ -282,6 +318,9 @@ var SituationsList = {
         "points": 3,
         "question": "Vaše vozidlo, odbočujúce vľavo, prejde cez križovatku ako",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_nosigns_02_xpl.png",
+          "paragraph": "Križovatka nie je rozlíšená dopravnými značkami a preto na nej platí pravidlo prednosti vozidiel prichádzajúcich sprava. Vodič modrého vozidla nemá sprava nikoho a preto prejde cez križovatku ako prvý, potom odbočí vaše vozidlo a nakoniec červené vozidlo."
         }],
         "image": {
           "src": "img/situations/situation_nosigns_02.png"
@@ -292,6 +331,9 @@ var SituationsList = {
         "points": 3,
         "question": "Vozidlá prejdú cez križovatku v tomto poradí:",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_nosigns_02_xpl.png",
+          "paragraph": "Križovatka nie je rozlíšená dopravnými značkami a preto na nej platí pravidlo prednosti vozidiel prichádzajúcich sprava. Vodič modrého vozidla nemá sprava nikoho a preto prejde cez križovatku ako prvý, potom odbočí vaše vozidlo a nakoniec červené vozidlo."
         }],
         "image": {
           "src": "img/situations/situation_nosigns_02.png"
@@ -302,6 +344,9 @@ var SituationsList = {
         "points": 3,
         "question": "V poradí druhé prejde cez križovatku",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_nosigns_02_xpl.png",
+          "paragraph": "Križovatka nie je rozlíšená dopravnými značkami a preto na nej platí pravidlo prednosti vozidiel prichádzajúcich sprava. Vodič modrého vozidla nemá sprava nikoho a preto prejde cez križovatku ako prvý, potom odbočí vaše vozidlo a nakoniec červené vozidlo."
         }],
         "image": {
           "src": "img/situations/situation_nosigns_02.png"
@@ -312,6 +357,9 @@ var SituationsList = {
         "points": 3,
         "question": "Ako posledné prejde cez križovatku",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_nosigns_02_xpl.png",
+          "paragraph": "Križovatka nie je rozlíšená dopravnými značkami a preto na nej platí pravidlo prednosti vozidiel prichádzajúcich sprava. Vodič modrého vozidla nemá sprava nikoho a preto prejde cez križovatku ako prvý, potom odbočí vaše vozidlo a nakoniec červené vozidlo."
         }],
         "image": {
           "src": "img/situations/situation_nosigns_02.png"
@@ -327,6 +375,9 @@ var SituationsList = {
         "points": 3,
         "question": "Vaše vozidlo prejde cez križovatku ako",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_nosigns_03_xpl.png",
+          "paragraph": "Križovatka nie je rozlíšená dopravnými značkami a preto na nej platí pravidlo prednosti vozidiel prichádzajúcich sprava. Vaše vozidlo nemá sprava nikoho a preto prejde cez križovatku ako prvé, pokračuje zelené vozidlo a nakoniec modré a červené vozidlo prejdú cez križovatku súčasne."
         }],
         "image": {
           "src": "img/situations/situation_nosigns_03.png"
@@ -347,6 +398,9 @@ var SituationsList = {
           "correct": true
         }],
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_nosigns_03_xpl.png",
+          "paragraph": "Križovatka nie je rozlíšená dopravnými značkami a preto na nej platí pravidlo prednosti vozidiel prichádzajúcich sprava. Vaše vozidlo nemá sprava nikoho a preto prejde cez križovatku ako prvé, pokračuje zelené vozidlo a nakoniec modré a červené vozidlo prejdú cez križovatku súčasne."
         }],
         "image": {
           "src": "img/situations/situation_nosigns_03.png"
@@ -357,6 +411,9 @@ var SituationsList = {
         "points": 3,
         "question": "Ako prvé prejde cez križovatku",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_nosigns_03_xpl.png",
+          "paragraph": "Križovatka nie je rozlíšená dopravnými značkami a preto na nej platí pravidlo prednosti vozidiel prichádzajúcich sprava. Vaše vozidlo nemá sprava nikoho a preto prejde cez križovatku ako prvé, pokračuje zelené vozidlo a nakoniec modré a červené vozidlo prejdú cez križovatku súčasne."
         }],
         "image": {
           "src": "img/situations/situation_nosigns_03.png"
@@ -367,6 +424,9 @@ var SituationsList = {
         "points": 3,
         "question": "V poradí posledné prejde cez križovatku",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_nosigns_03_xpl.png",
+          "paragraph": "Križovatka nie je rozlíšená dopravnými značkami a preto na nej platí pravidlo prednosti vozidiel prichádzajúcich sprava. Vaše vozidlo nemá sprava nikoho a preto prejde cez križovatku ako prvé, pokračuje zelené vozidlo a nakoniec modré a červené vozidlo prejdú cez križovatku súčasne."
         }],
         "image": {
           "src": "img/situations/situation_nosigns_03.png"
@@ -382,6 +442,9 @@ var SituationsList = {
         "points": 3,
         "question": "Vozidlá prejdú cez križovatku v tomto poradí:",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_nosigns_04_xpl.png",
+          "paragraph": "Križovatka nie je rozlíšená dopravnými značkami a preto na nej platí pravidlo prednosti vozidiel prichádzajúcich sprava. Vodič zeleného vozidla nemá sprava nikoho a preto prejde cez križovatku ako prvý, pričom nemusí uplatniť pravidlo o odbočovaní vľavo, pretože vodič červeného vozidla oproti takisto odbočuje vľavo. Ako druhé prejde vozidlo vaše vozidlo a nakoniec červené vozidlo."
         }],
         "image": {
           "src": "img/situations/situation_nosigns_04.png"
@@ -392,6 +455,9 @@ var SituationsList = {
         "points": 3,
         "question": "Ako prvé prejde cez križovatku",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_nosigns_04_xpl.png",
+          "paragraph": "Križovatka nie je rozlíšená dopravnými značkami a preto na nej platí pravidlo prednosti vozidiel prichádzajúcich sprava. Vodič zeleného vozidla nemá sprava nikoho a preto prejde cez križovatku ako prvý, pričom nemusí uplatniť pravidlo o odbočovaní vľavo, pretože vodič červeného vozidla oproti takisto odbočuje vľavo. Ako druhé prejde vozidlo vaše vozidlo a nakoniec červené vozidlo."
         }],
         "image": {
           "src": "img/situations/situation_nosigns_04.png"
@@ -402,6 +468,9 @@ var SituationsList = {
         "points": 3,
         "question": "Ako posledné prejde cez križovatku",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_nosigns_04_xpl.png",
+          "paragraph": "Križovatka nie je rozlíšená dopravnými značkami a preto na nej platí pravidlo prednosti vozidiel prichádzajúcich sprava. Vodič zeleného vozidla nemá sprava nikoho a preto prejde cez križovatku ako prvý, pričom nemusí uplatniť pravidlo o odbočovaní vľavo, pretože vodič červeného vozidla oproti takisto odbočuje vľavo. Ako druhé prejde vozidlo vaše vozidlo a nakoniec červené vozidlo."
         }],
         "image": {
           "src": "img/situations/situation_nosigns_04.png"
@@ -412,6 +481,9 @@ var SituationsList = {
         "points": 3,
         "question": "V poradí druhé prejde cez križovatku",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_nosigns_04_xpl.png",
+          "paragraph": "Križovatka nie je rozlíšená dopravnými značkami a preto na nej platí pravidlo prednosti vozidiel prichádzajúcich sprava. Vodič zeleného vozidla nemá sprava nikoho a preto prejde cez križovatku ako prvý, pričom nemusí uplatniť pravidlo o odbočovaní vľavo, pretože vodič červeného vozidla oproti takisto odbočuje vľavo. Ako druhé prejde vozidlo vaše vozidlo a nakoniec červené vozidlo."
         }],
         "image": {
           "src": "img/situations/situation_nosigns_04.png"
@@ -427,6 +499,9 @@ var SituationsList = {
         "points": 3,
         "question": "Vozidlá prejdú cez križovatku v tomto poradí:",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_nosigns_05_xpl.png",
+          "paragraph": "Križovatka nie je rozlíšená dopravnými značkami a preto platí na nej pravidlo prednosti vozidiel prichádzajúcich sprava. Keďže vozidlá si navzájom nekrižujú smer svojej jazdy, idú všetky cez križovatku súčasne."
         }],
         "image": {
           "src": "img/situations/situation_nosigns_05.png"
@@ -442,6 +517,9 @@ var SituationsList = {
         "points": 3,
         "question": "Vozidlá prejdú cez križovatku v tomto poradí:",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_nosigns_06_xpl.png",
+          "paragraph": "Križovatka nie je rozlíšená dopravnými značkami a preto platí na nej pravidlo prednosti vozidiel prichádzajúcich sprava. Vodič zeleného vozidla nemá sprava nikoho a preto prejde cez križovatku ako prvý, potom prejde modré vozidlo a nakoniec vaše vozidlo."
         }],
         "image": {
           "src": "img/situations/situation_nosigns_06.png"
@@ -452,6 +530,9 @@ var SituationsList = {
         "points": 3,
         "question": "Ako prvé prejde cez križovatku",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_nosigns_06_xpl.png",
+          "paragraph": "Križovatka nie je rozlíšená dopravnými značkami a preto platí na nej pravidlo prednosti vozidiel prichádzajúcich sprava. Vodič zeleného vozidla nemá sprava nikoho a preto prejde cez križovatku ako prvý, potom prejde modré vozidlo a nakoniec vaše vozidlo."
         }],
         "image": {
           "src": "img/situations/situation_nosigns_06.png"
@@ -472,6 +553,8 @@ var SituationsList = {
           "correct": false
         }],
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_nosigns_06_xpl.png",
         }],
         "image": {
           "src": "img/situations/situation_nosigns_06.png"
@@ -492,6 +575,8 @@ var SituationsList = {
           "correct": false
         }],
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_nosigns_06_xpl.png",
         }],
         "image": {
           "src": "img/situations/situation_nosigns_06.png"
@@ -517,6 +602,8 @@ var SituationsList = {
           "correct": false
         }],
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_nosigns_07_xpl.png",
         }],
         "image": {
           "src": "img/situations/situation_nosigns_07.png"
@@ -527,6 +614,8 @@ var SituationsList = {
         "points": 3,
         "question": "Vozidlá prejdú cez križovatku v tomto poradí:",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_nosigns_07_xpl.png",
         }],
         "image": {
           "src": "img/situations/situation_nosigns_07.png"
@@ -547,6 +636,8 @@ var SituationsList = {
           "correct": true
         }],
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_nosigns_07_xpl.png",
         }],
         "image": {
           "src": "img/situations/situation_nosigns_07.png"
@@ -557,6 +648,8 @@ var SituationsList = {
         "points": 3,
         "question": "Ako druhé vojde do križovatky",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_nosigns_07_xpl.png",
         }],
         "image": {
           "src": "img/situations/situation_nosigns_07.png"
@@ -572,6 +665,8 @@ var SituationsList = {
         "points": 3,
         "question": "Prednosť v jazde má vodič",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_nosigns_08_xpl.png",
         }],
         "image": {
           "src": "img/situations/situation_nosigns_08.png"
@@ -587,6 +682,8 @@ var SituationsList = {
         "points": 3,
         "question": "Modré vozidlo vojde do križovatky ako",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_nosigns_08_xpl.png",
         }],
         "image": {
           "src": "img/situations/situation_nosigns_08.png"
@@ -597,6 +694,8 @@ var SituationsList = {
         "points": 3,
         "question": "Ako posledné prejde cez križovatku",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_nosigns_08_xpl.png",
         }],
         "image": {
           "src": "img/situations/situation_nosigns_08.png"
@@ -607,6 +706,8 @@ var SituationsList = {
         "points": 3,
         "question": "Vozidlá prejdú cez križovatku v tomto poradí:",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_nosigns_08_xpl.png",
         }],
         "image": {
           "src": "img/situations/situation_nosigns_08.png"
@@ -617,6 +718,8 @@ var SituationsList = {
         "points": 3,
         "question": "Ako prvé prejde cez križovatku",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_nosigns_08_xpl.png",
         }],
         "image": {
           "src": "img/situations/situation_nosigns_08.png"
@@ -645,6 +748,8 @@ var SituationsList = {
           "correct": false
         }],
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_mainroad_01_xpl.png",
         }],
         "image": {
           "src": "img/situations/situation_mainroad_01.png"
@@ -665,6 +770,8 @@ var SituationsList = {
           "correct": false
         }],
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_mainroad_01_xpl.png",
         }],
         "image": {
           "src": "img/situations/situation_mainroad_01.png"
@@ -690,6 +797,8 @@ var SituationsList = {
           "correct": true
         }],
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_mainroad_02_xpl.png",
         }],
         "image": {
           "src": "img/situations/situation_mainroad_02.png"
@@ -715,6 +824,8 @@ var SituationsList = {
           "correct": false
         }],
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_mainroad_03_xpl.png",
         }],
         "image": {
           "src": "img/situations/situation_mainroad_03.png"
@@ -730,6 +841,8 @@ var SituationsList = {
         "points": 3,
         "question": "Otázka",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_mainroad_04_xpl.png",
         }],
         "image": {
           "src": "img/situations/situation_mainroad_04.png"
@@ -745,6 +858,8 @@ var SituationsList = {
         "points": 3,
         "question": "Otázka",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_mainroad_05_xpl.png",
         }],
         "image": {
           "src": "img/situations/situation_mainroad_05.png"
@@ -770,11 +885,13 @@ var SituationsList = {
           "correct": false
         }],
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_mainroad_06_xpl.png",
         }],
         "image": {
           "src": "img/situations/situation_mainroad_06.png"
         }
-      },{
+      }, {
         "id": 63,
         "type": "situation",
         "points": 3,
@@ -790,6 +907,8 @@ var SituationsList = {
           "correct": false
         }],
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_mainroad_06_xpl.png",
         }],
         "image": {
           "src": "img/situations/situation_mainroad_06.png"
@@ -815,6 +934,8 @@ var SituationsList = {
           "correct": true
         }],
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_mainroad_07_xpl.png",
         }],
         "image": {
           "src": "img/situations/situation_mainroad_07.png"
@@ -830,6 +951,8 @@ var SituationsList = {
         "points": 3,
         "question": "Otázka",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_mainroad_08_xpl.png",
         }],
         "image": {
           "src": "img/situations/situation_mainroad_08.png"
@@ -845,6 +968,8 @@ var SituationsList = {
         "points": 3,
         "question": "Otázka",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_mainroad_09_xpl.png",
         }],
         "image": {
           "src": "img/situations/situation_mainroad_09.png"
@@ -870,6 +995,8 @@ var SituationsList = {
           "correct": true
         }],
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_mainroad_10_xpl.png",
         }],
         "image": {
           "src": "img/situations/situation_mainroad_10.png"
@@ -885,6 +1012,8 @@ var SituationsList = {
         "points": 3,
         "question": "Otázka",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_mainroad_11_xpl.png",
         }],
         "image": {
           "src": "img/situations/situation_mainroad_11.png"
@@ -900,6 +1029,8 @@ var SituationsList = {
         "points": 3,
         "question": "Otázka",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_mainroad_12_xpl.png",
         }],
         "image": {
           "src": "img/situations/situation_mainroad_12.png"
@@ -915,6 +1046,8 @@ var SituationsList = {
         "points": 3,
         "question": "Otázka",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_mainroad_13_xpl.png",
         }],
         "image": {
           "src": "img/situations/situation_mainroad_13.png"
@@ -930,6 +1063,8 @@ var SituationsList = {
         "points": 3,
         "question": "Otázka",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_mainroad_14_xpl.png",
         }],
         "image": {
           "src": "img/situations/situation_mainroad_14.png"
@@ -955,6 +1090,8 @@ var SituationsList = {
           "correct": true
         }],
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_mainroad_15_xpl.png",
         }],
         "image": {
           "src": "img/situations/situation_mainroad_15.png"
@@ -970,6 +1107,8 @@ var SituationsList = {
         "points": 3,
         "question": "Otázka",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_mainroad_16_xpl.png",
         }],
         "image": {
           "src": "img/situations/situation_mainroad_16.png"
@@ -995,6 +1134,8 @@ var SituationsList = {
           "correct": false
         }],
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_mainroad_17_xpl.png",
         }],
         "image": {
           "src": "img/situations/situation_mainroad_17.png"
@@ -1015,6 +1156,8 @@ var SituationsList = {
           "correct": false
         }],
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_mainroad_17_xpl.png",
         }],
         "image": {
           "src": "img/situations/situation_mainroad_17.png"
@@ -1030,6 +1173,8 @@ var SituationsList = {
         "points": 3,
         "question": "Otázka",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_mainroad_18_xpl.png",
         }],
         "image": {
           "src": "img/situations/situation_mainroad_18.png"
@@ -1045,6 +1190,8 @@ var SituationsList = {
         "points": 3,
         "question": "Otázka",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_mainroad_19_xpl.png",
         }],
         "image": {
           "src": "img/situations/situation_mainroad_19.png"
@@ -1070,6 +1217,8 @@ var SituationsList = {
           "correct": true
         }],
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_mainroad_20_xpl.png",
         }],
         "image": {
           "src": "img/situations/situation_mainroad_20.png"
@@ -1095,6 +1244,8 @@ var SituationsList = {
           "correct": false
         }],
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_mainroad_21_xpl.png",
         }],
         "image": {
           "src": "img/situations/situation_mainroad_21.png"
@@ -1123,6 +1274,8 @@ var SituationsList = {
           "correct": false
         }],
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_controlled_01.png",
         }],
         "image": {
           "src": "img/situations/situation_controlled_01.png"
@@ -1133,6 +1286,8 @@ var SituationsList = {
         "points": 3,
         "question": "Ak má policajt pravú ruku predpaženú a ľavú upaženú, znamená to „Voľno“ pre vodiča",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_controlled_01.png",
         }],
         "image": {
           "src": "img/situations/situation_controlled_01.png"
@@ -1143,6 +1298,8 @@ var SituationsList = {
         "points": 3,
         "question": "Ak má policajt pravú ruku predpaženú a ľavú upaženú, znamená to",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_controlled_01.png",
         }],
         "image": {
           "src": "img/situations/situation_controlled_01.png"
@@ -1168,6 +1325,8 @@ var SituationsList = {
           "correct": true
         }],
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_controlled_02.png",
         }],
         "image": {
           "src": "img/situations/situation_controlled_02.png"
@@ -1178,6 +1337,8 @@ var SituationsList = {
         "points": 3,
         "question": "Ak svieti signál na opustenie križovatky umiestnený v protiľahlom rohu križovatky, prejdú cez križovatku ako prvé",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_controlled_02.png",
         }],
         "image": {
           "src": "img/situations/situation_controlled_02.png"
@@ -1188,6 +1349,8 @@ var SituationsList = {
         "points": 3,
         "question": "Ak svieti signál na opustenie križovatky umiestnený v protiľahlom rohu križovatky",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_controlled_02.png",
         }],
         "image": {
           "src": "img/situations/situation_controlled_02.png"
@@ -1198,6 +1361,8 @@ var SituationsList = {
         "points": 3,
         "question": "Ako prvé prejde cez križovatku",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_controlled_02.png",
         }],
         "image": {
           "src": "img/situations/situation_controlled_02.png"
@@ -1213,6 +1378,8 @@ var SituationsList = {
         "points": 3,
         "question": "Ako prvé prejde cez križovatku",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_controlled_03.png",
         }],
         "image": {
           "src": "img/situations/situation_controlled_03.png"
@@ -1223,6 +1390,8 @@ var SituationsList = {
         "points": 3,
         "question": "V poradí druhé prejde cez križovatku",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_controlled_03.png",
         }],
         "image": {
           "src": "img/situations/situation_controlled_03.png"
@@ -1243,6 +1412,8 @@ var SituationsList = {
           "correct": true
         }],
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_controlled_03.png",
         }],
         "image": {
           "src": "img/situations/situation_controlled_03.png"
@@ -1258,6 +1429,8 @@ var SituationsList = {
         "points": 3,
         "question": "Na tento pokyn policajta",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_controlled_04.png",
         }],
         "image": {
           "src": "img/situations/situation_controlled_04.png"
@@ -1268,6 +1441,8 @@ var SituationsList = {
         "points": 3,
         "question": "Tento pokyn policajta znamená „Stoj“ pre vodiča",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_controlled_04.png",
         }],
         "image": {
           "src": "img/situations/situation_controlled_04.png"
@@ -1278,6 +1453,8 @@ var SituationsList = {
         "points": 3,
         "question": "Na tento pokyn policajta môže vodič",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_controlled_04.png",
         }],
         "image": {
           "src": "img/situations/situation_controlled_04.png"
@@ -1293,6 +1470,8 @@ var SituationsList = {
         "points": 3,
         "question": "Ak má policajt pravú ruku predpaženú a ľavú upaženú, znamená to „Stoj!“ pre",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_controlled_05.png",
         }],
         "image": {
           "src": "img/situations/situation_controlled_05.png"
@@ -1303,6 +1482,8 @@ var SituationsList = {
         "points": 3,
         "question": "Ak má policajt pravú ruku predpaženú a ľavú upaženú, znamená to „Voľno“ pre vodiča",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_controlled_05.png",
         }],
         "image": {
           "src": "img/situations/situation_controlled_05.png"
@@ -1313,6 +1494,8 @@ var SituationsList = {
         "points": 3,
         "question": "Ak má policajt pravú ruku predpaženú a ľavú upaženú, znamená to",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_controlled_05.png",
         }],
         "image": {
           "src": "img/situations/situation_controlled_05.png"
@@ -1328,6 +1511,8 @@ var SituationsList = {
         "points": 3,
         "question": "Modré vozidlo prejde cez križovatku ako",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_controlled_06.png",
         }],
         "image": {
           "src": "img/situations/situation_controlled_06.png"
@@ -1338,6 +1523,8 @@ var SituationsList = {
         "points": 3,
         "question": "Ako prvé vozidlo prejde cez križovatku",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_controlled_06.png",
         }],
         "image": {
           "src": "img/situations/situation_controlled_06.png"
@@ -1348,6 +1535,8 @@ var SituationsList = {
         "points": 3,
         "question": "V poradí druhé prejde cez križovatku",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_controlled_06.png",
         }],
         "image": {
           "src": "img/situations/situation_controlled_06.png"
@@ -1358,6 +1547,8 @@ var SituationsList = {
         "points": 3,
         "question": "V poradí tretie prejde cez križovatku",
         "explanation": [{
+          "headline": "Riešenie dopravnej situácie",
+          "image": "img/situations/situation_controlled_06.png",
         }],
         "image": {
           "src": "img/situations/situation_controlled_06.png"
