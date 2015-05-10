@@ -555,6 +555,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_nosigns_06_xpl.png",
+          "paragraph": "Križovatka nie je rozlíšená dopravnými značkami a preto platí na nej pravidlo prednosti vozidiel prichádzajúcich sprava. Vodič zeleného vozidla nemá sprava nikoho a preto prejde cez križovatku ako prvý, potom prejde modré vozidlo a nakoniec vaše vozidlo."
         }],
         "image": {
           "src": "img/situations/situation_nosigns_06.png"
@@ -577,6 +578,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_nosigns_06_xpl.png",
+          "paragraph": "Križovatka nie je rozlíšená dopravnými značkami a preto platí na nej pravidlo prednosti vozidiel prichádzajúcich sprava. Vodič zeleného vozidla nemá sprava nikoho a preto prejde cez križovatku ako prvý, potom prejde modré vozidlo a nakoniec vaše vozidlo."
         }],
         "image": {
           "src": "img/situations/situation_nosigns_06.png"
@@ -604,6 +606,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_nosigns_07_xpl.png",
+          "paragraph": "Križovatka nie je rozlíšená dopravnými značkami a ako prvé platí na nej pravidlo prednosti vozidiel prichádzajúcich sprava a následne pravidlo o odbočujúcich vľavo. Vodič červeného vozidla nemá sprava nikoho a preto vojde do križovatky ako prvý, ale musí dať prednosť protiidúcemu modrému vozidlu. Vodič modrého vozidla dáva prednosť sprava zelenému vozidlu, ktoré nemá už správa nikoho a preto zelené vozidlo prejde cez križovatku, potom môže prejsť modré vozidlo a nakoniec dokončí odbočenie červené vozidlo."
         }],
         "image": {
           "src": "img/situations/situation_nosigns_07.png"
@@ -616,6 +619,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_nosigns_07_xpl.png",
+          "paragraph": "Križovatka nie je rozlíšená dopravnými značkami a ako prvé platí na nej pravidlo prednosti vozidiel prichádzajúcich sprava a následne pravidlo o odbočujúcich vľavo. Vodič červeného vozidla nemá sprava nikoho a preto vojde do križovatky ako prvý, ale musí dať prednosť protiidúcemu modrému vozidlu. Vodič modrého vozidla dáva prednosť sprava zelenému vozidlu, ktoré nemá už správa nikoho a preto zelené vozidlo prejde cez križovatku, potom môže prejsť modré vozidlo a nakoniec dokončí odbočenie červené vozidlo."
         }],
         "image": {
           "src": "img/situations/situation_nosigns_07.png"
@@ -638,6 +642,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_nosigns_07_xpl.png",
+          "paragraph": "Križovatka nie je rozlíšená dopravnými značkami a ako prvé platí na nej pravidlo prednosti vozidiel prichádzajúcich sprava a následne pravidlo o odbočujúcich vľavo. Vodič červeného vozidla nemá sprava nikoho a preto vojde do križovatky ako prvý, ale musí dať prednosť protiidúcemu modrému vozidlu. Vodič modrého vozidla dáva prednosť sprava zelenému vozidlu, ktoré nemá už správa nikoho a preto zelené vozidlo prejde cez križovatku, potom môže prejsť modré vozidlo a nakoniec dokončí odbočenie červené vozidlo."
         }],
         "image": {
           "src": "img/situations/situation_nosigns_07.png"
@@ -650,6 +655,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_nosigns_07_xpl.png",
+          "paragraph": "Križovatka nie je rozlíšená dopravnými značkami a ako prvé platí na nej pravidlo prednosti vozidiel prichádzajúcich sprava a následne pravidlo o odbočujúcich vľavo. Vodič červeného vozidla nemá sprava nikoho a preto vojde do križovatky ako prvý, ale musí dať prednosť protiidúcemu modrému vozidlu. Vodič modrého vozidla dáva prednosť sprava zelenému vozidlu, ktoré nemá už správa nikoho a preto zelené vozidlo prejde cez križovatku, potom môže prejsť modré vozidlo a nakoniec dokončí odbočenie červené vozidlo."
         }],
         "image": {
           "src": "img/situations/situation_nosigns_07.png"
@@ -667,6 +673,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_nosigns_08_xpl.png",
+          "paragraph": "V prípade kruhového objazdu bez dopravného značenia vodič vchádzajúci do kruhového objazdu má prednosť v jazde. Dopravná značka Kruhový objazd prikazuje jazdu po kruhovom objazde v smere šípok a preto vodič červeného vozidla môže pokračovať iba vpravo. Prvé prejde červené vozidlo, potom modré vozidlo."
         }],
         "image": {
           "src": "img/situations/situation_nosigns_08.png"
@@ -674,7 +681,7 @@ var SituationsList = {
       }]
     }, {
       "image": {
-        "src": "img/situations/situation_nosigns_08.png"
+        "src": "img/situations/situation_nosigns_09.png"
       },
       "questions": [{
         "id": 36,
@@ -683,10 +690,11 @@ var SituationsList = {
         "question": "Modré vozidlo vojde do križovatky ako",
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
-          "image": "img/situations/situation_nosigns_08_xpl.png",
+          "image": "img/situations/situation_nosigns_09_xpl.png",
+          "paragraph": "Križovatka nie je rozlíšená dopravnými značkami a preto platí na nej pravidlo prednosti vozidiel prichádzajúcich sprava. Vodič zeleného vozidla nemá sprava nikoho a preto prejde cez križovatku ako prvý. Následne prejde cez križovatku modré a ako posledné červené vozidlo."
         }],
         "image": {
-          "src": "img/situations/situation_nosigns_08.png"
+          "src": "img/situations/situation_nosigns_09.png"
         }
       }, {
         "id": 37,
@@ -695,10 +703,11 @@ var SituationsList = {
         "question": "Ako posledné prejde cez križovatku",
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
-          "image": "img/situations/situation_nosigns_08_xpl.png",
+          "image": "img/situations/situation_nosigns_09_xpl.png",
+          "paragraph": "Križovatka nie je rozlíšená dopravnými značkami a preto platí na nej pravidlo prednosti vozidiel prichádzajúcich sprava. Vodič zeleného vozidla nemá sprava nikoho a preto prejde cez križovatku ako prvý. Následne prejde cez križovatku modré a ako posledné červené vozidlo."
         }],
         "image": {
-          "src": "img/situations/situation_nosigns_08.png"
+          "src": "img/situations/situation_nosigns_09.png"
         }
       }, {
         "id": 38,
@@ -707,10 +716,11 @@ var SituationsList = {
         "question": "Vozidlá prejdú cez križovatku v tomto poradí:",
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
-          "image": "img/situations/situation_nosigns_08_xpl.png",
+          "image": "img/situations/situation_nosigns_09_xpl.png",
+          "paragraph": "Križovatka nie je rozlíšená dopravnými značkami a preto platí na nej pravidlo prednosti vozidiel prichádzajúcich sprava. Vodič zeleného vozidla nemá sprava nikoho a preto prejde cez križovatku ako prvý. Následne prejde cez križovatku modré a ako posledné červené vozidlo."
         }],
         "image": {
-          "src": "img/situations/situation_nosigns_08.png"
+          "src": "img/situations/situation_nosigns_09.png"
         }
       }, {
         "id": 39,
@@ -719,10 +729,11 @@ var SituationsList = {
         "question": "Ako prvé prejde cez križovatku",
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
-          "image": "img/situations/situation_nosigns_08_xpl.png",
+          "image": "img/situations/situation_nosigns_09_xpl.png",
+          "paragraph": "Križovatka nie je rozlíšená dopravnými značkami a preto platí na nej pravidlo prednosti vozidiel prichádzajúcich sprava. Vodič zeleného vozidla nemá sprava nikoho a preto prejde cez križovatku ako prvý. Následne prejde cez križovatku modré a ako posledné červené vozidlo."
         }],
         "image": {
-          "src": "img/situations/situation_nosigns_08.png"
+          "src": "img/situations/situation_nosigns_09.png"
         }
       }]
     }]
@@ -750,6 +761,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_mainroad_01_xpl.png",
+          "paragraph": "Križovatka je rozlíšená dopravnými značkami a prednosť v jazde majú vozidla idúce po hlavnej ceste. Vodiči červeného a zeleného vozidla sú na hlavnej ceste a prejdú cez križovatku súčasne a až potom môže odbočiť vaše vozidlo."
         }],
         "image": {
           "src": "img/situations/situation_mainroad_01.png"
@@ -772,6 +784,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_mainroad_01_xpl.png",
+          "paragraph": "Križovatka je rozlíšená dopravnými značkami a prednosť v jazde majú vozidla idúce po hlavnej ceste. Vodiči červeného a zeleného vozidla sú na hlavnej ceste a prejdú cez križovatku súčasne a až potom môže odbočiť vaše vozidlo."
         }],
         "image": {
           "src": "img/situations/situation_mainroad_01.png"
@@ -799,6 +812,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_mainroad_02_xpl.png",
+          "paragraph": "Križovatka je rozlíšená dopravnými značkami a prednosť v jazde majú vozidla idúce po hlavnej ceste. Vaše vozidlo odbočuje vľavo a dáva prednosť protiidúcemu modrému vozidlu, ktoré ide ako prvé. Modré vozidlo má prednosť pred protiidúcim vašim vozidlom. Zelené vozidlo vychádza z vedľajšej cesty a prejde cez križovatku ako posledné."
         }],
         "image": {
           "src": "img/situations/situation_mainroad_02.png"
@@ -826,6 +840,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_mainroad_03_xpl.png",
+          "paragraph": "Križovatka je rozlíšená dopravnými značkami a prednosť v jazde majú vozidla idúce po hlavnej ceste. Ako prvé prejde červené vozidlo, pretože vodič zeleného vozidla odbočuje vľavo a musí dať prednosť v jazde protiidúcemu červenému vozidlu. Vaše vozidlo a žlté vozidlo odbočujú vľavo, vyhýbajú sa vľavo a preto môžu ísť súčasne."
         }],
         "image": {
           "src": "img/situations/situation_mainroad_03.png"
@@ -843,6 +858,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_mainroad_04_xpl.png",
+          "paragraph": "Križovatka je rozlíšená dopravnými značkami a prednosť v jazde majú vozidla idúce po hlavnej ceste. Vaše vozidlo odbočuje vľavo a dáva prednosť protiidúcemu červenému vozidlu, ktoré ide ako prvé. Ako tretie ide žlté vozidlo, pretože má prednosť pred protiidúcim zeleným vozidlom odbočujúcim vľavo."
         }],
         "image": {
           "src": "img/situations/situation_mainroad_04.png"
@@ -860,6 +876,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_mainroad_05_xpl.png",
+          "paragraph": "Križovatka je rozlíšená dopravnými značkami a prednosť v jazde majú vozidla idúce po hlavnej ceste. Ako prvá prejde električka, pretože vodič zeleného vozidla odbočuje vľavo a dáva jej prednosť. Potom prejdú súčasne zelené a žlté vozidlo a nakoniec odbočí vľavo vaše vozidlo."
         }],
         "image": {
           "src": "img/situations/situation_mainroad_05.png"
@@ -887,6 +904,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_mainroad_06_xpl.png",
+          "paragraph": "Križovatka je rozlíšená dopravnými značkami a prednosť v jazde majú vozidla idúce po hlavnej ceste. Električka odbočujúca vpravo, dávajúca znamenie o zmene smeru jazdy, má prednosť v jazde pred zeleným vozidlom idúcim po jej pravej strane a preto ide ako prvá. Druhé prejde zelené a ako tretie prejde modré vozidlo, ktoré dávalo prednosť oproti idúcej električke a zelenému vozidlu. Potom prejde žlté vozidlo, ktoré má prednosť pred odbočujúcim vašim vozidlom. Ako posledné odbočí vaše vozidlo."
         }],
         "image": {
           "src": "img/situations/situation_mainroad_06.png"
@@ -909,6 +927,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_mainroad_06_xpl.png",
+          "paragraph": "Križovatka je rozlíšená dopravnými značkami a prednosť v jazde majú vozidla idúce po hlavnej ceste. Električka odbočujúca vpravo, dávajúca znamenie o zmene smeru jazdy, má prednosť v jazde pred zeleným vozidlom idúcim po jej pravej strane a preto ide ako prvá. Druhé prejde zelené a ako tretie prejde modré vozidlo, ktoré dávalo prednosť oproti idúcej električke a zelenému vozidlu. Potom prejde žlté vozidlo, ktoré má prednosť pred odbočujúcim vašim vozidlom. Ako posledné odbočí vaše vozidlo."
         }],
         "image": {
           "src": "img/situations/situation_mainroad_06.png"
@@ -936,6 +955,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_mainroad_07_xpl.png",
+          "paragraph": "Križovatka je rozlíšená dopravnými značkami a prednosť v jazde majú vozidla idúce po hlavnej ceste. Na dodatkovej tabuľke je vyznačený smer hlavnej cesty. Keďže ide o križovatku dvoch rovnocenných ciest, platí medzi červeným a vaším vozidlom pravidlo prednosti vozidla prichádzajúceho sprava. Ako prvé ide vaše vozidlo a druhé pôjde červené vozidlo. Na vedľajších cestách platí taktiež pravidlo prednosti vozidiel prichádzajúcich sprava a preto modré vozidlo ide ako tretie a nakoniec ako štvrté zelené vozidlo."
         }],
         "image": {
           "src": "img/situations/situation_mainroad_07.png"
@@ -953,6 +973,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_mainroad_08_xpl.png",
+          "paragraph": "Križovatka je rozlíšená dopravnými značkami a prednosť v jazde majú vozidla idúce po hlavnej ceste. Prednosť v jazde majú vozidlá idúce na hlavnej ceste, ktoré súčasne prejdú cez križovatku ako prvé. Vodič zeleného vozidla dáva prednosť v jazde sprava prichádzajúcemu žltému vozidlu, ktoré prejde ako druhé a ako posledné prejde zelené vozidlo."
         }],
         "image": {
           "src": "img/situations/situation_mainroad_08.png"
@@ -970,6 +991,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_mainroad_09_xpl.png",
+          "paragraph": "Križovatka je rozlíšená dopravnými značkami a prednosť v jazde majú vozidla idúce po hlavnej ceste. Tvar križovatky je vyznačený na dodatkovej tabuľke. Električka vľavo dáva prednosť sprava prichádzajúcemu vášmu vozidlu, ktoré ide ako prvé súčasne so zeleným vozidlom. Potom idú súčasne obe električky."
         }],
         "image": {
           "src": "img/situations/situation_mainroad_09.png"
@@ -997,6 +1019,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_mainroad_10_xpl.png",
+          "paragraph": "Križovatka je označená dopravnou značkou prikazujúcou dať prednosť v jazde električkám. Ako prvé prejdú súčasne električky a potom súčasne modré a vaše vozidlo. Toto platí aj vtedy ak nejde o križovatku."
         }],
         "image": {
           "src": "img/situations/situation_mainroad_10.png"
@@ -1014,6 +1037,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_mainroad_11_xpl.png",
+          "paragraph": "Križovatka je rozlíšená dopravnými značkami a prednosť v jazde majú vozidla idúce po hlavnej ceste. Vaše vozidlo odbočuje vľavo a dáva prednosť červenému, ktoré prejde ako prvé. Potom idú súčasne vaše vozidlo s modrým vozidlom a ako posledné prejde cez križovatku zelené vozidlo."
         }],
         "image": {
           "src": "img/situations/situation_mainroad_11.png"
@@ -1031,6 +1055,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_mainroad_12_xpl.png",
+          "paragraph": "Križovatka je rozlíšená dopravnými značkami a prednosť v jazde majú vozidla idúce po hlavnej ceste. Vaše vozidlo odbočuje vľavo a dáva prednosť protiidúcemu žltému vozidlu, ktoré ide cez križovatku ako prvé. Vaše vozidlo odbočí ako druhé. Nakoniec odbočí červené vozidlo vychádzajúce z vedľajšej cesty."
         }],
         "image": {
           "src": "img/situations/situation_mainroad_12.png"
@@ -1048,6 +1073,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_mainroad_13_xpl.png",
+          "paragraph": "Križovatka je rozlíšená dopravnými značkami a prednosť v jazde majú vozidla idúce po hlavnej ceste. Vodič modrého vozidla odbočuje vľavo a dáva prednosť protiidúcemu nášmu vozidlu, ktoré prejde cez križovatku ako prvé. Modré vozidlo prejde ako druhé a nakoniec odbočí zelené vozidlo vychádzajúce z vedľajšej cesty."
         }],
         "image": {
           "src": "img/situations/situation_mainroad_13.png"
@@ -1065,6 +1091,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_mainroad_14_xpl.png",
+          "paragraph": "Križovatka je rozlíšená dopravnými značkami a prednosť v jazde majú vozidla idúce po hlavnej ceste. Ako prvé prejde zelené vozidlo idúce na hlavnej ceste. Vodič červeného vozidla odbočuje vľavo a dáva prednosť zelenému vozidlu a protiidúcemu vášmu vozidlu, ktoré ide ako druhé. Nakoniec odbočí vľavo červené vozidlo. Keďže vodič červeného vozidla vychádza z jednosmernej cesty, je povinný pri odbočovaní vľavo zaradiť sa na ľavý okraj cesty."
         }],
         "image": {
           "src": "img/situations/situation_mainroad_14.png"
@@ -1092,6 +1119,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_mainroad_15_xpl.png",
+          "paragraph": "Križovatka je rozlíšená dopravnými značkami a prednosť v jazde majú vozidla idúce na hlavnej ceste. Tvar križovatky je vyznačený na dodatkovej tabuľke. Vodič odbočujúceho zeleného vozidla dáva prednosť modrému vozidlu prichádzajúcemu sprava. Ako prvé prejde modré vozidlo, potom zelené vozidlo a nakoniec prejde červené vozidlo vychádzajúce z vedľajšej cesty."
         }],
         "image": {
           "src": "img/situations/situation_mainroad_15.png"
@@ -1109,6 +1137,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_mainroad_16_xpl.png",
+          "paragraph": "Križovatka je rozlíšená dopravnými značkami a prednosť v jazde majú vozidla idúce na hlavnej ceste. Tvar križovatky je vyznačený na dodatkovej tabuľke. Červené vozidlo idúce na hlavnej ceste dáva prednosť zelenému vozidlu prichádzajúcemu sprava, ktoré ide cez križovatku ako prvé. Potom súčasne prejde červené a modré vozidlo."
         }],
         "image": {
           "src": "img/situations/situation_mainroad_16.png"
@@ -1136,6 +1165,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_mainroad_17_xpl.png",
+          "paragraph": "Križovatka je rozlíšená dopravnými značkami a prednosť v jazde majú vozidla idúce na hlavnej ceste. Tvar križovatky je vyznačený na dodatkovej tabuľke. Zelené vozidlo odbočujúce vľavo dáva prednosť modrému vozidlu, ktoré prejde ako prvé. Ako druhé odbočí zelené vozidlo. Nakoniec odbočí červené vozidlo."
         }],
         "image": {
           "src": "img/situations/situation_mainroad_17.png"
@@ -1158,6 +1188,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_mainroad_17_xpl.png",
+          "paragraph": "Križovatka je rozlíšená dopravnými značkami a prednosť v jazde majú vozidla idúce na hlavnej ceste. Tvar križovatky je vyznačený na dodatkovej tabuľke. Zelené vozidlo odbočujúce vľavo dáva prednosť modrému vozidlu, ktoré prejde ako prvé. Ako druhé odbočí zelené vozidlo. Nakoniec odbočí červené vozidlo."
         }],
         "image": {
           "src": "img/situations/situation_mainroad_17.png"
@@ -1175,6 +1206,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_mainroad_18_xpl.png",
+          "paragraph": "Križovatka je rozlíšená dopravnou značkou a preto platí prednosť v jazde vozidlám idúcim na hlavnej ceste. Vodič modrého vozidla ide po hlavnej ceste a preto má prednosť v jazde pred červeným vozidlom. Vodič červeného vozidla má povinnosť zastaviť vozidlo a môže pokračovať iba vpravo."
         }],
         "image": {
           "src": "img/situations/situation_mainroad_18.png"
@@ -1192,6 +1224,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_mainroad_19_xpl.png",
+          "paragraph": "Križovatka je rozlíšená dopravnými značkami a prednosť v jazde majú vozidlá idúce na hlavnej ceste. Žlté vozidlo idúce priamo má prednosť pred červeným vozidlom, ktoré odbočuje vľavo. Ako druhé odbočí červené vozidlo. Ako tretie prejde cez križovatku zelené vozidlo."
         }],
         "image": {
           "src": "img/situations/situation_mainroad_19.png"
@@ -1219,6 +1252,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_mainroad_20_xpl.png",
+          "paragraph": "Križovatka je rozlíšená dopravnými značkami a prednosť v jazde majú vozidlá idúce na hlavnej ceste. Žlté vozidlo idúce priamo má prednosť pred odbočujúcim červeným vozidlom. Ako druhé odbočí červené vozidlo. Ako tretie prejde cez križovatku zelené vozidlo."
         }],
         "image": {
           "src": "img/situations/situation_mainroad_20.png"
@@ -1246,6 +1280,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_mainroad_21_xpl.png",
+          "paragraph": "Križovatka je rozlíšená dopravnými značkami a prednosť v jazde majú vozidlá idúce na hlavnej ceste. Ako prvé prejde zelené vozidlo idúce na hlavnej ceste. Vodič žltého vozidla odbočuje vľavo a dáva prednosť zelenému vozidlu a protiidúcemu modrému vozidlu, ktoré ide ako druhé. Nakoniec odbočí vľavo žlté vozidlo. Keďže vodič žltého vozidla vychádza z jednosmernej cesty, je povinný pri odbočovaní vľavo zaradiť sa na ľavý okraj cesty."
         }],
         "image": {
           "src": "img/situations/situation_mainroad_21.png"
@@ -1276,6 +1311,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_controlled_01.png",
+          "paragraph": "Križovatka je riadená pokynmi policajta. Na tento pokyn policajta má voľno v jazde vodič modrého vozidla. Vodič zeleného vozidla môže odbočiť len vpravo a chodci môžu prechádzať len za chrbtom policajta. Pre vodičov prichádzajúcich k chrbtu a pravému boku policajta tento pokyn znamená Stoj!."
         }],
         "image": {
           "src": "img/situations/situation_controlled_01.png"
@@ -1288,6 +1324,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_controlled_01.png",
+          "paragraph": "Križovatka je riadená pokynmi policajta. Na tento pokyn policajta má voľno v jazde vodič modrého vozidla. Vodič zeleného vozidla môže odbočiť len vpravo a chodci môžu prechádzať len za chrbtom policajta. Pre vodičov prichádzajúcich k chrbtu a pravému boku policajta tento pokyn znamená Stoj!."
         }],
         "image": {
           "src": "img/situations/situation_controlled_01.png"
@@ -1300,6 +1337,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_controlled_01.png",
+          "paragraph": "Križovatka je riadená pokynmi policajta. Na tento pokyn policajta má voľno v jazde vodič modrého vozidla. Vodič zeleného vozidla môže odbočiť len vpravo a chodci môžu prechádzať len za chrbtom policajta. Pre vodičov prichádzajúcich k chrbtu a pravému boku policajta tento pokyn znamená Stoj!."
         }],
         "image": {
           "src": "img/situations/situation_controlled_01.png"
@@ -1327,6 +1365,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_controlled_02.png",
+          "paragraph": "Križovatka je riadená svetelnými signálmi, ktoré sú nadradené dopravným značkám. Ak svieti zelené svetlo pre červené a modré vozidlo a rozsvieti sa v protiľahlom rohu križovatky signál na opustenie križovatky, má červené vozidlo odbočujúce vľavo prednosť v jazde pred protiidúcim zeleným a žltým vozidlom a obidvoma električkami. Cez križovatku prejde červené vozidlo súčasne s modrým vozidlom."
         }],
         "image": {
           "src": "img/situations/situation_controlled_02.png"
@@ -1339,6 +1378,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_controlled_02.png",
+          "paragraph": "Križovatka je riadená svetelnými signálmi, ktoré sú nadradené dopravným značkám. Ak svieti zelené svetlo pre červené a modré vozidlo a rozsvieti sa v protiľahlom rohu križovatky signál na opustenie križovatky, má červené vozidlo odbočujúce vľavo prednosť v jazde pred protiidúcim zeleným a žltým vozidlom a obidvoma električkami. Cez križovatku prejde červené vozidlo súčasne s modrým vozidlom."
         }],
         "image": {
           "src": "img/situations/situation_controlled_02.png"
@@ -1351,6 +1391,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_controlled_02.png",
+          "paragraph": "Križovatka je riadená svetelnými signálmi, ktoré sú nadradené dopravným značkám. Ak svieti zelené svetlo pre červené a modré vozidlo a rozsvieti sa v protiľahlom rohu križovatky signál na opustenie križovatky, má červené vozidlo odbočujúce vľavo prednosť v jazde pred protiidúcim zeleným a žltým vozidlom a obidvoma električkami. Cez križovatku prejde červené vozidlo súčasne s modrým vozidlom."
         }],
         "image": {
           "src": "img/situations/situation_controlled_02.png"
@@ -1363,6 +1404,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_controlled_02.png",
+          "paragraph": "Križovatka je riadená svetelnými signálmi, ktoré sú nadradené dopravným značkám. Ak svieti zelené svetlo pre červené a modré vozidlo a rozsvieti sa v protiľahlom rohu križovatky signál na opustenie križovatky, má červené vozidlo odbočujúce vľavo prednosť v jazde pred protiidúcim zeleným a žltým vozidlom a obidvoma električkami. Cez križovatku prejde červené vozidlo súčasne s modrým vozidlom."
         }],
         "image": {
           "src": "img/situations/situation_controlled_02.png"
@@ -1380,6 +1422,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_controlled_03.png",
+          "paragraph": "Križovatka je riadená svetelnými signálmi, ktoré sú nadradené dopravným značkám. Ako prvé prejde cez križovatku zelené vozidlo, pretože má svetelný signál Voľno!. Na signál doplnkovej svietiacej zelenej šípky vpravo červené vozidlo odbočí vpravo ako druhé, ale musí dať prednosť chodcom prechádzajúcim na priechode pre chodcov."
         }],
         "image": {
           "src": "img/situations/situation_controlled_03.png"
@@ -1392,6 +1435,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_controlled_03.png",
+          "paragraph": "Križovatka je riadená svetelnými signálmi, ktoré sú nadradené dopravným značkám. Ako prvé prejde cez križovatku zelené vozidlo, pretože má svetelný signál Voľno!. Na signál doplnkovej svietiacej zelenej šípky vpravo červené vozidlo odbočí vpravo ako druhé, ale musí dať prednosť chodcom prechádzajúcim na priechode pre chodcov."
         }],
         "image": {
           "src": "img/situations/situation_controlled_03.png"
@@ -1414,6 +1458,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_controlled_03.png",
+          "paragraph": "Križovatka je riadená svetelnými signálmi, ktoré sú nadradené dopravným značkám. Ako prvé prejde cez križovatku zelené vozidlo, pretože má svetelný signál Voľno!. Na signál doplnkovej svietiacej zelenej šípky vpravo červené vozidlo odbočí vpravo ako druhé, ale musí dať prednosť chodcom prechádzajúcim na priechode pre chodcov."
         }],
         "image": {
           "src": "img/situations/situation_controlled_03.png"
@@ -1431,6 +1476,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_controlled_04.png",
+          "paragraph": "Križovatka je riadená pokynmi policajta. Policajt dáva pokyn Voľno! pre žlté, modré a červené vozidlo. Chodci prechádzajúci za chrbtom policajta majú prednosť pred odbočujúcim červeným vozidlom. Vodič modrého vozidla odbočujúci vľavo dáva prednosť žltému vozidlu, ktoré prejde cez križovatku ako prvé, potom dokončí odbočovanie modré vozidlo. Červené vozidlo musí dávať prednosť chodcom. Zelené a čierne vozidlo majú pokyn Stoj!."
         }],
         "image": {
           "src": "img/situations/situation_controlled_04.png"
@@ -1443,6 +1489,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_controlled_04.png",
+          "paragraph": "Križovatka je riadená pokynmi policajta. Policajt dáva pokyn Voľno! pre žlté, modré a červené vozidlo. Chodci prechádzajúci za chrbtom policajta majú prednosť pred odbočujúcim červeným vozidlom. Vodič modrého vozidla odbočujúci vľavo dáva prednosť žltému vozidlu, ktoré prejde cez križovatku ako prvé, potom dokončí odbočovanie modré vozidlo. Červené vozidlo musí dávať prednosť chodcom. Zelené a čierne vozidlo majú pokyn Stoj!."
         }],
         "image": {
           "src": "img/situations/situation_controlled_04.png"
@@ -1455,6 +1502,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_controlled_04.png",
+          "paragraph": "Križovatka je riadená pokynmi policajta. Policajt dáva pokyn Voľno! pre žlté, modré a červené vozidlo. Chodci prechádzajúci za chrbtom policajta majú prednosť pred odbočujúcim červeným vozidlom. Vodič modrého vozidla odbočujúci vľavo dáva prednosť žltému vozidlu, ktoré prejde cez križovatku ako prvé, potom dokončí odbočovanie modré vozidlo. Červené vozidlo musí dávať prednosť chodcom. Zelené a čierne vozidlo majú pokyn Stoj!."
         }],
         "image": {
           "src": "img/situations/situation_controlled_04.png"
@@ -1472,6 +1520,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_controlled_05.png",
+          "paragraph": "Križovatka je riadená pokynmi policajta. Na tento pokyn policajta má voľno v jazde vodič modrého a červeného vozidla, ktoré však musí dať prednosť chodcom prechádzajúcim za chrbtom policajta. Vodič zeleného vozidla môže pokračovať v jazde len vpravo."
         }],
         "image": {
           "src": "img/situations/situation_controlled_05.png"
@@ -1484,6 +1533,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_controlled_05.png",
+          "paragraph": "Križovatka je riadená pokynmi policajta. Na tento pokyn policajta má voľno v jazde vodič modrého a červeného vozidla, ktoré však musí dať prednosť chodcom prechádzajúcim za chrbtom policajta. Vodič zeleného vozidla môže pokračovať v jazde len vpravo."
         }],
         "image": {
           "src": "img/situations/situation_controlled_05.png"
@@ -1496,6 +1546,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_controlled_05.png",
+          "paragraph": "Križovatka je riadená pokynmi policajta. Na tento pokyn policajta má voľno v jazde vodič modrého a červeného vozidla, ktoré však musí dať prednosť chodcom prechádzajúcim za chrbtom policajta. Vodič zeleného vozidla môže pokračovať v jazde len vpravo."
         }],
         "image": {
           "src": "img/situations/situation_controlled_05.png"
@@ -1513,6 +1564,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_controlled_06.png",
+          "paragraph": "Križovatka je riadená svetelnými signálmi, ktoré sú nadradené dopravným značkám. Do križovatky môže vchádzať na pokyn Voľno! ako prvá električka, ktorá odbočuje vpravo a dáva znamenie o zmene smeru jazdy a preto má prednosť pred červeným vozidlom. Modré vozidlo odbočuje vľavo vojde do križovatky a dáva prednosť protiidúcej električke a červenému vozidlu. Žlté vozidlo má svetelný signál Stoj!."
         }],
         "image": {
           "src": "img/situations/situation_controlled_06.png"
@@ -1525,6 +1577,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_controlled_06.png",
+          "paragraph": "Križovatka je riadená svetelnými signálmi, ktoré sú nadradené dopravným značkám. Do križovatky môže vchádzať na pokyn Voľno! ako prvá električka, ktorá odbočuje vpravo a dáva znamenie o zmene smeru jazdy a preto má prednosť pred červeným vozidlom. Modré vozidlo odbočuje vľavo vojde do križovatky a dáva prednosť protiidúcej električke a červenému vozidlu. Žlté vozidlo má svetelný signál Stoj!."
         }],
         "image": {
           "src": "img/situations/situation_controlled_06.png"
@@ -1537,6 +1590,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_controlled_06.png",
+          "paragraph": "Križovatka je riadená svetelnými signálmi, ktoré sú nadradené dopravným značkám. Do križovatky môže vchádzať na pokyn Voľno! ako prvá električka, ktorá odbočuje vpravo a dáva znamenie o zmene smeru jazdy a preto má prednosť pred červeným vozidlom. Modré vozidlo odbočuje vľavo vojde do križovatky a dáva prednosť protiidúcej električke a červenému vozidlu. Žlté vozidlo má svetelný signál Stoj!."
         }],
         "image": {
           "src": "img/situations/situation_controlled_06.png"
@@ -1549,6 +1603,7 @@ var SituationsList = {
         "explanation": [{
           "headline": "Riešenie dopravnej situácie",
           "image": "img/situations/situation_controlled_06.png",
+          "paragraph": "Križovatka je riadená svetelnými signálmi, ktoré sú nadradené dopravným značkám. Do križovatky môže vchádzať na pokyn Voľno! ako prvá električka, ktorá odbočuje vpravo a dáva znamenie o zmene smeru jazdy a preto má prednosť pred červeným vozidlom. Modré vozidlo odbočuje vľavo vojde do križovatky a dáva prednosť protiidúcej električke a červenému vozidlu. Žlté vozidlo má svetelný signál Stoj!."
         }],
         "image": {
           "src": "img/situations/situation_controlled_06.png"
