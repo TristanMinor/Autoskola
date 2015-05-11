@@ -26,7 +26,7 @@
         @include border-radius($radius-item);
         .bar-header {
           @include border-top-radius($radius-item);
-          border-bottom: 1px solid $line;
+          border-bottom: 1px solid $line;          
         }
         .scroll-content {
           @include border-bottom-radius($radius-item);
@@ -39,7 +39,20 @@
     }
   }
 }
+
 .modal-image {
   padding-top: $padding-medium;
   padding-bottom: $padding-medium;
+  img {
+    max-width: 160px;
+  }
+}
+
+.modal-text {
+  padding-left: $padding-medium;
+  padding-right: $padding-medium;
+  p {
+    font-family: $sans-serif;
+    font-size: 17px;
+  }
 }

@@ -3,39 +3,32 @@
     <button class="button button-icon icon icon-close" ng-click="closeTestModal()"></button>
     <h1 class="title">Test {{ selectedTest.id }}</h1>
   </ion-header-bar>
-  <ion-content class="">
+  <ion-content>
+
+    <div class="modal-image center" ng-if="basicTest == true">
+      <img src="img/tests/test_basic.png" alt="">
+    </div>
+    <div class="modal-image center" ng-if="basicTest == false">
+      <img src="img/tests/test_final.png" alt="">
+    </div>
+
+    <div class="modal-text center" ng-if="basicTest == true">
+      <p>Vyber si okruh z ktorého sa chceš otestovať.</p>
+    </div>
+
+    <div class="modal-text center" ng-if="basicTest == false">
+      <p>Nasledujúci test sa skladá z 27 otázok, na ktorých vyriešenie máš presne 20 minút. Veľa šťastia!</p>
+    </div>
+
     <div class="list" ng-if="basicTest == true">
-      <div class="item" ng-click="openTestTypeModal()">Vyber typ testu
+      <div class="item" ng-click="openTestTypeModal()">Okruh otázok
         <span class="item-note">{{ basicTestType.name }}</span>
       </div>
     </div>
-    <!-- <div class="list" ng-if="basicTest == true">
-      <label class="item item-input item-select">
-        <div class="input-label">
-          Typ testu
-        </div>
-        <select>
-          <option selected>Zákon</option>
-          <option>Vyhláška</option>
-          <option>Výstražné značky</option>
-          <option>Značky upravujúce prednosť v jazde</option>
-          <option>Zákazové značky</option>
-          <option>Príkazové značky</option>
-          <option>Informatívne, prevádzkové, smerové a iné značky</option>
-          <option>Informatívne smerové značky</option>
-          <option>Dodatkové tabuľky</option>
-          <option>Dopravné zariadenia</option>
-          <option>Križovatky – jazda v jazdných pruhoch</option>
-          <option>Križovatky bez dopravných značiek</option>
-          <option>Križovatky s hlavnou a vedľajšou cestou</option>
-          <option>Riadené križovatky</option>
-        </select>
-      </label>
-    </div> -->
 
-    <div class="list">
+    <!--<div class="list">
       <ion-toggle ng-if="basicTest == false" ng-model="testModal.resolveImmediately" toggle-class="toggle-calm">Vyhodnotiť odpoveď po každej otázke</ion-toggle>
-    </div>
+    </div>-->
 
     <div class="center">
       <button class="button button-positive" ng-click="runTest()">Spustiť test</button>

@@ -8176,6 +8176,15 @@ ul li {
 .modal-image {
   padding-top: 36px;
   padding-bottom: 36px; }
+  .modal-image img {
+    max-width: 160px; }
+
+.modal-text {
+  padding-left: 36px;
+  padding-right: 36px; }
+  .modal-text p {
+    font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 17px; }
 
 .bar.test-progress {
   width: 100%;
