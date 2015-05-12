@@ -34,6 +34,8 @@ var LawList = {
       "correct": true
     }],
     "explanation": [{
+      "chapter": 26,
+      "content": 1
     }]
   }, {
     "id": 3,
@@ -127,6 +129,8 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 17,
+      "content": 9
     }]
   }, {
     "id": 8,
@@ -144,6 +148,8 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 21,
+      "content": 9
     }]
   }, {
     "id": 9,
@@ -161,6 +167,8 @@ var LawList = {
       "correct": true
     }],
     "explanation": [{
+      "chapter": 55,
+      "content": 2
     }]
   }, {
     "id": 10,
@@ -178,6 +186,8 @@ var LawList = {
       "correct": true
     }],
     "explanation": [{
+      "chapter": 49,
+      "content": 19
     }]
   }, {
     "id": 11,
@@ -195,6 +205,11 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 44,
+      "content": 2
+    },{
+      "chapter": 44,
+      "content": 3
     }]
   }, {
     "id": 12,
@@ -212,6 +227,8 @@ var LawList = {
       "correct": true
     }],
     "explanation": [{
+      "chapter": 4,
+      "content": 4
     }]
   }, {
     "id": 13,
@@ -229,6 +246,8 @@ var LawList = {
       "correct": true
     }],
     "explanation": [{
+      "chapter": 1,
+      "content": 8
     }]
   }, {
     "id": 14,
@@ -246,6 +265,8 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 29,
+      "content": 1
     }]
   }, {
     "id": 15,
@@ -263,6 +284,8 @@ var LawList = {
       "correct": true
     }],
     "explanation": [{
+      "chapter": 12,
+      "content": 2
     }]
   }, {
     "id": 16,
@@ -280,12 +303,14 @@ var LawList = {
       "correct": true
     }],
     "explanation": [{
+      "chapter": 13,
+      "content": 10
     }]
   }, {
     "id": 17,
     "type": "law",
     "points": 2,
-    "question": "Vodič je povinný za vozidlom idúcim pred nim dodržiavať",
+    "question": "Vodič je povinný za vozidlom idúcim pred ním dodržiavať",
     "answers": [{
       "text": "vzdialenosť minimálne 10 m,",
       "correct": false
@@ -297,6 +322,8 @@ var LawList = {
       "correct": true
     }],
     "explanation": [{
+      "chapter": 15,
+      "content": 1
     }]
   }, {
     "id": 18,
@@ -314,6 +341,14 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 17,
+      "content": 10
+    }, {
+      "chapter": 17,
+      "content": 5
+    }, {
+      "chapter": 17,
+      "content": 12
     }]
   }, {
     "id": 19,
@@ -331,6 +366,8 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 20,
+      "content": 10
     }]
   }, {
     "id": 20,
@@ -348,6 +385,8 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 21,
+      "content": 13
     }]
   }, {
     "id": 21,

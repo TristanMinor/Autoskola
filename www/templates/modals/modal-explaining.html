@@ -5,7 +5,12 @@
         <h3 ng-if="item.headline">{{ item.headline}}</h3>
         <img ng-if="item.image" src="{{ item.image }}" class="chapter-image">
         <p ng-if="item.paragraph" ng-bind-html="item.paragraph"></p>
-        <blockquote ng-show="item.blockquote" ng-bind-html="item.blockquote"></blockquote>
+        <ul ng-if="item.list">
+          <li ng-repeat="li in item.list">{{ li.listitem }}</li>
+        </ul>
+        <blockquote ng-show="item.blockquote" ng-bind-html="item.blockquote">
+          <p>{{ item.blockquote.paragraph }}</p>
+        </blockquote>
       </div>
     </div>
   </ion-content>

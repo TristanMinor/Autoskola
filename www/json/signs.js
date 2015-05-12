@@ -934,7 +934,7 @@ var SignsList = {
     }, {
       "id": 211,
       "type": "sign",
-      "name": "Iný názov",
+      "name": "Rýchlostná cesta",
       "points": 2,
       "question": "Táto dopravná značka znamená",
       "answers": [{
@@ -950,7 +950,7 @@ var SignsList = {
       "explanation": [{
       }],
       "image": {
-        "src": "img/signs/IS-35.svg",
+        "src": "img/signs/IS-28.svg",
         "imgType": "rectangle"
       }
     }, {
