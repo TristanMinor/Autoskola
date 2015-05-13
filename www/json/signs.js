@@ -42,86 +42,11 @@ var SignsList = {
         "correct": false
       }],
       "explanation": [{
+        "headline": "Zákruta vpravo",
+        "paragraph": "Značka <i>Zákruta vľavo</i> upozorňuje na smerový oblúk vľavo, kde si bezpečný prejazd vyžaduje výrazné zníženie rýchlosti jazdy s ohľadom na parametre cesty, po ktorom nasleduje priamy úsek cesty."
       }],
       "image": {
         "src": "img/signs/A1b.svg",
-        "imgType": "triangle"
-      }
-    }, {
-      "id": 3,
-      "type": "sign",
-      "name": "Dvojitá zákruta, prvá vpravo",
-      "points": 2,
-      "explanation": [{
-      }],
-      "image": {
-        "src": "img/signs/A2a.svg",
-        "imgType": "triangle"
-      }
-    }, {
-      "id": 4,
-      "type": "sign",
-      "name": "Dvojitá zákruta, prvá vľavo",
-      "points": 2,
-      "explanation": [{
-      }],
-      "image": {
-        "src": "img/signs/A2b.svg",
-        "imgType": "triangle"
-      }
-    }, {
-      "id": 5,
-      "type": "sign",
-      "name": "Zákruty v úseku 2 km, prvá vpravo",
-      "points": 2,
-      "explanation": [{
-      }],
-      "image": {
-        "src": "img/signs/A2c.svg",
-        "imgType": "triangle"
-      }
-    }, {
-      "id": 6,
-      "type": "sign",
-      "name": "Štyri zákruty, prvá vpravo",
-      "points": 2,
-      "explanation": [{
-      }],
-      "image": {
-        "src": "img/signs/A2d.svg",
-        "imgType": "triangle"
-      }
-    }, {
-      "id": 7,
-      "type": "sign",
-      "name": "Nebezpečné klesanie",
-      "points": 2,
-      "explanation": [{
-      }],
-      "image": {
-        "src": "img/signs/A3a.svg",
-        "imgType": "triangle"
-      }
-    }, {
-      "id": 8,
-      "type": "sign",
-      "name": "Nebezpečné stúpanie",
-      "points": 2,
-      "explanation": [{
-      }],
-      "image": {
-        "src": "img/signs/A3b.svg",
-        "imgType": "triangle"
-      }
-    }, {
-      "id": 9,
-      "type": "sign",
-      "name": "Zúžená vozovka z oboch strán",
-      "points": 2,
-      "explanation": [{
-      }],
-      "image": {
-        "src": "img/signs/A4a.svg",
         "imgType": "triangle"
       }
     }, {
@@ -141,6 +66,8 @@ var SignsList = {
         "correct": false
       }],
       "explanation": [{
+        "headline": "Zúžená vozovka sprava",
+        "paragraph": "Značka <i>Zúžená vozovka sprava</i> upozorňuje na miesto, kde sa vozovka zužuje len z jednej strany v smere jazdy vodiča."
       }],
       "image": {
         "src": "img/signs/A4b.svg",
@@ -163,6 +90,8 @@ var SignsList = {
         "correct": false
       }],
       "explanation": [{
+        "headline": "Nerovnosť vozovky",
+        "paragraph": "Značka <i>Nerovnosť vozovky</i> upozorňuje na priečne alebo pozdĺžne nerovnosti povrchu vozovky, napríklad výtlky, výmole, vyjazdené koľaje a podobne."
       }],
       "image": {
         "src": "img/signs/A5.svg",
@@ -185,6 +114,8 @@ var SignsList = {
         "correct": false
       }],
       "explanation": [{
+        "headline": "Odletujúci štrk",
+        "paragraph": "Značka <i>Odletujúci štrk</i> upozorňuje na miesto alebo úsek vozovky, na ktorom sa dá predpokladať zvýšené riziko odletujúceho štrku spod kolies vozidiel."
       }],
       "image": {
         "src": "img/signs/A11.svg",
@@ -207,6 +138,8 @@ var SignsList = {
         "correct": false
       }],
       "explanation": [{
+        "headline": "Pozor, zvieratá",
+        "paragraph": "Značka <i>Pozor, zvieratá</i> upozorňuje na miesto alebo na úsek cesty, na ktorom môže dochádzať k častému výskytu domácich zvierat."
       }],
       "image": {
         "src": "img/signs/A17.svg",
@@ -229,6 +162,8 @@ var SignsList = {
         "correct": false
       }],
       "explanation": [{
+        "headline": "Kolóny",
+        "paragraph": "Značka <i>Kolóny</i> upozorňuje na úsek cesty, kde sa vytvára kolóna vozidiel, resp. rad pohybujúcich sa vozidiel v jednej stope za sebou (v jazdnom pruhu) alebo vedľa seba rovnakým smerom najmä pri veľkej intenzite cestnej premávky, napríklad v dlhých stúpaniach na horských priechodoch alebo ako následok dopravnej nehody alebo práce na ceste a podobne."
       }],
       "image": {
         "src": "img/signs/A23.svg",
@@ -251,6 +186,8 @@ var SignsList = {
         "correct": false
       }],
       "explanation": [{
+        "headline": "Tunel",
+        "paragraph": "Značka <i>Tunel</i> vopred upozorňuje na tunel alebo podjazd; ak v záujme bezpečnosti cestnej premávky na tento prejazd platia určité obmedzenia, napríklad výškové, šírkové, alebo zákaz vjazdu pre niektoré druhy vozidiel a podobne, tak sa umiestňujú vopred pred objekt aj príslušné značky alebo príslušné dodatkové tabuľky."
       }],
       "image": {
         "src": "img/signs/A24.svg",
@@ -273,6 +210,11 @@ var SignsList = {
         "correct": false
       }],
       "explanation": [{
+        "headline": "Tvar kríženia cesty so železničnou dráhou",
+        "paragraph": "Dodatková tabuľka <i>Tvar kríženia cesty so železničnou dráhou</i> vyznačuje taký tvar kríženia cesty so železničnou dráhou tam, kde nie je dostatočný rozhľad alebo kde má kríženie ostrý uhol. Umiestňuje sa nad značky Návestná tabuľa ľavá – pravá – 80 m."
+      }, {
+        "headline": "Návestná tabuľa pravá – 80 m",
+        "paragraph": "Značka <i>Návestná tabuľa pravá – 80 m </i> upozorňuje na železničné priecestie a umiestňuje sa vo vzdialenosti 80 m pred železničným priecestím. "
       }],
       "image": {
         "src": "img/signs/E11b.svg",
@@ -295,6 +237,8 @@ var SignsList = {
         "correct": true
       }],
       "explanation": [{
+        "headline": "Bočný vietor",
+        "paragraph": "Dodatková tabuľka <i>Bočný vietor</i> upozorňuje na úsek cesty, kde prudký bočný alebo nárazový vietor môže ohroziť bezpečnosť cestnej premávky."
       }],
       "image": {
         "src": "img/signs/A32.svg",
@@ -320,6 +264,11 @@ var SignsList = {
         "correct": false
       }],
       "explanation": [{
+        "headline": "Daj prednosť v jazde!",
+        "paragraph": "Značka <i>Daj prednosť v jazde!</i> ukladá vodičovi povinnosť dať prednosť v jazde; označuje vedľajšiu cestu pred križovatkou s hlavnou cestou. Značka sa používa najmä v kombinácii s príslušnou dodatkovou tabuľkou s tvarom križovatky <i>Tvar križovatky</i>."
+      }, {
+        "headline": "Vzdialenosť",
+        "paragraph": "Dodatková tabuľka <i>Vzdialenosť</i> umiestnená pod značkou <i>Daj prednosť v jazde!</i> vyznačuje vzdialenosť k značke <i>Stoj daj prednosť v jazde!</i>, pre ktorú je zároveň predbežnou značkou. Na tabuľke sa uvádza vzdialenosť v celých desiatkach metrov k miestu, kde platí povinnosť zastaviť vozidlo."
       }],
       "image": {
         "src": "img/signs/P1b.svg",
@@ -342,6 +291,8 @@ var SignsList = {
         "correct": false
       }],
       "explanation": [{
+        "headline": "Stoj, daj prednosť v jazde!",
+        "paragraph": "Značka <i>Stoj, daj prednosť v jazde!</i> ukladá vodičovi povinnosť zastaviť vozidlo a dať prednosť v jazde; vodič je povinný zastaviť vozidlo na takom mieste, odkiaľ má na križovatku náležitý rozhľad. Značka označuje vedľajšiu cestu pred križovatkou s hlavnou cestou, a to najmä v prípadoch, keď križovatka nie je dostatočne prehľadná. Značka sa používa najmä v kombinácii s príslušnou dodatkovou tabuľkou s tvarom križovatky <i>Tvar križovatky</i>. Ako predbežná značka sa k značke používa značka <i>Daj prednosť v jazde!</i> s dodatkovou tabuľkou s uvedením skutočnej vzdialenosti k miestu, na ktoré sa vzťahuje povinnosť zastaviť vozidlo. Značka <i>Stoj, daj prednosť v jazde!</i> sa používa aj pred železničným priecestím v prípadoch, keď je potrebné vodičovi prikázať v záujme bezpečnosti premávky zastaviť vozidlo."
       }],
       "image": {
         "src": "img/signs/P2.svg",
@@ -364,6 +315,8 @@ var SignsList = {
         "correct": true
       }],
       "explanation": [{
+        "headline": "Križovatka, kde nie je prednosť v jazde upravená značkami",
+        "paragraph": "Značka <i>Križovatka, kde nie je prednosť v jazde upravená značkami</i> upozorňuje na križovatku, kde nie je prednosť v jazde upravená značkami napríklad na upozornenie na križovatku, kde sa na rozdiel od predchádzajúceho priebehu končí hlavná cesta a uplatňuje sa ustanovenie vyplývajúce zo všeobecných ustanovení pravidiel cestnej premávky prednosti vozidiel prichádzajúcich sprava."
       }],
       "image": {
         "src": "img/signs/P4.svg",
@@ -386,6 +339,8 @@ var SignsList = {
         "correct": false
       }],
       "explanation": [{
+        "headline": "Koniec hlavnej cesty",
+        "paragraph": "Značka <i>Koniec hlavnej cesty</i> informuje o tom, že na najbližšej križovatke táto cesta už nie je hlavnou cestou. V obci sa značka používa len pred skončením dlhšieho úseku hlavnej cesty, a to za poslednou križovatkou hlavnej cesty."
       }],
       "image": {
         "src": "img/signs/P9.svg",
@@ -408,6 +363,8 @@ var SignsList = {
         "correct": true
       }],
       "explanation": [{
+        "headline": "Koniec hlavnej cesty",
+        "paragraph": "Dodatková tabuľka <i>Koniec hlavnej cesty</i>  Tvar križovatky a Tvar dvoch križovatiek vyznačujú skutočný geometrický tvar križovatky, pričom hlavná cesta je vyznačená čiarou dvojnásobnej šírky ako čiara vyznačujúca vedľajšie cesty, okrem dodatkovej tabuľky Tvar križovatky, ktorá vyznačuje len cesty rovnakého významu. Cesta, po ktorej sa ku križovatke prichádza, je vyznačená čiarou vychádzajúcou od spodného okraja dodatkovej tabuľky s tvarom križovatky v smere jazdy vodiča."
       }],
       "image": {
         "src": "img/signs/P15.svg",
@@ -1162,7 +1119,7 @@ var SignsList = {
       }
     }]
   }, {
-    "section": "Dopravné zariadenia",
+    "section": "Dopravné zariadenia a osobitné označenia",
     "questions": [{
       "id": 291,
       "type": "sign",
