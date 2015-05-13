@@ -15,8 +15,8 @@ var NoticeList = {
       "correct": false
     }],
     "explanation": [{
-      "chapter": 2,
-      "content": 3
+      "chapter": 39,
+      "content": 1
     }]
   }, {
     "id": 2,
@@ -34,6 +34,8 @@ var NoticeList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 60,
+      "content": 1
     }]
   }, {
     "id": 3,
@@ -51,6 +53,8 @@ var NoticeList = {
       "correct": true
     }],
     "explanation": [{
+      "chapter": 60,
+      "content": 2
     }]
   }, {
     "id": 4,
@@ -68,6 +72,8 @@ var NoticeList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 27,
+      "content": 8
     }]
   }, {
     "id": 5,
@@ -85,6 +91,8 @@ var NoticeList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 60,
+      "content": 2
     }]
   }, {
     "id": 6,
@@ -102,6 +110,8 @@ var NoticeList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 61,
+      "content": 20
     }]
   }, {
     "id": 7,
@@ -119,6 +129,8 @@ var NoticeList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 27,
+      "content": 9
     }]
   }, {
     "id": 8,
@@ -136,6 +148,8 @@ var NoticeList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 60,
+      "content": 2
     }]
   }, {
     "id": 9,
@@ -153,6 +167,8 @@ var NoticeList = {
       "correct": true
     }],
     "explanation": [{
+      "chapter": 62,
+      "content": 1
     }]
   }, {
     "id": 10,
@@ -170,12 +186,14 @@ var NoticeList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 40,
+      "content": 1
     }]
   }, {
     "id": 11,
     "type": "notice",
     "points": 1,
-    "question": " Vozidlo sa považuje za technicky nespôsobilé na premávku na pozemných komunikáciách, ak",
+    "question": "Vozidlo sa považuje za technicky nespôsobilé na premávku na pozemných komunikáciách, ak",
     "answers": [{
       "text": "je poškodený lak na zadnom nárazníku,",
       "correct": false
@@ -187,6 +205,8 @@ var NoticeList = {
       "correct": true
     }],
     "explanation": [{
+      "chapter": 61,
+      "content": 10
     }]
   }, {
     "id": 12,
@@ -204,6 +224,8 @@ var NoticeList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 34,
+      "content": 6
     }]
   }, {
     "id": 13,
@@ -221,6 +243,8 @@ var NoticeList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 44,
+      "content": 5
     }]
   }, {
     "id": 14,
@@ -238,6 +262,8 @@ var NoticeList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 61,
+      "content": 19
     }]
   }, {
     "id": 15,
@@ -255,6 +281,8 @@ var NoticeList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 61,
+      "content": 16
     }]
   }, {
     "id": 16,
@@ -272,6 +300,8 @@ var NoticeList = {
       "correct": true
     }],
     "explanation": [{
+      "chapter": 45,
+      "content": 2
     }]
   }, {
     "id": 17,
@@ -289,6 +319,8 @@ var NoticeList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 62,
+      "content": 1
     }]
   }, {
     "id": 18,
@@ -306,6 +338,8 @@ var NoticeList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 61,
+      "content": 11
     }]
   }]
 };

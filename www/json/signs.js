@@ -363,8 +363,8 @@ var SignsList = {
         "correct": true
       }],
       "explanation": [{
-        "headline": "Koniec hlavnej cesty",
-        "paragraph": "Dodatková tabuľka <i>Koniec hlavnej cesty</i>  Tvar križovatky a Tvar dvoch križovatiek vyznačujú skutočný geometrický tvar križovatky, pričom hlavná cesta je vyznačená čiarou dvojnásobnej šírky ako čiara vyznačujúca vedľajšie cesty, okrem dodatkovej tabuľky Tvar križovatky, ktorá vyznačuje len cesty rovnakého významu. Cesta, po ktorej sa ku križovatke prichádza, je vyznačená čiarou vychádzajúcou od spodného okraja dodatkovej tabuľky s tvarom križovatky v smere jazdy vodiča."
+        "headline": "Tvar križovatky (vzor)",
+        "paragraph": "Dodatková tabuľka <i>Tvar križovatky (vzor)</i> vyznačuje skutočný geometrický tvar križovatky, pričom hlavná cesta je vyznačená čiarou dvojnásobnej šírky ako čiara vyznačujúca vedľajšie cesty, okrem dodatkovej tabuľky Tvar križovatky, ktora vyznačuje len cesty rovnakého významu. Cesta, po ktorej sa ku križovatke prichádza, je vyznačená čiarou vychádzajúcou od spodného okraja dodatkovej tabuľky s tvarom križovatky v smere jazdy vodiča."
       }],
       "image": {
         "src": "img/signs/P15.svg",
@@ -390,6 +390,8 @@ var SignsList = {
         "correct": true
       }],
       "explanation": [{
+        "headline": "Zákaz vjazdu všetkých motorových vozidiel s výnimkou motocyklov bez postranného vozíka",
+        "paragraph": "Značka <i>Zákaz vjazdu všetkých motorových vozidiel s výnimkou motocyklov bez postranného vozíka</i> zakazuje vjazd všetkých motorových vozidiel s výnimkou motocyklov bez postranného vozíka, ale nezakazuje vjazd električke."
       }],
       "image": {
         "src": "img/signs/B4.svg",
@@ -412,6 +414,8 @@ var SignsList = {
         "correct": false
       }],
       "explanation": [{
+        "headline": "Zákaz vjazdu autobusov",
+        "paragraph": "Značka <i>Zákaz vjazdu autobusov</i> v záujme bezpečnosti cestnej premávky zakazuje vjazd autobusov na cesty, ktoré svojimi parametrami, napríklad šírkou alebo smerovými oblúkmi cesty, neumožňujú bezpečnú jazdu autobusov s prihliadnutím na ich rozmery, resp. na najväčšiu prípustnú celkovú hmotnosť. Značka sa používa i v prípadoch, keď je potrebné premávku autobusov vylúčiť z dôvodu ochrany životného prostredia."
       }],
       "image": {
         "src": "img/signs/B7.svg",
@@ -434,6 +438,8 @@ var SignsList = {
         "correct": true
       }],
       "explanation": [{
+        "headline": "Zákaz vjazdu motocyklov",
+        "paragraph": "Značka <i>Zákaz vjazdu motocyklov</i> akazuje vjazd motocyklov, ktorých najväčšia konštrukčná rýchlosť je viac ako 45 km/h alebo ktorých zdvihový objem valcov motora je väčší ako 50 cm<sup>3</sup> v prípade spaľovacieho motora a najväčší čistý výkon je väčší ako 4 kW alebo ktorých najväčší trvalý menovitý výkon je väčší ako 4 kW v prípade elektrického motora z dôvodu ochrany životného prostredia alebo v záujme bezpečnosti cestnej premávky."
       }],
       "image": {
         "src": "img/signs/B8.svg",
@@ -456,6 +462,8 @@ var SignsList = {
         "correct": true
       }],
       "explanation": [{
+        "headline": "Zákaz vjazdu vyznačených vozidiel",
+        "paragraph": "Značka <i>Zákaz vjazdu vyznačených vozidiel</i> zakazuje vjazd vozidlám vyznačených druhov."
       }],
       "image": {
         "src": "img/signs/B18.svg",
@@ -478,6 +486,8 @@ var SignsList = {
         "correct": false
       }],
       "explanation": [{
+        "headline": "Najvyššia dovolená rýchlosť",
+        "paragraph": "Značka <i>Najvyššia dovolená rýchlosť</i> zakazuje vodičovi prekročiť rýchlosť v kilometroch za hodinu vyznačenú číslom na značke."
       }],
       "image": {
         "src": "img/signs/B31a.svg",
@@ -500,6 +510,8 @@ var SignsList = {
         "correct": true
       }],
       "explanation": [{
+        "headline": "Zákaz státia v nepárnych dňoch",
+        "paragraph": "Značka <i>Zákaz státia v nepárnych dňoch</i> zakazuje státie v nepárnych kalendárnych dňoch v mesiaci."
       }],
       "image": {
         "src": "img/signs/B35.svg",
@@ -525,6 +537,8 @@ var SignsList = {
         "correct": false
       }],
       "explanation": [{
+        "headline": "Prikázaný smer obchádzania vpravo a vľavo",
+        "paragraph": "Značka <i>Prikázaný smer obchádzania vpravo a vľavo</i> prikazuje obchádzať ostrovček, prekážku a podobne len v smere vyznačenom šípkami na značke."
       }],
       "image": {
         "src": "img/signs/C6c.svg",
@@ -547,6 +561,8 @@ var SignsList = {
         "correct": false
       }],
       "explanation": [{
+        "headline": "Cestička pre jazdcov na koňoch",
+        "paragraph": "Značka <i>Cestička pre jazdcov na koňoch</i> prikazuje jazdcom na koňoch použiť v predmetnom smere takto označenú cestičku alebo pruh. Iným účastníkom cestnej premávky je používanie cestičky alebo pruhu zakázané; zákaz sa nevzťahuje na osoby vedúce koňa za uzdu alebo vodidlo."
       }],
       "image": {
         "src": "img/signs/C11.svg",
@@ -569,6 +585,8 @@ var SignsList = {
         "correct": false
       }],
       "explanation": [{
+        "headline": "Najnižšia dovolená rýchlosť",
+        "paragraph": "Značka <i>Najnižšia dovolená rýchlosť</i> sa používa v záujme zvýšenia plynulosti cestnej premávky."
       }],
       "image": {
         "src": "img/signs/C15.svg",
@@ -591,6 +609,8 @@ var SignsList = {
         "correct": false
       }],
       "explanation": [{
+        "headline": "Obmedzenie v jazdných pruhoch",
+        "paragraph": "Značka <i>Obmedzenie v jazdných pruhoch</i> vyznačuje obmedzenie platné v príslušnom jazdnom pruhu v smere jazdy s použitím symbolu značky z príslušnej skupiny zákazových alebo príkazových značiek. Vyjadrenie počtu a usporiadania jazdných pruhov na značke zodpovedá skutočnej dopravnej situácii na ceste. Zákaz alebo obmedzenie, ktoré sa týka odbočujúcej cesty, možno vyznačiť obmedzením v príslušnom jazdnom pruhu pre zaraďovanie pred križovatkou. V prípade, že obmedzenie v jazdnom pruhu pokračuje aj za križovatkou, je potrebné príslušnú značku zopakovať. Značky sa umiestňujú vmieste, kde sa obmedzenie v jazdnom pruhu začína. Ak sa úsek platnosti obmedzenia končí mimo križovatky a ak nie je skôr skončený inak, platnosť obmedzenia v jazdných pruhoch sa končí umiestnením príslušnej značky, ktorá vyjadruje počet a usporiadanie jazdných pruhov zodpovedajúce skutočnej dopravnej situácii na ceste, počtu a usporiadaniu jazdných pruhov a ktorá už neobsahuje symbol zákazovej alebo príkazovej značky."
       }],
       "image": {
         "src": "img/signs/C23a.svg",
@@ -613,6 +633,8 @@ var SignsList = {
         "correct": true
       }],
       "explanation": [{
+        "headline": "Zmena smeru jazdy",
+        "paragraph": "Značka <i>Zmena smeru jazdy</i> informuje o zmene smeru jazdy do protismeru na smerovo rozdelenej ceste alebo do pôvodného smeru jazdy, ak je symbol šípky na značke obrátený. Na značke je vyznačená skutočná změna smeru jazdy, počet jazdných pruhov a vzdialenosť k miestu zmeny smeru jazdy."
       }],
       "image": {
         "src": "img/signs/C26.svg",
@@ -635,6 +657,8 @@ var SignsList = {
         "correct": false
       }],
       "explanation": [{
+        "headline": "Zmena smeru jazdy",
+        "paragraph": "Značka <i>Zmena smeru jazdy</i> upozorňuje na neočakávanú zmenu smeru jazdy. Značka upozorňuje na zmenu smeru jazdy pred trvalou prekážkou na ceste. Na značkách je vyznačená skutočná zmena smeru jazdy a počet jazdných pruhov. V spodnej časti značky alebo na dodatkovej tabuľke možno uviesť ďalšie doplňujúce údaje napríklad o vzdialenosti k miestu zmeny smeru jazdy a podobne."
       }],
       "image": {
         "src": "img/signs/C28.svg",
@@ -646,7 +670,7 @@ var SignsList = {
     "questions": [{
       "id": 142,
       "type": "sign",
-      "name": "Okruh",
+      "name": "Zmena smeru okruhu",
       "points": 2,
       "question": "Táto dopravná značka znamená",
       "answers": [{
@@ -660,6 +684,8 @@ var SignsList = {
         "correct": false
       }],
       "explanation": [{
+        "headline": "Zmena smeru okruhu",
+        "paragraph": "Značka <i>Zmena smeru okruhu</i> informuje, že na najbližšej križovatke trasa okruhu nepokračuje v priamom smere. Zmena smeru je vyznačená šípkou na značke, ktorej významový symbol môže byť obrátený."
       }],
       "image": {
         "src": "img/signs/IP2.svg",
@@ -682,6 +708,8 @@ var SignsList = {
         "correct": false
       }],
       "explanation": [{
+        "headline": "Jednosmerná premávka",
+        "paragraph": "Značka <i>Jednosmerná premávka</i> označuje jednosmernú cestu, ktorá sa v protismere spravidla označuje značkou <i>Zákaz vjazdu všetkých vozidiel</i>. Značka sa umiestňuje v mieste, kde sa úsek s jednosmernou premávkou začína."
       }],
       "image": {
         "src": "img/signs/IP3b.svg",
@@ -704,6 +732,8 @@ var SignsList = {
         "correct": false
       }],
       "explanation": [{
+        "headline": "Návesť pred slepou pozemnou komunikáciou",
+        "paragraph": "Značka <i>Návesť pred slepou pozemnou komunikáciou</i> vopred informuje pred križovatkou o ceste, ktorá sa ďalej končí alebo ktorou nemožno ďalej pokračovať v jazde."
       }],
       "image": {
         "src": "img/signs/IP5.svg",
@@ -726,6 +756,8 @@ var SignsList = {
         "correct": true
       }],
       "explanation": [{
+        "headline": "Parkovisko (čiastočné státie na chodníku kolmé alebo šikmé)",
+        "paragraph": "Značka <i>Parkovisko (čiastočné státie na chodníku kolmé alebo šikmé)</i> vyznačuje a určuje dovolený spôsob státia vozidiel na chodníku."
       }],
       "image": {
         "src": "img/signs/IP15a.svg",
@@ -748,6 +780,8 @@ var SignsList = {
         "correct": false
       }],
       "explanation": [{
+        "headline": "Obytná zóna",
+        "paragraph": "Značka <i>Obytná zóna</i> vyznačuje oblasť, kde platia zvláštne ustanovenia o premávke v obytnej zóne."
       }],
       "image": {
         "src": "img/signs/IP28a.svg",
@@ -770,6 +804,8 @@ var SignsList = {
         "correct": false
       }],
       "explanation": [{
+        "headline": "Všeobecne najvyššie dovolené rýchlosti",
+        "paragraph": "Značka <i>Všeobecne najvyššie dovolené rýchlosti</i> informuje o dopravných obmedzeniach v Slovenskej republike ustanovených všeobecnými pravidlami cestnej premávky."
       }],
       "image": {
         "src": "img/signs/IP33a.svg",
@@ -795,6 +831,8 @@ var SignsList = {
         "correct": true
       }],
       "explanation": [{
+        "headline": "Návesť pred križovatkou",
+        "paragraph": "Značka <i>Návesť pred križovatkou</i> informuje o smere k vyznačeným cieľom z najbližšej križovatky, prípadne aj o vzdialenosti k nej. Schematicky znázorňuje vedenie hlavnej a vedľajšej cesty. Značka sa používa pred dopravne významnými križovatkami ciest I., II. a III. triedy a pred dôležitými cestami v obci. Základná plocha značky na ceste I., II. a III. triedy je vždy modrej farby; ak sa cieľ nachádza na výjazde smerom na diaľnicu alebo na rýchlostnú cestu, uvedie sa na základnej modrej ploche subplocha zelenej farby s uvedením názvu cieľa, a ak sa ako cieľ uvádza na miestnych cestách na návestenie miestnych a iných cieľov, uvedie sa na základnej modrej ploche subplocha bielej farby. Na bielej subploche sú nápisy a šípky (symboly) čierne. Spravidla sa k uvedenému cieľu na značke uvedie aj označenie cesty. Ak sú ciele dostupné po obchádzkovej alebo odklonovej trase, možno ich vyznačiť na žltej subploche alebo ploche."
       }],
       "image": {
         "src": "img/signs/IS-9.svg",
@@ -817,6 +855,8 @@ var SignsList = {
         "correct": false
       }],
       "explanation": [{
+        "headline": "Smerová tabuľa (s jedným cieľom)",
+        "paragraph": "Značka <i>Smerová tabuľa (s jedným cieľom)</i> informuje o smere a spravidla aj o vzdialenosti v kilometroch k vyznačenému cieľu (obci) a o čísle pokračujúcej cesty, ktoré sa môže na značke doplniť."
       }],
       "image": {
         "src": "img/signs/IS-17a.svg",
@@ -839,6 +879,8 @@ var SignsList = {
         "correct": false
       }],
       "explanation": [{
+        "headline": "Smerová tabuľa (s jedným cieľom)",
+        "paragraph": "Značka <i>Smerová tabuľa (s jedným cieľom)</i> informuje o smere a spravidla aj o vzdialenosti v kilometroch k vyznačenému cieľu (obci) a o čísle pokračujúcej cesty, ktoré sa môže na značke doplniť."
       }],
       "image": {
         "src": "img/signs/IS-17b.svg",
@@ -861,6 +903,8 @@ var SignsList = {
         "correct": true
       }],
       "explanation": [{
+        "headline": "Smerová tabuľa k inému cieľu",
+        "paragraph": "Značka <i>Smerová tabuľa k inému cieľu</i> vyznačeným vhodným nápisom, symbolom, piktogramom informuje o smere, prípadne o vzdialenosti k inému významnému cieľu, ako k obci alebo k jej časti, ktorý má dopravný význam pre účastníkov cestnej premávky, napríklad k letisku, k autobusovej alebo železničnej stanici, k prístavu alebo k stanici technickej alebo emisnej kontroly a podobne."
       }],
       "image": {
         "src": "img/signs/IS-22a.svg",
@@ -869,7 +913,7 @@ var SignsList = {
     }, {
       "id": 206,
       "type": "sign",
-      "name": "Smerová tabuľa ku komunálnemu cieľu",
+      "name": "Smerová tabuľa ku kultúrnemu alebo turistickému cieľu",
       "points": 2,
       "question": "Táto dopravná značka znamená",
       "answers": [{
@@ -883,6 +927,8 @@ var SignsList = {
         "correct": false
       }],
       "explanation": [{
+        "headline": "Smerová tabuľa ku kultúrnemu alebo turistickému cieľu",
+        "paragraph": "Značka <i>Smerová tabuľa ku kultúrnemu alebo turistickému cieľu</i> vhodným nápisom, symbolom alebo siluetou informujú o smere, prípadne o vzdialenosti k vyznačenému kultúrnemu alebo turistickému cieľu, napríklad k divadlu, múzeu, galérii a podobne."
       }],
       "image": {
         "src": "img/signs/IS-23b.svg",
@@ -905,6 +951,8 @@ var SignsList = {
         "correct": false
       }],
       "explanation": [{
+        "headline": "Rýchlostná cesta",
+        "paragraph": "Značka <i>Rýchlostná cesta</i> informuje o čísle rýchlostnej cesty; na značke je vyobrazené písmeno <i>R</i> a číslo. Na zlepšenie orientácie sa na rýchlostnej ceste používa symbol značky na návestiach pred križovatkami a na smerových tabuliach."
       }],
       "image": {
         "src": "img/signs/IS-28.svg",
@@ -927,6 +975,8 @@ var SignsList = {
         "correct": false
       }],
       "explanation": [{
+        "headline": "Iný názov",
+        "paragraph": "Značka <i>Iný názov</i> informuje o názve mosta, rieky, pohoria, prírodnej rezervácie a podobne; pri názve mosta sa uvedie aj jeho dĺžka."
       }],
       "image": {
         "src": "img/signs/IS-35.svg",
@@ -949,6 +999,8 @@ var SignsList = {
         "correct": false
       }],
       "explanation": [{
+        "headline": "Koniec obce",
+        "paragraph": "Značka <i>Koniec obce</i> informuje o skončení obce alebo časti obce z hľadiska platnosti ustanovení pravidiel cestnej premávky, ktoré sa vzťahujú na pravidlá správania sa v obci. Značka <i>Koniec obce</i> končí platnosť značky <i>Obec</i>."
       }],
       "image": {
         "src": "img/signs/IS-36b.svg",
@@ -974,6 +1026,8 @@ var SignsList = {
         "correct": false
       }],
       "explanation": [{
+        "headline": "Odpočívadlo s objektmi služieb (vzor)",
+        "paragraph": "Značka <i>Odpočívadlo s objektmi služieb (vzor)</i> sa používa na diaľnici alebo na rýchlostnej ceste na označenie polohy a vzdialenosti k odpočívadlu. Na dodatkovej tabuli pod značkou <i>Odpočívadlo s objektmi služieb</i> sú uvedené informácie o najbližšom nasledujúcom odpočívadle a o vzdialenosti k nemu, prípadne aj informácie o čísle cesty."
       }],
       "image": {
         "src": "img/signs/II18b.svg",
@@ -999,6 +1053,8 @@ var SignsList = {
         "correct": true
       }],
       "explanation": [{
+        "headline": "Úsek platnosti",
+        "paragraph": "Dodatková tabuľka <i>Úsek platnosti</i> vyznačuje smer k miestu, kde platí značka a úsek platnosti, pre ktorý platí značka, pod ktorou je umiestnená. Používa sa najmä v spojení so značkami <i>Zákaz státia</i> alebo <i>Zákaz zastavenia</i>."
       }],
       "image": {
         "src": "img/signs/E5.svg",
@@ -1021,6 +1077,8 @@ var SignsList = {
         "correct": false
       }],
       "explanation": [{
+        "headline": "Úsek platnosti",
+        "paragraph": "Dodatková tabuľka <i>Úsek platnosti</i> vyznačuje smer k miestu, kde platí značka a úsek platnosti, pre ktorý platí značka, pod ktorou je umiestnená. Používa sa najmä v spojení so značkami <i>Zákaz státia</i> alebo <i>Zákaz zastavenia</i>."
       }],
       "image": {
         "src": "img/signs/E5b.svg",
@@ -1029,7 +1087,7 @@ var SignsList = {
     }, {
       "id": 250,
       "type": "sign",
-      "name": "Úsek platnosti",
+      "name": "Celková hmotnosť",
       "points": 2,
       "question": "Táto dodatková tabuľka umiestnená pod zákazovou značkou",
       "answers": [{
@@ -1043,6 +1101,8 @@ var SignsList = {
         "correct": false
       }],
       "explanation": [{
+        "headline": "Celková hmotnosť",
+        "paragraph": "Dodatková tabuľka <i>Celková hmotnosť</i> sa používa najmä v kombinácii so značkami <i>Zákaz vjazdu nákladných automobilov</i>, <i>Zákaz predchádzania pre nákladné automobily</i>, <i>Koniec zákazu predchádzania pre nákladné automobily</i>, ktorých platnosť je potrebné obmedziť len na vozidlá, ktorých najväčšia prípustná celková hmotnosť presahuje údaj uvedený na dodatkovej tabuľke. Pri jazdnej súprave zloženej z jedného alebo z viacerých motorových vozidiel a z jedného alebo z viacerých prípojných vozidiel rozhoduje súčet najväčších prípustných celkových hmotností vozidiel. Údaj sa uvádza v tonách s jedným desatinným miestom."
       }],
       "image": {
         "src": "img/signs/E6.svg",
@@ -1065,6 +1125,8 @@ var SignsList = {
         "correct": true
       }],
       "explanation": [{
+        "headline": "Dodatková tabuľka na označenie vyhradeného parkovacieho miesta pre osobu so zdravotným postihnutím",
+        "paragraph": "<i>Dodatková tabuľka na označenie vyhradeného parkovacieho miesta pre osobu so zdravotným postihnutím</i> sa používa najmä v kombinácii so značkou <i>Parkovisko – parkovacie miesta s vyhradeným státím</i>. Významový symbol tabuľky možno vložiť do prednej strany značky <i>Parkovisko – parkovacie miesta s vyhradeným státím</i> vpravo nad nápis <i>RÉSERVÉ</i>."
       }],
       "image": {
         "src": "img/signs/E15.svg",
@@ -1090,6 +1152,8 @@ var SignsList = {
         "correct": true
       }],
       "explanation": [{
+        "headline": "Stanovište TAXI",
+        "paragraph": "Značka <i>Stanovište TAXI</i> s príslušným nápisom <i>TAXI</i> vyznačuje priestor stanovišťa taxi a dopĺňa značku <i>Stanovište taxi</i>."
       }],
       "image": {
         "src": "img/signs/V10e.svg",
@@ -1112,6 +1176,8 @@ var SignsList = {
         "correct": true
       }],
       "explanation": [{
+        "headline": "Žltá prerušovaná čiara",
+        "paragraph": "Značka <i>Žltá prerušovaná čiara</i> vyznačuje úsek, kde je z obidvoch strán tejto čiary zakázané státie vozidiel."
       }],
       "image": {
         "src": "img/signs/V12c.svg",
@@ -1137,6 +1203,8 @@ var SignsList = {
         "correct": false
       }],
       "explanation": [{
+        "headline": "Dopravný kužeľ",
+        "paragraph": "Dopravné kužele umiestnené v rade za sebou majú zhodný význam ako značka <i>Súvislá pozdĺžna čiara</i>. Môžu vymedzovať priestor, do ktorého je zakázané vchádzať."
       }],
       "image": {
         "src": "img/signs/dk.jpg",
@@ -1145,7 +1213,7 @@ var SignsList = {
     }, {
       "id": 301,
       "type": "sign",
-      "name": "Autobus prepravujúci deti",
+      "name": "Osobitné označenie autobusu prepravujúceho deti",
       "points": 2,
       "question": "Takéto označenie sa musí použiť na",
       "answers": [{
@@ -1159,6 +1227,8 @@ var SignsList = {
         "correct": false
       }],
       "explanation": [{
+        "headline": "Osobitné označenie autobusu prepravujúceho deti",
+        "paragraph": "<i>Osobitné označenie autobusu prepravujúceho deti</i> označuje autobus používaný na prepravu detí v čase použitia autobusu na tieto účely."
       }],
       "image": {
         "src": "img/signs/o3.svg",

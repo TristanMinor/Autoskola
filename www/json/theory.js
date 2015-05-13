@@ -1,5 +1,5 @@
 var TheoryList = {
-  'theory': [{
+  "theory": [{
     "id": 1,
     "section": "Základné ustanovenia",
     "chapters": [{
@@ -1101,7 +1101,7 @@ var TheoryList = {
       }, {
         "id": 35,
         "headline": "Nadpis",
-        "paragraph": "Vodič nesmie zastaviť a stáť na mieste, kde by medzi vozidlom a najbližšou električkovou koľajnicou nezostal voľný jazdný pruh široký najmenej 3, 5 m."
+        "paragraph": "Vodič nesmie zastaviť a stáť na mieste, kde by medzi vozidlom a najbližšou električkovou koľajnicou nezostal voľný jazdný pruh široký najmenej 3,5 m."
       }, {
         "id": 36,
         "headline": "Nadpis",
@@ -1283,12 +1283,12 @@ var TheoryList = {
         "paragraph": "Motocykel bez postranného vozíka sa nesmie vliecť ani použiť ako vlečné vozidlo."
       }, {
         "id": 8,
-        "headline": "Nadpis",
+        "headline": "Vlečenie motorového vozidla",
         "image": "img/theory/027_towingLengths.png",
         "paragraph": "Pri vlečení motorového vozidla musí byť dĺžka spojnice motorového vozidla taká, aby vzdialenosť medzi vozidlami nebola väčšia ako 6 m. Ak sa použije lano, nesmie byť vzdialenosť medzi vozidlami menšia ako 2,5 m; ak sa použije tyč, nesmie byť menšia ako 1 m."
       }, {
         "id": 9,
-        "headline": "Nadpis",
+        "headline": "Rozmery",
         "image": "img/theory/027_towingRopeAndPole.png",
         "paragraph": "Spojnica musí byť zreteľne označená, a to tyč striedavo priečnymi červenými a bielymi pruhmi so šírkou 7,5 cm a lano červenou zástavkou alebo štítkom s rozmermi najmenej 20 cm × 20 cm."
       }]
@@ -1348,6 +1348,10 @@ var TheoryList = {
         "id": 4,
         "headline": "Limit osôb pri preprave",
         "paragraph": "V motorovom vozidle alebo jeho prípojnom vozidle, ktoré je určené na prepravu osôb, smú sa na miestach na to vyhradených prepravovať osoby len do prípustnej užitočnej hmotnosti vozidla, pritom počet prepravovaných osôb nesmie byť vyšší, ako je počet miest uvedených v osvedčení o evidencii časť I a časť II alebo v technickom osvedčení vozidla."
+      }, {
+        "id": 6,
+        "headline": "Preprava osôb v prípojnom vozidle",
+        "paragraph": "V inom prípojnom vozidle ako vo vozidle, ktoré je určené na prepravu osôb, je preprava osôb s výnimkou prípadov podľa § 49 zakázaná."
       }]
     }, {
       "id": 35,
@@ -1382,11 +1386,21 @@ var TheoryList = {
     }, {
       "id": 39,
       "name": "Cyklisti",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
+      "content": [{
+        "id": 1,
+        "headline": "Kde sa jazdí na bicykli",
+        "paragraph": "Na bicykli sa jazdí predovšetkým po cestičke pre cyklistov. Po cestičke pre cyklistov sa jazdí vpravo. "
+      }]
     }, {
       "id": 40,
       "name": "Jazda so záprahovým vozidlom a ručným vozíkom",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
+      "content": [{
+        "id": 1,
+        "headline": "Pohonič",
+        "paragraph": "Pohoničom záprahového vozidla nesmie byť osoba mladšia ako 15 rokov. Ak pohonič ide vedľa záprahového vozidla, je povinný ísť po pravej strane; pred opustením záprahového vozidla je povinný vozidlo zabrzdiť a na svahu podložiť kolesá."
+      }]
     }, {
       "id": 41,
       "name": "Jazda na zvieratách, vedenie a hnanie zvierat",
@@ -1432,7 +1446,12 @@ var TheoryList = {
     }, {
       "id": 45,
       "name": "Zvislé dopravné značky",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
+      "content": [{
+        "id": 2,
+        "headline": "Výstražné značky",
+        "paragraph": "Výstražné značky skupiny A upozorňujú na miesta, kde účastníkovi cestnej premávky môže hroziť nebezpečenstvo a kde musí dbať na zvýšenú opatrnosť."
+      }]
     }, {
       "id": 46,
       "name": "Vodorovné dopravné značky",
@@ -1614,7 +1633,6 @@ var TheoryList = {
       "name": "Zadržanie osvedčenia o evidencii časť I alebo časť II, evidenčného dokladu vydaného v cudzine, technického osvedčenia vozidla a tabuľky s evidenčným číslom",
       "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
     }]
-
   }, {
     "id": 9,
     "section": "Zodpovednosť za porušenie povinností",
@@ -1622,6 +1640,73 @@ var TheoryList = {
       "id": 59,
       "name": "Zodpovednosť za porušenie povinností",
       "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
+    }]
+  }, {
+    "id": 10,
+    "section": "Technické podmienky prevádzky vozidiel",
+    "chapters": [{
+      "id": 60,
+      "name": "Prevádzka vozidla",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
+      "content": [{
+        "id": 1,
+        "headline": "Prevádzka vozidla",
+        "paragraph": "Na vozidle nesmú byť, s výnimkou núdzového dojazdu, súčasne použité pneumatiky rôznych rozmerov a konštrukcií, pokiaľ pri schválení nebolo určené inak. Na rovnakej náprave musia byť použité iba zhodné pneumatiky. Konštrukciou pneumatiky sa rozumie konštrukcia diagonálna (BIAS-PLY), radiálna (PLY) a zmiešaná (BIAS BELTED). Zhodnou pneumatikou sa rozumie pneumatika rovnakého rozmeru, konštrukcie, kategórie použitia, názvu výrobcu alebo obchodnej značky, indexu nosnosti, kategórie rýchlosti a prierezu."
+      }, {
+        "id": 2,
+        "headline": "Pneumatiky",
+        "paragraph": "Pneumatiky nesmú mať na svojom vonkajšom obvode, napríklad v oblasti koruny, boku a pätky, trhliny ani poškodenia, ktoré obnažujú kordovú kostru alebo ju narúšajú. Hĺbka hlavných drážok v stredovej časti povrchu dezénu pneumatiky, ktorý pokrýva približne tri štvrtiny šírky povrchu dezénu jazdnej plochy pneumatiky, nesmie byť menej ako:",
+        "list": [{
+          "listitem": "1 mm na vozidlách kategórie L1e,"
+        }, {
+          "listitem": "1,6 mm na vozidlách ostatných kategórií a 3 mm v prípadoch, kedy osobitný predpis pre vozidlá kategórie M a N ustanovuje povinnosť použiť v cestnej premávke vozidlo vybavené zimnými pneumatikami <i>M+S</i>, <i>M.S.</i> alebo <i>M & S</i>."
+        }]
+      }]
+    }, {
+      "id": 61,
+      "name": "Technická nespôsobilosť vozidla",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
+      "content": [{
+        "id": 10,
+        "headline": "Náprava",
+        "paragraph": "Vozidlo sa považuje za technicky nespôsobilé na cestnú premávku, ak náprava alebo nápravy alebo ťažné oje prívesu sú deformované alebo vážne poškodené."
+      }, {
+        "id": 11,
+        "headline": "Výhľad z miesta vodiča",
+        "paragraph": "Vozidlo sa považuje za technicky nespôsobilé na cestnú premávku, ak je výhľad z miesta vodiča obmedzený alebo znemožnený."
+      }, {
+        "id": 16,
+        "headline": "Únik prevádzkových náplní z vozidla",
+        "paragraph": "Vozidlo sa považuje za technicky nespôsobilé na cestnú premávku, ak zjavne uniká palivo, olej, mazivo alebo iné prevádzkové náplne z vozidla."
+      }, {
+        "id": 19,
+        "headline": "Deformovaný podvozok, rám alebo karoséria",
+        "paragraph": "Vozidlo sa považuje za technicky nespôsobilé na cestnú premávku, ak je poškodený alebo deformovaný podvozok, rám alebo karoséria alebo na vozidle boli vykonané nepovolené úpravy, alebo bol zabudovaný neschválený komponent alebo samostatná technická jednotka."
+      }, {
+        "id": 20,
+        "headline": "Výfukový systém",
+        "paragraph": "Vozidlo sa považuje za technicky nespôsobilé na cestnú premávku, najmä ak niektorá časť výfukového systému je netesná, takže výfukové plyny vnikajú do priestoru pre cestujúcich, vodiča alebo nákladu alebo sú zdrojom nadmerného zvuku."
+      }]
+    },{
+      "id": 62,
+      "name": "Povinná výbava vozidla",
+      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
+      "content": [{
+        "id": 1,
+        "headline": "Povinná výbava",
+        "paragraph": "Povinnou výbavou motorového vozidla kategórie M, N, T, C a PS je:",
+        "list": [{
+          "listitem": "homologizovaný prenosný výstražný trojuholník,"
+        }, {
+          "listitem": "bezpečnostný reflexný odev napríklad vesta, overal, nohavice, bunda alebo pláštenka; bezpečnostný reflexný odev sa umiestňuje v dosahu zo sedadla vodiča vozidla,"
+        }, {
+          "listitem": "náhradné koleso s diskom a s náhradnou pneumatikou predpísaného druhu a rozmeru s takým upevnením držiaka, ktoré zabezpečuje, že sila pri vyberaní kolesa z držiaka alebo pri vkladaní kolesa do držiaka nepresiahne 490 N; jazdná súprava zložená z ťahača a prípojného vozidla môže mať pri rovnakých rozmeroch pneumatík a pri rovnakom vyhotovení kolies jedno spoločné náhradné koleso; to sa nevzťahuje na pneumatiky pre núdzový dojazd, ak pri schválení podľa osobitného predpisu nebolo určené inak; náhradné koleso musí byť v držiaku počas prevádzky v cestnej premávke riadne pripevnené; spolu s náhradným kolesom s diskom a s náhradnou pneumatikou povinnou výbavou musí byť aj kľúč na matice alebo na skrutky kolies a príručný zdvihák s nosnosťou rovnajúcou sa aspoň zaťaženiu najviac zaťaženej nápravy vozidla alebo rovnajúcou sa hmotnosti zdvíhanej časti vozidla z najväčšej prípustnej celkovej hmotnosti vozidla pri zdvíhaní tejto časti spôsobom určeným výrobcom na použitie zdviháka; ustanovenie tohto písmena platí iba pre vozidlá kategórie M a N,"
+        }, {
+          "listitem": "lekárnička podľa osobitného predpisu; u vozidla v medzinárodnej premávke lekárnička musí zodpovedať normám platným v štáte evidencie vozidla pre motorové vozidlá; ustanovenie tohto písmena platí aj pre vozidlá kategórie L3e až L5e a L7e,"
+        }, {
+          "listitem": "protisklzové reťaze svojimi rozmermi určené aspoň pre jednu z hnacích náprav v čase od 15. novembra do 31. marca; ustanovenie tohto písmena platí iba pre vozidlá kategórie N3."
+        }]
+      }]
     }]
   }]
 }
