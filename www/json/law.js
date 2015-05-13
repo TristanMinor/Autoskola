@@ -404,6 +404,11 @@ var LawList = {
       "correct": true
     }],
     "explanation": [{
+      "chapter": 21,
+      "content": 18
+    }, {
+      "chapter": 21,
+      "content": 19
     }]
   }, {
     "id": 22,
@@ -421,6 +426,8 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 13,
+      "content": 17
     }]
   }, {
     "id": 23,
@@ -438,6 +445,8 @@ var LawList = {
       "correct": true
     }],
     "explanation": [{
+      "chapter": 34,
+      "content": 4
     }]
   }, {
     "id": 24,
@@ -455,6 +464,8 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 49,
+      "content": 17
     }]
   }, {
     "id": 25,
@@ -472,6 +483,8 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 1,
+      "content": 7
     }]
   }, {
     "id": 26,
@@ -489,6 +502,8 @@ var LawList = {
       "correct": true
     }],
     "explanation": [{
+      "chapter": 1,
+      "content": 23
     }]
   }, {
     "id": 27,
@@ -506,6 +521,8 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 8,
+      "content": 1
     }]
   }, {
     "id": 28,
@@ -523,6 +540,8 @@ var LawList = {
       "correct": true
     }],
     "explanation": [{
+      "chapter": 10,
+      "content": 3
     }]
   }, {
     "id": 29,
@@ -540,6 +559,8 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 11,
+      "content": 8
     }]
   }, {
     "id": 30,
@@ -557,6 +578,8 @@ var LawList = {
       "correct": true
     }],
     "explanation": [{
+      "chapter": 21,
+      "content": 11
     }]
   }, {
     "id": 31,
@@ -574,6 +597,8 @@ var LawList = {
       "correct": true
     }],
     "explanation": [{
+      "chapter": 23,
+      "content": 8
     }]
   }, {
     "id": 32,
@@ -591,6 +616,8 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 26,
+      "content": 3
     }]
   }, {
     "id": 33,
@@ -608,6 +635,8 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 21,
+      "content": 37
     }]
   }, {
     "id": 34,
@@ -616,15 +645,17 @@ var LawList = {
     "question": "Náklad musí byť na vozidle riadne umiestnený, rozložený a upevnený, aby",
     "answers": [{
       "text": "neohrozoval bezpečnosť a plynulosť cestnej premávky, neznečisťoval ani nepoškodzoval cestu ani jej okolie, nespôsoboval nadmerný hluk a neznečisťoval ovzdušie,",
-      "correct": false
+      "correct": true
     }, {
       "text": "neohrozoval bezpečnosť cestnej premávky a nepoškodzoval cestu; spôsobovať nadmerný hluk nesmie len v nočnej dobe,",
-      "correct": true
+      "correct": false
     }, {
       "text": "neobmedzoval plynulosť cestnej premávky; ak by pritom poškodzoval cestu alebo spôsoboval nadmerný hluk, môže vozidlo ísť rýchlosťou najviac 40 km/h.",
       "correct": false
     }],
     "explanation": [{
+      "chapter": 37,
+      "content": 2
     }]
   }, {
     "id": 35,
@@ -642,6 +673,8 @@ var LawList = {
       "correct": true
     }],
     "explanation": [{
+      "chapter": 22,
+      "content": 1
     }]
   }, {
     "id": 36,
@@ -659,6 +692,8 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 52,
+      "content": 10
     }]
   }, {
     "id": 37,
@@ -676,6 +711,8 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 1,
+      "content": 6
     }]
   }, {
     "id": 38,
@@ -693,6 +730,8 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 1,
+      "content": 19
     }]
   }, {
     "id": 39,
@@ -710,6 +749,11 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 3,
+      "content": 21
+    }, {
+      "chapter": 5,
+      "content": 6
     }]
   }, {
     "id": 40,
@@ -727,6 +771,8 @@ var LawList = {
       "correct": true
     }],
     "explanation": [{
+      "chapter": 4,
+      "content": 1
     }]
   }, {
     "id": 41,
@@ -744,6 +790,8 @@ var LawList = {
       "correct": true
     }],
     "explanation": [{
+      "chapter": 10,
+      "content": 12
     }]
   }, {
     "id": 42,
@@ -761,6 +809,8 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 12,
+      "content": 2
     }]
   }, {
     "id": 43,
@@ -778,6 +828,8 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 25,
+      "content": 3
     }]
   }, {
     "id": 44,
@@ -789,12 +841,14 @@ var LawList = {
       "correct": false
     }, {
       "text": "môže stáť, ak ide o státie, ktoré nepresiahne pätnásť minút,",
-      "correct": true
+      "correct": false
     }, {
       "text": "nesmie zastaviť a stáť.",
-      "correct": false
+      "correct": true
     }],
     "explanation": [{
+      "chapter": 21,
+      "content": 29
     }]
   }, {
     "id": 45,
@@ -812,6 +866,8 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 38,
+      "content": 2
     }]
   }, {
     "id": 46,
@@ -829,6 +885,8 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 49,
+      "content": 12
     }]
   }, {
     "id": 47,
@@ -846,6 +904,8 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 1,
+      "content": 10
     }]
   }, {
     "id": 48,
@@ -863,6 +923,8 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 1,
+      "content": 8
     }]
   }, {
     "id": 49,
@@ -880,6 +942,8 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 3,
+      "content": 3
     }]
   }, {
     "id": 50,
@@ -897,6 +961,8 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 10,
+      "content": 6
     }]
   }, {
     "id": 51,
@@ -914,6 +980,8 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 20,
+      "content": 10
     }]
   }, {
     "id": 52,
@@ -931,6 +999,8 @@ var LawList = {
       "correct": true
     }],
     "explanation": [{
+      "chapter": 21,
+      "content": 21
     }]
   }, {
     "id": 53,
@@ -948,6 +1018,8 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 23,
+      "content": 11
     }]
   }, {
     "id": 54,
@@ -965,6 +1037,8 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 28,
+      "content": 12
     }]
   }, {
     "id": 55,
@@ -982,6 +1056,8 @@ var LawList = {
       "correct": true
     }],
     "explanation": [{
+      "chapter": 12,
+      "content": 1
     }]
   }, {
     "id": 56,
@@ -999,6 +1075,8 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 54,
+      "content": 1
     }]
   }, {
     "id": 57,
@@ -1016,6 +1094,8 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 22,
+      "content": 1
     }]
   }, {
     "id": 58,
@@ -1033,6 +1113,8 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 43,
+      "content": 3
     }]
   }, {
     "id": 59,
@@ -1050,6 +1132,8 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 1,
+      "content": 12
     }]
   }, {
     "id": 60,
@@ -1067,6 +1151,8 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 1,
+      "content": 15
     }]
   }, {
     "id": 61,
@@ -1084,6 +1170,8 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 21,
+      "content": 14
     }]
   }, {
     "id": 62,
@@ -1101,6 +1189,8 @@ var LawList = {
       "correct": true
     }],
     "explanation": [{
+      "chapter": 21,
+      "content": 27
     }]
   }, {
     "id": 63,
@@ -1118,6 +1208,8 @@ var LawList = {
       "correct": true
     }],
     "explanation": [{
+      "chapter": 26,
+      "content": 5
     }]
   }, {
     "id": 64,
@@ -1135,6 +1227,8 @@ var LawList = {
       "correct": true
     }],
     "explanation": [{
+      "chapter": 27,
+      "content": 4
     }]
   }, {
     "id": 65,
@@ -1152,6 +1246,8 @@ var LawList = {
       "correct": true
     }],
     "explanation": [{
+      "chapter": 28,
+      "content": 4
     }]
   }, {
     "id": 66,
@@ -1159,7 +1255,7 @@ var LawList = {
     "points": 2,
     "question": "V motorovom vozidle sa smú na miestach na to vyhradených prepravovať osoby len do",
     "answers": [{
-      "text": "80 % prípustnej užitočnej hmotnosti vozidla,",
+      "text": "80% prípustnej užitočnej hmotnosti vozidla,",
       "correct": false
     }, {
       "text": "prípustnej užitočnej hmotnosti vozidla, pritom počet prepravovaných osôb nesmie byť vyšší, ako je počet povolených miest uvedených v osvedčení o evidencii,",
@@ -1169,6 +1265,8 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 34,
+      "content": 4
     }]
   }, {
     "id": 67,
@@ -1186,6 +1284,8 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 22,
+      "content": 4
     }]
   }, {
     "id": 68,
@@ -1203,6 +1303,8 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 43,
+      "content": 2
     }]
   }, {
     "id": 69,
@@ -1220,6 +1322,8 @@ var LawList = {
       "correct": false
     }],
     "explanation": [{
+      "chapter": 44,
+      "content": 5
     }]
   }, {
     "id": 70,
@@ -1237,6 +1341,8 @@ var LawList = {
       "correct": true
     }],
     "explanation": [{
+      "chapter": 24,
+      "content": 9
     }]
   }]
 };
