@@ -8008,7 +8008,9 @@ ul li {
   height: auto;
   color: #222;
   white-space: normal;
-  overflow: hidden; }
+  overflow: hidden;
+  text-decoration: none;
+  display: block; }
 
 .list-uneditable {
   margin-bottom: 72px; }

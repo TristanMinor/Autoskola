@@ -46,6 +46,8 @@
   color: $dark;
   white-space: normal;
   overflow: hidden;
+  text-decoration: none;
+  padding: 20px $padding-large 0px $padding-large;
 }
 
 .list-uneditable {
@@ -63,6 +65,7 @@
 
 .item-uneditable.item-complex {
   border: none;
+  padding: 0;
   .item-inner {
     height: auto;
     padding-bottom: 24px;
