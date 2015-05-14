@@ -66,12 +66,16 @@
             <img ng-if="localDataRewards[reward.id].unlocked" src="{{ reward.image }}" alt="">
             <img ng-if="!localDataRewards[reward.id].unlocked" src="img/rewards/unlocked.png" alt="">
             <div class="item-inner" ng-if="localDataRewards[reward.id].unlocked">
-              <h2>{{ reward.name }}</h2>
-              <p>{{ reward.description }}</p>
+              <div class="item-inside">
+                <h2>{{ reward.name }}</h2>
+                <p>{{ reward.description }}</p>
+              </div>
             </div>
             <div class="item-inner" ng-if="!localDataRewards[reward.id].unlocked">
-              <h2>Neznáma trofej</h2>
-              <p>{{ reward.description }}</p>
+              <div class="item-inside">
+                <h2>Neznáma trofej</h2>
+                <p>{{ reward.description }}</p>
+              </div>
             </div>
           </ion-item>
         </ion-list>

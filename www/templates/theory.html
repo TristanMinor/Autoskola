@@ -10,16 +10,18 @@
         <div class="item item-divider">
           {{ item.section }}
         </div>
-        <ion-item nav-direction="forward" href="#/tabs/theory/chapter/{{chapter.id}}" ng-repeat="chapter in item.chapters" class="item item-uneditable">
-          <div class="item-inner">
+        <ion-item ng-repeat="chapter in item.chapters" class="item item-uneditable">
+          <a href="#/tabs/theory/chapter/{{chapter.id}}" class="item-inner" nav-direction="forward">
             <div class="chapter-id">
               <h1 class="positive">{{ chapter.id }}.</h1>
             </div>
-            <h2>{{ chapter.name }}</h2>
-            <p>{{ chapter.description }}</p>
+            <div class="item-inside">
+              <h2>{{ chapter.name }}</h2>
+              <p>{{ chapter.description }}</p>
+            </div>
             <!-- <p>{{chapter.description}}</p> -->
             <!-- <div class="item-note">{{ chapter.minutes }} min</div> -->
-          </div>
+          </a>
         </ion-item>
       </div>
     </ion-list>

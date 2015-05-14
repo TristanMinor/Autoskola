@@ -134,7 +134,7 @@ ul {
   font-size: $font;
 }
 
-.item-content {
+.item-content, .item-inner {
     h1 {
       font-family: $serif-bold;
       margin-bottom: 0;
