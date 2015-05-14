@@ -2,6 +2,7 @@ angular.module('autoskola')
   .controller('QuestionsNoticeQuestionController', function($scope, $state, $ionicModal, NoticeService, TheoryService) {
 
     $scope.localData = {};
+    $scope.explainings = [];
 
     $scope.optionsModel = ["a","b","c"];
     $scope.localData = NoticeService.get().localData;
