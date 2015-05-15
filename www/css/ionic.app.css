@@ -8131,6 +8131,8 @@ ul li {
     padding-right: 0.8em; }
     .list.list-chapters .item-content .chapter-id h1 {
       text-align: center; }
+  .list.list-chapters .item-content p {
+    white-space: normal; }
 
 .item-inset {
   margin-left: 72px;
