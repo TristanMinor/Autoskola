@@ -7990,6 +7990,14 @@ ul li {
   height: 72px;
   line-height: 72px; }
 
+/* .list {
+  div:first-child {
+    .item-divider {
+      height: $padding-medium;
+      line-height: 1.1;
+    }
+  }
+} */
 .item-complex {
   border: none;
   border-bottom: 1px solid #DDD;
@@ -8083,8 +8091,8 @@ ul li {
   font-size: 24px; }
 
 .item-options .button {
-  width: 102px;
-  padding: 0; }
+  width: auto;
+  min-width: 102px; }
   .item-options .button .icon {
     margin-right: 26px; }
 

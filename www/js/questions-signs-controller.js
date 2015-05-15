@@ -31,4 +31,20 @@ angular.module('autoskola')
       return has;
     }
 
+    $scope.hasAllHiddenQuestions = function(list) {
+      var hiddenQuestions = 0;
+      var has = false;
+      list.forEach(function(question) {
+        if ($scope.localData[question.id]) {
+          if ($scope.localData[question.id].hidden) {
+            hiddenQuestions++;
+          };
+        }
+      });
+      if (list.length == hiddenQuestions) {
+        has = true;
+      }
+      return has;
+    }
+
   });
