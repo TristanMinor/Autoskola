@@ -23,38 +23,15 @@
 
 .item-complex  {
   border: none;
-  border-bottom: 1px solid darken($line, 3);
-  border-left: 1px solid lighten($line, 2);
-  border-right: 1px solid lighten($line, 2);
+  border-bottom: 1px solid $line;
   margin-bottom: 1px;
   /*  box-shadow: 0px 1px 1.5px #aaa; */
   .item-content {
     white-space: nowrap;
-    padding: 0;
-    // padding: 18px 30px 20px 30px;
+    padding: 18px 30px 20px 30px;
     p {
       font-size: $font-small;
     }
-    .item-inner {
-      height: auto;
-      display: block;
-      // height: 60px;
-      color: $dark;
-      white-space: normal;
-      overflow: hidden;
-      text-decoration: none;
-      padding: 20px $padding-medium 20px $padding-medium;
-    }
-    .item-inner.activated {
-      background-color: lighten($stable,1);
-    }
-  }
-}
-
-.item-complex.item-icon-right .item-content {
-  padding-right: 0;
-  .item-inner {
-    padding-right: 54px;
   }
 }
 
@@ -63,7 +40,15 @@
     color: darken($link-secondary, 15);
   }
 }
-
+.item-inner {
+  height: auto;
+  // height: 60px;
+  color: $dark;
+  white-space: normal;
+  overflow: hidden;
+  text-decoration: none;
+  padding: 20px $padding-large 0px $padding-large;
+}
 
 .list-uneditable {
   margin-bottom: $padding-large;
@@ -72,25 +57,19 @@
     padding-left: $padding-large;
     padding-right: $padding-large;
   }
+  .item-content {
+    background-color: $light;
+    padding: 20px $padding-large 0px $padding-large;
+  }
 }
 
-.item.item-uneditable {
+.item-uneditable.item-complex {
   border: none;
   padding: 0;
   .item-inner {
-    display: block;
     height: auto;
     padding-bottom: 24px;
-    text-decoration: none;
-    padding: 20px $padding-large 1px $padding-large;
-    .item-inside {
-      display: block;
-      padding-bottom: 20px;
-      border-bottom: 1px solid $line;
-    }
-  }
-  .item-inner.activated {
-    background-color: $stable;
+    border-bottom: 1px solid $line;
   }
   h2 {
     font-size: $font;
@@ -99,19 +78,13 @@
 
 .item-uneditable:last-child {
   .item-inner {
-    .item-inside {
-      border: none;
-    }
+    border: none;
   }
 }
 
 .item-uneditable.item-thumbnail-left {
   .item-content {
     padding: 22px $padding-large 0px 170px;
-    .item-inner {
-      padding: 0;
-      min-height: 0;
-    }
     img {
       max-width: $thumbnail-medium;
       width: auto;
@@ -140,20 +113,7 @@
 
 .item-thumbnail-left {
   .item-content {
-    padding: 0;
-    .item-inner {
-      padding-left: 106px;
-      min-height: 100px;
-      img {
-        position: absolute;
-        top: 10px;
-        left: 10px;
-        max-width: 80px;
-        max-height: 80px;
-        width: 100%;
-        height: 100%;
-      }
-    }
+    padding-left: 106px;
   }
 }
 
@@ -163,12 +123,10 @@
 
 .item-complex.item-thumbnail-horizontal {
   .item-content {
+    padding-left: 150px;
     .item-image {
       width: auto;
       max-width: none;
-    }
-    .item-inner {
-      padding-left: 150px;
     }
   }
 }
@@ -181,7 +139,6 @@
     padding-right: 0;
     .item-inner {
       border: none;
-      padding: $padding-small 0;
     }
   }
 }
@@ -241,12 +198,12 @@
 }
 
 .list.list-chapters {
-  .item-inner {
+  .item-content {
     padding-left: 170px;
     .chapter-id {
       width: 80px;
       position: absolute;
-      top: 1.8em;
+      top: 1.5em;
       left: $padding-large;
       padding-right: 0.8em;
       h1 {
@@ -267,7 +224,7 @@
 
 .test-score {
   position: absolute;
-  top: 3.9em;
+  top: 3.7em;
   text-align: center;
   display: block;
   width: 100%;

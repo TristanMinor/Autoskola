@@ -46,8 +46,8 @@
       <!-- Notice tab -->
       <div ng-switch-when="tab-notice" ng-controller="QuestionsNoticeController">
         <ion-list type="list-inset">
-          <ion-item ng-if="!localData[item.id].hidden" ng-repeat="item in data"  class="item item-icon-right item-hideable">
-            <a href="#/questions/notice/{{item.id}}" nav-direction="forward" class="item-inner">
+          <ion-item ng-if="!localData[item.id].hidden" ng-repeat="item in data" href="#/questions/notice/{{item.id}}" class="item item-icon-right item-hideable">
+            <div class="item-inner">
               {{ item.id }}. {{ item.question }}
               <i ng-if="localData[item.id].pinned" class="icon icon-pin positive"></i>
               <ion-option-button ng-click="pinQuestion(item)" class="button button-positive">
@@ -56,7 +56,7 @@
               <ion-option-button ng-click="hideQuestion(item)" class="button-balanced">
                 <i class="icon icon-check"></i>
               </ion-option-button>
-            </a>
+            </div>
           </ion-item>
         </ion-list>
         <ion-list type="list-inset">
@@ -74,9 +74,9 @@
             </div>
 
             <div>
-            <ion-item ng-if="!localData[question.id].hidden" ng-repeat="question in item.questions"  class="item item-thumbnail-left item-icon-right item-hideable">
-              <a href="#/questions/sign/{{question.id}}" nav-direction="forward" class="item-inner">
-                <img src="{{ question.image.src }}" alt="">
+            <ion-item ng-if="!localData[question.id].hidden" ng-repeat="question in item.questions" href="#/questions/sign/{{question.id}}" class="item item-thumbnail-left item-icon-right item-hideable">
+              <img src="{{ question.image.src }}" alt="">
+              <div class="item-inner">
                 {{ question.id }}. {{ question.name }}
                 <i ng-if="localData[question.id].pinned" class="icon icon-pin positive"></i>
                 <ion-option-button ng-click="pinQuestion(question)" class="button button-positive">
@@ -85,7 +85,7 @@
                 <ion-option-button ng-click="hideQuestion(question)" class="button-balanced">
                   <i class="icon icon-check"></i>
                 </ion-option-button>
-              </a>
+              </div>
             </ion-item>
           </div>
 
@@ -107,9 +107,9 @@
 
             <div ng-repeat="bundle in item.bundles" class="bundle-situations">
 
-              <ion-item ng-if="!localData[question.id].hidden" ng-repeat="question in bundle.questions" class="item item-thumbnail-left item-thumbnail-horizontal item-icon-right item-hideable">                
-                <a href="#/questions/situation/{{question.id}}" nav-direction="forward" class="item-inner">
-                  <img src="{{ bundle.image.src }}" alt="" class="item-image">
+              <ion-item ng-if="!localData[question.id].hidden" ng-repeat="question in bundle.questions" href="#/questions/situation/{{question.id}}" class="item item-thumbnail-left item-thumbnail-horizontal item-icon-right item-hideable">
+                <img src="{{ bundle.image.src }}" alt="" class="item-image">
+                <div class="item-inner">
                   {{ question.id}}. {{ question.question }}
                   <i ng-if="localData[question.id].pinned" class="icon icon-pin positive"></i>
                   <ion-option-button ng-click="pinQuestion(question)" class="button button-positive">
@@ -118,7 +118,7 @@
                   <ion-option-button ng-click="hideQuestion(question)" class="button-balanced">
                     <i class="icon icon-check"></i>
                   </ion-option-button>
-                </a>
+                </div>
               </ion-item>
 
             </div>
