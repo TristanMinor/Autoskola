@@ -25,8 +25,9 @@
             collection-item-height="99"
             class="item item-icon-right item-hideable"
             ng-class="{'pinned': localData[item.id].pinned}"
+            href="#/questions/law/{{item.id}}" nav-direction="forward"
             >
-            <a href="#/questions/law/{{item.id}}" nav-direction="forward" class="item-inner">
+            <div class="item-inner">
               {{ item.id }}. {{ item.question }}
               <i ng-if="localData[item.id].pinned" class="icon icon-pin positive"></i>
               <ion-option-button ng-click="pinQuestion(item)" class="button button-positive">
@@ -35,7 +36,7 @@
               <ion-option-button ng-click="hideQuestion(item)" class="button-balanced">
                 <i class="icon icon-check"></i>
               </ion-option-button>
-            </a>
+            </div>
           </ion-item>
         </ion-list>
         <ion-list type="list-inset">

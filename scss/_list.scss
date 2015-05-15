@@ -24,6 +24,9 @@
 .item-complex  {
   border: none;
   border-bottom: 1px solid $line;
+  border-bottom: 1px solid darken($line, 3);
+  border-left: 1px solid lighten($line, 2);
+  border-right: 1px solid lighten($line, 2);
   margin-bottom: 1px;
   /*  box-shadow: 0px 1px 1.5px #aaa; */
   .item-content {
@@ -46,8 +49,6 @@
   color: $dark;
   white-space: normal;
   overflow: hidden;
-  text-decoration: none;
-  padding: 20px $padding-large 0px $padding-large;
 }
 
 .list-uneditable {
