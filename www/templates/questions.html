@@ -105,7 +105,7 @@
               {{ item.section }}
             </div>
 
-            <div ng-repeat="bundle in item.bundles" ng-if="!hasHiddenBundle(bundle.questions)" class="bundle-situations">
+            <div ng-repeat="bundle in item.bundles" class="bundle-situations">
 
               <ion-item ng-if="!localData[question.id].hidden" ng-repeat="question in bundle.questions" href="#/questions/situation/{{question.id}}" class="item item-thumbnail-left item-thumbnail-horizontal item-icon-right item-hideable">
                 <img src="{{ bundle.image.src }}" alt="" class="item-image">

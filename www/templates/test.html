@@ -15,7 +15,7 @@
 
     <!--{{ answers }}-->
 
-    <ion-slide-box active-slide="view.question" on-slide-changed="slideHasChanged($index)">
+    <ion-slide-box active-slide="view.question" on-slide-changed="slideHasChanged($index)" show-pager="false">
       <ion-slide ng-repeat="question in questions" class="test-slide">
         <div ng-if="question.image.src" class="question-image" ng-class="{'image-sign': questions.type = 'sign', 'image-situation': questions.type = 'situation'}">
           <img src="{{ question.image.src}}" alt="">

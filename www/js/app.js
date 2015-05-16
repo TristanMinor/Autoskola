@@ -3,13 +3,12 @@
 // angular.module is a global place for creating, registering and retrieving Angular modules
 // 'autoskola' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
-angular.module('autoskola', ['ionic'])
-
-.config(function($stateProvider, $urlRouterProvider) {
+var app = angular.module('autoskola', ['ionic']);
+app.config(function($stateProvider, $urlRouterProvider) {
 
   $stateProvider
 
-  .state('tabs', {
+    .state('tabs', {
     url: '/tabs',
     abstract: true,
     templateUrl: 'templates/tabs.html'
