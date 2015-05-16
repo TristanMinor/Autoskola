@@ -4,6 +4,7 @@ angular.module('autoskola')
     $scope.tabName = 'tab-law';
     $scope.selectedHiddenQuestionsType = {};
     $scope.selectedBasicTestType = {};
+    $scope.basicTest = true;
     $scope.basicTestType = {};
 
     $scope.setTab = function(tab) {
@@ -43,6 +44,9 @@ angular.module('autoskola')
     }
 
     $scope.openTestModal = function() {
+      $scope.basicTestType.id = 36;
+      $scope.basicTestType.name = "Zákon";
+      $scope.selectedBasicTestType = $scope.basicTestType;
       $scope.modal.show();
     };
 

@@ -3,16 +3,16 @@
   // Questions header
   <ion-nav-bar class="bar bar-stable bar-header disable-user-behavior bar-large">
     <ion-nav-buttons side="primary">
-      <a href="#/tabs/questions" nav-direction="back">
+      <a href="#/tabs/questions">
         <button class="button button-icon icon icon-back"></button>
       </a>
     </ion-nav-buttons>
-    <div class="title title-nav">Hej</div>
-    <ion-nav-buttons side="secondary">
-      <a href="#" nav-direction="back">
-        <button class="button button-clear button-positive" ng-click="unhideAllQuestions(params.hiddenquestionstype)">Vrátiť všetky</button>
+    <div class="title title-nav"></div>
+    <!-- <ion-nav-buttons side="secondary">
+      <a href="#">
+        <button class="button button-clear" ng-click="unhideAllQuestions(params.hiddenquestionstype)">Vrátiť všetky</button>
       </a>
-    </ion-nav-buttons>
+    </ion-nav-buttons> -->
   </ion-nav-bar>
 
   <!-- Questions content -->
@@ -21,10 +21,10 @@
     <!-- Law tab -->
     <div ng-if="params.hiddenquestionstype == 'law'" ng-controller="QuestionsLawController">
       <ion-list type="list-inset">
-        <ion-item ng-if="localData[item.id].hidden" href="#/questions/law/{{item.id}}" ng-repeat="item in data" collection-item-height="99" class="item item-icon-right item-hideable" ng-class="{'pinned': localData[item.id].pinned}">
+        <ion-item ng-if="localData[item.id].hidden"  ng-repeat="item in data" collection-item-height="99" class="item item-icon-right item-hideable item-hidden" ng-class="{'pinned': localData[item.id].pinned}">
           <div class="item-inner">
             {{ item.id }}. {{ item.question }}
-            <i ng-if="localData[item.id].pinned" class="icon icon-pin positive"></i>
+            <!-- <i ng-if="localData[item.id].pinned" class="icon icon-pin positive"></i> -->
             <ion-option-button ng-click="unhideQuestion(item)" class="button-stable">
               Vrátiť späť
             </ion-option-button>
@@ -36,10 +36,10 @@
     <!-- Notice tab -->
     <div ng-if="params.hiddenquestionstype == 'notice'" ng-controller="QuestionsNoticeController">
       <ion-list type="list-inset">
-        <ion-item ng-if="localData[item.id].hidden" ng-repeat="item in data" href="#/questions/notice/{{item.id}}" class="item item-icon-right item-hideable">
+        <ion-item ng-if="localData[item.id].hidden" ng-repeat="item in data"  class="item item-icon-right item-hideable item-hidden">
           <div class="item-inner">
             {{ item.id }}. {{ item.question }}
-            <i ng-if="localData[item.id].pinned" class="icon icon-pin positive"></i>
+            <!-- <i ng-if="localData[item.id].pinned" class="icon icon-pin positive"></i> -->
             <ion-option-button ng-click="unhideQuestion(item)" class="button-stable">
               Vrátiť späť
             </ion-option-button>
@@ -58,11 +58,11 @@
           </div>
 
           <div>
-            <ion-item ng-if="localData[question.id].hidden" ng-repeat="question in item.questions" href="#/questions/sign/{{question.id}}" class="item item-thumbnail-left item-icon-right item-hideable">
+            <ion-item ng-if="localData[question.id].hidden" ng-repeat="question in item.questions" class="item item-thumbnail-left item-icon-right item-hideable item-hidden">
               <img src="{{ question.image.src }}" alt="">
               <div class="item-inner">
                 {{ question.id }}. {{ question.name }}
-                <i ng-if="localData[question.id].pinned" class="icon icon-pin positive"></i>
+                <!-- <i ng-if="localData[question.id].pinned" class="icon icon-pin positive"></i> -->
                 <ion-option-button ng-click="unhideQuestion(question)" class="button-stable">
                   Vrátiť späť
                 </ion-option-button>
@@ -85,11 +85,11 @@
 
           <div ng-repeat="bundle in item.bundles" ng-if="hasHiddenBundle(bundle.questions)" class="bundle-situations">
 
-            <ion-item ng-if="localData[question.id].hidden" ng-repeat="question in bundle.questions" href="#/questions/situation/{{question.id}}" class="item item-thumbnail-left item-thumbnail-horizontal item-icon-right item-hideable">
+            <ion-item ng-if="localData[question.id].hidden" ng-repeat="question in bundle.questions" class="item item-thumbnail-left item-thumbnail-horizontal item-icon-right item-hideable item-hidden">
               <img src="{{ bundle.image.src }}" alt="" class="item-image">
               <div class="item-inner">
                 {{ question.id}}. {{ question.question }}
-                <i ng-if="localData[question.id].pinned" class="icon icon-pin positive"></i>
+                <!-- <i ng-if="localData[question.id].pinned" class="icon icon-pin positive"></i> -->
                 <ion-option-button ng-click="unhideQuestion(question)" class="button-stable">
                   Vrátiť späť
                 </ion-option-button>

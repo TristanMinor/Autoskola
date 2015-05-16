@@ -19,4 +19,32 @@ angular.module('autoskola')
       SignsService.unhideQuestion(question);
     }
 
+    $scope.hasHiddenQuestion = function(list) {
+      var has = false;
+      list.forEach(function(question) {
+        if ($scope.localData[question.id]) {
+          if ($scope.localData[question.id].hidden) {
+            has = true;
+          };
+        }
+      });
+      return has;
+    }
+
+    $scope.hasAllHiddenQuestions = function(list) {
+      var hiddenQuestions = 0;
+      var has = false;
+      list.forEach(function(question) {
+        if ($scope.localData[question.id]) {
+          if ($scope.localData[question.id].hidden) {
+            hiddenQuestions++;
+          };
+        }
+      });
+      if (list.length == hiddenQuestions) {
+        has = true;
+      }
+      return has;
+    }
+
   });

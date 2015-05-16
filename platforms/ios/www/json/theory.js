@@ -6,7 +6,7 @@ var TheoryList = {
       "id": 1,
       "minutes": 8,
       "name": "Základné pojmy",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
+      "description": "Definícia základných pojmov, ako napr. autobus, alebo križovatka.",
       "content": [{
         "id": 1,
         "headline": "Cestná premávka",
@@ -47,7 +47,6 @@ var TheoryList = {
       }, {
         "id": 10,
         "headline": "Krajnica",
-        "image": "img/theory/img.png",
         "paragraph": "Časť cesty od kraja vozovky po kraj cesty."
       }, {
         "id": 11,
@@ -106,7 +105,6 @@ var TheoryList = {
       }, {
         "id": 24,
         "headline": "Vozovka",
-        "image": "img/theory/img.png",
         "paragraph": "Spevnená časť cesty určená predovšetkým na premávku motorových vozidiel."
       }, {
         "id": 25,
@@ -115,7 +113,6 @@ var TheoryList = {
       }, {
         "id": 26,
         "headline": "Zastavenie vozidla",
-        "image": "img/theory/img.png",
         "paragraph": "Prerušenie jazdy z dôvodu nezávislého od vôle vodiča (napríklad pred červeným svetlom na križovatke)."
       }, {
         "id": 27,
@@ -134,7 +131,7 @@ var TheoryList = {
       "id": 2,
       "minutes": 12,
       "name": "Všeobecné povinnosti účastníka cestnej premávky",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
+      "description": "Základné povinnosti, platiace pre všetkých, najmä dodržiavanie pravidiel a ohľaduplné správanie vodičov voči ostatným",
       "content": [{
         "id": 1,
         "headline": "Dodržiavanie pravidiel cestnej premávky",
@@ -160,7 +157,7 @@ var TheoryList = {
       "id": 3,
       "minutes": 34,
       "name": "Povinnosti vodiča",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
+      "description": "Povinnosti vodiča, súvisiace najmä s bezpečnosťou v cestnej premávke",
       "content": [{
         "id": 1,
         "headline": "Vozidlo vhodné do prevádzky",
@@ -198,12 +195,10 @@ var TheoryList = {
       }, {
         "id": 6,
         "headline": "Chodec na priechode pre chodcov",
-        "image": "img/theory/img.png",
         "paragraph": "Vodič je povinný dať prednosť chodcovi, ktorý vstúpil na vozovku a prechádza cez priechod pre chodcov, pritom ho nesmie ohroziť; to neplatí pre vodiča električky."
       }, {
         "id": 7,
         "headline": "Spôsobilé osoby",
-        "image": "img/theory/img.png",
         "paragraph": "Vodič je povinný pribrať potrebný počet spôsobilých osôb, ak to vyžaduje bezpečnosť cestnej premávky, a na ten účel ich náležite poučiť."
       }, {
         "id": 8,
@@ -233,12 +228,10 @@ var TheoryList = {
       }, {
         "id": 14,
         "headline": "Chodci prechádzajúci cez cestu",
-        "image": "img/theory/img.png",
         "paragraph": "Vodič nesmie ohroziť chodcov prechádzajúcich cez cestu, na ktorú vodič odbočuje, pri odbočovaní na miesto mimo cesty, pri vchádzaní na cestu a pri otáčaní alebo pri cúvaní."
       }, {
         "id": 15,
         "headline": "Cyklisti prechádzajúci cez cestu",
-        "image": "img/theory/img.png",
         "paragraph": "Vodič nesmie ohroziť cyklistov prechádzajúcich cez priechod pre cyklistov."
       }, {
         "id": 16,
@@ -269,7 +262,6 @@ var TheoryList = {
       }, {
         "id": 22,
         "headline": "Zastavenie vozidla na priechode pre chodcov",
-        "image": "img/theory/img.png",
         "paragraph": "Vodič nesmie zastaviť vozidlo na priechode pre chodcov alebo na priechode pre cyklistov, ak to nevyžaduje bezpečnosť cestnej premávky."
       }, {
         "id": 23,
@@ -297,7 +289,6 @@ var TheoryList = {
       }, {
         "id": 24,
         "headline": "Pred priechodom pre chodcov",
-        "image": "img/theory/img.png",
         "paragraph": "Ak vodič zníži rýchlosť jazdy alebo ak zastaví vozidlo pred priechodom pre chodcov alebo pred priechodom pre cyklistov, aby umožnil prejsť cez cestu chodcom alebo cyklistom, vodiči ostatných vozidiel idúcich rovnakým smerom sú takisto povinní znížiť rýchlosť jazdy alebo zastaviť vozidlo; to neplatí pre vodiča električky."
       }, {
         "id": 25,
@@ -308,7 +299,7 @@ var TheoryList = {
       "id": 4,
       "minutes": 8,
       "name": "Povinnosti niektorých vodičov a spolujazdcov",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
+      "description": "Zopár špecifických povinností, týkajúcich sa poväčšine motocyklistov",
       "content": [{
         "id": 1,
         "headline": "Ochrana zraku a držanie riadidiel",
@@ -338,7 +329,7 @@ var TheoryList = {
       "id": 5,
       "minutes": 8,
       "name": "Povinnosti prevádzkovateľa vozidla",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
+      "description": "Povinnosti súvisiace so zverovaním vozidiel iným osobám",
       "content": [{
         "id": 1,
         "headline": "Zverenie vedenia vozidla inej osobe",
@@ -358,7 +349,6 @@ var TheoryList = {
       }, {
         "id": 5,
         "headline": "Pribranie spôsobilých osôb",
-        "image": "img/theory/img.png",
         "paragraph": "Prevádzkovateľ vozidla je povinný zabezpečiť, aby sa na jazdu pribral potrebný počet spôsobilých a náležite poučených osôb, ak je mu vopred známe, že to bude vyžadovať bezpečnosť cestnej premávky."
       }, {
         "id": 6,
@@ -377,7 +367,7 @@ var TheoryList = {
       "id": 6,
       "minutes": 8,
       "name": "Povinnosti držiteľa vozidla",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
+      "description": "Povinnosti držiteľa vozidla, vyplyvajúce najmä zo zákazov",
       "content": [{
         "id": 1,
         "headline": "Zákaz predchádzania",
@@ -420,7 +410,7 @@ var TheoryList = {
       "id": 7,
       "minutes": 8,
       "name": "Povinnosti inštruktora autoškoly",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
+      "description": "Povinnosti inštruktora autoškoly, zhodné s povinnosťami vodiča motorového vozidla",
       "content": [{
         "id": 1,
         "headline": "Povinnosti inštruktora autoškoly",
@@ -430,7 +420,7 @@ var TheoryList = {
       "id": 8,
       "minutes": 8,
       "name": "Bezpečnostné pásy",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
+      "description": "Kto je povinný používať bezpečnostný pás a kto nie",
       "content": [{
         "id": 1,
         "headline": "Bezpečnostný pás",
@@ -455,196 +445,163 @@ var TheoryList = {
       "id": 9,
       "minutes": 8,
       "name": "Spôsob jazdy",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
+      "description": "Základné pravidlá jazdy",
       "content": [{
         "id": 1,
         "headline": "Jazda vpravo pri pravom okraji",
-        "image": "img/theory/img.png",
         "paragraph": "Vodič je povinný na vozovke alebo v jazdnom pruhu jazdiť vpravo pri pravom okraji vozovky alebo jazdného pruhu. To neplatí pri obchádzaní, predchádzaní, otáčaní alebo odbočovaní."
       }, {
         "id": 2,
         "headline": "Vjazd na krajnicu",
-        "image": "img/theory/img.png",
         "paragraph": "Na krajnicu smie vodič motorového vozidla vojsť len pri zastavení a státí alebo pri obchádzaní a vyhýbaní sa prekážke cestnej premávky; pritom je povinný dbať na zvýšenú opatrnosť."
       }, {
         "id": 3,
         "headline": "Vodič malého motocykla alebo bicykla",
-        "image": "img/theory/img.png",
         "paragraph": "Vodič malého motocykla alebo bicykla smie jazdiť po pravej krajnici, len ak tým neohrozí a neobmedzí pohyb chodcov."
       }]
     }, {
       "id": 10,
       "minutes": 8,
       "name": "Jazda v jazdných pruhoch",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
+      "description": "Pravidlá jazdy vo viacerých jazdných pruhoch, pripájacích aj priebežných, vyznačených alebo nevyznačených",
       "content": [{
         "id": 1,
         "headline": "Mimo obce s dvoma a viacerými pruhmi",
-        "image": "img/theory/img.png",
         "paragraph": "Mimo obce na ceste s dvoma alebo s viacerými jazdnými pruhmi vyznačenými na vozovke v jednom smere jazdy sa jazdí v pravom jazdnom pruhu. V ostatných jazdných pruhoch sa smie jazdiť, ak je to potrebné na obchádzanie, predchádzanie, otáčanie alebo na odbočovanie."
       }, {
         "id": 2,
         "headline": "Mimo obce s troma a viacerými pruhmi",
-        "image": "img/theory/img.png",
         "paragraph": "Mimo obce na ceste s troma alebo s viacerými jazdnými pruhmi vyznačenými na vozovke v jednom smere jazdy smie vodič nákladného automobilu s najväčšou prípustnou celkovou hmotnosťou presahujúcou 3 500 kg, vodič jazdnej súpravy, ktorej celková dĺžka presahuje 7 m, vodič zvláštneho motorového vozidla a vodič motocykla s najväčšou konštrukčnou rýchlosťou do 45 km/h použiť na jazdu výhradne dva jazdné pruhy najbližšie k pravému okraju vozovky; v ostatných jazdných pruhoch smie jazdiť, ak je to potrebné na obchádzanie, otáčanie alebo na odbočovanie."
       }, {
         "id": 3,
         "headline": "V obci s dvoma a viacerými pruhmi",
-        "image": "img/theory/img.png",
         "paragraph": "V obci na ceste s dvoma alebo s viacerými jazdnými pruhmi vyznačenými na vozovke v jednom smere jazdy smie vodič vozidla použiť na jazdu ktorýkoľvek jazdný pruh. To neplatí pre vodiča uvedeného v odseku 2, na ktorého sa vzťahujú pri jazde v obci odseky 1 a 2."
       }, {
         "id": 4,
         "headline": "Súbežná jazda",
-        "image": "img/theory/img.png",
         "paragraph": "Ak je na ceste s dvoma a alebo s viacerými jazdnými pruhmi v jednom smere jazdy taká hustá premávka, že sa utvoria súvislé prúdy vozidiel, v ktorých vodič motorového vozidla môže jazdiť len takou rýchlosťou, ktorá závisí od rýchlosti vozidiel idúcich pred ním, vozidlá môžu ísť súbežne vedľa seba (ďalej len <i>súbežná jazda</i>). Pri súbežnej jazde sa nepovažuje za predchádzanie, ak vozidlá idú v jednom z jazdných pruhov rýchlejšie ako vozidlá v inom jazdnom pruhu."
       }, {
         "id": 5,
         "headline": "Ľavý jazdný pruh v obci",
-        "image": "img/theory/img.png",
         "paragraph": "Ak by vozidlá idúce v obci súčasne vo všetkých jazdných pruhoch bránili v jazde rýchlejšie idúcemu vozidlu, vodič, ktorý jazdí v ľavom jazdnom pruhu, je povinný ho čo najskôr uvoľniť. To neplatí, ak vodič používa ľavý jazdný pruh na obchádzanie, odbočovanie, otáčanie alebo predchádzanie."
       }, {
         "id": 6,
         "headline": "Prechádzanie z jedného jazdného pruhu do druhého",
-        "image": "img/theory/img.png",
         "paragraph": "Vodič pri prechádzaní z jedného jazdného pruhu do druhého jazdného pruhu je povinný dať prednosť v jazde vodičovi jazdiacemu v jazdnom pruhu, do ktorého prechádza; pritom je povinný dávať znamenie o zmene smeru jazdy."
       }, {
         "id": 7,
         "headline": "Zbiehajúce sa jazdné pruhy",
-        "image": "img/theory/img.png",
         "paragraph": "Tam, kde sa dva jazdné pruhy zbiehajú do jedného jazdného pruhu tak, že nie je zrejmé, ktorý z nich je priebežný, vodič jazdiaci v ľavom jazdnom pruhu je povinný dať prednosť v jazde vodičovi v pravom jazdnom pruhu. To neplatí, ak ide o striedavé radenie upravené príslušnou dopravnou značkou."
       }, {
         "id": 8,
         "headline": "Súčasné prechádzanie dvoch vozidiel do stredného pruhu",
-        "image": "img/theory/img.png",
         "paragraph": "Na ceste s troma jazdnými pruhmi vyznačenými na vozovke v jednom smere jazdy je vodič prechádzajúci z ľavého jazdného pruhu do stredného jazdného pruhu povinný dať prednosť v jazde vodičovi prechádzajúcemu do stredného jazdného pruhu z pravého jazdného pruhu; takýto postup sa vzťahuje primerane pri prechádzaní z ľavých jazdných pruhov do stredných jazdných pruhov na ceste so štyrmi alebo s viacerými jazdnými pruhmi vyznačenými na vozovke v jednom smere jazdy."
       }, {
         "id": 9,
         "headline": "Pripájací pruh",
-        "image": "img/theory/img.png",
         "paragraph": "Ak je na zaraďovanie do priebežného jazdného pruhu zriadený pripájací pruh, je vodič povinný pred zaradením sa do priebežného jazdného pruhu použiť tento pruh. "
       }, {
         "id": 10,
         "headline": "Zaraďovanie z pripájacieho pruhu do priebežného",
-        "image": "img/theory/img.png",
         "paragraph": "Vodič pri zaraďovaní z pripájacieho pruhu do priebežného pruhu je povinný dať prednosť v jazde vodičovi idúcemu v priebežnom pruhu."
       }, {
         "id": 11,
         "headline": "Odlišné rýchlosti v jazdných pruhoch v obci",
-        "image": "img/theory/img.png",
         "paragraph": "V obci sa nepovažuje za predchádzanie, keď vozidlá v jednom jazdnom pruhu idú rýchlejšie ako v inom jazdnom pruhu."
       }, {
         "id": 12,
         "headline": "Prekážka cestnej premávky",
-        "image": "img/theory/img.png",
         "paragraph": "Ak je pri súbežnej jazde v niektorom jazdnom pruhu prekážka cestnej premávky, vodič vozidla idúceho vo voľnom jazdnom pruhu je povinný umožniť vodičovi prvého vozidla nachádzajúceho sa v jazdnom pruhu, v ktorom je prekážka, jej obídenie, ak ten dáva znamenie o zmene smeru jazdy. Vodič obchádzajúci prekážku pritom nesmie ohroziť vodiča jazdiaceho vo voľnom jazdnom pruhu."
       }, {
         "id": 13,
         "headline": "Nevyznačené jazdné pruhy",
-        "image": "img/theory/img.png",
         "paragraph": "Ak jazdné pruhy nie sú na vozovke vyznačené, jazdným pruhom sa rozumie časť vozovky dovoľujúca jazdu vozidiel s troma a viacerými kolesami v jazdnom prúde za sebou."
       }]
     }, {
       "id": 11,
       "minutes": 8,
       "name": "Jazda v mimoriadnych prípadoch",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
+      "description": "Pravidlá jazdy v okolí ostrovčekov, električky, vyhradených jazdných pruhov a zastávok",
       "content": [{
         "id": 1,
         "headline": "Ostrovčeky",
-        "image": "img/theory/img.png",
         "paragraph": "Pozdĺž nástupného ostrovčeka alebo ochranného ostrovčeka sa jazdí vpravo. "
       }, {
         "id": 2,
         "headline": "Jazda vľavo od ostrovčeka",
-        "image": "img/theory/img.png",
         "paragraph": "Vľavo pozdĺž nástupného ostrovčeka alebo ochranného ostrovčeka sa smie jazdiť len vtedy, ak jazde vpravo bráni prekážka, alebo ak je to bezpečnejšie s ohľadom na rozmery vozidla alebo nákladu."
       }, {
         "id": 3,
         "headline": "Jazda pozdĺž električky",
-        "image": "img/theory/img.png",
         "paragraph": "Pozdĺž električky sa jazdí vpravo, ak nie je dopravnou značkou povolená jazda vľavo."
       }, {
         "id": 4,
         "headline": "Električkový koľajový pás",
-        "image": "img/theory/img.png",
         "paragraph": "Na električkový koľajový pás v úrovni vozovky sa smie vojsť len pri obchádzaní, predchádzaní, odbočovaní, otáčaní, vchádzaní na cestu, alebo ak to dovoľuje dopravná značka alebo ak to vyžadujú mimoriadne okolnosti, najmä ak nie je medzi električkovým koľajovým pásom a okrajom vozovky dostatok miesta."
       }, {
         "id": 5,
         "headline": "Odlišná rýchlosť električky",
-        "image": "img/theory/img.png",
         "paragraph": "Ak ide električka inou rýchlosťou ako ostatné vozidlá idúce rovnakým smerom, nejde o vzájomné predchádzanie."
       }, {
         "id": 6,
         "headline": "Vyhradený jazdný pruh",
-        "image": "img/theory/img.png",
         "paragraph": "Ak je na vozovke vyznačený vyhradený jazdný pruh, platí pre vodičov vozidiel, pre ktorých nie je vyhradený jazdný pruh určený, primerane <a href='#'>§ 11 ods. 2 a § 19 ods. 4; ak je vyhradený jazdný pruh vyznačený na električkovom koľajovom páse, aj § 19 ods. 5.</a>",
         "blockquote": "<b>§ 11 ods. 2</b><br>Na električkový koľajový pás v úrovni vozovky sa smie vojsť len pri obchádzaní, predchádzaní, odbočovaní, otáčaní, vchádzaní na cestu, alebo ak to dovoľuje dopravná značka alebo ak to vyžadujú mimoriadne okolnosti, najmä ak nie je medzi električkovým koľajovým pásom a okrajom vozovky dostatok miesta. Električkový koľajový pás zvýšený nad úroveň vozovky alebo znížený pod jej úroveň, alebo ktorý je od vozovky inak oddelený, najmä obrubníkom, smie sa prechádzať len priečne, a to na mieste prispôsobenom na to. Pritom vodič nesmie ohroziť ani obmedziť električku v jazde.<br><br><b>§ 19 ods. 4</b><br>Vodič odbočujúci vľavo je povinný dať prednosť v jazde protiidúcim motorovým vozidlám i nemotorovým vozidlám, električkám idúcim v oboch smeroch a chodcom prechádzajúcim cez vozovku. Vodič motorového vozidla i nemotorového vozidla odbočujúci vpravo je povinný dať prednosť v jazde električke, ak je povolená jazda pozdĺž električky vľavo.<br><br><b> § 19 ods. 5</b><br>Električka, ktorá križuje smer jazdy vozidla idúceho po jej pravej alebo po jej ľavej strane a dáva znamenie o zmene smeru jazdy, má prednosť v jazde."
       }, {
         "id": 7,
         "headline": "Vodiči, pre ktorých je vyhradený jazdný pruh",
-        "image": "img/theory/img.png",
         "paragraph": "Vodiči vozidiel, pre ktorých je vyhradený jazdný pruh určený, sú povinní vyhradený jazdný pruh použiť prednostne."
       }, {
         "id": 8,
         "headline": "Vychádzanie z vyhradeného jazdného pruhu",
-        "image": "img/theory/img.png",
         "paragraph": "Ak vodič autobusu alebo trolejbusu vychádza z vyhradeného jazdného pruhu do priľahlého jazdného pruhu, vodič jazdiaci v tomto pruhu je povinný mu dať prednosť v jazde. Vodič autobusu alebo trolejbusu je pritom povinný dávať znamenie o zmene smeru jazdy a nesmie ohroziť vodičov ostatných vozidiel."
       }, {
         "id": 9,
         "headline": "Odlišná rýchlosť vozidiel vo vyhradenom jazdnom pruhu",
-        "image": "img/theory/img.png",
         "paragraph": "Ak ide vozidlo vo vyhradenom jazdnom pruhu inou rýchlosťou ako ostatné vozidlá idúce rovnakým smerom, nejde o vzájomné predchádzanie."
       }, {
         "id": 10,
         "headline": "Osobitné svetelné signály vo vyhradenom jazdnom pruhu",
-        "image": "img/theory/img.png",
         "paragraph": "Ak sa premávka vo vyhradenom jazdnom pruhu riadi osobitnými svetelnými signálmi, riadi sa nimi len vodič jazdiaci v tomto jazdnom pruhu."
       }, {
         "id": 11,
         "headline": "Vozidlá taxislužby vo vyhradenom jazdnom pruhu",
-        "image": "img/theory/img.png",
         "paragraph": "Vo vyhradenom jazdnom pruhu pre autobusy alebo trolejbusy smú jazdiť aj vozidlá taxislužby, ktoré sú riadne označené. Vozidlo taxislužby pritom nesmie obmedzovať plynulosť jazdy vozidiel, pre ktoré je tento vyhradený jazdný pruh určený."
       }, {
         "id": 12,
         "headline": "Zastavenie na zastávke bez nástupného ostrovčeka",
-        "image": "img/theory/img.png",
         "paragraph": "Za vozidlom pravidelnej verejnej dopravy osôb, ktoré zastavilo v obci na zastávke bez nástupného ostrovčeka alebo bez nástupišťa na zvýšenom električkovom koľajovom páse, vodič iného vozidla je povinný zastaviť vozidlo. Ak je na zastávke viac vozidiel, vodič je povinný zastaviť vozidlo za posledným z nich. Vodič smie pokračovať v jazde, ak neohrozí osobu, ktorá nastupuje do vozidla pravidelnej verejnej dopravy osôb alebo z neho vystupuje."
       }, {
         "id": 13,
         "headline": "Zvýšená opatrnosť v úseku zastávky",
-        "image": "img/theory/img.png",
         "paragraph": "Vodič je povinný v úseku zastávky pravidelnej verejnej dopravy osôb dbať na zvýšenú opatrnosť a jazdiť primeranou rýchlosťou tak, aby neohrozil osobu vystupujúcu z vozidla pravidelnej verejnej dopravy osôb alebo do neho nastupujúcu."
       }]
     }, {
       "id": 12,
       "minutes": 8,
       "name": "Obchádzanie",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
+      "description": "Pravidlá jazdy pri obchádzani",
       "content": [{
         "id": 1,
         "headline": "Zvýšená pozornosť pri obchádzaní",
-        "image": "img/theory/img.png",
         "paragraph": "Vodič, ktorý pri obchádzaní vozidla, ktoré zastavilo alebo stojí, prekážky cestnej premávky alebo chodca vybočuje zo smeru svojej jazdy, nesmie ohroziť ani obmedziť vodiča protiidúceho vozidla, nesmie ohroziť ani vodiča idúceho za ním, ani iného účastníka cestnej premávky. Vodič je pritom povinný dávať znamenie o zmene smeru jazdy."
       }, {
         "id": 2,
         "headline": "Obchádzanie stojaceho vozidla pravidelnej verejnej dopravy",
-        "image": "img/theory/img.png",
         "paragraph": "Vodič je povinný pri obchádzaní stojaceho vozidla pravidelnej verejnej dopravy osôb prihliadnuť na možnosť vbehnutia osôb na vozovku a jazdu prispôsobiť tak, aby neboli ohrozené; to platí aj pre vodiča vozidla jazdiaceho v protismere. "
       }, {
         "id": 3,
         "headline": "Obchádzanie autobusu prepravujúceho deti",
-        "image": "img/theory/img.png",
         "paragraph": "Osobitnú pozornosť musí vodič venovať, ak ide o autobus označený ako autobus prepravujúci deti."
       }]
     }, {
       "id": 13,
       "minutes": 8,
       "name": "Predchádzanie",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
+      "description": "Ako sa má a kedy sa nesmie predchádzať",
       "content": [{
         "id": 1,
         "headline": "Predchádzanie vľavo",
-        "image": "img/theory/img.png",
         "paragraph": "Predchádza sa vľavo."
       }, {
         "id": 2,
@@ -654,91 +611,75 @@ var TheoryList = {
       }, {
         "id": 3,
         "headline": "Predchádzanie v pripájacom alebo v odbočovacom jazdnom pruhu",
-        "image": "img/theory/img.png",
         "paragraph": "Pri jazde v pripájacom jazdnom pruhu alebo v odbočovacom jazdnom pruhu sa smie vpravo predchádzať aj vozidlo idúce v priebežnom jazdnom pruhu."
       }, {
         "id": 4,
         "headline": "Úkony pri predchádzaní",
-        "image": "img/theory/img.png",
         "paragraph": "Vodič, ktorý pri predchádzaní vybočuje zo smeru svojej jazdy, je povinný dávať znamenie o zmene smeru jazdy, pričom nesmie ohroziť vodičov jazdiacich za ním."
       }, {
         "id": 5,
         "headline": "Ďalšie úkony pri predchádzaní",
-        "image": "img/theory/img.png",
         "paragraph": "Vodič nesmie pri predchádzaní ohroziť ani obmedziť vodiča vozidla, pred ktoré sa po predídení zaraďuje; pritom je povinný dávať znamenie o zmene smeru jazdy. Pri predchádzaní musí zachovávať dostatočný bočný odstup od predchádzaného vozidla."
       }, {
         "id": 6,
         "headline": "Vodič predchádzaného vozidla",
-        "image": "img/theory/img.png",
         "paragraph": "Vodič predchádzaného vozidla nesmie zvyšovať rýchlosť jazdy ani inak brániť predchádzaniu."
       }, {
         "id": 7,
         "headline": "Rozhľad predchádzajúceho vodiča",
-        "image": "img/theory/img.png",
         "paragraph": "Vodič nesmie predchádzať, ak nemá pred sebou rozhľad na takú vzdialenosť, ktorá je potrebná na bezpečné predchádzanie."
       }, {
         "id": 8,
         "headline": "Bezpečné zaradenie po predchádzaní",
-        "image": "img/theory/img.png",
         "paragraph": "Vodič nesmie predchádzať, ak by sa nemohol bezpečne zaradiť pred vozidlo alebo pred vozidlá, ktoré chce predísť."
       }, {
         "id": 9,
         "headline": "Pozor na vodiča v protismere",
-        "image": "img/theory/img.png",
         "paragraph": "Vodič nesmie predchádzať, ak by ohrozil alebo obmedzil vodiča jazdiaceho v protismere, alebo ohrozil iného účastníka cestnej premávky."
       }, {
         "id": 10,
         "headline": "Zákaz predchádzania v špeciálnej situácii",
-        "image": "img/theory/img.png",
         "paragraph": "Vodič nesmie predchádzať, ak vodič pred ním idúceho vozidla dáva znamenie o zmene smeru jazdy vľavo a ak ho nemožno predísť vpravo podľa odseku 1, prípadne ak ho nemožno predísť v ďalšom voľnom jazdnom pruhu vyznačenom na vozovke v tom istom smere jazdy."
       }, {
         "id": 11,
         "headline": "Zákaz predchádzania cez pripájací alebo odbočovací jazdný pruh",
-        "image": "img/theory/img.png",
         "paragraph": "Vodič nesmie predchádzať cez pripájací alebo odbočovací jazdný pruh; to neplatí pre prípad uvedený v <a href='#'>odseku 1.</a>",
         "blockquote": "<b>§ 15 ods. 1</b><br>Predchádza sa vľavo. Vpravo sa predchádza vozidlo, ktoré mení smer jazdy vľavo a ak už nie je pochybnosť o ďalšom smere jeho jazdy. Pri jazde v pripájacom jazdnom pruhu alebo v odbočovacom jazdnom pruhu sa smie vpravo predchádzať aj vozidlo idúce v priebežnom jazdnom pruhu."
       }, {
         "id": 12,
         "headline": "Zákaz predchádzania po krajnici",
-        "image": "img/theory/img.png",
         "paragraph": "Vodič nesmie predchádzať po krajnici."
       }, {
         "id": 13,
         "headline": "Výnimka zákazu predchádzania po krajnici",
-        "image": "img/theory/img.png",
         "paragraph": "Zákaz predchádzania po krajnici neplatí pri predchádzaní vpravo podľa <a href='#'>odseku 1</a>, pritom nesmie ohroziť ani obmedziť chodca idúceho po krajnici a cyklistu alebo vodiča malého motocykla jazdiaceho po krajnici.",
         "blockquote": "<b>§ 15 ods. 1</b><br>Predchádza sa vľavo. Vpravo sa predchádza vozidlo, ktoré mení smer jazdy vľavo a ak už nie je pochybnosť o ďalšom smere jeho jazdy. Pri jazde v pripájacom jazdnom pruhu alebo v odbočovacom jazdnom pruhu sa smie vpravo predchádzať aj vozidlo idúce v priebežnom jazdnom pruhu."
       }, {
         "id": 14,
         "headline": "Zákaz predchádzania v okolí križovatky",
-        "image": "img/theory/img.png",
         "paragraph": "Vodič nesmie predchádzať, pri jazde cez križovatku a v takej vzdialenosti pred križovatkou, ktorá nie je dostatočná na bezpečné dokončenie predchádzania pred úrovňou križovatky."
       }, {
         "id": 15,
         "headline": "Výnimka zákazu predchádzania v okolí križovatky",
-        "image": "img/theory/img.png",
         "paragraph": "Zákaz predchádzania pri jazde cez križovatku a v takej vzdialenosti pred križovatkou, ktorá nie je dostatočná na bezpečné dokončenie predchádzania pred úrovňou križovatky neplatí pri predchádzaní motocykla bez postranného vozíka alebo nemotorového vozidla."
       }, {
         "id": 16,
         "headline": "Zákaz predchádzania na železničnom priecestí",
-        "image": "img/theory/img.png",
         "paragraph": "Vodič nesmie predchádzať pri jazde cez železničné priecestie."
       }, {
         "id": 17,
-        "headline": "Zákaz obmedzovania iných predchádzajúcich vozidiel",
-        "image": "img/theory/img.png",
+        "headline": "Obmedzovanie iných predchádzajúcich vozidiel",
         "paragraph": "Vodič nesmie predchádzať, ak by pri predchádzaní svojou výrazne nižšou rýchlosťou obmedzil za ním idúce vozidlo, ktoré začalo úkon predchádzania skôr."
       }, {
         "id": 18,
         "headline": "Zákaz predchádzania v okolí priechodov",
-        "image": "img/theory/img.png",
         "paragraph": "Vodič nesmie predchádzať na priechode pre chodcov, priechode pre cyklistov a bezprostredne pred nimi."
       }]
     }, {
       "id": 14,
       "minutes": 8,
       "name": "Rýchlosť jazdy",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
+      "description": "Základy dodržiavania primeranej rýchlosti jazdy, najmä najvyšších dovolených rýchlostí",
       "content": [{
         "id": 1,
         "headline": "Základy dodržiavania primeranej rýchlosti jazdy",
@@ -751,466 +692,392 @@ var TheoryList = {
       }, {
         "id": 3,
         "headline": "Najvyššia dovolená rýchlosť určená dopravnou značkou alebo zariadením",
-        "image": "img/theory/img.png",
         "paragraph": "Vodič nesmie prekročiť najvyššiu dovolenú rýchlosť jazdy vozidiel určenú dopravnou značkou alebo dopravným zariadením."
       }, {
         "id": 4,
         "headline": "Najvyššie dovolené rýchlosti",
-        "image": "img/theory/img.png",
         "paragraph": "Najvyššie dovolené rýchlosti ustanovené v <a href='#'>odsekoch 2 a 3</a> nemožno prekročiť, ani ak je dopravnou značkou alebo dopravným zariadením dovolená vyššia rýchlosť. To neplatí pre vodiča motorového vozidla s najväčšou prípustnou celkovou hmotnosťou neprevyšujúcou 3 500 kg bez prípojného vozidla.",
         "blockquote": "<b>§ 16 ods. 2</b><br>Vodič autobusu a vodič motorového vozidla s najväčšou prípustnou celkovou hmotnosťou neprevyšujúcou 3 500 kg smie jazdiť rýchlosťou <b>najviac 90 km/h</b>. Na diaľnici a na rýchlostnej ceste vodič autobusu smie jazdiť rýchlosťou <b>najviac 100 km/h</b> a vodič motorového vozidla s najväčšou prípustnou celkovou hmotnosťou neprevyšujúcou 3 500 kg rýchlosťou <b>najviac 130 km/h</b>.<br><br><b>§ 16 ods. 3</b><br>Vodič iného motorového vozidla, ako sa uvádza v odseku 2, ako aj vodič autobusu s prípojným vozidlom, ktorého najväčšia prípustná celková hmotnosť prevyšuje 750 kg, a vodič motorového vozidla s najväčšou prípustnou celkovou hmotnosťou neprevyšujúcou 3 500 kg s prípojným vozidlom, ktorého najväčšia prípustná celková hmotnosť prevyšuje 750 kg, smú jazdiť rýchlosťou <b>najviac 90 km/h</b>. Vodič smie v obci jazdiť rýchlosťou <b>najviac 50 km/h</b>, a ak ide po diaľnici v obci alebo po rýchlostnej ceste v obci, <b>najviac 90 km/h</b>."
       }, {
         "id": 5,
         "headline": "Dodržiavanie najväčšej konštrukčnej rýchlosti vozidla",
-        "image": "img/theory/img.png",
         "paragraph": "Vodič nesmie prekročiť najväčšiu konštrukčnú rýchlosť vozidla, a ak ide o jazdnú súpravu, ani najväčšiu konštrukčnú rýchlosť nijakého z vozidiel súpravy."
       }, {
         "id": 6,
         "headline": "Kto nie je povinný dodržiavať najvyššie dovolené rýchlosti",
-        "image": "img/theory/img.png",
         "paragraph": "Najvyššie dovolené rýchlosti ustanovené v odsekoch 2 až 6 nie sú povinní dodržiavať vodiči vozidiel ozbrojených síl, ozbrojených bezpečnostných zborov, ozbrojených zborov, Vojenskej polície, Vojenského spravodajstva a Slovenskej informačnej služby, ak to vyžaduje plnenie osobitných úloh, ktorých okruh určí príslušný minister a riaditeľ Slovenskej informačnej služby."
       }]
     }, {
       "id": 15,
       "minutes": 8,
       "name": "Vzdialenosť medzi vozidlami",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
+      "description": "Základy dodržiavania bezpečnej vzdialenosti",
       "content": [{
         "id": 1,
         "headline": "Bezpečná vzdialenosť",
-        "image": "img/theory/img.png",
         "paragraph": "Vodič je povinný za vozidlom idúcim pred ním dodržiavať takú vzdialenosť, aby mohol včas znížiť rýchlosť jazdy, prípadne zastaviť vozidlo, ak vodič vozidla jazdiaceho pred ním zníži rýchlosť jazdy alebo zastaví."
       }, {
         "id": 2,
         "headline": "Priestor pre predchádzajúce vozidlá",
-        "image": "img/theory/img.png",
         "paragraph": "Vodič motorového vozidla je povinný dodržiavať za vozidlom idúcim pred ním takú vzdialenosť, aby sa predchádzajúce vozidlo mohlo pred neho bezpečne zaradiť."
       }, {
         "id": 3,
         "headline": "Vzdialenosť od električky",
-        "image": "img/theory/img.png",
         "paragraph": "Vodič, ktorý nechce alebo nemôže prejsť pozdĺž električky vpravo, je povinný jazdiť za ňou v takej vzdialenosti, aby umožnil prejazd pozdĺž električky ostatným vodičom."
       }]
     }, {
       "id": 16,
       "minutes": 8,
       "name": "Vyhýbanie",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
+      "description": "Základné pravidlá vyhýbania sa protiidúcich vozidiel",
       "content": [{
         "id": 1,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Protiidúce vozidlá",
         "paragraph": "Vodiči protiidúcich vozidiel sa vyhýbajú vpravo, včas a v dostatočnej miere. "
       }, {
         "id": 2,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Kto dáva prednosť v jazde, ak sa nedá bezpečne vyhnúť",
         "paragraph": "Ak sa nemôžu bezpečne vyhnúť, prednosť v jazde je povinný dať ten vodič, na ktorého strane jazdy je prekážka alebo zúžená vozovka. "
       }, {
         "id": 3,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Kto z protiidúcich vozidiel musí cúvať",
         "paragraph": "Ak jeden z nich musí cúvať, urobí to ten, pre ktorého je to ľahšie alebo menej nebezpečné."
       }, {
         "id": 4,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Protiidúca električka",
         "paragraph": "Ak sa vodič nemôže vyhnúť protiidúcej električke vpravo, vyhýba sa jej vľavo."
       }]
     }, {
       "id": 17,
       "minutes": 8,
       "name": "Odbočovanie",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
+      "description": "Základné pravidlá odbočovania vpravo aj vľavo",
       "content": [{
         "id": 1,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Znamenie o zmene smeru jazdy",
         "paragraph": "Pred odbočovaním a počas odbočovania je vodič povinný dávať znamenie o zmene smeru jazdy."
       }, {
         "id": 2,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Vodič idúci za odbočújúcim vodičom",
         "paragraph": "Vodič pri odbočovaní nesmie ohroziť vodiča idúceho za ním."
       }, {
         "id": 3,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Zvýšená opatrnosť",
         "paragraph": "Vodič je povinný pri odbočovaní dbať na zvýšenú opatrnosť. Vodič vozidla idúceho za vozidlom, ktoré odbočuje, musí dbať na zvýšenú opatrnosť a svojou jazdou nesmie ohroziť vodiča odbočujúceho vozidla."
       }, {
         "id": 4,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Bezpečné odbočenie pomocou spôsobilej a náležite poučenej osoby",
         "paragraph": "Ak to vyžadujú okolnosti, najmä pri preprave dlhého nákladu, vodič musí zaistiť bezpečné odbočenie pomocou spôsobilej a náležite poučenej osoby."
       }, {
         "id": 5,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Pred odbočovaním vpravo",
         "paragraph": "Pred odbočovaním vpravo vodič je povinný zaradiť sa čo najbližšie k pravému okraju vozovky."
       }, {
         "id": 6,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Vybočovanie zo smeru jazdy vľavo pred odbočovaním vpravo",
         "paragraph": "Ak pritom musí s ohľadom na rozmery vozidla alebo nákladu vybočiť zo smeru svojej jazdy vľavo, vždy dáva len znamenie o zmene smeru jazdy vpravo."
       }, {
         "id": 7,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Na ktorú stranu sa zaradiť pred odbočovaním vľavo",
         "paragraph": "Pred odbočovaním vľavo vodič je povinný zaradiť sa čo najďalej vľavo v časti vozovky určenej pre jeho smer jazdy s ohľadom na rozmery vozidla alebo nákladu a šírku vozovky. Na jednosmernej ceste to znamená k ľavému okraju vozovky."
       }, {
         "id": 8,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Protiidúce vozidlá, odbočujúce vľavo",
         "paragraph": "Ak vodiči protiidúcich vozidiel odbočujú vľavo, vyhýbajú sa vľavo."
       }, {
         "id": 9,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Vodič odbočujúci vľavo",
         "paragraph": "Vodič odbočujúci vľavo je povinný dať prednosť v jazde protiidúcim motorovým vozidlám i nemotorovým vozidlám, električkám idúcim v oboch smeroch a chodcom prechádzajúcim cez vozovku. "
       }, {
         "id": 10,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Vodič odbočujúci vpravo",
         "paragraph": "Vodič motorového vozidla i nemotorového vozidla odbočujúci vpravo je povinný dať prednosť v jazde električke, ak je povolená jazda pozdĺž električky vľavo."
       }, {
         "id": 11,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Električka, križujúca smer jazdy vozidla",
         "paragraph": "Električka, ktorá križuje smer jazdy vozidla idúceho po jej pravej alebo po jej ľavej strane a dáva znamenie o zmene smeru jazdy, má prednosť v jazde."
       }, {
         "id": 12,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Odbočovanie vpravo a cyklista",
         "paragraph": "Vodič odbočujúci vpravo je povinný dať prednosť v jazde cyklistovi idúcemu rovno."
       }, {
         "id": 13,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Cyklista pri odbočovaní doľava",
         "paragraph": "Pri odbočovaní doľava vodič motorového vozidla nesmie ohroziť cyklistu odbočujúceho vľavo."
       }]
     }, {
       "id": 18,
       "minutes": 8,
       "name": "Jazda cez križovatku",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
+      "description": "Pravidlá súvisiace s jazdou cez križovatku a kruhový objazd",
       "content": [{
         "id": 1,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Povinnosť dať prednosť v jazde",
         "paragraph": "Vodič, ktorý prichádza do križovatky po vedľajšej ceste označenej dopravnou značkou <i>Daj prednosť v jazde</i> alebo <i>Stoj, daj prednosť v jazde</i>, je povinný dať prednosť v jazde vozidlám a ostatným účastníkom cestnej premávky prichádzajúcim po hlavnej ceste okrem chodcov, ktorí neprechádzajú cez križovatku v organizovanom útvare."
       }, {
         "id": 2,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Prednosť v jazde vozidlu prichádzajúcemu sprava",
         "paragraph": "Ak prednosť v jazde nevyplýva z <a href='#'>odseku 1</a>, vodič je povinný dať prednosť v jazde vozidlu prichádzajúcemu sprava.",
         "blockquote": "<b>§ 20 ods. 1</b><br>Vodič, ktorý prichádza do križovatky po vedľajšej ceste označenej dopravnou značkou <i>Daj prednosť v jazde</i> alebo <i>Stoj, daj prednosť v jazde</i>, je povinný dať prednosť v jazde vozidlám a ostatným účastníkom cestnej premávky prichádzajúcim po hlavnej ceste okrem chodcov, ktorí neprechádzajú cez križovatku v organizovanom útvare."
       }, {
         "id": 3,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Zákaz zastavenia vozidla na križovatke",
         "paragraph": "Vodič nesmie vojsť na križovatku, ak mu situácia nedovoľuje pokračovať za križovatkou v jazde, takže by bol nútený zastaviť vozidlo na križovatke."
       }, {
         "id": 4,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Výnimka zákazu zastavenia vozidla na križovatke",
         "paragraph": "Zákaz zastavenia vozidla na križovatke neplatí, ak vodič musí zastaviť vozidlo v križovatke z dôvodu dávania prednosti chodcom prechádzajúcim cez vozovku alebo pri odbočovaní doľava podľa <a href='#'>§ 19 ods. 4</a>.",
         "blockquote": "<b>§ 19 ods. 4</b><br>Vodič odbočujúci vľavo je povinný dať prednosť v jazde protiidúcim motorovým vozidlám i nemotorovým vozidlám, električkám idúcim v oboch smeroch a chodcom prechádzajúcim cez vozovku. Vodič motorového vozidla i nemotorového vozidla odbočujúci vpravo je povinný dať prednosť v jazde električke, ak je povolená jazda pozdĺž električky vľavo."
       }, {
         "id": 5,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Stoj, daj prednosť v jazde!",
         "paragraph": "Na príkaz dopravnej značky <i>Stoj, daj prednosť v jazde!</i> vodič je povinný zastaviť vozidlo na takom mieste, odkiaľ má na križovatku náležitý rozhľad."
       }, {
         "id": 6,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Smer jazdy v kruhovom objazde",
         "paragraph": "Vodič vchádzajúci do kruhového objazdu označeného príslušnou dopravnou značkou je povinný dodržať smer na kruhovom objazde vyznačený šípkami."
       }, {
         "id": 7,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Prednosť v jazde pri vchádzaní do kruhového objazdu",
         "paragraph": "Vodič vchádzajúci do kruhového objazdu má prednosť v jazde, ak dopravnou značkou nie je ustanovené inak."
       }]
     }, {
       "id": 19,
       "minutes": 8,
       "name": "Vchádzanie na cestu",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
+      "description": "Zopár pravidiel, platiacich pri vchádzaní na cestu z miesta mimo cesty",
       "content": [{
         "id": 1,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Vchádzanie na cestu z miesta mimo cesty",
         "paragraph": "Pri vchádzaní na cestu z miesta mimo cesty, z poľnej cesty, z lesnej cesty, z cestičky pre cyklistov, z obytnej zóny alebo z pešej zóny vodič je povinný dať prednosť v jazde vozidlu idúcemu po ceste."
       }, {
         "id": 2,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Bezpečný vjazd na cestu",
         "paragraph": "Ak to vyžadujú okolnosti, najmä nedostatočný rozhľad, vodič je povinný zaistiť bezpečný vjazd na cestu pomocou spôsobilej a náležite poučenej osoby."
       }, {
         "id": 3,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Čisté vozidlo",
         "paragraph": "Vozidlo vchádzajúce na cestu musí byť vopred očistené, aby neznečisťovalo cestu."
       }]
     }, {
       "id": 20,
       "minutes": 8,
       "name": "Otáčanie a cúvanie",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
+      "description": "Pravidlá súvisiace s otáčaním alebo cúvaním na rozličných miestach",
       "content": [{
         "id": 1,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
-        "paragraph": "Pri otáčaní platí obdobne <a href='#/tabs/theory/chapter/17'>§ 19 (Odbočovanie)</a>."
+        "headline": "Otáčanie",
+        "paragraph": "Pri otáčaní platí obdobne kapitola <a href='#/tabs/theory/chapter/17'>Odbočovanie</a>."
       }, {
         "id": 2,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
-        "paragraph": "Pri otáčaní na križovatke platí <a href='#/tabs/theory/chapter/17'>§ 19 (Odbočovanie)</a> aj <a href='#/tabs/theory/chapter/18'>§ 20 (Jazda cez križovatku)</a>."
+        "headline": "Otáčanie na križovatke ",
+        "paragraph": "Pri otáčaní na križovatke platí kapitola <a href='#/tabs/theory/chapter/17'>Odbočovanie</a> aj kapitola <a href='#/tabs/theory/chapter/18'>Jazda cez križovatku</a>."
       }, {
         "id": 3,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Cúvanie",
         "paragraph": "Vodič nesmie pri cúvaní ohroziť ostatných účastníkov cestnej premávky."
       }, {
         "id": 4,
-        "headline": "Nadpis",
+        "headline": "Bezpečné otáčanie alebo cúvanie",
         "paragraph": "Ak to vyžadujú okolnosti, najmä nedostatočný rozhľad, vodič je povinný zaistiť bezpečné otáčanie alebo cúvanie pomocou spôsobilej a náležite poučenej osoby."
       }, {
         "id": 5,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Otáčanie a cúvanie na neprehľadných miestach",
         "paragraph": "Vodič sa nesmie otáčať a nesmie cúvať na neprehľadných alebo na inak nebezpečných miestach, najmä v neprehľadnej zákrute a v jej tesnej blízkosti, pred neprehľadným vrcholom stúpania cesty, na ňom a za ním, "
       }, {
         "id": 6,
         "headline": "Na križovatke s riadenou premávkou",
-        "image": "img/theory/img.png",
         "paragraph": "Vodič sa nesmie otáčať a nesmie cúvať na križovatke s riadenou premávkou; otáčať sa smie, ak to dovoľuje dopravná značka alebo dopravné zariadenie."
       }, {
         "id": 7,
         "headline": "Na priechodoch",
-        "image": "img/theory/img.png",
         "paragraph": "Vodič sa nesmie otáčať a nesmie cúvať na priechode pre chodcov alebo na priechode pre cyklistov."
       }, {
         "id": 8,
         "headline": "Na železničnom priecestí a v jeho tesnej blízkosti",
-        "image": "img/theory/img.png",
         "paragraph": "Vodič sa nesmie otáčať a nesmie cúvať na železničnom priecestí a v jeho tesnej blízkosti."
       }, {
         "id": 9,
         "headline": "V tuneli a v jeho tesnej blízkosti",
-        "image": "img/theory/img.png",
         "paragraph": "Vodič sa nesmie otáčať a nesmie cúvať v tuneli a v jeho tesnej blízkosti."
       }, {
         "id": 10,
-        "headline": "Na jednosmernej ceste",
-        "image": "img/theory/img.png",
+        "headline": "Otáčanie a cúvanie na jednosmernej ceste",
         "paragraph": "Vodič sa nesmie otáčať a nesmie cúvať na jednosmernej ceste; vodič však smie cúvať, ak je to nevyhnutne potrebné najmä na zaradenie do radu stojacich vozidiel alebo na vyjdenie z neho."
       }, {
         "id": 11,
         "headline": "Na moste",
-        "image": "img/theory/img.png",
         "paragraph": "Vodič sa nesmie otáčať a nesmie cúvať na moste."
       }]
     }, {
       "id": 21,
       "minutes": 8,
       "name": "Zastavenie a státie",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
+      "description": "Vyčerpávajúci súbor pravidiel týkajúcich sa zastavenia a státia",
       "content": [{
         "id": 1,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Kam smie vodič zastaviť a stáť",
         "paragraph": "Vodič smie zastaviť a stáť len vpravo v smere jazdy v jednom rade a rovnobežne s okrajom cesty, čo najbližšie k okraju cesty."
       }, {
         "id": 2,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Kam smie vodič zastaviť a stáť na jednosmernej ceste",
         "paragraph": "Vodič smie zastaviť a stáť na jednosmernej ceste vpravo i vľavo."
       }, {
         "id": 3,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Kedy sa smie zastaviť a stáť kolmo v obci",
         "paragraph": "Ak nie je ohrozená bezpečnosť a plynulosť cestnej premávky, vodič smie v obci zastaviť a stáť kolmo, prípadne šikmo na okraj cesty alebo zastaviť v druhom rade."
       }, {
         "id": 4,
-        "headline": "Nadpis",
+        "headline": "Vzdialenosti pri zastavení a státí",
         "image": "img/theory/021_standAndStop.png",
         "paragraph": "Pri státí musí zostať voľný aspoň jeden jazdný pruh široký najmenej <b>3 m pre každý smer jazdy (spolu 6 m)</b>. Pri zastavení musí zostať voľný aspoň jeden jazdný pruh široký najmenej <b>3 m pre oba smery jazdy (spolu 3 m)</b>."
       }, {
         "id": 5,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Zastavenie a státie na parkovisku",
         "paragraph": "Pri zastavení a státí je vodič povinný prednostne použiť parkovisko tak, aby neobmedzoval ostatných účastníkov cestnej premávky."
       }, {
         "id": 6,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Pri parkovaní treba myslieť aj na druhých",
         "paragraph": "Pri zastavení a státí vodič je povinný čo najlepšie využiť parkovacie miesto a nesmie znemožniť ostatným vodičom vyjdenie z parkovacieho miesta. Rovnako nesmie zastaviť a stáť na mieste, kde by znemožnil vjazd a výjazd vozidiel. "
       }, {
         "id": 7,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Parkovacie miesta",
         "paragraph": "Ak sú na parkovisku vyznačené parkovacie miesta, vodič smie stáť len na nich."
       }, {
         "id": 8,
-        "headline": "Nadpis",
+        "headline": "Parkovanie vedľa osoby s ťažkým zdravotným postihnutím",
         "image": "img/theory/021_standAndStopBySpecialLicense.png",
         "paragraph": "Pri zastavení a státí vedľa vozidla s parkovacím preukazom podľa <a href='#'>§ 44 ods. 4</a> vodič je povinný ponechať bočný odstup najmenej 1,2 m.",
         "blockquote": "<b>§ 44 ods. 2</b><br> Parkovací preukaz sa môže používať na vozidle prepravujúcom fyzickú osobu s ťažkým zdravotným postihnutím, ktorá je odkázaná na individuálnu prepravu alebo má praktickú alebo úplnú slepotu oboch očí."
       }, {
         "id": 9,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Zastávenie alebo státie na okraji cesty alebo chodníka",
         "paragraph": "Ak vodič, ktorý chce zastaviť alebo stáť, zachádza na okraj cesty alebo chodníka, je povinný dávať znamenie o zmene smeru jazdy."
       }, {
         "id": 10,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Vychádzanie po zastavení alebo státí",
         "paragraph": "Vodič vozidla, ktoré zastavilo alebo stálo a opäť vychádza od okraja cesty alebo od chodníka, nesmie ohroziť ostatných účastníkov cestnej premávky; pritom je povinný dávať znamenie o zmene smeru jazdy."
       }, {
         "id": 11,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Vychádzanie vozidla pravidelnej verejnej dopravy zo zastávky",
         "paragraph": "Vodičovi vozidla pravidelnej verejnej dopravy osôb sú v obci vodiči ostatných vozidiel povinní umožniť vyjdenie zo zastávky alebo zo zastávkového pruhu, a to znížením rýchlosti jazdy, prípadne i zastavením vozidla; vodič takéhoto vozidla pritom nesmie ohroziť najmä vodičov vozidiel idúcich rovnakým smerom."
       }, {
         "id": 12,
-        "headline": "Nadpis",
+        "headline": "Nastupovanie a vystupovanie z vozidla",
         "paragraph": "Otvárať dvere alebo bočné steny vozidla, ako aj nastupovať do vozidla alebo vystupovať z neho sa smie len vtedy, ak tým nie je ohrozená bezpečnosť nastupujúcich osôb alebo vystupujúcich osôb ani iných účastníkov cestnej premávky."
       }, {
         "id": 13,
-        "headline": "Nadpis",
+        "headline": "Opatrenia pri opustení vozidla",
         "paragraph": "Vodič, ktorý sa chce vzdialiť od vozidla tak, že nebude môcť okamžite zasiahnuť, je povinný urobiť také opatrenia, aby vozidlo nemohlo ohroziť bezpečnosť a plynulosť cestnej premávky a aby ho nemohla neoprávnene použiť iná osoba. Ak je vozidlo povinne vybavené zariadením proti neoprávnenému použitiu, vodič je povinný ho použiť. Vodič motorového vozidla alebo jazdnej súpravy povinne vybavených zakladacími klinmi je povinný ich použiť, ak treba zabezpečiť vozidlo alebo súpravu proti pohybu."
       }, {
         "id": 14,
-        "headline": "Nadpis",
+        "headline": "Ako používať výstražný trojuholník",
         "image": "img/theory/021_triangleDistance.png",
         "paragraph": "Vodič vozidla, ktoré je povinne vybavené prenosným výstražným trojuholníkom, je povinný tento trojuholník použiť počas núdzového státia, najmä pri prerušení jazdy pre chybu na vozidle alebo na náklade alebo v dôsledku dopravnej nehody, ak také vozidlo tvorí prekážku cestnej premávky. Vodič je povinný trojuholník umiestniť na okraji vozovky tak, aby ho prichádzajúci vodiči včas a zreteľne videli, a to vo vzdialenosti <b>najmenej 50 m</b> za vozidlom a na diaľnici a rýchlostnej ceste <b>najmenej 100 m</b> za vozidlom. V obci môže byť počas núdzového státia vzdialenosť od trojuholníka na okraji vozovky k vozidlu, ak to vyžadujú okolnosti, kratšia. Ak je vozidlo vybavené osobitným zariadením, ktoré umožňuje výstražnú funkciu smerových svietidiel, vodič je povinný ho použiť aspoň v čase, kým umiestni trojuholník na vozovke."
       }, {
         "id": 15,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Zastavenie a státie v neprehľadnej zákrute",
         "paragraph": "Vodič nesmie zastaviť a stáť v neprehľadnej zákrute a v jej tesnej blízkosti."
       }, {
         "id": 16,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Zastavenie a státie pred neprehľadným vrcholom stúpania cesty",
         "paragraph": "Vodič nesmie zastaviť a stáť pred neprehľadným vrcholom stúpania cesty, na ňom a za ním."
       }, {
         "id": 17,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Zastavenie a státie na priechodoch",
         "paragraph": "Vodič nesmie zastaviť a stáť na priechode pre chodcov alebo na priechode pre cyklistov a vo vzdialenosti kratšej ako 5 m pred nim."
       }, {
         "id": 18,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Zastavenie a státie na križovatke",
         "paragraph": "Vodič nesmie zastaviť a stáť na križovatke a vo vzdialenosti kratšej ako 5 m pred hranicou križovatky a 5 m za ňou."
       }, {
         "id": 19,
-        "headline": "Nadpis",
+        "headline": "Zastavenie a státie na križovatke – výnimka",
         "image": "img/theory/021_crossroadT.png",
-        "paragraph": "Zákaz zastavenia a státia na križovatke a vo vzdialenosti kratšej ako 5 m pred hranicou križovatky a 5 m za ňou neplatí v obci na križovatke tvaru <i>T</i> na náprotivnej strane vyúsťujúcej cesty"
+        "paragraph": "Zákaz zastavenia a státia na križovatke a vo vzdialenosti kratšej ako 5 m pred hranicou križovatky a 5 m za ňou neplatí v obci na križovatke tvaru <i>T</i> na náprotivnej strane vyúsťujúcej cesty."
       }, {
         "id": 20,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Zastavenie a státie na pripájacom alebo na odbočovacom pruhu",
         "paragraph": "Vodič nesmie zastaviť a stáť na pripájacom alebo na odbočovacom pruhu."
       }, {
         "id": 21,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Zastavenie a státie v okolí zastávky vozidla pravidelnej verejnej dopravy",
+        "image": "img/theory/021_busstop.png",
         "paragraph": "Vodič nesmie zastaviť a stáť na zastávke vozidla pravidelnej verejnej dopravy osôb v úseku, ktorý sa začína dopravnou značkou pre zastávku a končí sa 5 m za označníkom zastávky, a tam, kde taká dopravná značka nie je, vo vzdialenosti kratšej ako 30 m pred označníkom zastávky a 5 m za ním. Ak je priestor zastávky vyznačený príslušnou vodorovnou dopravnou značkou, platí tento zákaz len pre nástupište a vyznačený priestor."
       }, {
         "id": 22,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Zastavenie a státie na železničnom priecestí, v podjazde a v tuneli",
         "paragraph": "Vodič nesmie zastaviť a stáť na železničnom priecestí, v podjazde a v tuneli a vo vzdialenosti kratšej ako 15 m pred nimi a 15 m za nimi."
       }, {
         "id": 23,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Zakrývanie dopravného značenia",
         "paragraph": "Vodič nesmie zastaviť a stáť na mieste, kde by vozidlo zakrývalo zvislú dopravnú značku, vodorovnú dopravnú značku vyznačujúcu spôsob radenia do jazdných pruhov a určený smer jazdy cez križovatku alebo vyjadrujúcu doplňujúci údaj nápisom alebo svetelné signály."
       }, {
         "id": 24,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Zastavenie a státie na vnútornom jazdnom pruhu",
         "paragraph": "Vodič nesmie zastaviť a stáť na vnútornom jazdnom pruhu."
       }, {
         "id": 25,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Zastavenie a státie na vyhradenom jazdnom pruhu",
         "paragraph": "Vodič nesmie zastaviť a stáť na vyhradenom jazdnom pruhu okrem vozidla, pre ktoré je vyhradený jazdný pruh určený, a ak nejde o vnútorný jazdný pruh."
       }, {
         "id": 26,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Zastavenie a státie na cestičke pre cyklistov",
         "paragraph": "Vodič nesmie zastaviť a stáť na cestičke pre cyklistov."
       }, {
         "id": 27,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Zastavenie a státie pri nástupnom ostrovčeku",
         "paragraph": "Vodič nesmie zastaviť a stáť vo vzdialenosti kratšej ako 5 m od začiatku a 5 m od konca pozdĺžnej súvislej čiary alebo nástupného ostrovčeka tam, kde by medzi touto čiarou alebo nástupným ostrovčekom a vozidlom nezostal voľný aspoň jeden jazdný pruh široký najmenej 3 m."
       }, {
         "id": 28,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Zastavenie a státie na moste",
         "paragraph": "Vodič nesmie zastaviť a stáť na moste."
       }, {
         "id": 29,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
-        "paragraph": "Vodič nesmie zastaviť a stáť pred vjazdom na cestu z miesta mimo cesty, alebo na vyhradenom parkovisku, ak nejde o vozidlo, pre ktoré je parkovisko vyhradené. "
+        "headline": "Zastavenie a státie pred vjazdom na cestu z miesta mimo cesty, alebo na vyhradenom parkovisku",
+        "paragraph": "Vodič nesmie zastaviť a stáť pred vjazdom na cestu z miesta mimo cesty, alebo na vyhradenom parkovisku, ak nejde o vozidlo, pre ktoré je parkovisko vyhradené."
       }, {
         "id": 30,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Zastavenie a státie na platenom parkovisku",
         "paragraph": "Vodič nesmie zastaviť a stáť na platenom parkovisku, ak vozidlo nemá zaplatený poplatok za parkovanie."
       }, {
         "id": 31,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Zastavenie a státie na električkovom koľajovom páse",
         "paragraph": "Vodič nesmie zastaviť a stáť na električkovom koľajovom páse."
       }, {
         "id": 32,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Zastavenie a státie na chodníku",
         "paragraph": "Vodič nesmie zastaviť a stáť na chodníku okrem prípadu podľa <a href=''>§ 52 ods. 2</a>.",
         "blockquote": "<b>§ 52 ods. 2</b><br>Iní účastníci cestnej premávky než chodci nesmú chodník používať; to neplatí, ak dopravnou značkou alebo dopravným zariadením je určené inak alebo ak ide o zastavenie alebo státie vozidla, pri ktorom ostane voľná šírka chodníka najmenej 1, 5 m okrem zóny s dopravným obmedzením spočívajúcim v zákaze zastavenia alebo státia a zóny s plateným alebo regulovaným státím. "
       }, {
         "id": 33,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Zastavenie a státie na kruhovom objazde",
         "paragraph": "Vodič nesmie zastaviť a stáť na kruhovom objazde."
       }, {
         "id": 34,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Zastavenie a státie na zeleni",
         "paragraph": "Vodič nesmie zastaviť a stáť na cestnej zeleni a inej verejne prístupnej zeleni, na ostrovčekoch a deliacich pásoch, ak to nie je dovolené dopravnou značkou."
       }, {
         "id": 35,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
-        "paragraph": "Vodič nesmie zastaviť a stáť na mieste, kde by medzi vozidlom a najbližšou električkovou koľajnicou nezostal voľný jazdný pruh široký najmenej 3, 5 m."
+        "headline": "Zastavenie a státie pri električkovej koľajnici",
+        "paragraph": "Vodič nesmie zastaviť a stáť na mieste, kde by medzi vozidlom a najbližšou električkovou koľajnicou nezostal voľný jazdný pruh široký najmenej 3,5 m."
       }, {
         "id": 36,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Zastavenie a státie na iných miestach",
         "paragraph": "Vodič nesmie zastaviť a stáť na iných miestach, kde zastavenie alebo státie môže ohroziť bezpečnosť a plynulosť cestnej premávky alebo obmedziť jazdu vozidiel; osobitne na miestach vjazdov alebo výjazdov z pozemkov, vjazdov a výjazdov z objektov určených na zásobovanie alebo parkovacích miest."
       }, {
         "id": 37,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Zastavenie a státie na cestách I. triedy",
         "paragraph": "Na cestách I. triedy a za zníženej viditeľnosti aj na ostatných cestách s výnimkou účelových komunikácií je mimo obce zakázané zastavenie a státie na inom mieste než na mieste označenom ako parkovisko s výnimkou núdzového státia."
       }]
     }, {
       "id": 22,
       "minutes": 8,
       "name": "Zastavenie vozidla v tuneli",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
+      "description": "Pravidlá správania sa v tuneli v prípade zastavenia vozidla, súvisiace najmä s bezpečnosťou",
       "content": [{
         "id": 1,
-        "headline": "Nadpis",
+        "headline": "Opatrenia pri poruche vozidla v tuneli",
         "paragraph": "Ak pri jazde vozidla v tuneli vznikne porucha vozidla, pre ktorú sa toto vozidlo stane nepojazdným, alebo ak vznikne dopravná nehoda vrátane požiaru, je vodič po zastavení vozidla povinný bezodkladne",
         "list": [{
           "listitem": "vypnúť motor, a ak je na vykurovanie vozidla použité nezávislé kúrenie, vypnúť aj toto kúrenie,"
@@ -1221,259 +1088,508 @@ var TheoryList = {
         }]
       }, {
         "id": 2,
-        "headline": "Nadpis",
+        "headline": "Fajčenie alebo manipulovanie s otvoreným ohňom",
         "paragraph": "V prípadoch uvedených v odseku 1 nesmie vodič a prepravovaná osoba fajčiť alebo manipulovať s otvoreným ohňom."
       }, {
         "id": 3,
-        "headline": "Nadpis",
+        "headline": "Bezpečnostné opatrenia",
         "paragraph": "Vodič alebo prepravovaná osoba sú v prípadoch uvedených v odseku 1 povinní na pokyn osoby vykonávajúcej dohľad nad prevádzkou tunela opustiť vozidlo a sústrediť sa do miest na to určených, prípadne tunel opustiť."
       }, {
         "id": 4,
-        "headline": "Nadpis",
+        "headline": "Pohyb osôb po vozovke v tuneli",
         "paragraph": "Ak to nie je nevyhnutné, prepravované osoby nesmú z vozidla vystupovať a pohybovať sa po vozovke. Také osoby sa môžu pohybovať po vozovke v tuneli len v súvislosti so zaisťovaním bezpečnosti cestnej premávky, ak majú na sebe reflexný bezpečnostný odev."
       }, {
         "id": 5,
-        "headline": "Nadpis",
+        "headline": "Ostatní vodiči a prepravované osoby",
         "paragraph": "Všetky ustanovenia zastavenia vozidla v tuneli, okrem oznámenia zastavenia vozidla, sa vzťahujú aj na ostatných vodičov a prepravované osoby."
       }]
     }, {
       "id": 23,
       "minutes": 8,
       "name": "Železničné priecestie",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka.",
+      "description": "Pravidlá správania sa v okolí železničného priecestia, dbajúce na zvýšenú opatrnosť",
       "content": [{
         "id": 1,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Opatrnosť pred železničným priecestím",
         "paragraph": "Pred železničným priecestím vodič je povinný počínať si mimoriadne opatrne, najmä sa presvedčiť, či môže bezpečne prejsť cez železničné priecestie."
       }, {
         "id": 2,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Radenie vozidiel pred železničným priecestím",
         "paragraph": "Vozidlá pred železničným priecestím sa radia za sebou v poradí, v ktorom prišli. Ak nejde o súbežnú jazdu, smú vozidlá prechádzať cez železničné priecestie len v jednom jazdnom prúde."
       }, {
         "id": 3,
-        "headline": "Nadpis",
+        "headline": "Rýchlosť vozidla pred železničným priecestím a na ňom",
         "image": "img/theory/023_railroadCrossingSpeed.png",
-        "paragraph": " Vo vzdialenosti 50 m pred železničným priecestím a pri jeho prechádzaní vodič je povinný jazdiť rýchlosťou <b>najviac 30 km/h</b>; ak na priecestnom zabezpečovacom zariadení svieti prerušované biele svetlo, vodič je povinný 50 m pred železničným priecestím a pri jeho prechádzaní jazdiť rýchlosťou <b>najviac 50 km/h</b>. Vodič pritom nesmie zbytočne predlžovať čas prechádzania železničného priecestia."
+        "paragraph": "Vo vzdialenosti 50 m pred železničným priecestím a pri jeho prechádzaní vodič je povinný jazdiť rýchlosťou <b>najviac 30 km/h</b>; ak na priecestnom zabezpečovacom zariadení svieti prerušované biele svetlo, vodič je povinný 50 m pred železničným priecestím a pri jeho prechádzaní jazdiť rýchlosťou <b>najviac 50 km/h</b>. Vodič pritom nesmie zbytočne predlžovať čas prechádzania železničného priecestia."
       }, {
         "id": 4,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Zastavenie vozidla na železničnom priecestí",
         "paragraph": "Ak dôjde k zastaveniu vozidla na železničnom priecestí, vodič je povinný odstrániť vozidlo zo železničnej trate; ak tak nemôže urobiť, musí bezodkladne vykonať také opatrenia, aby bol vodič koľajového vozidla pred nebezpečenstvom včas varovaný."
       }, {
         "id": 5,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Stoj, daj prednosť v jazde!",
         "paragraph": "Pred železničným priecestím, pri ktorom je umiestnená dopravná značka <i>Stoj, daj prednosť v jazde!</i>, vodič je povinný zastaviť vozidlo na takom mieste, z ktorého má náležitý rozhľad na trať."
       }, {
         "id": 6,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Výstraha dvoma červenými striedavo prerušovanými svetlami",
         "paragraph": "Vodič nesmie vchádzať na železničné priecestie, ak sa dáva výstraha dvoma červenými striedavo prerušovanými svetlami priecestného zabezpečovacieho zariadenia."
       }, {
         "id": 7,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Výstraha dávaná prerušovaným zvukom húkačky alebo zvončeka",
         "paragraph": "Vodič nesmie vchádzať na železničné priecestie, sa dáva výstraha prerušovaným zvukom húkačky alebo zvončeka priecestného zabezpečovacieho zariadenia."
       }, {
         "id": 8,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Závory",
         "paragraph": "Vodič nesmie vchádzať na železničné priecestie, sa spúšťajú, ak sú spustené alebo ak sa zdvíhajú závory."
       }, {
         "id": 9,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Zákaz vchádzania na železničné priecestie v prípade blízkosti vlaku",
         "paragraph": "Vodič nesmie vchádzať na železničné priecestie, už vidieť alebo počuť prichádzajúci vlak alebo iné dráhové vozidlo alebo ak počuť najmä jeho húkanie alebo pískanie."
       }, {
         "id": 10,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Znamenie na zastavenie vozidla krúžením červenou alebo žltou zástavkou",
         "paragraph": "Vodič nesmie vchádzať na železničné priecestie, osoba pribratá na zaistenie bezpečnej prevádzky železničného priecestia dáva znamenie na zastavenie vozidla krúžením červenou alebo žltou zástavkou a za zníženej viditeľnosti krúžením červeným svetlom v hornom polkruhu."
       }, {
         "id": 11,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
-        "paragraph": "Vodič nesmie vchádzať na železničné priecestie, situácia na železničnom priecestí alebo za ním nedovoľuje, aby ho bezpečne prešiel a pokračoval v jazde."
+        "headline": "Zákaz vchádzania na železničné priecestie",
+        "paragraph": "Vodič nesmie vchádzať na železničné priecestie, ak situácia na železničnom priecestí alebo za ním nedovoľuje, aby ho bezpečne prešiel a pokračoval v jazde."
       }, {
         "id": 12,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Pokyn na jazdu cez železničné priecestie vodorovným kývaním ruky s červenou alebo so žltou zástavkou",
         "paragraph": "Ak osoba pribratá na zaistenie bezpečnej prevádzky železničného priecestia dáva pokyn na jazdu cez železničné priecestie vodorovným kývaním ruky s červenou alebo so žltou zástavkou a za zníženej viditeľnosti bielym svetlom cez stred tela, vodič je povinný ju poslúchnuť; pritom neplatí <a href='#'>§ 28 písm. a) až d)</a>.",
         "blockquote": "<p><b>§ 28</b><br>Vodič nesmie vchádzať na železničné priecestie, ak</p><ul><li>sa dáva výstraha dvoma červenými striedavo prerušovanými svetlami priecestného zabezpečovacieho zariadenia,</li><li>sa dáva výstraha prerušovaným zvukom húkačky alebo zvončeka priecestného zabezpečovacieho zariadenia,</li><li>sa spúšťajú, ak sú spustené alebo ak sa zdvíhajú závory,</li><li>už vidieť alebo počuť prichádzajúci vlak alebo iné dráhové vozidlo alebo ak počuť najmä jeho húkanie alebo pískanie,</li></ul>"
       }, {
         "id": 13,
-        "headline": "Nadpis",
-        "image": "img/theory/img.png",
+        "headline": "Chodec",
         "paragraph": "Všetky ustanovenia o železničnom priecestí sa primerane vzťahujú aj na chodca."
       }]
     }, {
       "id": 24,
       "minutes": 8,
-      "name": "Výstražné znamenie",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
+      "name": "Znamenie o zmene smeru jazdy",
+      "description": "Kedy sa má dávať znamenie o zmene smeru jazdy",
+      "content": [{
+        "id": 9,
+        "headline": "Vychádzanie z kruhového objazdu",
+        "paragraph": "Pri jazde po kruhovom objazde vodič dáva znamenie o zmene smeru jazdy, ak z takej križovatky vychádza."
+      }]
     }, {
       "id": 25,
       "minutes": 8,
-      "name": "Osvetlenie vozidla",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
+      "name": "Výstražné znamenie",
+      "description": "Kedy sa má dávať svetelné výstražné znamenie",
+      "content": [{
+        "id": 3,
+        "headline": "Svetelné výstražné znamenie",
+        "paragraph": "Ak je nevyhnutné upozorniť ostatných účastníkov cestnej premávky na hroziace nebezpečenstvo, najmä v prípadoch, keď je potrebné náhle znížiť rýchlosť jazdy alebo zastaviť vozidlo, vodič dáva svetelné výstražné znamenie zapnutím výstražnej funkcie smerových svietidiel. Funkciu výstražných smerových svietidiel možno v iných prípadoch použiť len za podmienok podľa odseku 1."
+      }]
     }, {
       "id": 26,
       "minutes": 8,
-      "name": "Vlečenie motorového vozidla",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
+      "name": "Osvetlenie vozidla",
+      "description": "Kedy a ako používať osvetlenie vozidla",
+      "content": [{
+        "id": 1,
+        "headline": "Stretávacie svetlomety alebo im na roveň postavené osvetlenie",
+        "paragraph": "Vozidlo musí mať okrem prípadu uvedeného v § 34 ods. 4 počas jazdy rozsvietené stretávacie svetlomety alebo im na roveň postavené osvetlenie; to neplatí pre nemotorové vozidlo, ktoré musí mať rozsvietené svietidlá počas zníženej viditeľnosti."
+      }, {
+        "id": 2,
+        "headline": "Za nezníženej viditeľnosti",
+        "paragraph": "Za nezníženej viditeľnosti môžu byť na vozidle namiesto stretávacích svetlometov rozsvietené denné prevádzkové svietidlá, ak je nimi vozidlo vybavené."
+      }, {
+        "id": 3,
+        "headline": "Kedy nepoužívať diaľkové svetlomety",
+        "image": "img/theory/026_shining.png",
+        "paragraph": "Vodič nesmie použiť diaľkové svetlomety, ak je vozovka dostatočne a súvisle osvetlená, alebo ak by mohol byť oslnený vodič protiidúceho vozidla, vodič vozidla idúceho pred ním, alebo iný účastník cestnej premávky, strojvedúci vlaku alebo vodič iného dráhového vozidla, alebo vodič plavidla."
+      }, {
+        "id": 5,
+        "headline": "Predné svetlomety do hmly a zadné svietidlá do hmly",
+        "paragraph": "Predné svetlomety do hmly a zadné svietidlá do hmly vodič smie použiť len za hmly, sneženia alebo za dažďa."
+      }]
     }, {
       "id": 27,
       "minutes": 8,
-      "name": "Osobitosti premávky na diaľnici a rýchlostnej ceste",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
+      "name": "Vlečenie motorového vozidla",
+      "description": "Základné pravidlá a náležitosti pri vlečení vozidiel",
+      "content": [{
+        "id": 1,
+        "headline": "Maximálna rýchlosť pri vlečení motorového vozidla",
+        "image": "img/theory/027_towingSpeed.png",
+        "paragraph": "Pri vlečení motorového vozidla sa smie jazdiť rýchlosťou najviac 60 km/h."
+      }, {
+        "id": 2,
+        "headline": "Podmienky vlečenia motorového vozidla",
+        "paragraph": "Motorové vozidlo sa smie vliecť len vtedy, ak má účinné riadenie a brzdy; povinnosti podľa § 4 ods. 1 a 2 sa vzťahujú aj na vodiča vlečeného motorového vozidla. Vodiči vlečeného a vlečného motorového vozidla sú povinní vopred sa dohodnúť na spôsobe dorozumievania počas jazdy. Ustanovenie odseku 2 neplatí, ak je motorové vozidlo vlečené pomocou osobitného zariadenia, najmä pomocou vyslobodzovacieho podvozka alebo žeriava; v takom prípade musí byť vlečené motorové vozidlo vybavené vzadu prenosným osvetlením vozidla s napojením na vlečné vozidlo."
+      }, {
+        "id": 3,
+        "headline": "Osvetlenie vlečeného vozidla pri poruche osvetlenia",
+        "paragraph": "Pri poruche osvetlenia alebo inej poruche nedovoľujúcej použitie osvetlenia musia byť na vlečenom motorovom vozidle za zníženej viditeľnosti rozsvietené svietidlá na strane k stredu vozovky vpredu bielym neoslňujúcim svetlom a vzadu aspoň jedným červeným svetlom. Tieto svietidlá musia byť dobre viditeľné a nesmú byť umiestnené ďalej ako 400 mm od bočného obrysu motorového vozidla."
+      }, {
+        "id": 4,
+        "headline": "Vlečenie viacerých motorových vozidiel alebo motorového vozidla s prívesom",
+        "paragraph": "Vlečenie viacerých motorových vozidiel alebo vlečenie motorového vozidla s prívesom je zakázané; smie sa však vliecť motorové vozidlo s návesom."
+      }, {
+        "id": 5,
+        "headline": "Motorové vozidlo s prívesom",
+        "paragraph": "Za motorovým vozidlom s prívesom sa nesmie vliecť iné motorové vozidlo."
+      }, {
+        "id": 6,
+        "headline": "Vozidlo vlečené pomocou osobitného zariadenia, autobus a nákladný automobil ",
+        "paragraph": "Motorové vozidlo vlečené pomocou osobitného zariadenia a autobus sa smú vliecť len bez prepravovaných osôb; nákladný automobil sa smie vliecť len bez osôb prepravovaných v jeho ložnom priestore."
+      }, {
+        "id": 7,
+        "headline": "Motocykel bez postranného vozíka",
+        "paragraph": "Motocykel bez postranného vozíka sa nesmie vliecť ani použiť ako vlečné vozidlo."
+      }, {
+        "id": 8,
+        "headline": "Vlečenie motorového vozidla",
+        "image": "img/theory/027_towingLengths.png",
+        "paragraph": "Pri vlečení motorového vozidla musí byť dĺžka spojnice motorového vozidla taká, aby vzdialenosť medzi vozidlami nebola väčšia ako 6 m. Ak sa použije lano, nesmie byť vzdialenosť medzi vozidlami menšia ako 2,5 m; ak sa použije tyč, nesmie byť menšia ako 1 m."
+      }, {
+        "id": 9,
+        "headline": "Rozmery",
+        "image": "img/theory/027_towingRopeAndPole.png",
+        "paragraph": "Spojnica musí byť zreteľne označená, a to tyč striedavo priečnymi červenými a bielymi pruhmi so šírkou 7,5 cm a lano červenou zástavkou alebo štítkom s rozmermi najmenej 20 cm × 20 cm."
+      }]
     }, {
       "id": 28,
       "minutes": 8,
-      "name": "Osobitosti premávky v zimnom období",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
+      "name": "Osobitosti premávky na diaľnici a rýchlostnej ceste",
+      "description": "Pravidlá správania sa na diaľnici a rýchlostnej ceste",
+      "content": [{
+        "id": 4,
+        "headline": "Vchádzanie a vychádzanie z diaľnice",
+        "paragraph": "Vodič motorového vozidla smie na diaľnicu vchádzať a z diaľnice vychádzať len na miestach na to určených."
+      }, {
+        "id": 12,
+        "headline": "Zákáz otáčania, cúvania a vchádzania na stredný deliaci pás",
+        "paragraph": "Vodičovi motorového vozidla je na diaľnici zakázané otáčanie, cúvanie a vchádzanie na stredný deliaci pás vrátane miest, kde je pás prerušený."
+      }]
     }, {
       "id": 29,
       "minutes": 8,
-      "name": "Obmedzenie jazdy niektorých druhov vozidiel",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
-    }, {
-      "id": 30,
-      "minutes": 8,
-      "name": "Vozidlá so zvláštnymi výstražnými zvukovými znameniami alebo svetlami",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
-    }, {
-      "id": 31,
-      "minutes": 8,
-      "name": "Prekážka cestnej premávky",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
-    }, {
-      "id": 32,
-      "minutes": 8,
-      "name": "Osobitné označenia vozidla a parkovací preukaz",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
+      "name": "Osobitosti premávky v zimnom období",
+      "description": "Pravidlá jazdy počas zimného obdobia, napr. používanie zimných pneumatík",
+      "content": [{
+        "id": 1,
+        "headline": "Zimné pneumatiky",
+        "paragraph": "Ak sa na vozovke nachádza súvislá snehová vrstva, ľad alebo námraza, vodič motorového vozidla kategórie M1 a N1 môže také vozidlo použiť v cestnej premávke, len ak je toto vozidlo na všetkých nápravách vybavené zimnými pneumatikami s označením <i>M+S</i>, <i>M.S.</i> alebo <i>M & S</i>; motorové vozidlá kategórie M2, M3, N2 a N3 musia byť vybavené takými pneumatikami aspoň na jednej z hnacích náprav v čase od 15. novembra do 31. marca a v prípadoch, ktoré sú uvedené v časti vety pred bodkočiarkou."
+      }]
     }]
   }, {
     "id": 4,
     "section": "Preprava osôb a materiálu",
     "chapters": [{
-      "id": 33,
+      "id": 34,
       "name": "Preprava osôb",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
-    }, {
-      "id": 36,
-      "name": "Preprava osôb vozidlom pravidelnej verejnej dopravy",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
+      "description": "Podmienky prepravy osôb",
+      "content": [{
+        "id": 4,
+        "headline": "Limit osôb pri preprave",
+        "paragraph": "V motorovom vozidle alebo jeho prípojnom vozidle, ktoré je určené na prepravu osôb, smú sa na miestach na to vyhradených prepravovať osoby len do prípustnej užitočnej hmotnosti vozidla, pritom počet prepravovaných osôb nesmie byť vyšší, ako je počet miest uvedených v osvedčení o evidencii časť I a časť II alebo v technickom osvedčení vozidla."
+      }, {
+        "id": 6,
+        "headline": "Preprava osôb v prípojnom vozidle",
+        "paragraph": "V inom prípojnom vozidle ako vo vozidle, ktoré je určené na prepravu osôb, je preprava osôb s výnimkou prípadov podľa § 49 zakázaná."
+      }]
     }, {
       "id": 37,
-      "name": "Preprava osôb v ložnom priestore nákladného automobilu a traktora",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
-    }, {
-      "id": 38,
-      "name": "Prepava nákladu",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
+      "name": "Preprava nákladu",
+      "description": "Podmienky prepravy nákladu",
+      "content": [{
+        "id": 2,
+        "headline": "Podmienky prepravy nákladu",
+        "paragraph": "Náklad musí byť na vozidle riadne umiestnený, rozložený a upevnený, aby neohrozoval bezpečnosť a plynulosť cestnej premávky, neznečisťoval ani nepoškodzoval cestu ani jej okolie, nespôsoboval nadmerný hluk, neznečisťoval ovzdušie a nezakrýval svetlomety a svietidlá vozidla, odrazové sklá, tabuľku s evidenčným číslom a vyznačenie najvyššej povolenej rýchlosti."
+      }]
     }]
   }, {
     "id": 5,
     "section": "Osobitné ustanovenia o niektorých účastníkoch cestnej premávky",
     "chapters": [{
-      "id": 39,
+      "id": 38,
       "name": "Chodci",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
+      "description": "Základné pravidlá správania sa v cestnej premávke zaväzné pre chodcov",
+      "content": [{
+        "id": 2,
+        "headline": "Vpravo",
+        "paragraph": "Na priechode pre chodcov sa chodí vpravo."
+      }]
+    }, {
+      "id": 39,
+      "name": "Cyklisti",
+      "description": "Základné pravidlá správania sa v cestnej premávke zaväzné pre cyklistov",
+      "content": [{
+        "id": 1,
+        "headline": "Kde sa jazdí na bicykli",
+        "paragraph": "Na bicykli sa jazdí predovšetkým po cestičke pre cyklistov. Po cestičke pre cyklistov sa jazdí vpravo. "
+      }]
     }, {
       "id": 40,
-      "name": "Cyklisti",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
-    }, {
-      "id": 41,
       "name": "Jazda so záprahovým vozidlom a ručným vozíkom",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
-    }, {
-      "id": 42,
-      "name": "Jazda na zvieratách, vedenie a hnanie zvierat",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
+      "description": "Základné pravidlá správania sa v cestnej premávke zaväzné pre pohoničov",
+      "content": [{
+        "id": 1,
+        "headline": "Pohonič",
+        "paragraph": "Pohoničom záprahového vozidla nesmie byť osoba mladšia ako 15 rokov. Ak pohonič ide vedľa záprahového vozidla, je povinný ísť po pravej strane; pred opustením záprahového vozidla je povinný vozidlo zabrzdiť a na svahu podložiť kolesá."
+      }]
     }, {
       "id": 43,
-      "name": "Osoba vykonávajúca prácu na ceste",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
-    }, {
-      "id": 44,
-      "name": "Cestna premávka v obytnej, pešej a školskej zóne",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
+      "name": "Obytná, pešia a školská zóna",
+      "description": "Osobitné ustanovenia platiace v zónach",
+      "content": [{
+        "id": 2,
+        "headline": "Vjazd vozidiel do pešej zóny",
+        "paragraph": "Do pešej zóny je povolený vjazd len vozidlám, ktorým to umožňuje dopravná značka."
+      }, {
+        "id": 3,
+        "headline": "Osobitné ustanovenia v zónach",
+        "paragraph": "V obytnej zóne, pešej zóne a školskej zóne vodič smie jazdiť rýchlosťou najviac 20 km.h-1. Pritom je povinný dbať na zvýšenú ohľaduplnosť voči chodcom, ktorých nesmie ohroziť. Ak je to nevyhnutné, vodič je povinný zastaviť vozidlo. V obytnej zóne a pešej zóne je státie vozidiel zakázané, ak dopravnou značkou nie je určené inak. V školskej zóne možno stáť, ak tým nie je obmedzený pohyb chodcov."
+      }]
     }]
   }, {
     "id": 6,
     "section": "Úprava a riadenie cestnej premávky",
     "chapters": [{
-      "id": 45,
+      "id": 44,
       "name": "Dopravné značky a dopravné zariadenia",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
+      "description": "Základná definícia a rozdelenie dopravných značiek a hierarchia platnosti pravidiel cestnej premávky",
+      "content": [{
+        "id": 2,
+        "headline": "Nadradenosť dopravných značiek a zariadení",
+        "paragraph": "Úprava cestnej premávky vykonaná dopravnými značkami a dopravnými zariadeniami je nadradená všeobecnej úprave cestnej premávky."
+      }, {
+        "id": 3,
+        "headline": "Nesúlad medzi zvislými a vodorovnými dopravnými značkami",
+        "paragraph": "Ak je nesúlad medzi zvislými dopravnými značkami a vodorovnými dopravnými značkami, zvislé dopravné značky sú nadradené vodorovným dopravným značkám."
+      }, {
+        "id": 5,
+        "headline": "Pokyny policajta a inej oprávnenej osoby",
+        "paragraph": "Pokyny policajta a pokyny inej oprávnenej osoby sú nadradené pokynom vyplývajúcim z dopravných značiek a dopravných zariadení."
+      }]
     }, {
-      "id": 46,
+      "id": 45,
       "name": "Zvislé dopravné značky",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
-    }, {
-      "id": 47,
-      "name": "Vodorovné dopravné značky",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
-    }, {
-      "id": 48,
-      "name": "Dopravné zariadenia",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
+      "description": "Definícia a rozdelenie zvislých dopravných značiek",
+      "content": [{
+        "id": 2,
+        "headline": "Výstražné značky",
+        "paragraph": "Výstražné značky skupiny A upozorňujú na miesta, kde účastníkovi cestnej premávky môže hroziť nebezpečenstvo a kde musí dbať na zvýšenú opatrnosť."
+      }]
     }, {
       "id": 49,
-      "name": "Riadenie cestnej premávky",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
+      "name": "Svetelné signály a pokyny",
+      "description": "Definícia a vysvetlenie jednotlivých svetelných signálov a pokynov",
+      "content": [{
+        "id": 1,
+        "headline": "Typy svetelených signálov",
+        "paragraph": "Pri riadení cestnej premávky na križovatke sa používajú najmä svetelné signály trojfarebnej sústavy s plnými svetlami alebo so smerovými signálmi."
+      }, {
+        "id": 2,
+        "headline": "Stoj!",
+        "image": "img/theory/049_stop.png",
+        "paragraph": "Pri riadení cestnej premávky na križovatke signál s červeným svetlom <i>Stoj!</i> znamená pre vodiča povinnosť zastaviť vozidlo pred priečnou súvislou čiarou (č. V 5a až V 5c), a kde taká čiara nie je, pred svetelným signalizačným zariadením."
+      }, {
+        "id": 3,
+        "headline": "Stoj a priprav sa na jazdu!",
+        "image": "img/theory/049_stopAndGetReady.png",
+        "paragraph": "Pri riadení cestnej premávky na križovatke signál so súčasne svietiacim červeným svetlom <i>Stoj!</i> a žltým svetlom <i>Pozor!</i> znamená pre vodiča povinnosť pripraviť sa na jazdu."
+      }, {
+        "id": 4,
+        "headline": "Voľno!",
+        "image": "img/theory/049_go.png",
+        "paragraph": "Pri riadení cestnej premávky na križovatke signál s plným zeleným svetlom <i>Voľno</i> znamená pre vodiča možnosť pokračovať v jazde, a ak dodrží ustanovenia o odbočovaní a také odbočovanie nie je zakázané dopravnou značkou, možnosť odbočiť vpravo alebo vľavo, vodič je pritom povinný dať prednosť chodcom prechádzajúcim vo voľnom smere po priechode pre chodcov a cyklistom prechádzajúcim vo voľnom smere po priechode pre cyklistov, pritom ich nesmie ohroziť ani obmedziť."
+      }, {
+        "id": 5,
+        "headline": "Signál pre opustenie križovatky",
+        "image": "img/theory/049_leaveCrossroad.png",
+        "paragraph": "Ak svieti signál pre opustenie križovatky (č. S 4) umiestnený v protiľahlom rohu križovatky, neplatí pre odbočovanie vľavo alebo vpravo <a href='#'>§ 19 ods. 4 zákona</a>."
+      }, {
+        "id": 6,
+        "headline": "Pozor!",
+        "image": "img/theory/021_beAware.png",
+        "paragraph": "Pri riadení cestnej premávky na križovatke signál s plným žltým svetlom <i>Pozor!</i> znamená pre vodiča povinnosť zastaviť vozidlo pred priečnou súvislou čiarou (č. V 5a až V 5c), a kde taká čiara nie je, pred svetelným signalizačným zariadením; ak je však vozidlo pri rozsvietení tohto signálu už tak blízko, že by vodič nemohol vozidlo bezpečne zastaviť pred priečnou súvislou čiarou (č. V 5a až V 5c), a kde taká čiara nie je, pred svetelným signalizačným zariadením, smie pokračovať v jazde; ak svetlo tohto signálu svieti prerušovane, nejde o križovatku s premávkou riadenou svetelnými signálmi."
+      }, {
+        "id": 7,
+        "headline": "Smerový signál so zeleným svetlom",
+        "image": "img/theory/049_directionSignal.png",
+        "paragraph": "Pri riadení cestnej premávky na križovatke smerový signál so zeleným svetlom (zelená šípka alebo zelené šípky rôznych smerov) znamená pre vodiča možnosť pokračovať v jazde len v smere, ktorým uvedená šípka alebo šípky ukazujú; ak zelená šípka smeruje vľavo alebo vpravo, neplatí pre odbočovanie <a href='#'>§ 19 ods. 4 zákona</a>."
+      }, {
+        "id": 8,
+        "headline": "Signál so žltým svetlom v tvare chodca",
+        "image": "img/theory/049_signalYellowPedestrian.png",
+        "paragraph": "Pri riadení cestnej premávky na križovatke signál so žltým svetlom v tvare chodca (č. S 6a) alebo signál so žltým svetlom v tvare chodca a cyklistu (č. S 6b), ktorým je doplnený smerový signál so zeleným svetlom (zelená šípka smerujúca vpravo alebo vľavo), upozorňuje vodiča, že pri jazde smerom, ktorým táto šípka ukazuje, križuje smer chôdze chodcov prechádzajúcich vo voľnom smere po priechode pre chodcov, prípadne aj smer jazdy cyklistov prechádzajúcich vo voľnom smere po priechode pre cyklistov, ktorým je povinný dať prednosť, pritom ich nesmie ohroziť ani obmedziť; na tento účel je povinný zastaviť vozidlo."
+      }, {
+        "id": 9,
+        "headline": "Doplnkový signál (rôznych smerov) so zeleným svetlom v tvare zelenej šípky",
+        "image": "img/theory/049_addedSignal.png",
+        "paragraph": "Pri riadení cestnej premávky na križovatke doplnkový signál (rôznych smerov) so zeleným svetlom v tvare zelenej šípky (č. S 10), ktorým je doplnený signál s plným červeným svetlom <i>Stoj!</i>, svietiaci súčasne s týmto signálom alebo súčasne so signálom s plným žltým svetlom <i>Pozor!</i>, alebo súčasne so svietiacim signálom s plným červeným svetlom <i>Stoj!</i> a signálom s plným žltým svetlom <i>Pozor!</i>, znamená pre vodiča možnosť pokračovať v jazde len v smere, ktorým uvedená šípka alebo šípky ukazujú; pritom vodič je povinný dať prednosť v jazde vozidlám idúcim vo voľnom smere, ako aj prednosť chodcom prechádzajúcim vo voľnom smere po priechode pre chodcov a cyklistom prechádzajúcim vo voľnom smere po priechode pre cyklistov, pritom ich nesmie ohroziť ani obmedziť; na tento účel je povinný zastaviť vozidlo."
+      }, {
+        "id": 10,
+        "headline": "Skončenie platnosti signálu so zeleným svetlom",
+        "paragraph": "Na skončenie platnosti signálu so zeleným svetlom <i>Voľno</i> podľa písmen c), e) a g) možno vodiča vozidla upozorniť pravidelným striedavým zhasínaním a rozsvecovaním tohto signálu."
+      }, {
+        "id": 11,
+        "headline": "Riadenie cestnej premávky mimo križovatky",
+        "paragraph": "Pri riadení cestnej premávky mimo križovatky, napríklad pred priechodom pre chodcov, pred priechodom pre cyklistov alebo pred neprehľadným miestom, platia pre vodičov svetelné signalizačné znamenia ustanovené v odseku 2 rovnako."
+      }, {
+        "id": 12,
+        "headline": "Rýchlostný signál s premenným symbolom",
+        "paragraph": "Ak sa používa Rýchlostný signál s premenným symbolom (č. S 13), rozsvietené číslo označuje rýchlosť v km/h, pri ktorej dodržaní dôjde vozidlo k nasledujúcemu svetelnému signalizačnému zariadeniu v čase, keď na ňom svieti signál so zeleným svetlom <i>Voľno</i>. "
+      }, {
+        "id": 17,
+        "headline": "Striedavo prerušované plné červené svetlá",
+        "paragraph": "Signál dvoch vedľa seba umiestnených, striedavo prerušovaných plných červených svetiel znamená pre vodiča povinnosť zastaviť vozidlo pred svetelným signalizačným zariadením."
+      }, {
+        "id": 19,
+        "headline": "Prerušované žlté svetlo",
+        "paragraph": "Prerušované žlté svetlo (č. S 11a až S 11e) použité samostatne alebo v spojení s dopravnou značkou alebo dopravným zariadením upozorňuje na nevyhnutnosť dbať na zvýšenú opatrnosť a zdôrazňuje význam dopravnej značky alebo dopravného zariadenia."
+      }]
     }, {
       "id": 50,
-      "name": "Riadenie cestnej premávky svetelnými signálmi a pokynmi",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
+      "name": "Svetelné signály pre chodcov a cyklistov",
+      "description": "Definícia a vysvetlenie jednotlivých svetelných signálov pre chodcov a cyklistov",
+      "content": [{
+        "id": 1,
+        "headline": "Voľno!",
+        "image": "img/theory/050_go.png",
+        "paragraph": "Pre chodcov sa používajú svetelné signály dvojfarebnej sústavy, pričom signál pre chodcov so zeleným svetlom <i>Voľno</i> (č. S 5b) znamená, že chodec môže prechádzať cestu vo voľnom smere po priechode pre chodcov; ak počas prechádzania zhasne signál <i>Voľno</i> (č. S 5b) a následne sa rozsvieti signál <i>Stoj!</i> (č. S 5a), smie chodec dokončiť prechádzanie k svetelnému signalizačnému zariadeniu aj na tento svetelný signál."
+      }, {
+        "id": 2,
+        "headline": "Stoj!",
+        "image": "img/theory/050_stop.png",
+        "paragraph": "Pre chodcov sa používajú svetelné signály dvojfarebnej sústavy, pričom signál pre chodcov s červeným svetlom <i>Stoj!</i> (č. S 5a) znamená, že chodec nesmie vstupovať na cestu."
+      }]
     }, {
       "id": 51,
+      "name": "Pokyny",
+      "description": "Definícia a vysvetlenie jednotlivých pokynov policajta pri riadení cestnej premávky",
+      "content": [{
+        "id": 8,
+        "headline": "Iné pokyny",
+        "paragraph": "Policajt môže pri riadení cestnej premávky dávať okrem pokynov uvedených v odseku 1 aj iné pokyny, najmä pokyn <i>Zrýchliť jazdu!</i> vodorovným kývaním ruky cez stred tela, <i>Spomaliť jazdu!</i> kývaním ruky hore a dolu. Na zdôraznenie pokynu môže policajt použiť píšťalku."
+      }]
+    }, {
+      "id": 52,
       "name": "Oprávenie na zastavovanie vozidiel",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
+      "description": "Pravidlá pri zastavovaní vozidiel policajtom",
+      "content": [{
+        "id": 10,
+        "headline": "Znamenie na zastavenie vozidla",
+        "paragraph": "Policajt v rovnošate dáva znamenie na zastavenie vozidla zdvihnutím ruky alebo zdvihnutým zastavovacím terčom (č. Z 5a), alebo svietidlom vyžarujúcim svetlo červenej farby, ktorým pohybuje v hornom polkruhu. Z idúceho vozidla môže dávať policajt v rovnošate toto znamenie kývaním ruky zvisle hore a dolu, vysunutým zastavovacím terčom alebo rozsvietením nápisu STOP umiestneného na vozidle. Z idúceho vozidla možno pokyn na zastavenie vozidla zdôrazniť zvláštnym výstražným svetlom, prípadne aj zvláštnym zvukovým znamením podľa § 40 zákona. Pokyn na zastavenie vozidla možno dávať z vozidla idúceho pred zastavovaným vozidlom, ako aj z vozidla idúceho za zastavovaným vozidlom. Pri zastavovaní vozidla idúceho pred vozidlom, z ktorého policajt v rovnošate dáva pokyn na zastavenie vozidla, sa zvláštne výstražné svetlo a zvláštne výstražné zvukové znamenie použije vždy."
+      }]
     }]
   }, {
     "id": 7,
     "section": "Dopravné nehody",
     "chapters": [{
-      "id": 52,
-      "name": "Dopravná nehoda",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
-    }, {
-      "id": 53,
-      "name": "Povinnosti vodiča pri dopravnej nehode",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
-    }, {
       "id": 54,
-      "name": "Povinnosti účastníka dopravnej nehody a škodovej udalosti",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
-    }]
-  }, {
-    "id": 8,
-    "section": "Oprávnenia policajta",
-    "chapters": [{
+      "name": "Povinnosti vodiča pri dopravnej nehode",
+      "description": "Povinnosti vodiča, ktorý sa zúčastnil na dopravnej nehode, týkajúce sa najmä bezpečnosti",
+      "content": [{
+        "id": 1,
+        "headline": "Povinnosti vodiča pri dopravnej nehode",
+        "paragraph": "Vodič, ktorý sa zúčastnil na dopravnej nehode, je povinný:",
+        "list": [{
+          "listitem": "bezodkladne zastaviť vozidlo,"
+        }, {
+          "listitem": "zdržať sa požitia alkoholu alebo inej návykovej látky po nehode v čase, keď by to bolo na ujmu zistenia, či pred jazdou alebo počas jazdy požil alkohol alebo inú návykovú látku."
+        }]
+      }]
+    }, {
       "id": 55,
-      "name": "Všeobecné oprávnenia",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
-    }, {
-      "id": 56,
-      "name": "Zadržanie vodičského preukazu",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
-    }, {
-      "id": 57,
-      "name": "Zadržanie osvedčenia o evidencii časť I alebo časť II, evidenčného dokladu vydaného v cudzine, technického osvedčenia vozidla a tabuľky s evidenčným číslom",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
+      "name": "Povinnosti účastníka dopravnej nehody",
+      "description": "Povinnosti účastníka dopravnej nehody, týkajúce sa najmä bezpečnosti",
+      "content": [{
+        "id": 2,
+        "headline": "Povinnosti účastníka dopravnej nehody",
+        "paragraph": "Účastník dopravnej nehody je povinný:",
+        "list": [{
+          "listitem": "ohlásiť dopravnú nehodu policajtovi,"
+        }, {
+          "listitem": "poskytnúť podľa svojich schopností a možností zranenej osobe prvú pomoc a bezodkladne privolať záchrannú zdravotnú službu,"
+        }, {
+          "listitem": "urobiť potrebné opatrenia na záchranu osoby alebo majetku ohrozeného dopravnou nehodou,"
+        }, {
+          "listitem": "zotrvať na mieste dopravnej nehody až do príchodu policajta alebo sa na toto miesto bezodkladne vrátiť po poskytnutí alebo privolaní pomoci, alebo po ohlásení dopravnej nehody,"
+        }, {
+          "listitem": "zdržať sa konania, ktoré by bolo na ujmu vyšetrenia dopravnej nehody, najmä premiestnenia vozidiel,"
+        }, {
+          "listitem": "urobiť vhodné opatrenia, aby nebola ohrozená bezpečnosť cestnej premávky na mieste dopravnej nehody,"
+        }, {
+          "listitem": "umožniť obnovenie cestnej premávky, najmä premávky vozidiel pravidelnej verejnej dopravy osôb,"
+        }, {
+          "listitem": "preukázať svoju totožnosť na požiadanie iného účastníka dopravnej nehody,"
+        }, {
+          "listitem": "bezodkladne upovedomiť osobu, ktorá nie je účastníkom dopravnej nehody, o hmotnej škode, ktorá jej bola spôsobená dopravnou nehodou, a oznámiť jej svoje osobné údaje; ak to nie je možné, upovedomenie a oznámenie zabezpečí prostredníctvom Policajného zboru."
+        }]
+      }]
     }]
-
   }, {
-    "id": 9,
-    "section": "Zodpovednosť za porušenie povinností",
+    "id": 10,
+    "section": "Technické podmienky prevádzky vozidiel",
     "chapters": [{
-      "id": 58,
-      "name": "Zodpovednosť za porušenie povinností",
-      "description": "Definuje základné pojmy, ako napr. autobus, alebo križovatka."
+      "id": 60,
+      "name": "Prevádzka",
+      "description": "Technické detaily, týkajúce sa správnej prevádzky vozidla",
+      "content": [{
+        "id": 1,
+        "headline": "Prevádzka vozidla",
+        "paragraph": "Na vozidle nesmú byť, s výnimkou núdzového dojazdu, súčasne použité pneumatiky rôznych rozmerov a konštrukcií, pokiaľ pri schválení nebolo určené inak. Na rovnakej náprave musia byť použité iba zhodné pneumatiky. Konštrukciou pneumatiky sa rozumie konštrukcia diagonálna (BIAS-PLY), radiálna (PLY) a zmiešaná (BIAS BELTED). Zhodnou pneumatikou sa rozumie pneumatika rovnakého rozmeru, konštrukcie, kategórie použitia, názvu výrobcu alebo obchodnej značky, indexu nosnosti, kategórie rýchlosti a prierezu."
+      }, {
+        "id": 2,
+        "headline": "Pneumatiky",
+        "paragraph": "Pneumatiky nesmú mať na svojom vonkajšom obvode, napríklad v oblasti koruny, boku a pätky, trhliny ani poškodenia, ktoré obnažujú kordovú kostru alebo ju narúšajú. Hĺbka hlavných drážok v stredovej časti povrchu dezénu pneumatiky, ktorý pokrýva približne tri štvrtiny šírky povrchu dezénu jazdnej plochy pneumatiky, nesmie byť menej ako:",
+        "list": [{
+          "listitem": "1 mm na vozidlách kategórie L1e,"
+        }, {
+          "listitem": "1,6 mm na vozidlách ostatných kategórií a 3 mm v prípadoch, kedy osobitný predpis pre vozidlá kategórie M a N ustanovuje povinnosť použiť v cestnej premávke vozidlo vybavené zimnými pneumatikami <i>M+S</i>, <i>M.S.</i> alebo <i>M & S</i>."
+        }]
+      }]
+    }, {
+      "id": 61,
+      "name": "Technická nespôsobilosť",
+      "description": "Definuje situácie, kedy sa vozidlo považuje za technicky nespôsobilé",
+      "content": [{
+        "id": 10,
+        "headline": "Náprava",
+        "paragraph": "Vozidlo sa považuje za technicky nespôsobilé na cestnú premávku, ak náprava alebo nápravy alebo ťažné oje prívesu sú deformované alebo vážne poškodené."
+      }, {
+        "id": 11,
+        "headline": "Výhľad z miesta vodiča",
+        "paragraph": "Vozidlo sa považuje za technicky nespôsobilé na cestnú premávku, ak je výhľad z miesta vodiča obmedzený alebo znemožnený."
+      }, {
+        "id": 16,
+        "headline": "Únik prevádzkových náplní z vozidla",
+        "paragraph": "Vozidlo sa považuje za technicky nespôsobilé na cestnú premávku, ak zjavne uniká palivo, olej, mazivo alebo iné prevádzkové náplne z vozidla."
+      }, {
+        "id": 19,
+        "headline": "Deformovaný podvozok, rám alebo karoséria",
+        "paragraph": "Vozidlo sa považuje za technicky nespôsobilé na cestnú premávku, ak je poškodený alebo deformovaný podvozok, rám alebo karoséria alebo na vozidle boli vykonané nepovolené úpravy, alebo bol zabudovaný neschválený komponent alebo samostatná technická jednotka."
+      }, {
+        "id": 20,
+        "headline": "Výfukový systém",
+        "paragraph": "Vozidlo sa považuje za technicky nespôsobilé na cestnú premávku, najmä ak niektorá časť výfukového systému je netesná, takže výfukové plyny vnikajú do priestoru pre cestujúcich, vodiča alebo nákladu alebo sú zdrojom nadmerného zvuku."
+      }]
+    },{
+      "id": 62,
+      "name": "Povinná výbava",
+      "description": "Predmety a zariadenia, ktoré by nemali chýbať v žiadnom vozidle",
+      "content": [{
+        "id": 1,
+        "headline": "Povinná výbava",
+        "paragraph": "Povinnou výbavou motorového vozidla kategórie M, N, T, C a PS je:",
+        "list": [{
+          "listitem": "homologizovaný prenosný výstražný trojuholník,"
+        }, {
+          "listitem": "bezpečnostný reflexný odev napríklad vesta, overal, nohavice, bunda alebo pláštenka; bezpečnostný reflexný odev sa umiestňuje v dosahu zo sedadla vodiča vozidla,"
+        }, {
+          "listitem": "náhradné koleso s diskom a s náhradnou pneumatikou predpísaného druhu a rozmeru s takým upevnením držiaka, ktoré zabezpečuje, že sila pri vyberaní kolesa z držiaka alebo pri vkladaní kolesa do držiaka nepresiahne 490 N; jazdná súprava zložená z ťahača a prípojného vozidla môže mať pri rovnakých rozmeroch pneumatík a pri rovnakom vyhotovení kolies jedno spoločné náhradné koleso; to sa nevzťahuje na pneumatiky pre núdzový dojazd, ak pri schválení podľa osobitného predpisu nebolo určené inak; náhradné koleso musí byť v držiaku počas prevádzky v cestnej premávke riadne pripevnené; spolu s náhradným kolesom s diskom a s náhradnou pneumatikou povinnou výbavou musí byť aj kľúč na matice alebo na skrutky kolies a príručný zdvihák s nosnosťou rovnajúcou sa aspoň zaťaženiu najviac zaťaženej nápravy vozidla alebo rovnajúcou sa hmotnosti zdvíhanej časti vozidla z najväčšej prípustnej celkovej hmotnosti vozidla pri zdvíhaní tejto časti spôsobom určeným výrobcom na použitie zdviháka; ustanovenie tohto písmena platí iba pre vozidlá kategórie M a N,"
+        }, {
+          "listitem": "lekárnička podľa osobitného predpisu; u vozidla v medzinárodnej premávke lekárnička musí zodpovedať normám platným v štáte evidencie vozidla pre motorové vozidlá; ustanovenie tohto písmena platí aj pre vozidlá kategórie L3e až L5e a L7e,"
+        }, {
+          "listitem": "protisklzové reťaze svojimi rozmermi určené aspoň pre jednu z hnacích náprav v čase od 15. novembra do 31. marca; ustanovenie tohto písmena platí iba pre vozidlá kategórie N3."
+        }]
+      }]
     }]
   }]
 }

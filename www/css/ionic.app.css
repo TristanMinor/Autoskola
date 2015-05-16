@@ -7817,6 +7817,12 @@ ul li {
   min-height: 44px;
   font-size: 17px;
   font-weight: 500; }
+.bar .button.button-clear {
+  font-weight: 500;
+  padding: 0 8px; }
+
+.button-icon.button.active, .button-icon.button.activated, .button-clear.button.active, .button-clear.button.activated {
+  opacity: 0.5; }
 
 .platform-ios.platform-cordova:not(.fullscreen) .bar-header:not(.bar-subheader) {
   height: 76px; }
@@ -8066,6 +8072,11 @@ ul li {
   opacity: 1;
   height: 102px; }
 
+.item.item-hidden .item-inner {
+  color: #979BAA; }
+.item.item-hidden img {
+  opacity: 0.4; }
+
 .item-thumbnail-left .item-content {
   padding-left: 106px; }
 
@@ -8295,7 +8306,7 @@ ul li {
   position: relative;
   float: left;
   margin-right: 6px;
-  margin-bottom: 6px;
+  margin-bottom: 10px;
   background-color: #e3e6f2; }
 
 .circle.circle-done {

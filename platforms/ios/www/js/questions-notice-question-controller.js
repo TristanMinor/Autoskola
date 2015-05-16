@@ -2,6 +2,7 @@ angular.module('autoskola')
   .controller('QuestionsNoticeQuestionController', function($scope, $state, $ionicModal, NoticeService, TheoryService) {
 
     $scope.localData = {};
+    $scope.explainings = [];
 
     $scope.optionsModel = ["a","b","c"];
     $scope.localData = NoticeService.get().localData;
@@ -10,6 +11,12 @@ angular.module('autoskola')
 
     $scope.pinQuestion = function(item) {
       NoticeService.pinQuestion(item);
+    }
+
+    $scope.hideQuestion = function(item) {
+      NoticeService.hideQuestion(item);
+      $state.go('tabs.questions', {
+      });
     }
 
     $ionicModal.fromTemplateUrl('templates/modals/modal-explaining.html', function($ionicModal) {

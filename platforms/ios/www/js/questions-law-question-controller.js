@@ -3,7 +3,7 @@ angular.module('autoskola')
 
     $scope.localData = {};
     $scope.explainings = [];
-    
+
     $scope.optionsModel = ["a","b","c"];
     $scope.localData = LawService.get().localData;
     $scope.question = LawService.getQuestion($state.params.id);
@@ -11,6 +11,12 @@ angular.module('autoskola')
 
     $scope.pinQuestion = function(item) {
       LawService.pinQuestion(item);
+    }
+
+    $scope.hideQuestion = function(item) {
+      LawService.hideQuestion(item);
+      $state.go('tabs.questions', {        
+      });
     }
 
     // Load the modal from the given template URL

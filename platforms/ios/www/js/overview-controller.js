@@ -7,10 +7,10 @@ angular.module('autoskola')
     $scope.tabName = 'tab-progres';
 
     $scope.localDataRewards = OverviewService.get().localDataRewards;
-    $scope.localDataLaw = OverviewService.get().localDataLaw;
-    $scope.localDataNotice = OverviewService.get().localDataNotice;
-    $scope.localDataSigns = OverviewService.get().localDataSigns;
-    $scope.localDataSituations = OverviewService.get().localDataSituations;
+    $scope.localDataLaw = LawService.get().localData;
+    $scope.localDataNotice = NoticeService.get().localData;
+    $scope.localDataSigns = SignsService.get().localData;
+    $scope.localDataSituations = SituationsService.get().localData;
 
     $scope.rewards = OverviewService.get().rewards;
     $scope.law = LawService.get().data;

@@ -45,4 +45,15 @@
     font-size: 17px;
     font-weight: 500;
   }
+  .button.button-clear {
+    font-weight: 500;
+    padding: 0 8px;
+  }
+}
+
+.button-icon.button.active,
+.button-icon.button.activated,
+.button-clear.button.active,
+.button-clear.button.activated {
+  opacity: 0.5;
 }

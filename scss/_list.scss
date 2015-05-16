@@ -121,6 +121,16 @@
   height: 102px;
 }
 
+.item.item-hidden {
+  .item-inner {
+    color: $link-secondary;
+  }
+  img {
+    opacity: 0.4;
+
+  }
+}
+
 .item-thumbnail-left {
   .item-content {
     padding-left: 106px;

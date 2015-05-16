@@ -13,7 +13,7 @@ var RewardsList = {
     "id": 3,
     "name": "Pozor, zákruta!",
     "description": "Nauč sa všetky výstražné značky",
-    "image": "img/rewards/unlocked.png"
+    "image": "img/rewards/pozorZakruta.png"
   }, {
     "id": 4,
     "name": "Gentleman",
@@ -23,7 +23,7 @@ var RewardsList = {
     "id": 5,
     "name": "Zakázané ovocie",
     "description": "Nauč sa všetky zákazové značky",
-    "image": "img/rewards/unlocked.png"
+    "image": "img/rewards/zakazaneOvocie.png"
   }, {
     "id": 6,
     "name": "Dopravné prikázania",
