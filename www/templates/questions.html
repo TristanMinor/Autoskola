@@ -20,9 +20,8 @@
       <div ng-switch-when="tab-law" ng-controller="QuestionsLawController">
         <ion-list type="list-inset">
           <ion-item
-            ng-if="! localData[item.id].hidden"
+            ng-if="!localData[item.id].hidden"
             ng-repeat="item in data"
-            collection-item-height="99"
             class="item item-icon-right item-hideable"
             ng-class="{'pinned': localData[item.id].pinned}"
             href="#/questions/law/{{item.id}}" nav-direction="forward"

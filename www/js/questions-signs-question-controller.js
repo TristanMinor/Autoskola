@@ -13,6 +13,12 @@ angular.module('autoskola')
       SignsService.pinQuestion(item);
     }
 
+    $scope.hideQuestion = function(item) {
+      SignsService.hideQuestion(item);
+      $state.go('tabs.questions', {
+      });
+    }
+
     // Load the modal from the given template URL
     $ionicModal.fromTemplateUrl('templates/modals/modal-explaining.html', function($ionicModal) {
       $scope.modal = $ionicModal;

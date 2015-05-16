@@ -10,6 +10,9 @@
       <a ng-click="pinQuestion(question)">
         <button class="button button-icon icon" ng-class="{'icon-pin': localData[question.id].pinned, 'icon-pin-outline': !localData[question.id].pinned}"></button>
       </a>
+      <a ng-click="hideQuestion(question)">
+        <button class="button button-icon icon icon-check"></button>
+      </a>
     </ion-nav-buttons>
   </ion-nav-bar>
 

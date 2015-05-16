@@ -13,6 +13,12 @@ angular.module('autoskola')
       NoticeService.pinQuestion(item);
     }
 
+    $scope.hideQuestion = function(item) {
+      NoticeService.hideQuestion(item);
+      $state.go('tabs.questions', {
+      });
+    }
+
     $ionicModal.fromTemplateUrl('templates/modals/modal-explaining.html', function($ionicModal) {
       $scope.modal = $ionicModal;
     }, {
