@@ -8025,6 +8025,9 @@ ul li {
 .item p {
   color: #6e7387; }
 
+.item .item-content.activated, .item.activated {
+  background-color: #dce0ee; }
+
 .item-inner {
   height: auto;
   color: #222;
@@ -8112,7 +8115,7 @@ ul li {
     margin-right: 26px; }
 
 .bundle-situations {
-  margin-bottom: 36px; }
+  margin-bottom: 1px; }
 
 .bundle-situations:last-child {
   margin-bottom: 0; }
@@ -8166,6 +8169,16 @@ ul li {
     color: #c1c4cc; }
     .test-score h1.negative {
       color: #fff; }
+
+.item.item-test-type .item-note {
+  position: absolute;
+  right: 34px; }
+.item.item-test-type .icon {
+  font-size: 24px;
+  line-height: 22px;
+  position: absolute;
+  right: 10px;
+  color: #979BAA; }
 
 .chapter-text {
   padding-left: 72px;
@@ -8250,11 +8263,15 @@ ul li {
   bottom: 0;
   left: 0;
   right: 0;
-  width: 100%; }
+  width: 100%;
+  max-height: 100%; }
   .modal-fullscreen .scroll-content {
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
     background-color: #EAECF5;
     height: auto;
     position: relative;
+    top: 0;
     display: block;
     padding-top: 72px;
     padding-bottom: 72px; }
@@ -8277,8 +8294,8 @@ ul li {
       -webkit-border-bottom-left-radius: 6px;
       border-bottom-left-radius: 6px;
       background-color: #fff; }
-    .active .modal-wrapper .modal .item {
-      text-align: left; } }
+      .active .modal-wrapper .modal .scroll-content .item {
+        text-align: left; } }
 
 .modal-image {
   padding-top: 36px;
@@ -8348,9 +8365,6 @@ ion-content.bg-stable {
 .item-opened {
   background-color: #fff;
   padding-top: 72px; }
-
-.item .item-content.activated {
-  background-color: #dce0ee; }
 
 .appicon {
   width: 90px; }

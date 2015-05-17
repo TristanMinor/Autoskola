@@ -7,10 +7,13 @@
   left: 0;
   right: 0;
   width: 100%;
+  max-height: 100%;
   .scroll-content {
+    @include border-radius($radius-item);
     background-color: $stable;
     height: auto;
     position: relative;
+    top: 0;
     display: block;
     padding-top: $padding-large;
     padding-bottom: $padding-large;
@@ -26,20 +29,19 @@
         @include border-radius($radius-item);
         .bar-header {
           @include border-top-radius($radius-item);
-          border-bottom: 1px solid $line;          
+          border-bottom: 1px solid $line;
         }
         .scroll-content {
           @include border-bottom-radius($radius-item);
           background-color: $light;
-        }
-        .item {
-          text-align: left;
+          .item {
+            text-align: left;
+          }
         }
       }
     }
   }
 }
-
 .modal-image {
   padding-top: $padding-medium;
   padding-bottom: $padding-medium;
@@ -47,7 +49,6 @@
     max-width: 160px;
   }
 }
-
 .modal-text {
   padding-left: $padding-medium;
   padding-right: $padding-medium;

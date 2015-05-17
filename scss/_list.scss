@@ -9,6 +9,7 @@
   }
 }
 
+
 .item-divider {
   background-color: $stable;
   text-transform: uppercase;
@@ -52,6 +53,12 @@
     color: darken($link-secondary, 15);
   }
 }
+
+.item .item-content.activated,
+.item.activated {
+  background-color: darken($stable,4);
+}
+
 .item-inner {
   height: auto;
   // height: 60px;
@@ -180,7 +187,7 @@
 }
 
 .bundle-situations {
-  margin-bottom: $padding-medium;
+  margin-bottom: 1px;
 }
 
 .bundle-situations:last-child {
@@ -257,5 +264,19 @@
     &.negative {
       color: $light;
     }
+  }
+}
+
+.item.item-test-type {
+  .item-note {
+    position: absolute;
+    right: 34px;
+  }
+  .icon {
+    font-size: 24px;
+    line-height: 22px;
+    position: absolute;
+    right: 10px;
+    color: $link-secondary;
   }
 }

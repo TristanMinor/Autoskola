@@ -98,7 +98,7 @@
 
       <!-- Situations tab -->
       <div ng-switch-when="tab-situations" ng-controller="QuestionsSituationsController">
-        <ion-list type="list-inset">
+        <ion-list type="list-inset" class="list-situations">
           <div ng-repeat="item in data">
 
             <div class="item item-divider" ng-if="!hasAllHiddenQuestions(item.bundles)">
