@@ -29,13 +29,24 @@ angular.module('autoskola')
       return q;
     }
 
+    // function countLawHidden() {
+    //   var lawhidden = 0;
+    //   for (var key in localData){
+    //     if (localData[key].hidden) {
+    //       lawhidden++;
+    //     }
+    //   }
+    //   console.log(lawhidden);
+    // }
+
     loadLocalStorage();
+    // countLawHidden();
 
     return {
       get: function() {
         return {
           data: data,
-          localData: localData
+          localData: localData,
         };
       },
 

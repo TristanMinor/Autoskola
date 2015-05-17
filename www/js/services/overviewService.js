@@ -7,10 +7,6 @@ angular.module('autoskola')
     var law = LawList.law;
 
     var localDataRewards = {};
-    var localDataLaw = {};
-    var localDataNotice = {};
-    var localDataSigns = {};
-    var localDataSituations = {};
 
     function loadLocalStorageRewards() {
       var storage = localStorage.getItem('rewards');
@@ -21,51 +17,11 @@ angular.module('autoskola')
       }
     }
 
-    function loadLocalStorageLaw() {
-      var storage = localStorage.getItem('law');
-      if (! storage) {
-        localDataLaw = {};
-      } else {
-        localDataLaw = JSON.parse(storage);
-      }
-    }
-
-    function loadLocalStorageNotice() {
-      var storage = localStorage.getItem('notice');
-      if (! storage) {
-        localDataNotice = {};
-      } else {
-        localDataNotice = JSON.parse(storage);
-      }
-    }
-
-    function loadLocalStorageSigns() {
-      var storage = localStorage.getItem('signs');
-      if (! storage) {
-        localDataSigns = {};
-      } else {
-        localDataSigns = JSON.parse(storage);
-      }
-    }
-
-    function loadLocalStorageSituations() {
-      var storage = localStorage.getItem('situations');
-      if (! storage) {
-        localDataSituations = {};
-      } else {
-        localDataSituations = JSON.parse(storage);
-      }
-    }
-
     function saveLocalStorageRewards() {
       localStorage.setItem('rewards', JSON.stringify(localDataRewards));
     }
 
     loadLocalStorageRewards();
-    loadLocalStorageLaw();
-    loadLocalStorageNotice();
-    loadLocalStorageSigns();
-    loadLocalStorageSituations();
 
     function countLawPercentage() {
       var lawQuestionsQty = law.length;
@@ -84,10 +40,6 @@ angular.module('autoskola')
         return {
           rewards: rewards,
           localDataRewards: localDataRewards,
-          localDataLaw: localDataLaw,
-          localDataNotice: localDataNotice,
-          localDataSigns: localDataSigns,
-          localDataSituations: localDataSituations,
         };
       },
 

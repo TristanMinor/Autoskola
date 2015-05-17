@@ -40,15 +40,23 @@
     .question-answer {
       white-space: normal;
       padding: $padding-small $padding-large $padding-small 110px;
+      p {
+        color: #1f1f1f;
+        white-space: normal;
+      }
     }
     .answer-checked {
       &.answer-correct {
         background-color: lighten($balanced, 30);
-        color: darken($balanced, 30);
+        p {
+          color: darken($balanced, 30);
+        }
       }
       &.answer-selected.answer-incorrect {
         background-color: lighten($assertive, 30);
-        color: darken($assertive, 30);
+        p {
+          color: darken($assertive, 30);
+        }
       }
     }
     .answer-selected {
@@ -60,6 +68,7 @@
 .answer-option {
   color: $link-secondary;
   position: relative;
+  float: left;
   left: -1em;
   margin-left: -1.1em;
 }

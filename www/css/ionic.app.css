@@ -7759,6 +7759,10 @@ ul li {
   font-family: "preto_serif_ot_std_regular", serif;
   font-size: 20px; }
 
+.item-content.question-answer p {
+  font-family: "preto_serif_ot_std_regular", serif;
+  font-size: 20px; }
+
 .item-content h1 {
   font-family: "preto_serif_ot_std_bold", serif;
   margin-bottom: 0; }
@@ -8214,18 +8218,24 @@ ul li {
   .answers .item .question-answer {
     white-space: normal;
     padding: 24px 72px 24px 110px; }
+    .answers .item .question-answer p {
+      color: #1f1f1f;
+      white-space: normal; }
   .answers .item .answer-checked.answer-correct {
-    background-color: #beecda;
-    color: #1b5d44; }
+    background-color: #beecda; }
+    .answers .item .answer-checked.answer-correct p {
+      color: #1b5d44; }
   .answers .item .answer-checked.answer-selected.answer-incorrect {
-    background-color: #f5ccc9;
-    color: #751d17; }
+    background-color: #f5ccc9; }
+    .answers .item .answer-checked.answer-selected.answer-incorrect p {
+      color: #751d17; }
   .answers .item .answer-selected {
     background-color: #dce0ee; }
 
 .answer-option {
   color: #979BAA;
   position: relative;
+  float: left;
   left: -1em;
   margin-left: -1.1em; }
 

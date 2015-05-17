@@ -134,6 +134,12 @@ ul {
   font-size: $font;
 }
 
+.item-content.question-answer {
+  p {
+    font-family: $serif-regular;
+    font-size: $font;
+  }
+}
 .item-content {
     h1 {
       font-family: $serif-bold;

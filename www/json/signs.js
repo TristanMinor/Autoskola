@@ -8,13 +8,13 @@ var SignsList = {
       "points": 2,
       "question": "Táto dopravná značka znamená:",
       "answers": [{
-        "text": "Zákaz odbočovania vpravo,",
+        "text": "<i>Zákaz odbočovania vpravo</i>,",
         "correct": false
       }, {
-        "text": "Zákruta vpravo,",
+        "text": "<i>Zákruta vpravo</i>,",
         "correct": true
       }, {
-        "text": "Nebezpečné stúpanie.",
+        "text": "<i>Nebezpečné stúpanie</i>.",
         "correct": false
       }],
       "explanation": [{
@@ -32,13 +32,13 @@ var SignsList = {
       "points": 2,
       "question": "Táto dopravná značka znamená:",
       "answers": [{
-        "text": "Zákruta vľavo,",
+        "text": "<i>Zákruta vľavo</i>,",
         "correct": true
       }, {
-        "text": "Nebezpečné stúpanie,",
+        "text": "<i>Nebezpečné stúpanie</i>,",
         "correct": false
       }, {
-        "text": "Zákaz odboćovania vľavo,",
+        "text": "<i>Zákaz odboćovania vľavo</i>,",
         "correct": false
       }],
       "explanation": [{
@@ -428,13 +428,13 @@ var SignsList = {
       "points": 2,
       "question": " Táto dopravná značka znamená",
       "answers": [{
-        "text": "zákaz vjazdu všetkých dvojkolesových vozidiel,",
+        "text": "<i>Zákaz vjazdu všetkých dvojkolesových vozidiel<i>,",
         "correct": false
       }, {
-        "text": "vjazd motocyklom povolený,",
+        "text": "<i>Vjazd motocyklom povolený<i>,",
         "correct": false
       }, {
-        "text": "zákaz vjazdu motocyklov.",
+        "text": "<i>Zákaz vjazdu motocyklov<i>.",
         "correct": true
       }],
       "explanation": [{
@@ -819,7 +819,7 @@ var SignsList = {
       "type": "sign",
       "name": "Návesť pred križovatkou",
       "points": 2,
-      "question": "Táto dopravná značka znamená",
+      "question": "Táto dopravná značka",
       "answers": [{
         "text": "vyznačuje križovatku s vedľajšou cestou,",
         "correct": false
@@ -917,13 +917,13 @@ var SignsList = {
       "points": 2,
       "question": "Táto dopravná značka znamená",
       "answers": [{
-        "text": "Smerová tabuľa pre cyklistov (s jedným cieľom),",
+        "text": "<i>Smerová tabuľa pre cyklistov (s jedným cieľom)</i>,",
         "correct": false
       }, {
-        "text": "Smerová tabuľa ku kutúrnemu alebo turistickému cieľu,",
+        "text": "<i>Smerová tabuľa ku kutúrnemu alebo turistickému cieľu</i>,",
         "correct": true
       }, {
-        "text": "Smerová tabuľa k miestnemu cieľu.",
+        "text": "<i>Smerová tabuľa k miestnemu cieľu</i>.",
         "correct": false
       }],
       "explanation": [{
@@ -989,13 +989,13 @@ var SignsList = {
       "points": 2,
       "question": "Táto dopravná značka znamená",
       "answers": [{
-        "text": "Koniec viacerých zákazov,",
+        "text": "<i>Koniec viacerých zákazov</i>,",
         "correct": false
       }, {
-        "text": "Koniec obce,",
+        "text": "<i>Koniec obce</i>,",
         "correct": true
       }, {
-        "text": "Koniec obytnej zóny.",
+        "text": "<i>Koniec obytnej zóny</i>.",
         "correct": false
       }],
       "explanation": [{
@@ -1067,13 +1067,13 @@ var SignsList = {
       "points": 2,
       "question": "Táto dopravná značka znamená",
       "answers": [{
-        "text": "Smer a vzdialenosť k miestam, od ktorých platí značka, pod ktorou je tabuľka umiestnená,",
+        "text": "<i>Smer a vzdialenosť k miestam, od ktorých platí značka, pod ktorou je tabuľka umiestnená</i>,",
         "correct": false
       }, {
-        "text": "Úsek platnosti,",
+        "text": "<i>Úsek platnosti</i>,",
         "correct": true
       }, {
-        "text": "Smerové šípky.",
+        "text": "<i>Smerové šípky</i>.",
         "correct": false
       }],
       "explanation": [{
