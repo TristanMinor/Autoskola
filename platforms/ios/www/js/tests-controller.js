@@ -23,7 +23,8 @@ angular.module('autoskola')
       $scope.closeTestModal();
       $state.go('test', {
         id: $scope.selectedTest.id,
-        immediately: $scope.testModal.resolveImmediately ? true : false
+        /* immediately: $scope.testModal.resolveImmediately ? true : false */
+        immediately: true
       });
     }
 

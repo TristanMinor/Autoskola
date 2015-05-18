@@ -1,15 +1,13 @@
 .modal-backdrop-bg {
   background-color: $backdrop-bg;
 }
-.modal-fullscreen {
+.modal.modal-fullscreen {
   top: inherit;
   bottom: 0;
   left: 0;
   right: 0;
   width: 100%;
-  max-height: 100%;
   .scroll-content {
-    @include border-radius($radius-item);
     background-color: $stable;
     height: auto;
     position: relative;
@@ -19,12 +17,20 @@
     padding-bottom: $padding-large;
   }
 }
+
 @media (min-width: 680px) {
   .active {
     .modal-backdrop-bg {
       opacity: 0.8;
     }
     .modal-wrapper {
+      .modal.modal-fullscreen {
+        @include border-radius(0);
+      }
+      .modal.modal-test {
+        top:22%;
+        bottom:22%;
+      }
       .modal {
         @include border-radius($radius-item);
         .bar-header {
@@ -57,5 +63,10 @@
   p {
     font-family: $sans-serif;
     font-size: 17px;
+  }
+}
+.modal {
+  .item {
+    border-width: 0px;
   }
 }

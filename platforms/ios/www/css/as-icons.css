@@ -110,3 +110,12 @@
 .icon-overview-outline2:before {
     content: "\e615";
 }
+
+.icon-go:before {
+    content: "\e616";
+}
+
+.radio-icon.ion-checkmark:before {
+	font-family: 'as_icons';
+	content: "\e60c";
+}

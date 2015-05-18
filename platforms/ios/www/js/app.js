@@ -3,13 +3,12 @@
 // angular.module is a global place for creating, registering and retrieving Angular modules
 // 'autoskola' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
-angular.module('autoskola', ['ionic'])
-
-.config(function($stateProvider, $urlRouterProvider) {
+var app = angular.module('autoskola', ['ionic']);
+app.config(function($stateProvider, $urlRouterProvider) {
 
   $stateProvider
 
-  .state('tabs', {
+    .state('tabs', {
     url: '/tabs',
     abstract: true,
     templateUrl: 'templates/tabs.html'
@@ -59,25 +58,25 @@ angular.module('autoskola', ['ionic'])
   })
 
   .state('question-law', {
-    url: '/questions/law/:id',
+    url: '/tabs/questions/law/:id',
     templateUrl: 'templates/question.html',
     controller: 'QuestionsLawQuestionController'
   })
 
   .state('question-notice', {
-    url: '/questions/notice/:id',
+    url: '/tabs/questions/notice/:id',
     templateUrl: 'templates/question.html',
     controller: 'QuestionsNoticeQuestionController'
   })
 
   .state('question-sign', {
-    url: '/questions/sign/:id',
+    url: '/tabs/questions/sign/:id',
     templateUrl: 'templates/question-sign.html',
     controller: 'QuestionsSignsQuestionController'
   })
 
   .state('question-situation', {
-    url: '/questions/situation/:id',
+    url: '/tabs/questions/situation/:id',
     templateUrl: 'templates/question-situation.html',
     controller: 'QuestionsSituationsQuestionController'
   })

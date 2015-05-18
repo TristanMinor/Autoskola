@@ -10,13 +10,12 @@
   <ion-content class="has-header">
 
     <div ng-switch="tabName">
-
       <div ng-switch-when="tab-progres">
         <ion-list type="list list-uneditable list-progres">
           <ion-item href="#" class="item item-uneditable">
             <div class="item-inner ">
-
-              Zákon<span class="item-note">{{ lawPercentage }} 24%</span>
+              Zákon
+              <!-- <span class="item-note">{{ qty.lawhidden }}/{{ qty.law }}</span> -->
               <div class="circles">
                 <div class="circle" ng-repeat="question in law" ng-class="{'circle-done': localDataLaw[question.id].hidden}"></div>
               </div>
@@ -24,7 +23,8 @@
           </ion-item>
           <ion-item href="#" class="item item-uneditable">
             <div class="item-inner ">
-              Vyhláška<span class="item-note">{{ noticePercentage }} 24%</span>
+              Vyhláška
+              <!-- <span class="item-note">/{{ qty.notice }}</span> -->
               <div class="circles">
                 <div class="circle" ng-repeat="question in notice" ng-class="{'circle-done': localDataNotice[question.id].hidden}"></div>
               </div>
@@ -32,7 +32,8 @@
           </ion-item>
           <ion-item href="#" class="item item-uneditable">
             <div class="item-inner">
-              Značky<span class="item-note">{{ signsPercentage }} 24%</span>
+              Značky
+              <!-- <span class="item-note">/{{ qty.signs }}</span> -->
               <div class="circles">
                 <div ng-repeat="section in signs">
                   <div class="circle" ng-repeat="question in section.questions" ng-class="{'circle-done': localDataSigns[question.id].hidden}"></div>
@@ -42,7 +43,8 @@
           </ion-item>
           <ion-item href="#" class="item item-uneditable">
             <div class="item-inner">
-              Križovatky<span class="item-note">{{ situationsPercentage }} 24%</span>
+              Križovatky
+              <!-- <span class="item-note">/{{ qty.situations }}</span> -->
               <div class="circles">
                 <div ng-repeat="section in situations">
                   <div ng-repeat="bundle in section.bundles">
@@ -54,7 +56,7 @@
           </ion-item>
           <ion-item href="#" class="item item-uneditable">
             <div class="item-inner">
-              Testy<span class="item-note">{{ testsPercentage }} 24%</span>
+               <!--Testy<span class="item-note">{{ testsPercentage }} 24%</span>-->
             </div>
           </ion-item>
         </ion-list>
@@ -62,7 +64,7 @@
 
       <div ng-switch-when="tab-rewards">
         <ion-list type="list list-uneditable list-rewards">
-          <ion-item ng-repeat="reward in rewards" href="" class="item item-thumbnail-left item-uneditable" ng-click="unlockReward(reward)" ng-class="{'unlocked': localDataRewards[reward.id].unlocked, 'locked': !localDataRewards[reward.id].unlocked}">
+          <ion-item ng-repeat="reward in rewards" href="" class="item item-thumbnail-left item-uneditable" ng-class="{'unlocked': localDataRewards[reward.id].unlocked, 'locked': !localDataRewards[reward.id].unlocked}">
             <img ng-if="localDataRewards[reward.id].unlocked" src="{{ reward.image }}" alt="">
             <img ng-if="!localDataRewards[reward.id].unlocked" src="img/rewards/unlocked.png" alt="">
             <div class="item-inner" ng-if="localDataRewards[reward.id].unlocked">

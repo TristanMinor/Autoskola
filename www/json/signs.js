@@ -211,7 +211,7 @@ var SignsList = {
       }],
       "explanation": [{
         "headline": "Tvar kríženia cesty so železničnou dráhou",
-        "paragraph": "Dodatková tabuľka <i>Tvar kríženia cesty so železničnou dráhou</i> vyznačuje taký tvar kríženia cesty so železničnou dráhou tam, kde nie je dostatočný rozhľad alebo kde má kríženie ostrý uhol. Umiestňuje sa nad značky Návestná tabuľa ľavá – pravá – 80 m."
+        "paragraph": "Dodatková tabuľka <i>Tvar kríženia cesty so železničnou dráhou</i> vyznačuje taký tvar kríženia cesty so železničnou dráhou tam, kde nie je dostatočný rozhľad alebo kde má kríženie ostrý uhol. Umiestňuje sa nad značky <i>Návestná tabuľa ľavá – 80 m</i> a <i>Návestná tabuľa pravá – 80 m</i>."
       }, {
         "headline": "Návestná tabuľa pravá – 80 m",
         "paragraph": "Značka <i>Návestná tabuľa pravá – 80 m </i> upozorňuje na železničné priecestie a umiestňuje sa vo vzdialenosti 80 m pred železničným priecestím. "
@@ -1207,7 +1207,7 @@ var SignsList = {
         "paragraph": "Dopravné kužele umiestnené v rade za sebou majú zhodný význam ako značka <i>Súvislá pozdĺžna čiara</i>. Môžu vymedzovať priestor, do ktorého je zakázané vchádzať."
       }],
       "image": {
-        "src": "img/signs/dk.jpg",
+        "src": "img/signs/dk.svg",
         "imgType": "rectangle"
       }
     }, {

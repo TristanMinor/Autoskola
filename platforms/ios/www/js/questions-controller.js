@@ -1,5 +1,5 @@
 angular.module('autoskola')
-  .controller('QuestionsController', function($scope, $state, $ionicModal) {
+  .controller('QuestionsController', function($scope, $state, $ionicModal, $ionicScrollDelegate) {
 
     $scope.tabName = 'tab-law';
     $scope.selectedHiddenQuestionsType = {};
@@ -8,7 +8,8 @@ angular.module('autoskola')
     $scope.basicTestType = {};
 
     $scope.setTab = function(tab) {
-    	$scope.tabName = tab;
+      $scope.tabName = tab;
+      $ionicScrollDelegate.scrollTop([true]);
     };
 
     $scope.goToSearch = function() {
@@ -45,7 +46,7 @@ angular.module('autoskola')
 
     $scope.openTestModal = function() {
       $scope.basicTestType.id = 36;
-      $scope.basicTestType.name = "Zákon";
+      $scope.basicTestType.name = "Zákon 1–35";
       $scope.selectedBasicTestType = $scope.basicTestType;
       $scope.modal.show();
     };
@@ -75,16 +76,55 @@ angular.module('autoskola')
       $scope.modal.testtype.hide();
       switch ($scope.selectedBasicTestType.id) {
         case 36:
-          $scope.selectedBasicTestType.name = "Zákon";
+          $scope.selectedBasicTestType.name = "Zákon 1–35";
           break;
         case 37:
-          $scope.selectedBasicTestType.name = "Vyhláška";
+          $scope.selectedBasicTestType.name = "Zákon 36–70";
           break;
         case 38:
-          $scope.selectedBasicTestType.name = "Značky";
+          $scope.selectedBasicTestType.name = "Vyhláška";
           break;
         case 39:
-          $scope.selectedBasicTestType.name = "Križovatky";
+          $scope.selectedBasicTestType.name = "Výstražné značky";
+          break;
+        case 40:
+          $scope.selectedBasicTestType.name = "Značky upravujúce prednosť v jazde";
+          break;
+        case 41:
+          $scope.selectedBasicTestType.name = "Zákazové značky";
+          break;
+        case 42:
+          $scope.selectedBasicTestType.name = "Príkazové značky";
+          break;
+        case 43:
+          $scope.selectedBasicTestType.name = "Informatívne, prevádzkové, smerové a iné značky";
+          break;
+        case 44:
+          $scope.selectedBasicTestType.name = "Informatívne smerové značky";
+          break;
+        case 45:
+          $scope.selectedBasicTestType.name = "Informatívne iné značky";
+          break;
+        case 46:
+          $scope.selectedBasicTestType.name = "Dodatkové tabuľky";
+          break;
+        case 47:
+          $scope.selectedBasicTestType.name = "Vodorovné dopravné značky";
+          break;
+        case 48:
+          $scope.selectedBasicTestType.name = "Dopravné zariadenia a osobitné označenia";
+          break;
+        case 49:
+          $scope.selectedBasicTestType.name = "Križovatky – jazda v jazdných pruhoch";
+          break;
+        case 50:
+          $scope.selectedBasicTestType.name = "Križovatky bez dopravných značiek";
+          break;
+        case 51:
+          $scope.selectedBasicTestType.name = "Križovatky hlavnej cesty s vedľajšou";
+          break;
+        case 52:
+          $scope.selectedBasicTestType.name = "Riadené križovatky";
           break;
       }
     };

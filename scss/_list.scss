@@ -9,6 +9,24 @@
   }
 }
 
+.bundle-situations {
+  .item {
+    @include border-top-radius(0);
+    @include border-bottom-radius(0);
+  }
+}
+
+.bundle-situations:nth-child(2) {
+  .item:first-child {
+    @include border-top-radius($radius-item);
+  }
+}
+
+.bundle-situations:last-child {
+  .item:last-child {
+    @include border-bottom-radius($radius-item);
+  }
+}
 
 .item-divider {
   background-color: $stable;
@@ -271,18 +289,23 @@
 }
 
 .item.item-test-type {
+  margin-top: -10px;
+  margin-bottom: 10px;
   .item-note {
-    position: absolute;
-    right: 36px;
-    max-width: 240px;
+    float: left;
+    text-align: center;
+    width: 100%;
+    position: relative;
     overflow: hidden;
     text-overflow: ellipsis;
+    .icon {
+      font-size: 24px;
+      line-height: 23px;
+      position: relative;
+      top: 4px;
+      margin-left: 2px;
+      color: $link-secondary;
+    }
   }
-  .icon {
-    font-size: 24px;
-    line-height: 23px;
-    position: absolute;
-    right: 10px;
-    color: $link-secondary;
-  }
+
 }

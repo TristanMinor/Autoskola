@@ -58,25 +58,25 @@ app.config(function($stateProvider, $urlRouterProvider) {
   })
 
   .state('question-law', {
-    url: '/questions/law/:id',
+    url: '/tabs/questions/law/:id',
     templateUrl: 'templates/question.html',
     controller: 'QuestionsLawQuestionController'
   })
 
   .state('question-notice', {
-    url: '/questions/notice/:id',
+    url: '/tabs/questions/notice/:id',
     templateUrl: 'templates/question.html',
     controller: 'QuestionsNoticeQuestionController'
   })
 
   .state('question-sign', {
-    url: '/questions/sign/:id',
+    url: '/tabs/questions/sign/:id',
     templateUrl: 'templates/question-sign.html',
     controller: 'QuestionsSignsQuestionController'
   })
 
   .state('question-situation', {
-    url: '/questions/situation/:id',
+    url: '/tabs/questions/situation/:id',
     templateUrl: 'templates/question-situation.html',
     controller: 'QuestionsSituationsQuestionController'
   })

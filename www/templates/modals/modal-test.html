@@ -1,4 +1,4 @@
-<ion-modal-view>
+<ion-modal-view class="modal modal-test">
   <ion-header-bar class="bar bar-light">
     <button class="button button-icon icon icon-close" ng-click="closeTestModal()"></button>
     <h1 class="title">Test {{ selectedTest.id }}</h1>
@@ -13,16 +13,16 @@
     </div>
 
     <div class="modal-text center" ng-if="basicTest == true">
-      <p>Vyber si okruh z ktorého sa chceš otestovať.</p>
+      <p>Vyber si okruh z ktorého sa chceš otestovať:</p>
     </div>
     <div class="modal-text center" ng-if="basicTest == false">
       <p>Nasledujúci test sa skladá z 27 otázok za 55 bodov. Na úspešné prejdenie testu musíš získať minimálne 50 bodov. Veľa šťastia pri riešení!</p>
     </div>
 
     <div class="list" ng-if="basicTest == true">
-      <div class="item item-test-type" ng-click="openTestTypeModal()">Okruh otázok
-        <span class="item-note">{{ basicTestType.name }}</span>
-        <i class="icon icon-go"></i>
+      <div class="item item-test-type" ng-click="openTestTypeModal()">
+        <span class="item-note">{{ basicTestType.name }}<i class="icon icon-go"></i></span>
+
       </div>
     </div>
 

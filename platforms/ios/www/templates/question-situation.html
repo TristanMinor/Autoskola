@@ -30,14 +30,14 @@
         <label ng-repeat="item in question.answers" class="item item-radio">
           <input disabled="disabled" type="radio" name="group">
           <div class="item-content question-answer answer-checked" ng-class="{'answer-correct': item.correct}">
-            <span class="answer-option">{{ optionsModel[$index] }})</span>
-            {{ item.text }}
+            <div class="answer-option">{{ optionsModel[$index] }})</div>
+            <p ng-bind-html="item.text"></p>
           </div>
         </label>
       </div>
     </div>
   </ion-content>
 
-  <button ng-click="openModal()" class="button button-footer button-stable icon icon-explain"></button>
+  <button ng-click="openModal()" on-drag-up="openModal()" class="button button-footer button-stable icon icon-explain"></button>
 
 </ion-view>

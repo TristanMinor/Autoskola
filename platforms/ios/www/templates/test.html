@@ -15,7 +15,7 @@
 
     <!--{{ answers }}-->
 
-    <ion-slide-box active-slide="view.question" on-slide-changed="slideHasChanged($index)">
+    <ion-slide-box active-slide="view.question" on-slide-changed="slideHasChanged($index)" show-pager="false">
       <ion-slide ng-repeat="question in questions" class="test-slide">
         <div ng-if="question.image.src" class="question-image" ng-class="{'image-sign': questions.type = 'sign', 'image-situation': questions.type = 'situation'}">
           <img src="{{ question.image.src}}" alt="">
@@ -34,8 +34,8 @@
                      'answer-correct': item.correct,
                      'answer-incorrect': !item.correct
                    }">
-                <span class="answer-option">{{ optionsModel[$index] }})</span>
-                {{ item.text }}
+                <div class="answer-option">{{ optionsModel[$index] }})</div>
+                <p ng-bind-html="item.text"></p>
               </div>
             </label>
           </div>
@@ -46,18 +46,18 @@
   </ion-content>
 
   <!-- Check questions in the end  -->
-  <div ng-if="params.immediately == 'false'">
-    <button
-      ng-disabled="!view.selectedAnswer && view.selectedAnswer != 0"
-      ng-if="view.question < (questions.length - 1)"
-      class="button button-footer button-balanced "
-      ng-click="next()">Ďalšia otázka</button>
-    <button
-      ng-disabled="!view.selectedAnswer && view.selectedAnswer != 0"
-      ng-if="view.question === (questions.length - 1)"
-      class="button button-footer button-positive"
-      ng-click="result()">Vyhodnotiť test</button>
-  </div>
+<!--   <div ng-if="params.immediately == 'false'">
+  <button
+    ng-disabled="!view.selectedAnswer && view.selectedAnswer != 0"
+    ng-if="view.question < (questions.length - 1)"
+    class="button button-footer button-balanced "
+    ng-click="next()">Ďalšia otázka</button>
+  <button
+    ng-disabled="!view.selectedAnswer && view.selectedAnswer != 0"
+    ng-if="view.question === (questions.length - 1)"
+    class="button button-footer button-positive"
+    ng-click="result()">Vyhodnotiť test</button>
+</div> -->
 
   <!-- Check questions immediately  -->
   <div ng-if="params.immediately == 'true'">
