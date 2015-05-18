@@ -61,6 +61,10 @@ p.small {
   font-size: 16px;
 }
 
+span.smallcaps {
+    font-variant: small-caps;
+}
+
 p.subtle {
   color: $link-secondary;
 }

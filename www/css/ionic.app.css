@@ -7707,6 +7707,9 @@ p {
 p.small {
   font-size: 16px; }
 
+span.smallcaps {
+  font-variant: small-caps; }
+
 p.subtle {
   color: #979BAA; }
 
@@ -8196,6 +8199,8 @@ ul li {
     overflow: hidden;
     -webkit-transition: all ease-in-out 250ms;
     transition: all ease-in-out 250ms; }
+    .chapter-text blockquote ul {
+      margin-bottom: 0; }
   .chapter-text blockquote.active {
     max-height: 768px;
     margin-bottom: 1.5em;

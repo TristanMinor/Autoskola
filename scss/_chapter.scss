@@ -8,6 +8,9 @@
     opacity: 0;
     overflow: hidden;
     @include transition(all ease-in-out 250ms);
+    ul {
+      margin-bottom: 0;
+    }
   }
   blockquote.active {
     max-height: 768px;

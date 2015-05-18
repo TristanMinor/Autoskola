@@ -371,12 +371,12 @@ var TheoryList = {
       "content": [{
         "id": 1,
         "headline": "Zákaz predchádzania",
-        "paragraph": "Držiteľ vozidla je povinný zabezpečiť, aby pri prevádzkovaní motorového vozidla boli dodržiavané pravidlá cestnej premávky podľa tohto zákona, ktoré ustanovujú zákaz predchádzania podľa <a href='#'>§ 15 ods. 5</a> alebo zákaz predchádzania vyplývajúci z dopravnej značky alebo dopravného zariadenia.",
+        "paragraph": "Držiteľ vozidla je povinný zabezpečiť, aby pri prevádzkovaní motorového vozidla boli dodržiavané pravidlá cestnej premávky podľa tohto zákona, ktoré ustanovujú zákaz predchádzania podľa <a href='#' class='bq'>§ 15 ods. 5</a> alebo zákaz predchádzania vyplývajúci z dopravnej značky alebo dopravného zariadenia.",
         "blockquote": "<p><b>§ 15 ods. 5</b><br>Vodič nesmie predchádzať,</p><ul><li>ak nemá pred sebou rozhľad na takú vzdialenosť, ktorá je potrebná na bezpečné predchádzanie,</li><li>ak by ohrozil alebo obmedzil vodiča jazdiaceho v protismere, alebo ohrozil iného účastníka cestnej premávky,</li><li>ak vodič pred ním idúceho vozidla dáva znamenie o zmene smeru jazdy vľavo a ak ho nemožno predísť vpravo podľa odseku 1, prípadne ak ho nemožno predísť v ďalšom voľnom jazdnom pruhu vyznačenom na vozovke v tom istom smere jazdy,</li><li>cez pripájací alebo odbočovací jazdný pruh; to neplatí pre prípad uvedený v odseku 1,</li><li>po krajnici; to neplatí pri predchádzaní vpravo podľa odseku 1, pritom nesmie ohroziť ani obmedziť chodca idúceho po krajnici a cyklistu alebo vodiča malého motocykla jazdiaceho po krajnici,</li><li>pri jazde cez križovatku a v takej vzdialenosti pred križovatkou, ktorá nie je dostatočná na bezpečné dokončenie predchádzania pred úrovňou križovatky; to neplatí pri predchádzaní motocykla bez postranného vozíka alebo nemotorového vozidla,</li><li>pri jazde cez železničné priecestie,</li><li>ak by pri predchádzaní svojou výrazne nižšou rýchlosťou obmedzil za ním idúce vozidlo, ktoré začalo úkon predchádzania skôr,</li><li>na priechode pre chodcov, priechode pre cyklistov a bezprostredne pred nimi.</li><ul>"
       }, {
         "id": 2,
         "headline": "Rýchlosť jazdy",
-        "paragraph": "Držiteľ vozidla je povinný zabezpečiť, aby pri prevádzkovaní motorového vozidla boli dodržiavané pravidlá cestnej premávky podľa tohto zákona, ktoré ustanovujú rýchlosť jazdy podľa <a href='#/tabs/theory/chapter/14'>§ 16 (Rýchlosť jazdy).</a>"
+        "paragraph": "Držiteľ vozidla je povinný zabezpečiť, aby pri prevádzkovaní motorového vozidla boli dodržiavané pravidlá cestnej premávky podľa tohto zákona, ktoré ustanovujú rýchlosť jazdy podľa kapitoly <i>14: Rýchlosť jazdy</i>."
       }, {
         "id": 3,
         "headline": "Zastavenie vozidla",
@@ -384,19 +384,20 @@ var TheoryList = {
       }, {
         "id": 4,
         "headline": "Zákaz otáčania a cúvania",
-        "paragraph": "Držiteľ vozidla je povinný zabezpečiť, aby pri prevádzkovaní motorového vozidla boli dodržiavané pravidlá cestnej premávky podľa tohto zákona, ktoré ustanovujú zákaz otáčania a cúvania podľa <a href='#'>§ 22 ods. 4</a> alebo zákaz otáčania vyplývajúci z dopravnej značky alebo dopravného zariadenia."
+        "paragraph": "Držiteľ vozidla je povinný zabezpečiť, aby pri prevádzkovaní motorového vozidla boli dodržiavané pravidlá cestnej premávky podľa tohto zákona, ktoré ustanovujú zákaz otáčania a cúvania podľa <a href='#'>§ 22 ods. 4</a> alebo zákaz otáčania vyplývajúci z dopravnej značky alebo dopravného zariadenia.",
+        "blockquote": "<p><b>§ 22 ods. 4</b></p><p>Vodič sa nesmie otáčať a nesmie cúvať na neprehľadných alebo na inak nebezpečných miestach, najmä v neprehľadnej zákrute a v jej tesnej blízkosti, pred neprehľadným vrcholom stúpania cesty, na ňom a za ním</p><p>Vodič sa nesmie otáčať a nesmie cúvať na križovatke s riadenou premávkou; otáčať sa smie, ak to dovoľuje dopravná značka alebo dopravné zariadenie.</p><p>Vodič sa nesmie otáčať a nesmie cúvať na priechode pre chodcov alebo na priechode pre cyklistov.</p><p>Vodič sa nesmie otáčať a nesmie cúvať na železničnom priecestí a v jeho tesnej blízkosti.</p><p>Vodič sa nesmie otáčať a nesmie cúvať v tuneli a v jeho tesnej blízkosti.</p><p>Vodič sa nesmie otáčať a nesmie cúvať na jednosmernej ceste; vodič však smie cúvať, ak je to nevyhnutne potrebné najmä na zaradenie do radu stojacich vozidiel alebo na vyjdenie z neho.</p><p>Vodič sa nesmie otáčať a nesmie cúvať na moste.</p>"
       }, {
         "id": 5,
         "headline": "Zákaz zastavenia a státia",
-        "paragraph": "Držiteľ vozidla je povinný zabezpečiť, aby pri prevádzkovaní motorového vozidla boli dodržiavané pravidlá cestnej premávky podľa tohto zákona, ktoré ustanovujú zákaz zastavenia a státia podľa <a href='#/tabs/theory/chapter/21'>§ 25 (Zastavenie a státie)</a> alebo zákaz zastavenia a státia vyplývajúci z dopravnej značky alebo dopravného zariadenia. "
+        "paragraph": "Držiteľ vozidla je povinný zabezpečiť, aby pri prevádzkovaní motorového vozidla boli dodržiavané pravidlá cestnej premávky podľa tohto zákona, ktoré ustanovujú zákaz zastavenia a státia podľa kapitoly <i>25: Zastavenie a státie</i> alebo zákaz zastavenia a státia vyplývajúci z dopravnej značky alebo dopravného zariadenia. "
       }, {
         "id": 6,
         "headline": "Prejazd cez železničné priecestie",
-        "paragraph": "Držiteľ vozidla je povinný zabezpečiť, aby pri prevádzkovaní motorového vozidla boli dodržiavané pravidlá cestnej premávky podľa tohto zákona, ktoré ustanovujú prejazd cez železničné priecestie v čase, keď je to zakázané podľa <a href='#/tabs/theory/chapter/23'>§ 27 až 29 (Železničné priecestie)</a>."
+        "paragraph": "Držiteľ vozidla je povinný zabezpečiť, aby pri prevádzkovaní motorového vozidla boli dodržiavané pravidlá cestnej premávky podľa tohto zákona, ktoré ustanovujú prejazd cez železničné priecestie v čase, keď je to zakázané podľa kapitoly <i>23: Železničné priecestie</i>."
       }, {
         "id": 7,
         "headline": "Najväčšia prípustná celková hmotnosť vozidla",
-        "paragraph": "Držiteľ vozidla je povinný zabezpečiť, aby pri prevádzkovaní motorového vozidla boli dodržiavané pravidlá cestnej premávky podľa tohto zákona, ktoré ustanovujú najväčšiu prípustnú celkovú hmotnosť vozidla, najväčšiu prípustnú hmotnosť jazdnej súpravy, najväčšiu prípustnú celkovú hmotnosť prípojného vozidla alebo najväčšiu prípustnú hmotnosť pripadajúcu na nápravu vozidla podľa <a href='#/tabs/theory/chapter/38'>§ 51 (Preprava nákladu)</a>."
+        "paragraph": "Držiteľ vozidla je povinný zabezpečiť, aby pri prevádzkovaní motorového vozidla boli dodržiavané pravidlá cestnej premávky podľa tohto zákona, ktoré ustanovujú najväčšiu prípustnú celkovú hmotnosť vozidla, najväčšiu prípustnú hmotnosť jazdnej súpravy, najväčšiu prípustnú celkovú hmotnosť prípojného vozidla alebo najväčšiu prípustnú hmotnosť pripadajúcu na nápravu vozidla podľa kapitoly <i>37: Preprava nákladu</i>."
       }, {
         "id": 8,
         "headline": "Zákaz vjazdu, zákaz odbočovania alebo prikázaný smer jazdy",
@@ -466,16 +467,17 @@ var TheoryList = {
       "description": "Pravidlá jazdy vo viacerých jazdných pruhoch, pripájacích aj priebežných, vyznačených alebo nevyznačených",
       "content": [{
         "id": 1,
-        "headline": "Mimo obce s dvoma a viacerými pruhmi",
+        "headline": "Mimo obce s dvoma alebo viacerými pruhmi",
         "paragraph": "Mimo obce na ceste s dvoma alebo s viacerými jazdnými pruhmi vyznačenými na vozovke v jednom smere jazdy sa jazdí v pravom jazdnom pruhu. V ostatných jazdných pruhoch sa smie jazdiť, ak je to potrebné na obchádzanie, predchádzanie, otáčanie alebo na odbočovanie."
       }, {
         "id": 2,
-        "headline": "Mimo obce s troma a viacerými pruhmi",
+        "headline": "Mimo obce s troma alebo viacerými pruhmi",
         "paragraph": "Mimo obce na ceste s troma alebo s viacerými jazdnými pruhmi vyznačenými na vozovke v jednom smere jazdy smie vodič nákladného automobilu s najväčšou prípustnou celkovou hmotnosťou presahujúcou 3 500 kg, vodič jazdnej súpravy, ktorej celková dĺžka presahuje 7 m, vodič zvláštneho motorového vozidla a vodič motocykla s najväčšou konštrukčnou rýchlosťou do 45 km/h použiť na jazdu výhradne dva jazdné pruhy najbližšie k pravému okraju vozovky; v ostatných jazdných pruhoch smie jazdiť, ak je to potrebné na obchádzanie, otáčanie alebo na odbočovanie."
       }, {
         "id": 3,
-        "headline": "V obci s dvoma a viacerými pruhmi",
-        "paragraph": "V obci na ceste s dvoma alebo s viacerými jazdnými pruhmi vyznačenými na vozovke v jednom smere jazdy smie vodič vozidla použiť na jazdu ktorýkoľvek jazdný pruh. To neplatí pre vodiča uvedeného v odseku 2, na ktorého sa vzťahujú pri jazde v obci odseky 1 a 2."
+        "headline": "V obci s dvoma alebo viacerými pruhmi",
+        "paragraph": "V obci na ceste s dvoma alebo s viacerými jazdnými pruhmi vyznačenými na vozovke v jednom smere jazdy smie vodič vozidla použiť na jazdu ktorýkoľvek jazdný pruh. To neplatí pre vodiča uvedeného v <a href='#'>odseku 2, na ktorého sa vzťahujú pri jazde v obci odseky 1 a 2.</a>",
+        "blockquote": "<p><b>Odsek 1</b><br>Mimo obce na ceste s dvoma alebo s viacerými jazdnými pruhmi vyznačenými na vozovke v jednom smere jazdy sa jazdí v pravom jazdnom pruhu. V ostatných jazdných pruhoch sa smie jazdiť, ak je to potrebné na obchádzanie, predchádzanie, otáčanie alebo na odbočovanie.</p><p><b>Odsek 2</b><br>Mimo obce na ceste s troma alebo s viacerými jazdnými pruhmi vyznačenými na vozovke v jednom smere jazdy smie vodič nákladného automobilu s najväčšou prípustnou celkovou hmotnosťou presahujúcou 3 500 kg, vodič jazdnej súpravy, ktorej celková dĺžka presahuje 7 m, vodič zvláštneho motorového vozidla a vodič motocykla s najväčšou konštrukčnou rýchlosťou do 45 km/h použiť na jazdu výhradne dva jazdné pruhy najbližšie k pravému okraju vozovky; v ostatných jazdných pruhoch smie jazdiť, ak je to potrebné na obchádzanie, otáčanie alebo na odbočovanie.</p>"
       }, {
         "id": 4,
         "headline": "Súbežná jazda",
@@ -639,7 +641,8 @@ var TheoryList = {
       }, {
         "id": 10,
         "headline": "Zákaz predchádzania v špeciálnej situácii",
-        "paragraph": "Vodič nesmie predchádzať, ak vodič pred ním idúceho vozidla dáva znamenie o zmene smeru jazdy vľavo a ak ho nemožno predísť vpravo podľa odseku 1, prípadne ak ho nemožno predísť v ďalšom voľnom jazdnom pruhu vyznačenom na vozovke v tom istom smere jazdy."
+        "paragraph": "Vodič nesmie predchádzať, ak vodič pred ním idúceho vozidla dáva znamenie o zmene smeru jazdy vľavo a ak ho nemožno predísť vpravo podľa <a href='#'>odseku 1</a>, prípadne ak ho nemožno predísť v ďalšom voľnom jazdnom pruhu vyznačenom na vozovke v tom istom smere jazdy.",
+        "blockquote": "<b>§ 15 ods. 1</b><br>Predchádza sa vľavo. Vpravo sa predchádza vozidlo, ktoré mení smer jazdy vľavo a ak už nie je pochybnosť o ďalšom smere jeho jazdy. Pri jazde v pripájacom jazdnom pruhu alebo v odbočovacom jazdnom pruhu sa smie vpravo predchádzať aj vozidlo idúce v priebežnom jazdnom pruhu."
       }, {
         "id": 11,
         "headline": "Zákaz predchádzania cez pripájací alebo odbočovací jazdný pruh",
@@ -758,7 +761,7 @@ var TheoryList = {
         "paragraph": "Pred odbočovaním a počas odbočovania je vodič povinný dávať znamenie o zmene smeru jazdy."
       }, {
         "id": 2,
-        "headline": "Vodič idúci za odbočújúcim vodičom",
+        "headline": "Vodič idúci za odbočujúcim vodičom",
         "paragraph": "Vodič pri odbočovaní nesmie ohroziť vodiča idúceho za ním."
       }, {
         "id": 3,
@@ -867,11 +870,11 @@ var TheoryList = {
       "content": [{
         "id": 1,
         "headline": "Otáčanie",
-        "paragraph": "Pri otáčaní platí obdobne kapitola <a href='#/tabs/theory/chapter/17'>Odbočovanie</a>."
+        "paragraph": "Pri otáčaní platí obdobne kapitola <i>17: Odbočovanie</i>."
       }, {
         "id": 2,
         "headline": "Otáčanie na križovatke ",
-        "paragraph": "Pri otáčaní na križovatke platí kapitola <a href='#/tabs/theory/chapter/17'>Odbočovanie</a> aj kapitola <a href='#/tabs/theory/chapter/18'>Jazda cez križovatku</a>."
+        "paragraph": "Pri otáčaní na križovatke platí kapitola <i>17: Odbočovanie</i> aj kapitola <i>18: Jazda cez križovatku</i>."
       }, {
         "id": 3,
         "headline": "Cúvanie",
@@ -1003,7 +1006,7 @@ var TheoryList = {
         "id": 21,
         "headline": "Zastavenie a státie v okolí zastávky vozidla pravidelnej verejnej dopravy",
         "image": "img/theory/021_busstop.png",
-        "paragraph": "Vodič nesmie zastaviť a stáť na zastávke vozidla pravidelnej verejnej dopravy osôb v úseku, ktorý sa začína dopravnou značkou pre zastávku a končí sa 5 m za označníkom zastávky, a tam, kde taká dopravná značka nie je, vo vzdialenosti kratšej ako 30 m pred označníkom zastávky a 5 m za ním. Ak je priestor zastávky vyznačený príslušnou vodorovnou dopravnou značkou, platí tento zákaz len pre nástupište a vyznačený priestor."
+        "paragraph": "Vodič nesmie zastaviť a stáť na zastávke vozidla pravidelnej verejnej dopravy osôb v úseku, ktorý sa začína dopravnou značkou pre zastávku a končí sa <b>5 m za označníkom zastávky</b>, a tam, kde taká dopravná značka nie je, vo vzdialenosti <b>kratšej ako 30 m pred označníkom zastávky a 5 m za ním</b>. Ak je priestor zastávky vyznačený príslušnou vodorovnou dopravnou značkou, platí tento zákaz len pre nástupište a vyznačený priestor."
       }, {
         "id": 22,
         "headline": "Zastavenie a státie na železničnom priecestí, v podjazde a v tuneli",
@@ -1089,11 +1092,13 @@ var TheoryList = {
       }, {
         "id": 2,
         "headline": "Fajčenie alebo manipulovanie s otvoreným ohňom",
-        "paragraph": "V prípadoch uvedených v odseku 1 nesmie vodič a prepravovaná osoba fajčiť alebo manipulovať s otvoreným ohňom."
+        "paragraph": "V prípadoch uvedených v <a href='#'>odseku 1</a> nesmie vodič a prepravovaná osoba fajčiť alebo manipulovať s otvoreným ohňom.",
+        "blockquote": "<p><b>Odsek 1</b><br>Ak pri jazde vozidla v tuneli vznikne porucha vozidla, pre ktorú sa toto vozidlo stane nepojazdným, alebo ak vznikne dopravná nehoda vrátane požiaru, je vodič po zastavení vozidla povinný bezodkladne</p><ul><li>vypnúť motor, a ak je na vykurovanie vozidla použité nezávislé kúrenie, vypnúť aj toto kúrenie</li><li>vykonať vhodné opatrenia, aby nebola ohrozená bezpečnosť cestnej premávky v tuneli; ak to okolnosti vyžadujú, je oprávnený zastavovať iné vozidlá,</li><li>oznámiť telefonicky alebo iným vhodným spôsobom zastavenie vozidla v tuneli osobe vykonávajúcej dohľad nad prevádzkou tunela.</li></ul>"
       }, {
         "id": 3,
         "headline": "Bezpečnostné opatrenia",
-        "paragraph": "Vodič alebo prepravovaná osoba sú v prípadoch uvedených v odseku 1 povinní na pokyn osoby vykonávajúcej dohľad nad prevádzkou tunela opustiť vozidlo a sústrediť sa do miest na to určených, prípadne tunel opustiť."
+        "paragraph": "Vodič alebo prepravovaná osoba sú v prípadoch uvedených v <a href='#'>odseku 1</a> povinní na pokyn osoby vykonávajúcej dohľad nad prevádzkou tunela opustiť vozidlo a sústrediť sa do miest na to určených, prípadne tunel opustiť.",
+        "blockquote": "<p><b>Odsek 1</b><br>Ak pri jazde vozidla v tuneli vznikne porucha vozidla, pre ktorú sa toto vozidlo stane nepojazdným, alebo ak vznikne dopravná nehoda vrátane požiaru, je vodič po zastavení vozidla povinný bezodkladne</p><ul><li>vypnúť motor, a ak je na vykurovanie vozidla použité nezávislé kúrenie, vypnúť aj toto kúrenie</li><li>vykonať vhodné opatrenia, aby nebola ohrozená bezpečnosť cestnej premávky v tuneli; ak to okolnosti vyžadujú, je oprávnený zastavovať iné vozidlá,</li><li>oznámiť telefonicky alebo iným vhodným spôsobom zastavenie vozidla v tuneli osobe vykonávajúcej dohľad nad prevádzkou tunela.</li></ul>"
       }, {
         "id": 4,
         "headline": "Pohyb osôb po vozovke v tuneli",
@@ -1181,7 +1186,8 @@ var TheoryList = {
       "content": [{
         "id": 3,
         "headline": "Svetelné výstražné znamenie",
-        "paragraph": "Ak je nevyhnutné upozorniť ostatných účastníkov cestnej premávky na hroziace nebezpečenstvo, najmä v prípadoch, keď je potrebné náhle znížiť rýchlosť jazdy alebo zastaviť vozidlo, vodič dáva svetelné výstražné znamenie zapnutím výstražnej funkcie smerových svietidiel. Funkciu výstražných smerových svietidiel možno v iných prípadoch použiť len za podmienok podľa odseku 1."
+        "paragraph": "Ak je nevyhnutné upozorniť ostatných účastníkov cestnej premávky na hroziace nebezpečenstvo, najmä v prípadoch, keď je potrebné náhle znížiť rýchlosť jazdy alebo zastaviť vozidlo, vodič dáva svetelné výstražné znamenie zapnutím výstražnej funkcie smerových svietidiel. Funkciu výstražných smerových svietidiel možno v iných prípadoch použiť len za podmienok podľa <a href='#'>odseku 1.</a>",
+        "blockquote": "<p><b>Odsek 1</b><br>Vodič smie dávať zvukové výstražné znamenie len vtedy, ak je to potrebné na odvrátenie hroziaceho nebezpečenstva, a mimo obce aj na upozornenie vodiča predchádzaného vozidla.</p>"
       }]
     }, {
       "id": 26,
@@ -1191,7 +1197,8 @@ var TheoryList = {
       "content": [{
         "id": 1,
         "headline": "Stretávacie svetlomety alebo im na roveň postavené osvetlenie",
-        "paragraph": "Vozidlo musí mať okrem prípadu uvedeného v § 34 ods. 4 počas jazdy rozsvietené stretávacie svetlomety alebo im na roveň postavené osvetlenie; to neplatí pre nemotorové vozidlo, ktoré musí mať rozsvietené svietidlá počas zníženej viditeľnosti."
+        "paragraph": "Vozidlo musí mať okrem prípadu uvedeného v <a href='#'>§ 34 ods. 4</a> počas jazdy rozsvietené stretávacie svetlomety alebo im na roveň postavené osvetlenie; to neplatí pre nemotorové vozidlo, ktoré musí mať rozsvietené svietidlá počas zníženej viditeľnosti.",
+        "blockquote": "<p><b>§ 34 ods. 4</b><br>Pri poruche osvetlenia alebo inej poruche nedovoľujúcej použitie osvetlenia musia byť na vlečenom motorovom vozidle za zníženej viditeľnosti rozsvietené svietidlá na strane k stredu vozovky vpredu bielym neoslňujúcim svetlom a vzadu aspoň jedným červeným svetlom. Tieto svietidlá musia byť dobre viditeľné a nesmú byť umiestnené ďalej ako 400 mm od bočného obrysu motorového vozidla.</p>"
       }, {
         "id": 2,
         "headline": "Za nezníženej viditeľnosti",
@@ -1219,7 +1226,7 @@ var TheoryList = {
       }, {
         "id": 2,
         "headline": "Podmienky vlečenia motorového vozidla",
-        "paragraph": "Motorové vozidlo sa smie vliecť len vtedy, ak má účinné riadenie a brzdy; povinnosti podľa § 4 ods. 1 a 2 sa vzťahujú aj na vodiča vlečeného motorového vozidla. Vodiči vlečeného a vlečného motorového vozidla sú povinní vopred sa dohodnúť na spôsobe dorozumievania počas jazdy. Ustanovenie odseku 2 neplatí, ak je motorové vozidlo vlečené pomocou osobitného zariadenia, najmä pomocou vyslobodzovacieho podvozka alebo žeriava; v takom prípade musí byť vlečené motorové vozidlo vybavené vzadu prenosným osvetlením vozidla s napojením na vlečné vozidlo."
+        "paragraph": "Motorové vozidlo sa smie vliecť len vtedy, ak má účinné riadenie a brzdy; povinnosti vodiča podľa kapitoly <i>3: Povinnosti vodiča</i> sa vzťahujú aj na vodiča vlečeného motorového vozidla. Vodiči vlečeného a vlečného motorového vozidla sú povinní vopred sa dohodnúť na spôsobe dorozumievania počas jazdy. Toto ustanovenie neplatí, ak je motorové vozidlo vlečené pomocou osobitného zariadenia, najmä pomocou vyslobodzovacieho podvozka alebo žeriava; v takom prípade musí byť vlečené motorové vozidlo vybavené vzadu prenosným osvetlením vozidla s napojením na vlečné vozidlo."
       }, {
         "id": 3,
         "headline": "Osvetlenie vlečeného vozidla pri poruche osvetlenia",
@@ -1343,7 +1350,7 @@ var TheoryList = {
       }, {
         "id": 3,
         "headline": "Osobitné ustanovenia v zónach",
-        "paragraph": "V obytnej zóne, pešej zóne a školskej zóne vodič smie jazdiť rýchlosťou najviac 20 km.h-1. Pritom je povinný dbať na zvýšenú ohľaduplnosť voči chodcom, ktorých nesmie ohroziť. Ak je to nevyhnutné, vodič je povinný zastaviť vozidlo. V obytnej zóne a pešej zóne je státie vozidiel zakázané, ak dopravnou značkou nie je určené inak. V školskej zóne možno stáť, ak tým nie je obmedzený pohyb chodcov."
+        "paragraph": "V obytnej zóne, pešej zóne a školskej zóne vodič smie jazdiť rýchlosťou najviac 20 km/h. Pritom je povinný dbať na zvýšenú ohľaduplnosť voči chodcom, ktorých nesmie ohroziť. Ak je to nevyhnutné, vodič je povinný zastaviť vozidlo. V obytnej zóne a pešej zóne je státie vozidiel zakázané, ak dopravnou značkou nie je určené inak. V školskej zóne možno stáť, ak tým nie je obmedzený pohyb chodcov."
       }]
     }]
   }, {
@@ -1387,7 +1394,7 @@ var TheoryList = {
         "id": 2,
         "headline": "Stoj!",
         "image": "img/theory/049_stop.png",
-        "paragraph": "Pri riadení cestnej premávky na križovatke signál s červeným svetlom <i>Stoj!</i> znamená pre vodiča povinnosť zastaviť vozidlo pred priečnou súvislou čiarou (č. V 5a až V 5c), a kde taká čiara nie je, pred svetelným signalizačným zariadením."
+        "paragraph": "Pri riadení cestnej premávky na križovatke signál s červeným svetlom <i>Stoj!</i> znamená pre vodiča povinnosť zastaviť vozidlo pred <i>Priečnou súvislou čiarou</i>, a kde taká čiara nie je, pred svetelným signalizačným zariadením."
       }, {
         "id": 3,
         "headline": "Stoj a priprav sa na jazdu!",
@@ -1397,32 +1404,34 @@ var TheoryList = {
         "id": 4,
         "headline": "Voľno!",
         "image": "img/theory/049_go.png",
-        "paragraph": "Pri riadení cestnej premávky na križovatke signál s plným zeleným svetlom <i>Voľno</i> znamená pre vodiča možnosť pokračovať v jazde, a ak dodrží ustanovenia o odbočovaní a také odbočovanie nie je zakázané dopravnou značkou, možnosť odbočiť vpravo alebo vľavo, vodič je pritom povinný dať prednosť chodcom prechádzajúcim vo voľnom smere po priechode pre chodcov a cyklistom prechádzajúcim vo voľnom smere po priechode pre cyklistov, pritom ich nesmie ohroziť ani obmedziť."
+        "paragraph": "Pri riadení cestnej premávky na križovatke signál s plným zeleným svetlom <i>Voľno!</i> znamená pre vodiča možnosť pokračovať v jazde, a ak dodrží ustanovenia o odbočovaní a také odbočovanie nie je zakázané dopravnou značkou, možnosť odbočiť vpravo alebo vľavo, vodič je pritom povinný dať prednosť chodcom prechádzajúcim vo voľnom smere po priechode pre chodcov a cyklistom prechádzajúcim vo voľnom smere po priechode pre cyklistov, pritom ich nesmie ohroziť ani obmedziť."
       }, {
         "id": 5,
         "headline": "Signál pre opustenie križovatky",
         "image": "img/theory/049_leaveCrossroad.png",
-        "paragraph": "Ak svieti signál pre opustenie križovatky (č. S 4) umiestnený v protiľahlom rohu križovatky, neplatí pre odbočovanie vľavo alebo vpravo <a href='#'>§ 19 ods. 4 zákona</a>."
+        "paragraph": "Ak svieti <i>Signál pre opustenie križovatky</i> umiestnený v protiľahlom rohu križovatky, neplatí pre odbočovanie vľavo alebo vpravo <a href='#'>§ 19 ods. 4 zákona</a>.",
+        "blockquote": "<p><b>§ 19 ods. 4</b><br>Vodič odbočujúci vľavo je povinný dať prednosť v jazde protiidúcim motorovým vozidlám i nemotorovým vozidlám, električkám idúcim v oboch smeroch a chodcom prechádzajúcim cez vozovku. Vodič motorového vozidla i nemotorového vozidla odbočujúci vpravo je povinný dať prednosť v jazde električke, ak je povolená jazda pozdĺž električky vľavo.</p>"
       }, {
         "id": 6,
         "headline": "Pozor!",
         "image": "img/theory/021_beAware.png",
-        "paragraph": "Pri riadení cestnej premávky na križovatke signál s plným žltým svetlom <i>Pozor!</i> znamená pre vodiča povinnosť zastaviť vozidlo pred priečnou súvislou čiarou (č. V 5a až V 5c), a kde taká čiara nie je, pred svetelným signalizačným zariadením; ak je však vozidlo pri rozsvietení tohto signálu už tak blízko, že by vodič nemohol vozidlo bezpečne zastaviť pred priečnou súvislou čiarou (č. V 5a až V 5c), a kde taká čiara nie je, pred svetelným signalizačným zariadením, smie pokračovať v jazde; ak svetlo tohto signálu svieti prerušovane, nejde o križovatku s premávkou riadenou svetelnými signálmi."
+        "paragraph": "Pri riadení cestnej premávky na križovatke signál s plným žltým svetlom <i>Pozor!</i> znamená pre vodiča povinnosť zastaviť vozidlo pred <i>Priečnou súvislou čiarou</i>, a kde taká čiara nie je, pred svetelným signalizačným zariadením; ak je však vozidlo pri rozsvietení tohto signálu už tak blízko, že by vodič nemohol vozidlo bezpečne zastaviť pred <i>Priečnou súvislou čiarou</i>, a kde taká čiara nie je, pred svetelným signalizačným zariadením, smie pokračovať v jazde; ak svetlo tohto signálu svieti prerušovane, nejde o križovatku s premávkou riadenou svetelnými signálmi."
       }, {
         "id": 7,
         "headline": "Smerový signál so zeleným svetlom",
         "image": "img/theory/049_directionSignal.png",
-        "paragraph": "Pri riadení cestnej premávky na križovatke smerový signál so zeleným svetlom (zelená šípka alebo zelené šípky rôznych smerov) znamená pre vodiča možnosť pokračovať v jazde len v smere, ktorým uvedená šípka alebo šípky ukazujú; ak zelená šípka smeruje vľavo alebo vpravo, neplatí pre odbočovanie <a href='#'>§ 19 ods. 4 zákona</a>."
+        "paragraph": "Pri riadení cestnej premávky na križovatke smerový signál so zeleným svetlom (zelená šípka alebo zelené šípky rôznych smerov) znamená pre vodiča možnosť pokračovať v jazde len v smere, ktorým uvedená šípka alebo šípky ukazujú; ak zelená šípka smeruje vľavo alebo vpravo, neplatí pre odbočovanie <a href='#'>§ 19 ods. 4 zákona</a>.",
+        "blockquote": "<p><b>§ 19 ods. 4</b><br>Vodič odbočujúci vľavo je povinný dať prednosť v jazde protiidúcim motorovým vozidlám i nemotorovým vozidlám, električkám idúcim v oboch smeroch a chodcom prechádzajúcim cez vozovku. Vodič motorového vozidla i nemotorového vozidla odbočujúci vpravo je povinný dať prednosť v jazde električke, ak je povolená jazda pozdĺž električky vľavo.</p>"
       }, {
         "id": 8,
         "headline": "Signál so žltým svetlom v tvare chodca",
         "image": "img/theory/049_signalYellowPedestrian.png",
-        "paragraph": "Pri riadení cestnej premávky na križovatke signál so žltým svetlom v tvare chodca (č. S 6a) alebo signál so žltým svetlom v tvare chodca a cyklistu (č. S 6b), ktorým je doplnený smerový signál so zeleným svetlom (zelená šípka smerujúca vpravo alebo vľavo), upozorňuje vodiča, že pri jazde smerom, ktorým táto šípka ukazuje, križuje smer chôdze chodcov prechádzajúcich vo voľnom smere po priechode pre chodcov, prípadne aj smer jazdy cyklistov prechádzajúcich vo voľnom smere po priechode pre cyklistov, ktorým je povinný dať prednosť, pritom ich nesmie ohroziť ani obmedziť; na tento účel je povinný zastaviť vozidlo."
+        "paragraph": "Pri riadení cestnej premávky na križovatke <i>Signál so žltým svetlom v tvare chodca</i> alebo <i>Signál so žltým svetlom v tvare chodca a cyklistu</i>, ktorým je doplnený <i>Smerový signál so zeleným svetlom</i> (zelená šípka smerujúca vpravo alebo vľavo), upozorňuje vodiča, že pri jazde smerom, ktorým táto šípka ukazuje, križuje smer chôdze chodcov prechádzajúcich vo voľnom smere po priechode pre chodcov, prípadne aj smer jazdy cyklistov prechádzajúcich vo voľnom smere po priechode pre cyklistov, ktorým je povinný dať prednosť, pritom ich nesmie ohroziť ani obmedziť; na tento účel je povinný zastaviť vozidlo."
       }, {
         "id": 9,
         "headline": "Doplnkový signál (rôznych smerov) so zeleným svetlom v tvare zelenej šípky",
         "image": "img/theory/049_addedSignal.png",
-        "paragraph": "Pri riadení cestnej premávky na križovatke doplnkový signál (rôznych smerov) so zeleným svetlom v tvare zelenej šípky (č. S 10), ktorým je doplnený signál s plným červeným svetlom <i>Stoj!</i>, svietiaci súčasne s týmto signálom alebo súčasne so signálom s plným žltým svetlom <i>Pozor!</i>, alebo súčasne so svietiacim signálom s plným červeným svetlom <i>Stoj!</i> a signálom s plným žltým svetlom <i>Pozor!</i>, znamená pre vodiča možnosť pokračovať v jazde len v smere, ktorým uvedená šípka alebo šípky ukazujú; pritom vodič je povinný dať prednosť v jazde vozidlám idúcim vo voľnom smere, ako aj prednosť chodcom prechádzajúcim vo voľnom smere po priechode pre chodcov a cyklistom prechádzajúcim vo voľnom smere po priechode pre cyklistov, pritom ich nesmie ohroziť ani obmedziť; na tento účel je povinný zastaviť vozidlo."
+        "paragraph": "Pri riadení cestnej premávky na križovatke <i>Doplnkový signál (rôznych smerov) so zeleným svetlom v tvare zelenej šípky</i>, ktorým je doplnený signál s plným červeným svetlom <i>Stoj!</i>, svietiaci súčasne s týmto signálom alebo súčasne so signálom s plným žltým svetlom <i>Pozor!</i>, alebo súčasne so svietiacim signálom s plným červeným svetlom <i>Stoj!</i> a signálom s plným žltým svetlom <i>Pozor!</i>, znamená pre vodiča možnosť pokračovať v jazde len v smere, ktorým uvedená šípka alebo šípky ukazujú; pritom vodič je povinný dať prednosť v jazde vozidlám idúcim vo voľnom smere, ako aj prednosť chodcom prechádzajúcim vo voľnom smere po priechode pre chodcov a cyklistom prechádzajúcim vo voľnom smere po priechode pre cyklistov, pritom ich nesmie ohroziť ani obmedziť; na tento účel je povinný zastaviť vozidlo."
       }, {
         "id": 10,
         "headline": "Skončenie platnosti signálu so zeleným svetlom",
@@ -1434,15 +1443,15 @@ var TheoryList = {
       }, {
         "id": 12,
         "headline": "Rýchlostný signál s premenným symbolom",
-        "paragraph": "Ak sa používa Rýchlostný signál s premenným symbolom (č. S 13), rozsvietené číslo označuje rýchlosť v km/h, pri ktorej dodržaní dôjde vozidlo k nasledujúcemu svetelnému signalizačnému zariadeniu v čase, keď na ňom svieti signál so zeleným svetlom <i>Voľno</i>. "
+        "paragraph": "Ak sa používa <i>Rýchlostný signál s premenným symbolom</i>, rozsvietené číslo označuje rýchlosť v km/h, pri ktorej dodržaní dôjde vozidlo k nasledujúcemu svetelnému signalizačnému zariadeniu v čase, keď na ňom svieti signál so zeleným svetlom <i>Voľno!</i>. "
       }, {
         "id": 17,
         "headline": "Striedavo prerušované plné červené svetlá",
-        "paragraph": "Signál dvoch vedľa seba umiestnených, striedavo prerušovaných plných červených svetiel znamená pre vodiča povinnosť zastaviť vozidlo pred svetelným signalizačným zariadením."
+        "paragraph": "<i>Signál dvoch vedľa seba umiestnených, striedavo prerušovaných plných červených svetiel</i> znamená pre vodiča povinnosť zastaviť vozidlo pred svetelným signalizačným zariadením."
       }, {
         "id": 19,
         "headline": "Prerušované žlté svetlo",
-        "paragraph": "Prerušované žlté svetlo (č. S 11a až S 11e) použité samostatne alebo v spojení s dopravnou značkou alebo dopravným zariadením upozorňuje na nevyhnutnosť dbať na zvýšenú opatrnosť a zdôrazňuje význam dopravnej značky alebo dopravného zariadenia."
+        "paragraph": "<i>Prerušované žlté svetlo</i> použité samostatne alebo v spojení s dopravnou značkou alebo dopravným zariadením upozorňuje na nevyhnutnosť dbať na zvýšenú opatrnosť a zdôrazňuje význam dopravnej značky alebo dopravného zariadenia."
       }]
     }, {
       "id": 50,
@@ -1452,12 +1461,12 @@ var TheoryList = {
         "id": 1,
         "headline": "Voľno!",
         "image": "img/theory/050_go.png",
-        "paragraph": "Pre chodcov sa používajú svetelné signály dvojfarebnej sústavy, pričom signál pre chodcov so zeleným svetlom <i>Voľno</i> (č. S 5b) znamená, že chodec môže prechádzať cestu vo voľnom smere po priechode pre chodcov; ak počas prechádzania zhasne signál <i>Voľno</i> (č. S 5b) a následne sa rozsvieti signál <i>Stoj!</i> (č. S 5a), smie chodec dokončiť prechádzanie k svetelnému signalizačnému zariadeniu aj na tento svetelný signál."
+        "paragraph": "Pre chodcov sa používajú svetelné signály dvojfarebnej sústavy, pričom signál pre chodcov so zeleným svetlom <i>Voľno!</i> znamená, že chodec môže prechádzať cestu vo voľnom smere po priechode pre chodcov; ak počas prechádzania zhasne signál <i>Voľno!</i> a následne sa rozsvieti signál <i>Stoj!</i>, smie chodec dokončiť prechádzanie k svetelnému signalizačnému zariadeniu aj na tento svetelný signál."
       }, {
         "id": 2,
         "headline": "Stoj!",
         "image": "img/theory/050_stop.png",
-        "paragraph": "Pre chodcov sa používajú svetelné signály dvojfarebnej sústavy, pričom signál pre chodcov s červeným svetlom <i>Stoj!</i> (č. S 5a) znamená, že chodec nesmie vstupovať na cestu."
+        "paragraph": "Pre chodcov sa používajú svetelné signály dvojfarebnej sústavy, pričom signál pre chodcov s červeným svetlom <i>Stoj!</i> znamená, že chodec nesmie vstupovať na cestu."
       }]
     }, {
       "id": 51,
@@ -1475,7 +1484,7 @@ var TheoryList = {
       "content": [{
         "id": 10,
         "headline": "Znamenie na zastavenie vozidla",
-        "paragraph": "Policajt v rovnošate dáva znamenie na zastavenie vozidla zdvihnutím ruky alebo zdvihnutým zastavovacím terčom (č. Z 5a), alebo svietidlom vyžarujúcim svetlo červenej farby, ktorým pohybuje v hornom polkruhu. Z idúceho vozidla môže dávať policajt v rovnošate toto znamenie kývaním ruky zvisle hore a dolu, vysunutým zastavovacím terčom alebo rozsvietením nápisu STOP umiestneného na vozidle. Z idúceho vozidla možno pokyn na zastavenie vozidla zdôrazniť zvláštnym výstražným svetlom, prípadne aj zvláštnym zvukovým znamením podľa § 40 zákona. Pokyn na zastavenie vozidla možno dávať z vozidla idúceho pred zastavovaným vozidlom, ako aj z vozidla idúceho za zastavovaným vozidlom. Pri zastavovaní vozidla idúceho pred vozidlom, z ktorého policajt v rovnošate dáva pokyn na zastavenie vozidla, sa zvláštne výstražné svetlo a zvláštne výstražné zvukové znamenie použije vždy."
+        "paragraph": "Policajt v rovnošate dáva znamenie na zastavenie vozidla zdvihnutím ruky alebo zdvihnutým <i>Zastavovacím terčom</i>, alebo svietidlom vyžarujúcim svetlo červenej farby, ktorým pohybuje v hornom polkruhu. Z idúceho vozidla môže dávať policajt v rovnošate toto znamenie kývaním ruky zvisle hore a dolu, vysunutým zastavovacím terčom alebo rozsvietením nápisu STOP umiestneného na vozidle. Z idúceho vozidla možno pokyn na zastavenie vozidla zdôrazniť zvláštnym výstražným svetlom, prípadne aj zvláštnym zvukovým znamením. Pokyn na zastavenie vozidla možno dávať z vozidla idúceho pred zastavovaným vozidlom, ako aj z vozidla idúceho za zastavovaným vozidlom. Pri zastavovaní vozidla idúceho pred vozidlom, z ktorého policajt v rovnošate dáva pokyn na zastavenie vozidla, sa zvláštne výstražné svetlo a zvláštne výstražné zvukové znamenie použije vždy."
       }]
     }]
   }, {
