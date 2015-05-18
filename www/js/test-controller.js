@@ -71,8 +71,9 @@ angular.module('autoskola')
     }
 
     $scope.next = function() {
-      $scope.view.checked = false;
+      $ionicSlideBoxDelegate.update();
       $scope.view.selectedAnswer = null;
+      $scope.view.checked = false;
       $ionicSlideBoxDelegate.next();
       $ionicSlideBoxDelegate.enableSlide(false);
     }
@@ -154,6 +155,11 @@ angular.module('autoskola')
           text: 'Áno',
           type: 'button-clear button-positive',
           onTap: function(e) {
+            $scope.view = {
+              question: 0,
+              checked: false,
+              selectedAnswer: null
+            };
             if ($state.params.id<36) {
               $state.go('tabs.tests', {});
             } else {
@@ -162,14 +168,7 @@ angular.module('autoskola')
           }
         }]
       });
-      confirmPopup.then(function(res) {
-        if (res) {
-          console.log('You are sure');
-          $state.go('tabs.tests', {});
-        } else {
-          console.log('You are not sure');
-        }
-      });
+
     };
 
   });
