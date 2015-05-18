@@ -64,7 +64,7 @@
 
       <div ng-switch-when="tab-rewards">
         <ion-list type="list list-uneditable list-rewards">
-          <ion-item ng-repeat="reward in rewards" href="" class="item item-thumbnail-left item-uneditable" ng-click="unlockReward(reward)" ng-class="{'unlocked': localDataRewards[reward.id].unlocked, 'locked': !localDataRewards[reward.id].unlocked}">
+          <ion-item ng-repeat="reward in rewards" href="" class="item item-thumbnail-left item-uneditable" ng-class="{'unlocked': localDataRewards[reward.id].unlocked, 'locked': !localDataRewards[reward.id].unlocked}">
             <img ng-if="localDataRewards[reward.id].unlocked" src="{{ reward.image }}" alt="">
             <img ng-if="!localDataRewards[reward.id].unlocked" src="img/rewards/unlocked.png" alt="">
             <div class="item-inner" ng-if="localDataRewards[reward.id].unlocked">

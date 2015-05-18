@@ -1,5 +1,5 @@
 angular.module('autoskola')
-  .controller('OverviewController', function($scope, OverviewService, LawService, NoticeService, SignsService, SituationsService, $ionicModal) {
+  .controller('OverviewController', function($scope, OverviewService, LawService, NoticeService, SignsService, SituationsService, $ionicModal, $ionicScrollDelegate) {
 
     $scope.rewards = [];
     $scope.localDataLaw = [];
@@ -27,6 +27,7 @@ angular.module('autoskola')
 
     $scope.setTab = function(tab) {
     	$scope.tabName = tab;
+      $ionicScrollDelegate.scrollTop([true]);
     };
 
     $scope.unlockReward = function(reward) {

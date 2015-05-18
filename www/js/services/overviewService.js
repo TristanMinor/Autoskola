@@ -21,19 +21,41 @@ angular.module('autoskola')
       localStorage.setItem('rewards', JSON.stringify(localDataRewards));
     }
 
-    loadLocalStorageRewards();
-
-    function countLawPercentage() {
-      var lawQuestionsQty = law.length;
-      var lawQuestionsHiddenQty = 0;
-      var LawPercentage;
-
-      // console.log(localDataLaw);
-      // console.log(lawQuestionsQty);
-      // console.log(lawQuestionsHiddenQty);
+    function unlockRewards() {
+      localDataRewards[1] = {
+        unlocked: true
+      }
+      localDataRewards[3] = {
+        unlocked: true
+      }
+      localDataRewards[5] = {
+        unlocked: true
+      }
+      localDataRewards[6] = {
+        unlocked: true
+      }
+      localDataRewards[8] = {
+        unlocked: true
+      }
+      localDataRewards[11] = {
+        unlocked: true
+      }
+      localDataRewards[13] = {
+        unlocked: true
+      }
+      localDataRewards[14] = {
+        unlocked: true
+      }
+      localDataRewards[15] = {
+        unlocked: true
+      }
+      localDataRewards[16] = {
+        unlocked: true
+      }
     }
 
-    countLawPercentage();
+    loadLocalStorageRewards();
+    unlockRewards();
 
     return {
       get: function() {

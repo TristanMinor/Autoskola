@@ -1,5 +1,5 @@
 angular.module('autoskola')
-  .controller('QuestionsController', function($scope, $state, $ionicModal) {
+  .controller('QuestionsController', function($scope, $state, $ionicModal, $ionicScrollDelegate) {
 
     $scope.tabName = 'tab-law';
     $scope.selectedHiddenQuestionsType = {};
@@ -9,6 +9,7 @@ angular.module('autoskola')
 
     $scope.setTab = function(tab) {
       $scope.tabName = tab;
+      $ionicScrollDelegate.scrollTop([true]);
     };
 
     $scope.goToSearch = function() {
