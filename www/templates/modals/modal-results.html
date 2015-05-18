@@ -5,12 +5,15 @@
   </ion-header-bar>
   <ion-content class="center">
 
-    <img ng-if="!localDataTests[test.id].score" src="img/tests/test_nothing.svg" alt="">
-    <img ng-if="localDataTests[test.id].score<50" src="img/tests/test_didntPass.svg" alt="">
-    <img ng-if="localDataTests[test.id].score>50 && localDataTests[test.id].score!=55" src="img/tests/test_passed.svg" alt="">
-    <img ng-if="localDataTests[test.id].score==55" src="img/tests/test_passed_fullPoints.svg" alt="">
+    <div class="modal-image">
+      <img ng-if="!localDataTests[test.id].score" src="img/tests/test_nothing.png" alt="">
+      <img ng-if="localDataTests[test.id].score<50" src="img/tests/test_didntPass.png" alt="">
+      <img ng-if="localDataTests[test.id].score>50 && localDataTests[test.id].score!=55" src="img/tests/test_passed.png" alt="">
+      <img ng-if="localDataTests[test.id].score==55" src="img/tests/test_passed_fullPoints.png" alt="">
+    </div>
+
     <div class="test-score">
-      <h1 ng-if="localDataTests[test.id].score" class="negative">{{localDataTests[test.id].score}}b</h1>
+      <h1 ng-if="localDataTests[test.id].score" class="negative inmodal">{{localDataTests[test.id].score}}b</h1>
       <h1 ng-if="!localDataTests[test.id].score">0b</h1>
     </div>
 

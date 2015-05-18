@@ -8169,10 +8169,15 @@ ul li {
     color: #c1c4cc; }
     .test-score h1.negative {
       color: #fff; }
+    .test-score h1.inmodal {
+      padding-top: 36px; }
 
 .item.item-test-type .item-note {
   position: absolute;
-  right: 36px; }
+  right: 36px;
+  max-width: 240px;
+  overflow: hidden;
+  text-overflow: ellipsis; }
 .item.item-test-type .icon {
   font-size: 24px;
   line-height: 23px;
