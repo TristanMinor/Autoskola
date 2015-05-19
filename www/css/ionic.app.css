@@ -7973,10 +7973,12 @@ ul li {
   bottom: 70px; }
 
 .tabs-icon-top .tabs .tab-item {
-  padding-top: 10px;
+  padding-top: 8px;
   font-size: 12px;
   max-width: 140px;
   opacity: 1; }
+  .tabs-icon-top .tabs .tab-item .icon {
+    margin-bottom: 3px; }
 
 .list-inset {
   margin: 72px;

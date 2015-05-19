@@ -76,10 +76,12 @@ angular.module('autoskola')
     }
 
     $scope.next = function() {
-      $ionicSlideBoxDelegate.update();
       $scope.view.selectedAnswer = null;
       $scope.view.checked = false;
-      $ionicSlideBoxDelegate.next();
+      $ionicSlideBoxDelegate.update();
+      $timeout(function(){
+        $ionicSlideBoxDelegate.next();
+      }, 500);
     }
     // show modal window with result
     $scope.result = function() {

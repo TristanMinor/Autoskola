@@ -30,10 +30,13 @@
 .tabs-icon-top {
   .tabs {
     .tab-item {
-      padding-top: 10px;
+      padding-top: 8px;
       font-size: 12px;
       max-width: 140px;
       opacity: 1;
+      .icon {
+        margin-bottom: 3px;
+      }
     }
   }
 }
