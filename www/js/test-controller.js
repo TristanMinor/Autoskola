@@ -23,6 +23,8 @@ angular.module('autoskola')
       selectedAnswer: null
     };
 
+    $scope.goodqty = 0;
+
     // fill questions from test with real data
     // from the questions
     $scope.test.questions.forEach(function(question) {
@@ -82,20 +84,39 @@ angular.module('autoskola')
     // show modal window with result
     $scope.result = function() {
       var good = 0;
+      var goodpercent = 0;
       // for each question
-      $scope.questions.forEach(function(question, questionIndex) {
-        // for each answer
-        question.answers.forEach(function(answer, answerIndex) {
-          if (answer.correct && $scope.answers[questionIndex] == answerIndex) {
-            good = good + (1*question.points);
-            // good++;
-            console.log(question.points);
-          }
+      if ($scope.test.id<36) {
+        $scope.questions.forEach(function(question, questionIndex) {
+          // for each answer
+          question.answers.forEach(function(answer, answerIndex) {
+            if (answer.correct && $scope.answers[questionIndex] == answerIndex) {
+              good = good + (1*question.points);
+              $scope.goodqty++;
+              // good++;
+              console.log(question.points);
+            }
+          });
         });
-      });
-      console.log('Good points:', good);
+      } else {
+        $scope.questions.forEach(function(question, questionIndex) {
+          // for each answer
+          question.answers.forEach(function(answer, answerIndex) {
+            if (answer.correct && $scope.answers[questionIndex] == answerIndex) {
+              good++;
+            }
+          });
+        });
+        goodpercent = Math.ceil((100*good)/$scope.questions.length);
+        $scope.goodqty = good;
+      }
+
       testId = $scope.test.id;
-      TestsService.updateTestScore(testId, good);
+      if ($scope.test.id<36) {
+        TestsService.updateTestScore(testId, good);
+      } else {
+        TestsService.updateTestScore(testId, goodpercent);
+      }
       $scope.openModalResults();
     }
 
@@ -110,9 +131,6 @@ angular.module('autoskola')
     $scope.openModalExplaining = function() {
       $scope.modal.show();
       $scope.explainings = $scope.testExplainings[$scope.view.question];
-      console.log($scope.testExplainings);
-      console.log($scope.view.question);
-      console.log($scope.questions[$scope.view.question]);
     };
 
     $scope.closeModal = function() {
@@ -138,6 +156,11 @@ angular.module('autoskola')
       } else {
         $state.go('tabs.questions', {});
       }
+      $scope.view = {
+        question: 0,
+        checked: false,
+        selectedAnswer: null
+      };
     };
 
     $scope.$on('$destroy', function() {

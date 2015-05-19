@@ -76,7 +76,7 @@
           ng-disabled="!view.selectedAnswer && view.selectedAnswer != 0">Skontroluj odpoveď</button>
         <button
           ng-if="view.checked && view.question < (questions.length - 1)"
-          class="button button-block button-balanced"
+          class="button button-block button-positive"
           ng-click="next()">Ďalšia otázka</button>
         <button
           ng-if="view.checked && view.question === (questions.length - 1)"

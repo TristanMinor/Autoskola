@@ -27,7 +27,7 @@ var NoticeList = {
       "text": "sú na tej istej náprave použite rôzne pneumatiky,",
       "correct": true
     }, {
-      "text": "najnižší bod činnej svietiacej plochy obrysových svetiel je vyššie ako 350mm nad rovinou vozovky,",
+      "text": "najnižší bod činnej svietiacej plochy obrysových svetiel je vyššie ako 350 mm nad rovinou vozovky,",
       "correct": false
     }, {
       "text": "diaľkové svetlomety nie je možné prepnúť na obrysové svietidlá.",

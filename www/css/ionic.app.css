@@ -8196,6 +8196,9 @@ ul li {
       color: #fff; }
     .test-score h1.inmodal {
       padding-top: 36px; }
+    .test-score h1.percent {
+      font-size: 40px;
+      padding-top: 42px; }
 
 .item.item-test-type {
   margin-top: -10px;
@@ -8319,6 +8322,9 @@ ul li {
   .active .modal-wrapper .modal.modal-test {
     top: 22%;
     bottom: 22%; }
+  .active .modal-wrapper .modal.modal-results {
+    top: 25%;
+    bottom: 25%; }
   .active .modal-wrapper .modal {
     -webkit-border-radius: 6px;
     border-radius: 6px; }

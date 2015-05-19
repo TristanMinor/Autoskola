@@ -31,6 +31,10 @@
         top:22%;
         bottom:22%;
       }
+      .modal.modal-results {
+        top:25%;
+        bottom:25%;
+      }
       .modal {
         @include border-radius($radius-item);
         .bar-header {
