@@ -8358,12 +8358,20 @@ ul li {
   padding: 0;
   border: none;
   height: 12px;
-  background-color: #EAECF5; }
+  background-color: #EAECF5;
+  border-bottom: 1px solid #DDD; }
   .bar.test-progress .test-progress-bar {
     height: 12px;
     background-color: #4BA7E5;
     -webkit-transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 250ms;
     transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 250ms; }
+
+.item-opened .slider {
+  margin-top: -72px; }
+  .item-opened .slider .test-slide {
+    margin-top: 72px; }
+    .item-opened .slider .test-slide .image-situation {
+      margin-top: -72px; }
 
 .circles {
   margin: 1em auto; }

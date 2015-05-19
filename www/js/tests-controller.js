@@ -1,5 +1,5 @@
 angular.module('autoskola')
-  .controller('TestsController', function($scope, $state, $http, $ionicModal, TestsService) {
+  .controller('TestsController', function($scope, $state, $http, $ionicModal, TestsService, $ionicSlideBoxDelegate) {
 
     $scope.tests = [];
     $scope.selectedTest = {};

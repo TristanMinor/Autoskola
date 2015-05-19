@@ -1,5 +1,5 @@
 angular.module('autoskola')
-  .controller('TestController', function($scope, $state, $ionicSlideBoxDelegate, $ionicModal, $ionicPopup, LawService, NoticeService, SignsService, SituationsService, TheoryService, TestsService) {
+  .controller('TestController', function($scope, $state, $ionicSlideBoxDelegate, $ionicModal, $ionicPopup, LawService, NoticeService, SignsService, SituationsService, TheoryService, TestsService, $timeout) {
 
     $scope.params = $state.params;
     $scope.test = {};
@@ -12,6 +12,10 @@ angular.module('autoskola')
     $scope.optionsModel = ["a", "b", "c"];
     $scope.test = TestsService.getTest($scope.params.id);
     $scope.localDataTests = TestsService.get().localDataTests;
+
+    $timeout(function(){
+      $ionicSlideBoxDelegate.enableSlide(0);
+    },0);
 
     $scope.view = {
       question: 0,
@@ -55,7 +59,6 @@ angular.module('autoskola')
     });
 
     $ionicSlideBoxDelegate.update();
-    $ionicSlideBoxDelegate.enableSlide(false);
 
     $scope.answerSelected = function(answer, answers) {
       if ($scope.view.checked) {
@@ -75,7 +78,6 @@ angular.module('autoskola')
       $scope.view.selectedAnswer = null;
       $scope.view.checked = false;
       $ionicSlideBoxDelegate.next();
-      $ionicSlideBoxDelegate.enableSlide(false);
     }
     // show modal window with result
     $scope.result = function() {

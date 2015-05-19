@@ -4,9 +4,22 @@
   border: none;
   height: $progresbar-height;
   background-color: $stable;
+  border-bottom: 1px solid $line;
   .test-progress-bar {
     height: $progresbar-height;
     background-color: $positive;
     @include transition(all cubic-bezier(0.075, 0.82, 0.165, 1) 250ms);
+  }
+}
+
+.item-opened {
+  .slider {
+    margin-top: -$padding-large;
+    .test-slide {
+      margin-top: $padding-large;
+      .image-situation {
+        margin-top: -$padding-large;
+      }
+    }
   }
 }
